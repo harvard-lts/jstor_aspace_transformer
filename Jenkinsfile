@@ -6,4 +6,4 @@
 //  registryCredentialsId = "${env.REGISTRY_ID}"
 //  registryUri = 'https://registry.lts.harvard.edu'
 def endpoints = []
-huitLtsBasicPipeline.call("jstor-aspace-transformerer", "JSTOR", "jstor", "", endpoints, "lts-jstorforum-alerts")
+huitLtsBasicPipeline.call("jstor-aspace-transformerer", "JSTORFORUM", "jstorforum", "", endpoints, "lts-jstorforum-alerts")
