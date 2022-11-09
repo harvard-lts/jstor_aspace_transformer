@@ -19,7 +19,7 @@ services:
       NEXT_QUEUE_NAME: third_queue
     ports:
       # Worker API
-      - '24007:8081'
+      - '25001:8081'
     networks:
       - jstorforum-net
 
