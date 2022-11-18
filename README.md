@@ -1,6 +1,6 @@
 # jstor_aspace_transformer
 
-### To start component:
+### To start transformer component:
 - clone repository
 - cp .env.example to .env
 - cp celeryconfig.py.example to celeryconfig.py and put in credentials
