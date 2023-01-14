@@ -15,8 +15,8 @@ services:
     env_file:
       - '.env'
     environment:
-      QUEUE_NAME: second_queue
-      NEXT_QUEUE_NAME: third_queue
+      QUEUE_NAME: transform_jstorforum_cg 
+      NEXT_QUEUE_NAME: publish_jstorforum_cg
     ports:
       # Worker API
       - '25001:8081'
