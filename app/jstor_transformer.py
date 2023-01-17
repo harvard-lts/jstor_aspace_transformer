@@ -70,7 +70,7 @@ Update job timestamp file"""
                 f = open("/tmp/JSTORFORUM/transformed/loebmusic/" + filename, "w")
                 f.write(output)
                 f.close()
-                
+            xmlFile.close()                               
         result['success'] = True
         # altered line so we can see request json coming through properly
         result['message'] = 'Job ticket id {} has completed '.format(request_json['job_ticket_id'])

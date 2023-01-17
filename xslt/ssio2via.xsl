@@ -29,10 +29,10 @@
     <xsl:strip-space elements="*"/>
 
     <xsl:variable name="baseurl" as="xs:string">
-        <xsl:value-of select="document('../../conf/harvest.xml')/*/baseurl"/>
+        <xsl:value-of select="document('harvest.xml')/*/baseurl"/>
     </xsl:variable>
     <xsl:variable name="harvestdir" as="xs:string">
-        <xsl:value-of select="document('../../conf/harvest.xml')/*/harvestdir"/>
+        <xsl:value-of select="document('harvest.xml')/*/harvestdir"/>
     </xsl:variable>
 
 
@@ -101,7 +101,7 @@
                         <xsl:element name="viaRecord">
                             <xsl:attribute name="originalAtHarvard">
                                 <xsl:variable name="originalAtHarvard"
-                                    select="document('../../conf/originalAtHarvard.xml')"/>
+                                    select="document('originalAtHarvard.xml')"/>
                                 <xsl:choose>
                                     <xsl:when
                                         test="$originalAtHarvard/ids/id = ssw:Work/Locations/Repository/@id">
@@ -155,7 +155,7 @@
                                 <xsl:variable name="originalAtHarvard"
                                     select="document($originalAtHarvardFilename)"/>-->
                                 <xsl:variable name="originalAtHarvard"
-                                    select="document('../../conf/originalAtHarvard.xml')"/>
+                                    select="document('originalAtHarvard.xml')"/>
                                 <xsl:choose>
                                     <xsl:when
                                         test="$originalAtHarvard/ids/id = ssw:Work/Locations/Repository/@id">
