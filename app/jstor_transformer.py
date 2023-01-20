@@ -1,10 +1,11 @@
 import sys, os, os.path, json, requests, traceback, time
+import subprocess
 from tenacity import retry, retry_if_result, wait_random_exponential, retry_if_not_exception_type
 from datetime import datetime
 from flask import Flask, request, jsonify, current_app, make_response
 from random import randint
 from time import sleep
-from  saxonpy  import PySaxonProcessor
+#from  saxonpy  import PySaxonProcessor
 
 class JstorTransformer():
     def __init__(self):
@@ -39,34 +40,15 @@ Update job timestamp file"""
           'error': None,
           'message': ''
         }
-
         #Get the job ticket which should be the parent ticket
         current_app.logger.error("**************JStor Transformer: Do Task**************")
         current_app.logger.error("WORKER NUMBER " + str(os.getenv('CONTAINER_NUMBER')))
 
         #xmlFile = open(file="/tmp/JSTORFORUM/harvested/loebmusic/8000188508.xml", encoding="utf-8")
-        xsltFile = open(file="xslt/ssio2via.xsl", encoding="utf-8")
+        xsltFile = "xslt/ssio2via.xsl"
         directory = "/tmp/JSTORFORUM/harvested/loebmusic"
-        for filename in os.listdir(directory):
-            current_app.logger.info("filename")
-            current_app.logger.info(filename)
-            #_f = os.path.join(directory, filename)
-            xmlFile = open(file=directory + "/" + filename, encoding="utf-8") #open(file=_f, encoding="utf-8")
-            current_app.logger.info("1")
-            #self.do_transform(directory + "/" + filename)
-            with PySaxonProcessor(license=False) as proc:
-                current_app.logger.info("2")
-                xsltProc = proc.new_xslt_processor()
-                document = proc.parse_xml(xml_text=xmlFile.read())
-                xsltProc.set_source(xdm_node=document)
-                xsltProc.compile_stylesheet(stylesheet_text=xsltFile.read())
-                xsltProc.set_jit_compilation(True)
-                xsltProc.transform_to_file()
-                output = xsltProc.transform_to_string()
-                f = open("/tmp/JSTORFORUM/transformed/loebmusic/" + filename, "w")
-                f.write(output)
-                f.close()
-            xmlFile.close()                               
+        current_app.logger.info("call saxon")    
+        subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:/tmp/JSTORFORUM/output.xml", "-s:8000188494.xml", "-xsl:xslt/ssio2via.xsl"])                               
         result['success'] = True
         # altered line so we can see request json coming through properly
         result['message'] = 'Job ticket id {} has completed '.format(request_json['job_ticket_id'])
