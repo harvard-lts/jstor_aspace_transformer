@@ -44,11 +44,10 @@ Update job timestamp file"""
         current_app.logger.error("**************JStor Transformer: Do Task**************")
         current_app.logger.error("WORKER NUMBER " + str(os.getenv('CONTAINER_NUMBER')))
 
-        #xmlFile = open(file="/tmp/JSTORFORUM/harvested/loebmusic/8000188508.xml", encoding="utf-8")
-        xsltFile = "xslt/ssio2via.xsl"
-        directory = "/tmp/JSTORFORUM/harvested/loebmusic"
-        current_app.logger.info("call saxon")    
-        subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:/tmp/JSTORFORUM/output.xml", "-s:8000188494.xml", "-xsl:xslt/ssio2via.xsl"])                               
+        harvestdir = "/tmp/JSTORFORUM/harvested/loebmusic"
+        transformdir = "/tmp/JSTORFORUM/transformed/loebmusic"
+        for filename in os.listdir(harvestdir):
+            subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" + transformdir + "/" + filename, "-s:" + harvestdir + "/" + filename, "-xsl:xslt/ssio2via.xsl"])                               
         result['success'] = True
         # altered line so we can see request json coming through properly
         result['message'] = 'Job ticket id {} has completed '.format(request_json['job_ticket_id'])
