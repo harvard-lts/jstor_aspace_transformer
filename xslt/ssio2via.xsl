@@ -43,6 +43,7 @@
     <xsl:template match="ssio:SharedShelf">
         <xsl:variable name="displaycount">
             <xsl:value-of select="count(//display:DR)"/>
+
         </xsl:variable>
         <xsl:variable name="deletecount">
             <xsl:value-of select="count(//display:DR[@status_lkup = 'Deleted'])"/>
@@ -262,6 +263,6 @@
     <xsl:template match="oai:header"/>
 
     <!-- all template matches are now included from the xsl below -->
-    <xsl:include href="xslt/ssio2viaTemplates.xsl"/>
+    <xsl:include href="ssio2viaTemplates.xsl"/>
 
 </xsl:stylesheet>
