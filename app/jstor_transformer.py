@@ -4,7 +4,11 @@ from datetime import datetime
 from flask import Flask, request, jsonify, current_app, make_response
 from random import randint
 from time import sleep
+<<<<<<< HEAD
 from pymongo import MongoClient
+=======
+from  saxonpy  import PySaxonProcessor
+>>>>>>> 02fb918 (add xsl files, prototype the ssio2via transform)
 
 class JstorTransformer():
     def __init__(self):
@@ -43,6 +47,19 @@ Update job timestamp file"""
         #Get the job ticket which should be the parent ticket
         current_app.logger.error("**************JStor Transformer: Do Task**************")
         current_app.logger.error("WORKER NUMBER " + str(os.getenv('CONTAINER_NUMBER')))
+
+        xmlFile = open(file="/tmp/JSTORFORUM/harvested/loebmusic/8000188508.xml", encoding="utf-8")
+        xsltFile = open(file="xslt/ssio2via.xsl", encoding="utf-8")
+        with PySaxonProcessor(license=False) as  proc:
+            xsltProc = proc.new_xslt_processor()
+            document = proc.parse_xml(xml_text=xmlFile.read())
+            xsltProc.set_source(xdm_node=document)
+            xsltProc.compile_stylesheet(stylesheet_text=xsltFile.read())
+            xsltProc.set_jit_compilation(True)
+            output = xsltProc.transform_to_string()
+            f = open("/tmp/JSTORFORUM/transformed/loebmusic/8000188508.xml", "w")
+            f.write(output)
+            f.close()
 
         result['success'] = True
         # altered line so we can see request json coming through properly
