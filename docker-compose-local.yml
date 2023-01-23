@@ -17,8 +17,8 @@ services:
       - '.env'
     environment:
 
-      QUEUE_NAME: transform_jstorforum_itest
-      NEXT_QUEUE_NAME: publish_jstorforum_itest
+      QUEUE_NAME: proto_transform
+      NEXT_QUEUE_NAME: proto_publisher
 
     ports:
       # Worker API
