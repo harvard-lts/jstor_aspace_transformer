@@ -43,14 +43,6 @@ class JstorTransformer():
         current_app.logger.error("**************JStor Transformer: Do Task**************")
         current_app.logger.error("WORKER NUMBER " + str(os.getenv('CONTAINER_NUMBER')))
 
-        harvestdir = "/tmp/JSTORFORUM/harvested/loebmusic"
-        transformdir = "/tmp/JSTORFORUM/transformed/loebmusic"
-        for filename in os.listdir(harvestdir):
-            subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" + transformdir + "/" + filename, "-s:" + harvestdir + "/" + filename, "-xsl:xslt/ssio2via.xsl"])                               
-        result['success'] = True
-        # altered line so we can see request json coming through properly
-        result['message'] = 'Job ticket id {} has completed '.format(request_json['job_ticket_id'])
-
         sleep_s = int(os.getenv("TASK_SLEEP_S", 1))
 
         current_app.logger.info("Sleep " + str(sleep_s) + "seconds")
@@ -58,6 +50,17 @@ class JstorTransformer():
 
         #dump json
         current_app.logger.info("json message: " + json.dumps(request_json))
+        jstorforum = False
+        if 'jstorforum' in request_json:
+            jstorforum = request_json['jstorforum']
+        if jstorforum:
+            harvestdir = "/tmp/JSTORFORUM/harvested/loebmusic"
+            transformdir = "/tmp/JSTORFORUM/transformed/loebmusic"
+            for filename in os.listdir(harvestdir):
+                subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" + transformdir + "/" + filename, "-s:" + harvestdir + "/" + filename, "-xsl:xslt/ssio2via.xsl"])                               
+            result['success'] = True
+            # altered line so we can see request json coming through properly
+            result['message'] = 'Job ticket id {} has completed '.format(request_json['job_ticket_id'])
 
         #integration test: write small record to mongo to prove connectivity
         integration_test = False
