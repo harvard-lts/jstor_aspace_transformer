@@ -83,26 +83,5 @@ class JstorTransformer():
         
         return result
 
-    def do_transform(filename):
-        xsltFile = open(file="xslt/ssio2via.xsl", encoding="utf-8")
-        xmlFile = open(file=filename, encoding="utf-8")
-        with PySaxonProcessor(license=False) as proc:
-            current_app.logger.info("2")
-            '''
-            xsltProc = proc.new_xslt30_processor()
-            xsltProc.set_cwd(".") 
-            xsltProc.transform_to_file(source_file=directory + "/" + filename ,stylesheet_file="xslt/ssio2via.xsl", output_file="/tmp/JSTORFORUM/transformed/loebmusic/test" + filename)
-            '''
-            xsltProc = proc.new_xslt_processor()
-            document = proc.parse_xml(xml_text=xmlFile.read())
-            xsltProc.set_source(xdm_node=document)
-            xsltProc.compile_stylesheet(stylesheet_text=xsltFile.read())
-            xsltProc.set_jit_compilation(True)
-            xsltProc.transform_to_file()
-            output = xsltProc.transform_to_string()
-            f = open("/tmp/JSTORFORUM/transformed/loebmusic/" + filename, "w")
-            f.write(output)
-            f.close()
-
     def revert_task(self, job_ticket_id, task_name):
         return True
