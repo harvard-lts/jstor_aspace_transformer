@@ -40,8 +40,8 @@ class JstorTransformer():
           'message': ''
         }
         #Get the job ticket which should be the parent ticket
-        current_app.logger.error("**************JStor Transformer: Do Task**************")
-        current_app.logger.error("WORKER NUMBER " + str(os.getenv('CONTAINER_NUMBER')))
+        current_app.logger.info("**************JStor Transformer: Do Task**************")
+        current_app.logger.info("WORKER NUMBER " + str(os.getenv('CONTAINER_NUMBER')))
 
         sleep_s = int(os.getenv("TASK_SLEEP_S", 1))
 
@@ -52,6 +52,7 @@ class JstorTransformer():
         current_app.logger.info("json message: " + json.dumps(request_json))
         jstorforum = False
         if 'jstorforum' in request_json:
+            current_app.logger.info("running jstorforum transform")
             jstorforum = request_json['jstorforum']
         if jstorforum:
             harvestdir = "/tmp/JSTORFORUM/harvested/loebmusic"
