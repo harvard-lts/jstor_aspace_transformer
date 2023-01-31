@@ -6,6 +6,7 @@ from flask import Flask, request, jsonify, current_app, make_response
 from random import randint
 from time import sleep
 from pymongo import MongoClient
+import fnmatch
 
 class JstorTransformer():
     def __init__(self):
@@ -30,9 +31,6 @@ class JstorTransformer():
         return result
 
     def do_task(self, request_json):
-        """Get job tracker file
-            Append job ticket id to jobs in process list in the tracker file
-            Update job timestamp file"""
 
         result = {
           'success': False,
@@ -55,13 +53,23 @@ class JstorTransformer():
             current_app.logger.info("running jstorforum transform")
             jstorforum = request_json['jstorforum']
         if jstorforum:
-            harvestdir = "/tmp/JSTORFORUM/harvested/loebmusic"
-            transformdir = "/tmp/JSTORFORUM/transformed/loebmusic"
-            for filename in os.listdir(harvestdir):
-                subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" + transformdir + "/" + filename, "-s:" + harvestdir + "/" + filename, "-xsl:xslt/ssio2via.xsl"])                               
-            result['success'] = True
-            # altered line so we can see request json coming through properly
-            result['message'] = 'Job ticket id {} has completed '.format(request_json['job_ticket_id'])
+            with open('harvestjobs.json') as f:
+                harvjobsjson = f.read()
+            harvestconfig = json.loads(harvjobsjson)
+            #current_app.logger.debug("harvestconfig")        
+            #current_app.logger.debug(harvestconfig) 
+            harvestDir = os.getenv("jstor_harvest_dir")        
+            transformDir = os.getenv("jstor_transform_dir")
+            for job in harvestconfig:     
+                if job["jobName"] == "jstorforum":   
+                    for set in job["harvests"]["sets"]:
+                        setSpec = "{}".format(set["setSpec"])
+                        opDir = set["opDir"]
+                        if os.path.exists(harvestDir + opDir):
+                            if len(fnmatch.filter(os.listdir(harvestDir + opDir), '*.xml')) > 0:
+                                current_app.logger.info("Transforming set:" + setSpec)
+                                for filename in os.listdir(harvestDir + opDir):
+                                    subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" + transformDir + opDir + "/" + filename, "-s:" + harvestDir + opDir + "/" + filename, "-xsl:xslt/ssio2via.xsl"])                               
 
         #integration test: write small record to mongo to prove connectivity
         integration_test = False
@@ -85,6 +93,10 @@ class JstorTransformer():
             except Exception as err:
                 current_app.logger.error("Error: unable to connect to mongodb, {}", err)
         
+        result['success'] = True
+        # altered line so we can see request json coming through properly
+        result['message'] = 'Job ticket id {} has completed '.format(request_json['job_ticket_id'])
+
         return result
 
     def revert_task(self, job_ticket_id, task_name):
