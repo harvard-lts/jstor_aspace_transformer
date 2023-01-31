@@ -56,8 +56,8 @@ class JstorTransformer():
             with open('harvestjobs.json') as f:
                 harvjobsjson = f.read()
             harvestconfig = json.loads(harvjobsjson)
-            current_app.logger.debug("harvestconfig")        
-            current_app.logger.debug(harvestconfig) 
+            #current_app.logger.debug("harvestconfig")        
+            #current_app.logger.debug(harvestconfig) 
             harvestDir = os.getenv("jstor_harvest_dir")        
             transformDir = os.getenv("jstor_transform_dir")
             for job in harvestconfig:     
