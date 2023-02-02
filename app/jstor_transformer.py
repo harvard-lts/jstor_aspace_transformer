@@ -91,7 +91,7 @@ class JstorTransformer():
         else:
             configfile = "harvestjobs.json"
         current_app.logger.info("configfile: " + configfile)
-        with open('harvestjobs.json') as f:
+        with open(configfile) as f:
             harvjobsjson = f.read()
         harvestconfig = json.loads(harvjobsjson)
         #current_app.logger.debug("harvestconfig")        
