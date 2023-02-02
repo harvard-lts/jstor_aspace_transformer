@@ -53,23 +53,7 @@ class JstorTransformer():
             current_app.logger.info("running jstorforum transform")
             jstorforum = request_json['jstorforum']
         if jstorforum:
-            with open('harvestjobs.json') as f:
-                harvjobsjson = f.read()
-            harvestconfig = json.loads(harvjobsjson)
-            #current_app.logger.debug("harvestconfig")        
-            #current_app.logger.debug(harvestconfig) 
-            harvestDir = os.getenv("jstor_harvest_dir")        
-            transformDir = os.getenv("jstor_transform_dir")
-            for job in harvestconfig:     
-                if job["jobName"] == "jstorforum":   
-                    for set in job["harvests"]["sets"]:
-                        setSpec = "{}".format(set["setSpec"])
-                        opDir = set["opDir"]
-                        if os.path.exists(harvestDir + opDir):
-                            if len(fnmatch.filter(os.listdir(harvestDir + opDir), '*.xml')) > 0:
-                                current_app.logger.info("Transforming set:" + setSpec)
-                                for filename in os.listdir(harvestDir + opDir):
-                                    subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" + transformDir + opDir + "/" + filename, "-s:" + harvestDir + opDir + "/" + filename, "-xsl:xslt/ssio2via.xsl"])                               
+            self.do_transform()
 
         #integration test: write small record to mongo to prove connectivity
         integration_test = False
@@ -77,6 +61,8 @@ class JstorTransformer():
             integration_test = request_json['integration_test']
         if (integration_test):
             current_app.logger.info("running integration test")
+            #do a transform using the test config file
+            self.do_transform(True)
             try:
                 mongo_url = os.environ.get('MONGO_URL')
                 mongo_dbname = os.environ.get('MONGO_DBNAME')
@@ -98,6 +84,31 @@ class JstorTransformer():
         result['message'] = 'Job ticket id {} has completed '.format(request_json['job_ticket_id'])
 
         return result
+
+    def do_transform(self, itest=False):
+        if itest:
+            configfile = "harvestjobs_test.json"
+        else:
+            configfile = "harvestjobs.json"
+        current_app.logger.info("configfile: " + configfile)
+        with open('harvestjobs.json') as f:
+            harvjobsjson = f.read()
+        harvestconfig = json.loads(harvjobsjson)
+        #current_app.logger.debug("harvestconfig")        
+        #current_app.logger.debug(harvestconfig) 
+        harvestDir = os.getenv("jstor_harvest_dir")        
+        transformDir = os.getenv("jstor_transform_dir")
+        for job in harvestconfig:     
+            if job["jobName"] == "jstorforum":   
+                for set in job["harvests"]["sets"]:
+                    setSpec = "{}".format(set["setSpec"])
+                    opDir = set["opDir"]
+                    if os.path.exists(harvestDir + opDir):
+                        if len(fnmatch.filter(os.listdir(harvestDir + opDir), '*.xml')) > 0:
+                            current_app.logger.info("Transforming set:" + setSpec)
+                            for filename in os.listdir(harvestDir + opDir):
+                                subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" + transformDir + opDir + "/" + filename, "-s:" + harvestDir + opDir + "/" + filename, "-xsl:xslt/ssio2via.xsl"])                               
+
 
     def revert_task(self, job_ticket_id, task_name):
         return True
