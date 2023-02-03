@@ -111,12 +111,15 @@ class JstorTransformer():
                     opDir = set["opDir"]
                     if os.path.exists(harvestDir + opDir):
                         if len(fnmatch.filter(os.listdir(harvestDir + opDir), '*.xml')) > 0:
-                            current_app.logger.info("Transforming set:" + setSpec)
                             for filename in os.listdir(harvestDir + opDir):
-                                subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" + transformDir + opDir + "/" + filename, "-s:" + harvestDir + opDir + "/" + filename, "-xsl:xslt/ssio2via.xsl"])                               
+                                #subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" + transformDir + opDir + "/" + filename, "-s:" + harvestDir + opDir + "/" + filename, "-xsl:xslt/ssio2via.xsl"])
+                                subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" + transformDir + opDir + "_stripwrapper/" + filename, "-s:" + harvestDir + opDir + "/" + filename, "-xsl:xslt/strip_oai_ssio.xsl"])
+                                subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" + transformDir + opDir + "/" + filename, "-s:" + transformDir + opDir + "_stripwrapper/" + filename, "-xsl:xslt/ssio2via.xsl"])                               
+                                subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" + transformDir + opDir + "_hollis/" + filename, "-s:" + transformDir + opDir + "/" + filename, "-xsl:xslt/via2hollis.xsl"])                               
+
             if jobname == 'aspace' and jobname == job["jobName"]:    
                 for filename in os.listdir(harvestDir + 'aspace'):
-                    subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" + transformDir + "aspace_stripwrapper/" + filename, "-s:" + harvestDir + "aspace/" + filename, "-xsl:xslt/strip_oai.xsl"])                               
+                    subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" + transformDir + "aspace_stripwrapper/" + filename, "-s:" + harvestDir + "aspace/" + filename, "-xsl:xslt/strip_oai_aspace.xsl"])                               
                     subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" + transformDir + "aspace_valid/" + filename, "-s:" + transformDir + "aspace_stripwrapper/" + filename, "-xsl:xslt/aspace2valid.xsl"])                               
                     subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" + transformDir + "aspace_harvard/" + filename, "-s:" + transformDir + "aspace_valid/" + filename, "-xsl:xslt/aspace2oasis.xsl"])                               
                     subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" + transformDir + "aspace_hollis_part1/" + filename, "-s:" + transformDir + "aspace_harvard/" + filename, "-xsl:xslt/ead2hollis_part1.xsl"])  
