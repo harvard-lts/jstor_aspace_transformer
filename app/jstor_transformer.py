@@ -113,8 +113,8 @@ class JstorTransformer():
                         if len(fnmatch.filter(os.listdir(harvestDir + opDir), '*.xml')) > 0:
                             for filename in os.listdir(harvestDir + opDir):
                                 #subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" + transformDir + opDir + "/" + filename, "-s:" + harvestDir + opDir + "/" + filename, "-xsl:xslt/ssio2via.xsl"])
-                                subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" + transformDir + opDir + "_stripwrapper/" + filename, "-s:" + harvestDir + opDir + "/" + filename, "-xsl:xslt/strip_oai_ssio.xsl"])
-                                subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" + transformDir + opDir + "/" + filename, "-s:" + transformDir + opDir + "_stripwrapper/" + filename, "-xsl:xslt/ssio2via.xsl"])                               
+                                subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" + harvestDir + opDir + "/" + filename, "-s:" + harvestDir + opDir + "/oaiwrapped/" + filename, "-xsl:xslt/strip_oai_ssio.xsl"])
+                                subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" + transformDir + opDir + "/" + filename, "-s:" + harvestDir + opDir + "/" + filename, "-xsl:xslt/ssio2via.xsl"])                               
                                 subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" + transformDir + opDir + "_hollis/" + filename, "-s:" + transformDir + opDir + "/" + filename, "-xsl:xslt/via2hollis.xsl"])                               
 
             if jobname == 'aspace' and jobname == job["jobName"]:    
