@@ -1,0 +1,115 @@
+<publishers>
+    <map>
+        <reposcode>sch</reposcode>
+        <publisher>Radcliffe Institute for Advanced Study, Harvard University</publisher>
+    </map>
+    <map>
+        <reposcode>env</reposcode>
+        <publisher/>
+    </map>
+    <map>
+        <reposcode>arn</reposcode>
+        <publisher/>
+    </map>
+    <map>
+        <reposcode>far</reposcode>
+        <publisher/>
+    </map>
+    <map>
+        <reposcode>gra</reposcode>
+        <publisher/>
+    </map>
+    <map>
+        <reposcode>ber</reposcode>
+        <publisher/>
+    </map>
+    <map>
+        <reposcode>dca</reposcode>
+        <publisher/>
+    </map>
+    <map>
+        <reposcode>ajp</reposcode>
+        <publisher>The Arnold Arboretum of Harvard University</publisher>
+    </map>
+    <map>
+        <reposcode>med</reposcode>
+        <publisher/>
+    </map>
+    <map>
+        <reposcode>pea</reposcode>
+        <publisher>Harvard University</publisher>
+    </map>
+    <map>
+        <reposcode>mus</reposcode>
+        <publisher>Harvard University, Cambridge MA 02138</publisher>
+    </map>
+    <map>
+        <reposcode>law</reposcode>
+        <publisher>Harvard Law School</publisher>
+    </map>
+    <map>
+        <reposcode>hua</reposcode>
+        <publisher>Harvard University</publisher>
+    </map>
+    <map>
+        <reposcode>hfa</reposcode>
+        <publisher/>
+    </map>
+    <map>
+        <reposcode>art</reposcode>
+        <publisher>The President and Fellows of Harvard College</publisher>
+    </map>
+    <map>
+        <reposcode>div</reposcode>
+        <publisher/>
+    </map>
+    <map>
+        <reposcode>fal</reposcode>
+        <publisher>Harvard University, Cambridge, MA 02138</publisher>
+    </map>
+    <map>
+        <reposcode>hfa</reposcode>
+        <publisher>Harvard University, Cambridge, MA 02138</publisher>
+    </map>
+    <map>
+        <reposcode>fun</reposcode>
+        <publisher/>
+    </map>
+    <map>
+        <reposcode>bak</reposcode>
+        <publisher>Harvard Business School, Boston MA 02163.</publisher>
+    </map>
+    <map>
+        <reposcode>hou</reposcode>
+        <publisher>Harvard University, Cambridge, Massachusetts 02138 USA</publisher>
+    </map>
+    <map>
+        <reposcode>toz</reposcode>
+        <publisher>Harvard University, Cambridge, Massachusetts 02138 USA</publisher>
+    </map>
+    <map>
+        <reposcode>trc</reposcode>
+        <publisher>Harvard University, Cambridge, Massachusetts 02138 USA</publisher>
+    </map>
+    <map>
+        <reposcode>uri</reposcode>
+        <publisher>Harvard University</publisher>
+    </map>
+    <map>
+        <reposcode>hyl</reposcode>
+        <publisher/>
+    </map>
+    <map>
+        <reposcode>des</reposcode>
+        <publisher>Special Collections, Frances Loeb Library, Graduate School of Design, Harvard
+            University</publisher>
+    </map>
+    <map>
+        <reposcode>wid</reposcode>
+        <publisher/>
+    </map>
+    <map>
+        <reposcode>mcz</reposcode>
+        <publisher>Harvard University, Cambridge, Massachusetts 02138 USA</publisher>
+    </map>
+</publishers>
