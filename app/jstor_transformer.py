@@ -70,6 +70,7 @@ class JstorTransformer():
             current_app.logger.info("running integration test")
             #do a transform using the test config file
             self.do_transform('jstorforum', True)
+            self.do_transform('aspace',True)
             try:
                 mongo_url = os.environ.get('MONGO_URL')
                 mongo_dbname = os.environ.get('MONGO_DBNAME')
@@ -109,11 +110,11 @@ class JstorTransformer():
             if jobname == 'jstorforum' and jobname == job["jobName"]:   
                 for set in job["harvests"]["sets"]:
                     opDir = set["opDir"]
-                    if os.path.exists(harvestDir + opDir):
-                        if len(fnmatch.filter(os.listdir(harvestDir + opDir), '*.xml')) > 0:
-                            for filename in os.listdir(harvestDir + opDir):
+                    if os.path.exists(harvestDir + opDir + "_oaiwrapped"):
+                        if len(fnmatch.filter(os.listdir(harvestDir + opDir + "_oaiwrapped"), '*.xml')) > 0:
+                            for filename in os.listdir(harvestDir + opDir + "_oaiwrapped"):
                                 #subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" + transformDir + opDir + "/" + filename, "-s:" + harvestDir + opDir + "/" + filename, "-xsl:xslt/ssio2via.xsl"])
-                                subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" + harvestDir + opDir + "/" + filename, "-s:" + harvestDir + opDir + "/oaiwrapped/" + filename, "-xsl:xslt/strip_oai_ssio.xsl"])
+                                subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" + harvestDir + opDir + "/" + filename, "-s:" + harvestDir + opDir + "_oaiwrapped/" + filename, "-xsl:xslt/strip_oai_ssio.xsl"])
                                 subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" + transformDir + opDir + "/" + filename, "-s:" + harvestDir + opDir + "/" + filename, "-xsl:xslt/ssio2via.xsl"])                               
                                 subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" + transformDir + opDir + "_hollis/" + filename, "-s:" + transformDir + opDir + "/" + filename, "-xsl:xslt/via2hollis.xsl"])                               
 
