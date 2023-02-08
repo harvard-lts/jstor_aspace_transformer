@@ -259,7 +259,6 @@
     </xsl:template>
 
     <xsl:template match="field_string[@label = 'Image Start Year']">
-        <XXX/>
         <xsl:element name="structuredDate">
             <xsl:element name="beginDate">
                 <xsl:value-of select="@value"/>
