@@ -1,0 +1,2931 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<SharedShelf xmlns:display="http://catalog.sharedshelf.artstor.org/display"
+  xmlns:ssc="http://catalog.sharedshelf.artstor.org/ssc"
+  xmlns:ssd="http://catalog.sharedshelf.artstor.org/ssd"
+  xmlns:ssn="http://catalog.sharedshelf.artstor.org/ssn"
+  xmlns:ssw="http://catalog.sharedshelf.artstor.org/ssw"
+  xmlns:ssw_lkup="http://catalog.sharedshelf.artstor.org/ssw_lkup"
+  xmlns:tgn="http://catalog.sharedshelf.artstor.org/tgn"
+  xmlns:aat="http://catalog.sharedshelf.artstor.org/aat"
+  xmlns:mfcl="http://catalog.sharedshelf.artstor.org/mfcl"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="http://catalog.sharedshelf.artstor.org"
+  xsi:schemaLocation="http://catalog.sharedshelf.artstor.org http://catalog.sharedshelf.artstor.org/service/schema/SharedShelf_IO.xsd">
+  <ssw:Work lastUpdateDate="2020/05/14 20:42:04" id="8000897470" type="1" refid="8000897470"
+    contributor="Harvard" instituteId="10003" uri="http://forum.jstor.org/oai/ssw/8000897470">
+    <Titles xmlns="" tempered="true">
+      <Display>Head of a Man in Renaissance Costume</Display>
+      <Title pref="true" term="Head of a Man in Renaissance Costume" sortOrder="1"/>
+    </Titles>
+    <Measurements xmlns="" tempered="true">
+      <Display>20.8 x 16 cm</Display>
+      <Measurement pref="true">
+        <ssw:Measure>
+          <Term>20.8 x 16 cm</Term>
+        </ssw:Measure>
+      </Measurement>
+    </Measurements>
+    <Subjects xmlns="" tempered="true">
+      <Display>portraits; hats; centaurs</Display>
+      <Subject pref="true" id="300015637" vocab="AAT" term="portraits"
+        uri="http://forum.jstor.org/oai/AAT/300015637"/>
+      <Subject pref="false" id="300046106" vocab="AAT" term="hats"
+        uri="http://forum.jstor.org/oai/AAT/300046106"/>
+      <Subject pref="false" id="300379740" vocab="AAT" term="centaurs"
+        uri="http://forum.jstor.org/oai/AAT/300379740"/>
+    </Subjects>
+    <Cultures xmlns="" tempered="true">
+      <Display>Italian</Display>
+      <Culture pref="true" id="11281509" vocab="MFCL" term="Italian"
+        uri="http://forum.jstor.org/oai/MFCL/11281509"/>
+    </Cultures>
+    <Dates xmlns="">
+      <Date type_lkup="workDate"/>
+    </Dates>
+    <Locations xmlns="" tempered="true">
+      <Display>Berenson Art Collection, I Tatti - The Harvard University Center for Italian Renaissance Studies,  Florence, Firenze, Tuscany, Italy (repository)</Display>
+      <DisplayLocation
+        term="Berenson Art Collection, Villa I Tatti - The Harvard University Center for Italian Renaissance Studies, Florence, Firenze, Tuscany, Italy"
+        type_lkup="repository" type_lkup_id="11315199"/>
+      <Repository id="9000417970" vocab="SSN" contributor="Harvard|Provisional" pref="true"
+        term="Berenson Art Collection, I Tatti - The Harvard University Center for Italian Renaissance Studies"
+        type_lkup="repository" uri="http://forum.jstor.org/oai/SSN/9000417970">
+        <location id="7000457" term=" Florence, Firenze, Tuscany, Italy"/>
+        <ssw:GeoLocation latitude="43.766666" longitude="11.25"/>
+      </Repository>
+    </Locations>
+    <Agents xmlns="" tempered="false">
+      <Display>unknown European artist</Display>
+      <Agent pref="true" id="500125244" vocab="SSN" contributor="ULAN|Complete"
+        term="unknown European" role_lkup="artist" role_lkup_id="11310453"
+        uri="http://forum.jstor.org/oai/SSN/500125244"/>
+    </Agents>
+    <Inscriptions xmlns="" tempered="true">
+      <Display>on the stretcher: 85 (in ink); ZA WA (in pencil); BB P98 (in red paint)</Display>
+      <Inscription pref="true">
+        <ssw:Inscribe term="on the stretcher: 85 (in ink); ZA WA (in pencil); BB P98 (in red paint)"
+        />
+      </Inscription>
+    </Inscriptions>
+    <Notes xmlns="">
+      <Note pref="true" term="Oil on paper mounted on canvas," type_lkup="materials and techniques"
+        type_lkup_id="11309116"/>
+      <Note pref="false"
+        term="source: The Bernard and Mary Berenson Collection of European Paintings at I Tatti, edited by Carl Brandon Strehlke and Machtelt Brüggen Israëls (Florence: Villa I Tatti in collaboration with Officina Libraria, 2015), Pl. 107;&#10;Other attribution: described by Mary Berenson in 1915 insurance list as Fiorenzo di Lorenzo and insured for £20."
+        type_lkup="attribution" type_lkup_id="11309118"/>
+      <Note pref="false" term="unknown; Bernard and Mary Berenson, Florence, by 1915"
+        type_lkup="provenance" type_lkup_id="11309117"/>
+      <Note pref="false" term="old inventory # BB P98" type_lkup="General" type_lkup_id="11309122"/>
+    </Notes>
+    <Rights xmlns="" tempered="true">
+      <Display>© The President and Fellows of Harvard College. / This painting is subject to a no-loan policy.</Display>
+      <Right pref="true"
+        term="© The President and Fellows of Harvard College. / This painting is subject to a no-loan policy."
+        type_lkup="Copyright" type_lkup_id="11309131"/>
+    </Rights>
+    <LocalInformation xmlns="" published="false"/>
+    <RelatedWorks xmlns=""/>
+    <display:DR id="9119951" representationId="drs:urn-3:VIT.BB:17051811"
+      lastUpdateDate="2021-09-16T22:10:28+00:00" sequence="10" primary="false" projectId="811"
+      institutionId="10003" createdBy="estolfi@itatti.harvard.edu" updatedBy="r_wendler@harvard.edu"
+      createdDate="2015-04-08T07:58:57+00:00">
+      <DisplayRecord xmlns="">
+        <field_string id="fd_36677_s" description="None" label="Longitude" value=""/>
+        <field_string id="fd_36662_s" description="None" label="Image View Description"
+          value="Verso of photograph 501169_1"/>
+        <field_string id="fd_36676_s" description="None" label="Latitude" value=""/>
+        <field_string id="fd_36678_s" description="None" label="Elevation" value=""/>
+        <field_string id="fd_36690_s" description="None" label="Image Accession Number"
+          value="501238_2"/>
+        <field_boolean id="fd_36705_b" description="None" label="Send To Harvard" value="true"/>
+        <field_lookup id="fd_36693_mfcl_lookup" description="None" label="Image Type">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_36688_lookup" description="None" label="Image Repository">
+          <display>Biblioteca Berenson, Fototeca, Villa I Tatti - The Harvard University Center for Italian Renaissance Studies</display>
+          <linkedField id="9000418532" revision="-1" source_id="9000418532"
+            preferredTerm="Biblioteca Berenson, Fototeca, I Tatti - The Harvard University Center for Italian Renaissance Studies"
+            conceptLevel="Community" institutionName="Harvard"
+            uri="http://forum.jstor.org/oai/SSN/9000418532">
+            <allTerms>Biblioteca Berenson, Fototeca, I Tatti - The Harvard University Center for Italian Renaissance Studies</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_36713_mfcl_lookup" description="None" label="Image Source Type">
+          <display/>
+        </field_lookup>
+      </DisplayRecord>
+      <AssetGroups xmlns="">
+        <Group id="21924"/>
+        <Group id="22978"/>
+      </AssetGroups>
+      <Publications xmlns="">
+        <Publication asset_id="9119951" publishing_target_id="792"/>
+      </Publications>
+      <Assets xmlns="" filename="urn-3:VIT.BB:17051811">
+        <Asset id="None" size="DRS_full" uri="http://nrs.harvard.edu/urn-3:VIT.BB:17051811"
+          restriction="f"/>
+        <Asset id="None" size="DRS_thumb" uri="http://nrs.harvard.edu/urn-3:VIT.BB:17051811"
+          restriction="f"/>
+      </Assets>
+      <Targets xmlns="">
+        <Target name="OAI" status_lkup="Published" url="#" description="OAI"
+          publishDate="2020-04-22T13:54:53+00:00"/>
+      </Targets>
+    </display:DR>
+    <display:DR id="9119952" representationId="drs:urn-3:VIT.BB:17051816"
+      lastUpdateDate="2021-09-16T22:10:28+00:00" sequence="8" primary="false" projectId="811"
+      institutionId="10003" createdBy="estolfi@itatti.harvard.edu" updatedBy="r_wendler@harvard.edu"
+      createdDate="2015-04-08T07:58:57+00:00">
+      <DisplayRecord xmlns="">
+        <field_string id="fd_36677_s" description="None" label="Longitude" value=""/>
+        <field_string id="fd_36662_s" description="None" label="Image View Description"
+          value="Verso of photograph 501169_1"/>
+        <field_string id="fd_36676_s" description="None" label="Latitude" value=""/>
+        <field_string id="fd_36678_s" description="None" label="Elevation" value=""/>
+        <field_string id="fd_36690_s" description="None" label="Image Accession Number"
+          value="501171_2"/>
+        <field_boolean id="fd_36705_b" description="None" label="Send To Harvard" value="true"/>
+        <field_lookup id="fd_36693_mfcl_lookup" description="None" label="Image Type">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_36688_lookup" description="None" label="Image Repository">
+          <display>Biblioteca Berenson, Fototeca, Villa I Tatti - The Harvard University Center for Italian Renaissance Studies</display>
+          <linkedField id="9000418532" revision="-1" source_id="9000418532"
+            preferredTerm="Biblioteca Berenson, Fototeca, I Tatti - The Harvard University Center for Italian Renaissance Studies"
+            conceptLevel="Community" institutionName="Harvard"
+            uri="http://forum.jstor.org/oai/SSN/9000418532">
+            <allTerms>Biblioteca Berenson, Fototeca, I Tatti - The Harvard University Center for Italian Renaissance Studies</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_36713_mfcl_lookup" description="None" label="Image Source Type">
+          <display/>
+        </field_lookup>
+      </DisplayRecord>
+      <AssetGroups xmlns="">
+        <Group id="21924"/>
+        <Group id="22978"/>
+      </AssetGroups>
+      <Publications xmlns="">
+        <Publication asset_id="9119952" publishing_target_id="792"/>
+      </Publications>
+      <Assets xmlns="" filename="urn-3:VIT.BB:17051816">
+        <Asset id="None" size="DRS_full" uri="http://nrs.harvard.edu/urn-3:VIT.BB:17051816"
+          restriction="f"/>
+        <Asset id="None" size="DRS_thumb" uri="http://nrs.harvard.edu/urn-3:VIT.BB:17051816"
+          restriction="f"/>
+      </Assets>
+      <Targets xmlns="">
+        <Target name="OAI" status_lkup="Published" url="#" description="OAI"
+          publishDate="2020-04-22T13:54:53+00:00"/>
+      </Targets>
+    </display:DR>
+    <display:DR id="9119953" representationId="drs:urn-3:VIT.BB:17051820"
+      lastUpdateDate="2021-09-16T22:10:28+00:00" sequence="6" primary="false" projectId="811"
+      institutionId="10003" createdBy="estolfi@itatti.harvard.edu" updatedBy="r_wendler@harvard.edu"
+      createdDate="2015-04-08T07:58:57+00:00">
+      <DisplayRecord xmlns="">
+        <field_string id="fd_36677_s" description="None" label="Longitude" value=""/>
+        <field_string id="fd_36662_s" description="None" label="Image View Description"
+          value="Verso of photograph 501169_1"/>
+        <field_string id="fd_36676_s" description="None" label="Latitude" value=""/>
+        <field_string id="fd_36678_s" description="None" label="Elevation" value=""/>
+        <field_string id="fd_36690_s" description="None" label="Image Accession Number"
+          value="501169_2"/>
+        <field_boolean id="fd_36705_b" description="None" label="Send To Harvard" value="true"/>
+        <field_lookup id="fd_36693_mfcl_lookup" description="None" label="Image Type">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_36688_lookup" description="None" label="Image Repository">
+          <display>Biblioteca Berenson, Fototeca, Villa I Tatti - The Harvard University Center for Italian Renaissance Studies</display>
+          <linkedField id="9000418532" revision="-1" source_id="9000418532"
+            preferredTerm="Biblioteca Berenson, Fototeca, I Tatti - The Harvard University Center for Italian Renaissance Studies"
+            conceptLevel="Community" institutionName="Harvard"
+            uri="http://forum.jstor.org/oai/SSN/9000418532">
+            <allTerms>Biblioteca Berenson, Fototeca, I Tatti - The Harvard University Center for Italian Renaissance Studies</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_36713_mfcl_lookup" description="None" label="Image Source Type">
+          <display/>
+        </field_lookup>
+      </DisplayRecord>
+      <AssetGroups xmlns="">
+        <Group id="21924"/>
+        <Group id="22978"/>
+      </AssetGroups>
+      <Publications xmlns="">
+        <Publication asset_id="9119953" publishing_target_id="792"/>
+      </Publications>
+      <Assets xmlns="" filename="urn-3:VIT.BB:17051820">
+        <Asset id="None" size="DRS_full" uri="http://nrs.harvard.edu/urn-3:VIT.BB:17051820"
+          restriction="f"/>
+        <Asset id="None" size="DRS_thumb" uri="http://nrs.harvard.edu/urn-3:VIT.BB:17051820"
+          restriction="f"/>
+      </Assets>
+      <Targets xmlns="">
+        <Target name="OAI" status_lkup="Published" url="#" description="OAI"
+          publishDate="2020-04-22T13:54:53+00:00"/>
+      </Targets>
+    </display:DR>
+    <display:DR id="9119954" representationId="drs:urn-3:VIT.BB:17051823"
+      lastUpdateDate="2021-09-16T22:10:28+00:00" sequence="9" primary="false" projectId="811"
+      institutionId="10003" createdBy="estolfi@itatti.harvard.edu" updatedBy="r_wendler@harvard.edu"
+      createdDate="2015-04-08T07:58:57+00:00">
+      <DisplayRecord xmlns="">
+        <field_string id="fd_36701_s" description="None" label="Image Rights"
+          value="© The President and Fellows of Harvard College. / Access Restrictions: This copy is furnished for study purposes only. Written authorization must be obtained for all other uses."/>
+        <field_string id="fd_36703_s" description="None" label="Image Notes"
+          value="Production: Jacquier glass plate negative # 17&#10;Historical: the Jacquier glass plate negatives were renumbered by the Gabinetto Fotografico when purchased in 1943 (negative # 54956)&#10;Inscription: handwritten negative # by Vittorio Jacquier on verso; handwritten note reads: &quot;Fiorenzo&quot; on verso.&#10;Provenance: gift of Stuart Denenberg, 1996."/>
+        <field_string id="fd_36677_s" description="None" label="Longitude" value=""/>
+        <field_string id="fd_36692_s" description="None" label="Image Classification Number"
+          value="P 30.1"/>
+        <field_string id="fd_36697_s" description="None" label="Image End Year" value="1935"/>
+        <field_string id="fd_36662_s" description="None" label="Image View Description"
+          value="Total"/>
+        <field_string id="fd_36695_s" description="None" label="Image Start Year" value="1910"/>
+        <field_string id="fd_36676_s" description="None" label="Latitude" value=""/>
+        <field_string id="fd_36678_s" description="None" label="Elevation" value=""/>
+        <field_string id="fd_36690_s" description="None" label="Image Accession Number"
+          value="501238_1"/>
+        <field_boolean id="fd_36705_b" description="None" label="Send To Harvard" value="true"/>
+        <field_lookup id="fd_36713_mfcl_lookup" description="None" label="Image Source Type">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_36684_lookup" description="None" label="Photographer">
+          <display>Jacquier (active ca. 1870-1935)</display>
+          <linkedField id="9000424199" revision="-1" source_id="9000424199" preferredTerm="Jacquier"
+            conceptLevel="Local" institutionName="Harvard"
+            uri="http://forum.jstor.org/oai/SSN/9000424199">
+            <allTerms>Jacquier | Jacquier, Giuseppe | Jacquier, Vittorio</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_36693_mfcl_lookup" description="None" label="Image Type">
+          <display>photograph</display>
+          <linkedField id="11319125" revision="-1" source_id="11319125" preferredTerm="photograph"
+            institutionName="Harvard">
+            <allTerms>photograph</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_36733_lookup" description="None" label="Image Technique">
+          <display>carbon prints</display>
+          <linkedField id="300127138" revision="-1" source_id="300127138"
+            preferredTerm="carbon prints" conceptLevel="Community" institutionName="AAT"
+            uri="http://forum.jstor.org/oai/AAT/300127138">
+            <allTerms>carbon prints | autotypi | autotypes | impresion al carbon | carbon photoprints | autotipia | kooldrukken | carbon print | impresiones al carbon | kooldruk | copia al carbon | prints, carbon | Autotypie</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_36699_lookup" description="None" label="Image Support">
+          <display>paper (fiber product)</display>
+          <linkedField id="300014109" revision="-1" source_id="300014109"
+            preferredTerm="paper (fiber product)" conceptLevel="Community" institutionName="AAT"
+            uri="http://forum.jstor.org/oai/AAT/300014109">
+            <allTerms>paper (fiber product) | Papier | papper | papers | papier | carta | papel</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_36688_lookup" description="None" label="Image Repository">
+          <display>Biblioteca Berenson, Fototeca, Villa I Tatti - The Harvard University Center for Italian Renaissance Studies</display>
+          <linkedField id="9000418532" revision="-1" source_id="9000418532"
+            preferredTerm="Biblioteca Berenson, Fototeca, I Tatti - The Harvard University Center for Italian Renaissance Studies"
+            conceptLevel="Community" institutionName="Harvard"
+            uri="http://forum.jstor.org/oai/SSN/9000418532">
+            <allTerms>Biblioteca Berenson, Fototeca, I Tatti - The Harvard University Center for Italian Renaissance Studies</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_36694_lookup" description="None" label="Image Associated Name">
+          <display>Berenson, Bernard (1865-1959); Berenson, Mary (1864-1945)</display>
+          <linkedField id="9000381823" revision="-1" source_id="9000381823"
+            preferredTerm="Berenson, Bernard" conceptLevel="Local" institutionName="Harvard"
+            uri="http://forum.jstor.org/oai/SSN/9000381823">
+            <allTerms>Berenson, Bernard</allTerms>
+          </linkedField>
+          <linkedField id="9000418025" revision="-1" source_id="9000418025"
+            preferredTerm="Berenson, Mary" conceptLevel="Local" institutionName="Harvard"
+            uri="http://forum.jstor.org/oai/SSN/9000418025">
+            <allTerms>Berenson, Mary</allTerms>
+          </linkedField>
+        </field_lookup>
+      </DisplayRecord>
+      <AssetGroups xmlns="">
+        <Group id="21924"/>
+        <Group id="22978"/>
+      </AssetGroups>
+      <Publications xmlns="">
+        <Publication asset_id="9119954" publishing_target_id="792"/>
+      </Publications>
+      <Assets xmlns="" filename="urn-3:VIT.BB:17051823">
+        <Asset id="None" size="DRS_full" uri="http://nrs.harvard.edu/urn-3:VIT.BB:17051823"
+          restriction="f"/>
+        <Asset id="None" size="DRS_thumb" uri="http://nrs.harvard.edu/urn-3:VIT.BB:17051823"
+          restriction="f"/>
+      </Assets>
+      <Targets xmlns="">
+        <Target name="OAI" status_lkup="Published" url="#" description="OAI"
+          publishDate="2020-04-22T13:54:53+00:00"/>
+      </Targets>
+    </display:DR>
+    <display:DR id="9119955" representationId="drs:urn-3:VIT.BB:17051827"
+      lastUpdateDate="2021-09-16T22:10:28+00:00" sequence="7" primary="false" projectId="811"
+      institutionId="10003" createdBy="estolfi@itatti.harvard.edu" updatedBy="r_wendler@harvard.edu"
+      createdDate="2015-04-08T07:58:57+00:00">
+      <DisplayRecord xmlns="">
+        <field_string id="fd_36701_s" description="None" label="Image Rights"
+          value="Access Restrictions: This copy is furnished for study purposes only. Written authorization must be obtained for all other uses."/>
+        <field_string id="fd_36703_s" description="None" label="Image Notes"
+          value="Historical: The Jacquier glass plate negatives were renumbered by the Gabinetto fotografico when purchased in 1943.&#10;Production: negative # 54956; Jacquier glass plate negative # 17; image capture date 1910-1935"/>
+        <field_string id="fd_36697_s" description="None" label="Image End Year" value="1970"/>
+        <field_string id="fd_36662_s" description="None" label="Image View Description"
+          value="Total"/>
+        <field_string id="fd_36695_s" description="None" label="Image Start Year" value="1960"/>
+        <field_string id="fd_36677_s" description="None" label="Longitude" value=""/>
+        <field_string id="fd_36692_s" description="None" label="Image Classification Number"
+          value="P 30.1"/>
+        <field_string id="fd_36676_s" description="None" label="Latitude" value=""/>
+        <field_string id="fd_36678_s" description="None" label="Elevation" value=""/>
+        <field_string id="fd_36690_s" description="None" label="Image Accession Number"
+          value="501171_1"/>
+        <field_boolean id="fd_36705_b" description="None" label="Send To Harvard" value="true"/>
+        <field_lookup id="fd_36713_mfcl_lookup" description="None" label="Image Source Type">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_36684_lookup" description="None" label="Photographer">
+          <display>Jacquier (active ca. 1870-1935)</display>
+          <linkedField id="9000424199" revision="-1" source_id="9000424199" preferredTerm="Jacquier"
+            conceptLevel="Local" institutionName="Harvard"
+            uri="http://forum.jstor.org/oai/SSN/9000424199">
+            <allTerms>Jacquier | Jacquier, Giuseppe | Jacquier, Vittorio</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_36693_mfcl_lookup" description="None" label="Image Type">
+          <display>photograph</display>
+          <linkedField id="11319125" revision="-1" source_id="11319125" preferredTerm="photograph"
+            institutionName="Harvard">
+            <allTerms>photograph</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_36699_lookup" description="None" label="Image Support">
+          <display>paper (fiber product)</display>
+          <linkedField id="300014109" revision="-1" source_id="300014109"
+            preferredTerm="paper (fiber product)" conceptLevel="Community" institutionName="AAT"
+            uri="http://forum.jstor.org/oai/AAT/300014109">
+            <allTerms>paper (fiber product) | Papier | papper | papers | papier | carta | papel</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_36694_lookup" description="None" label="Image Associated Name">
+          <display>Berenson, Bernard (1865-1959); Berenson, Mary (1864-1945); Gabinetto fotografico (Florence, Italy)</display>
+          <linkedField id="9000381823" revision="-1" source_id="9000381823"
+            preferredTerm="Berenson, Bernard" conceptLevel="Local" institutionName="Harvard"
+            uri="http://forum.jstor.org/oai/SSN/9000381823">
+            <allTerms>Berenson, Bernard</allTerms>
+          </linkedField>
+          <linkedField id="9000418025" revision="-1" source_id="9000418025"
+            preferredTerm="Berenson, Mary" conceptLevel="Local" institutionName="Harvard"
+            uri="http://forum.jstor.org/oai/SSN/9000418025">
+            <allTerms>Berenson, Mary</allTerms>
+          </linkedField>
+          <linkedField id="9000418538" revision="-1" source_id="9000418538"
+            preferredTerm="Gabinetto fotografico (Florence, Italy)" conceptLevel="Local"
+            institutionName="Harvard" uri="http://forum.jstor.org/oai/SSN/9000418538">
+            <allTerms>Gabinetto fotografico (Florence, Italy) | Gabinetto fotografico della Soprintendenza speciale per il Polo museale fiorenti | Gabinetto fotografico della Soprintendenza alle Gallerie | Soprintendenza alle gallerie - Firenze</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_36700_lookup" description="None" label="Image Subject">
+          <display>stamps (marks)</display>
+          <linkedField id="300262844" revision="-1" source_id="300262844"
+            preferredTerm="stamps (marks)" conceptLevel="Community" institutionName="AAT"
+            uri="http://forum.jstor.org/oai/AAT/300262844">
+            <allTerms>stamps (marks) | stempelafdrukken | estampas | estampa | stempelafdruk | impressions | stamp | imprints</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_36733_lookup" description="None" label="Image Technique">
+          <display>gelatin silver prints</display>
+          <linkedField id="300128695" revision="-1" source_id="300128695"
+            preferredTerm="gelatin silver prints" conceptLevel="Community" institutionName="AAT"
+            uri="http://forum.jstor.org/oai/AAT/300128695">
+            <allTerms>gelatin silver prints | prints, gelatin | silver prints, gelatin | prints, silver gelatin | silver gelatin photoprints | impresion de plata sobre gelatina | gelatin silver print | photoprints, gelatin silver | prints, gelatin silver | ontwikkelgelatinezilverdruk | impresiones de plata sobre gelatina | gelatin-silver prints | gelatin prints | silver gelatin prints | ontwikkel gelatinezilverdrukken | gelatin silver photoprints</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_36688_lookup" description="None" label="Image Repository">
+          <display>Biblioteca Berenson, Fototeca, Villa I Tatti - The Harvard University Center for Italian Renaissance Studies</display>
+          <linkedField id="9000418532" revision="-1" source_id="9000418532"
+            preferredTerm="Biblioteca Berenson, Fototeca, I Tatti - The Harvard University Center for Italian Renaissance Studies"
+            conceptLevel="Community" institutionName="Harvard"
+            uri="http://forum.jstor.org/oai/SSN/9000418532">
+            <allTerms>Biblioteca Berenson, Fototeca, I Tatti - The Harvard University Center for Italian Renaissance Studies</allTerms>
+          </linkedField>
+        </field_lookup>
+      </DisplayRecord>
+      <AssetGroups xmlns="">
+        <Group id="21924"/>
+        <Group id="22978"/>
+      </AssetGroups>
+      <Publications xmlns="">
+        <Publication asset_id="9119955" publishing_target_id="792"/>
+      </Publications>
+      <Assets xmlns="" filename="urn-3:VIT.BB:17051827">
+        <Asset id="None" size="DRS_full" uri="http://nrs.harvard.edu/urn-3:VIT.BB:17051827"
+          restriction="f"/>
+        <Asset id="None" size="DRS_thumb" uri="http://nrs.harvard.edu/urn-3:VIT.BB:17051827"
+          restriction="f"/>
+      </Assets>
+      <Targets xmlns="">
+        <Target name="OAI" status_lkup="Published" url="#" description="OAI"
+          publishDate="2020-04-22T13:54:53+00:00"/>
+      </Targets>
+    </display:DR>
+    <display:DR id="9119956" representationId="drs:urn-3:VIT.BB:17051831"
+      lastUpdateDate="2021-09-16T22:10:28+00:00" sequence="5" primary="false" projectId="811"
+      institutionId="10003" createdBy="estolfi@itatti.harvard.edu" updatedBy="r_wendler@harvard.edu"
+      createdDate="2015-04-08T07:58:57+00:00">
+      <DisplayRecord xmlns="">
+        <field_string id="fd_36701_s" description="None" label="Image Rights"
+          value="Access Restrictions: This copy is furnished for study purposes only. Written authorization must be obtained for all other uses."/>
+        <field_string id="fd_36703_s" description="None" label="Image Notes"
+          value="Historical: The Jacquier glass plate negatives were renumbered by the Gabinetto fotografico when purchased in 1943.                                                                                              Inscription: printer's stamp on verso.                                                                                                                                                                                                                                                                                                    Production: negative # 54956; Jacquier glass plate negative # 17; image capture date 1910-1935  "/>
+        <field_string id="fd_36697_s" description="None" label="Image End Year" value="1970"/>
+        <field_string id="fd_36662_s" description="None" label="Image View Description"
+          value="Total"/>
+        <field_string id="fd_36695_s" description="None" label="Image Start Year" value="1960"/>
+        <field_string id="fd_36677_s" description="None" label="Longitude" value=""/>
+        <field_string id="fd_36692_s" description="None" label="Image Classification Number"
+          value="P 30.1"/>
+        <field_string id="fd_36676_s" description="None" label="Latitude" value=""/>
+        <field_string id="fd_36678_s" description="None" label="Elevation" value=""/>
+        <field_string id="fd_36690_s" description="None" label="Image Accession Number"
+          value="501169_1"/>
+        <field_boolean id="fd_36705_b" description="None" label="Send To Harvard" value="true"/>
+        <field_lookup id="fd_36713_mfcl_lookup" description="None" label="Image Source Type">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_36684_lookup" description="None" label="Photographer">
+          <display>Jacquier (active ca. 1870-1935)</display>
+          <linkedField id="9000424199" revision="-1" source_id="9000424199" preferredTerm="Jacquier"
+            conceptLevel="Local" institutionName="Harvard"
+            uri="http://forum.jstor.org/oai/SSN/9000424199">
+            <allTerms>Jacquier | Jacquier, Giuseppe | Jacquier, Vittorio</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_36699_lookup" description="None" label="Image Support">
+          <display>paper (fiber product)</display>
+          <linkedField id="300014109" revision="-1" source_id="300014109"
+            preferredTerm="paper (fiber product)" conceptLevel="Community" institutionName="AAT"
+            uri="http://forum.jstor.org/oai/AAT/300014109">
+            <allTerms>paper (fiber product) | Papier | papper | papers | papier | carta | papel</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_36694_lookup" description="None" label="Image Associated Name">
+          <display>Berenson, Bernard (1865-1959); Berenson, Mary (1864-1945); Gabinetto fotografico (Florence, Italy)</display>
+          <linkedField id="9000381823" revision="-1" source_id="9000381823"
+            preferredTerm="Berenson, Bernard" conceptLevel="Local" institutionName="Harvard"
+            uri="http://forum.jstor.org/oai/SSN/9000381823">
+            <allTerms>Berenson, Bernard</allTerms>
+          </linkedField>
+          <linkedField id="9000418025" revision="-1" source_id="9000418025"
+            preferredTerm="Berenson, Mary" conceptLevel="Local" institutionName="Harvard"
+            uri="http://forum.jstor.org/oai/SSN/9000418025">
+            <allTerms>Berenson, Mary</allTerms>
+          </linkedField>
+          <linkedField id="9000418538" revision="-1" source_id="9000418538"
+            preferredTerm="Gabinetto fotografico (Florence, Italy)" conceptLevel="Local"
+            institutionName="Harvard" uri="http://forum.jstor.org/oai/SSN/9000418538">
+            <allTerms>Gabinetto fotografico (Florence, Italy) | Gabinetto fotografico della Soprintendenza speciale per il Polo museale fiorenti | Gabinetto fotografico della Soprintendenza alle Gallerie | Soprintendenza alle gallerie - Firenze</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_36700_lookup" description="None" label="Image Subject">
+          <display>stamps (marks)</display>
+          <linkedField id="300262844" revision="-1" source_id="300262844"
+            preferredTerm="stamps (marks)" conceptLevel="Community" institutionName="AAT"
+            uri="http://forum.jstor.org/oai/AAT/300262844">
+            <allTerms>stamps (marks) | stempelafdrukken | estampas | estampa | stempelafdruk | impressions | stamp | imprints</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_36733_lookup" description="None" label="Image Technique">
+          <display>gelatin silver prints</display>
+          <linkedField id="300128695" revision="-1" source_id="300128695"
+            preferredTerm="gelatin silver prints" conceptLevel="Community" institutionName="AAT"
+            uri="http://forum.jstor.org/oai/AAT/300128695">
+            <allTerms>gelatin silver prints | prints, gelatin | silver prints, gelatin | prints, silver gelatin | silver gelatin photoprints | impresion de plata sobre gelatina | gelatin silver print | photoprints, gelatin silver | prints, gelatin silver | ontwikkelgelatinezilverdruk | impresiones de plata sobre gelatina | gelatin-silver prints | gelatin prints | silver gelatin prints | ontwikkel gelatinezilverdrukken | gelatin silver photoprints</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_36688_lookup" description="None" label="Image Repository">
+          <display>Biblioteca Berenson, Fototeca, Villa I Tatti - The Harvard University Center for Italian Renaissance Studies</display>
+          <linkedField id="9000418532" revision="-1" source_id="9000418532"
+            preferredTerm="Biblioteca Berenson, Fototeca, I Tatti - The Harvard University Center for Italian Renaissance Studies"
+            conceptLevel="Community" institutionName="Harvard"
+            uri="http://forum.jstor.org/oai/SSN/9000418532">
+            <allTerms>Biblioteca Berenson, Fototeca, I Tatti - The Harvard University Center for Italian Renaissance Studies</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_36693_mfcl_lookup" description="None" label="Image Type">
+          <display>photograph</display>
+          <linkedField id="11319125" revision="-1" source_id="11319125" preferredTerm="photograph"
+            institutionName="Harvard">
+            <allTerms>photograph</allTerms>
+          </linkedField>
+        </field_lookup>
+      </DisplayRecord>
+      <AssetGroups xmlns="">
+        <Group id="21924"/>
+        <Group id="22978"/>
+      </AssetGroups>
+      <Publications xmlns="">
+        <Publication asset_id="9119956" publishing_target_id="792"/>
+      </Publications>
+      <Assets xmlns="" filename="urn-3:VIT.BB:17051831">
+        <Asset id="None" size="DRS_full" uri="http://nrs.harvard.edu/urn-3:VIT.BB:17051831"
+          restriction="f"/>
+        <Asset id="None" size="DRS_thumb" uri="http://nrs.harvard.edu/urn-3:VIT.BB:17051831"
+          restriction="f"/>
+      </Assets>
+      <Targets xmlns="">
+        <Target name="OAI" status_lkup="Published" url="#" description="OAI"
+          publishDate="2020-04-22T13:54:53+00:00"/>
+      </Targets>
+    </display:DR>
+    <display:DR id="9119957" representationId="drs:urn-3:VIT.BB:17051835"
+      lastUpdateDate="2021-09-16T22:10:28+00:00" sequence="4" primary="false" projectId="811"
+      institutionId="10003" createdBy="estolfi@itatti.harvard.edu" updatedBy="r_wendler@harvard.edu"
+      createdDate="2015-04-08T07:58:57+00:00">
+      <DisplayRecord xmlns="">
+        <field_string id="fd_36701_s" description="None" label="Image Rights"
+          value="© The President and Fellows of Harvard College. / Access Restrictions: This copy is furnished for study purposes only. Written authorization must be obtained for all other uses."/>
+        <field_string id="fd_36703_s" description="None" label="Image Notes"
+          value="Inscription: photographer's stamp on verso.&#10;"/>
+        <field_string id="fd_36697_s" description="None" label="Image End Year" value="2004"/>
+        <field_string id="fd_36662_s" description="None" label="Image View Description"
+          value="Total"/>
+        <field_string id="fd_36695_s" description="None" label="Image Start Year" value="1999"/>
+        <field_string id="fd_36685_s" description="None" label="Image Date" value="1999-2004"/>
+        <field_string id="fd_36677_s" description="None" label="Longitude" value=""/>
+        <field_string id="fd_36692_s" description="None" label="Image Classification Number"
+          value="P 30.1"/>
+        <field_string id="fd_36676_s" description="None" label="Latitude" value=""/>
+        <field_string id="fd_36678_s" description="None" label="Elevation" value=""/>
+        <field_string id="fd_36690_s" description="None" label="Image Accession Number"
+          value="501167_1"/>
+        <field_boolean id="fd_36705_b" description="None" label="Send To Harvard" value="true"/>
+        <field_lookup id="fd_36713_mfcl_lookup" description="None" label="Image Source Type">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_36684_lookup" description="None" label="Photographer">
+          <display>Quattrone, Antonio (Italian)</display>
+          <linkedField id="9000427901" revision="-1" source_id="9000427901"
+            preferredTerm="Quattrone, Antonio" conceptLevel="Local" institutionName="Harvard"
+            uri="http://forum.jstor.org/oai/SSN/9000427901">
+            <allTerms>Quattrone, Antonio</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_36699_lookup" description="None" label="Image Support">
+          <display>paper (fiber product)</display>
+          <linkedField id="300014109" revision="-1" source_id="300014109"
+            preferredTerm="paper (fiber product)" conceptLevel="Community" institutionName="AAT"
+            uri="http://forum.jstor.org/oai/AAT/300014109">
+            <allTerms>paper (fiber product) | Papier | papper | papers | papier | carta | papel</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_36694_lookup" description="None" label="Image Associated Name">
+          <display>Villa I Tatti - The Harvard University Center for Italian Renaissance Studies</display>
+          <linkedField id="9000371547" revision="-1" source_id="9000371547"
+            preferredTerm="I Tatti - The Harvard University Center for Italian Renaissance Studies"
+            conceptLevel="Community" institutionName="Harvard"
+            uri="http://forum.jstor.org/oai/SSN/9000371547">
+            <allTerms>I Tatti - The Harvard University Center for Italian Renaissance Studies|Villa I Tatti|I Tatti|Berenson Collection|Bernard Berenson Collection</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_36700_lookup" description="None" label="Image Subject">
+          <display>stamps (marks)</display>
+          <linkedField id="300262844" revision="-1" source_id="300262844"
+            preferredTerm="stamps (marks)" conceptLevel="Community" institutionName="AAT"
+            uri="http://forum.jstor.org/oai/AAT/300262844">
+            <allTerms>stamps (marks) | stempelafdrukken | estampas | estampa | stempelafdruk | impressions | stamp | imprints</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_36733_lookup" description="None" label="Image Technique">
+          <display>gelatin silver prints</display>
+          <linkedField id="300128695" revision="-1" source_id="300128695"
+            preferredTerm="gelatin silver prints" conceptLevel="Community" institutionName="AAT"
+            uri="http://forum.jstor.org/oai/AAT/300128695">
+            <allTerms>gelatin silver prints | prints, gelatin | silver prints, gelatin | prints, silver gelatin | silver gelatin photoprints | impresion de plata sobre gelatina | gelatin silver print | photoprints, gelatin silver | prints, gelatin silver | ontwikkelgelatinezilverdruk | impresiones de plata sobre gelatina | gelatin-silver prints | gelatin prints | silver gelatin prints | ontwikkel gelatinezilverdrukken | gelatin silver photoprints</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_36688_lookup" description="None" label="Image Repository">
+          <display>Biblioteca Berenson, Fototeca, Villa I Tatti - The Harvard University Center for Italian Renaissance Studies</display>
+          <linkedField id="9000418532" revision="-1" source_id="9000418532"
+            preferredTerm="Biblioteca Berenson, Fototeca, I Tatti - The Harvard University Center for Italian Renaissance Studies"
+            conceptLevel="Community" institutionName="Harvard"
+            uri="http://forum.jstor.org/oai/SSN/9000418532">
+            <allTerms>Biblioteca Berenson, Fototeca, I Tatti - The Harvard University Center for Italian Renaissance Studies</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_36693_mfcl_lookup" description="None" label="Image Type">
+          <display>photograph</display>
+          <linkedField id="11319125" revision="-1" source_id="11319125" preferredTerm="photograph"
+            institutionName="Harvard">
+            <allTerms>photograph</allTerms>
+          </linkedField>
+        </field_lookup>
+      </DisplayRecord>
+      <AssetGroups xmlns="">
+        <Group id="21924"/>
+        <Group id="22978"/>
+      </AssetGroups>
+      <Publications xmlns="">
+        <Publication asset_id="9119957" publishing_target_id="792"/>
+      </Publications>
+      <Assets xmlns="" filename="urn-3:VIT.BB:17051835">
+        <Asset id="None" size="DRS_full" uri="http://nrs.harvard.edu/urn-3:VIT.BB:17051835"
+          restriction="f"/>
+        <Asset id="None" size="DRS_thumb" uri="http://nrs.harvard.edu/urn-3:VIT.BB:17051835"
+          restriction="f"/>
+      </Assets>
+      <Targets xmlns="">
+        <Target name="OAI" status_lkup="Published" url="#" description="OAI"
+          publishDate="2020-04-22T13:54:53+00:00"/>
+      </Targets>
+    </display:DR>
+    <display:DR id="9511060" representationId="drs:urn-3:VIT.BB:16858052"
+      lastUpdateDate="2021-09-16T21:11:39+00:00" sequence="3" primary="false" projectId="809"
+      institutionId="10003" createdBy="estolfi@itatti.harvard.edu" updatedBy="r_wendler@harvard.edu"
+      createdDate="2015-06-26T12:02:21+00:00">
+      <DisplayRecord xmlns="">
+        <field_string id="fd_36511_s" description="None" label="Image View Type" value=""/>
+        <field_string id="fd_36569_s" description="None" label="Image Source Publication Date"
+          value=""/>
+        <field_string id="fd_36573_s" description="None" label="Image Source Call Numbers" value=""/>
+        <field_string id="fd_36552_s" description="None" label="In House Notes" value=""/>
+        <field_string id="fd_36571_s" description="None" label="Image Source Series Title" value=""/>
+        <field_string id="fd_36539_s" description="None" label="Image Accession Date" value=""/>
+        <field_string id="fd_36577_s" description="None" label="Issue Number" value=""/>
+        <field_string id="fd_36524_s" description="None" label="Latitude" value=""/>
+        <field_string id="fd_36575_s" description="None" label="Image Source Record Created By"
+          value=""/>
+        <field_string id="fd_36537_s" description="None" label="Image Collection" value=""/>
+        <field_string id="fd_36526_s" description="None" label="Elevation" value=""/>
+        <field_string id="fd_36558_s" description="None" label="Image Requester" value=""/>
+        <field_string id="fd_36533_s" description="None" label="Image Date" value="2011-2013"/>
+        <field_string id="fd_36551_s" description="None" label="Image Notes" value=""/>
+        <field_string id="fd_36572_s" description="None" label="Image Source Reference Number"
+          value=""/>
+        <field_string id="fd_36562_s" description="None" label="Image Provider" value=""/>
+        <field_string id="fd_36570_s" description="None" label="Image Source Date" value=""/>
+        <field_string id="fd_36576_s" description="None" label="Volume" value=""/>
+        <field_string id="fd_36544_s" description="None" label="Image Measurements" value=""/>
+        <field_string id="fd_36525_s" description="None" label="Longitude" value=""/>
+        <field_string id="fd_36574_s" description="None" label="Image Source Notes" value=""/>
+        <field_string id="fd_36565_s" description="None" label="Image Source Author" value=""/>
+        <field_string id="fd_36567_s" description="None" label="Image Source Place Of Publication"
+          value=""/>
+        <field_string id="fd_36578_s" description="None" label="Year" value=""/>
+        <field_string id="fd_36540_s" description="None" label="Image Classification Number"
+          value=""/>
+        <field_string id="fd_36550_s" description="None" label="Image Credit" value=""/>
+        <field_string id="fd_36563_s" description="None" label="Image Source Title" value=""/>
+        <field_string id="fd_36549_s" description="None" label="Image Rights"
+          value="© The President and Fellows of Harvard College. ; Access Restrictions: This copy is furnished for study purposes only. Written authorization must be obtained for all other uses."/>
+        <field_string id="fd_36579_s" description="None" label="Page Plate Number" value=""/>
+        <field_string id="fd_36545_s" description="None" label="Image End Year" value="2013"/>
+        <field_string id="fd_36543_s" description="None" label="Image Start Year" value="2011"/>
+        <field_string id="fd_36564_s" description="None" label="Image Source Alternate Title"
+          value=""/>
+        <field_string id="fd_36510_s" description="None" label="Image View Description"
+          value="Back of canvas without frame"/>
+        <field_string id="fd_36566_s" description="None" label="Image Source Edition" value=""/>
+        <field_string id="fd_36555_s" description="None" label="Additional Formats" value=""/>
+        <field_string id="fd_36560_s" description="None" label="Image Source ID" value=""/>
+        <field_string id="fd_36568_s" description="None" label="Image Source Publisher" value=""/>
+        <field_string id="fd_36538_s" description="None" label="Image Accession Number"
+          value="522346"/>
+        <field_date id="fd_36559_dt" description="None" label="Image Request Date"/>
+        <field_boolean id="fd_36553_b" description="None" label="Send To Harvard" value="true"/>
+        <field_lookup id="fd_36536_lookup" description="None" label="Image Repository">
+          <display>Berenson Art Collection, Villa I Tatti - The Harvard University Center for Italian Renaissance Studies</display>
+          <linkedField id="9000417970" revision="-1" source_id="9000417970"
+            preferredTerm="Berenson Art Collection, I Tatti - The Harvard University Center for Italian Renaissance Studies"
+            conceptLevel="Community" institutionName="Harvard"
+            uri="http://forum.jstor.org/oai/SSN/9000417970">
+            <allTerms>Berenson Art Collection, I Tatti - The Harvard University Center for Italian Renaissance Studies</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_36547_lookup" description="None" label="Image Support">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_36542_lookup" description="None" label="Image Associated Name">
+          <display>Villa I Tatti - The Harvard University Center for Italian Renaissance Studies</display>
+          <linkedField id="9000371547" revision="-1" source_id="9000371547"
+            preferredTerm="I Tatti - The Harvard University Center for Italian Renaissance Studies"
+            conceptLevel="Community" institutionName="Harvard"
+            uri="http://forum.jstor.org/oai/SSN/9000371547">
+            <allTerms>I Tatti - The Harvard University Center for Italian Renaissance Studies|Villa I Tatti|I Tatti|Berenson Collection|Bernard Berenson Collection</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_36532_lookup" description="None" label="Photographer">
+          <display>Centrica s.r.l. (Italian company)</display>
+          <linkedField id="9000418535" revision="-1" source_id="9000418535"
+            preferredTerm="Centrica s.r.l." conceptLevel="Local" institutionName="Harvard"
+            uri="http://forum.jstor.org/oai/SSN/9000418535">
+            <allTerms>Centrica s.r.l.</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_36581_lookup" description="None" label="Image Technique">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_36541_mfcl_lookup" description="None" label="Image Type">
+          <display>digital image</display>
+          <linkedField id="11319122" revision="-1" source_id="11319122"
+            preferredTerm="digital image" institutionName="Harvard">
+            <allTerms>digital image</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_36561_mfcl_lookup" description="None" label="Image Source Type">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_36546_lookup" description="None" label="Image Materials">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_36548_lookup" description="None" label="Image Subject">
+          <display/>
+        </field_lookup>
+      </DisplayRecord>
+      <AssetGroups xmlns="">
+        <Group id="23241"/>
+        <Group id="23242"/>
+        <Group id="26506"/>
+      </AssetGroups>
+      <Publications xmlns="">
+        <Publication asset_id="9511060" publishing_target_id="790"/>
+      </Publications>
+      <Assets xmlns="" filename="urn-3:VIT.BB:16858052">
+        <Asset id="None" size="DRS_full" uri="http://nrs.harvard.edu/urn-3:VIT.BB:16858052"
+          restriction="f"/>
+        <Asset id="None" size="DRS_thumb" uri="http://nrs.harvard.edu/urn-3:VIT.BB:16858052"
+          restriction="f"/>
+      </Assets>
+      <Targets xmlns="">
+        <Target name="OAI" status_lkup="Published" url="#" description="OAI"
+          publishDate="2015-11-30T08:28:21+00:00"/>
+      </Targets>
+    </display:DR>
+    <display:DR id="9511071" representationId="drs:urn-3:VIT.BB:16881878"
+      lastUpdateDate="2021-09-16T21:11:39+00:00" sequence="1" primary="true" projectId="809"
+      institutionId="10003" createdBy="estolfi@itatti.harvard.edu" updatedBy="r_wendler@harvard.edu"
+      createdDate="2015-06-26T12:02:22+00:00">
+      <DisplayRecord xmlns="">
+        <field_string id="fd_36511_s" description="None" label="Image View Type" value=""/>
+        <field_string id="fd_36569_s" description="None" label="Image Source Publication Date"
+          value=""/>
+        <field_string id="fd_36573_s" description="None" label="Image Source Call Numbers" value=""/>
+        <field_string id="fd_36552_s" description="None" label="In House Notes" value=""/>
+        <field_string id="fd_36571_s" description="None" label="Image Source Series Title" value=""/>
+        <field_string id="fd_36539_s" description="None" label="Image Accession Date" value=""/>
+        <field_string id="fd_36577_s" description="None" label="Issue Number" value=""/>
+        <field_string id="fd_36524_s" description="None" label="Latitude" value=""/>
+        <field_string id="fd_36575_s" description="None" label="Image Source Record Created By"
+          value=""/>
+        <field_string id="fd_36537_s" description="None" label="Image Collection" value=""/>
+        <field_string id="fd_36526_s" description="None" label="Elevation" value=""/>
+        <field_string id="fd_36558_s" description="None" label="Image Requester" value=""/>
+        <field_string id="fd_36533_s" description="None" label="Image Date" value="2011-2013"/>
+        <field_string id="fd_36551_s" description="None" label="Image Notes" value=""/>
+        <field_string id="fd_36572_s" description="None" label="Image Source Reference Number"
+          value=""/>
+        <field_string id="fd_36562_s" description="None" label="Image Provider" value=""/>
+        <field_string id="fd_36570_s" description="None" label="Image Source Date" value=""/>
+        <field_string id="fd_36576_s" description="None" label="Volume" value=""/>
+        <field_string id="fd_36544_s" description="None" label="Image Measurements" value=""/>
+        <field_string id="fd_36525_s" description="None" label="Longitude" value=""/>
+        <field_string id="fd_36574_s" description="None" label="Image Source Notes" value=""/>
+        <field_string id="fd_36565_s" description="None" label="Image Source Author" value=""/>
+        <field_string id="fd_36567_s" description="None" label="Image Source Place Of Publication"
+          value=""/>
+        <field_string id="fd_36578_s" description="None" label="Year" value=""/>
+        <field_string id="fd_36540_s" description="None" label="Image Classification Number"
+          value=""/>
+        <field_string id="fd_36550_s" description="None" label="Image Credit" value=""/>
+        <field_string id="fd_36563_s" description="None" label="Image Source Title" value=""/>
+        <field_string id="fd_36549_s" description="None" label="Image Rights"
+          value="© The President and Fellows of Harvard College. ; Access Restrictions: This copy is furnished for study purposes only. Written authorization must be obtained for all other uses."/>
+        <field_string id="fd_36579_s" description="None" label="Page Plate Number" value=""/>
+        <field_string id="fd_36545_s" description="None" label="Image End Year" value="2013"/>
+        <field_string id="fd_36543_s" description="None" label="Image Start Year" value="2011"/>
+        <field_string id="fd_36564_s" description="None" label="Image Source Alternate Title"
+          value=""/>
+        <field_string id="fd_36510_s" description="None" label="Image View Description"
+          value="Total"/>
+        <field_string id="fd_36566_s" description="None" label="Image Source Edition" value=""/>
+        <field_string id="fd_36555_s" description="None" label="Additional Formats" value=""/>
+        <field_string id="fd_36560_s" description="None" label="Image Source ID" value=""/>
+        <field_string id="fd_36568_s" description="None" label="Image Source Publisher" value=""/>
+        <field_string id="fd_36538_s" description="None" label="Image Accession Number"
+          value="522260"/>
+        <field_date id="fd_36559_dt" description="None" label="Image Request Date"/>
+        <field_boolean id="fd_36553_b" description="None" label="Send To Harvard" value="true"/>
+        <field_lookup id="fd_36536_lookup" description="None" label="Image Repository">
+          <display>Berenson Art Collection, Villa I Tatti - The Harvard University Center for Italian Renaissance Studies</display>
+          <linkedField id="9000417970" revision="-1" source_id="9000417970"
+            preferredTerm="Berenson Art Collection, Villa I Tatti - The Harvard University Center for Italian Renaissance Studies"
+            conceptLevel="Community" institutionName="Harvard"
+            uri="http://forum.jstor.org/oai/SSN/9000417970">
+            <allTerms>Berenson Art Collection, Villa I Tatti - The Harvard University Center for Italian Renaissance Studies</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_36547_lookup" description="None" label="Image Support">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_36542_lookup" description="None" label="Image Associated Name">
+          <display>Villa I Tatti - The Harvard University Center for Italian Renaissance Studies</display>
+          <linkedField id="9000371547" revision="-1" source_id="9000371547"
+            preferredTerm="I Tatti - The Harvard University Center for Italian Renaissance Studies"
+            conceptLevel="Community" institutionName="Harvard"
+            uri="http://forum.jstor.org/oai/SSN/9000371547">
+            <allTerms>I Tatti - The Harvard University Center for Italian Renaissance Studies|Villa I Tatti|I Tatti|Berenson Collection|Bernard Berenson Collection</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_36532_lookup" description="None" label="Photographer">
+          <display>Centrica s.r.l. (Italian company)</display>
+          <linkedField id="9000418535" revision="-1" source_id="9000418535"
+            preferredTerm="Centrica s.r.l." conceptLevel="Local" institutionName="Harvard"
+            uri="http://forum.jstor.org/oai/SSN/9000418535">
+            <allTerms>Centrica s.r.l.</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_36581_lookup" description="None" label="Image Technique">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_36541_mfcl_lookup" description="None" label="Image Type">
+          <display>digital image</display>
+          <linkedField id="11319122" revision="-1" source_id="11319122"
+            preferredTerm="digital image" institutionName="Harvard">
+            <allTerms>digital image</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_36561_mfcl_lookup" description="None" label="Image Source Type">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_36546_lookup" description="None" label="Image Materials">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_36548_lookup" description="None" label="Image Subject">
+          <display/>
+        </field_lookup>
+      </DisplayRecord>
+      <AssetGroups xmlns="">
+        <Group id="23241"/>
+        <Group id="23242"/>
+        <Group id="26506"/>
+      </AssetGroups>
+      <Publications xmlns="">
+        <Publication asset_id="9511071" publishing_target_id="790"/>
+      </Publications>
+      <Assets xmlns="" filename="urn-3:VIT.BB:16881878">
+        <Asset id="None" size="DRS_full" uri="http://nrs.harvard.edu/urn-3:VIT.BB:16881878"
+          restriction="f"/>
+        <Asset id="None" size="DRS_thumb" uri="http://nrs.harvard.edu/urn-3:VIT.BB:16881878"
+          restriction="f"/>
+      </Assets>
+      <Targets xmlns="">
+        <Target name="OAI" status_lkup="Published" url="#" description="OAI"
+          publishDate="2015-11-30T08:28:21+00:00"/>
+      </Targets>
+    </display:DR>
+    <display:DR id="9511281" representationId="drs:urn-3:VIT.BB:17049551"
+      lastUpdateDate="2021-09-16T21:11:38+00:00" sequence="2" primary="false" projectId="809"
+      institutionId="10003" createdBy="estolfi@itatti.harvard.edu" updatedBy="r_wendler@harvard.edu"
+      createdDate="2015-06-26T12:02:28+00:00">
+      <DisplayRecord xmlns="">
+        <field_string id="fd_36511_s" description="None" label="Image View Type" value=""/>
+        <field_string id="fd_36569_s" description="None" label="Image Source Publication Date"
+          value=""/>
+        <field_string id="fd_36573_s" description="None" label="Image Source Call Numbers" value=""/>
+        <field_string id="fd_36552_s" description="None" label="In House Notes" value=""/>
+        <field_string id="fd_36571_s" description="None" label="Image Source Series Title" value=""/>
+        <field_string id="fd_36539_s" description="None" label="Image Accession Date" value=""/>
+        <field_string id="fd_36577_s" description="None" label="Issue Number" value=""/>
+        <field_string id="fd_36524_s" description="None" label="Latitude" value=""/>
+        <field_string id="fd_36575_s" description="None" label="Image Source Record Created By"
+          value=""/>
+        <field_string id="fd_36537_s" description="None" label="Image Collection" value=""/>
+        <field_string id="fd_36526_s" description="None" label="Elevation" value=""/>
+        <field_string id="fd_36558_s" description="None" label="Image Requester" value=""/>
+        <field_string id="fd_36533_s" description="None" label="Image Date" value="2011-2013"/>
+        <field_string id="fd_36551_s" description="None" label="Image Notes" value=""/>
+        <field_string id="fd_36572_s" description="None" label="Image Source Reference Number"
+          value=""/>
+        <field_string id="fd_36562_s" description="None" label="Image Provider" value=""/>
+        <field_string id="fd_36570_s" description="None" label="Image Source Date" value=""/>
+        <field_string id="fd_36576_s" description="None" label="Volume" value=""/>
+        <field_string id="fd_36544_s" description="None" label="Image Measurements" value=""/>
+        <field_string id="fd_36525_s" description="None" label="Longitude" value=""/>
+        <field_string id="fd_36574_s" description="None" label="Image Source Notes" value=""/>
+        <field_string id="fd_36565_s" description="None" label="Image Source Author" value=""/>
+        <field_string id="fd_36567_s" description="None" label="Image Source Place Of Publication"
+          value=""/>
+        <field_string id="fd_36578_s" description="None" label="Year" value=""/>
+        <field_string id="fd_36540_s" description="None" label="Image Classification Number"
+          value=""/>
+        <field_string id="fd_36550_s" description="None" label="Image Credit" value=""/>
+        <field_string id="fd_36563_s" description="None" label="Image Source Title" value=""/>
+        <field_string id="fd_36549_s" description="None" label="Image Rights"
+          value="© The President and Fellows of Harvard College. ; Access Restrictions: This copy is furnished for study purposes only. Written authorization must be obtained for all other uses."/>
+        <field_string id="fd_36579_s" description="None" label="Page Plate Number" value=""/>
+        <field_string id="fd_36545_s" description="None" label="Image End Year" value="2013"/>
+        <field_string id="fd_36543_s" description="None" label="Image Start Year" value="2011"/>
+        <field_string id="fd_36564_s" description="None" label="Image Source Alternate Title"
+          value=""/>
+        <field_string id="fd_36510_s" description="None" label="Image View Description"
+          value="Back of canvas with frame"/>
+        <field_string id="fd_36566_s" description="None" label="Image Source Edition" value=""/>
+        <field_string id="fd_36555_s" description="None" label="Additional Formats" value=""/>
+        <field_string id="fd_36560_s" description="None" label="Image Source ID" value=""/>
+        <field_string id="fd_36568_s" description="None" label="Image Source Publisher" value=""/>
+        <field_string id="fd_36538_s" description="None" label="Image Accession Number"
+          value="521993"/>
+        <field_date id="fd_36559_dt" description="None" label="Image Request Date"/>
+        <field_boolean id="fd_36553_b" description="None" label="Send To Harvard" value="true"/>
+        <field_lookup id="fd_36536_lookup" description="None" label="Image Repository">
+          <display>Berenson Art Collection, Villa I Tatti - The Harvard University Center for Italian Renaissance Studies</display>
+          <linkedField id="9000417970" revision="-1" source_id="9000417970"
+            preferredTerm="Berenson Art Collection, I Tatti - The Harvard University Center for Italian Renaissance Studies"
+            conceptLevel="Community" institutionName="Harvard"
+            uri="http://forum.jstor.org/oai/SSN/9000417970">
+            <allTerms>Berenson Art Collection, I Tatti - The Harvard University Center for Italian Renaissance Studies</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_36547_lookup" description="None" label="Image Support">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_36542_lookup" description="None" label="Image Associated Name">
+          <display>Villa I Tatti - The Harvard University Center for Italian Renaissance Studies</display>
+          <linkedField id="9000371547" revision="-1" source_id="9000371547"
+            preferredTerm="I Tatti - The Harvard University Center for Italian Renaissance Studies"
+            conceptLevel="Community" institutionName="Harvard"
+            uri="http://forum.jstor.org/oai/SSN/9000371547">
+            <allTerms>I Tatti - The Harvard University Center for Italian Renaissance Studies|Villa I Tatti|I Tatti|Berenson Collection|Bernard Berenson Collection</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_36532_lookup" description="None" label="Photographer">
+          <display>Centrica s.r.l. (Italian company)</display>
+          <linkedField id="9000418535" revision="-1" source_id="9000418535"
+            preferredTerm="Centrica s.r.l." conceptLevel="Local" institutionName="Harvard"
+            uri="http://forum.jstor.org/oai/SSN/9000418535">
+            <allTerms>Centrica s.r.l.</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_36581_lookup" description="None" label="Image Technique">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_36541_mfcl_lookup" description="None" label="Image Type">
+          <display>digital image</display>
+          <linkedField id="11319122" revision="-1" source_id="11319122"
+            preferredTerm="digital image" institutionName="Harvard">
+            <allTerms>digital image</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_36561_mfcl_lookup" description="None" label="Image Source Type">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_36546_lookup" description="None" label="Image Materials">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_36548_lookup" description="None" label="Image Subject">
+          <display/>
+        </field_lookup>
+      </DisplayRecord>
+      <AssetGroups xmlns="">
+        <Group id="23241"/>
+        <Group id="23242"/>
+        <Group id="26506"/>
+      </AssetGroups>
+      <Publications xmlns="">
+        <Publication asset_id="9511281" publishing_target_id="790"/>
+      </Publications>
+      <Assets xmlns="" filename="urn-3:VIT.BB:17049551">
+        <Asset id="None" size="DRS_full" uri="http://nrs.harvard.edu/urn-3:VIT.BB:17049551"
+          restriction="f"/>
+        <Asset id="None" size="DRS_thumb" uri="http://nrs.harvard.edu/urn-3:VIT.BB:17049551"
+          restriction="f"/>
+      </Assets>
+      <Targets xmlns="">
+        <Target name="OAI" status_lkup="Published" url="#" description="OAI"
+          publishDate="2015-11-30T08:28:21+00:00"/>
+      </Targets>
+    </display:DR>
+  </ssw:Work>
+  <ssn:Name conceptId="9000417970" stateText="AUTHORITY" recordType="CORPORATE BODY" batchId="2"
+    statusText="Provisional" createdOn="2014/12/27 16:03:34" modifiedOn="2020/05/14 20:41:50"
+    batchName="Harvard"
+    preferredTerm="Berenson Art Collection, I Tatti - The Harvard University Center for Italian Renaissance Studies"
+    uri="http://forum.jstor.org/oai/ssn/9000417970">
+    <Terms xmlns="" count="1">
+      <Term id="1718757"
+        name="Berenson Art Collection, I Tatti - The Harvard University Center for Italian Renaissance Studies"
+        preferred="true">
+        <TermSource id="11318641" name="NO SOURCE" preferred="true"/>
+      </Term>
+    </Terms>
+    <Biographies xmlns="" count="1">
+      <Biography id="1718758" preferred="true">
+        <birthPlace/>
+        <deathPlace/>
+      </Biography>
+    </Biographies>
+  </ssn:Name>
+  <ssn:Name conceptId="500125244" stateText="COMPLETED" recordType="PERSON" batchId="1"
+    statusText="Complete" createdOn="2014/5/03 5:10:36" modifiedOn="2014/5/03 5:10:36"
+    batchName="ULAN" preferredTerm="unknown European" preferredGender="Unknown"
+    uri="http://forum.jstor.org/oai/ssn/500125244">
+    <Roles xmlns="" count="1">
+      <Role id="10020" name="unidentified person" preferred="true"/>
+    </Roles>
+    <Nationalities xmlns="" count="1">
+      <Nationality id="11281461" name="European" preferred="true"/>
+    </Nationalities>
+    <Terms xmlns="" count="3">
+      <Term id="1500319845" name="unknown European" preferred="true">
+        <Contributor id="2500000013" name="VP" preferred="true"/>
+        <Language id="11280177" name="undetermined" preferred="false"/>
+        <TermSource id="11241958" name="warranted by CCO rules (2006-)" preferred="false"/>
+        <TermSource id="11228125" name="warranted by CDWA rules (1996-)" preferred="false"/>
+      </Term>
+      <Term id="1500319846" name="anonymous  European" preferred="false">
+        <Contributor id="2500000013" name="VP" preferred="false"/>
+        <Language id="11280177" name="undetermined" preferred="false"/>
+        <TermSource id="11236115" name="National Gallery of Art, Washington DC [online] (2002)"
+          preferred="false"/>
+      </Term>
+      <Term id="1500319847" name="European" preferred="false">
+        <Contributor id="2500000013" name="VP" preferred="false"/>
+        <Language id="11280177" name="undetermined" preferred="false"/>
+        <TermSource id="11236115" name="National Gallery of Art, Washington DC [online] (2002)"
+          preferred="false"/>
+        <TermSource id="11241958" name="warranted by CCO rules (2006-)" preferred="false"/>
+      </Term>
+    </Terms>
+    <Bibliographies xmlns="" count="3">
+      <Bibliography sourceId="11228125" sourceText="warranted by CDWA rules (1996-)"
+        preferred="false"/>
+      <Bibliography sourceId="11236115"
+        sourceText="National Gallery of Art, Washington DC [online] (2002)" preferred="false"/>
+      <Bibliography sourceId="11241958" sourceText="warranted by CCO rules (2006-)"
+        preferred="false"/>
+    </Bibliographies>
+    <Contributors xmlns="" count="1">
+      <Contributor id="2500000013" name="VP"/>
+    </Contributors>
+    <Biographies xmlns="" count="1">
+      <Biography id="4000243238" name="European cultural designation" gender="Unknown"
+        preferred="true">
+        <birthDate year="1000" epoch="BC"/>
+        <Contributor id="2500000013" name="VP"/>
+      </Biography>
+    </Biographies>
+    <ScopeNotes xmlns="" count="1">
+      <ScopeNote ScopeNoteId="122103"
+        ScopeNoteText="Person or group, or a general cultural designation, belonging to the cultures of the continent of Europe.">
+        <Language id="70051" name="English"/>
+        <Contributor id="2500000013" name="VP"/>
+        <Sources/>
+      </ScopeNote>
+    </ScopeNotes>
+  </ssn:Name>
+  <ssn:Name conceptId="9000418532" stateText="AUTHORITY" recordType="CORPORATE BODY" batchId="2"
+    statusText="Provisional" createdOn="2014/12/27 16:24:25" modifiedOn="2020/05/14 19:49:51"
+    batchName="Harvard"
+    preferredTerm="Biblioteca Berenson, Fototeca, I Tatti - The Harvard University Center for Italian Renaissance Studies"
+    uri="http://forum.jstor.org/oai/ssn/9000418532">
+    <Terms xmlns="" count="1">
+      <Term id="1014055"
+        name="Biblioteca Berenson, Fototeca, I Tatti - The Harvard University Center for Italian Renaissance Studies"
+        preferred="true">
+        <TermSource id="11318641" name="NO SOURCE" preferred="true"/>
+      </Term>
+    </Terms>
+    <Biographies xmlns="" count="1">
+      <Biography id="1014056" preferred="true">
+        <birthPlace/>
+        <deathPlace/>
+      </Biography>
+    </Biographies>
+  </ssn:Name>
+  <ssn:Name conceptId="9000424199" stateText="NEW" recordType="CORPORATE BODY" batchId="2"
+    statusText="Provisional" createdOn="2014/12/28 4:41:23" modifiedOn="2014/12/28 4:41:23"
+    batchName="Harvard" preferredTerm="Jacquier" uri="http://forum.jstor.org/oai/ssn/9000424199">
+    <Terms xmlns="" count="3">
+      <Term id="1194320" name="Jacquier" preferred="true">
+        <TermSource id="11276964" name="Local Sources" preferred="true"/>
+      </Term>
+      <Term id="1194321" name="Jacquier, Giuseppe" preferred="false">
+        <TermSource id="11276964" name="Local Sources" preferred="true"/>
+      </Term>
+      <Term id="1194322" name="Jacquier, Vittorio" preferred="false">
+        <TermSource id="11276964" name="Local Sources" preferred="true"/>
+      </Term>
+    </Terms>
+    <Events xmlns="" count="1">
+      <Event id="11315114" name="location" place="Florence, Italy"/>
+    </Events>
+    <Biographies xmlns="" count="2">
+      <Biography id="1194323" name="active ca. 1870-1935" preferred="true">
+        <birthPlace/>
+        <deathPlace/>
+      </Biography>
+      <Biography id="1194324" name="active ca. 1870-1935">
+        <birthPlace/>
+        <deathPlace/>
+      </Biography>
+    </Biographies>
+  </ssn:Name>
+  <ssn:Name conceptId="9000381823" stateText="NEW" recordType="PERSON" batchId="2"
+    statusText="Provisional" createdOn="2014/12/26 18:07:48" modifiedOn="2014/12/26 18:07:48"
+    batchName="Harvard" preferredTerm="Berenson, Bernard"
+    uri="http://forum.jstor.org/oai/ssn/9000381823">
+    <Terms xmlns="" count="1">
+      <Term id="1101427" name="Berenson, Bernard" preferred="true">
+        <TermSource id="11318641" name="NO SOURCE" preferred="true"/>
+      </Term>
+    </Terms>
+    <Biographies xmlns="" count="1">
+      <Biography id="1101428" name="1865-1959" preferred="true">
+        <birthDate year="1865" epoch="AD"/>
+        <deathDate year="1959" epoch="AD"/>
+        <birthPlace/>
+        <deathPlace/>
+      </Biography>
+    </Biographies>
+    <Notes xmlns="" count="1">
+      <Note noteText="HOLLIS"/>
+    </Notes>
+  </ssn:Name>
+  <ssn:Name conceptId="9000418025" stateText="NEW" recordType="PERSON" batchId="2"
+    statusText="Provisional" createdOn="2014/12/27 16:12:18" modifiedOn="2014/12/27 16:12:18"
+    batchName="Harvard" preferredTerm="Berenson, Mary"
+    uri="http://forum.jstor.org/oai/ssn/9000418025">
+    <Terms xmlns="" count="1">
+      <Term id="1179247" name="Berenson, Mary" preferred="true">
+        <TermSource id="11276962" name="LC Authority File" preferred="true"/>
+      </Term>
+    </Terms>
+    <Biographies xmlns="" count="1">
+      <Biography id="1179248" name="1864-1945" preferred="true">
+        <birthDate year="1864" epoch="AD"/>
+        <deathDate year="1945" epoch="AD"/>
+        <birthPlace/>
+        <deathPlace/>
+      </Biography>
+    </Biographies>
+    <Notes xmlns="" count="1">
+      <Note
+        noteText="Year of death from Sprigge, Sylvia, &quot;Berenson; A Biography,&quot; Boston, Houghton Mifflin, 1960, p. 263"
+      />
+    </Notes>
+  </ssn:Name>
+  <ssn:Name conceptId="9000418538" stateText="NEW" recordType="CORPORATE BODY" batchId="2"
+    statusText="Provisional" createdOn="2014/12/27 16:25:08" modifiedOn="2014/12/27 16:25:08"
+    batchName="Harvard" preferredTerm="Gabinetto fotografico (Florence, Italy)"
+    uri="http://forum.jstor.org/oai/ssn/9000418538">
+    <Terms xmlns="" count="4">
+      <Term id="1180134" name="Gabinetto fotografico (Florence, Italy)" preferred="true">
+        <TermSource id="11276962" name="LC Authority File" preferred="true"/>
+      </Term>
+      <Term id="1180135"
+        name="Gabinetto fotografico della Soprintendenza speciale per il Polo museale fiorenti"
+        preferred="false">
+        <TermSource id="11276962" name="LC Authority File" preferred="true"/>
+      </Term>
+      <Term id="1180136" name="Gabinetto fotografico della Soprintendenza alle Gallerie"
+        preferred="false">
+        <TermSource id="11276964" name="Local Sources" preferred="true"/>
+      </Term>
+      <Term id="1180137" name="Soprintendenza alle gallerie - Firenze" preferred="false">
+        <TermSource id="11276964" name="Local Sources" preferred="true"/>
+      </Term>
+    </Terms>
+    <Events xmlns="" count="1">
+      <Event id="11315114" name="location" place="Florence, Italy"/>
+    </Events>
+    <Notes xmlns="" count="1">
+      <Note
+        noteText="Soprintendenza alle gallerie - Firenze: stamp on the back of a photograph held by Biblioteca Berenson, Fototeca (see related Surrogate 124801_2)"
+      />
+    </Notes>
+  </ssn:Name>
+  <ssn:Name conceptId="9000427901" stateText="NEW" recordType="PERSON" batchId="2"
+    statusText="Provisional" createdOn="2015/01/16 6:00:00" modifiedOn="2015/01/16 6:00:00"
+    batchName="Harvard" preferredTerm="Quattrone, Antonio"
+    uri="http://forum.jstor.org/oai/ssn/9000427901">
+    <Nationalities xmlns="" count="1">
+      <Nationality id="11281509" name="Italian" preferred="true"/>
+    </Nationalities>
+    <Terms xmlns="" count="1">
+      <Term id="1572868" name="Quattrone, Antonio" preferred="true">
+        <TermSource id="11276964" name="Local Sources" preferred="true"/>
+      </Term>
+    </Terms>
+    <Biographies xmlns="" count="2">
+      <Biography id="1572869" name="Italian" preferred="true">
+        <birthPlace/>
+        <deathPlace/>
+      </Biography>
+      <Biography id="1572870">
+        <birthPlace/>
+        <deathPlace/>
+      </Biography>
+    </Biographies>
+  </ssn:Name>
+  <ssn:Name conceptId="9000371547" stateText="AUTHORITY" recordType="CORPORATE BODY" batchId="2"
+    statusText="Provisional" createdOn="2014/12/26 12:55:01" modifiedOn="2020/07/09 3:52:24"
+    batchName="Harvard"
+    preferredTerm="I Tatti - The Harvard University Center for Italian Renaissance Studies"
+    uri="http://forum.jstor.org/oai/ssn/9000371547">
+    <Terms xmlns="" count="5">
+      <Term id="1015066"
+        name="I Tatti - The Harvard University Center for Italian Renaissance Studies"
+        preferred="true">
+        <TermSource id="11318641" name="NO SOURCE" preferred="true"/>
+      </Term>
+      <Term id="1015067" name="Villa I Tatti" preferred="false">
+        <TermSource id="11318641" name="NO SOURCE" preferred="true"/>
+      </Term>
+      <Term id="1015068" name="I Tatti" preferred="false">
+        <TermSource id="11318641" name="NO SOURCE" preferred="true"/>
+      </Term>
+      <Term id="1015069" name="Berenson Collection" preferred="false">
+        <TermSource id="11318641" name="NO SOURCE" preferred="true"/>
+      </Term>
+      <Term id="1015070" name="Bernard Berenson Collection" preferred="false">
+        <TermSource id="11318641" name="NO SOURCE" preferred="true"/>
+      </Term>
+    </Terms>
+    <Events xmlns="" count="1">
+      <Event id="11315114" name="location" place="Florence, Italy"/>
+    </Events>
+    <Biographies xmlns="" count="1">
+      <Biography id="1015071" preferred="true">
+        <birthPlace/>
+        <deathPlace/>
+      </Biography>
+    </Biographies>
+    <Notes xmlns="" count="2">
+      <Note noteText="VC"/>
+      <Note noteText="HOLLIS: Villa I Tatti"/>
+    </Notes>
+  </ssn:Name>
+  <ssn:Name conceptId="9000418535" stateText="NEW" recordType="CORPORATE BODY" batchId="2"
+    statusText="Provisional" createdOn="2014/12/27 16:24:27" modifiedOn="2015/01/28 9:31:19"
+    batchName="Harvard" preferredTerm="Centrica s.r.l."
+    uri="http://forum.jstor.org/oai/ssn/9000418535">
+    <Roles xmlns="" count="1">
+      <Role id="11309308" name="company" preferred="true"/>
+    </Roles>
+    <Nationalities xmlns="" count="1">
+      <Nationality id="11281509" name="Italian" preferred="true"/>
+    </Nationalities>
+    <Terms xmlns="" count="1">
+      <Term id="1736550" name="Centrica s.r.l." preferred="true">
+        <Language id="11279872" name="Italian" preferred="true"/>
+        <TermSource id="11276964" name="Local Sources" preferred="true"/>
+      </Term>
+    </Terms>
+    <Events xmlns="" count="1">
+      <Event id="11315114" name="location" place="Florence, Italy"/>
+    </Events>
+    <Biographies xmlns="" count="1">
+      <Biography id="1736551" name="Italian company" preferred="true">
+        <birthPlace/>
+        <deathPlace/>
+      </Biography>
+    </Biographies>
+    <Notes xmlns="" count="1">
+      <Note noteText="Company's website: www.centrica.it"/>
+    </Notes>
+  </ssn:Name>
+  <aat:AAT subjectId="300015637" recordType="C"
+    englishScopeNote="Representations of real individuals that are intended to capture a known or supposed likeness, usually including the face of the person. For representations intended to be anonymous, or of fictional or mythological characters, see &quot;figures (representations).&quot; "
+    preferredTerm="portraits" uri="http://forum.jstor.org/oai/aat/300015637">
+    <Hierarchy xmlns="">
+      <Parent subjectId="300264092" name="Objects Facet">
+        <Child subjectId="300264552" name="Visual and Verbal Communication">
+          <Child subjectId="300179869" name="Visual Works (Hierarchy Name)">
+            <Child subjectId="300191086" name="visual works (Guide Term)">
+              <Child subjectId="300191098" name="visual works by subject type">
+                <Child subjectId="300015637" name="portraits"/>
+              </Child>
+            </Child>
+          </Child>
+        </Child>
+      </Parent>
+    </Hierarchy>
+    <Terms xmlns="">
+      <Term id="1000015637" name="portraits" preferred="P" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000051089" briefCit="AATA database (2002-) "
+            fullCit="Getty Conservation Institute (GCI). database of AATA Online: Abstracts of International Conservation Literature. Los Angeles: GCI, 2002-.       "/>
+          <Source id="2000048512" briefCit="Tesauro de Arte &amp; Arquitectura (2000-)"
+            fullCit="Tesauro de Arte &amp; Arquitectura. Centro de Documentación de Bienes Patrimoniales. Santiago, Chile: 2000-. http://www.aatespanol.cl/HTML/home.htm (accessed 1 January 2005)"/>
+          <Source id="2000024811" briefCit="CDMARC Subjects: LCSH (1988-)"
+            fullCit="CDMARC Subjects: Library of Congress Subject Headings. Washington, DC: Library of Congress, Cataloging Distribution Service, 1988-. Quarterly, with each issue cumulative."/>
+          <Source id="2000035251" briefCit="RILA, Subject Headings (1975-1990)"
+            fullCit="J. Paul Getty Trust. International Repertory of the Literature of Art Subject Headings. Document prepared for internal distribution. Williamstown: J. Paul Getty Trust, 1975-1990."/>
+          <Source id="2000001761" briefCit="Hickerson and Engst, Terms for use in Field 655 (1984)"
+            fullCit="Hickerson, H. Thomas and Elaine D. Engst. Terms for Use in Field 655 of the USMARC Format for Archival and Manuscript Control.  Unpublished. Produced by the Research Libraries Group Task Force on Special Formats, Mountain View, Calif., 1984."/>
+          <Source id="2000043551"
+            briefCit="Worcester Art Museum Library, List of subject headings, unpub. (1976)"
+            fullCit="Worcester Art Museum Library. Document prepared for internal distribution. Worcester Art Museum Library, Worcester, Mass., 1976.  "/>
+          <Source id="2000047206" briefCit="BHA Subject Headings (1985-)"
+            fullCit="Bibliography of the History of Art Subject Headings (BHA): English. J. Paul Getty Trust, Williamstown, Massachusetts,  1985-."/>
+          <Source id="2000046657" briefCit="Avery Index (1963-)"
+            fullCit="The Avery Index to Architectural Periodicals. Boston, MA.: G. K. Hall &amp; Co., 1963-."/>
+          <Source id="2000017031"
+            briefCit="Zinkham and Parker, Descriptive Terms for Graphic Materials (1986)"
+            fullCit="Zinkham, Helena and Elizabeth B. Parker. Descriptive Terms for Graphic Materials: Genre and Physical Characteristic Headings. Washington, D.C.: Library of Congress, 1986."/>
+          <Source id="2000026701" briefCit="Mayer, Dictionary of Art Terms and Techniques (1969)"
+            fullCit="Mayer, Ralph. Dictionary of Art Terms and Techniques. New York: Barnes &amp; Noble Books, 1969."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000088" briefName="GCI"
+            fullName="Getty Conservation Institute, The Getty Center (Los Angeles, California)"/>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+          <Contributor id="10000131" briefName="CDBP-DIBAM"
+            fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"
+          />
+        </Contributors>
+      </Term>
+      <Term id="1000394616" name="ritratti" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70350" description="Italian" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000046698" briefCit="Cassell's Italian Dictionary (1983)"
+            fullCit="Cassell's Italian Dictionary. Compiled by Piero Rebora. New York: Macmillan Publishing Co., 1983."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000472216" name="portretten" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70261" description="Dutch" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000051213" briefCit="AAT-Ned (1994-)"
+            fullCit="AAT Ned: Dutch AAT Translation Project coordinated by Bureau AAT, RKD. The Hague: Netherlands Institute for Art History, 1994-."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000205" briefName="Bureau AAT"
+            fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"
+          />
+        </Contributors>
+      </Term>
+      <Term id="1000407749" name="portret" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70261" description="Dutch" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000050615" briefCit="IFLA Glossary for Art Librarians (1984)"
+            fullCit="IFLA Glossary for Art Librarians. Compiled by Ian Sheridan. Washington, DC: International Federation of Library Associations and Institutions,1984."/>
+          <Source id="2000051213" briefCit="AAT-Ned (1994-)"
+            fullCit="AAT Ned: Dutch AAT Translation Project coordinated by Bureau AAT, RKD. The Hague: Netherlands Institute for Art History, 1994-."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+          <Contributor id="10000205" briefName="Bureau AAT"
+            fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"
+          />
+        </Contributors>
+      </Term>
+      <Term id="1000298896" name="portrait" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+          <Language code="70271" description="French" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000050615" briefCit="IFLA Glossary for Art Librarians (1984)"
+            fullCit="IFLA Glossary for Art Librarians. Compiled by Ian Sheridan. Washington, DC: International Federation of Library Associations and Institutions,1984."/>
+          <Source id="2000046717" briefCit="Getty Vocabulary Program rules"
+            fullCit="Getty Vocabulary Program. Term warranted by AAT Editorial Guidelines."/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000394617" name="ritratto" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70350" description="Italian" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000050615" briefCit="IFLA Glossary for Art Librarians (1984)"
+            fullCit="IFLA Glossary for Art Librarians. Compiled by Ian Sheridan. Washington, DC: International Federation of Library Associations and Institutions,1984."/>
+          <Source id="2000046698" briefCit="Cassell's Italian Dictionary (1983)"
+            fullCit="Cassell's Italian Dictionary. Compiled by Piero Rebora. New York: Macmillan Publishing Co., 1983."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000407750" name="porträtt" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70517" description="Swedish" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000050615" briefCit="IFLA Glossary for Art Librarians (1984)"
+            fullCit="IFLA Glossary for Art Librarians. Compiled by Ian Sheridan. Washington, DC: International Federation of Library Associations and Institutions,1984."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000396563" name="Porträt" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70101" description="German" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000050615" briefCit="IFLA Glossary for Art Librarians (1984)"
+            fullCit="IFLA Glossary for Art Librarians. Compiled by Ian Sheridan. Washington, DC: International Federation of Library Associations and Institutions,1984."/>
+          <Source id="2000045262" briefCit="Grove Dictionary of Art online (1999-2002)"
+            fullCit="Grove Dictionary of Art (online edition). Edited by Jane Turner. New York: Macmillan Publishing Ltd., 1999-2002. http://www.groveart.com (3 December 1999)"
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000241488" name="portraiture" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000042061" briefCit="Webster's Third New International Dictionary (1961)"
+            fullCit="Webster's Third New International Dictionary of the English Language. Unabridged. Springfield, MA: G. &amp; C. Merriam Co., 1961."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000420004" name="retrato de cuerpo entero" preferred="V" historicFlag="C "
+        otherFlags="NA" vernacular="U">
+        <Languages>
+          <Language code="70641" description="Spanish" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000051328" briefCit="Castilla, Guía Museo Nacional de Bellas Artes (2007)"
+            fullCit="Castilla, Guía Museo Nacional de Bellas Artes (2007)"/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000131" briefName="CDBP-DIBAM"
+            fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"
+          />
+        </Contributors>
+      </Term>
+      <Term id="1000420003" name="retrato individual" preferred="V" historicFlag="C "
+        otherFlags="NA" vernacular="U">
+        <Languages>
+          <Language code="70641" description="Spanish" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000048941"
+            briefCit="Walsh, Museo J.Paul Getty: Guía de las colecciones (1995)"
+            fullCit="Walsh, John. Museo J.Paul Getty: Guía de las colecciones. México DF: Artes de México, 1995."/>
+          <Source id="2000051258"
+            briefCit="Sturgis y Clayson, Entender la pintura. Análisis y explicación de los temas de las obras (2002)"
+            fullCit="Sturgis y Clayson, Entender la pintura. Análisis y explicación de los temas de las obras (2002)"
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000131" briefName="CDBP-DIBAM"
+            fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"
+          />
+        </Contributors>
+      </Term>
+      <Term id="1000372342" name="retrato" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70641" description="Spanish" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000051228"
+            briefCit="Fatás y Borrás, Diccionario de términos de Arte y elementos de Arqueología, Heráldica y Numismática (1997)"
+            fullCit="Fatás y Borrás, Diccionario de términos de Arte y elementos de Arqueología, Heráldica y Numismática (1997)"/>
+          <Source id="2000048512" briefCit="Tesauro de Arte &amp; Arquitectura (2000-)"
+            fullCit="Tesauro de Arte &amp; Arquitectura. Centro de Documentación de Bienes Patrimoniales. Santiago, Chile: 2000-. http://www.aatespanol.cl/HTML/home.htm (accessed 1 January 2005)"/>
+          <Source id="2000050615" briefCit="IFLA Glossary for Art Librarians (1984)"
+            fullCit="IFLA Glossary for Art Librarians. Compiled by Ian Sheridan. Washington, DC: International Federation of Library Associations and Institutions,1984."/>
+          <Source id="2000048898" briefCit="Sturgis y Hollis, Entender la pintura (2002)"
+            fullCit="Sturgis, Alexander y Hollis Clayson. Entender la pintura: Análisis y explicación de los temas de las obras. Barcelona: Blume, 2002."/>
+          <Source id="2000051258"
+            briefCit="Sturgis y Clayson, Entender la pintura. Análisis y explicación de los temas de las obras (2002)"
+            fullCit="Sturgis y Clayson, Entender la pintura. Análisis y explicación de los temas de las obras (2002)"/>
+          <Source id="2000050463" briefCit="Fatás Cabeza and Borrás Gualis, Diccionario (1980)"
+            fullCit="Fatás Cabeza, Guillermo and Gonzalo M. Borrás Gualis. Diccionario de Términos de Arte y elementos de Arqueología, heráldica y numismática. Madrid: Alianza, 1980."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+          <Contributor id="10000131" briefName="CDBP-DIBAM"
+            fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"
+          />
+        </Contributors>
+      </Term>
+      <Term id="1000396561" name="retratos" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70641" description="Spanish" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000051214" briefCit="Comité, Plural del término en singular"
+            fullCit="Comité, Plural del término en singular"/>
+          <Source id="2000046717" briefCit="Getty Vocabulary Program rules"
+            fullCit="Getty Vocabulary Program. Term warranted by AAT Editorial Guidelines."/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+          <Contributor id="10000131" briefName="CDBP-DIBAM"
+            fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"
+          />
+        </Contributors>
+      </Term>
+    </Terms>
+    <ScopeNotes xmlns="">
+      <ScopeNote id="97306"
+        notesText="Voorstellingen van personen; gebruik 'figuren (voorstellingen)' voor voorstellingen van denkbeeldige of mythologische figuren.">
+        <Language code="70261" description="Dutch"/>
+        <Contributors>
+          <Contributor id="10000205" briefName="Bureau AAT"
+            fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"
+          />
+        </Contributors>
+      </ScopeNote>
+      <ScopeNote id="61759"
+        notesText="Representaciones de individuos reales que tienen el propósito de capturar una similitud conocida o supuesta; para representaciones de caracteres ficticios o mitológicos, use &quot;figura (representación)&quot;.">
+        <Language code="70641" description="Spanish"/>
+        <Contributors>
+          <Contributor id="10000131" briefName="CDBP-DIBAM"
+            fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"
+          />
+        </Contributors>
+      </ScopeNote>
+      <ScopeNote id="32231"
+        notesText="Representations of real individuals that are intended to capture a known or supposed likeness, usually including the face of the person. For representations intended to be anonymous, or of fictional or mythological characters, see &quot;figures (representations).&quot; ">
+        <Language code="70051" description="English"/>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </ScopeNote>
+    </ScopeNotes>
+    <Sources xmlns="">
+      <Source id="2000052372" briefCit="Bureau AAT, RKD"
+        fullCit="Bureau AAT, Bureau AAT, RKD (Rijksbureau voor Kunsthistorische Documentatie), 's Gravenhage, Nederland"/>
+      <Source id="2000024811" briefCit="CDMARC Subjects: LCSH (1988-)"
+        fullCit="CDMARC Subjects: Library of Congress Subject Headings. Washington, DC: Library of Congress, Cataloging Distribution Service, 1988-. Quarterly, with each issue cumulative."/>
+      <Source id="2000051089" briefCit="AATA database (2002-) "
+        fullCit="Getty Conservation Institute (GCI). database of AATA Online: Abstracts of International Conservation Literature. Los Angeles: GCI, 2002-.       "
+      />
+    </Sources>
+    <Contributors xmlns="">
+      <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+      <Contributor id="10000088" briefName="GCI"
+        fullName="Getty Conservation Institute, The Getty Center (Los Angeles, California)"/>
+      <Contributor id="10000205" briefName="Bureau AAT"
+        fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"/>
+      <Contributor id="10000131" briefName="CDBP-DIBAM"
+        fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"
+      />
+    </Contributors>
+  </aat:AAT>
+  <aat:AAT subjectId="300046106" recordType="C"
+    englishScopeNote="Shaped coverings for the head having a brim and crown, or one of the two."
+    preferredTerm="hats" uri="http://forum.jstor.org/oai/aat/300046106">
+    <Hierarchy xmlns="">
+      <Parent subjectId="300264092" name="Objects Facet">
+        <Child subjectId="300264551" name="Furnishings and Equipment">
+          <Child subjectId="300209261" name="Costume (Hierarchy Name)">
+            <Child subjectId="300178802" name="costume (mode of fashion)">
+              <Child subjectId="300209273" name="costume accessories">
+                <Child subjectId="300209274" name="costume accessories worn">
+                  <Child subjectId="300211601" name="accessories worn on the head">
+                    <Child subjectId="300209285" name="headgear">
+                      <Child subjectId="300046106" name="hats"/>
+                    </Child>
+                  </Child>
+                </Child>
+              </Child>
+            </Child>
+          </Child>
+        </Child>
+      </Parent>
+    </Hierarchy>
+    <Terms xmlns="">
+      <Term id="1000046106" name="hats" preferred="P" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000051089" briefCit="AATA database (2002-) "
+            fullCit="Getty Conservation Institute (GCI). database of AATA Online: Abstracts of International Conservation Literature. Los Angeles: GCI, 2002-.       "/>
+          <Source id="2000043551"
+            briefCit="Worcester Art Museum Library, List of subject headings, unpub. (1976)"
+            fullCit="Worcester Art Museum Library. Document prepared for internal distribution. Worcester Art Museum Library, Worcester, Mass., 1976.  "/>
+          <Source id="2000001681"
+            briefCit="Livandi, Thesaurus of Clothing and Textile Terms, Personal Artifacts (1990)"
+            fullCit="Liivandi, Anu. Thesaurus of Clothing and Textile Terms. pt. 1, Personal Artifacts. Toronto, ON.: Textile Department, Royal Ontario Museum, 1990."/>
+          <Source id="2000031131" briefCit="Oxford English Dictionary (1961)"
+            fullCit="Oxford English Dictionary. New York: Oxford University Press, 1961."/>
+          <Source id="2000041391" briefCit="V&amp;A personal artifacts terminology (1991)"
+            fullCit="Victoria and Albert Museum. List of Personal Artifacts terminology from the Victoria and Albert Museum. Document prepared for internal distribution. Victoria &amp; Albert Museum, London, 1991. "/>
+          <Source id="2000052735" briefCit="Nomenclature 3.0 for Museum Cataloging (2010)"
+            fullCit="Nomenclature 3.0 for Museum Cataloging [3rd edition]. Paul Bourcier and Ruby Rogers, eds. Lanham, Md.: AltaMira Press (2010)."/>
+          <Source id="2000030201"
+            briefCit="National Museum of American History, Dictionary of Costume (n.d.)"
+            fullCit="National Museum of American History, Division of Costume. Dictionary of Costume. Typescript that is to be published at a later date. Washington, D.C.: Division of Costume, National Museum of American History, n.d."/>
+          <Source id="2000008791" briefCit="Kidwella and Steele, Men and Women (1989)"
+            fullCit="Kidwell, Claudia B., and Valerie Steele, eds. Men and Women: Dressing the Part.  Washington, D.C.: Smithsonian Institution Press, 1989."/>
+          <Source id="2000020841" briefCit="Waffen- und Kostüumkünde (1897-)"
+            fullCit="Waffen- und Kostümkünde: Zeitschrift der Gesellschaft für historische Waffen-und Kostümkünde. Munich, West Germany: Deutscher Kunstverlag, 1897-."/>
+          <Source id="2000032681" briefCit="Picken, Fashion Dictionary (1957)"
+            fullCit="Picken, Mary B. The Fashion Dictionary: Fabric, Sewing, and Dress as Expressed in the Language of Fashion. New York: Funk &amp; Wagnalls Co., 1957."/>
+          <Source id="2000047206" briefCit="BHA Subject Headings (1985-)"
+            fullCit="Bibliography of the History of Art Subject Headings (BHA): English. J. Paul Getty Trust, Williamstown, Massachusetts,  1985-."/>
+          <Source id="2000019081" briefCit="Clark, Hats (1982)"
+            fullCit="Clark, Fiona. Hats. The Costume Accessories Series. London: B. T. Batsford, 1982. "/>
+          <Source id="2000010911"
+            briefCit="Detroit Art Registration and Information System Glossary (1980)"
+            fullCit="Detroit Institute of Arts. Detroit Art Registration and Information System Glossary. Detroit, Mich.: Founders Society, Detroit Institute of Arts, 1980."/>
+          <Source id="2000024811" briefCit="CDMARC Subjects: LCSH (1988-)"
+            fullCit="CDMARC Subjects: Library of Congress Subject Headings. Washington, DC: Library of Congress, Cataloging Distribution Service, 1988-. Quarterly, with each issue cumulative."/>
+          <Source id="2000046682" briefCit="Random House Dictionary of the English Language (1987)"
+            fullCit="Random House Dictionary of the English Language, 2nd ed. New York: Random House, 1987."/>
+          <Source id="2000042061" briefCit="Webster's Third New International Dictionary (1961)"
+            fullCit="Webster's Third New International Dictionary of the English Language. Unabridged. Springfield, MA: G. &amp; C. Merriam Co., 1961."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+          <Contributor id="10000088" briefName="GCI"
+            fullName="Getty Conservation Institute, The Getty Center (Los Angeles, California)"/>
+        </Contributors>
+      </Term>
+      <Term id="1000536026" name="sombreros" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70641" description="Spanish" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000051034" briefCit="TAA database (2000-)"
+            fullCit="Tesauro de Arte &amp; Arquitectura database. Centro de Documentación de Bienes Patrimoniales, DIBAM. Santiago, Chile: 2000-. "
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000131" briefName="CDBP-DIBAM"
+            fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"/>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000430940" name="sombrero" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70641" description="Spanish" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000048810" briefCit="Moliner, Diccionario de uso del español (2004)"
+            fullCit="Moliner, María. Diccionario de uso del español. 2 tomos. Madrid: Gredos, 2004."/>
+          <Source id="2000048873"
+            briefCit="Dewey, Sistema de Clasificación Decimal Dewey e Índice Relativo (2000)"
+            fullCit="Dewey, Melvil. Sistema de Clasificación Decimal Dewey e Índice Relativo.  Bogotá: Rojas Eberhard Editores Ltda., 2000."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000131" briefName="CDBP-DIBAM"
+            fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"/>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000484356" name="hoeden" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70261" description="Dutch" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000051213" briefCit="AAT-Ned (1994-)"
+            fullCit="AAT Ned: Dutch AAT Translation Project coordinated by Bureau AAT, RKD. The Hague: Netherlands Institute for Art History, 1994-."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000205" briefName="Bureau AAT"
+            fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"
+          />
+        </Contributors>
+      </Term>
+      <Term id="1000293885" name="hat" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000030301" briefCit="Chenhall, Revised Nomenclature (1988)"
+            fullCit="Chenhall, Robert G.  The Revised Nomenclature for Museum Cataloging: A Revised and Expanded Version of Robert G. Chenhall's System for Classifying Man-Made Objects.  Revised by James R. Blackaby, Patricia Greeno, and the Nomenclature Committee. Nashville, TN.: American Association for State and Local History, 1988. "
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000314867" name="chapeaux" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70271" description="French" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000048434" briefCit="CHIN database (1988-)"
+            fullCit="Canadian Heritage Information Network (CHIN) database. 1988-."/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000159" briefName="CHIN"
+            fullName="Canadian Heritage Information Network (Gatineau, Quebec, Canada)"/>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000484357" name="hoed" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70261" description="Dutch" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000051213" briefCit="AAT-Ned (1994-)"
+            fullCit="AAT Ned: Dutch AAT Translation Project coordinated by Bureau AAT, RKD. The Hague: Netherlands Institute for Art History, 1994-."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000205" briefName="Bureau AAT"
+            fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"
+          />
+        </Contributors>
+      </Term>
+      <Term id="1000314868" name="chapeau" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70271" description="French" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000048434" briefCit="CHIN database (1988-)"
+            fullCit="Canadian Heritage Information Network (CHIN) database. 1988-."/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000159" briefName="CHIN"
+            fullName="Canadian Heritage Information Network (Gatineau, Quebec, Canada)"/>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+    </Terms>
+    <ScopeNotes xmlns="">
+      <ScopeNote id="89164"
+        notesText="Voorgevormde hoofddeksels met een rand en een bol, of één van beide.">
+        <Language code="70261" description="Dutch"/>
+        <Contributors>
+          <Contributor id="10000205" briefName="Bureau AAT"
+            fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"
+          />
+        </Contributors>
+      </ScopeNote>
+      <ScopeNote id="65509"
+        notesText="Cubierta para la cabeza que tiene un borde y coronilla, o uno de los dos.">
+        <Language code="70641" description="Spanish"/>
+        <Contributors>
+          <Contributor id="10000131" briefName="CDBP-DIBAM"
+            fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"
+          />
+        </Contributors>
+      </ScopeNote>
+      <ScopeNote id="37375"
+        notesText="Shaped coverings for the head having a brim and crown, or one of the two.">
+        <Language code="70051" description="English"/>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </ScopeNote>
+    </ScopeNotes>
+    <Sources xmlns="">
+      <Source id="2000052381" briefCit="Van Dale Engels-Nederlands (1989)"
+        fullCit="Van Dale woordenboek Engels-Nederlands, Utrecht ; Antwerpen, 1989"/>
+      <Source id="2000048434" briefCit="CHIN database (1988-)"
+        fullCit="Canadian Heritage Information Network (CHIN) database. 1988-."/>
+      <Source id="2000051089" briefCit="AATA database (2002-) "
+        fullCit="Getty Conservation Institute (GCI). database of AATA Online: Abstracts of International Conservation Literature. Los Angeles: GCI, 2002-.       "
+      />
+    </Sources>
+    <Contributors xmlns="">
+      <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+      <Contributor id="10000159" briefName="CHIN"
+        fullName="Canadian Heritage Information Network (Gatineau, Quebec, Canada)"/>
+      <Contributor id="10000131" briefName="CDBP-DIBAM"
+        fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"/>
+      <Contributor id="10000088" briefName="GCI"
+        fullName="Getty Conservation Institute, The Getty Center (Los Angeles, California)"/>
+      <Contributor id="10000205" briefName="Bureau AAT"
+        fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"
+      />
+    </Contributors>
+  </aat:AAT>
+  <aat:AAT subjectId="300379740" recordType="C"
+    englishScopeNote="Legendary creatures having the head, trunk, and arms of a man joined to the body and legs of a horse. The term derives from early Greek literature where it referred to a savage tribe of Thessaly, who were said to be expert horse riders."
+    preferredTerm="centaurs" uri="http://forum.jstor.org/oai/aat/300379740">
+    <Hierarchy xmlns="">
+      <Parent subjectId="300264089" name="Agents Facet">
+        <Child subjectId="300265673" name="Living Organisms">
+          <Child subjectId="300265677" name="Eukaryota">
+            <Child subjectId="300249395" name="Animalia">
+              <Child subjectId="300375725" name="mythical or legendary beings">
+                <Child subjectId="300379740" name="centaurs"/>
+              </Child>
+            </Child>
+          </Child>
+        </Child>
+      </Parent>
+    </Hierarchy>
+    <Terms xmlns="">
+      <Term id="1000540486" name="centaurs" preferred="P" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000048366" briefCit="Oxford English Dictionary Online (2002-)"
+            fullCit="Oxford English Dictionary Online. Oxford, England: Oxford University, 2002-. http://dictionary.oed.com (10 Jan. 2001)."/>
+          <Source id="2000047504" briefCit="Webster's Third New International Dictionary (2002)"
+            fullCit="Webster's Third New International Dictionary of the English language. Unabridged. Springfield, Massachusetts: Merriam-Webster, 2002."/>
+          <Source id="2000062390" briefCit="J. Paul Getty Museum database for collections (2000-)"
+            fullCit="J. Paul Getty Museum database for collections (2000-)"/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000007" briefName="JPGM"
+            fullName="J. Paul Getty Museum (Malibu, California)"/>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000541162" name="centaur" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000046717" briefCit="Getty Vocabulary Program rules"
+            fullCit="Getty Vocabulary Program. Term warranted by AAT Editorial Guidelines."/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+    </Terms>
+    <ScopeNotes xmlns="">
+      <ScopeNote id="108288"
+        notesText="Legendary creatures having the head, trunk, and arms of a man joined to the body and legs of a horse. The term derives from early Greek literature where it referred to a savage tribe of Thessaly, who were said to be expert horse riders.">
+        <Language code="70051" description="English"/>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </ScopeNote>
+    </ScopeNotes>
+    <Sources xmlns=""/>
+    <Contributors xmlns="">
+      <Contributor id="10000007" briefName="JPGM"
+        fullName="J. Paul Getty Museum (Malibu, California)"/>
+      <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+    </Contributors>
+  </aat:AAT>
+  <aat:AAT subjectId="300127138" recordType="C"
+    englishScopeNote="Photographic prints made by the carbon process, which uses carbon pigment and gelatin to transfer images to a paper support. Carbon prints show a very slight relief and rarely exhibit signs of aging or image deterioration. During the last quarter of the 19th century they were widely used for book illustrations and the commercial reproduction of conventionally made photographs and prints. "
+    preferredTerm="carbon prints" uri="http://forum.jstor.org/oai/aat/300127138">
+    <Hierarchy xmlns="">
+      <Parent subjectId="300264092" name="Objects Facet">
+        <Child subjectId="300264552" name="Visual and Verbal Communication">
+          <Child subjectId="300179869" name="Visual Works (Hierarchy Name)">
+            <Child subjectId="300191086" name="visual works (Guide Term)">
+              <Child subjectId="300191091" name="visual works by medium or technique">
+                <Child subjectId="300046300" name="photographs">
+                  <Child subjectId="300127008" name="photographs by form">
+                    <Child subjectId="300138191" name="positives (photographs)">
+                      <Child subjectId="300127104" name="photographic prints">
+                        <Child subjectId="300138213" name="photographic prints by process">
+                          <Child subjectId="300128234" name="pigment prints">
+                            <Child subjectId="300127138" name="carbon prints"/>
+                          </Child>
+                        </Child>
+                      </Child>
+                    </Child>
+                  </Child>
+                </Child>
+              </Child>
+            </Child>
+          </Child>
+        </Child>
+      </Parent>
+    </Hierarchy>
+    <Terms xmlns="">
+      <Term id="1000127138" name="carbon prints" preferred="P" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000051089" briefCit="AATA database (2002-) "
+            fullCit="Getty Conservation Institute (GCI). database of AATA Online: Abstracts of International Conservation Literature. Los Angeles: GCI, 2002-.       "/>
+          <Source id="2000043491"
+            briefCit="Woodbury, Encyclopaedic Dictionary of Photography (1979)"
+            fullCit="Woodbury, Walter E. The Encyclopaedic Dictionary of Photography. Reprint of original ed., 1898. New York: Arno Press, 1979."/>
+          <Source id="2000018681" briefCit="Haller, Collecting Old Photographs (1979)"
+            fullCit="Haller, Margaret. Collecting Old Photographs. New York: Arco Publishing, 1978."/>
+          <Source id="2000042981" briefCit="Rosenblum, World History of Photography (1981)"
+            fullCit="Rosenblum, Naomi. A World History of Photography. New York: Abbeville Press, 1981."/>
+          <Source id="2000001761" briefCit="Hickerson and Engst, Terms for use in Field 655 (1984)"
+            fullCit="Hickerson, H. Thomas and Elaine D. Engst. Terms for Use in Field 655 of the USMARC Format for Archival and Manuscript Control.  Unpublished. Produced by the Research Libraries Group Task Force on Special Formats, Mountain View, Calif., 1984."/>
+          <Source id="2000034721" briefCit="Reilly, Care and Identification (1986)"
+            fullCit="Reilly, James M. Care and Identification of Nineteenth-Century Photographic Prints. Rochester, N.Y.: Eastman Kodak Co., 1986."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000088" briefName="GCI"
+            fullName="Getty Conservation Institute, The Getty Center (Los Angeles, California)"/>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000458483" name="autotypi" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70517" description="Swedish" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000050615" briefCit="IFLA Glossary for Art Librarians (1984)"
+            fullCit="IFLA Glossary for Art Librarians. Compiled by Ian Sheridan. Washington, DC: International Federation of Library Associations and Institutions,1984."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000458480" name="autotypes" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000020881"
+            briefCit="International Center of Photography Encyclopedia of Photography (1984)"
+            fullCit="International Center of Photography Encyclopedia of Photography. New York: Crown Publishers, 1984."/>
+          <Source id="2000048366" briefCit="Oxford English Dictionary Online (2002-)"
+            fullCit="Oxford English Dictionary Online. Oxford, England: Oxford University, 2002-. http://dictionary.oed.com (10 Jan. 2001)."/>
+          <Source id="2000049829" briefCit="Grove Art Online (2008-)"
+            fullCit="Grove Art Online. Oxford University Press, 2008-. http://www.oxfordartonline.com (1 July 2008)."/>
+          <Source id="2000042981" briefCit="Rosenblum, World History of Photography (1981)"
+            fullCit="Rosenblum, Naomi. A World History of Photography. New York: Abbeville Press, 1981."/>
+          <Source id="2000043491"
+            briefCit="Woodbury, Encyclopaedic Dictionary of Photography (1979)"
+            fullCit="Woodbury, Walter E. The Encyclopaedic Dictionary of Photography. Reprint of original ed., 1898. New York: Arno Press, 1979."/>
+          <Source id="2000011441" briefCit="Haberstich, Photographs Thesaurus for SIBIS (1988)"
+            fullCit="Haberstich, David. Photographs Thesaurus for SIBIS, Including Research by the Smithsonian Photographic Survey Project, with Terms Compiled by Diane Vogt-O'Connor and Constance McCabe. Unpublished Draft. Archives Center, National Museum of American History, Washington, DC, 1988."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000438271" name="impresión al carbón" preferred="V" historicFlag="C "
+        otherFlags="NA" vernacular="U">
+        <Languages>
+          <Language code="70641" description="Spanish" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000048941"
+            briefCit="Walsh, Museo J.Paul Getty: Guía de las colecciones (1995)"
+            fullCit="Walsh, John. Museo J.Paul Getty: Guía de las colecciones. México DF: Artes de México, 1995."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000131" briefName="CDBP-DIBAM"
+            fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"
+          />
+        </Contributors>
+      </Term>
+      <Term id="1000127139" name="carbon photoprints" preferred="V" historicFlag="C "
+        otherFlags="NA" vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000036521" briefCit="O'Connor, Draft photographic thesaurus, unpub. (1987)"
+            fullCit="O'Connor, Diane V. Smithsonian Archives Photo Survey Project: A Draft Photographic Thesaurus. Document prepared for internal distribution. Washington, D.C.: Smithsonian Institution, 1987."/>
+          <Source id="2000017031"
+            briefCit="Zinkham and Parker, Descriptive Terms for Graphic Materials (1986)"
+            fullCit="Zinkham, Helena and Elizabeth B. Parker. Descriptive Terms for Graphic Materials: Genre and Physical Characteristic Headings. Washington, D.C.: Library of Congress, 1986."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000458482" name="autotipia" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70350" description="Italian" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000050615" briefCit="IFLA Glossary for Art Librarians (1984)"
+            fullCit="IFLA Glossary for Art Librarians. Compiled by Ian Sheridan. Washington, DC: International Federation of Library Associations and Institutions,1984."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000491568" name="kooldrukken" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70261" description="Dutch" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000051213" briefCit="AAT-Ned (1994-)"
+            fullCit="AAT Ned: Dutch AAT Translation Project coordinated by Bureau AAT, RKD. The Hague: Netherlands Institute for Art History, 1994-."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000205" briefName="Bureau AAT"
+            fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"
+          />
+        </Contributors>
+      </Term>
+      <Term id="1000299434" name="carbon print" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000046717" briefCit="Getty Vocabulary Program rules"
+            fullCit="Getty Vocabulary Program. Term warranted by AAT Editorial Guidelines."/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000438270" name="impresiones al carbón" preferred="V" historicFlag="C "
+        otherFlags="NA" vernacular="U">
+        <Languages>
+          <Language code="70641" description="Spanish" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000051214" briefCit="Comité, Plural del término en singular"
+            fullCit="Comité, Plural del término en singular"/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000131" briefName="CDBP-DIBAM"
+            fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"
+          />
+        </Contributors>
+      </Term>
+      <Term id="1000491569" name="kooldruk" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70261" description="Dutch" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000051213" briefCit="AAT-Ned (1994-)"
+            fullCit="AAT Ned: Dutch AAT Translation Project coordinated by Bureau AAT, RKD. The Hague: Netherlands Institute for Art History, 1994-."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000205" briefName="Bureau AAT"
+            fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"
+          />
+        </Contributors>
+      </Term>
+      <Term id="1000438272" name="copia al carbón" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70641" description="Spanish" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000051292"
+            briefCit="Rico y Martínez, Diccionario Técnico Akal de conservación y restauración de bienes culturales, español-alemán-inglés-italiano-francés (2003)"
+            fullCit="Rico y Martínez, Diccionario Técnico Akal de conservación y restauración de bienes culturales, español-alemán-inglés-italiano-francés (2003)"
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000131" briefName="CDBP-DIBAM"
+            fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"
+          />
+        </Contributors>
+      </Term>
+      <Term id="1000152899" name="prints, carbon" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000046717" briefCit="Getty Vocabulary Program rules"
+            fullCit="Getty Vocabulary Program. Term warranted by AAT Editorial Guidelines."/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000458481" name="Autotypie" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70101" description="German" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000050615" briefCit="IFLA Glossary for Art Librarians (1984)"
+            fullCit="IFLA Glossary for Art Librarians. Compiled by Ian Sheridan. Washington, DC: International Federation of Library Associations and Institutions,1984."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+    </Terms>
+    <ScopeNotes xmlns="">
+      <ScopeNote id="93038"
+        notesText="Fotografische afdrukken vervaardigd volgens de kooldruktechniek. Hierbij wordt gelatine, dat door middel van een dichromaat lichtgevoelig is gemaakt, samen met een pigment, b.v. koolstof, op pigmentpapier aangebracht. Tijdens de belichting wordt de gelatine in meerdere of mindere mate gelooid, afhankelijk van de zwarting in het negatief. Deze gelooide gelatine is onoplosbaar in water. Om het beeld te kunnen ontwikkelen (waarbij de niet-gelooide gelatine, die zich onder het gelooide laagje bevindt, verwijderd moet worden) moet het belichte pigmentpapier overgedragen worden op een tijdelijke drager. Na de ontwikkeling (in warm water) wordt het beeld, dat spiegelbeeldig op deze tijdelijke drager is aangebracht, nogmaals overgedragen op het uiteindelijke papier. Veel toegepast voor kunstreprodukties.">
+        <Language code="70261" description="Dutch"/>
+        <Contributors>
+          <Contributor id="10000205" briefName="Bureau AAT"
+            fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"
+          />
+        </Contributors>
+      </ScopeNote>
+      <ScopeNote id="33494"
+        notesText="Photographic prints made by the carbon process, which uses carbon pigment and gelatin to transfer images to a paper support. Carbon prints show a very slight relief and rarely exhibit signs of aging or image deterioration. During the last quarter of the 19th century they were widely used for book illustrations and the commercial reproduction of conventionally made photographs and prints. ">
+        <Language code="70051" description="English"/>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </ScopeNote>
+      <ScopeNote id="68691"
+        notesText="úsese para impresiones fotográficas realizadas por el proceso al carbón.">
+        <Language code="70641" description="Spanish"/>
+        <Contributors>
+          <Contributor id="10000131" briefName="CDBP-DIBAM"
+            fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"
+          />
+        </Contributors>
+      </ScopeNote>
+    </ScopeNotes>
+    <Sources xmlns="">
+      <Source id="2000052562" briefCit="Dijk en Zoete, Fotografische Termen en Technieken (1984)"
+        fullCit="Dijk, Jan van en Zoete, Johan de, Fotografische Termen en Technieken: Overzicht van de belangrijkste fotografische procédés. In: Lexicon geschiedenis van de Nederlandse fotografie monografieën en thema-artikelen - dl. 4, Alphen aan den Rijn, 1984"/>
+      <Source id="2000052446" briefCit="[S]Color Fotovaklab"
+        fullCit="[S]Color Fotovaklab, Amsterdam, Anthony Fokkerweg 3, 1059 CM"/>
+      <Source id="2000051089" briefCit="AATA database (2002-) "
+        fullCit="Getty Conservation Institute (GCI). database of AATA Online: Abstracts of International Conservation Literature. Los Angeles: GCI, 2002-.       "
+      />
+    </Sources>
+    <Contributors xmlns="">
+      <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+      <Contributor id="10000205" briefName="Bureau AAT"
+        fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"/>
+      <Contributor id="10000131" briefName="CDBP-DIBAM"
+        fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"/>
+      <Contributor id="10000088" briefName="GCI"
+        fullName="Getty Conservation Institute, The Getty Center (Los Angeles, California)"/>
+    </Contributors>
+  </aat:AAT>
+  <aat:AAT subjectId="300014109" recordType="C"
+    englishScopeNote="Refers generally to all types of thin matted or felted sheets or webs of fiber formed and dried on a fine screen from a pulpy water suspension. The fibers may be animal, such as hair, silk or wool, or mineral, such as asbestos, or synthetic. However most paper is made from cellulosic plant fiber, such as from wood pulp, grass, cotton, linen, and straw."
+    preferredTerm="paper" preferredQualifier="fiber product"
+    uri="http://forum.jstor.org/oai/aat/300014109">
+    <Hierarchy xmlns="">
+      <Parent subjectId="300264091" name="Materials Facet">
+        <Child subjectId="300010357" name="Materials">
+          <Child subjectId="300010358" name="materials">
+            <Child subjectId="300014611" name="materials by form">
+              <Child subjectId="300247256" name="materials by physical form">
+                <Child subjectId="300014023" name="fiber and fiber products">
+                  <Child subjectId="300014062" name="fiber products">
+                    <Child subjectId="300014109" name="paper (fiber product)"/>
+                  </Child>
+                </Child>
+              </Child>
+            </Child>
+          </Child>
+        </Child>
+      </Parent>
+    </Hierarchy>
+    <Terms xmlns="">
+      <Term id="1000014109" name="paper (fiber product)" preferred="P" historicFlag="C "
+        otherFlags="NA" vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000050615" briefCit="IFLA Glossary for Art Librarians (1984)"
+            fullCit="IFLA Glossary for Art Librarians. Compiled by Ian Sheridan. Washington, DC: International Federation of Library Associations and Institutions,1984."/>
+          <Source id="2000046717" briefCit="Getty Vocabulary Program rules"
+            fullCit="Getty Vocabulary Program. Term warranted by AAT Editorial Guidelines."/>
+          <Source id="2000043551"
+            briefCit="Worcester Art Museum Library, List of subject headings, unpub. (1976)"
+            fullCit="Worcester Art Museum Library. Document prepared for internal distribution. Worcester Art Museum Library, Worcester, Mass., 1976.  "/>
+          <Source id="2000017411"
+            briefCit="Jewett, Glossary for Recording the Condition of an Artifact (1980s)"
+            fullCit="Jewett, Deborah F. A Glossary for Recording the Condition of an Artifact. Ottawa, Ont.: Canadian Heritage Information Network, 1980s"/>
+          <Source id="2000021561"
+            briefCit="National Museum of American Art, Media Thesaurus (1980s)"
+            fullCit="National Museum of American Art. Inventory of Sculpture. Media Thesaurus. Document prepared for internal distribution. Washington, D.C.: Smithsonian Institution, 1980s.  "/>
+          <Source id="2000030301" briefCit="Chenhall, Revised Nomenclature (1988)"
+            fullCit="Chenhall, Robert G.  The Revised Nomenclature for Museum Cataloging: A Revised and Expanded Version of Robert G. Chenhall's System for Classifying Man-Made Objects.  Revised by James R. Blackaby, Patricia Greeno, and the Nomenclature Committee. Nashville, TN.: American Association for State and Local History, 1988. "/>
+          <Source id="2000004041"
+            briefCit="Roberts and Etherington, Bookbinding and the Conservation of Books (1982)"
+            fullCit="Roberts, Matt T. and Don Etherington. Bookbinding and the Conservation of Books: A Dictionary of Descriptive Terminology. Washington, D.C.: Library of Congress, 1982."/>
+          <Source id="2000035111" briefCit="RIBA, Architectural Keywords (1982)"
+            fullCit="Royal Institute of British Architects. Architectural Keywords. London: Royal Institute of British Architects Publications, 1982."/>
+          <Source id="2000047206" briefCit="BHA Subject Headings (1985-)"
+            fullCit="Bibliography of the History of Art Subject Headings (BHA): English. J. Paul Getty Trust, Williamstown, Massachusetts,  1985-."/>
+          <Source id="2000024811" briefCit="CDMARC Subjects: LCSH (1988-)"
+            fullCit="CDMARC Subjects: Library of Congress Subject Headings. Washington, DC: Library of Congress, Cataloging Distribution Service, 1988-. Quarterly, with each issue cumulative."/>
+          <Source id="2000046657" briefCit="Avery Index (1963-)"
+            fullCit="The Avery Index to Architectural Periodicals. Boston, MA.: G. K. Hall &amp; Co., 1963-."/>
+          <Source id="2000035251" briefCit="RILA, Subject Headings (1975-1990)"
+            fullCit="J. Paul Getty Trust. International Repertory of the Literature of Art Subject Headings. Document prepared for internal distribution. Williamstown: J. Paul Getty Trust, 1975-1990."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000016" briefName="GRISC"
+            fullName="Getty Research Institute, Special Collections Cataloging, The Getty Center (Los Angeles, California)"/>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000405627" name="Papier" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70101" description="German" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000050615" briefCit="IFLA Glossary for Art Librarians (1984)"
+            fullCit="IFLA Glossary for Art Librarians. Compiled by Ian Sheridan. Washington, DC: International Federation of Library Associations and Institutions,1984."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000407620" name="papper" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70517" description="Swedish" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000050615" briefCit="IFLA Glossary for Art Librarians (1984)"
+            fullCit="IFLA Glossary for Art Librarians. Compiled by Ian Sheridan. Washington, DC: International Federation of Library Associations and Institutions,1984."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000285134" name="papers (fiber products)" preferred="V" historicFlag="C "
+        otherFlags="NA" vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000048328" briefCit="Candidate term"
+            fullCit="Candidate Term. Flag for terms sent in by outside contributors."/>
+          <Source id="2000048366" briefCit="Oxford English Dictionary Online (2002-)"
+            fullCit="Oxford English Dictionary Online. Oxford, England: Oxford University, 2002-. http://dictionary.oed.com (10 Jan. 2001)."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000313530" name="papier" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70261" description="Dutch" preferred="P"/>
+          <Language code="70271" description="French" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000051213" briefCit="AAT-Ned (1994-)"
+            fullCit="AAT Ned: Dutch AAT Translation Project coordinated by Bureau AAT, RKD. The Hague: Netherlands Institute for Art History, 1994-."/>
+          <Source id="2000048434" briefCit="CHIN database (1988-)"
+            fullCit="Canadian Heritage Information Network (CHIN) database. 1988-."/>
+          <Source id="2000050615" briefCit="IFLA Glossary for Art Librarians (1984)"
+            fullCit="IFLA Glossary for Art Librarians. Compiled by Ian Sheridan. Washington, DC: International Federation of Library Associations and Institutions,1984."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000205" briefName="Bureau AAT"
+            fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"/>
+          <Contributor id="10000159" briefName="CHIN"
+            fullName="Canadian Heritage Information Network (Gatineau, Quebec, Canada)"/>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000407622" name="carta" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70350" description="Italian" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000050615" briefCit="IFLA Glossary for Art Librarians (1984)"
+            fullCit="IFLA Glossary for Art Librarians. Compiled by Ian Sheridan. Washington, DC: International Federation of Library Associations and Institutions,1984."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000407623" name="papel" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70641" description="Spanish" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000050615" briefCit="IFLA Glossary for Art Librarians (1984)"
+            fullCit="IFLA Glossary for Art Librarians. Compiled by Ian Sheridan. Washington, DC: International Federation of Library Associations and Institutions,1984."/>
+          <Source id="2000051219" briefCit="Diccionario de términos científicos y técnicos (1981)"
+            fullCit="Diccionario de términos científicos y técnicos (1981)"/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000131" briefName="CDBP-DIBAM"
+            fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"/>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+    </Terms>
+    <ScopeNotes xmlns="">
+      <ScopeNote id="61228"
+        notesText="Se refiere en general a todo tipo de hojas o redes enmarañadas o afieltradas de fibra formadas y secadas en una filtro fino a partir de un compuesto de agua con pulpa. Las fibras pueden ser animales, como pelo, seda o lana o minerales, como asbesto, o bien sintéticas. Sin embargo, la mayor parte del papel es fabricado con fibra celulósica de plantas la pulpa de madera, pasto, lino y paja.  ">
+        <Language code="70641" description="Spanish"/>
+        <Contributors>
+          <Contributor id="10000131" briefName="CDBP-DIBAM"
+            fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"
+          />
+        </Contributors>
+      </ScopeNote>
+      <ScopeNote id="95279"
+        notesText="Verwijst in het algemeen naar alle typen vervilte vellen of weefsels die bestaan uit vezels, die uit in water gedompelde pulp zijn gevormd en gedroogd op een fijn schepraam. De vezels kunnen dierlijk zijn, zoals haar, zijde of wol, of mineraal, bijvoorbeeld asbest. Ook kunstvezels zijn een mogelijkheid. Het meeste papier wordt echter gemaakt van plantenvezels van bijvoorbeeld houtpulp, gras, katoen, linnen en stro.">
+        <Language code="70261" description="Dutch"/>
+        <Contributors>
+          <Contributor id="10000205" briefName="Bureau AAT"
+            fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"
+          />
+        </Contributors>
+      </ScopeNote>
+      <ScopeNote id="45720"
+        notesText="Refers generally to all types of thin matted or felted sheets or webs of fiber formed and dried on a fine screen from a pulpy water suspension. The fibers may be animal, such as hair, silk or wool, or mineral, such as asbestos, or synthetic. However most paper is made from cellulosic plant fiber, such as from wood pulp, grass, cotton, linen, and straw.">
+        <Language code="70051" description="English"/>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </ScopeNote>
+    </ScopeNotes>
+    <Sources xmlns="">
+      <Source id="2000052381" briefCit="Van Dale Engels-Nederlands (1989)"
+        fullCit="Van Dale woordenboek Engels-Nederlands, Utrecht ; Antwerpen, 1989"/>
+      <Source id="2000024811" briefCit="CDMARC Subjects: LCSH (1988-)"
+        fullCit="CDMARC Subjects: Library of Congress Subject Headings. Washington, DC: Library of Congress, Cataloging Distribution Service, 1988-. Quarterly, with each issue cumulative."/>
+      <Source id="2000048434" briefCit="CHIN database (1988-)"
+        fullCit="Canadian Heritage Information Network (CHIN) database. 1988-."/>
+    </Sources>
+    <Contributors xmlns="">
+      <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+      <Contributor id="10000159" briefName="CHIN"
+        fullName="Canadian Heritage Information Network (Gatineau, Quebec, Canada)"/>
+      <Contributor id="10000131" briefName="CDBP-DIBAM"
+        fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"/>
+      <Contributor id="10000205" briefName="Bureau AAT"
+        fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"/>
+      <Contributor id="10000016" briefName="GRISC"
+        fullName="Getty Research Institute, Special Collections Cataloging, The Getty Center (Los Angeles, California)"
+      />
+    </Contributors>
+  </aat:AAT>
+  <aat:AAT subjectId="300262844" recordType="C"
+    englishScopeNote="Marks that are impressed, printed, perforated,or embossed, made by a hard object, especially a die, block, or other tool, on a softer material such as paper or wax."
+    preferredTerm="stamps" preferredQualifier="marks" uri="http://forum.jstor.org/oai/aat/300262844">
+    <Hierarchy xmlns="">
+      <Parent subjectId="300264092" name="Objects Facet">
+        <Child subjectId="300264552" name="Visual and Verbal Communication">
+          <Child subjectId="300026029" name="Information Forms (Hierarchy Name)">
+            <Child subjectId="300220751" name="information forms (Guide Term)">
+              <Child subjectId="300026031" name="document genres">
+                <Child subjectId="300137955" name="document genres by function">
+                  <Child subjectId="300157238" name="identifying markings and symbols">
+                    <Child subjectId="300028744" name="marks (symbols)">
+                      <Child subjectId="300262842" name="marks by process or technique">
+                        <Child subjectId="300262844" name="stamps (marks)"/>
+                      </Child>
+                    </Child>
+                  </Child>
+                </Child>
+              </Child>
+            </Child>
+          </Child>
+        </Child>
+      </Parent>
+    </Hierarchy>
+    <Terms xmlns="">
+      <Term id="1000262844" name="stamps (marks)" preferred="P" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000042061" briefCit="Webster's Third New International Dictionary (1961)"
+            fullCit="Webster's Third New International Dictionary of the English Language. Unabridged. Springfield, MA: G. &amp; C. Merriam Co., 1961."/>
+          <Source id="2000051089" briefCit="AATA database (2002-) "
+            fullCit="Getty Conservation Institute (GCI). database of AATA Online: Abstracts of International Conservation Literature. Los Angeles: GCI, 2002-.       "/>
+          <Source id="2000031141" briefCit="Oxford English Dictionary (1989)"
+            fullCit="Oxford English Dictionary. 2nd edition. Edited by J. A. Simpson and J. C. Weider. 20 vols. New York: Oxford University Press, 1989. "/>
+          <Source id="2000046684" briefCit="Random House Unabridged Dictionary (1993)"
+            fullCit="Flexner, Stuart B. and Leonore C. Hauck, eds. Random House Unabridged Dictionary. 2nd ed. New York: Random House, 1993."/>
+          <Source id="2000047206" briefCit="BHA Subject Headings (1985-)"
+            fullCit="Bibliography of the History of Art Subject Headings (BHA): English. J. Paul Getty Trust, Williamstown, Massachusetts,  1985-."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+          <Contributor id="10000088" briefName="GCI"
+            fullName="Getty Conservation Institute, The Getty Center (Los Angeles, California)"/>
+        </Contributors>
+      </Term>
+      <Term id="1000511177" name="stempelafdrukken" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70261" description="Dutch" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000051213" briefCit="AAT-Ned (1994-)"
+            fullCit="AAT Ned: Dutch AAT Translation Project coordinated by Bureau AAT, RKD. The Hague: Netherlands Institute for Art History, 1994-."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000205" briefName="Bureau AAT"
+            fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"
+          />
+        </Contributors>
+      </Term>
+      <Term id="1000455108" name="estampas" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70641" description="Spanish" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000051214" briefCit="Comité, Plural del término en singular"
+            fullCit="Comité, Plural del término en singular"/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000131" briefName="CDBP-DIBAM"
+            fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"
+          />
+        </Contributors>
+      </Term>
+      <Term id="1000455109" name="estampa" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70641" description="Spanish" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000051327"
+            briefCit="Martín, Diccionario Enciclopédico de las Artes e Industrias Gráficas (1981)"
+            fullCit="Martín, Diccionario Enciclopédico de las Artes e Industrias Gráficas (1981)"/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000131" briefName="CDBP-DIBAM"
+            fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"
+          />
+        </Contributors>
+      </Term>
+      <Term id="1000511178" name="stempelafdruk" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70261" description="Dutch" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000051213" briefCit="AAT-Ned (1994-)"
+            fullCit="AAT Ned: Dutch AAT Translation Project coordinated by Bureau AAT, RKD. The Hague: Netherlands Institute for Art History, 1994-."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000205" briefName="Bureau AAT"
+            fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"
+          />
+        </Contributors>
+      </Term>
+      <Term id="1000275085" name="impressions (marks)" preferred="V" historicFlag="C "
+        otherFlags="NA" vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000031141" briefCit="Oxford English Dictionary (1989)"
+            fullCit="Oxford English Dictionary. 2nd edition. Edited by J. A. Simpson and J. C. Weider. 20 vols. New York: Oxford University Press, 1989. "
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000300926" name="stamp (mark)" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000275087" name="imprints (marks)" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000031141" briefCit="Oxford English Dictionary (1989)"
+            fullCit="Oxford English Dictionary. 2nd edition. Edited by J. A. Simpson and J. C. Weider. 20 vols. New York: Oxford University Press, 1989. "
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+    </Terms>
+    <ScopeNotes xmlns="">
+      <ScopeNote id="101389"
+        notesText="Ingedrukte, opgedrukte, geperforeerde of in reliëf gemaakte merktekens, aangebracht met een hard voorwerp, in het bijzonder een stans, blok of ander gereedschap, op een zachter materiaal zoals papier of was.">
+        <Language code="70261" description="Dutch"/>
+        <Contributors>
+          <Contributor id="10000205" briefName="Bureau AAT"
+            fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"
+          />
+        </Contributors>
+      </ScopeNote>
+      <ScopeNote id="31574"
+        notesText="Marks that are impressed, printed, perforated,or embossed, made by a hard object, especially a die, block, or other tool, on a softer material such as paper or wax.">
+        <Language code="70051" description="English"/>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </ScopeNote>
+      <ScopeNote id="70098"
+        notesText="Marcas estampadas, impresas, perforadas o grabadas en relieve, hechas con un objeto duro, especialmente un troquel, una prensa u otra herramienta, sobre un material más suave como papel o cera.">
+        <Language code="70641" description="Spanish"/>
+        <Contributors>
+          <Contributor id="10000131" briefName="CDBP-DIBAM"
+            fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"
+          />
+        </Contributors>
+      </ScopeNote>
+    </ScopeNotes>
+    <Sources xmlns="">
+      <Source id="2000048328" briefCit="Candidate term"
+        fullCit="Candidate Term. Flag for terms sent in by outside contributors."/>
+      <Source id="2000051089" briefCit="AATA database (2002-) "
+        fullCit="Getty Conservation Institute (GCI). database of AATA Online: Abstracts of International Conservation Literature. Los Angeles: GCI, 2002-.       "/>
+      <Source id="2000052381" briefCit="Van Dale Engels-Nederlands (1989)"
+        fullCit="Van Dale woordenboek Engels-Nederlands, Utrecht ; Antwerpen, 1989"/>
+      <Source id="2000052393" briefCit="Van Dale groot woordenboek (1999)"
+        fullCit="Van Dale groot woordenboek der Nederlandse taal, Utrecht ; Antwerpen, 1999"/>
+    </Sources>
+    <Contributors xmlns="">
+      <Contributor id="10000131" briefName="CDBP-DIBAM"
+        fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"/>
+      <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+      <Contributor id="10000205" briefName="Bureau AAT"
+        fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"/>
+      <Contributor id="10000088" briefName="GCI"
+        fullName="Getty Conservation Institute, The Getty Center (Los Angeles, California)"/>
+    </Contributors>
+  </aat:AAT>
+  <aat:AAT subjectId="300128695" recordType="C"
+    englishScopeNote="Refers to photographic prints having gelatin as the binder, holding silver as the final image material; always black-and-white, though they may be toned to a monochrome hue."
+    preferredTerm="gelatin silver prints" uri="http://forum.jstor.org/oai/aat/300128695">
+    <Hierarchy xmlns="">
+      <Parent subjectId="300264092" name="Objects Facet">
+        <Child subjectId="300264552" name="Visual and Verbal Communication">
+          <Child subjectId="300179869" name="Visual Works (Hierarchy Name)">
+            <Child subjectId="300191086" name="visual works (Guide Term)">
+              <Child subjectId="300191091" name="visual works by medium or technique">
+                <Child subjectId="300046300" name="photographs">
+                  <Child subjectId="300127008" name="photographs by form">
+                    <Child subjectId="300138191" name="positives (photographs)">
+                      <Child subjectId="300127104" name="photographic prints">
+                        <Child subjectId="300138213" name="photographic prints by process">
+                          <Child subjectId="300128695" name="gelatin silver prints"/>
+                        </Child>
+                      </Child>
+                    </Child>
+                  </Child>
+                </Child>
+              </Child>
+            </Child>
+          </Child>
+        </Child>
+      </Parent>
+    </Hierarchy>
+    <Terms xmlns="">
+      <Term id="1000128695" name="gelatin silver prints" preferred="P" historicFlag="C "
+        otherFlags="NA" vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000042981" briefCit="Rosenblum, World History of Photography (1981)"
+            fullCit="Rosenblum, Naomi. A World History of Photography. New York: Abbeville Press, 1981."/>
+          <Source id="2000010211" briefCit="Pitts and Denton, Create, Cataloging Photographs (1984)"
+            fullCit="Pitts, Terence and Sharon Denton. Create: A Procedure Manual for Cataloging Photographs. 2nd ed. Tucson: Center for Creative Photography, University of Arizona, 1984."/>
+          <Source id="2000051089" briefCit="AATA database (2002-) "
+            fullCit="Getty Conservation Institute (GCI). database of AATA Online: Abstracts of International Conservation Literature. Los Angeles: GCI, 2002-.       "
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000088" briefName="GCI"
+            fullName="Getty Conservation Institute, The Getty Center (Los Angeles, California)"/>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000163497" name="prints, gelatin" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000046717" briefCit="Getty Vocabulary Program rules"
+            fullCit="Getty Vocabulary Program. Term warranted by AAT Editorial Guidelines."/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000152954" name="silver prints, gelatin" preferred="V" historicFlag="C "
+        otherFlags="NA" vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000046717" briefCit="Getty Vocabulary Program rules"
+            fullCit="Getty Vocabulary Program. Term warranted by AAT Editorial Guidelines."/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000163498" name="prints, silver gelatin" preferred="V" historicFlag="C "
+        otherFlags="NA" vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000046717" briefCit="Getty Vocabulary Program rules"
+            fullCit="Getty Vocabulary Program. Term warranted by AAT Editorial Guidelines."/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000134933" name="silver gelatin photoprints" preferred="V" historicFlag="C "
+        otherFlags="NA" vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000036521" briefCit="O'Connor, Draft photographic thesaurus, unpub. (1987)"
+            fullCit="O'Connor, Diane V. Smithsonian Archives Photo Survey Project: A Draft Photographic Thesaurus. Document prepared for internal distribution. Washington, D.C.: Smithsonian Institution, 1987."/>
+          <Source id="2000017031"
+            briefCit="Zinkham and Parker, Descriptive Terms for Graphic Materials (1986)"
+            fullCit="Zinkham, Helena and Elizabeth B. Parker. Descriptive Terms for Graphic Materials: Genre and Physical Characteristic Headings. Washington, D.C.: Library of Congress, 1986."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000438535" name="impresión de plata sobre gelatina" preferred="V" historicFlag="C "
+        otherFlags="NA" vernacular="U">
+        <Languages>
+          <Language code="70641" description="Spanish" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000048941"
+            briefCit="Walsh, Museo J.Paul Getty: Guía de las colecciones (1995)"
+            fullCit="Walsh, John. Museo J.Paul Getty: Guía de las colecciones. México DF: Artes de México, 1995."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000131" briefName="CDBP-DIBAM"
+            fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"
+          />
+        </Contributors>
+      </Term>
+      <Term id="1000299396" name="gelatin silver print" preferred="V" historicFlag="C "
+        otherFlags="NA" vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000046717" briefCit="Getty Vocabulary Program rules"
+            fullCit="Getty Vocabulary Program. Term warranted by AAT Editorial Guidelines."/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000166223" name="photoprints, gelatin silver" preferred="V" historicFlag="C "
+        otherFlags="NA" vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000046717" briefCit="Getty Vocabulary Program rules"
+            fullCit="Getty Vocabulary Program. Term warranted by AAT Editorial Guidelines."/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000152953" name="prints, gelatin silver" preferred="V" historicFlag="C "
+        otherFlags="NA" vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000046717" briefCit="Getty Vocabulary Program rules"
+            fullCit="Getty Vocabulary Program. Term warranted by AAT Editorial Guidelines."/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000491821" name="ontwikkelgelatinezilverdruk" preferred="V" historicFlag="C "
+        otherFlags="NA" vernacular="U">
+        <Languages>
+          <Language code="70261" description="Dutch" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000051213" briefCit="AAT-Ned (1994-)"
+            fullCit="AAT Ned: Dutch AAT Translation Project coordinated by Bureau AAT, RKD. The Hague: Netherlands Institute for Art History, 1994-."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000205" briefName="Bureau AAT"
+            fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"
+          />
+        </Contributors>
+      </Term>
+      <Term id="1000438534" name="impresiones de plata sobre gelatina" preferred="V"
+        historicFlag="C " otherFlags="NA" vernacular="U">
+        <Languages>
+          <Language code="70641" description="Spanish" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000051214" briefCit="Comité, Plural del término en singular"
+            fullCit="Comité, Plural del término en singular"/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000131" briefName="CDBP-DIBAM"
+            fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"
+          />
+        </Contributors>
+      </Term>
+      <Term id="1000136333" name="gelatin-silver prints" preferred="V" historicFlag="C "
+        otherFlags="NA" vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000021941" briefCit="Janson, History of Art (1986)"
+            fullCit="Janson, H. W. History of Art. 3d ed. New York: Harry N. Abrams, 1986."/>
+          <Source id="2000029911" briefCit="Newhall, History of Photography (1982)"
+            fullCit="Newhall, Beaumont. The History of Photography: From 1839 to the Present. New York: Museum of Modern Art, 1982."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000134934" name="gelatin prints" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000036521" briefCit="O'Connor, Draft photographic thesaurus, unpub. (1987)"
+            fullCit="O'Connor, Diane V. Smithsonian Archives Photo Survey Project: A Draft Photographic Thesaurus. Document prepared for internal distribution. Washington, D.C.: Smithsonian Institution, 1987."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000128696" name="silver gelatin prints" preferred="V" historicFlag="C "
+        otherFlags="NA" vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000047193" briefCit="Personal Communication"
+            fullCit="Personal Communication. Term warranted by personal correspondence with an expert in the field."/>
+          <Source id="2000046717" briefCit="Getty Vocabulary Program rules"
+            fullCit="Getty Vocabulary Program. Term warranted by AAT Editorial Guidelines."/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000491820" name="ontwikkel gelatinezilverdrukken" preferred="V" historicFlag="C "
+        otherFlags="NA" vernacular="U">
+        <Languages>
+          <Language code="70261" description="Dutch" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000051213" briefCit="AAT-Ned (1994-)"
+            fullCit="AAT Ned: Dutch AAT Translation Project coordinated by Bureau AAT, RKD. The Hague: Netherlands Institute for Art History, 1994-."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000205" briefName="Bureau AAT"
+            fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"
+          />
+        </Contributors>
+      </Term>
+      <Term id="1000134932" name="gelatin silver photoprints" preferred="V" historicFlag="C "
+        otherFlags="NA" vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000017031"
+            briefCit="Zinkham and Parker, Descriptive Terms for Graphic Materials (1986)"
+            fullCit="Zinkham, Helena and Elizabeth B. Parker. Descriptive Terms for Graphic Materials: Genre and Physical Characteristic Headings. Washington, D.C.: Library of Congress, 1986."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+    </Terms>
+    <ScopeNotes xmlns="">
+      <ScopeNote id="93106"
+        notesText="Fotografische afdrukken met gelatine als bindmiddel, met zilver als het materiaal waaruit het beeld uiteindelijk gevormd wordt. Ze zijn altijd zwart/wit, hoewel ze tot een monochrome kleurschakering getoneerd zouden kunnen worden.">
+        <Language code="70261" description="Dutch"/>
+        <Contributors>
+          <Contributor id="10000205" briefName="Bureau AAT"
+            fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"
+          />
+        </Contributors>
+      </ScopeNote>
+      <ScopeNote id="68761"
+        notesText="Úsese para impresiones fotográficas que tienen gelatina como aglutinante, manteniendo la plata como el material final de la imagen; siempre son en blanco y negro, aunque pueden ser coloreadas para obtener un matiz monocromo.">
+        <Language code="70641" description="Spanish"/>
+        <Contributors>
+          <Contributor id="10000131" briefName="CDBP-DIBAM"
+            fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"
+          />
+        </Contributors>
+      </ScopeNote>
+      <ScopeNote id="33663"
+        notesText="Refers to photographic prints having gelatin as the binder, holding silver as the final image material; always black-and-white, though they may be toned to a monochrome hue.">
+        <Language code="70051" description="English"/>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </ScopeNote>
+    </ScopeNotes>
+    <Sources xmlns="">
+      <Source id="2000011441" briefCit="Haberstich, Photographs Thesaurus for SIBIS (1988)"
+        fullCit="Haberstich, David. Photographs Thesaurus for SIBIS, Including Research by the Smithsonian Photographic Survey Project, with Terms Compiled by Diane Vogt-O'Connor and Constance McCabe. Unpublished Draft. Archives Center, National Museum of American History, Washington, DC, 1988."/>
+      <Source id="2000051089" briefCit="AATA database (2002-) "
+        fullCit="Getty Conservation Institute (GCI). database of AATA Online: Abstracts of International Conservation Literature. Los Angeles: GCI, 2002-.       "/>
+      <Source id="2000052565" briefCit="Fotios-Validatielijsten (1998)"
+        fullCit="Landelijk Inventarisatieproject Fotografie van het Nederlands Fotogenootschap, Overzicht Fotios-Validatielijsten II, Rotterdam, 1998"/>
+      <Source id="2000052566"
+        briefCit="Hogenboom, handleiding voor het registreren en uitwisselen (1994"
+        fullCit="Hogenboom, J.,  Voort, J. van de (red.), Voor de zoeker : handleiding voor het registreren en uitwisselen van gegevens over fotocollecties, Den Haag, 1994"/>
+      <Source id="2000052446" briefCit="[S]Color Fotovaklab"
+        fullCit="[S]Color Fotovaklab, Amsterdam, Anthony Fokkerweg 3, 1059 CM"/>
+    </Sources>
+    <Contributors xmlns="">
+      <Contributor id="10000088" briefName="GCI"
+        fullName="Getty Conservation Institute, The Getty Center (Los Angeles, California)"/>
+      <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+      <Contributor id="10000205" briefName="Bureau AAT"
+        fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"/>
+      <Contributor id="10000131" briefName="CDBP-DIBAM"
+        fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"
+      />
+    </Contributors>
+  </aat:AAT>
+</SharedShelf>
