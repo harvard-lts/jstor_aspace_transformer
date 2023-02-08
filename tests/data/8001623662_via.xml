@@ -42,17 +42,6 @@
             <nameElement>Kerr, Justin</nameElement>
             <role>photographer</role>
          </creator>
-         <XXX xmlns:ssio="http://catalog.sharedshelf.artstor.org"
-              xmlns:aat="http://catalog.sharedshelf.artstor.org/aat"
-              xmlns:tgn="http://catalog.sharedshelf.artstor.org/tgn"
-              xmlns:display="http://catalog.sharedshelf.artstor.org/display"
-              xmlns:ns0="http://www.w3.org/2001/XML_Schema-instance"
-              xmlns:ssc="http://catalog.sharedshelf.artstor.org/ssc"
-              xmlns:ssd="http://catalog.sharedshelf.artstor.org/ssd"
-              xmlns:ssn="http://catalog.sharedshelf.artstor.org/ssn"
-              xmlns:ssw="http://catalog.sharedshelf.artstor.org/ssw"
-              xmlns:ssw_lkup="http://catalog.sharedshelf.artstor.org/ssw_lkup"
-              xmlns:xlink="http://www.w3.org/TR/xlink"/>
          <structuredDate>
             <beginDate>1981</beginDate>
             <endDate>1981</endDate>
