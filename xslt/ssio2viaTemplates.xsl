@@ -561,6 +561,9 @@
             select="Material[@supporttype_lkup = 'Medium' or @supporttype_lkup = 'medium']"/>
         <xsl:apply-templates
             select="Material[@supporttype_lkup = 'Support' or @supporttype_lkup = 'support']"/>
+        <xsl:apply-templates
+            select="Material[not(@supporttype_lkup = 'Medium') and not(@supporttype_lkup = 'medium') and not(@supporttype_lkup = 'Support') and not(@supporttype_lkup = 'support')]"
+        />
     </xsl:template>
 
     <xsl:template match="Material[@supporttype_lkup = 'Medium' or @supporttype_lkup = 'medium']">
@@ -580,6 +583,13 @@
                 <xsl:value-of select="@term"/>
             </xsl:element>
         </xsl:if>
+    </xsl:template>
+
+    <xsl:template
+        match="Material[not(@supporttype_lkup = 'Medium') and not(@supporttype_lkup = 'medium') and not(@supporttype_lkup = 'Support') and not(@supporttype_lkup = 'support')]">
+        <xsl:element name="materials">
+            <xsl:value-of select="@term"/>
+        </xsl:element>
     </xsl:template>
 
     <xsl:template match="Techniques">

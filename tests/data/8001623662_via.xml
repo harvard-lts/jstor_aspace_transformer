@@ -1,0 +1,73 @@
+<viaRecord originalAtHarvard="false"
+           primaryImageThumbnailURN="http://nrs.harvard.edu/urn-3:DOAK.RESLIB:37571692">
+   <recordId>8001623662</recordId>
+   <work>
+      <title>
+         <textElement>Polychrome cylinder vase, K1498</textElement>
+      </title>
+      <workType>ceramics (objects)</workType>
+      <workType>vases</workType>
+      <structuredDate>
+         <beginDate>600</beginDate>
+         <endDate>900</endDate>
+      </structuredDate>
+      <structuredDate>
+         <beginDate>600</beginDate>
+         <endDate>900</endDate>
+      </structuredDate>
+      <freeDate>Late Classic period (600-900 CE) (creation)</freeDate>
+      <description>Iconographic elements: bird-headdress, body paint, circular shield, ear ornament, headdress with feather penache, loincloth, male figure, large necklace with rows of beads, platform, ruler, seated dwarf, cape.</description>
+      <description>Ceramic style: Ik'-style vase</description>
+      <description>Mayavase.com Iconographic elements:  dwarf, inscription - other text, ruler, king, cacique, governor, potentate, shield, pakal, spears, throne.</description>
+      <description>Mayavase.com Comments:  fat cacique.</description>
+      <culture>
+         <term>Maya</term>
+      </culture>
+      <materials>clay</materials>
+      <materials>slip (clay)</materials>
+      <materials>pigment</materials>
+      <materials>painting</materials>
+      <notes>Citation/references: Velásquez García, E., 2009. Los vasos de la entidad política de ‘IK: Una aproximación histórico-artística. Estudio sobre las entidades anímicas y el lenguaje gestual y corporal en el arte maya Clásico. Tesis de doctorado en Historia del Arte. México: Universidad Nacional Autónoma de México, Instituto de Investigaciones Estéticas. Pp. 276, 278, 307.</notes>
+      <surrogate componentID="28101685">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="false"
+                xlink:href="http://nrs.harvard.edu/urn-3:DOAK.RESLIB:37571692">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:DOAK.RESLIB:37571692"/>
+         </image>
+         <title>
+            <textElement>Rollout view </textElement>
+         </title>
+         <workType>transparency</workType>
+         <creator>
+            <nameElement>Kerr, Justin</nameElement>
+            <role>photographer</role>
+         </creator>
+         <XXX xmlns:ssio="http://catalog.sharedshelf.artstor.org"
+              xmlns:aat="http://catalog.sharedshelf.artstor.org/aat"
+              xmlns:tgn="http://catalog.sharedshelf.artstor.org/tgn"
+              xmlns:display="http://catalog.sharedshelf.artstor.org/display"
+              xmlns:ns0="http://www.w3.org/2001/XML_Schema-instance"
+              xmlns:ssc="http://catalog.sharedshelf.artstor.org/ssc"
+              xmlns:ssd="http://catalog.sharedshelf.artstor.org/ssd"
+              xmlns:ssn="http://catalog.sharedshelf.artstor.org/ssn"
+              xmlns:ssw="http://catalog.sharedshelf.artstor.org/ssw"
+              xmlns:ssw_lkup="http://catalog.sharedshelf.artstor.org/ssw_lkup"
+              xmlns:xlink="http://www.w3.org/TR/xlink"/>
+         <structuredDate>
+            <beginDate>1981</beginDate>
+            <endDate>1981</endDate>
+         </structuredDate>
+         <freeDate>1981-03-05</freeDate>
+         <repository>
+            <repositoryName>Dumbarton Oaks Research Library and Collection</repositoryName>
+            <number>PHPC002_K1498</number>
+         </repository>
+      </surrogate>
+   </work>
+   <admin>
+      <createDate>2020-04-28</createDate>
+      <updateNote>
+         <updateDate>2020/10/19 09:51:49</updateDate>
+      </updateNote>
+   </admin>
+</viaRecord>

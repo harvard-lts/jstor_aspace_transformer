@@ -1,0 +1,1273 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<SharedShelf xmlns:display="http://catalog.sharedshelf.artstor.org/display"
+  xmlns:ssc="http://catalog.sharedshelf.artstor.org/ssc"
+  xmlns:ssd="http://catalog.sharedshelf.artstor.org/ssd"
+  xmlns:ssn="http://catalog.sharedshelf.artstor.org/ssn"
+  xmlns:ssw="http://catalog.sharedshelf.artstor.org/ssw"
+  xmlns:ssw_lkup="http://catalog.sharedshelf.artstor.org/ssw_lkup"
+  xmlns:tgn="http://catalog.sharedshelf.artstor.org/tgn"
+  xmlns:aat="http://catalog.sharedshelf.artstor.org/aat"
+  xmlns:mfcl="http://catalog.sharedshelf.artstor.org/mfcl"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="http://catalog.sharedshelf.artstor.org"
+  xsi:schemaLocation="http://catalog.sharedshelf.artstor.org http://catalog.sharedshelf.artstor.org/service/schema/SharedShelf_IO.xsd">
+  <ssw:Work lastUpdateDate="2020/10/19 09:51:49" id="8001623662" refid="8001623662"
+    contributor="Harvard" instituteId="10003" uri="http://forum.jstor.org/oai/ssw/8001623662">
+    <Titles xmlns="" tempered="true">
+      <Display>Polychrome cylinder vase, K1498</Display>
+      <Title term="Polychrome cylinder vase, K1498"/>
+    </Titles>
+    <Descriptions xmlns="" tempered="true">
+      <Display>Iconographic elements: bird-headdress, body paint, circular shield, ear ornament, headdress with feather penache, loincloth, male figure, large necklace with rows of beads, platform, ruler, seated dwarf, cape.|Ceramic style: Ik'-style vase|Mayavase.com Iconographic elements:  dwarf, inscription - other text, ruler, king, cacique, governor, potentate, shield, pakal, spears, throne.|Mayavase.com Comments:  fat cacique.</Display>
+      <Description pref="true"
+        term="Iconographic elements: bird-headdress, body paint, circular shield, ear ornament, headdress with feather penache, loincloth, male figure, large necklace with rows of beads, platform, ruler, seated dwarf, cape."/>
+      <Description term="Ceramic style: Ik'-style vase"/>
+      <Description
+        term="Mayavase.com Iconographic elements:  dwarf, inscription - other text, ruler, king, cacique, governor, potentate, shield, pakal, spears, throne."/>
+      <Description term="Mayavase.com Comments:  fat cacique."/>
+    </Descriptions>
+    <WorkTypes xmlns="" tempered="true">
+      <Display>ceramics (objects); vases</Display>
+      <WorkType id="300151343" vocab="AAT" term="ceramics (objects)"
+        uri="http://forum.jstor.org/oai/AAT/300151343"/>
+      <WorkType id="300132254" vocab="AAT" term="vases"
+        uri="http://forum.jstor.org/oai/AAT/300132254"/>
+    </WorkTypes>
+    <Materials xmlns="" tempered="true">
+      <Display>clay; slip (clay); pigment</Display>
+      <Material id="300010439" vocab="AAT" term="clay"
+        uri="http://forum.jstor.org/oai/AAT/300010439"/>
+      <Material id="300010459" vocab="AAT" term="slip (clay)"
+        uri="http://forum.jstor.org/oai/AAT/300010459"/>
+      <Material id="300013109" vocab="AAT" term="pigment"
+        uri="http://forum.jstor.org/oai/AAT/300013109"/>
+    </Materials>
+    <Techniques xmlns="" tempered="true">
+      <Display>painting</Display>
+      <Technique id="11315807" vocab="MFCL" term="painting"
+        uri="http://forum.jstor.org/oai/MFCL/11315807"/>
+    </Techniques>
+    <Cultures xmlns="" tempered="true">
+      <Display>Maya</Display>
+      <Culture id="11282522" vocab="MFCL" term="Maya" uri="http://forum.jstor.org/oai/MFCL/11282522"
+      />
+    </Cultures>
+    <Dates xmlns="" tempered="false">
+      <Display>Late Classic period (600-900 CE) (creation)</Display>
+      <Date startDate="600" endDate="900" type_lkup="workDate"/>
+      <Date startDate="600" endDate="900" type_lkup="creation" type_lkup_id="11314970"/>
+    </Dates>
+    <Notes xmlns="" tempered="true">
+      <Display>Velásquez García, E., 2009. Los vasos de la entidad política de ‘IK: Una aproximación histórico-artística. Estudio sobre las entidades anímicas y el lenguaje gestual y corporal en el arte maya Clásico. Tesis de doctorado en Historia del Arte. México: Universidad Nacional Autónoma de México, Instituto de Investigaciones Estéticas. Pp. 276, 278, 307.</Display>
+      <Note
+        term="Velásquez García, E., 2009. Los vasos de la entidad política de ‘IK: Una aproximación histórico-artística. Estudio sobre las entidades anímicas y el lenguaje gestual y corporal en el arte maya Clásico. Tesis de doctorado en Historia del Arte. México: Universidad Nacional Autónoma de México, Instituto de Investigaciones Estéticas. Pp. 276, 278, 307."
+        type_lkup="citation/references" type_lkup_id="11309099"/>
+    </Notes>
+    <LocalInformation xmlns=""/>
+    <RelatedWorks xmlns=""/>
+    <display:DR id="28101685" representationId="drs:urn-3:DOAK.RESLIB:37571692"
+      lastUpdateDate="2021-09-17T17:32:02+00:00" sequence="1" primary="true" projectId="813"
+      institutionId="10003" createdBy="cojtireni01@doaks.org" updatedBy="r_wendler@harvard.edu"
+      createdDate="2020-04-28T20:09:44+00:00">
+      <DisplayRecord xmlns="">
+        <field_string id="fd_36860_s" description="None" label="Olivia ID" value=""/>
+        <field_string id="fd_36855_s" description="None" label="Image Notes" value=""/>
+        <field_string id="fd_36843_s" description="None" label="Image Accession Date" value=""/>
+        <field_string id="fd_36829_s" description="None" label="Longitude" value=""/>
+        <field_string id="fd_36873_s" description="None" label="Image Source Publication Date"
+          value=""/>
+        <field_string id="fd_36844_s" description="None" label="Image Classification Number"
+          value=""/>
+        <field_string id="fd_36814_s" description="None" label="Image View Description"
+          value="Rollout view "/>
+        <field_string id="fd_36866_s" description="None" label="Image Provider" value=""/>
+        <field_string id="fd_36871_s" description="None" label="Image Source Place Of Publication"
+          value=""/>
+        <field_string id="fd_36878_s" description="None" label="Image Source Notes" value=""/>
+        <field_string id="fd_36848_s" description="None" label="Image Measurements" value=""/>
+        <field_string id="fd_36841_s" description="None" label="Image Collection" value=""/>
+        <field_string id="fd_36876_s" description="None" label="Image Source Reference Number"
+          value=""/>
+        <field_string id="fd_36847_s" description="None" label="Image Start Year" value="1981"/>
+        <field_string id="fd_36853_s" description="None" label="Image Rights" value=""/>
+        <field_string id="fd_36880_s" description="None" label="Volume" value=""/>
+        <field_string id="fd_36828_s" description="None" label="Latitude" value=""/>
+        <field_string id="fd_36859_s" description="None" label="Additional Formats" value=""/>
+        <field_string id="fd_36837_s" description="None" label="Image Date" value="1981-03-05"/>
+        <field_string id="fd_36874_s" description="None" label="Image Source Date" value=""/>
+        <field_string id="fd_36872_s" description="None" label="Image Source Publisher" value=""/>
+        <field_string id="fd_36862_s" description="None" label="Image Requester" value=""/>
+        <field_string id="fd_36870_s" description="None" label="Image Source Edition" value=""/>
+        <field_string id="fd_36849_s" description="None" label="Image End Year" value="1981"/>
+        <field_string id="fd_36883_s" description="None" label="Page Plate Number" value=""/>
+        <field_string id="fd_36869_s" description="None" label="Image Source Author" value=""/>
+        <field_string id="fd_36881_s" description="None" label="Issue Number" value=""/>
+        <field_string id="fd_36830_s" description="None" label="Elevation" value=""/>
+        <field_string id="fd_36882_s" description="None" label="Year" value=""/>
+        <field_string id="fd_36868_s" description="None" label="Image Source Alternate Title"
+          value=""/>
+        <field_string id="fd_36867_s" description="None" label="Image Source Title" value=""/>
+        <field_string id="fd_36861_s" description="None" label="Olivia Record Info" value=""/>
+        <field_string id="fd_36854_s" description="None" label="Image Credit" value=""/>
+        <field_string id="fd_36856_s" description="None" label="In House Notes" value=""/>
+        <field_string id="fd_36864_s" description="None" label="Image Source ID" value=""/>
+        <field_string id="fd_36815_s" description="None" label="Image View Type" value=""/>
+        <field_string id="fd_36879_s" description="None" label="Image Source Record Created By"
+          value=""/>
+        <field_string id="fd_36877_s" description="None" label="Image Source Call Numbers" value=""/>
+        <field_string id="fd_36875_s" description="None" label="Image Source Series Title" value=""/>
+        <field_string id="fd_36842_s" description="None" label="Image Accession Number"
+          value="PHPC002_K1498"/>
+        <field_boolean id="fd_36857_b" description="None" label="Send To Harvard" value="true"/>
+        <field_lookup id="fd_36885_lookup" description="None" label="Image Technique">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_36840_lookup" description="None" label="Image Repository">
+          <display>Dumbarton Oaks Research Library and Collection</display>
+          <linkedField id="9000425321" revision="-1" source_id="9000425321"
+            preferredTerm="Dumbarton Oaks Research Library and Collection" conceptLevel="Community"
+            institutionName="Harvard" uri="http://forum.jstor.org/oai/SSN/9000425321">
+            <allTerms>Dumbarton Oaks Research Library and Collection|Image Collections and Fieldwork Archives, Dumbarton Oaks Research Library and Collection</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_36836_lookup" description="None" label="Photographer">
+          <display>Kerr, Justin</display>
+          <linkedField id="9000474038" revision="-1" source_id="9000474038"
+            preferredTerm="Kerr, Justin" conceptLevel="Local" institutionName="Harvard"
+            uri="http://forum.jstor.org/oai/SSN/9000474038">
+            <allTerms>Kerr, Justin</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_36850_lookup" description="None" label="Image Materials">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_36865_mfcl_lookup" description="None" label="Image Source Type">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_36851_lookup" description="None" label="Image Support">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_36845_mfcl_lookup" description="None" label="Image Type">
+          <display>transparency</display>
+          <linkedField id="11319128" revision="-1" source_id="11319128" preferredTerm="transparency"
+            institutionName="Harvard">
+            <allTerms>transparency</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_36852_lookup" description="None" label="Image Subject">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_36846_lookup" description="None" label="Image Associated Name">
+          <display/>
+        </field_lookup>
+      </DisplayRecord>
+      <AssetGroups xmlns="">
+        <Group id="276082"/>
+      </AssetGroups>
+      <Publications xmlns="">
+        <Publication asset_id="28101685" publishing_target_id="794"/>
+      </Publications>
+      <Assets xmlns="" filename="urn-3:DOAK.RESLIB:37571692">
+        <Asset id="None" size="DRS_full" uri="http://nrs.harvard.edu/urn-3:DOAK.RESLIB:37571692"
+          restriction="f"/>
+        <Asset id="None" size="DRS_thumb" uri="http://nrs.harvard.edu/urn-3:DOAK.RESLIB:37571692"
+          restriction="f"/>
+      </Assets>
+      <Targets xmlns="">
+        <Target name="OAI" status_lkup="Published" url="#" description="OAI"
+          publishDate="2021-08-03T14:47:14+00:00"/>
+      </Targets>
+    </display:DR>
+  </ssw:Work>
+  <ssn:Name conceptId="9000425321" stateText="AUTHORITY" recordType="CORPORATE BODY" batchId="2"
+    statusText="Provisional" createdOn="2014/12/28 11:41:23" modifiedOn="2017/03/16 8:40:36"
+    batchName="Harvard" preferredTerm="Dumbarton Oaks Research Library and Collection"
+    uri="http://forum.jstor.org/oai/ssn/9000425321">
+    <Terms xmlns="" count="2">
+      <Term id="1765761"
+        name="Image Collections and Fieldwork Archives, Dumbarton Oaks Research Library and Collection"
+        preferred="false">
+        <TermSource id="11318641" name="NO SOURCE" preferred="true"/>
+      </Term>
+      <Term id="1765762" name="Dumbarton Oaks Research Library and Collection" preferred="true">
+        <TermSource id="11276964" name="Local Sources" preferred="true"/>
+      </Term>
+    </Terms>
+    <Biographies xmlns="" count="1">
+      <Biography id="1765763" preferred="true">
+        <birthPlace/>
+        <deathPlace/>
+      </Biography>
+    </Biographies>
+  </ssn:Name>
+  <ssn:Name conceptId="9000474038" stateText="NEW" recordType="PERSON" statusText="Provisional"
+    createdOn="2018/02/07 11:24:58" modifiedOn="2018/02/07 11:24:58" preferredTerm="Kerr, Justin"
+    uri="http://forum.jstor.org/oai/ssn/9000474038">
+    <Terms xmlns="" count="1">
+      <Term id="1712098" name="Kerr, Justin" preferred="true">
+        <TermSource id="11253412" name="LCNAF Library of Congress Name Authority File  [n.d.]"
+          preferred="true"/>
+      </Term>
+    </Terms>
+    <Biographies xmlns="" count="1">
+      <Biography id="1712099" preferred="true">
+        <birthPlace/>
+        <deathPlace/>
+      </Biography>
+    </Biographies>
+  </ssn:Name>
+  <aat:AAT subjectId="300151343" recordType="C"
+    englishScopeNote="Refers in general to articles made of ceramic, which is any of various hard, brittle, heat-resistant and corrosion-resistant materials made by shaping and then firing a nonmetallic mineral, such as clay, at a high temperature. Earthenware, porcelain, and brick products are examples of ceramics."
+    preferredTerm="ceramics" preferredQualifier="objects"
+    uri="http://forum.jstor.org/oai/aat/300151343">
+    <Hierarchy xmlns="">
+      <Parent subjectId="300264092" name="Objects Facet">
+        <Child subjectId="300185711" name="Object Genres (Hierarchy Name)">
+          <Child subjectId="300185712" name="object genres (Guide Term)">
+            <Child subjectId="300190712" name="object genres by material">
+              <Child subjectId="300151343" name="ceramics (objects)"/>
+            </Child>
+          </Child>
+        </Child>
+      </Parent>
+    </Hierarchy>
+    <Terms xmlns="">
+      <Term id="1000151343" name="ceramics (objects)" preferred="P" historicFlag="C "
+        otherFlags="NA" vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000024811" briefCit="CDMARC Subjects: LCSH (1988-)"
+            fullCit="CDMARC Subjects: Library of Congress Subject Headings. Washington, DC: Library of Congress, Cataloging Distribution Service, 1988-. Quarterly, with each issue cumulative."/>
+          <Source id="2000033441" briefCit="Hamer, Potter's Dictionary (1986)"
+            fullCit="Hamer, Frank and Janet Hamer. The Potter's Dictionary of Materials and Techniques.  Revised ed. New York: Watson-Guptill Publications, 1986."/>
+          <Source id="2000011591" briefCit="Boger, Dictionary of World Pottery and Porcelain (1971)"
+            fullCit="Boger, Louise A. The Dictionary of World Pottery and Porcelain. New York: Charles Scribner's Sons, 1971."/>
+          <Source id="2000035251" briefCit="RILA, Subject Headings (1975-1990)"
+            fullCit="J. Paul Getty Trust. International Repertory of the Literature of Art Subject Headings. Document prepared for internal distribution. Williamstown: J. Paul Getty Trust, 1975-1990."/>
+          <Source id="2000050615" briefCit="IFLA Glossary for Art Librarians (1984)"
+            fullCit="IFLA Glossary for Art Librarians. Compiled by Ian Sheridan. Washington, DC: International Federation of Library Associations and Institutions,1984."/>
+          <Source id="2000048328" briefCit="Candidate term"
+            fullCit="Candidate Term. Flag for terms sent in by outside contributors."/>
+          <Source id="2000043551"
+            briefCit="Worcester Art Museum Library, List of subject headings, unpub. (1976)"
+            fullCit="Worcester Art Museum Library. Document prepared for internal distribution. Worcester Art Museum Library, Worcester, Mass., 1976.  "/>
+          <Source id="2000046682" briefCit="Random House Dictionary of the English Language (1987)"
+            fullCit="Random House Dictionary of the English Language, 2nd ed. New York: Random House, 1987."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000406578" name="ceramica" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000050615" briefCit="IFLA Glossary for Art Librarians (1984)"
+            fullCit="IFLA Glossary for Art Librarians. Compiled by Ian Sheridan. Washington, DC: International Federation of Library Associations and Institutions,1984."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000406576" name="keramiek" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+          <Language code="70261" description="Dutch" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000050615" briefCit="IFLA Glossary for Art Librarians (1984)"
+            fullCit="IFLA Glossary for Art Librarians. Compiled by Ian Sheridan. Washington, DC: International Federation of Library Associations and Institutions,1984."/>
+          <Source id="2000051213" briefCit="AAT-Ned (1994-)"
+            fullCit="AAT Ned: Dutch AAT Translation Project coordinated by Bureau AAT, RKD. The Hague: Netherlands Institute for Art History, 1994-."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000205" briefName="Bureau AAT"
+            fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"/>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000406580" name="keramik" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70517" description="Swedish" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000050615" briefCit="IFLA Glossary for Art Librarians (1984)"
+            fullCit="IFLA Glossary for Art Librarians. Compiled by Ian Sheridan. Washington, DC: International Federation of Library Associations and Institutions,1984."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000151347" name="ceramic ware" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000021251"
+            briefCit="Savage and Newman, Illustrated Dictionary of Ceramics (1974)"
+            fullCit="Savage, George and Harold Newman. An Illustrated Dictionary of Ceramics. New York: Van Nostrand Reinhold Co., 1974."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000304640" name="Keramik" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70101" description="German" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000008301" briefCit="Cassell's German Dictionary (1978)"
+            fullCit="Cassell's German-English English-German Dictionary. Edited by Harold T. Betteridge.  New York: Macmillan Publishing Co., 1978."/>
+          <Source id="2000050615" briefCit="IFLA Glossary for Art Librarians (1984)"
+            fullCit="IFLA Glossary for Art Librarians. Compiled by Ian Sheridan. Washington, DC: International Federation of Library Associations and Institutions,1984."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000151345" name="keramics" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000033441" briefCit="Hamer, Potter's Dictionary (1986)"
+            fullCit="Hamer, Frank and Janet Hamer. The Potter's Dictionary of Materials and Techniques.  Revised ed. New York: Watson-Guptill Publications, 1986."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000440126" name="cerámicas" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70641" description="Spanish" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000051214" briefCit="Comité, Plural del término en singular"
+            fullCit="Comité, Plural del término en singular"/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000131" briefName="CDBP-DIBAM"
+            fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"
+          />
+        </Contributors>
+      </Term>
+      <Term id="1000304639" name="cerámica" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70641" description="Spanish" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000051224"
+            briefCit="Fleming y Honour, Diccionario de Artes Decorativas (1987)"
+            fullCit="Fleming y Honour, Diccionario de Artes Decorativas (1987)"/>
+          <Source id="2000046767" briefCit="Cassell's Spanish Dictionary (1990)"
+            fullCit="Cassell's Spanish-English Dictionary. Revised by Anthony Gooch and Angel García de Paredes. New York: Macmillan Publishing Company, 1990."/>
+          <Source id="2000050615" briefCit="IFLA Glossary for Art Librarians (1984)"
+            fullCit="IFLA Glossary for Art Librarians. Compiled by Ian Sheridan. Washington, DC: International Federation of Library Associations and Institutions,1984."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000131" briefName="CDBP-DIBAM"
+            fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"/>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000493471" name="ceramiek" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70261" description="Dutch" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000051213" briefCit="AAT-Ned (1994-)"
+            fullCit="AAT Ned: Dutch AAT Translation Project coordinated by Bureau AAT, RKD. The Hague: Netherlands Institute for Art History, 1994-."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000205" briefName="Bureau AAT"
+            fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"
+          />
+        </Contributors>
+      </Term>
+      <Term id="1000406577" name="céramique" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70271" description="French" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000050615" briefCit="IFLA Glossary for Art Librarians (1984)"
+            fullCit="IFLA Glossary for Art Librarians. Compiled by Ian Sheridan. Washington, DC: International Federation of Library Associations and Institutions,1984."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+    </Terms>
+    <ScopeNotes xmlns="">
+      <ScopeNote id="92103"
+        notesText="Verwijst in het algemeen naar artikelen van keramiek, dat wil zeggen van een hard, breekbaar, hittebestendig en corrosiebestendig materiaal zoals klei, dat eerst wordt gevormd en vervolgens bij hoge temperatuur wordt gebakken.">
+        <Language code="70261" description="Dutch"/>
+        <Contributors>
+          <Contributor id="10000205" briefName="Bureau AAT"
+            fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"
+          />
+        </Contributors>
+      </ScopeNote>
+      <ScopeNote id="43428"
+        notesText="Refers in general to articles made of ceramic, which is any of various hard, brittle, heat-resistant and corrosion-resistant materials made by shaping and then firing a nonmetallic mineral, such as clay, at a high temperature. Earthenware, porcelain, and brick products are examples of ceramics.">
+        <Language code="70051" description="English"/>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </ScopeNote>
+      <ScopeNote id="75740" notesText="Usado generalmente para artículos hechos de cerámica.">
+        <Language code="70641" description="Spanish"/>
+        <Contributors>
+          <Contributor id="10000131" briefName="CDBP-DIBAM"
+            fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"
+          />
+        </Contributors>
+      </ScopeNote>
+    </ScopeNotes>
+    <Sources xmlns="">
+      <Source id="2000052372" briefCit="Bureau AAT, RKD"
+        fullCit="Bureau AAT, Bureau AAT, RKD (Rijksbureau voor Kunsthistorische Documentatie), 's Gravenhage, Nederland"/>
+      <Source id="2000035251" briefCit="RILA, Subject Headings (1975-1990)"
+        fullCit="J. Paul Getty Trust. International Repertory of the Literature of Art Subject Headings. Document prepared for internal distribution. Williamstown: J. Paul Getty Trust, 1975-1990."
+      />
+    </Sources>
+    <Contributors xmlns="">
+      <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+      <Contributor id="10000131" briefName="CDBP-DIBAM"
+        fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"/>
+      <Contributor id="10000205" briefName="Bureau AAT"
+        fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"
+      />
+    </Contributors>
+  </aat:AAT>
+  <aat:AAT subjectId="300132254" recordType="C"
+    englishScopeNote="Vessels of varying shape and size but which are usually taller than they are wide, varying greatly in actual form and use. In modern usage, typically refers to vessels for displaying flowers. When referring to ancient art, often refers to any ceramic or metal vessel in a range of shapes and used to hold liquids, grain, or another substance."
+    preferredTerm="vases" uri="http://forum.jstor.org/oai/aat/300132254">
+    <Hierarchy xmlns="">
+      <Parent subjectId="300264092" name="Objects Facet">
+        <Child subjectId="300264551" name="Furnishings and Equipment">
+          <Child subjectId="300045611" name="Containers (Hierarchy Name)">
+            <Child subjectId="300197197" name="containers (receptacles)">
+              <Child subjectId="300194507" name="containers by form">
+                <Child subjectId="300193015" name="vessels (containers)">
+                  <Child subjectId="300132254" name="vases"/>
+                </Child>
+              </Child>
+            </Child>
+          </Child>
+        </Child>
+      </Parent>
+    </Hierarchy>
+    <Terms xmlns="">
+      <Term id="1000132254" name="vases" preferred="P" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="P"/>
+          <Language code="70271" description="French" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000046682" briefCit="Random House Dictionary of the English Language (1987)"
+            fullCit="Random House Dictionary of the English Language, 2nd ed. New York: Random House, 1987."/>
+          <Source id="2000047206" briefCit="BHA Subject Headings (1985-)"
+            fullCit="Bibliography of the History of Art Subject Headings (BHA): English. J. Paul Getty Trust, Williamstown, Massachusetts,  1985-."/>
+          <Source id="2000051089" briefCit="AATA database (2002-) "
+            fullCit="Getty Conservation Institute (GCI). database of AATA Online: Abstracts of International Conservation Literature. Los Angeles: GCI, 2002-.       "/>
+          <Source id="2000035251" briefCit="RILA, Subject Headings (1975-1990)"
+            fullCit="J. Paul Getty Trust. International Repertory of the Literature of Art Subject Headings. Document prepared for internal distribution. Williamstown: J. Paul Getty Trust, 1975-1990."/>
+          <Source id="2000021291" briefCit="Newman, Illustrated Dictionary of Silverware (1987)"
+            fullCit="Newman, Harold. An Illustrated Dictionary of Silverware. London: Thames &amp; Hudson, 1987."/>
+          <Source id="2000048328" briefCit="Candidate term"
+            fullCit="Candidate Term. Flag for terms sent in by outside contributors."/>
+          <Source id="2000024811" briefCit="CDMARC Subjects: LCSH (1988-)"
+            fullCit="CDMARC Subjects: Library of Congress Subject Headings. Washington, DC: Library of Congress, Cataloging Distribution Service, 1988-. Quarterly, with each issue cumulative."/>
+          <Source id="2000048512" briefCit="Tesauro de Arte &amp; Arquitectura (2000-)"
+            fullCit="Tesauro de Arte &amp; Arquitectura. Centro de Documentación de Bienes Patrimoniales. Santiago, Chile: 2000-. http://www.aatespanol.cl/HTML/home.htm (accessed 1 January 2005)"/>
+          <Source id="2000046657" briefCit="Avery Index (1963-)"
+            fullCit="The Avery Index to Architectural Periodicals. Boston, MA.: G. K. Hall &amp; Co., 1963-."/>
+          <Source id="2000042061" briefCit="Webster's Third New International Dictionary (1961)"
+            fullCit="Webster's Third New International Dictionary of the English Language. Unabridged. Springfield, MA: G. &amp; C. Merriam Co., 1961."/>
+          <Source id="2000043551"
+            briefCit="Worcester Art Museum Library, List of subject headings, unpub. (1976)"
+            fullCit="Worcester Art Museum Library. Document prepared for internal distribution. Worcester Art Museum Library, Worcester, Mass., 1976.  "/>
+          <Source id="2000052735" briefCit="Nomenclature 3.0 for Museum Cataloging (2010)"
+            fullCit="Nomenclature 3.0 for Museum Cataloging [3rd edition]. Paul Bourcier and Ruby Rogers, eds. Lanham, Md.: AltaMira Press (2010)."/>
+          <Source id="2000048434" briefCit="CHIN database (1988-)"
+            fullCit="Canadian Heritage Information Network (CHIN) database. 1988-."/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000088" briefName="GCI"
+            fullName="Getty Conservation Institute, The Getty Center (Los Angeles, California)"/>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+          <Contributor id="10000159" briefName="CHIN"
+            fullName="Canadian Heritage Information Network (Gatineau, Quebec, Canada)"/>
+          <Contributor id="10000131" briefName="CDBP-DIBAM"
+            fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"
+          />
+        </Contributors>
+      </Term>
+      <Term id="1000492048" name="vaas" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70261" description="Dutch" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000051213" briefCit="AAT-Ned (1994-)"
+            fullCit="AAT Ned: Dutch AAT Translation Project coordinated by Bureau AAT, RKD. The Hague: Netherlands Institute for Art History, 1994-."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000205" briefName="Bureau AAT"
+            fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"
+          />
+        </Contributors>
+      </Term>
+      <Term id="1000296934" name="vase" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+          <Language code="70271" description="French" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000030301" briefCit="Chenhall, Revised Nomenclature (1988)"
+            fullCit="Chenhall, Robert G.  The Revised Nomenclature for Museum Cataloging: A Revised and Expanded Version of Robert G. Chenhall's System for Classifying Man-Made Objects.  Revised by James R. Blackaby, Patricia Greeno, and the Nomenclature Committee. Nashville, TN.: American Association for State and Local History, 1988. "/>
+          <Source id="2000048434" briefCit="CHIN database (1988-)"
+            fullCit="Canadian Heritage Information Network (CHIN) database. 1988-."/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000159" briefName="CHIN"
+            fullName="Canadian Heritage Information Network (Gatineau, Quebec, Canada)"/>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000359241" name="vaso" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70641" description="Spanish" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000048810" briefCit="Moliner, Diccionario de uso del español (2004)"
+            fullCit="Moliner, María. Diccionario de uso del español. 2 tomos. Madrid: Gredos, 2004."/>
+          <Source id="2000049644" briefCit="Moliner, Diccionario de uso del español (1990)"
+            fullCit="Moliner, María. Diccionario de uso del español. 2 vols. Madrid: Gredos, 1990."/>
+          <Source id="2000048512" briefCit="Tesauro de Arte &amp; Arquitectura (2000-)"
+            fullCit="Tesauro de Arte &amp; Arquitectura. Centro de Documentación de Bienes Patrimoniales. Santiago, Chile: 2000-. http://www.aatespanol.cl/HTML/home.htm (accessed 1 January 2005)"
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+          <Contributor id="10000131" briefName="CDBP-DIBAM"
+            fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"
+          />
+        </Contributors>
+      </Term>
+      <Term id="1000395884" name="vasos" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70641" description="Spanish" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000046717" briefCit="Getty Vocabulary Program rules"
+            fullCit="Getty Vocabulary Program. Term warranted by AAT Editorial Guidelines."/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000438771" name="vaso florero" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70641" description="Spanish" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000051218" briefCit="Alvarez et al., Diccionario de la decoración (1968)"
+            fullCit="Alvarez et al., Diccionario de la decoración (1968)"/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000131" briefName="CDBP-DIBAM"
+            fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"
+          />
+        </Contributors>
+      </Term>
+      <Term id="1000438772" name="florero" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70641" description="Spanish" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000048810" briefCit="Moliner, Diccionario de uso del español (2004)"
+            fullCit="Moliner, María. Diccionario de uso del español. 2 tomos. Madrid: Gredos, 2004."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000131" briefName="CDBP-DIBAM"
+            fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"
+          />
+        </Contributors>
+      </Term>
+      <Term id="1000492047" name="vazen" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70261" description="Dutch" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000051213" briefCit="AAT-Ned (1994-)"
+            fullCit="AAT Ned: Dutch AAT Translation Project coordinated by Bureau AAT, RKD. The Hague: Netherlands Institute for Art History, 1994-."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000205" briefName="Bureau AAT"
+            fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"
+          />
+        </Contributors>
+      </Term>
+    </Terms>
+    <ScopeNotes xmlns="">
+      <ScopeNote id="68801"
+        notesText="Vasijas de diferentes formas y tamaños pero que generalmente son más altas que anchas y a menudo cilíndricas. Usadas principalmente para sostener flores o para propósitos ornamentales. ">
+        <Language code="70641" description="Spanish"/>
+        <Contributors>
+          <Contributor id="10000131" briefName="CDBP-DIBAM"
+            fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"
+          />
+        </Contributors>
+      </ScopeNote>
+      <ScopeNote id="93159"
+        notesText="Houders om bloemen in te zetten of voor de sier; van verschillende vorm en grootte, meestal hoger dan breed, veelal cilindrisch.">
+        <Language code="70261" description="Dutch"/>
+        <Contributors>
+          <Contributor id="10000205" briefName="Bureau AAT"
+            fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"
+          />
+        </Contributors>
+      </ScopeNote>
+      <ScopeNote id="34302"
+        notesText="Vessels of varying shape and size but which are usually taller than they are wide, varying greatly in actual form and use. In modern usage, typically refers to vessels for displaying flowers. When referring to ancient art, often refers to any ceramic or metal vessel in a range of shapes and used to hold liquids, grain, or another substance.">
+        <Language code="70051" description="English"/>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </ScopeNote>
+    </ScopeNotes>
+    <Sources xmlns="">
+      <Source id="2000052435" briefCit="Ren, De Zilvercollectie (1997)"
+        fullCit="Ren, L. de, De Zilvercollectie, Antwerpen, 1997"/>
+      <Source id="2000035251" briefCit="RILA, Subject Headings (1975-1990)"
+        fullCit="J. Paul Getty Trust. International Repertory of the Literature of Art Subject Headings. Document prepared for internal distribution. Williamstown: J. Paul Getty Trust, 1975-1990."/>
+      <Source id="2000052373" briefCit="Van Dale groot woordenboek (1994)"
+        fullCit="Van Dale groot woordenboek der Nederlandse taal, Utrecht ; Antwerpen, 1994"/>
+      <Source id="2000030301" briefCit="Chenhall, Revised Nomenclature (1988)"
+        fullCit="Chenhall, Robert G.  The Revised Nomenclature for Museum Cataloging: A Revised and Expanded Version of Robert G. Chenhall's System for Classifying Man-Made Objects.  Revised by James R. Blackaby, Patricia Greeno, and the Nomenclature Committee. Nashville, TN.: American Association for State and Local History, 1988. "/>
+      <Source id="2000048434" briefCit="CHIN database (1988-)"
+        fullCit="Canadian Heritage Information Network (CHIN) database. 1988-."/>
+      <Source id="2000051089" briefCit="AATA database (2002-) "
+        fullCit="Getty Conservation Institute (GCI). database of AATA Online: Abstracts of International Conservation Literature. Los Angeles: GCI, 2002-.       "
+      />
+    </Sources>
+    <Contributors xmlns="">
+      <Contributor id="10000159" briefName="CHIN"
+        fullName="Canadian Heritage Information Network (Gatineau, Quebec, Canada)"/>
+      <Contributor id="10000205" briefName="Bureau AAT"
+        fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"/>
+      <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+      <Contributor id="10000088" briefName="GCI"
+        fullName="Getty Conservation Institute, The Getty Center (Los Angeles, California)"/>
+      <Contributor id="10000131" briefName="CDBP-DIBAM"
+        fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"
+      />
+    </Contributors>
+  </aat:AAT>
+  <aat:AAT subjectId="300010439" recordType="C"
+    englishScopeNote="Naturally occurring sediments that are produced by chemical actions resulting during the weathering of rocks. It is often the term applied to all earths that form a paste with water and harden when heated."
+    preferredTerm="clay" uri="http://forum.jstor.org/oai/aat/300010439">
+    <Hierarchy xmlns="">
+      <Parent subjectId="300264091" name="Materials Facet">
+        <Child subjectId="300010357" name="Materials">
+          <Child subjectId="300010358" name="materials">
+            <Child subjectId="300212963" name="materials by composition">
+              <Child subjectId="300010360" name="inorganic material">
+                <Child subjectId="300010439" name="clay"/>
+              </Child>
+            </Child>
+          </Child>
+        </Child>
+      </Parent>
+    </Hierarchy>
+    <Terms xmlns="">
+      <Term id="1000010439" name="clay" preferred="P" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000027681" briefCit="Brady and Clauser, Materials Handbook (1986)"
+            fullCit="Brady, George S. and Henry R. Clauser. Materials Handbook. 12th ed. New York: McGraw-Hill Book Co., 1986."/>
+          <Source id="2000046657" briefCit="Avery Index (1963-)"
+            fullCit="The Avery Index to Architectural Periodicals. Boston, MA.: G. K. Hall &amp; Co., 1963-."/>
+          <Source id="2000026701" briefCit="Mayer, Dictionary of Art Terms and Techniques (1969)"
+            fullCit="Mayer, Ralph. Dictionary of Art Terms and Techniques. New York: Barnes &amp; Noble Books, 1969."/>
+          <Source id="2000043261" briefCit="Ketchum, Pottery and Porcelain (1983)"
+            fullCit="Ketchum, William C., Jr. Pottery and Porcelain. The Knopf Collectors' Guides to American Antiques. New York: Alfred A. Knopf, 1983. "/>
+          <Source id="2000035251" briefCit="RILA, Subject Headings (1975-1990)"
+            fullCit="J. Paul Getty Trust. International Repertory of the Literature of Art Subject Headings. Document prepared for internal distribution. Williamstown: J. Paul Getty Trust, 1975-1990."/>
+          <Source id="2000033721"
+            briefCit="Museum Prototype Project, Medium of Objects Frequency Report (1985)"
+            fullCit="Museum Prototype Project. Medium of Objects Frequency Report. Document prepared for internal distribution. Marina del Rey: J. Paul Getty Trust, 1985."/>
+          <Source id="2000024811" briefCit="CDMARC Subjects: LCSH (1988-)"
+            fullCit="CDMARC Subjects: Library of Congress Subject Headings. Washington, DC: Library of Congress, Cataloging Distribution Service, 1988-. Quarterly, with each issue cumulative."/>
+          <Source id="2000025371" briefCit="Andrews, Living Materials (1983)"
+            fullCit="Andrews, Oliver. Living Materials: A Sculptor's Handbook. Berkeley and Los Angeles: University of California Press, 1983."/>
+          <Source id="2000048433" briefCit="Terraroli, Italian Art Ceramics: 1900-1950 (2007)"
+            fullCit="Terraroli, Valerio. Italian Art Ceramics: 1900-1950. Milano: Skira, 2007."/>
+          <Source id="2000035111" briefCit="RIBA, Architectural Keywords (1982)"
+            fullCit="Royal Institute of British Architects. Architectural Keywords. London: Royal Institute of British Architects Publications, 1982."/>
+          <Source id="2000021561"
+            briefCit="National Museum of American Art, Media Thesaurus (1980s)"
+            fullCit="National Museum of American Art. Inventory of Sculpture. Media Thesaurus. Document prepared for internal distribution. Washington, D.C.: Smithsonian Institution, 1980s.  "/>
+          <Source id="2000051089" briefCit="AATA database (2002-) "
+            fullCit="Getty Conservation Institute (GCI). database of AATA Online: Abstracts of International Conservation Literature. Los Angeles: GCI, 2002-.       "/>
+          <Source id="2000027671" briefCit="Brady and Clauser, Materials Handbook (1977)"
+            fullCit="Brady, George S. and Henry R. Clauser. Materials Handbook. 11th ed. New York: McGraw-Hill Book Co., 1977."/>
+          <Source id="2000021261"
+            briefCit="Savage and Newman, Illustrated Dictionary of Ceramics (1989)"
+            fullCit="Savage, George and Harold Newman. An Illustrated Dictionary of Ceramics. Reprint of 3rd ed. London: Thames &amp; Hudson, 1989."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000088" briefName="GCI"
+            fullName="Getty Conservation Institute, The Getty Center (Los Angeles, California)"/>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000265651" name="clay, native" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000046717" briefCit="Getty Vocabulary Program rules"
+            fullCit="Getty Vocabulary Program. Term warranted by AAT Editorial Guidelines."/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000316783" name="argiles" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70271" description="French" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000046717" briefCit="Getty Vocabulary Program rules"
+            fullCit="Getty Vocabulary Program. Term warranted by AAT Editorial Guidelines."/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000469596" name="klei" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70261" description="Dutch" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000051213" briefCit="AAT-Ned (1994-)"
+            fullCit="AAT Ned: Dutch AAT Translation Project coordinated by Bureau AAT, RKD. The Hague: Netherlands Institute for Art History, 1994-."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000205" briefName="Bureau AAT"
+            fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"
+          />
+        </Contributors>
+      </Term>
+      <Term id="1000312983" name="argile" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70271" description="French" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000048434" briefCit="CHIN database (1988-)"
+            fullCit="Canadian Heritage Information Network (CHIN) database. 1988-."/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000159" briefName="CHIN"
+            fullName="Canadian Heritage Information Network (Gatineau, Quebec, Canada)"/>
+        </Contributors>
+      </Term>
+      <Term id="1000416944" name="arcilla" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70641" description="Spanish" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000049631" briefCit="Mayer, Materiales y técnicas del arte, 1985"
+            fullCit="Mayer, R. Materiales y técnicas del arte. Madrid: Blume, 1985."/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000131" briefName="CDBP-DIBAM"
+            fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"
+          />
+        </Contributors>
+      </Term>
+      <Term id="1000265652" name="native clay" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000027671" briefCit="Brady and Clauser, Materials Handbook (1977)"
+            fullCit="Brady, George S. and Henry R. Clauser. Materials Handbook. 11th ed. New York: McGraw-Hill Book Co., 1977."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000516016" name="arcillas" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70641" description="Spanish" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000051034" briefCit="TAA database (2000-)"
+            fullCit="Tesauro de Arte &amp; Arquitectura database. Centro de Documentación de Bienes Patrimoniales, DIBAM. Santiago, Chile: 2000-. "
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000131" briefName="CDBP-DIBAM"
+            fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"/>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000285022" name="clays" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000046717" briefCit="Getty Vocabulary Program rules"
+            fullCit="Getty Vocabulary Program. Term warranted by AAT Editorial Guidelines."/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+    </Terms>
+    <ScopeNotes xmlns="">
+      <ScopeNote id="97717"
+        notesText="Een aarden materiaal waarvan waterhoudend aluminiumsilicaat het belangrijkste bestanddeel is. Het wordt kneedbaar als het nat is en permanent gehard nadat het is gebakken.">
+        <Language code="70261" description="Dutch"/>
+        <Contributors>
+          <Contributor id="10000205" briefName="Bureau AAT"
+            fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"
+          />
+        </Contributors>
+      </ScopeNote>
+      <ScopeNote id="46963"
+        notesText="Naturally occurring sediments that are produced by chemical actions resulting during the weathering of rocks. It is often the term applied to all earths that form a paste with water and harden when heated.">
+        <Language code="70051" description="English"/>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </ScopeNote>
+      <ScopeNote id="60275"
+        notesText="Sedimentos que se encuentran en la naturaleza producida por acción química durante la intemperización de las rocas; a menudo se aplica el término a todo tipo de tierra que forma una pasta con agua y que se endurece al calentarla.">
+        <Language code="70641" description="Spanish"/>
+        <Contributors>
+          <Contributor id="10000131" briefName="CDBP-DIBAM"
+            fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"
+          />
+        </Contributors>
+      </ScopeNote>
+    </ScopeNotes>
+    <Sources xmlns="">
+      <Source id="2000051089" briefCit="AATA database (2002-) "
+        fullCit="Getty Conservation Institute (GCI). database of AATA Online: Abstracts of International Conservation Literature. Los Angeles: GCI, 2002-.       "/>
+      <Source id="2000052372" briefCit="Bureau AAT, RKD"
+        fullCit="Bureau AAT, Bureau AAT, RKD (Rijksbureau voor Kunsthistorische Documentatie), 's Gravenhage, Nederland"/>
+      <Source id="2000048434" briefCit="CHIN database (1988-)"
+        fullCit="Canadian Heritage Information Network (CHIN) database. 1988-."/>
+      <Source id="2000048433" briefCit="Terraroli, Italian Art Ceramics: 1900-1950 (2007)"
+        fullCit="Terraroli, Valerio. Italian Art Ceramics: 1900-1950. Milano: Skira, 2007."/>
+    </Sources>
+    <Contributors xmlns="">
+      <Contributor id="10000088" briefName="GCI"
+        fullName="Getty Conservation Institute, The Getty Center (Los Angeles, California)"/>
+      <Contributor id="10000131" briefName="CDBP-DIBAM"
+        fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"/>
+      <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+      <Contributor id="10000205" briefName="Bureau AAT"
+        fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"/>
+      <Contributor id="10000159" briefName="CHIN"
+        fullName="Canadian Heritage Information Network (Gatineau, Quebec, Canada)"/>
+    </Contributors>
+  </aat:AAT>
+  <aat:AAT subjectId="300010459" recordType="C"
+    englishScopeNote="Fine clay which, when mixed with water, results in a fluid with a creamlike consistency, used in casting, glazing, decorating, and repairing ceramic wares; in its natural state, it contains sufficient flux to be used for glazing and decorating without the need of additives. For ceramic glaze with a high content of slip, use &quot;slip glaze.&quot;"
+    preferredTerm="slip" preferredQualifier="clay" uri="http://forum.jstor.org/oai/aat/300010459">
+    <Hierarchy xmlns="">
+      <Parent subjectId="300264091" name="Materials Facet">
+        <Child subjectId="300010357" name="Materials">
+          <Child subjectId="300010358" name="materials">
+            <Child subjectId="300212963" name="materials by composition">
+              <Child subjectId="300010360" name="inorganic material">
+                <Child subjectId="300010439" name="clay">
+                  <Child subjectId="300159863" name="clay by composition or origin">
+                    <Child subjectId="300010459" name="slip (clay)"/>
+                  </Child>
+                </Child>
+              </Child>
+            </Child>
+          </Child>
+        </Child>
+      </Parent>
+    </Hierarchy>
+    <Terms xmlns="">
+      <Term id="1000010459" name="slip (clay)" preferred="P" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000021251"
+            briefCit="Savage and Newman, Illustrated Dictionary of Ceramics (1974)"
+            fullCit="Savage, George and Harold Newman. An Illustrated Dictionary of Ceramics. New York: Van Nostrand Reinhold Co., 1974."/>
+          <Source id="2000025371" briefCit="Andrews, Living Materials (1983)"
+            fullCit="Andrews, Oliver. Living Materials: A Sculptor's Handbook. Berkeley and Los Angeles: University of California Press, 1983."/>
+          <Source id="2000051089" briefCit="AATA database (2002-) "
+            fullCit="Getty Conservation Institute (GCI). database of AATA Online: Abstracts of International Conservation Literature. Los Angeles: GCI, 2002-.       "/>
+          <Source id="2000046684" briefCit="Random House Unabridged Dictionary (1993)"
+            fullCit="Flexner, Stuart B. and Leonore C. Hauck, eds. Random House Unabridged Dictionary. 2nd ed. New York: Random House, 1993."/>
+          <Source id="2000026701" briefCit="Mayer, Dictionary of Art Terms and Techniques (1969)"
+            fullCit="Mayer, Ralph. Dictionary of Art Terms and Techniques. New York: Barnes &amp; Noble Books, 1969."/>
+          <Source id="2000031141" briefCit="Oxford English Dictionary (1989)"
+            fullCit="Oxford English Dictionary. 2nd edition. Edited by J. A. Simpson and J. C. Weider. 20 vols. New York: Oxford University Press, 1989. "/>
+          <Source id="2000042061" briefCit="Webster's Third New International Dictionary (1961)"
+            fullCit="Webster's Third New International Dictionary of the English Language. Unabridged. Springfield, MA: G. &amp; C. Merriam Co., 1961."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000088" briefName="GCI"
+            fullName="Getty Conservation Institute, The Getty Center (Los Angeles, California)"/>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000416954" name="pasta líquida" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70641" description="Spanish" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000051219" briefCit="Diccionario de términos científicos y técnicos (1981)"
+            fullCit="Diccionario de términos científicos y técnicos (1981)"/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000131" briefName="CDBP-DIBAM"
+            fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"
+          />
+        </Contributors>
+      </Term>
+      <Term id="1000169920" name="clay, slip" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000046717" briefCit="Getty Vocabulary Program rules"
+            fullCit="Getty Vocabulary Program. Term warranted by AAT Editorial Guidelines."/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000043434" name="slip clay" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000026701" briefCit="Mayer, Dictionary of Art Terms and Techniques (1969)"
+            fullCit="Mayer, Ralph. Dictionary of Art Terms and Techniques. New York: Barnes &amp; Noble Books, 1969."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000416955" name="engobe" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70641" description="Spanish" preferred="N"/>
+          <Language code="70261" description="Dutch" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000051213" briefCit="AAT-Ned (1994-)"
+            fullCit="AAT Ned: Dutch AAT Translation Project coordinated by Bureau AAT, RKD. The Hague: Netherlands Institute for Art History, 1994-."/>
+          <Source id="2000051292"
+            briefCit="Rico y Martínez, Diccionario Técnico Akal de conservación y restauración de bienes culturales, español-alemán-inglés-italiano-francés (2003)"
+            fullCit="Rico y Martínez, Diccionario Técnico Akal de conservación y restauración de bienes culturales, español-alemán-inglés-italiano-francés (2003)"
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000205" briefName="Bureau AAT"
+            fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"/>
+          <Contributor id="10000131" briefName="CDBP-DIBAM"
+            fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"
+          />
+        </Contributors>
+      </Term>
+      <Term id="1000285211" name="slips (clays)" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000046717" briefCit="Getty Vocabulary Program rules"
+            fullCit="Getty Vocabulary Program. Term warranted by AAT Editorial Guidelines."/>
+          <Source id="2000024811" briefCit="CDMARC Subjects: LCSH (1988-)"
+            fullCit="CDMARC Subjects: Library of Congress Subject Headings. Washington, DC: Library of Congress, Cataloging Distribution Service, 1988-. Quarterly, with each issue cumulative."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000310975" name="ingobbio" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000047813" briefCit="Fuga, Artists' Techniques and Materials (2006)"
+            fullCit="Fuga, Antonella. Artists' Techniques and Materials. Translated from the Italian by Rosanna M. Giammanco Frongia. Guide to Imagery series. Los Angeles: J. Paul Getty Museum, 2006."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+    </Terms>
+    <ScopeNotes xmlns="">
+      <ScopeNote id="97725"
+        notesText="Fijne klei die, wanneer gemengd met water, resulteert in een romige vloeistof; wordt gebruikt bij het gieten, glazuren, versieren en repareren van keramiek. In de oorspronkelijke staat is het flexibel genoeg om te kunnen worden gebruikt voor glazuren en versieren zonder de hulp van toevoegsels. Gebruik 'slibglazuur' voor keramisch glazuur met een hoog gehalte aan slib.">
+        <Language code="70261" description="Dutch"/>
+        <Contributors>
+          <Contributor id="10000205" briefName="Bureau AAT"
+            fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"
+          />
+        </Contributors>
+      </ScopeNote>
+      <ScopeNote id="46855"
+        notesText="Fine clay which, when mixed with water, results in a fluid with a creamlike consistency, used in casting, glazing, decorating, and repairing ceramic wares; in its natural state, it contains sufficient flux to be used for glazing and decorating without the need of additives. For ceramic glaze with a high content of slip, use &quot;slip glaze.&quot;">
+        <Language code="70051" description="English"/>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </ScopeNote>
+      <ScopeNote id="60284"
+        notesText="Arcilla fina que, al ser mezclada con agua, se convierte en un fluido de consistencia cremosa utilizada en moldes, revestimiento, decoración y reparación de piezas cerámicas. En estado natural, contiene suficiente fundente para ser utilizada en revestimiento y decoración sin necesidad de aditivos. Para un vidriado de cerámica con un alto contenido de barbotina, úsese &quot;vidriado de barbotina.&quot;">
+        <Language code="70641" description="Spanish"/>
+        <Contributors>
+          <Contributor id="10000131" briefName="CDBP-DIBAM"
+            fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"
+          />
+        </Contributors>
+      </ScopeNote>
+    </ScopeNotes>
+    <Sources xmlns="">
+      <Source id="2000048433" briefCit="Terraroli, Italian Art Ceramics: 1900-1950 (2007)"
+        fullCit="Terraroli, Valerio. Italian Art Ceramics: 1900-1950. Milano: Skira, 2007."/>
+      <Source id="2000051089" briefCit="AATA database (2002-) "
+        fullCit="Getty Conservation Institute (GCI). database of AATA Online: Abstracts of International Conservation Literature. Los Angeles: GCI, 2002-.       "/>
+      <Source id="2000052381" briefCit="Van Dale Engels-Nederlands (1989)"
+        fullCit="Van Dale woordenboek Engels-Nederlands, Utrecht ; Antwerpen, 1989"/>
+      <Source id="2000047813" briefCit="Fuga, Artists' Techniques and Materials (2006)"
+        fullCit="Fuga, Antonella. Artists' Techniques and Materials. Translated from the Italian by Rosanna M. Giammanco Frongia. Guide to Imagery series. Los Angeles: J. Paul Getty Museum, 2006."
+      />
+    </Sources>
+    <Contributors xmlns="">
+      <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+      <Contributor id="10000088" briefName="GCI"
+        fullName="Getty Conservation Institute, The Getty Center (Los Angeles, California)"/>
+      <Contributor id="10000131" briefName="CDBP-DIBAM"
+        fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"/>
+      <Contributor id="10000205" briefName="Bureau AAT"
+        fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"
+      />
+    </Contributors>
+  </aat:AAT>
+  <aat:AAT subjectId="300013109" recordType="C"
+    englishScopeNote="Any relatively insoluble organic, inorganic, natural or artificial substance that imparts a color to another substance or mixture and always appears as the same specific color when viewed in white light. It is the constituent of paint or ink that provides the color. Distinguished from a dye, which is soluble in the vehicle, a pigment is insoluble in the vehicle, but instead is held in a suspension."
+    preferredTerm="pigment" uri="http://forum.jstor.org/oai/aat/300013109">
+    <Hierarchy xmlns="">
+      <Parent subjectId="300264091" name="Materials Facet">
+        <Child subjectId="300010357" name="Materials">
+          <Child subjectId="300010358" name="materials">
+            <Child subjectId="300014692" name="materials by function">
+              <Child subjectId="300013026" name="colorant (material)">
+                <Child subjectId="300013109" name="pigment"/>
+              </Child>
+            </Child>
+          </Child>
+        </Child>
+      </Parent>
+    </Hierarchy>
+    <Terms xmlns="">
+      <Term id="1000013109" name="pigment" preferred="P" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="P"/>
+          <Language code="70271" description="French" preferred="P"/>
+          <Language code="70261" description="Dutch" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000046682" briefCit="Random House Dictionary of the English Language (1987)"
+            fullCit="Random House Dictionary of the English Language, 2nd ed. New York: Random House, 1987."/>
+          <Source id="2000051089" briefCit="AATA database (2002-) "
+            fullCit="Getty Conservation Institute (GCI). database of AATA Online: Abstracts of International Conservation Literature. Los Angeles: GCI, 2002-.       "/>
+          <Source id="2000048434" briefCit="CHIN database (1988-)"
+            fullCit="Canadian Heritage Information Network (CHIN) database. 1988-."/>
+          <Source id="2000010761" briefCit="Dictionary of Architecture and Construction (1975)"
+            fullCit="Dictionary of Architecture and Construction. Edited by Cyril M. Harris. New York: McGraw-Hill Book Co., 1975."/>
+          <Source id="2000039561" briefCit="Tate Gallery, Completing the Picture (1982)"
+            fullCit="Tate Gallery. Completing the Picture: Materials and Techniques of Twenty-Six Paintings in the Tate Gallery. London: Tate Gallery, 1982."/>
+          <Source id="2000042061" briefCit="Webster's Third New International Dictionary (1961)"
+            fullCit="Webster's Third New International Dictionary of the English Language. Unabridged. Springfield, MA: G. &amp; C. Merriam Co., 1961."/>
+          <Source id="2000051213" briefCit="AAT-Ned (1994-)"
+            fullCit="AAT Ned: Dutch AAT Translation Project coordinated by Bureau AAT, RKD. The Hague: Netherlands Institute for Art History, 1994-."/>
+          <Source id="2000026701" briefCit="Mayer, Dictionary of Art Terms and Techniques (1969)"
+            fullCit="Mayer, Ralph. Dictionary of Art Terms and Techniques. New York: Barnes &amp; Noble Books, 1969."/>
+          <Source id="2000033721"
+            briefCit="Museum Prototype Project, Medium of Objects Frequency Report (1985)"
+            fullCit="Museum Prototype Project. Medium of Objects Frequency Report. Document prepared for internal distribution. Marina del Rey: J. Paul Getty Trust, 1985."/>
+          <Source id="2000016491" briefCit="Gettens and Stout, Painting Materials (1966)"
+            fullCit="Gettens, Rutherford J. and George L. Stout. Painting Materials: A Short Encyclopaedia.  Reprint. New York: Dover Publications, 1966."/>
+          <Source id="2000042701" briefCit="Wehlte, Materials and Techniques of Painting (1982)"
+            fullCit="Wehlte, Kurt. The Materials and Techniques of Painting. Translated by Ursus Dix. New York: Van Nostrand Reinhold Co., 1982. "/>
+          <Source id="2000001231"
+            briefCit="Mayer, Artist's Handbook of Materials and Techniques (1981)"
+            fullCit="Mayer, Ralph. The Artist's Handbook of Materials and Techniques. 4th ed. New York: Viking Press, 1981."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000088" briefName="GCI"
+            fullName="Getty Conservation Institute, The Getty Center (Los Angeles, California)"/>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+          <Contributor id="10000159" briefName="CHIN"
+            fullName="Canadian Heritage Information Network (Gatineau, Quebec, Canada)"/>
+          <Contributor id="10000205" briefName="Bureau AAT"
+            fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"
+          />
+        </Contributors>
+      </Term>
+      <Term id="1000418665" name="pigmento" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70641" description="Spanish" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000051219" briefCit="Diccionario de términos científicos y técnicos (1981)"
+            fullCit="Diccionario de términos científicos y técnicos (1981)"/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000131" briefName="CDBP-DIBAM"
+            fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"
+          />
+        </Contributors>
+      </Term>
+      <Term id="1000303661" name="pigments" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+          <Language code="70271" description="French" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000046717" briefCit="Getty Vocabulary Program rules"
+            fullCit="Getty Vocabulary Program. Term warranted by AAT Editorial Guidelines."/>
+          <Source id="2000042061" briefCit="Webster's Third New International Dictionary (1961)"
+            fullCit="Webster's Third New International Dictionary of the English Language. Unabridged. Springfield, MA: G. &amp; C. Merriam Co., 1961."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000159" briefName="CHIN"
+            fullName="Canadian Heritage Information Network (Gatineau, Quebec, Canada)"/>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+    </Terms>
+    <ScopeNotes xmlns="">
+      <ScopeNote id="94977"
+        notesText="Te gebruiken voor alle relatief onoplosbare organische, anorganische, natuurlijke of kunstmatige substanties die kleur afgeven aan een andere substantie of een ander mengsel en die altijd dezelfde eigen kleur hebben wanneer ze onder wit licht worden gezien. Het is het bestanddeel van verf of inkt dat voor de kleur zorgt.">
+        <Language code="70261" description="Dutch"/>
+        <Contributors>
+          <Contributor id="10000205" briefName="Bureau AAT"
+            fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"
+          />
+        </Contributors>
+      </ScopeNote>
+      <ScopeNote id="46173"
+        notesText="Any relatively insoluble organic, inorganic, natural or artificial substance that imparts a color to another substance or mixture and always appears as the same specific color when viewed in white light. It is the constituent of paint or ink that provides the color. Distinguished from a dye, which is soluble in the vehicle, a pigment is insoluble in the vehicle, but instead is held in a suspension.">
+        <Language code="70051" description="English"/>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </ScopeNote>
+      <ScopeNote id="61697"
+        notesText="Se refiere a cualquier sustancia orgánica, inorgánica, natural o artificial relativamente insoluble que confiere color a otra sustancia o mezcla y que siempre aparece del mismo color específico al ser visto con luz blanca. Es el constituyente de pinturas o tintas que confieren el color.">
+        <Language code="70641" description="Spanish"/>
+        <Contributors>
+          <Contributor id="10000131" briefName="CDBP-DIBAM"
+            fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"
+          />
+        </Contributors>
+      </ScopeNote>
+    </ScopeNotes>
+    <Sources xmlns="">
+      <Source id="2000052381" briefCit="Van Dale Engels-Nederlands (1989)"
+        fullCit="Van Dale woordenboek Engels-Nederlands, Utrecht ; Antwerpen, 1989"/>
+      <Source id="2000035251" briefCit="RILA, Subject Headings (1975-1990)"
+        fullCit="J. Paul Getty Trust. International Repertory of the Literature of Art Subject Headings. Document prepared for internal distribution. Williamstown: J. Paul Getty Trust, 1975-1990."/>
+      <Source id="2000024811" briefCit="CDMARC Subjects: LCSH (1988-)"
+        fullCit="CDMARC Subjects: Library of Congress Subject Headings. Washington, DC: Library of Congress, Cataloging Distribution Service, 1988-. Quarterly, with each issue cumulative."/>
+      <Source id="2000051089" briefCit="AATA database (2002-) "
+        fullCit="Getty Conservation Institute (GCI). database of AATA Online: Abstracts of International Conservation Literature. Los Angeles: GCI, 2002-.       "/>
+      <Source id="2000048434" briefCit="CHIN database (1988-)"
+        fullCit="Canadian Heritage Information Network (CHIN) database. 1988-."/>
+      <Source id="2000052373" briefCit="Van Dale groot woordenboek (1994)"
+        fullCit="Van Dale groot woordenboek der Nederlandse taal, Utrecht ; Antwerpen, 1994"/>
+    </Sources>
+    <Contributors xmlns="">
+      <Contributor id="10000205" briefName="Bureau AAT"
+        fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"/>
+      <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+      <Contributor id="10000159" briefName="CHIN"
+        fullName="Canadian Heritage Information Network (Gatineau, Quebec, Canada)"/>
+      <Contributor id="10000131" briefName="CDBP-DIBAM"
+        fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"/>
+      <Contributor id="10000088" briefName="GCI"
+        fullName="Getty Conservation Institute, The Getty Center (Los Angeles, California)"/>
+    </Contributors>
+  </aat:AAT>
+</SharedShelf>
