@@ -1,0 +1,690 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<SharedShelf xmlns:display="http://catalog.sharedshelf.artstor.org/display"
+  xmlns:ssc="http://catalog.sharedshelf.artstor.org/ssc"
+  xmlns:ssd="http://catalog.sharedshelf.artstor.org/ssd"
+  xmlns:ssn="http://catalog.sharedshelf.artstor.org/ssn"
+  xmlns:ssw="http://catalog.sharedshelf.artstor.org/ssw"
+  xmlns:ssw_lkup="http://catalog.sharedshelf.artstor.org/ssw_lkup"
+  xmlns:tgn="http://catalog.sharedshelf.artstor.org/tgn"
+  xmlns:aat="http://catalog.sharedshelf.artstor.org/aat"
+  xmlns:mfcl="http://catalog.sharedshelf.artstor.org/mfcl"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="http://catalog.sharedshelf.artstor.org"
+  xsi:schemaLocation="http://catalog.sharedshelf.artstor.org http://catalog.sharedshelf.artstor.org/service/schema/SharedShelf_IO.xsd">
+  <ssw:Work lastUpdateDate="2022/04/13 11:29:12" id="8000182644" refid="G12239"
+    contributor="Harvard" instituteId="10003" uri="http://forum.jstor.org/oai/ssw/8000182644">
+    <Titles xmlns="" tempered="false">
+      <Display>Harvard Law School faculty tenure photograph collection</Display>
+      <Title pref="true" term="Harvard Law School faculty tenure photograph collection"/>
+    </Titles>
+    <WorkTypes xmlns="" tempered="true">
+      <Display>photographs</Display>
+      <WorkType id="11316951" vocab="MFCL" term="photographs"
+        uri="http://forum.jstor.org/oai/MFCL/11316951"/>
+    </WorkTypes>
+    <Materials xmlns="" tempered="true">
+      <Display>film</Display>
+      <Material id="11315308" vocab="MFCL" term="film" supporttype_lkup="Support"
+        supporttype_lkup_id="11315161" uri="http://forum.jstor.org/oai/MFCL/11315308"/>
+    </Materials>
+    <Techniques xmlns="" tempered="true">
+      <Display>black and white photography</Display>
+      <Technique id="11315777" vocab="MFCL" term="black and white photography"
+        uri="http://forum.jstor.org/oai/MFCL/11315777"/>
+    </Techniques>
+    <Subjects xmlns="" tempered="false">
+      <Display>law teachers ; professors ; lawyers ; Harvard Law School (1817-, American)</Display>
+      <Subject id="11301019" vocab="MFCL" term="law teachers"
+        uri="http://forum.jstor.org/oai/MFCL/11301019"/>
+      <Subject id="11299461" vocab="MFCL" term="professors"
+        uri="http://forum.jstor.org/oai/MFCL/11299461"/>
+      <Subject id="11300889" vocab="MFCL" term="lawyers"
+        uri="http://forum.jstor.org/oai/MFCL/11300889"/>
+      <Subject id="9000336747" vocab="SSN" refid="N70178" term="Harvard Law School"
+        type_lkup="associated names" type_lkup_id="11309059"
+        uri="http://forum.jstor.org/oai/SSN/9000336747"/>
+    </Subjects>
+    <Dates xmlns="" tempered="false">
+      <Display>1976-2008</Display>
+      <Date startDate="1976" endDate="2008" type_lkup="workDate"/>
+      <Date startDate="1976" endDate="2008"/>
+    </Dates>
+    <Locations xmlns="" tempered="false">
+      <Display>Harvard Law School Library (repository)</Display>
+      <DisplayLocation term="Harvard Law School Library" type_lkup="repository"
+        type_lkup_id="11315199"/>
+      <Repository id="9000336740" vocab="SSN" refid="N-686471497" term="Harvard Law School Library"
+        type_lkup="repository" uri="http://forum.jstor.org/oai/SSN/9000336740"/>
+    </Locations>
+    <ArtstorClassifications xmlns="" tempered="false">
+      <ArtstorClassification id="11309251" term_lkup="Photographs"/>
+    </ArtstorClassifications>
+    <Notes xmlns="" tempered="false">
+      <Display>false</Display>
+      <Note
+        term="Beginning in 1976 and continuing to the present, official portraits are taken when faculty members received tenure. Prior to 2012, prints of these photographs hung on the walls of Pound Hall, as of 2020 they hang on the walls of the Wasserstein Hall, Caspersen Student Center, Clinical Wing complex (WCC)."
+        type_lkup="general" type_lkup_id="11309122"/>
+    </Notes>
+    <LocalInformation xmlns="" legacyId="G12239" originalCataloger="johnston"
+      secondaryCataloger="johnston" catalogStartDate="2/11/2010" catalogUpdateDate="2/11/2010"/>
+    <RelatedWorks xmlns="">
+      <ssw:RelatedWork refid="W480174" term="William D. Andrews" sequence="1" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W480174"/>
+      <ssw:RelatedWork refid="W480169" term="William P. Alford" sequence="2" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W480169"/>
+      <ssw:RelatedWork refid="W490070" term="Anne L. Alstott" sequence="3" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490070"/>
+      <ssw:RelatedWork refid="W490073" term="Philip Areeda" sequence="4" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490073"/>
+      <ssw:RelatedWork refid="W490078" term="David J. Barron" sequence="5" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490078"/>
+      <ssw:RelatedWork refid="W490101" term="Elizabeth Bartholet" sequence="6" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490101"/>
+      <ssw:RelatedWork refid="W490108" term="Paul Bator" sequence="7" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490108"/>
+      <ssw:RelatedWork refid="W490109" term="Richard Baxter" sequence="8" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490109"/>
+      <ssw:RelatedWork refid="W490111" term="Lucian Bebchuk" sequence="9" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490111"/>
+      <ssw:RelatedWork refid="W490114" term="Derrick A. Bell" sequence="10" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490114"/>
+      <ssw:RelatedWork refid="W490119" term="Gary Bellow" sequence="11" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490119"/>
+      <ssw:RelatedWork refid="W534173" term="Yochai Benkler" sequence="12" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W534173"/>
+      <ssw:RelatedWork refid="W490139" term="Derek Bok" sequence="13" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490139"/>
+      <ssw:RelatedWork refid="W490140" term="Robert Braucher" sequence="14" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490140"/>
+      <ssw:RelatedWork refid="W490142" term="Scott Brewer" sequence="15" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490142"/>
+      <ssw:RelatedWork refid="W490143" term="Stephen Breyer" sequence="16" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490143"/>
+      <ssw:RelatedWork refid="W490146" term="Victor Brudney" sequence="17" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490146"/>
+      <ssw:RelatedWork refid="W490147" term="Clark Byse" sequence="18" display=""
+        type_lkup="Larger context for" type_lkup_id="12433938"
+        uri="http://forum.jstor.org/oai/ssw/W490147"/>
+      <ssw:RelatedWork refid="W490269" term="Andrew James Casner" sequence="19" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490269"/>
+      <ssw:RelatedWork refid="W490272" term="David F. Cavers" sequence="20" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490272"/>
+      <ssw:RelatedWork refid="W490273" term="James H. Chadbourn" sequence="21" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490273"/>
+      <ssw:RelatedWork refid="W490278" term="David Charny" sequence="22" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490278"/>
+      <ssw:RelatedWork refid="W490280" term="Abram J. Chayes" sequence="23" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490280"/>
+      <ssw:RelatedWork refid="W490281" term="Robert C. Clark" sequence="24" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490281"/>
+      <ssw:RelatedWork refid="W490285" term="John C. Coates" sequence="25" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490285"/>
+      <ssw:RelatedWork refid="W490287" term="Jerome Cohen" sequence="26" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490287"/>
+      <ssw:RelatedWork refid="W490288" term="Morris L. Cohen" sequence="27" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490288"/>
+      <ssw:RelatedWork refid="W490290" term="Vern Countryman" sequence="28" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490290"/>
+      <ssw:RelatedWork refid="W490292" term="Archibald Cox" sequence="29" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490292"/>
+      <ssw:RelatedWork refid="W490293" term="John P. Dawson" sequence="30" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490293"/>
+      <ssw:RelatedWork refid="W490294" term="Alan M. Dershowitz" sequence="31" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490294"/>
+      <ssw:RelatedWork refid="W490304" term="Christine Desan" sequence="32" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490304"/>
+      <ssw:RelatedWork refid="W490307" term="Charles Donahue" sequence="33" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490307"/>
+      <ssw:RelatedWork refid="W490311" term="Christopher F. Edley" sequence="34" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490311"/>
+      <ssw:RelatedWork refid="W490312" term="Einer R. Elhauge" sequence="35" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490312"/>
+      <ssw:RelatedWork refid="W490315" term="John H. Ely" sequence="36" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490315"/>
+      <ssw:RelatedWork refid="W490318" term="Susan R. Estrich" sequence="37" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490318"/>
+      <ssw:RelatedWork refid="W490319" term="Richard H. Fallon" sequence="38" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490319"/>
+      <ssw:RelatedWork refid="W490321" term="Clarence C. Ferguson" sequence="39" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490321"/>
+      <ssw:RelatedWork refid="W490322" term="Allen Ferrell" sequence="40" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490322"/>
+      <ssw:RelatedWork refid="W490324" term="Martha A. Field" sequence="41" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490324"/>
+      <ssw:RelatedWork refid="W490325" term="Richard H. Field" sequence="42" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490325"/>
+      <ssw:RelatedWork refid="W490326" term="Roger D. Fisher" sequence="43" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490326"/>
+      <ssw:RelatedWork refid="W490327" term="William W. Fisher" sequence="44" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490327"/>
+      <ssw:RelatedWork refid="W490329" term="Jody Freeman" sequence="45" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490329"/>
+      <ssw:RelatedWork refid="W490348" term="Paul A. Freund" sequence="46" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490348"/>
+      <ssw:RelatedWork refid="W490349" term="Charles Fried" sequence="47" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490349"/>
+      <ssw:RelatedWork refid="W490350" term="Gerald E. Frug" sequence="48" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490350"/>
+      <ssw:RelatedWork refid="W490351" term="Lon Fuller" sequence="49" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490351"/>
+      <ssw:RelatedWork refid="W490353" term="Heather K. Gerken" sequence="50" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490353"/>
+      <ssw:RelatedWork refid="W490354" term="Douglas H. Ginsburg" sequence="51" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490354"/>
+      <ssw:RelatedWork refid="W490356" term="Mary Ann Glendon" sequence="52" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490356"/>
+      <ssw:RelatedWork refid="W490357" term="Erwin N. Griswold" sequence="53" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490357"/>
+      <ssw:RelatedWork refid="W490358" term="Lani Guinier" sequence="54" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490358"/>
+      <ssw:RelatedWork refid="W490359" term="Charles M. Haar" sequence="55" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490359"/>
+      <ssw:RelatedWork refid="W490360" term="Livingston Hall" sequence="56" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490360"/>
+      <ssw:RelatedWork refid="W490361" term="Janet Halley" sequence="57" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490361"/>
+      <ssw:RelatedWork refid="W490362" term="Daniel Halpern" sequence="58" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490362"/>
+      <ssw:RelatedWork refid="W490363" term="Jon Hanson" sequence="59" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490363"/>
+      <ssw:RelatedWork refid="W490364" term="Bruce L. Hay" sequence="60" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490364"/>
+      <ssw:RelatedWork refid="W490365" term="David R. Herwitz" sequence="61" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490365"/>
+      <ssw:RelatedWork refid="W490366" term="Philip B. Heymann" sequence="62" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490366"/>
+      <ssw:RelatedWork refid="W490367" term="Morton J. Horwitz" sequence="63" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490367"/>
+      <ssw:RelatedWork refid="W490369" term="Howell Jackson" sequence="64" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490369"/>
+      <ssw:RelatedWork refid="W490370" term="Louis L. Jaffe" sequence="65" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490370"/>
+      <ssw:RelatedWork refid="W490371" term="Christine M. Jolls" sequence="66" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490371"/>
+      <ssw:RelatedWork refid="W490372" term="Elena Kagan" sequence="67" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490372"/>
+      <ssw:RelatedWork refid="W490373" term="Benjamin Kaplan" sequence="68" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490373"/>
+      <ssw:RelatedWork refid="W490374" term="Louis Kaplow" sequence="69" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490374"/>
+      <ssw:RelatedWork refid="W490375" term="Milton Katz" sequence="70" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490375"/>
+      <ssw:RelatedWork refid="W490376" term="Andrew L. Kaufman" sequence="71" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490376"/>
+      <ssw:RelatedWork refid="W490377" term="Robert E. Keeton" sequence="72" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490377"/>
+      <ssw:RelatedWork refid="W490387" term="David W. Kennedy" sequence="73" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490387"/>
+      <ssw:RelatedWork refid="W490388" term="Duncan Kennedy" sequence="74" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490388"/>
+      <ssw:RelatedWork refid="W490391" term="Randall L. Kennedy" sequence="75" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490391"/>
+      <ssw:RelatedWork refid="W490392" term="Reinier H. Kraakman" sequence="76" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490392"/>
+      <ssw:RelatedWork refid="W490393" term="Daryl Levinson" sequence="77" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490393"/>
+      <ssw:RelatedWork refid="W490394" term="Lance M. Liebman" sequence="78" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490394"/>
+      <ssw:RelatedWork refid="W490395" term="Louis Loss" sequence="79" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490395"/>
+      <ssw:RelatedWork refid="W490396" term="John F. Manning" sequence="80" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490396"/>
+      <ssw:RelatedWork refid="W490398" term="John H. Mansfield" sequence="81" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490398"/>
+      <ssw:RelatedWork refid="W490399" term="Harry S. Martin" sequence="82" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490399"/>
+      <ssw:RelatedWork refid="W490400" term="Daniel J. Meltzer" sequence="83" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490400"/>
+      <ssw:RelatedWork refid="W490401" term="Frank I. Michelman" sequence="84" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490401"/>
+      <ssw:RelatedWork refid="W490402" term="Arthur R. Miller" sequence="85" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490402"/>
+      <ssw:RelatedWork refid="W490403" term="Martha Minow" sequence="86" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490403"/>
+      <ssw:RelatedWork refid="W490405" term="Robert H. Mnookin" sequence="87" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490405"/>
+      <ssw:RelatedWork refid="W490406" term="Charles R. Nesson" sequence="88" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490406"/>
+      <ssw:RelatedWork refid="W490407" term="Charles J. Ogletree" sequence="89" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490407"/>
+      <ssw:RelatedWork refid="W490409" term="Lloyd E. Ohlin" sequence="90" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490409"/>
+      <ssw:RelatedWork refid="W490410" term="Oliver Oldman" sequence="91" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490410"/>
+      <ssw:RelatedWork refid="W490411" term="Elizabeth A. Owens" sequence="92" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490411"/>
+      <ssw:RelatedWork refid="W490413" term="Richard D. Parker" sequence="93" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490413"/>
+      <ssw:RelatedWork refid="W490414" term="Todd D. Rakoff" sequence="94" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490414"/>
+      <ssw:RelatedWork refid="W490417" term="J. Mark Ramseyer" sequence="95" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490417"/>
+      <ssw:RelatedWork refid="W490418" term="Mark J. Roe" sequence="96" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490418"/>
+      <ssw:RelatedWork refid="W490419" term="Albert M. Sacks" sequence="97" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490419"/>
+      <ssw:RelatedWork refid="W490420" term="Frank E .A. Sander" sequence="98" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490420"/>
+      <ssw:RelatedWork refid="W490422" term="Lewis D. Sargentich" sequence="99" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490422"/>
+      <ssw:RelatedWork refid="W490424" term="Austin W. Scott" sequence="100" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490424"/>
+      <ssw:RelatedWork refid="W490425" term="Hal S. Scott" sequence="101" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490425"/>
+      <ssw:RelatedWork refid="W490431" term="David L. Shapiro" sequence="102" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490431"/>
+      <ssw:RelatedWork refid="W490432" term="Steven M. Shavell" sequence="103" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490432"/>
+      <ssw:RelatedWork refid="W490434" term="Joseph William Singer" sequence="104" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490434"/>
+      <ssw:RelatedWork refid="W490435" term="Louis B. Sohn" sequence="105" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490435"/>
+      <ssw:RelatedWork refid="W490439" term="Carol Steiker" sequence="106" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490439"/>
+      <ssw:RelatedWork refid="W490440" term="Henry J. Steiner" sequence="107" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490440"/>
+      <ssw:RelatedWork refid="W490441" term="Richard B. Stewart" sequence="108" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490441"/>
+      <ssw:RelatedWork refid="W490442" term="Alan A. Stone" sequence="109" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490442"/>
+      <ssw:RelatedWork refid="W490443" term="William J. Stuntz" sequence="110" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490443"/>
+      <ssw:RelatedWork refid="W490444" term="Guhan Subramanian" sequence="111" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490444"/>
+      <ssw:RelatedWork refid="W490445" term="Kathleen M. Sullivan" sequence="112" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490445"/>
+      <ssw:RelatedWork refid="W490447" term="Stanley S. Surrey" sequence="113" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490447"/>
+      <ssw:RelatedWork refid="W490448" term="Arthur E. Sutherland" sequence="114" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490448"/>
+      <ssw:RelatedWork refid="W490450" term="Samuel E. Thorne" sequence="115" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490450"/>
+      <ssw:RelatedWork refid="W490452" term="Donald T. Trautman" sequence="116" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490452"/>
+      <ssw:RelatedWork refid="W490453" term="Laurence H. Tribe" sequence="117" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490453"/>
+      <ssw:RelatedWork refid="W490454" term="Donald F. Turner" sequence="118" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490454"/>
+      <ssw:RelatedWork refid="W490455" term="Datlev F. Vagts" sequence="119" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490455"/>
+      <ssw:RelatedWork refid="W490456" term="W. Kip Viscusi" sequence="120" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490456"/>
+      <ssw:RelatedWork refid="W490457" term="Arthur T. Von Mehren" sequence="121" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490457"/>
+      <ssw:RelatedWork refid="W490458" term="James Vorenberg" sequence="122" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490458"/>
+      <ssw:RelatedWork refid="W490459" term="Alvin C. Warren" sequence="123" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490459"/>
+      <ssw:RelatedWork refid="W490460" term="Elizabeth Warren" sequence="124" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490460"/>
+      <ssw:RelatedWork refid="W490461" term="Paul C. Weiler" sequence="125" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490461"/>
+      <ssw:RelatedWork refid="W490462" term="Lloyd L. Weinreb" sequence="126" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490462"/>
+      <ssw:RelatedWork refid="W490463" term="David Westfall" sequence="127" display=""
+        type_lkup="Larger context for" type_lkup_id="12433938"
+        uri="http://forum.jstor.org/oai/ssw/W490463"/>
+      <ssw:RelatedWork refid="W490464" term="Lucie E. White" sequence="128" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490464"/>
+      <ssw:RelatedWork refid="W490465" term="David B. Wilkins" sequence="129" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490465"/>
+      <ssw:RelatedWork refid="W490466" term="Bernard Wolfman" sequence="130" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490466"/>
+      <ssw:RelatedWork refid="W534884" term="John G. Palfrey" sequence="131" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W534884"/>
+      <ssw:RelatedWork refid="W490138" term="Harold J. Berman" sequence="132" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W490138"/>
+      <ssw:RelatedWork refid="W534174" term="Noah Feldman" sequence="133" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W534174"/>
+      <ssw:RelatedWork refid="W534176" term="John C.P. Goldberg" sequence="134" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W534176"/>
+      <ssw:RelatedWork refid="W534181" term="Jack Goldsmith" sequence="135" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W534181"/>
+      <ssw:RelatedWork refid="W534517" term="Michael Klarman" sequence="136" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W534517"/>
+      <ssw:RelatedWork refid="W534520" term="Kenneth Mack" sequence="137" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W534520"/>
+      <ssw:RelatedWork refid="W534524" term="Bruce H. Mann" sequence="138" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W534524"/>
+      <ssw:RelatedWork refid="W534527" term="Gerald L. Neuman" sequence="139" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W534527"/>
+      <ssw:RelatedWork refid="W534887" term="William B. Rubenstein" sequence="140" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W534887"/>
+      <ssw:RelatedWork refid="W534888" term="Robert H. Sitkoff" sequence="141" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W534888"/>
+      <ssw:RelatedWork refid="W534890" term="Kathryn Spier" sequence="142" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W534890"/>
+      <ssw:RelatedWork refid="W534893" term="Cass R. Sunstein" sequence="143" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W534893"/>
+      <ssw:RelatedWork refid="W534895" term="George G. Triantis" sequence="144" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W534895"/>
+      <ssw:RelatedWork refid="W534896" term="Mark Tushnet" sequence="145" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W534896"/>
+      <ssw:RelatedWork refid="W534897" term="Adrian Vermeule" sequence="146" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W534897"/>
+      <ssw:RelatedWork refid="W534898" term="Jonathan Zittrain" sequence="147" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W534898"/>
+      <ssw:RelatedWork refid="W539947" term="Deborah Anker" sequence="148" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W539947"/>
+      <ssw:RelatedWork refid="W540158" term="James L. Cavallaro" sequence="149" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W540158"/>
+      <ssw:RelatedWork refid="W540162" term="David Grossman" sequence="150" display=""
+        type_lkup="Larger context for" type_lkup_id="12433938"
+        uri="http://forum.jstor.org/oai/ssw/W540162"/>
+      <ssw:RelatedWork refid="W540163" term="Brian K. Price" sequence="151" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W540163"/>
+      <ssw:RelatedWork refid="W540164" term="Ronald S. Sullivan, Jr." sequence="152" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W540164"/>
+      <ssw:RelatedWork refid="W540171" term="Philip Malone" sequence="153" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W540171"/>
+      <ssw:RelatedWork refid="W540180" term="Ashish Nanda" sequence="154" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W540180"/>
+      <ssw:RelatedWork refid="W540184" term="Robert C. Bordone" sequence="155" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W540184"/>
+      <ssw:RelatedWork refid="W540186" term="Henry E. Smith" sequence="156" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W540186"/>
+      <ssw:RelatedWork refid="W540188" term="Matthew Stephenson" sequence="157" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W540188"/>
+      <ssw:RelatedWork refid="W541038" term="Ryan Goodman" sequence="158" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W541038"/>
+      <ssw:RelatedWork refid="W541039" term="Harry T. Edwards" sequence="159" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W541039"/>
+      <ssw:RelatedWork refid="8001682681" term="Sheldon Glueck" sequence="160"
+        display="Harvard Law School faculty tenure photograph collection is larger context for Sheldon Glueck"
+        type_lkup="larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/8001682681"/>
+    </RelatedWorks>
+    <display:DR id="4099080" representationId="None" lastUpdateDate="2022-04-13T16:30:08+00:00"
+      sequence="1" primary="true" projectId="733" institutionId="10003"
+      createdBy="qah001@artstor.org" updatedBy="lschoenf@law.harvard.edu"
+      createdDate="2014-12-24T02:31:12+00:00">
+      <DisplayRecord xmlns="">
+        <field_string id="fd_33529_s" description="None" label="Image Accession Number" value=""/>
+        <field_string id="fd_33535_s" description="None" label="Image Measurements" value=""/>
+        <field_string id="fd_33571_s" description="None" label="Year" value=""/>
+        <field_string id="fd_33502_s" description="None" label="Image View Type" value=""/>
+        <field_string id="fd_33517_s" description="None" label="Elevation" value=""/>
+        <field_string id="fd_33542_s" description="None" label="Image Notes" value=""/>
+        <field_string id="fd_33558_s" description="None" label="Image Source Author" value=""/>
+        <field_string id="fd_33559_s" description="None" label="Image Source Edition" value=""/>
+        <field_string id="fd_33515_s" description="None" label="Latitude" value=""/>
+        <field_string id="fd_33569_s" description="None" label="Volume" value=""/>
+        <field_string id="fd_33540_s" description="None" label="Image Rights" value=""/>
+        <field_string id="fd_33561_s" description="None" label="Image Source Publisher" value=""/>
+        <field_string id="fd_33548_s" description="None" label="Additional Formats" value=""/>
+        <field_string id="fd_33567_s" description="None" label="Image Source Notes" value=""/>
+        <field_string id="fd_33562_s" description="None" label="Image Source Publication Date"
+          value=""/>
+        <field_string id="fd_33551_s" description="None" label="Image Requester" value=""/>
+        <field_string id="fd_33557_s" description="None" label="Image Source Alternate Title"
+          value=""/>
+        <field_string id="fd_33536_s" description="None" label="Image End Year" value=""/>
+        <field_string id="fd_33530_s" description="None" label="Image Accession Date" value=""/>
+        <field_string id="fd_33528_s" description="None" label="Image Collection" value=""/>
+        <field_string id="fd_33565_s" description="None" label="Image Source Reference Number"
+          value=""/>
+        <field_string id="fd_33555_s" description="None" label="Image Provider" value=""/>
+        <field_string id="fd_33553_s" description="None" label="Image Source ID" value=""/>
+        <field_string id="fd_33501_s" description="None" label="Image View Description" value=""/>
+        <field_string id="fd_33534_s" description="None" label="Image Start Year" value=""/>
+        <field_string id="fd_33524_s" description="None" label="Image Date" value=""/>
+        <field_string id="fd_33563_s" description="None" label="Image Source Date" value=""/>
+        <field_string id="fd_33570_s" description="None" label="Issue Number" value=""/>
+        <field_string id="fd_33516_s" description="None" label="Longitude" value=""/>
+        <field_string id="fd_33543_s" description="None" label="In House Notes" value=""/>
+        <field_string id="fd_33572_s" description="None" label="Page Plate Number" value=""/>
+        <field_string id="fd_33568_s" description="None" label="Image Source Record Created By"
+          value=""/>
+        <field_string id="fd_33560_s" description="None" label="Image Source Place Of Publication"
+          value=""/>
+        <field_string id="fd_33550_s" description="None" label="Olivia Record Info"
+          value="Record created: 2/11/2010  By: johnston Record modified: 2/11/2010  By: johnston Export To VIA Date: 0/0/0"/>
+        <field_string id="fd_33566_s" description="None" label="Image Source Call Numbers" value=""/>
+        <field_string id="fd_33541_s" description="None" label="Image Credit" value=""/>
+        <field_string id="fd_33549_s" description="None" label="Olivia ID" value="G12239_1"/>
+        <field_string id="fd_33531_s" description="None" label="Image Classification Number"
+          value=""/>
+        <field_string id="fd_33564_s" description="None" label="Image Source Series Title" value=""/>
+        <field_string id="fd_33556_s" description="None" label="Image Source Title" value=""/>
+        <field_boolean id="fd_33544_b" description="None" label="Send To Harvard" value="true"/>
+        <field_boolean id="fd_33573_b" description="None" label="Export Only In Group" value="false"/>
+        <field_boolean id="fd_33545_b" description="None" label="In House Use Only" value="false"/>
+        <field_lookup id="fd_33537_lookup" description="None" label="Image Materials">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_33533_lookup" description="None" label="Image Associated Name">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_33574_lookup" description="None" label="Image Technique">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_33532_mfcl_lookup" description="None" label="Image Type">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_33554_mfcl_lookup" description="None" label="Image Source Type">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_33527_lookup" description="None" label="Image Repository">
+          <display>Harvard Law School Library</display>
+          <linkedField id="9000336740" revision="-1" source_id="9000336740"
+            preferredTerm="Harvard Law School Library" representationId="N-686471497"
+            conceptLevel="Local" institutionName="Harvard"
+            uri="http://forum.jstor.org/oai/SSN/9000336740">
+            <allTerms>Harvard Law School Library</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_33539_lookup" description="None" label="Image Subject">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_33538_lookup" description="None" label="Image Support">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_33523_lookup" description="None" label="Photographer">
+          <display/>
+        </field_lookup>
+      </DisplayRecord>
+      <Publications xmlns="">
+        <Publication asset_id="4099080" publishing_target_id="706"/>
+      </Publications>
+      <Assets xmlns="" filename="">
+        <Asset id="4099080" size="Thumbnail" uri="http://forum.jstor.org/oai/thumbnail?id=4099080"
+          restriction="f"/>
+        <Asset id="4099080" size="FullSize"
+          uri="http://forum.jstor.org/assets/4099080/representation/size/9" restriction="f"/>
+        <Asset id="4099080" size="Medias" uri="http://forum.jstor.org/oai/medias/4099080"
+          restriction="f"/>
+      </Assets>
+      <Targets xmlns="">
+        <Target name="OAI" status_lkup="Published" url="#" description="OAI"
+          publishDate="2022-04-13T16:30:11+00:00"/>
+      </Targets>
+    </display:DR>
+  </ssw:Work>
+  <ssn:Name conceptId="9000336747" stateText="NEW" recordType="PERSON" batchId="2"
+    statusText="Provisional" createdOn="2014/12/23 21:31:09" modifiedOn="2014/12/23 21:31:09"
+    batchName="Harvard" preferredTerm="Harvard Law School"
+    uri="http://forum.jstor.org/oai/ssn/9000336747">
+    <Nationalities xmlns="" count="1">
+      <Nationality id="11281149" name="American" preferred="true"/>
+    </Nationalities>
+    <Terms xmlns="" count="1">
+      <Term id="1042007" name="Harvard Law School" preferred="true">
+        <TermSource id="11276964" name="Local Sources" preferred="true"/>
+      </Term>
+    </Terms>
+    <Biographies xmlns="" count="1">
+      <Biography id="1042008" name="1817-, American" preferred="true">
+        <birthDate year="1817" epoch="AD"/>
+        <birthPlace/>
+        <deathPlace/>
+      </Biography>
+    </Biographies>
+  </ssn:Name>
+  <ssn:Name conceptId="9000336740" stateText="NEW" recordType="CORPORATE BODY" batchId="2"
+    statusText="Provisional" createdOn="2014/12/23 21:31:04" modifiedOn="2014/12/23 21:31:04"
+    batchName="Harvard" preferredTerm="Harvard Law School Library"
+    uri="http://forum.jstor.org/oai/ssn/9000336740">
+    <Terms xmlns="" count="1">
+      <Term id="1041994" name="Harvard Law School Library" preferred="true">
+        <TermSource id="11318641" name="NO SOURCE" preferred="true"/>
+      </Term>
+    </Terms>
+  </ssn:Name>
+</SharedShelf>
