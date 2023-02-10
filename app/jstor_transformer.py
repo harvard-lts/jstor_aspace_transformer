@@ -104,8 +104,8 @@ class JstorTransformer():
         harvestconfig = json.loads(harvjobsjson)
         #current_app.logger.debug("harvestconfig")        
         #current_app.logger.debug(harvestconfig) 
-        harvestDir = os.getenv("jstor_harvest_dir")        
-        transformDir = os.getenv("jstor_transform_dir")
+        harvestDir = os.getenv("jstor_harvest_dir") + "/"         
+        transformDir = os.getenv("jstor_transform_dir") + "/" 
         for job in harvestconfig:     
             if jobname == 'jstorforum' and jobname == job["jobName"]:   
                 for set in job["harvests"]["sets"]:
