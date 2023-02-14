@@ -26,6 +26,18 @@
       <freeDate>1860 (publication date)</freeDate>
       <placeName>
          <place>Marakesh (inhabited place)</place>
+         <coordinates>
+            <latitude decimal="31.8167"
+                      degree="31"
+                      minute="49"
+                      second="0"
+                      direction="N"/>
+            <longitude decimal="-8.0"
+                       degree="8"
+                       minute="0"
+                       second="0"
+                       direction="W"/>
+         </coordinates>
       </placeName>
       <placeName>
          <place>Marrakech, Marrakech-Tensift-El Haouz, Morocco</place>
@@ -41,18 +53,6 @@
       </culture>
       <materials>engraving (printing process)</materials>
       <notes>General: Appeared in "Le tour du monde : nouveau journal des voyages," Paris: Libraire de L. Hachette, v. 1, 1860, p. 213. Journal held by Harvard's Widener Library, call number KH 395</notes>
-      <coordinates>
-         <latitude decimal="31.8167"
-                   degree="31"
-                   minute="49"
-                   second="0"
-                   direction="N"/>
-         <longitude decimal="-8.0"
-                    degree="8"
-                    minute="0"
-                    second="0"
-                    direction="W"/>
-      </coordinates>
       <surrogate componentID="34101893">
          <image xmlns:xlink="http://www.w3.org/TR/xlink"
                 restrictedImage="false"

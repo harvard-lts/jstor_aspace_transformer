@@ -103,7 +103,6 @@
             <xsl:sort data-type="text" select="@type_lkup"/>
         </xsl:apply-templates>
         <xsl:apply-templates select="Inscriptions"/>
-        <xsl:apply-templates select="../tgn:TGN[tgn:latitude|tgn:longitude|tgn:altitude|tgn:bearing]"/>
         <xsl:apply-templates
             select="Locations/Location[@type_lkup and not(@type_lkup = 'creation') and not(@type_lkup = 'publication')]"/>
         <xsl:apply-templates select="Rights/Right[@type_lkup = 'Copyright']"/>
@@ -798,12 +797,18 @@
 
     <xsl:template
         match="Subjects/Subject[@type_lkup = 'associated site'] | Subjects/Subject[@type_lkup = 'Associated site']">
+        <xsl:variable name="linkingid">
+            <xsl:value-of select="./@id"/>
+        </xsl:variable>
         <xsl:element name="placeName">
             <xsl:element name="place">
                 <xsl:value-of select="@term"/>
             </xsl:element>
+            <xsl:apply-templates select="//tgn:TGN[tgn:latitude|tgn:longitude|tgn:altitude|tgn:bearing][@subjectId = $linkingid]"></xsl:apply-templates>
         </xsl:element>
     </xsl:template>
+
+    <!--<xsl:apply-templates select="../tgn:TGN[tgn:latitude|tgn:longitude|tgn:altitude|tgn:bearing]"/>-->
 
     <xsl:template match="ssn:Name" mode="namerec">
         <xsl:apply-templates select="Biographies"/>
