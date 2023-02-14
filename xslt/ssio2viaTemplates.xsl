@@ -103,7 +103,7 @@
             <xsl:sort data-type="text" select="@type_lkup"/>
         </xsl:apply-templates>
         <xsl:apply-templates select="Inscriptions"/>
-
+        <xsl:apply-templates select="../tgn:TGN[tgn:latitude|tgn:longitude|tgn:altitude|tgn:bearing]"/>
         <xsl:apply-templates
             select="Locations/Location[@type_lkup and not(@type_lkup = 'creation') and not(@type_lkup = 'publication')]"/>
         <xsl:apply-templates select="Rights/Right[@type_lkup = 'Copyright']"/>
@@ -124,7 +124,7 @@
     </xsl:template>
 
     <!-- elements to not display -->
-    <xsl:template match="aat:AAT | tgn:TGN | ssn:Name"/>
+    <xsl:template match="aat:AAT | ssn:Name"/>
 
     <!-- surrogates from display record -->
     <xsl:template match="display:DR" mode="surrogate">
@@ -944,6 +944,45 @@
         <xsl:element name="notes">
             <xsl:text>Inscription: </xsl:text>
             <xsl:value-of select="ssw:Inscribe/@term"/>
+        </xsl:element>
+    </xsl:template>
+
+    <xsl:template match="tgn:TGN">
+        <xsl:element name="coordinates">
+            <xsl:apply-templates select="tgn:latitude"/>
+            <xsl:apply-templates select="tgn:longitude"/>
+            <xsl:apply-templates select="tgn:altitude"/>
+            <xsl:apply-templates select="tgn:bearing"/>
+        </xsl:element>
+    </xsl:template>
+
+    <xsl:template match="tgn:latitude|tgn:longitude|tgn:altitude|tgn:bearing">
+        <xsl:element name="{local-name()}">
+            <xsl:if test="@decimal">
+                <xsl:attribute name="decimal">
+                    <xsl:value-of select="@decimal"/>
+                </xsl:attribute>
+            </xsl:if>
+            <xsl:if test="@degree">
+                <xsl:attribute name="degree">
+                    <xsl:value-of select="@degree"/>
+                </xsl:attribute>
+            </xsl:if>
+            <xsl:if test="@minute">
+                <xsl:attribute name="minute">
+                    <xsl:value-of select="@minute"/>
+                </xsl:attribute>
+            </xsl:if>
+            <xsl:if test="@second">
+                <xsl:attribute name="second">
+                    <xsl:value-of select="@second"/>
+                </xsl:attribute>
+            </xsl:if>
+            <xsl:if test="@direction">
+                <xsl:attribute name="direction">
+                    <xsl:value-of select="@direction"/>
+                </xsl:attribute>
+            </xsl:if>
         </xsl:element>
     </xsl:template>
 
