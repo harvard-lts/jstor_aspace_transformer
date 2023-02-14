@@ -35,7 +35,6 @@
         <xsl:value-of select="document('harvest.xml')/*/harvestdir"/>
     </xsl:variable>
 
-
     <xsl:variable name="ssid">
         <xsl:value-of select="//ssw:Work/@id"/>
     </xsl:variable>

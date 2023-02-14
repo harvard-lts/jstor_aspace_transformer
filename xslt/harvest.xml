@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <properties>
+    <!--<baseurl>http://oai.forum.jstor.org/oai/</baseurl>-->
     <baseurl>http://oai.forum.jstor.org/oai/</baseurl>
-    <harvestdir>/tmp/JSTORFORUM/</harvestdir>
+    <harvestdir>/tmp/JSTORFORUM</harvestdir>
 </properties>
