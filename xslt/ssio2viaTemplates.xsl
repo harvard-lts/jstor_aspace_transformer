@@ -173,7 +173,7 @@
                     <xsl:apply-templates
                         select="DisplayRecord/field_lookup[@label = 'Photographer'][not(normalize-space(display) = '')]"/>
                     <xsl:apply-templates
-                        select="DisplayRecord/field_string[@label = 'Image Start year'][not(@value = 'None') and not(normalize-space(@value) = '')]"/>
+                        select="DisplayRecord/field_string[@label = 'Image Start Year'][not(@value = 'None') and not(normalize-space(@value) = '')]"/>
                     <xsl:apply-templates
                         select="DisplayRecord/field_string[@label = 'Image Date'][not(@value = 'None') and not(normalize-space(@value) = '')]"/>
                     <xsl:apply-templates
@@ -258,16 +258,16 @@
         </xsl:element>
     </xsl:template>
 
-    <xsl:template match="field_string[@label = 'Image Start year']">
+    <xsl:template match="field_string[@label = 'Image Start Year']">
         <xsl:element name="structuredDate">
             <xsl:element name="beginDate">
                 <xsl:value-of select="@value"/>
             </xsl:element>
-            <xsl:apply-templates select="../field_string[@label = 'Image End year']"/>
+            <xsl:apply-templates select="../field_string[@label = 'Image End Year']"/>
         </xsl:element>
     </xsl:template>
 
-    <xsl:template match="field_string[@label = 'Image End year']">
+    <xsl:template match="field_string[@label = 'Image End Year']">
         <xsl:element name="endDate">
             <xsl:value-of select="@value"/>
         </xsl:element>
@@ -453,9 +453,9 @@
                         <xsl:when
                             test="../DisplayRecord/field_string[not(@value = 'None') and not(@value = '')]/@label = 'Image Date'"/>
                         <xsl:when
-                            test="../DisplayRecord/field_string[not(@value = 'None') and not(@value = '')]/@label = 'Image Start year'"/>
+                            test="../DisplayRecord/field_string[not(@value = 'None') and not(@value = '')]/@label = 'Image Start Year'"/>
                         <xsl:when
-                            test="../DisplayRecord/field_string[not(@value = 'None') and not(@value = '')]/@label = 'Image End year'"/>
+                            test="../DisplayRecord/field_string[not(@value = 'None') and not(@value = '')]/@label = 'Image End Year'"/>
                         <xsl:when
                             test="../DisplayRecord/field_string[not(@value = 'None') and not(@value = '')]/@label = 'Image Measurements'"/>
                         <xsl:when
@@ -560,6 +560,9 @@
             select="Material[@supporttype_lkup = 'Medium' or @supporttype_lkup = 'medium']"/>
         <xsl:apply-templates
             select="Material[@supporttype_lkup = 'Support' or @supporttype_lkup = 'support']"/>
+        <xsl:apply-templates
+            select="Material[not(@supporttype_lkup = 'Medium') and not(@supporttype_lkup = 'medium') and not(@supporttype_lkup = 'Support') and not(@supporttype_lkup = 'support')]"
+        />
     </xsl:template>
 
     <xsl:template match="Material[@supporttype_lkup = 'Medium' or @supporttype_lkup = 'medium']">
@@ -579,6 +582,13 @@
                 <xsl:value-of select="@term"/>
             </xsl:element>
         </xsl:if>
+    </xsl:template>
+
+    <xsl:template
+        match="Material[not(@supporttype_lkup = 'Medium') and not(@supporttype_lkup = 'medium') and not(@supporttype_lkup = 'Support') and not(@supporttype_lkup = 'support')]">
+        <xsl:element name="materials">
+            <xsl:value-of select="@term"/>
+        </xsl:element>
     </xsl:template>
 
     <xsl:template match="Techniques">
