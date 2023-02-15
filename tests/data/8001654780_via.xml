@@ -42,10 +42,10 @@
             <endDate>2020</endDate>
          </structuredDate>
          <freeDate>10/08/2020</freeDate>
-         <coordinate altitude="'2776.7">
-            <latitude decimal="'36.6425966666667"/>
-            <longitude decimal="'71.45956"/>
-         </coordinate>
+         <coordinates altitude="2776.7">
+            <latitude decimal="36.6425966666667"/>
+            <longitude decimal="71.45956"/>
+         </coordinates>
          <notes>Digital images commissioned by the Harvard Graduate School of Design and Aga Kahn Agency for Habitat to support the site research of STU1503: Extreme Urbanism VII: Imagining an Urban Future for Ishkashim (fall 2020). All photos were taken in October of 2020 by a hired Kabul team of professional photographers. The studio sought to imagine an urban future for Ishkashim which addressed the physical, social, cultural, ecological, and economic infrastructures.  STU-1503 faculty: Rahul Mehrotra and Charlotte Malterre-Barthes.</notes>
          <copyright>Work for hire photo by Yama Ramin Media Production and Technology (YRMPT), ©President and Fellows of Harvard College, Frances Loeb Library GSD Site Research Collection, Harvard Graduate School of Design and Aga Khan Agency for Habitat (2020).</copyright>
          <repository>
