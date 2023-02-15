@@ -1,0 +1,63 @@
+<viaRecord originalAtHarvard="true">
+   <recordId>8001654780</recordId>
+   <work>
+      <title>
+         <textElement>Bazgir. Ishkashim, Afghanistan (2020)</textElement>
+      </title>
+      <structuredDate>
+         <beginDate>2020</beginDate>
+         <endDate>2020</endDate>
+      </structuredDate>
+      <structuredDate>
+         <beginDate>2020</beginDate>
+         <endDate>2020</endDate>
+      </structuredDate>
+      <freeDate>2020 (creation)</freeDate>
+      <location>
+         <type>site</type>
+         <place>Eshkashem, Badakhshan, Afghanistan</place>
+         <coordinates>
+            <latitude decimal="36.7"
+                      degree="36"
+                      minute="42"
+                      second="0"
+                      direction="N"/>
+            <longitude decimal="71.5667"
+                       degree="71"
+                       minute="34"
+                       second="0"
+                       direction="E"/>
+         </coordinates>
+      </location>
+      <repository>
+         <repositoryName>Frances L. Loeb Library, Harvard University Graduate School of Design</repositoryName>
+      </repository>
+      <surrogate componentID="30760520">
+         <title>
+            <textElement>View of water drainage system (10/08/2020)</textElement>
+         </title>
+         <workType>digital image</workType>
+         <structuredDate>
+            <beginDate>2020</beginDate>
+            <endDate>2020</endDate>
+         </structuredDate>
+         <freeDate>10/08/2020</freeDate>
+         <coordinate altitude="'2776.7">
+            <latitude decimal="'36.6425966666667"/>
+            <longitude decimal="'71.45956"/>
+         </coordinate>
+         <notes>Digital images commissioned by the Harvard Graduate School of Design and Aga Kahn Agency for Habitat to support the site research of STU1503: Extreme Urbanism VII: Imagining an Urban Future for Ishkashim (fall 2020). All photos were taken in October of 2020 by a hired Kabul team of professional photographers. The studio sought to imagine an urban future for Ishkashim which addressed the physical, social, cultural, ecological, and economic infrastructures.  STU-1503 faculty: Rahul Mehrotra and Charlotte Malterre-Barthes.</notes>
+         <copyright>Work for hire photo by Yama Ramin Media Production and Technology (YRMPT), ©President and Fellows of Harvard College, Frances Loeb Library GSD Site Research Collection, Harvard Graduate School of Design and Aga Khan Agency for Habitat (2020).</copyright>
+         <repository>
+            <repositoryName>Frances L. Loeb Library, Harvard University Graduate School of Design</repositoryName>
+            <number>2021.gsdSTU1503f20.i0066</number>
+         </repository>
+      </surrogate>
+   </work>
+   <admin>
+      <createDate>2021-07-20</createDate>
+      <updateNote>
+         <updateDate>2021/10/22 06:12:14</updateDate>
+      </updateNote>
+   </admin>
+</viaRecord>

@@ -1,0 +1,360 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<SharedShelf xmlns:display="http://catalog.sharedshelf.artstor.org/display"
+  xmlns:ssc="http://catalog.sharedshelf.artstor.org/ssc"
+  xmlns:ssd="http://catalog.sharedshelf.artstor.org/ssd"
+  xmlns:ssn="http://catalog.sharedshelf.artstor.org/ssn"
+  xmlns:ssw="http://catalog.sharedshelf.artstor.org/ssw"
+  xmlns:ssw_lkup="http://catalog.sharedshelf.artstor.org/ssw_lkup"
+  xmlns:tgn="http://catalog.sharedshelf.artstor.org/tgn"
+  xmlns:aat="http://catalog.sharedshelf.artstor.org/aat"
+  xmlns:mfcl="http://catalog.sharedshelf.artstor.org/mfcl"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="http://catalog.sharedshelf.artstor.org"
+  xsi:schemaLocation="http://catalog.sharedshelf.artstor.org http://catalog.sharedshelf.artstor.org/service/schema/SharedShelf_IO.xsd">
+  <ssw:Work lastUpdateDate="2021/10/22 06:12:14" id="8001654780" refid="8001654780"
+    contributor="Harvard" instituteId="10003" uri="http://forum.jstor.org/oai/ssw/8001654780">
+    <Titles xmlns="" tempered="true">
+      <Display>Bazgir. Ishkashim, Afghanistan (2020)</Display>
+      <Title term="Bazgir. Ishkashim, Afghanistan (2020)"/>
+    </Titles>
+    <Dates xmlns="" tempered="true">
+      <Display>2020 (creation)</Display>
+      <Date startDate="2020" endDate="2020" type_lkup="workDate"/>
+      <Date startDate="2020" endDate="2020" type_lkup="creation" type_lkup_id="11314970"/>
+    </Dates>
+    <Locations xmlns="" tempered="true">
+      <Display>Eshkashem, Badakhshan, Afghanistan (site); Frances L. Loeb Library, Harvard University Graduate School of Design (repository)</Display>
+      <DisplayLocation term="Eshkashem, Badakhshan, Afghanistan" type_lkup="site"
+        type_lkup_id="11309146"/>
+      <DisplayLocation term="Frances L. Loeb Library, Harvard University Graduate School of Design"
+        type_lkup="repository" type_lkup_id="11315199"/>
+      <Location id="1065424" vocab="TGN" term="Eshkashem, Badakhshan, Afghanistan" type_lkup="site"
+        type_lkup_id="11309146" uri="http://forum.jstor.org/oai/TGN/1065424">
+        <ssw:GeoLocation latitude="36.7" longitude="71.5667"/>
+      </Location>
+      <Repository id="9000413190" vocab="SSN"
+        term="Frances L. Loeb Library, Harvard University Graduate School of Design"
+        type_lkup="repository" uri="http://forum.jstor.org/oai/SSN/9000413190"/>
+    </Locations>
+    <ArtstorCountries xmlns="" tempered="true">
+      <Country id="11313092" term_lkup="Afghanistan"/>
+    </ArtstorCountries>
+    <ArtstorClassifications xmlns="" tempered="true">
+      <ArtstorClassification id="11309239" term_lkup="Architecture and City Planning"/>
+    </ArtstorClassifications>
+    <LocalInformation xmlns=""/>
+    <RelatedWorks xmlns=""/>
+    <display:DR id="30760487" status_lkup="Deleted" projectId="819" institutionId="10003"
+      deleted_reason="Not Published">
+      <DisplayRecord xmlns=""/>
+    </display:DR>
+    <display:DR id="30760488" status_lkup="Deleted" projectId="819" institutionId="10003"
+      deleted_reason="Not Published">
+      <DisplayRecord xmlns=""/>
+    </display:DR>
+    <display:DR id="30760489" status_lkup="Deleted" projectId="819" institutionId="10003"
+      deleted_reason="Not Published">
+      <DisplayRecord xmlns=""/>
+    </display:DR>
+    <display:DR id="30760490" status_lkup="Deleted" projectId="819" institutionId="10003"
+      deleted_reason="Not Published">
+      <DisplayRecord xmlns=""/>
+    </display:DR>
+    <display:DR id="30760491" status_lkup="Deleted" projectId="819" institutionId="10003"
+      deleted_reason="Not Published">
+      <DisplayRecord xmlns=""/>
+    </display:DR>
+    <display:DR id="30760492" status_lkup="Deleted" projectId="819" institutionId="10003"
+      deleted_reason="Not Published">
+      <DisplayRecord xmlns=""/>
+    </display:DR>
+    <display:DR id="30760493" status_lkup="Deleted" projectId="819" institutionId="10003"
+      deleted_reason="Not Published">
+      <DisplayRecord xmlns=""/>
+    </display:DR>
+    <display:DR id="30760494" status_lkup="Deleted" projectId="819" institutionId="10003"
+      deleted_reason="Not Published">
+      <DisplayRecord xmlns=""/>
+    </display:DR>
+    <display:DR id="30760495" status_lkup="Deleted" projectId="819" institutionId="10003"
+      deleted_reason="Not Published">
+      <DisplayRecord xmlns=""/>
+    </display:DR>
+    <display:DR id="30760496" status_lkup="Deleted" projectId="819" institutionId="10003"
+      deleted_reason="Not Published">
+      <DisplayRecord xmlns=""/>
+    </display:DR>
+    <display:DR id="30760497" status_lkup="Deleted" projectId="819" institutionId="10003"
+      deleted_reason="Not Published">
+      <DisplayRecord xmlns=""/>
+    </display:DR>
+    <display:DR id="30760498" status_lkup="Deleted" projectId="819" institutionId="10003"
+      deleted_reason="Not Published">
+      <DisplayRecord xmlns=""/>
+    </display:DR>
+    <display:DR id="30760499" status_lkup="Deleted" projectId="819" institutionId="10003"
+      deleted_reason="Not Published">
+      <DisplayRecord xmlns=""/>
+    </display:DR>
+    <display:DR id="30760500" status_lkup="Deleted" projectId="819" institutionId="10003"
+      deleted_reason="Not Published">
+      <DisplayRecord xmlns=""/>
+    </display:DR>
+    <display:DR id="30760501" status_lkup="Deleted" projectId="819" institutionId="10003"
+      deleted_reason="Not Published">
+      <DisplayRecord xmlns=""/>
+    </display:DR>
+    <display:DR id="30760502" status_lkup="Deleted" projectId="819" institutionId="10003"
+      deleted_reason="Not Published">
+      <DisplayRecord xmlns=""/>
+    </display:DR>
+    <display:DR id="30760503" status_lkup="Deleted" projectId="819" institutionId="10003"
+      deleted_reason="Not Published">
+      <DisplayRecord xmlns=""/>
+    </display:DR>
+    <display:DR id="30760504" status_lkup="Deleted" projectId="819" institutionId="10003"
+      deleted_reason="Not Published">
+      <DisplayRecord xmlns=""/>
+    </display:DR>
+    <display:DR id="30760505" status_lkup="Deleted" projectId="819" institutionId="10003"
+      deleted_reason="Not Published">
+      <DisplayRecord xmlns=""/>
+    </display:DR>
+    <display:DR id="30760506" status_lkup="Deleted" projectId="819" institutionId="10003"
+      deleted_reason="Not Published">
+      <DisplayRecord xmlns=""/>
+    </display:DR>
+    <display:DR id="30760507" status_lkup="Deleted" projectId="819" institutionId="10003"
+      deleted_reason="Not Published">
+      <DisplayRecord xmlns=""/>
+    </display:DR>
+    <display:DR id="30760508" status_lkup="Deleted" projectId="819" institutionId="10003"
+      deleted_reason="Not Published">
+      <DisplayRecord xmlns=""/>
+    </display:DR>
+    <display:DR id="30760509" status_lkup="Deleted" projectId="819" institutionId="10003"
+      deleted_reason="Not Published">
+      <DisplayRecord xmlns=""/>
+    </display:DR>
+    <display:DR id="30760510" status_lkup="Deleted" projectId="819" institutionId="10003"
+      deleted_reason="Not Published">
+      <DisplayRecord xmlns=""/>
+    </display:DR>
+    <display:DR id="30760511" status_lkup="Deleted" projectId="819" institutionId="10003"
+      deleted_reason="Not Published">
+      <DisplayRecord xmlns=""/>
+    </display:DR>
+    <display:DR id="30760512" status_lkup="Deleted" projectId="819" institutionId="10003"
+      deleted_reason="Not Published">
+      <DisplayRecord xmlns=""/>
+    </display:DR>
+    <display:DR id="30760513" status_lkup="Deleted" projectId="819" institutionId="10003"
+      deleted_reason="Not Published">
+      <DisplayRecord xmlns=""/>
+    </display:DR>
+    <display:DR id="30760514" status_lkup="Deleted" projectId="819" institutionId="10003"
+      deleted_reason="Not Published">
+      <DisplayRecord xmlns=""/>
+    </display:DR>
+    <display:DR id="30760515" status_lkup="Deleted" projectId="819" institutionId="10003"
+      deleted_reason="Not Published">
+      <DisplayRecord xmlns=""/>
+    </display:DR>
+    <display:DR id="30760516" status_lkup="Deleted" projectId="819" institutionId="10003"
+      deleted_reason="Not Published">
+      <DisplayRecord xmlns=""/>
+    </display:DR>
+    <display:DR id="30760517" status_lkup="Deleted" projectId="819" institutionId="10003"
+      deleted_reason="Not Published">
+      <DisplayRecord xmlns=""/>
+    </display:DR>
+    <display:DR id="30760518" status_lkup="Deleted" projectId="819" institutionId="10003"
+      deleted_reason="Not Published">
+      <DisplayRecord xmlns=""/>
+    </display:DR>
+    <display:DR id="30760519" status_lkup="Deleted" projectId="819" institutionId="10003"
+      deleted_reason="Not Published">
+      <DisplayRecord xmlns=""/>
+    </display:DR>
+    <display:DR id="30760520" representationId="None" lastUpdateDate="2022-03-23T17:50:02+00:00"
+      sequence="34" primary="false" projectId="819" institutionId="10003"
+      createdBy="ioyuelabonzani@gsd.harvard.edu" updatedBy="ioyuelabonzani@gsd.harvard.edu"
+      createdDate="2021-07-20T18:19:21+00:00">
+      <DisplayRecord xmlns="">
+        <field_string id="fd_37284_s"
+          description="Enter image GPS latitude in decimal format for Location Created (ITPC Photo Metadata Standard)"
+          label="Location Latitude" value="36.7"/>
+        <field_string id="fd_37285_s"
+          description="Enter image GPS longitude in decimal format for Location Created (ITPC Photo Metadata Standard)"
+          label="Location Longitude" value="71.5667"/>
+        <field_string id="fd_37299_s" description="None" label="Image Accession Date"
+          value="07/20/2021"/>
+        <field_string id="fd_37303_s" description="None" label="Image Start Year" value="2020"/>
+        <field_string id="fd_37305_s" description="None" label="Image End Year" value="2020"/>
+        <field_string id="fd_37270_s" description="None" label="Image View Description"
+          value="View of water drainage system (10/08/2020)"/>
+        <field_string id="fd_37293_s" description="None" label="Image Date" value="10/08/2020"/>
+        <field_string id="fd_37297_s" description="None" label="Image Collection"
+          value="GSD Site Research Collection"/>
+        <field_string id="fd_37298_an" description="None" label="Image Accession Number"
+          value="2021.gsdSTU1503f20.i0066"/>
+        <field_string id="fd_37309_s" description="None" label="Image Rights"
+          value="Work for hire photo by Yama Ramin Media Production and Technology (YRMPT), ©President and Fellows of Harvard College, Frances Loeb Library GSD Site Research Collection, Harvard Graduate School of Design and Aga Khan Agency for Habitat (2020)."/>
+        <field_string id="fd_37311_s" description="None" label="Image Notes"
+          value="Digital images commissioned by the Harvard Graduate School of Design and Aga Kahn Agency for Habitat to support the site research of STU1503: Extreme Urbanism VII: Imagining an Urban Future for Ishkashim (fall 2020). All photos were taken in October of 2020 by a hired Kabul team of professional photographers. The studio sought to imagine an urban future for Ishkashim which addressed the physical, social, cultural, ecological, and economic infrastructures.  STU-1503 faculty: Rahul Mehrotra and Charlotte Malterre-Barthes."/>
+        <field_string id="fd_37312_s" description="None" label="In House Notes"
+          value="Image captured by a contract-for-hire team: Yama Ramin Media Production and Technology (YRMPT); Bazgir_34.JPG"/>
+        <field_string id="fd_37318_s" description="None" label="Image Requester"
+          value="STU-1503 Faculty: Rahul Mehrotra and Charlotte Malterre-Barthes"/>
+        <field_string id="fd_373972_s"
+          description="Enter image GPS latitude in decimal format for Location Created (ITPC Photo Metadata Standard)"
+          label="Image Location Created Latitude" value="'36.6425966666667"/>
+        <field_string id="fd_373973_s"
+          description="Enter image GPS longitude in decimal format for Location Created (ITPC Photo Metadata Standard)"
+          label="Image Location Created Longitude" value="'71.45956"/>
+        <field_string id="fd_37286_s"
+          description="Enter image GPS altitude in decimal format for Location Created (ITPC Photo Metadata Standard)"
+          label="Image Location Created Altitude" value="'2776.7"/>
+        <field_string id="fd_37271_s" description="None" label="Image View Type" value=""/>
+        <field_string id="fd_37300_s" description="None" label="Image Classification Number"
+          value=""/>
+        <field_string id="fd_37304_s" description="None" label="Image Measurements" value=""/>
+        <field_string id="fd_37310_s" description="None" label="Image Credit" value=""/>
+        <field_string id="fd_37315_s" description="None" label="Additional Formats" value=""/>
+        <field_string id="fd_37316_s" description="None" label="Olivia ID" value=""/>
+        <field_string id="fd_37317_s" description="None" label="Olivia Record Info" value=""/>
+        <field_string id="fd_37320_s" description="None" label="Image Source ID" value=""/>
+        <field_string id="fd_37322_s" description="None" label="Image Provider" value=""/>
+        <field_string id="fd_37323_s" description="None" label="Image Source Title" value=""/>
+        <field_string id="fd_37324_s" description="None" label="Image Source Alternate Title"
+          value=""/>
+        <field_string id="fd_37325_s" description="None" label="Image Source Author" value=""/>
+        <field_string id="fd_37326_s" description="None" label="Image Source Edition" value=""/>
+        <field_string id="fd_37327_s" description="None" label="Image Source Place Of Publication"
+          value=""/>
+        <field_string id="fd_37328_s" description="None" label="Image Source Publisher" value=""/>
+        <field_string id="fd_37329_s" description="None" label="Image Source Publication Date"
+          value=""/>
+        <field_string id="fd_37330_s" description="None" label="Image Source Date" value=""/>
+        <field_string id="fd_37331_s" description="None" label="Image Source Series Title" value=""/>
+        <field_string id="fd_37332_s" description="None" label="Image Source Reference Number"
+          value=""/>
+        <field_string id="fd_37333_s" description="None" label="Image Source Call Numbers" value=""/>
+        <field_string id="fd_37334_s" description="None" label="Image Source Notes" value=""/>
+        <field_string id="fd_37335_s" description="None" label="Image Source Record Created By"
+          value=""/>
+        <field_string id="fd_37336_s" description="None" label="Volume" value=""/>
+        <field_string id="fd_37337_s" description="None" label="Issue Number" value=""/>
+        <field_string id="fd_37338_s" description="None" label="Year" value=""/>
+        <field_string id="fd_37339_s" description="None" label="Page Plate Number" value=""/>
+        <field_string id="fd_1632163_s"
+          description="Enter image GPS bearing destination in decimal format for Location Created (ITPC Photo Metadata Standard)"
+          label="Image Location Created Bearing" value=""/>
+        <field_string id="fd_153086_s" description="None" label="art_keyword" value=""/>
+        <field_date id="fd_37319_dt" description="None" label="Image Request Date"
+          value="2020-10-01T12:00:00+00:00"/>
+        <field_boolean id="fd_37313_b" description="None" label="Send To Harvard" value="true"/>
+        <field_boolean id="fd_37314_b" description="None" label="In House Use Only" value="true"/>
+        <field_lookup id="fd_37301_mfcl_lookup" description="None" label="Image Type">
+          <display>digital image</display>
+          <linkedField id="11319122" revision="-1" source_id="11319122"
+            preferredTerm="digital image" institutionName="Harvard">
+            <allTerms>digital image</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_37296_lookup" description="None" label="Image Repository">
+          <display>Frances L. Loeb Library, Harvard University Graduate School of Design</display>
+          <linkedField id="9000413190" revision="-1" source_id="9000413190"
+            preferredTerm="Frances L. Loeb Library, Harvard University Graduate School of Design"
+            conceptLevel="Local" institutionName="Harvard"
+            uri="http://forum.jstor.org/oai/SSN/9000413190">
+            <allTerms>Frances L. Loeb Library, Harvard University Graduate School of Design</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_37292_lookup" description="None" label="Photographer">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_37302_lookup" description="None" label="Image Associated Name">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_37306_lookup" description="None" label="Image Materials">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_37307_lookup" description="None" label="Image Support">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_37308_lookup" description="None" label="Image Subject">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_37321_mfcl_lookup" description="None" label="Image Source Type">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_37341_lookup" description="None" label="Image Technique">
+          <display/>
+        </field_lookup>
+      </DisplayRecord>
+      <AssetGroups xmlns="">
+        <Group id="417611"/>
+        <Group id="420399"/>
+        <Group id="467620"/>
+      </AssetGroups>
+      <Publications xmlns="">
+        <Publication asset_id="30760520" publishing_target_id="860"/>
+        <Publication asset_id="30760520" publishing_target_id="800"/>
+      </Publications>
+      <Assets xmlns="" filename="Bazgir_34.JPG">
+        <Asset id="30760520" size="ADLImageViewer" uri="http://library.artstor.org/#/ssid/30760520"
+          restriction="f"/>
+        <Asset id="30760520" size="Thumbnail" uri="http://forum.jstor.org/oai/thumbnail?id=30760520"
+          restriction="f"/>
+        <Asset id="30760520" size="FullSize"
+          uri="http://forum.jstor.org/assets/30760520/representation/size/9" restriction="f"/>
+        <Asset id="30760520" size="Medias" uri="http://forum.jstor.org/oai/medias/30760520"
+          restriction="f"/>
+      </Assets>
+      <Targets xmlns="">
+        <Target name="Harvard University Study Collection of Digital Images" status_lkup="Published"
+          url="http://library.artstor.org/library/"
+          description="Institutional Collection in Artstor" publishDate="2022-02-16T15:00:49+00:00"/>
+        <Target name="OAI" status_lkup="Published" url="#" description="OAI"
+          publishDate="2022-02-16T15:00:49+00:00"/>
+      </Targets>
+    </display:DR>
+  </ssw:Work>
+  <ssn:Name conceptId="9000413190" stateText="NEW" recordType="CORPORATE BODY" batchId="2"
+    statusText="Provisional" createdOn="2014/12/27 12:04:09" modifiedOn="2014/12/27 12:04:09"
+    batchName="Harvard"
+    preferredTerm="Frances L. Loeb Library, Harvard University Graduate School of Design"
+    uri="http://forum.jstor.org/oai/ssn/9000413190">
+    <Terms xmlns="" count="1">
+      <Term id="1170444"
+        name="Frances L. Loeb Library, Harvard University Graduate School of Design"
+        preferred="true">
+        <TermSource id="11318641" name="NO SOURCE" preferred="true"/>
+      </Term>
+    </Terms>
+  </ssn:Name>
+  <tgn:TGN subjectId="1065424" recordType="A" placeType="inhabited place" preferredName="Eshkashem"
+    uri="http://forum.jstor.org/oai/tgn/1065424">
+    <tgn:latitude xmlns="" decimal="36.7" degree="36" minute="42" second="0" direction="N"/>
+    <tgn:longitude xmlns="" decimal="71.5667" degree="71" minute="34" second="0" direction="E"/>
+    <tgn:Hierarchy xmlns="">
+      <tgn:Parent subjectId="7029392" name="World" type="facet">
+        <tgn:Child subjectId="1000004" name="Asia" type="continent">
+          <tgn:Child subjectId="7016612" name="Afghanistan" type="nation">
+            <tgn:Child subjectId="7011625" name="Badakhshan" type="province">
+              <tgn:Child subjectId="1065424" name="Eshkashem" type="inhabited place"/>
+            </tgn:Child>
+          </tgn:Child>
+        </tgn:Child>
+      </tgn:Parent>
+    </tgn:Hierarchy>
+    <tgn:Terms xmlns="">
+      <tgn:Term id="66008" name="Eshkashem" preferred="P"/>
+      <tgn:Term id="348894" name="Eshkāshem" preferred="V"/>
+    </tgn:Terms>
+    <tgn:PlaceTypes xmlns="">
+      <tgn:Place id="83002" name="inhabited place" preferred="P"/>
+    </tgn:PlaceTypes>
+  </tgn:TGN>
+</SharedShelf>

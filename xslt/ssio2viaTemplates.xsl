@@ -177,6 +177,43 @@
                         select="DisplayRecord/field_string[@label = 'Image Date'][not(@value = 'None') and not(normalize-space(@value) = '')]"/>
                     <xsl:apply-templates
                         select="DisplayRecord/field_string[@label = 'Image Measurements'][not(@value = 'None') and not(normalize-space(@value) = '')]"/>
+                    <xsl:if
+                        test="
+                            DisplayRecord/field_string[@label = 'Image Location Created Latitude'][not(@value = 'None') and not(normalize-space(@value) = '')]
+                            or DisplayRecord/field_string[@label = 'Image Location Created Longitude'][not(@value = 'None') and not(normalize-space(@value) = '')]
+                            or DisplayRecord/field_string[@label = 'Image Location Created Altitude'][not(@value = 'None') and not(normalize-space(@value) = '')]
+                            or DisplayRecord/field_string[@label = 'Image Location Created Bearing'][not(@value = 'None') and not(normalize-space(@value) = '')]">
+                        <xsl:element name="coordinate">
+                            <xsl:if
+                                test="DisplayRecord/field_string[@label = 'Image Location Created Altitude'][not(@value = 'None') and not(normalize-space(@value) = '')]">
+                                <xsl:attribute name="altitude">
+                                    <xsl:value-of select="DisplayRecord/field_string[@label = 'Image Location Created Altitude']/@value"/>
+                                </xsl:attribute>
+                            </xsl:if>
+                            <xsl:if
+                                test="DisplayRecord/field_string[@label = 'Image Location Created Bearing'][not(@value = 'None') and not(normalize-space(@value) = '')]">
+                                <xsl:attribute name="decimal">
+                                    <xsl:value-of select="DisplayRecord/field_string[@label = 'Image Location Created Bearing']/@value"/>
+                                </xsl:attribute>
+                            </xsl:if>
+                            <xsl:if
+                                test="DisplayRecord/field_string[@label = 'Image Location Created Latitude'][not(@value = 'None') and not(normalize-space(@value) = '')]">
+                                <xsl:element name="latitude">
+                                    <xsl:attribute name="decimal">
+                                        <xsl:value-of select="DisplayRecord/field_string[@label = 'Image Location Created Latitude']/@value"/>
+                                    </xsl:attribute>
+                                </xsl:element>
+                            </xsl:if>
+                            <xsl:if
+                                test="DisplayRecord/field_string[@label = 'Image Location Created Longitude'][not(@value = 'None') and not(normalize-space(@value) = '')]">
+                                <xsl:element name="longitude">
+                                    <xsl:attribute name="decimal">
+                                        <xsl:value-of select="DisplayRecord/field_string[@label = 'Image Location Created Longitude']/@value"/>
+                                    </xsl:attribute>
+                                </xsl:element>
+                            </xsl:if>
+                        </xsl:element>
+                    </xsl:if>
                     <xsl:apply-templates
                         select="DisplayRecord/field_lookup[@label = 'Image Associated Name'][not(normalize-space(display) = '')]"/>
                     <xsl:apply-templates
@@ -316,7 +353,9 @@
             <xsl:element name="term">
                 <xsl:value-of select="@preferredTerm"/>
             </xsl:element>
-            <xsl:apply-templates select="//tgn:TGN[tgn:latitude|tgn:longitude|tgn:altitude|tgn:bearing][@subjectId = $linkingid]"/>
+            <xsl:apply-templates
+                select="//tgn:TGN[tgn:latitude | tgn:longitude | tgn:altitude | tgn:bearing][@subjectId = $linkingid]"
+            />
         </xsl:element>
     </xsl:template>
 
@@ -808,7 +847,9 @@
             <xsl:element name="place">
                 <xsl:value-of select="@term"/>
             </xsl:element>
-            <xsl:apply-templates select="//tgn:TGN[tgn:latitude|tgn:longitude|tgn:altitude|tgn:bearing][@subjectId = $linkingid]"/>
+            <xsl:apply-templates
+                select="//tgn:TGN[tgn:latitude | tgn:longitude | tgn:altitude | tgn:bearing][@subjectId = $linkingid]"
+            />
         </xsl:element>
     </xsl:template>
 
@@ -963,7 +1004,7 @@
         </xsl:element>
     </xsl:template>
 
-    <xsl:template match="tgn:latitude|tgn:longitude|tgn:altitude|tgn:bearing">
+    <xsl:template match="tgn:latitude | tgn:longitude | tgn:altitude | tgn:bearing">
         <xsl:element name="{local-name()}">
             <xsl:if test="@decimal">
                 <xsl:attribute name="decimal">
@@ -1014,7 +1055,8 @@
             <xsl:value-of select="./@id"/>
         </xsl:variable>
         <xsl:element name="location">
-            <xsl:apply-templates select="//tgn:TGN[tgn:latitude|tgn:longitude|tgn:altitude|tgn:bearing][@subjectId = $linkingid]"/>
+            <xsl:apply-templates
+                select="//tgn:TGN[tgn:latitude | tgn:longitude | tgn:altitude | tgn:bearing][@subjectId = $linkingid]"/>
             <!--<xsl:element name="geodata">
                 <xsl:element name="country">
                     <xsl:value-of select="@term_lkup"/>
@@ -1042,6 +1084,9 @@
 
     <xsl:template
         match="Locations/Location[@type_lkup and not(@type_lkup = 'creation') and not(@type_lkup = 'publication')]">
+        <xsl:variable name="linkingid">
+            <xsl:value-of select="./@id"/>
+        </xsl:variable>
         <xsl:element name="location">
             <xsl:element name="type">
                 <xsl:value-of select="@type_lkup"/>
@@ -1049,6 +1094,9 @@
             <xsl:element name="place">
                 <xsl:value-of select="@term"/>
             </xsl:element>
+            <xsl:apply-templates
+                select="//tgn:TGN[tgn:latitude | tgn:longitude | tgn:altitude | tgn:bearing][@subjectId = $linkingid]"
+            />
         </xsl:element>
     </xsl:template>
 
@@ -1062,7 +1110,9 @@
                 <xsl:element name="place">
                     <xsl:value-of select="@term"/>
                 </xsl:element>
-                <xsl:apply-templates select="//tgn:TGN[tgn:latitude|tgn:longitude|tgn:altitude|tgn:bearing][@subjectId = $linkingid]"/>
+                <xsl:apply-templates
+                    select="//tgn:TGN[tgn:latitude | tgn:longitude | tgn:altitude | tgn:bearing][@subjectId = $linkingid]"
+                />
             </xsl:element>
         </xsl:element>
     </xsl:template>
