@@ -309,10 +309,14 @@
     </xsl:template>
 
     <xsl:template match="linkedField" mode="subject">
+        <xsl:variable name="linkingid">
+            <xsl:value-of select="./@id"/>
+        </xsl:variable>
         <xsl:element name="topic">
             <xsl:element name="term">
                 <xsl:value-of select="@preferredTerm"/>
             </xsl:element>
+            <xsl:apply-templates select="//tgn:TGN[tgn:latitude|tgn:longitude|tgn:altitude|tgn:bearing][@subjectId = $linkingid]"/>
         </xsl:element>
     </xsl:template>
 
@@ -804,11 +808,9 @@
             <xsl:element name="place">
                 <xsl:value-of select="@term"/>
             </xsl:element>
-            <xsl:apply-templates select="//tgn:TGN[tgn:latitude|tgn:longitude|tgn:altitude|tgn:bearing][@subjectId = $linkingid]"></xsl:apply-templates>
+            <xsl:apply-templates select="//tgn:TGN[tgn:latitude|tgn:longitude|tgn:altitude|tgn:bearing][@subjectId = $linkingid]"/>
         </xsl:element>
     </xsl:template>
-
-    <!--<xsl:apply-templates select="../tgn:TGN[tgn:latitude|tgn:longitude|tgn:altitude|tgn:bearing]"/>-->
 
     <xsl:template match="ssn:Name" mode="namerec">
         <xsl:apply-templates select="Biographies"/>
@@ -1008,12 +1010,16 @@
     </xsl:template>
 
     <xsl:template match="Country">
+        <xsl:variable name="linkingid">
+            <xsl:value-of select="./@id"/>
+        </xsl:variable>
         <xsl:element name="location">
-            <xsl:element name="geodata">
+            <xsl:apply-templates select="//tgn:TGN[tgn:latitude|tgn:longitude|tgn:altitude|tgn:bearing][@subjectId = $linkingid]"/>
+            <!--<xsl:element name="geodata">
                 <xsl:element name="country">
                     <xsl:value-of select="@term_lkup"/>
                 </xsl:element>
-            </xsl:element>
+            </xsl:element>-->
         </xsl:element>
     </xsl:template>
 
@@ -1048,11 +1054,15 @@
 
     <xsl:template
         match="Locations/Location[@type_lkup = 'creation'] | Locations/Location[@type_lkup = 'publication']">
+        <xsl:variable name="linkingid">
+            <xsl:value-of select="./@id"/>
+        </xsl:variable>
         <xsl:element name="production">
             <xsl:element name="placeOfProduction">
                 <xsl:element name="place">
                     <xsl:value-of select="@term"/>
                 </xsl:element>
+                <xsl:apply-templates select="//tgn:TGN[tgn:latitude|tgn:longitude|tgn:altitude|tgn:bearing][@subjectId = $linkingid]"/>
             </xsl:element>
         </xsl:element>
     </xsl:template>
