@@ -1,0 +1,71 @@
+<viaRecord originalAtHarvard="true"
+           primaryImageThumbnailURN="http://nrs.harvard.edu/urn-3:FHCL:27304785">
+   <recordId>8001306196</recordId>
+   <work>
+      <title>
+         <textElement>India. Darjeeling from the sanitarium building</textElement>
+      </title>
+      <itemIdentifier>
+         <number>2684 (Ballantine’s slide number)</number>
+      </itemIdentifier>
+      <workType>photographs</workType>
+      <workType>lantern slides</workType>
+      <structuredDate>
+         <beginDate>1888</beginDate>
+         <endDate>1892</endDate>
+      </structuredDate>
+      <structuredDate>
+         <beginDate>1888</beginDate>
+         <endDate>1892</endDate>
+      </structuredDate>
+      <freeDate>ca. 1890</freeDate>
+      <dimensions>9 x 11 cm (lantern slide format)</dimensions>
+      <associatedName>
+         <nameElement>Ballantine, Henry</nameElement>
+         <dates>1846-1914, American</dates>
+         <role>collector</role>
+      </associatedName>
+      <associatedName>
+         <nameElement>Rau, William Herman</nameElement>
+         <dates>American photographer, 1855-1920</dates>
+         <role>publisher</role>
+      </associatedName>
+      <associatedName>
+         <nameElement>Bettge, Eloise Sager</nameElement>
+         <dates>American</dates>
+         <role>former owner</role>
+      </associatedName>
+      <topic>
+         <term>towns</term>
+      </topic>
+      <topic>
+         <term>Dārjiling, West Bengal, India</term>
+      </topic>
+      <materials>glass transparencies</materials>
+      <notes>Biography History: Born in Ahmednagar, India, the son of a Christian missionary, Henry Ballantine graduated from Amherst College in 1868 then returned to India where he was a merchant in Bombay from 1870-1872. Ballantine traveled to the Himalayas and Nepal in 1885 and 1888, and he also served as U.S. Consul to India from 1891-1896. During this time, he collected and took photographs and wrote about his travels in a book, On India's frontier, or, Nepal, the Ghurkas' mysterious land (1896).</notes>
+      <notes>General: Title from handwritten caption label attached to slide. Printed on label: William H. Rau &amp; Co., 1206 Chestnut St., Philadelphia.</notes>
+      <relatedWork>
+         <relationship>part of</relationship>
+         <textElement>Eloise Sager Bettge Collection</textElement>
+      </relatedWork>
+      <relatedInformation xmlns:xlink="http://www.w3.org/TR/xlink"
+                          xlink:href="http://id.lib.harvard.edu/aleph/012879920/catalog">HOLLIS record</relatedInformation>
+      <repository>
+         <repositoryName>Harvard Fine Arts Library, Special Collections</repositoryName>
+         <number>AKP248.211</number>
+      </repository>
+      <surrogate componentID="14355833">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="false"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:27304785">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:27304785"/>
+         </image>
+      </surrogate>
+   </work>
+   <admin>
+      <createDate>2016-05-09</createDate>
+      <updateNote>
+         <updateDate>2017/03/17 14:25:32</updateDate>
+      </updateNote>
+   </admin>
+</viaRecord>

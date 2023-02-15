@@ -1,0 +1,1200 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<SharedShelf xmlns:display="http://catalog.sharedshelf.artstor.org/display"
+  xmlns:ssc="http://catalog.sharedshelf.artstor.org/ssc"
+  xmlns:ssd="http://catalog.sharedshelf.artstor.org/ssd"
+  xmlns:ssn="http://catalog.sharedshelf.artstor.org/ssn"
+  xmlns:ssw="http://catalog.sharedshelf.artstor.org/ssw"
+  xmlns:ssw_lkup="http://catalog.sharedshelf.artstor.org/ssw_lkup"
+  xmlns:tgn="http://catalog.sharedshelf.artstor.org/tgn"
+  xmlns:aat="http://catalog.sharedshelf.artstor.org/aat"
+  xmlns:mfcl="http://catalog.sharedshelf.artstor.org/mfcl"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="http://catalog.sharedshelf.artstor.org"
+  xsi:schemaLocation="http://catalog.sharedshelf.artstor.org http://catalog.sharedshelf.artstor.org/service/schema/SharedShelf_IO.xsd">
+  <ssw:Work lastUpdateDate="2017/03/17 14:25:32" id="8001306196" refid="8001306196"
+    contributor="Harvard" instituteId="10003" uri="http://forum.jstor.org/oai/ssw/8001306196">
+    <Titles xmlns="" tempered="true">
+      <Display>India. Darjeeling from the sanitarium building</Display>
+      <Title term="India. Darjeeling from the sanitarium building"/>
+    </Titles>
+    <WorkTypes xmlns="" tempered="true">
+      <Display>photographs; lantern slides</Display>
+      <WorkType id="300046300" vocab="AAT" term="photographs"
+        uri="http://forum.jstor.org/oai/AAT/300046300"/>
+      <WorkType id="300134977" vocab="AAT" term="lantern slides"
+        uri="http://forum.jstor.org/oai/AAT/300134977"/>
+    </WorkTypes>
+    <Materials xmlns="" tempered="true">
+      <Display>glass transparencies</Display>
+      <Material id="16506727" vocab="MFCL" term="glass transparencies" supporttype_lkup="medium"
+        supporttype_lkup_id="11315160" uri="http://forum.jstor.org/oai/MFCL/16506727"/>
+    </Materials>
+    <Measurements xmlns="" tempered="false">
+      <Display>9 x 11 cm (lantern slide format)</Display>
+    </Measurements>
+    <Subjects xmlns="" tempered="true">
+      <Display>towns; Dārjiling, West Bengal, India</Display>
+      <Subject id="300008375" vocab="AAT" term="towns"
+        uri="http://forum.jstor.org/oai/AAT/300008375"/>
+      <Subject id="7001533" vocab="TGN" term="Dārjiling, West Bengal, India"
+        uri="http://forum.jstor.org/oai/TGN/7001533"/>
+    </Subjects>
+    <Dates xmlns="" tempered="false">
+      <Display>ca. 1890</Display>
+      <Date startDate="1888" endDate="1892" type_lkup="workDate"/>
+      <Date startDate="1888" endDate="1892"/>
+    </Dates>
+    <Locations xmlns="" tempered="true">
+      <Display>Harvard Fine Arts Library, Special Collections (repository); Bettge, Eloise Sager (American) (former owner)</Display>
+      <DisplayLocation term="Harvard Fine Arts Library, Special Collections" type_lkup="repository"
+        type_lkup_id="11315199"/>
+      <DisplayLocation term="Bettge, Eloise Sager (American)" type_lkup="former owner"
+        type_lkup_id="11314227"/>
+      <Repository id="9000369124" vocab="SSN" term="Harvard Fine Arts Library, Special Collections"
+        type_lkup="repository" uri="http://forum.jstor.org/oai/SSN/9000369124">
+        <ssw:RefIdDetail term="AKP248.211" type_lkup="accession number" type_lkup_id="11315208"/>
+      </Repository>
+      <PrivateOwner id="9000369508" vocab="SSN" term="Bettge, Eloise Sager" type_lkup="former owner"
+        type_lkup_id="11314227" uri="http://forum.jstor.org/oai/SSN/9000369508"/>
+    </Locations>
+    <Agents xmlns="" tempered="true">
+      <Display>Ballantine, Henry (1846-1914, American) collector|Rau, William Herman (American photographer, 1855-1920) publisher</Display>
+      <Agent id="9000369507" vocab="SSN" term="Ballantine, Henry" role_lkup="collector"
+        role_lkup_id="11310404" uri="http://forum.jstor.org/oai/SSN/9000369507"/>
+      <Agent id="500013054" vocab="SSN" term="Rau, William Herman" role_lkup="publisher"
+        role_lkup_id="11310318" uri="http://forum.jstor.org/oai/SSN/500013054"/>
+    </Agents>
+    <Notes xmlns="" tempered="true">
+      <Display>Title from handwritten caption label attached to slide. Printed on label: William H. Rau &amp; Co., 1206 Chestnut St., Philadelphia.|Born in Ahmednagar, India, the son of a Christian missionary, Henry Ballantine graduated from Amherst College in 1868 then returned to India where he was a merchant in Bombay from 1870-1872. Ballantine traveled to the Himalayas and Nepal in 1885 and 1888, and he also served as U.S. Consul to India from 1891-1896. During this time, he collected and took photographs and wrote about his travels in a book, On India's frontier, or, Nepal, the Ghurkas' mysterious land (1896).|2684 (Ballantine’s slide number)</Display>
+      <Note
+        term="Title from handwritten caption label attached to slide. Printed on label: William H. Rau &amp; Co., 1206 Chestnut St., Philadelphia."
+        type_lkup="General" type_lkup_id="11309122"/>
+      <Note
+        term="Born in Ahmednagar, India, the son of a Christian missionary, Henry Ballantine graduated from Amherst College in 1868 then returned to India where he was a merchant in Bombay from 1870-1872. Ballantine traveled to the Himalayas and Nepal in 1885 and 1888, and he also served as U.S. Consul to India from 1891-1896. During this time, he collected and took photographs and wrote about his travels in a book, On India's frontier, or, Nepal, the Ghurkas' mysterious land (1896)."
+        type_lkup="Biography History" type_lkup_id="11309102"/>
+      <Note term="2684 (Ballantine’s slide number)" type_lkup="associated number"
+        type_lkup_id="11309098"/>
+    </Notes>
+    <LocalInformation xmlns="">
+      <RelatedInfo description="Eloise Sager Bettge Collection" type_lkup="related work"
+        type_lkup_id="11309235" relType_lkup="part of"/>
+      <RelatedInfo term="http://id.lib.harvard.edu/aleph/012879920/catalog"
+        description="HOLLIS record" type_lkup="related information" type_lkup_id="11309233"/>
+    </LocalInformation>
+    <RelatedWorks xmlns=""/>
+    <display:DR id="14355833" representationId="drs:urn-3:FHCL:27304785"
+      lastUpdateDate="2017-03-17T18:25:55+00:00" sequence="1" primary="true" projectId="816"
+      institutionId="10003" createdBy="toplyn@fas.harvard.edu" updatedBy="None"
+      createdDate="2016-05-09T20:26:54+00:00">
+      <DisplayRecord xmlns="">
+        <field_string id="fd_37105_s" description="None" label="Image Source Call Numbers" value=""/>
+        <field_string id="fd_37098_s" description="None" label="Image Source Edition" value=""/>
+        <field_string id="fd_37070_an" description="None" label="Image Accession Number" value=""/>
+        <field_string id="fd_37082_s" description="None" label="Image Credit" value=""/>
+        <field_string id="fd_37096_s" description="None" label="Image Source Alternate Title"
+          value=""/>
+        <field_string id="fd_37107_s" description="None" label="Image Source Record Created By"
+          value=""/>
+        <field_string id="fd_37084_s" description="None" label="In House Notes" value=""/>
+        <field_string id="fd_37094_s" description="None" label="Image Provider" value=""/>
+        <field_string id="fd_37092_s" description="None" label="Image Source ID" value=""/>
+        <field_string id="fd_37057_s" description="None" label="Longitude" value=""/>
+        <field_string id="fd_37110_s" description="None" label="Year" value=""/>
+        <field_string id="fd_37109_s" description="None" label="Issue Number" value=""/>
+        <field_string id="fd_37077_s" description="None" label="Image End Year" value=""/>
+        <field_string id="fd_37043_s" description="None" label="Image View Type" value=""/>
+        <field_string id="fd_37071_s" description="None" label="Image Accession Date" value=""/>
+        <field_string id="fd_37090_s" description="None" label="Image Requester" value=""/>
+        <field_string id="fd_37100_s" description="None" label="Image Source Publisher" value=""/>
+        <field_string id="fd_37102_s" description="None" label="Image Source Date" value=""/>
+        <field_string id="fd_37104_s" description="None" label="Image Source Reference Number"
+          value=""/>
+        <field_string id="fd_37081_s" description="None" label="Image Rights" value=""/>
+        <field_string id="fd_37083_s" description="None" label="Image Notes" value=""/>
+        <field_string id="fd_37099_s" description="None" label="Image Source Place Of Publication"
+          value=""/>
+        <field_string id="fd_37106_s" description="None" label="Image Source Notes" value=""/>
+        <field_string id="fd_37097_s" description="None" label="Image Source Author" value=""/>
+        <field_string id="fd_37056_s" description="None" label="Latitude" value=""/>
+        <field_string id="fd_37111_s" description="None" label="Page Plate Number" value=""/>
+        <field_string id="fd_37095_s" description="None" label="Image Source Title" value=""/>
+        <field_string id="fd_37069_s" description="None" label="Image Collection" value=""/>
+        <field_string id="fd_37065_s" description="None" label="Image Date" value=""/>
+        <field_string id="fd_37087_s" description="None" label="Additional Formats" value=""/>
+        <field_string id="fd_37042_s" description="None" label="Image View Description" value=""/>
+        <field_string id="fd_37076_s" description="None" label="Image Measurements" value=""/>
+        <field_string id="fd_37103_s" description="None" label="Image Source Series Title" value=""/>
+        <field_string id="fd_37072_s" description="None" label="Image Classification Number"
+          value=""/>
+        <field_string id="fd_37101_s" description="None" label="Image Source Publication Date"
+          value=""/>
+        <field_string id="fd_37075_s" description="None" label="Image Start Year" value=""/>
+        <field_string id="fd_37108_s" description="None" label="Volume" value=""/>
+        <field_string id="fd_37058_s" description="None" label="Elevation" value=""/>
+        <field_date id="fd_37091_dt" description="None" label="Image Request Date"/>
+        <field_boolean id="fd_37085_b" description="None" label="Send To Harvard" value="true"/>
+        <field_lookup id="fd_37074_lookup" description="None" label="Image Associated Name">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_37080_lookup" description="None" label="Image Subject">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_37079_lookup" description="None" label="Image Support">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_37064_lookup" description="None" label="Photographer">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_37078_lookup" description="None" label="Image Materials">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_37093_mfcl_lookup" description="None" label="Image Source Type">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_37113_lookup" description="None" label="Image Technique">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_37068_lookup" description="None" label="Image Repository">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_37073_mfcl_lookup" description="None" label="Image Type">
+          <display/>
+        </field_lookup>
+      </DisplayRecord>
+      <AssetGroups xmlns="">
+        <Group id="22018"/>
+        <Group id="30609"/>
+      </AssetGroups>
+      <Publications xmlns="">
+        <Publication asset_id="14355833" publishing_target_id="797"/>
+      </Publications>
+      <Assets xmlns="" filename="urn-3:FHCL:27304785">
+        <Asset id="None" size="DRS_full" uri="http://nrs.harvard.edu/urn-3:FHCL:27304785"
+          restriction="f"/>
+        <Asset id="None" size="DRS_thumb" uri="http://nrs.harvard.edu/urn-3:FHCL:27304785"
+          restriction="f"/>
+      </Assets>
+      <Targets xmlns="">
+        <Target name="OAI" status_lkup="Published" url="#" description="OAI"
+          publishDate="2017-03-17T18:24:46+00:00"/>
+      </Targets>
+    </display:DR>
+  </ssw:Work>
+  <ssn:Name conceptId="9000369124" stateText="AUTHORITY" recordType="CORPORATE BODY" batchId="2"
+    statusText="Provisional" createdOn="2014/12/26 10:24:16" modifiedOn="2016/09/09 19:26:06"
+    batchName="Harvard" preferredTerm="Harvard Fine Arts Library, Special Collections"
+    uri="http://forum.jstor.org/oai/ssn/9000369124">
+    <Terms xmlns="" count="1">
+      <Term id="1061567" name="Harvard Fine Arts Library, Special Collections" preferred="true">
+        <TermSource id="11318641" name="NO SOURCE" preferred="true"/>
+      </Term>
+    </Terms>
+    <Biographies xmlns="" count="1">
+      <Biography id="1061568" preferred="true">
+        <birthPlace/>
+        <deathPlace/>
+      </Biography>
+    </Biographies>
+  </ssn:Name>
+  <ssn:Name conceptId="9000369508" stateText="NEW" recordType="PERSON" batchId="2"
+    statusText="Provisional" createdOn="2014/12/26 10:40:25" modifiedOn="2014/12/26 10:40:25"
+    batchName="Harvard" preferredTerm="Bettge, Eloise Sager" preferredGender="Female"
+    uri="http://forum.jstor.org/oai/ssn/9000369508">
+    <Nationalities xmlns="" count="1">
+      <Nationality id="11281149" name="American" preferred="true"/>
+    </Nationalities>
+    <Terms xmlns="" count="1">
+      <Term id="1070938" name="Bettge, Eloise Sager" preferred="true">
+        <TermSource id="11276961" name="Source data found" preferred="true"/>
+      </Term>
+    </Terms>
+    <Biographies xmlns="" count="1">
+      <Biography id="1070939" name="American" gender="Female" preferred="true">
+        <birthPlace/>
+        <deathPlace/>
+      </Biography>
+    </Biographies>
+    <Notes xmlns="" count="1">
+      <Note
+        noteText="Eloise Sager Bettge collection : photographs by Raja Deen Dayal and other materials related to Henry Ballantine on deposit from Rowe Kaple."
+      />
+    </Notes>
+  </ssn:Name>
+  <ssn:Name conceptId="9000369507" stateText="NEW" recordType="PERSON" batchId="2"
+    statusText="Provisional" createdOn="2014/12/26 10:40:25" modifiedOn="2014/12/26 10:40:25"
+    batchName="Harvard" preferredTerm="Ballantine, Henry" preferredGender="Male"
+    uri="http://forum.jstor.org/oai/ssn/9000369507">
+    <Nationalities xmlns="" count="1">
+      <Nationality id="11281149" name="American" preferred="true"/>
+    </Nationalities>
+    <Terms xmlns="" count="1">
+      <Term id="1070936" name="Ballantine, Henry" preferred="true">
+        <TermSource id="11276962" name="LC Authority File" preferred="true"/>
+      </Term>
+    </Terms>
+    <Biographies xmlns="" count="1">
+      <Biography id="1070937" name="1846-1914, American" gender="Male" preferred="true">
+        <birthDate year="1846" epoch="AD"/>
+        <deathDate year="1914" epoch="AD"/>
+        <birthPlace/>
+        <deathPlace/>
+      </Biography>
+    </Biographies>
+    <Notes xmlns="" count="1">
+      <Note
+        noteText="Born in Ahmednagar, India, the son of a Christian missionary, Henry Ballantine graduated from Amherst College in 1868 then returned to India where he was a merchant in Bombay from 1870-1872. He later served as U.S. Consul there from 1891-1896."
+      />
+    </Notes>
+  </ssn:Name>
+  <ssn:Name conceptId="500013054" stateText="COMPLETED" recordType="PERSON" batchId="1"
+    statusText="Complete" createdOn="2014/5/03 5:10:36" modifiedOn="2014/5/03 5:10:36"
+    batchName="ULAN" preferredTerm="Rau, William Herman" preferredGender="Male"
+    uri="http://forum.jstor.org/oai/ssn/500013054">
+    <Roles xmlns="" count="2">
+      <Role id="11310025" name="photographer" preferred="false"/>
+      <Role id="11310453" name="artist" preferred="true"/>
+    </Roles>
+    <Nationalities xmlns="" count="1">
+      <Nationality id="11281149" name="American" preferred="true"/>
+    </Nationalities>
+    <Terms xmlns="" count="5">
+      <Term id="1500036753" name="Rau, W. H." preferred="false">
+        <Contributor id="2500000007" name="CCA" preferred="false"/>
+        <Contributor id="2500000013" name="VP" preferred="false"/>
+        <Language id="11280177" name="undetermined" preferred="false"/>
+        <TermSource id="11242916" name="Canadian Centre for Architecture database" preferred="false"
+        />
+      </Term>
+      <Term id="1500036754" name="Rau, William" preferred="false">
+        <Contributor id="2500000007" name="CCA" preferred="false"/>
+        <Language id="11280177" name="undetermined" preferred="false"/>
+        <TermSource id="11242916" name="Canadian Centre for Architecture database" preferred="false"
+        />
+      </Term>
+      <Term id="1500036755" name="Rau, William H." preferred="false">
+        <Contributor id="2500000005" name="BHA" preferred="true"/>
+        <Contributor id="2500000007" name="CCA" preferred="false"/>
+        <Contributor id="2500000009" name="JPGM" preferred="true"/>
+        <Contributor id="2500000013" name="VP" preferred="false"/>
+        <Language id="11280177" name="undetermined" preferred="false"/>
+        <TermSource id="11242916" name="Canadian Centre for Architecture database" preferred="false"
+        />
+      </Term>
+      <Term id="1500036756" name="Rau, William Herman" preferred="true">
+        <Contributor id="2500000007" name="CCA" preferred="true"/>
+        <Contributor id="2500000013" name="VP" preferred="true"/>
+        <Contributor id="2500000008" name="AVERY" preferred="true"/>
+        <Language id="11280177" name="undetermined" preferred="false"/>
+        <TermSource id="11244672" name="Library of Congress Authorities online (2002-)"
+          preferred="false"/>
+        <TermSource id="11235039" name="J. Paul Getty Museum, collections online (2000-)"
+          preferred="true" page="accessed 6 May 2009"/>
+        <TermSource id="11234732" name="Avery Authority files (1963-)" preferred="true"/>
+      </Term>
+      <Term id="1500036757" name="William Herman Rau" preferred="false">
+        <Contributor id="2500000007" name="CCA" preferred="false"/>
+        <Contributor id="2500000013" name="VP" preferred="false"/>
+        <Language id="11280177" name="undetermined" preferred="false"/>
+        <TermSource id="11242916" name="Canadian Centre for Architecture database" preferred="false"
+        />
+      </Term>
+    </Terms>
+    <Events xmlns="" count="1">
+      <Event id="11315112" name="active" preferred="true"
+        place="Pennsylvania (United States) (state)"/>
+    </Events>
+    <Bibliographies xmlns="" count="9">
+      <Bibliography sourceId="11243111" sourceText="Eastman House Database [online] (n.d.)"
+        preferred="false"/>
+      <Bibliography sourceId="11232459" sourceText="Travis, Photography Rediscovered (1979)"
+        preferred="false"/>
+      <Bibliography sourceId="11241538"
+        sourceText="Finkel, Nineteenth-century photography in Philadelphia (1980)" page="218"
+        preferred="false"/>
+      <Bibliography sourceId="11241142"
+        sourceText="Ruby, 19th-Century Pennsylvania Landscape Photography (1986)" page="9-11"
+        preferred="false"/>
+      <Bibliography sourceId="11241119"
+        sourceText="Sandweiss, Nineteenth-Century Photography in America (1991)" page="327"
+        preferred="false"/>
+      <Bibliography sourceId="11244672" sourceText="Library of Congress Authorities online (2002-)"
+        preferred="false"/>
+      <Bibliography sourceId="11233823" sourceText="Getty Vocabulary Program rules"
+        preferred="false"/>
+      <Bibliography sourceId="11242916" sourceText="Canadian Centre for Architecture database"
+        preferred="false"/>
+      <Bibliography sourceId="11253412"
+        sourceText="LCNAF Library of Congress Name Authority File  [n.d.]" page="109"
+        preferred="false"/>
+    </Bibliographies>
+    <Contributors xmlns="" count="5">
+      <Contributor id="2500000008" name="AVERY"/>
+      <Contributor id="2500000005" name="BHA"/>
+      <Contributor id="2500000007" name="CCA"/>
+      <Contributor id="2500000009" name="JPGM"/>
+      <Contributor id="2500000013" name="VP"/>
+    </Contributors>
+    <Biographies xmlns="" count="4">
+      <Biography id="4000033398" name="American photographer, 1855-1920" gender="Male"
+        preferred="true">
+        <birthDate year="1855" epoch="AD"/>
+        <Contributor id="2500000005" name="BHA"/>
+        <deathDate year="1920" epoch="AD"/>
+        <birthPlace id="7014406"
+          name="Philadelphia (Philadelphia county, Pennsylvania, United States) (inhabited place)"/>
+        <deathPlace id="7014406"
+          name="Philadelphia (Philadelphia county, Pennsylvania, United States) (inhabited place)"/>
+      </Biography>
+      <Biography id="4000411052" name="American photographer, 1855-1920" gender="Unknown"
+        preferred="false">
+        <birthDate year="1855" epoch="AD"/>
+        <Contributor id="2500000008" name="AVERY"/>
+        <deathDate year="1920" epoch="AD"/>
+      </Biography>
+      <Biography id="4000033399" name="American, 1855-1920" gender="Male" preferred="false">
+        <Contributor id="2500000009" name="JPGM"/>
+      </Biography>
+      <Biography id="4000033400"
+        name="American photographer; born Philadelphia (Pennsylvania, United States), 1855; died Philadelphia (Pennsylvania, United States), 1920"
+        gender="Male" preferred="false">
+        <birthDate year="1855" epoch="AD"/>
+        <Contributor id="2500000007" name="CCA"/>
+        <deathDate year="1920" epoch="AD"/>
+        <birthPlace id="7014406"
+          name="Philadelphia (Philadelphia county, Pennsylvania, United States) (inhabited place)"/>
+        <deathPlace id="7014406"
+          name="Philadelphia (Philadelphia county, Pennsylvania, United States) (inhabited place)"/>
+      </Biography>
+    </Biographies>
+    <ScopeNotes xmlns="" count="1">
+      <ScopeNote ScopeNoteId="33372"
+        ScopeNoteText="Born 19 January 1855; died 19 November 1920. In 1874 Rau obtained a position with the United States Government Expedition to document the transit of Venus. In 1877 he formed a partnership with his father-in-law William Bell, a survey photographer. Rau purchased Bell's stereograph company in 1877, and operated it under his own name until it was purchased by Underwood and Underwood in 1901. In 1881 Rau photographed in Colorado and New Mexico. He also travelled to Egypt to photograph monuments in the 1880s. Rau was appointed in 1890 as the official photographer of the Pennsylvania Railroad, and appointed in 1895 as the official photographer of the LeHigh Valley Railroad to document views along their lines. Rau also photographed the Johnstown, Pennsylvania flood and the 1904 Baltimore fire. He was associated with the Photographic Society of Philadelphia, the American Lantern Slide Interchange, the Photographic Exchange Club of Philadelphia and the Detroit Publishing Company. American landscape photographer, Philadelphia.">
+        <Language id="70051" name="English"/>
+        <Contributor id="2500000008" name="AVERY"/>
+        <Contributor id="2500000007" name="CCA"/>
+        <Sources/>
+        <Sources/>
+        <Sources page="109"/>
+        <Sources/>
+      </ScopeNote>
+    </ScopeNotes>
+    <Associatives xmlns="" count="1">
+      <Associative associativeId="11314155" conceptId="500055414"
+        associativeName="child by marriage (in-law) of" term="Bell, William H."
+        displayText="American photographer, 1830-1910"/>
+    </Associatives>
+  </ssn:Name>
+  <aat:AAT subjectId="300046300" recordType="C"
+    englishScopeNote="Refers to still images produced from radiation-sensitive materials (sensitive to light, electron beams, or nuclear radiation), generally by means of the chemical action of light on a sensitive film, paper, glass, or metal. It does not include reproductive prints of documents and technical drawings, for which descriptors found under &quot;&lt;reprographic copies&gt;&quot; are more appropriate. Photographs may be positive or negative, opaque or transparent."
+    preferredTerm="photographs" uri="http://forum.jstor.org/oai/aat/300046300">
+    <Hierarchy xmlns="">
+      <Parent subjectId="300264092" name="Objects Facet">
+        <Child subjectId="300264552" name="Visual and Verbal Communication">
+          <Child subjectId="300179869" name="Visual Works (Hierarchy Name)">
+            <Child subjectId="300191086" name="visual works (Guide Term)">
+              <Child subjectId="300191091" name="visual works by medium or technique">
+                <Child subjectId="300046300" name="photographs"/>
+              </Child>
+            </Child>
+          </Child>
+        </Child>
+      </Parent>
+    </Hierarchy>
+    <Terms xmlns="">
+      <Term id="1000046300" name="photographs" preferred="P" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000017031"
+            briefCit="Zinkham and Parker, Descriptive Terms for Graphic Materials (1986)"
+            fullCit="Zinkham, Helena and Elizabeth B. Parker. Descriptive Terms for Graphic Materials: Genre and Physical Characteristic Headings. Washington, D.C.: Library of Congress, 1986."/>
+          <Source id="2000033721"
+            briefCit="Museum Prototype Project, Medium of Objects Frequency Report (1985)"
+            fullCit="Museum Prototype Project. Medium of Objects Frequency Report. Document prepared for internal distribution. Marina del Rey: J. Paul Getty Trust, 1985."/>
+          <Source id="2000043491"
+            briefCit="Woodbury, Encyclopaedic Dictionary of Photography (1979)"
+            fullCit="Woodbury, Walter E. The Encyclopaedic Dictionary of Photography. Reprint of original ed., 1898. New York: Arno Press, 1979."/>
+          <Source id="2000036521" briefCit="O'Connor, Draft photographic thesaurus, unpub. (1987)"
+            fullCit="O'Connor, Diane V. Smithsonian Archives Photo Survey Project: A Draft Photographic Thesaurus. Document prepared for internal distribution. Washington, D.C.: Smithsonian Institution, 1987."/>
+          <Source id="2000051089" briefCit="AATA database (2002-) "
+            fullCit="Getty Conservation Institute (GCI). database of AATA Online: Abstracts of International Conservation Literature. Los Angeles: GCI, 2002-.       "/>
+          <Source id="2000024811" briefCit="CDMARC Subjects: LCSH (1988-)"
+            fullCit="CDMARC Subjects: Library of Congress Subject Headings. Washington, DC: Library of Congress, Cataloging Distribution Service, 1988-. Quarterly, with each issue cumulative."/>
+          <Source id="2000047193" briefCit="Personal Communication"
+            fullCit="Personal Communication. Term warranted by personal correspondence with an expert in the field."/>
+          <Source id="2000018681" briefCit="Haller, Collecting Old Photographs (1979)"
+            fullCit="Haller, Margaret. Collecting Old Photographs. New York: Arco Publishing, 1978."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+          <Contributor id="10000088" briefName="GCI"
+            fullName="Getty Conservation Institute, The Getty Center (Los Angeles, California)"/>
+        </Contributors>
+      </Term>
+      <Term id="1000270129" name="photos" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000042061" briefCit="Webster's Third New International Dictionary (1961)"
+            fullCit="Webster's Third New International Dictionary of the English Language. Unabridged. Springfield, MA: G. &amp; C. Merriam Co., 1961."/>
+          <Source id="2000033721"
+            briefCit="Museum Prototype Project, Medium of Objects Frequency Report (1985)"
+            fullCit="Museum Prototype Project. Medium of Objects Frequency Report. Document prepared for internal distribution. Marina del Rey: J. Paul Getty Trust, 1985."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000314911" name="photographie" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70271" description="French" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000048434" briefCit="CHIN database (1988-)"
+            fullCit="Canadian Heritage Information Network (CHIN) database. 1988-."/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+          <Contributor id="10000159" briefName="CHIN"
+            fullName="Canadian Heritage Information Network (Gatineau, Quebec, Canada)"/>
+        </Contributors>
+      </Term>
+      <Term id="1000484508" name="foto" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70261" description="Dutch" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000051213" briefCit="AAT-Ned (1994-)"
+            fullCit="AAT Ned: Dutch AAT Translation Project coordinated by Bureau AAT, RKD. The Hague: Netherlands Institute for Art History, 1994-."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000205" briefName="Bureau AAT"
+            fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"
+          />
+        </Contributors>
+      </Term>
+      <Term id="1000298879" name="photograph" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000030301" briefCit="Chenhall, Revised Nomenclature (1988)"
+            fullCit="Chenhall, Robert G.  The Revised Nomenclature for Museum Cataloging: A Revised and Expanded Version of Robert G. Chenhall's System for Classifying Man-Made Objects.  Revised by James R. Blackaby, Patricia Greeno, and the Nomenclature Committee. Nashville, TN.: American Association for State and Local History, 1988. "
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000314910" name="photographies" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70271" description="French" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000048434" briefCit="CHIN database (1988-)"
+            fullCit="Canadian Heritage Information Network (CHIN) database. 1988-."/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000159" briefName="CHIN"
+            fullName="Canadian Heritage Information Network (Gatineau, Quebec, Canada)"/>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000431053" name="fotografía" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70641" description="Spanish" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000048810" briefCit="Moliner, Diccionario de uso del español (2004)"
+            fullCit="Moliner, María. Diccionario de uso del español. 2 tomos. Madrid: Gredos, 2004."/>
+          <Source id="2000049725" briefCit="Enciclopedia Focal de Fotografía (1975)"
+            fullCit="Enciclopedia Focal de Fotografía. 2 vols. Barcelona: Omega, 1975. "/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000131" briefName="CDBP-DIBAM"
+            fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"
+          />
+        </Contributors>
+      </Term>
+      <Term id="1000484507" name="foto's" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70261" description="Dutch" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000051213" briefCit="AAT-Ned (1994-)"
+            fullCit="AAT Ned: Dutch AAT Translation Project coordinated by Bureau AAT, RKD. The Hague: Netherlands Institute for Art History, 1994-."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000205" briefName="Bureau AAT"
+            fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"
+          />
+        </Contributors>
+      </Term>
+      <Term id="1000431052" name="fotografías" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70641" description="Spanish" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000051214" briefCit="Comité, Plural del término en singular"
+            fullCit="Comité, Plural del término en singular"/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000131" briefName="CDBP-DIBAM"
+            fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"
+          />
+        </Contributors>
+      </Term>
+    </Terms>
+    <ScopeNotes xmlns="">
+      <ScopeNote id="89223"
+        notesText="Niet bewegende afbeeldingen vervaardigd met van stralingsgevoelige materialen (gevoelig voor licht, elektronenstralen of nucleaire straling), met uitzondering van reproductieve afdrukken van documenten en technische tekeningen. Gebruik daarvoor termen, die bijeengebracht zijn onder 'reprografische kopieën'. Foto's kunnen positief of negatief zijn, ondoorschijnend of transparant (in vaktermen: opzicht of doorzicht).">
+        <Language code="70261" description="Dutch"/>
+        <Contributors>
+          <Contributor id="10000205" briefName="Bureau AAT"
+            fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"
+          />
+        </Contributors>
+      </ScopeNote>
+      <ScopeNote id="65568"
+        notesText="Se refiere a imágenes fijas producidas por materiales sensibles a la radiación (sensibles a la luz, rayos de electrones o radiación nuclear), generalmente por medio de la acción química de la luz sobre una película, papel, vidrio o metal sensible. No incluye impresiones de documentos reproductivos y dibujos técnicos, para los cuales los descriptores que se encuentran bajo &quot;&amp;lt;copias reprográficas&amp;gt;&quot; son más apropiados. Las fotografías pueden ser en positivo o negativo, opacas o transparentes.">
+        <Language code="70641" description="Spanish"/>
+        <Contributors>
+          <Contributor id="10000131" briefName="CDBP-DIBAM"
+            fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"
+          />
+        </Contributors>
+      </ScopeNote>
+      <ScopeNote id="31740"
+        notesText="Refers to still images produced from radiation-sensitive materials (sensitive to light, electron beams, or nuclear radiation), generally by means of the chemical action of light on a sensitive film, paper, glass, or metal. It does not include reproductive prints of documents and technical drawings, for which descriptors found under &quot;&lt;reprographic copies&gt;&quot; are more appropriate. Photographs may be positive or negative, opaque or transparent.">
+        <Language code="70051" description="English"/>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </ScopeNote>
+    </ScopeNotes>
+    <Sources xmlns="">
+      <Source id="2000024811" briefCit="CDMARC Subjects: LCSH (1988-)"
+        fullCit="CDMARC Subjects: Library of Congress Subject Headings. Washington, DC: Library of Congress, Cataloging Distribution Service, 1988-. Quarterly, with each issue cumulative."/>
+      <Source id="2000051089" briefCit="AATA database (2002-) "
+        fullCit="Getty Conservation Institute (GCI). database of AATA Online: Abstracts of International Conservation Literature. Los Angeles: GCI, 2002-.       "/>
+      <Source id="2000048434" briefCit="CHIN database (1988-)"
+        fullCit="Canadian Heritage Information Network (CHIN) database. 1988-."/>
+      <Source id="2000052372" briefCit="Bureau AAT, RKD"
+        fullCit="Bureau AAT, Bureau AAT, RKD (Rijksbureau voor Kunsthistorische Documentatie), 's Gravenhage, Nederland"
+      />
+    </Sources>
+    <Contributors xmlns="">
+      <Contributor id="10000205" briefName="Bureau AAT"
+        fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"/>
+      <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+      <Contributor id="10000088" briefName="GCI"
+        fullName="Getty Conservation Institute, The Getty Center (Los Angeles, California)"/>
+      <Contributor id="10000131" briefName="CDBP-DIBAM"
+        fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"/>
+      <Contributor id="10000159" briefName="CHIN"
+        fullName="Canadian Heritage Information Network (Gatineau, Quebec, Canada)"/>
+    </Contributors>
+  </aat:AAT>
+  <aat:AAT subjectId="300134977" recordType="C"
+    englishScopeNote="Transparent positive images made or mounted on glass for projection, usually but not necessarily photographic, measuring 3 1/4 to 3 1/2 by 4 inches for projection onto a screen by means of a specialized projector."
+    preferredTerm="lantern slides" uri="http://forum.jstor.org/oai/aat/300134977">
+    <Hierarchy xmlns="">
+      <Parent subjectId="300264092" name="Objects Facet">
+        <Child subjectId="300264552" name="Visual and Verbal Communication">
+          <Child subjectId="300179869" name="Visual Works (Hierarchy Name)">
+            <Child subjectId="300191086" name="visual works (Guide Term)">
+              <Child subjectId="300191091" name="visual works by medium or technique">
+                <Child subjectId="300046300" name="photographs">
+                  <Child subjectId="300127008" name="photographs by form">
+                    <Child subjectId="300127015" name="photographs by form">
+                      <Child subjectId="300134977" name="lantern slides"/>
+                    </Child>
+                  </Child>
+                </Child>
+              </Child>
+            </Child>
+          </Child>
+        </Child>
+      </Parent>
+    </Hierarchy>
+    <Terms xmlns="">
+      <Term id="1000134977" name="lantern slides" preferred="P" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000018681" briefCit="Haller, Collecting Old Photographs (1979)"
+            fullCit="Haller, Margaret. Collecting Old Photographs. New York: Arco Publishing, 1978."/>
+          <Source id="2000036521" briefCit="O'Connor, Draft photographic thesaurus, unpub. (1987)"
+            fullCit="O'Connor, Diane V. Smithsonian Archives Photo Survey Project: A Draft Photographic Thesaurus. Document prepared for internal distribution. Washington, D.C.: Smithsonian Institution, 1987."/>
+          <Source id="2000017031"
+            briefCit="Zinkham and Parker, Descriptive Terms for Graphic Materials (1986)"
+            fullCit="Zinkham, Helena and Elizabeth B. Parker. Descriptive Terms for Graphic Materials: Genre and Physical Characteristic Headings. Washington, D.C.: Library of Congress, 1986."/>
+          <Source id="2000011441" briefCit="Haberstich, Photographs Thesaurus for SIBIS (1988)"
+            fullCit="Haberstich, David. Photographs Thesaurus for SIBIS, Including Research by the Smithsonian Photographic Survey Project, with Terms Compiled by Diane Vogt-O'Connor and Constance McCabe. Unpublished Draft. Archives Center, National Museum of American History, Washington, DC, 1988."/>
+          <Source id="2000024811" briefCit="CDMARC Subjects: LCSH (1988-)"
+            fullCit="CDMARC Subjects: Library of Congress Subject Headings. Washington, DC: Library of Congress, Cataloging Distribution Service, 1988-. Quarterly, with each issue cumulative."/>
+          <Source id="2000001761" briefCit="Hickerson and Engst, Terms for use in Field 655 (1984)"
+            fullCit="Hickerson, H. Thomas and Elaine D. Engst. Terms for Use in Field 655 of the USMARC Format for Archival and Manuscript Control.  Unpublished. Produced by the Research Libraries Group Task Force on Special Formats, Mountain View, Calif., 1984."/>
+          <Source id="2000043551"
+            briefCit="Worcester Art Museum Library, List of subject headings, unpub. (1976)"
+            fullCit="Worcester Art Museum Library. Document prepared for internal distribution. Worcester Art Museum Library, Worcester, Mass., 1976.  "/>
+          <Source id="2000051089" briefCit="AATA database (2002-) "
+            fullCit="Getty Conservation Institute (GCI). database of AATA Online: Abstracts of International Conservation Literature. Los Angeles: GCI, 2002-.       "/>
+          <Source id="2000020881"
+            briefCit="International Center of Photography Encyclopedia of Photography (1984)"
+            fullCit="International Center of Photography Encyclopedia of Photography. New York: Crown Publishers, 1984."/>
+          <Source id="2000043491"
+            briefCit="Woodbury, Encyclopaedic Dictionary of Photography (1979)"
+            fullCit="Woodbury, Walter E. The Encyclopaedic Dictionary of Photography. Reprint of original ed., 1898. New York: Arno Press, 1979."/>
+          <Source id="2000035251" briefCit="RILA, Subject Headings (1975-1990)"
+            fullCit="J. Paul Getty Trust. International Repertory of the Literature of Art Subject Headings. Document prepared for internal distribution. Williamstown: J. Paul Getty Trust, 1975-1990."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+          <Contributor id="10000088" briefName="GCI"
+            fullName="Getty Conservation Institute, The Getty Center (Los Angeles, California)"/>
+        </Contributors>
+      </Term>
+      <Term id="1000407322" name="lantaarnplaatje" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70261" description="Dutch" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000050615" briefCit="IFLA Glossary for Art Librarians (1984)"
+            fullCit="IFLA Glossary for Art Librarians. Compiled by Ian Sheridan. Washington, DC: International Federation of Library Associations and Institutions,1984."/>
+          <Source id="2000051213" briefCit="AAT-Ned (1994-)"
+            fullCit="AAT Ned: Dutch AAT Translation Project coordinated by Bureau AAT, RKD. The Hague: Netherlands Institute for Art History, 1994-."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000205" briefName="Bureau AAT"
+            fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"/>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000249947" name="hyalotypes (lantern slides)" preferred="V" historicFlag="C "
+        otherFlags="NA" vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000011441" briefCit="Haberstich, Photographs Thesaurus for SIBIS (1988)"
+            fullCit="Haberstich, David. Photographs Thesaurus for SIBIS, Including Research by the Smithsonian Photographic Survey Project, with Terms Compiled by Diane Vogt-O'Connor and Constance McCabe. Unpublished Draft. Archives Center, National Museum of American History, Washington, DC, 1988."/>
+          <Source id="2000036521" briefCit="O'Connor, Draft photographic thesaurus, unpub. (1987)"
+            fullCit="O'Connor, Diane V. Smithsonian Archives Photo Survey Project: A Draft Photographic Thesaurus. Document prepared for internal distribution. Washington, D.C.: Smithsonian Institution, 1987."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000152973" name="slides, lantern" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000046717" briefCit="Getty Vocabulary Program rules"
+            fullCit="Getty Vocabulary Program. Term warranted by AAT Editorial Guidelines."/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000405440" name="Lichtbildplatte" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70101" description="German" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000050615" briefCit="IFLA Glossary for Art Librarians (1984)"
+            fullCit="IFLA Glossary for Art Librarians. Compiled by Ian Sheridan. Washington, DC: International Federation of Library Associations and Institutions,1984."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000405439" name="Gross-Dia" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70101" description="German" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000050615" briefCit="IFLA Glossary for Art Librarians (1984)"
+            fullCit="IFLA Glossary for Art Librarians. Compiled by Ian Sheridan. Washington, DC: International Federation of Library Associations and Institutions,1984."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000299174" name="lantern slide" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000030301" briefCit="Chenhall, Revised Nomenclature (1988)"
+            fullCit="Chenhall, Robert G.  The Revised Nomenclature for Museum Cataloging: A Revised and Expanded Version of Robert G. Chenhall's System for Classifying Man-Made Objects.  Revised by James R. Blackaby, Patricia Greeno, and the Nomenclature Committee. Nashville, TN.: American Association for State and Local History, 1988. "/>
+          <Source id="2000046717" briefCit="Getty Vocabulary Program rules"
+            fullCit="Getty Vocabulary Program. Term warranted by AAT Editorial Guidelines."/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000134984" name="lantern slide transparencies" preferred="V" historicFlag="C "
+        otherFlags="NA" vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000046717" briefCit="Getty Vocabulary Program rules"
+            fullCit="Getty Vocabulary Program. Term warranted by AAT Editorial Guidelines."/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000134979" name="magic lantern slides" preferred="V" historicFlag="C "
+        otherFlags="NA" vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000017031"
+            briefCit="Zinkham and Parker, Descriptive Terms for Graphic Materials (1986)"
+            fullCit="Zinkham, Helena and Elizabeth B. Parker. Descriptive Terms for Graphic Materials: Genre and Physical Characteristic Headings. Washington, D.C.: Library of Congress, 1986."/>
+          <Source id="2000036521" briefCit="O'Connor, Draft photographic thesaurus, unpub. (1987)"
+            fullCit="O'Connor, Diane V. Smithsonian Archives Photo Survey Project: A Draft Photographic Thesaurus. Document prepared for internal distribution. Washington, D.C.: Smithsonian Institution, 1987."/>
+          <Source id="2000011441" briefCit="Haberstich, Photographs Thesaurus for SIBIS (1988)"
+            fullCit="Haberstich, David. Photographs Thesaurus for SIBIS, Including Research by the Smithsonian Photographic Survey Project, with Terms Compiled by Diane Vogt-O'Connor and Constance McCabe. Unpublished Draft. Archives Center, National Museum of American History, Washington, DC, 1988."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000407326" name="diabild" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70517" description="Swedish" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000050615" briefCit="IFLA Glossary for Art Librarians (1984)"
+            fullCit="IFLA Glossary for Art Librarians. Compiled by Ian Sheridan. Washington, DC: International Federation of Library Associations and Institutions,1984."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000405438" name="lantern-slide" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000050615" briefCit="IFLA Glossary for Art Librarians (1984)"
+            fullCit="IFLA Glossary for Art Librarians. Compiled by Ian Sheridan. Washington, DC: International Federation of Library Associations and Institutions,1984."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000315289" name="plaque de lanterne magique" preferred="V" historicFlag="C "
+        otherFlags="NA" vernacular="U">
+        <Languages>
+          <Language code="70271" description="French" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000050615" briefCit="IFLA Glossary for Art Librarians (1984)"
+            fullCit="IFLA Glossary for Art Librarians. Compiled by Ian Sheridan. Washington, DC: International Federation of Library Associations and Institutions,1984."/>
+          <Source id="2000048434" briefCit="CHIN database (1988-)"
+            fullCit="Canadian Heritage Information Network (CHIN) database. 1988-."/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000159" briefName="CHIN"
+            fullName="Canadian Heritage Information Network (Gatineau, Quebec, Canada)"/>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000539225" name="lichtbeelden" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70261" description="Dutch" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000051213" briefCit="AAT-Ned (1994-)"
+            fullCit="AAT Ned: Dutch AAT Translation Project coordinated by Bureau AAT, RKD. The Hague: Netherlands Institute for Art History, 1994-."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000315288" name="plaques de lanterne magique" preferred="V" historicFlag="C "
+        otherFlags="NA" vernacular="U">
+        <Languages>
+          <Language code="70271" description="French" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000048434" briefCit="CHIN database (1988-)"
+            fullCit="Canadian Heritage Information Network (CHIN) database. 1988-."/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000159" briefName="CHIN"
+            fullName="Canadian Heritage Information Network (Gatineau, Quebec, Canada)"/>
+        </Contributors>
+      </Term>
+      <Term id="1000439371" name="diapositiva" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70641" description="Spanish" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000049725" briefCit="Enciclopedia Focal de Fotografía (1975)"
+            fullCit="Enciclopedia Focal de Fotografía. 2 vols. Barcelona: Omega, 1975. "/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000131" briefName="CDBP-DIBAM"
+            fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"
+          />
+        </Contributors>
+      </Term>
+      <Term id="1000492600" name="lantaarnplaatjes" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70261" description="Dutch" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000051213" briefCit="AAT-Ned (1994-)"
+            fullCit="AAT Ned: Dutch AAT Translation Project coordinated by Bureau AAT, RKD. The Hague: Netherlands Institute for Art History, 1994-."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000205" briefName="Bureau AAT"
+            fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"
+          />
+        </Contributors>
+      </Term>
+      <Term id="1000410273" name="lichtbeeld" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70261" description="Dutch" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000051213" briefCit="AAT-Ned (1994-)"
+            fullCit="AAT Ned: Dutch AAT Translation Project coordinated by Bureau AAT, RKD. The Hague: Netherlands Institute for Art History, 1994-."/>
+          <Source id="2000050615" briefCit="IFLA Glossary for Art Librarians (1984)"
+            fullCit="IFLA Glossary for Art Librarians. Compiled by Ian Sheridan. Washington, DC: International Federation of Library Associations and Institutions,1984."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+    </Terms>
+    <ScopeNotes xmlns="">
+      <ScopeNote id="93400"
+        notesText="Diapositieven gemaakt of aangebracht op glas voor projectie, meestal maar niet persé fotografisch, en ongeveer 8¼ tot 9 bij 10 cm groot.">
+        <Language code="70261" description="Dutch"/>
+        <Contributors>
+          <Contributor id="10000205" briefName="Bureau AAT"
+            fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"
+          />
+        </Contributors>
+      </ScopeNote>
+      <ScopeNote id="31835"
+        notesText="Transparent positive images made or mounted on glass for projection, usually but not necessarily photographic, measuring 3 1/4 to 3 1/2 by 4 inches for projection onto a screen by means of a specialized projector.">
+        <Language code="70051" description="English"/>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </ScopeNote>
+      <ScopeNote id="69034"
+        notesText="Imágenes positivas transparentes hechas o montadas en vidrio para proyección fotográfica, generalmente pero no siempre, miden 3 1/4 a 3 1/2 por 4 pulgadas.">
+        <Language code="70641" description="Spanish"/>
+        <Contributors>
+          <Contributor id="10000131" briefName="CDBP-DIBAM"
+            fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"
+          />
+        </Contributors>
+      </ScopeNote>
+    </ScopeNotes>
+    <Sources xmlns="">
+      <Source id="2000046717" briefCit="Getty Vocabulary Program rules"
+        fullCit="Getty Vocabulary Program. Term warranted by AAT Editorial Guidelines."/>
+      <Source id="2000024811" briefCit="CDMARC Subjects: LCSH (1988-)"
+        fullCit="CDMARC Subjects: Library of Congress Subject Headings. Washington, DC: Library of Congress, Cataloging Distribution Service, 1988-. Quarterly, with each issue cumulative."/>
+      <Source id="2000048434" briefCit="CHIN database (1988-)"
+        fullCit="Canadian Heritage Information Network (CHIN) database. 1988-."/>
+      <Source id="2000051089" briefCit="AATA database (2002-) "
+        fullCit="Getty Conservation Institute (GCI). database of AATA Online: Abstracts of International Conservation Literature. Los Angeles: GCI, 2002-.       "/>
+      <Source id="2000052373" briefCit="Van Dale groot woordenboek (1994)"
+        fullCit="Van Dale groot woordenboek der Nederlandse taal, Utrecht ; Antwerpen, 1994"/>
+      <Source id="2000030301" briefCit="Chenhall, Revised Nomenclature (1988)"
+        fullCit="Chenhall, Robert G.  The Revised Nomenclature for Museum Cataloging: A Revised and Expanded Version of Robert G. Chenhall's System for Classifying Man-Made Objects.  Revised by James R. Blackaby, Patricia Greeno, and the Nomenclature Committee. Nashville, TN.: American Association for State and Local History, 1988. "/>
+      <Source id="2000035251" briefCit="RILA, Subject Headings (1975-1990)"
+        fullCit="J. Paul Getty Trust. International Repertory of the Literature of Art Subject Headings. Document prepared for internal distribution. Williamstown: J. Paul Getty Trust, 1975-1990."
+      />
+    </Sources>
+    <Contributors xmlns="">
+      <Contributor id="10000205" briefName="Bureau AAT"
+        fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"/>
+      <Contributor id="10000159" briefName="CHIN"
+        fullName="Canadian Heritage Information Network (Gatineau, Quebec, Canada)"/>
+      <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+      <Contributor id="10000131" briefName="CDBP-DIBAM"
+        fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"/>
+      <Contributor id="10000088" briefName="GCI"
+        fullName="Getty Conservation Institute, The Getty Center (Los Angeles, California)"/>
+    </Contributors>
+  </aat:AAT>
+  <aat:AAT subjectId="300008375" recordType="C"
+    englishScopeNote="Distinctions among villages, towns, and cities are relative and vary according to their individual regional contexts. Towns generally are units of compact settlement larger than villages and less important and internally complex than cities in the region."
+    preferredTerm="towns" uri="http://forum.jstor.org/oai/aat/300008375">
+    <Hierarchy xmlns="">
+      <Parent subjectId="300264092" name="Objects Facet">
+        <Child subjectId="300264550" name="Built Environment (Hierarchy Name)">
+          <Child subjectId="300008346" name="Settlements and Landscapes">
+            <Child subjectId="300008347" name="inhabited places">
+              <Child subjectId="300008350" name="settlements by form">
+                <Child subjectId="300008368" name="settlements by form">
+                  <Child subjectId="300008375" name="towns"/>
+                </Child>
+              </Child>
+            </Child>
+          </Child>
+        </Child>
+      </Parent>
+    </Hierarchy>
+    <Terms xmlns="">
+      <Term id="1000008375" name="towns" preferred="P" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000051089" briefCit="AATA database (2002-) "
+            fullCit="Getty Conservation Institute (GCI). database of AATA Online: Abstracts of International Conservation Literature. Los Angeles: GCI, 2002-.       "/>
+          <Source id="2000013391" briefCit="Jones, Towns and Cities (1966)"
+            fullCit="Jones, Emrys. Towns and Cities. New York: Oxford University Press, 1966."/>
+          <Source id="2000035251" briefCit="RILA, Subject Headings (1975-1990)"
+            fullCit="J. Paul Getty Trust. International Repertory of the Literature of Art Subject Headings. Document prepared for internal distribution. Williamstown: J. Paul Getty Trust, 1975-1990."/>
+          <Source id="2000024811" briefCit="CDMARC Subjects: LCSH (1988-)"
+            fullCit="CDMARC Subjects: Library of Congress Subject Headings. Washington, DC: Library of Congress, Cataloging Distribution Service, 1988-. Quarterly, with each issue cumulative."/>
+          <Source id="2000035111" briefCit="RIBA, Architectural Keywords (1982)"
+            fullCit="Royal Institute of British Architects. Architectural Keywords. London: Royal Institute of British Architects Publications, 1982."/>
+          <Source id="2000010621" briefCit="Canadian Urban Thesaurus (1979)"
+            fullCit="Canadian Urban Thesaurus. Ottawa: Ministry of State for Urban Affairs, 1979."/>
+          <Source id="2000046657" briefCit="Avery Index (1963-)"
+            fullCit="The Avery Index to Architectural Periodicals. Boston, MA.: G. K. Hall &amp; Co., 1963-."/>
+          <Source id="2000035571" briefCit="ROOT Thesaurus (1981)"
+            fullCit="British Standards Institution. BSI ROOT Thesaurus. 2 vols. Hemel Hempstead, England: British Standards Institution, 1981."/>
+          <Source id="2000008771" briefCit="Roberts, Construction Industry Thesaurus (1976)"
+            fullCit="Roberts, Michael J. Construction Industry Thesaurus. 2nd ed. London: Property Services Agency, Department of the Environment, 1976."/>
+          <Source id="2000004441" briefCit="Beaujeu-Garneir and Chabot,  Urban Geography (1967)"
+            fullCit="Beaujeu-Garneir, J. and G. Chabot. Urban Geography. New York: John Wiley &amp; Sons, 1967."/>
+          <Source id="2000039651"
+            briefCit="Canadian Thesaurus of Construction Science and Technology (1978)"
+            fullCit="Canadian Thesaurus of Construction Science and Technology. 2 vols. Ottawa, Ont.: Department of Industry, Trade and Commerce, 1978. "
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000088" briefName="GCI"
+            fullName="Getty Conservation Institute, The Getty Center (Los Angeles, California)"/>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000468869" name="kleine steden" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70261" description="Dutch" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000051213" briefCit="AAT-Ned (1994-)"
+            fullCit="AAT Ned: Dutch AAT Translation Project coordinated by Bureau AAT, RKD. The Hague: Netherlands Institute for Art History, 1994-."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000205" briefName="Bureau AAT"
+            fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"
+          />
+        </Contributors>
+      </Term>
+      <Term id="1000289591" name="town" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000046717" briefCit="Getty Vocabulary Program rules"
+            fullCit="Getty Vocabulary Program. Term warranted by AAT Editorial Guidelines."/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000416285" name="pueblo" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70641" description="Spanish" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000049607" briefCit="Diccionario de la Lengua Española (1992)"
+            fullCit="Diccionario de la Lengua Española. 21 ed. Madrid: Real Academia Española, 1992."/>
+          <Source id="2000048810" briefCit="Moliner, Diccionario de uso del español (2004)"
+            fullCit="Moliner, María. Diccionario de uso del español. 2 tomos. Madrid: Gredos, 2004."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000131" briefName="CDBP-DIBAM"
+            fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"
+          />
+        </Contributors>
+      </Term>
+      <Term id="1000416284" name="pueblos" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70641" description="Spanish" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000051214" briefCit="Comité, Plural del término en singular"
+            fullCit="Comité, Plural del término en singular"/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000131" briefName="CDBP-DIBAM"
+            fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"
+          />
+        </Contributors>
+      </Term>
+      <Term id="1000468870" name="kleine stad" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70261" description="Dutch" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000051213" briefCit="AAT-Ned (1994-)"
+            fullCit="AAT Ned: Dutch AAT Translation Project coordinated by Bureau AAT, RKD. The Hague: Netherlands Institute for Art History, 1994-."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000205" briefName="Bureau AAT"
+            fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"
+          />
+        </Contributors>
+      </Term>
+    </Terms>
+    <ScopeNotes xmlns="">
+      <ScopeNote id="39933"
+        notesText="Distinctions among villages, towns, and cities are relative and vary according to their individual regional contexts. Towns generally are units of compact settlement larger than villages and less important and internally complex than cities in the region.">
+        <Language code="70051" description="English"/>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </ScopeNote>
+      <ScopeNote id="96702"
+        notesText="Het onderscheid tussen dorp, gemeente en stad is betrekkelijk en varieert naar gelang de individuele, regionale context. Kleine steden zijn meestal compacte nederzettingen, die groter zijn dan een dorp, maar minder belangrijk en complex dan de grote  steden in de regio.">
+        <Language code="70261" description="Dutch"/>
+        <Contributors>
+          <Contributor id="10000205" briefName="Bureau AAT"
+            fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"
+          />
+        </Contributors>
+      </ScopeNote>
+      <ScopeNote id="59702"
+        notesText="Distinciones entre aldeas, pueblos y ciudades son relativas y varían según su contexo regional individual. Por lo general, los pueblos son unidades de asentamiento compacto mayores que las aldeas, pero menos importantes y menos complejas internamente que las ciudades en la región.">
+        <Language code="70641" description="Spanish"/>
+        <Contributors>
+          <Contributor id="10000131" briefName="CDBP-DIBAM"
+            fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"
+          />
+        </Contributors>
+      </ScopeNote>
+    </ScopeNotes>
+    <Sources xmlns="">
+      <Source id="2000012481" briefCit="Down to Earth (1983)"
+        fullCit="Down to Earth: Adobe Architecture - An Old Idea, A New Future. Based On an Exhibition At the Centre Georges Ponpidou, conceived and directed by Jean Dethier. New York: Facts on File, 1983. "/>
+      <Source id="2000035251" briefCit="RILA, Subject Headings (1975-1990)"
+        fullCit="J. Paul Getty Trust. International Repertory of the Literature of Art Subject Headings. Document prepared for internal distribution. Williamstown: J. Paul Getty Trust, 1975-1990."/>
+      <Source id="2000051089" briefCit="AATA database (2002-) "
+        fullCit="Getty Conservation Institute (GCI). database of AATA Online: Abstracts of International Conservation Literature. Los Angeles: GCI, 2002-.       "/>
+      <Source id="2000001451" briefCit="Grube, Architecture of the Islamic World (1978)"
+        fullCit="Grube, Ernst J. Architecture of the Islamic World. Edited by George Michell. New York: William Morrow &amp; Co., 1978."/>
+      <Source id="2000017891" briefCit="Guidoni, Primitive Architecture (1978)"
+        fullCit="Guidoni, Enrico.  Primitive Architecture.  New York: Harry N. Abrams,  1978.  Translated by Robert E. Wolf"/>
+      <Source id="2000024811" briefCit="CDMARC Subjects: LCSH (1988-)"
+        fullCit="CDMARC Subjects: Library of Congress Subject Headings. Washington, DC: Library of Congress, Cataloging Distribution Service, 1988-. Quarterly, with each issue cumulative."/>
+      <Source id="2000052373" briefCit="Van Dale groot woordenboek (1994)"
+        fullCit="Van Dale groot woordenboek der Nederlandse taal, Utrecht ; Antwerpen, 1994"/>
+      <Source id="2000046657" briefCit="Avery Index (1963-)"
+        fullCit="The Avery Index to Architectural Periodicals. Boston, MA.: G. K. Hall &amp; Co., 1963-."/>
+      <Source id="2000046717" briefCit="Getty Vocabulary Program rules"
+        fullCit="Getty Vocabulary Program. Term warranted by AAT Editorial Guidelines."/>
+    </Sources>
+    <Contributors xmlns="">
+      <Contributor id="10000088" briefName="GCI"
+        fullName="Getty Conservation Institute, The Getty Center (Los Angeles, California)"/>
+      <Contributor id="10000131" briefName="CDBP-DIBAM"
+        fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"/>
+      <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+      <Contributor id="10000205" briefName="Bureau AAT"
+        fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"
+      />
+    </Contributors>
+  </aat:AAT>
+  <tgn:TGN subjectId="7001533" recordType="A" placeType="inhabited place" preferredName="Dārjiling"
+    uri="http://forum.jstor.org/oai/tgn/7001533">
+    <tgn:latitude xmlns="" decimal="27.0333" degree="27" minute="2" second="0" direction="N"/>
+    <tgn:longitude xmlns="" decimal="88.3333" degree="88" minute="20" second="0" direction="E"/>
+    <tgn:Hierarchy xmlns="">
+      <tgn:Parent subjectId="7029392" name="World" type="facet">
+        <tgn:Child subjectId="1000004" name="Asia" type="continent">
+          <tgn:Child subjectId="7000198" name="India" type="nation">
+            <tgn:Child subjectId="1001977" name="West Bengal" type="state">
+              <tgn:Child subjectId="7001533" name="Dārjiling" type="inhabited place"/>
+            </tgn:Child>
+          </tgn:Child>
+        </tgn:Child>
+      </tgn:Parent>
+    </tgn:Hierarchy>
+    <tgn:Terms xmlns="">
+      <tgn:Term id="183953" name="Dorje-Ling" preferred="V"/>
+      <tgn:Term id="328197" name="Darjiling" preferred="V"/>
+      <tgn:Term id="75861" name="Darjeeling" preferred="V"/>
+      <tgn:Term id="183952" name="Dārjiling" preferred="P"/>
+    </tgn:Terms>
+    <tgn:PlaceTypes xmlns="">
+      <tgn:Place id="83002" name="inhabited place" preferred="P"/>
+      <tgn:Place id="83030" name="town" preferred="N"/>
+      <tgn:Place id="83101" name="administrative center" preferred="N"/>
+      <tgn:Place id="83043" name="municipality" description="since 1850" preferred="N"/>
+      <tgn:Place id="83360" name="educational center"
+        description="University of N Bengal founded 1962" preferred="N"/>
+    </tgn:PlaceTypes>
+    <tgn:Note>Town acquired from Raja of Sikkim &amp; developed as sanatorium for English soldiers 1835; name means "place of the thunderbolt"; noted for Mount Everest, zoo, museum of natural history, racecourse &amp; hospitals; connected by air to Calcutta.</tgn:Note>
+  </tgn:TGN>
+</SharedShelf>
