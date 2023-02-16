@@ -9,8 +9,11 @@
 - - docker-compose -f docker-compose-local.yml up --build -d --force-recreate
 
 ## Unit tests
-- prerequesites
-- - lxml
-- - `> pip install lxml`
 - run pytest the commandline
 - `> pytest` 
+- prerequesites for pytest
+- - lxml
+- - `> pip install lxml`
+
+- As an alternative to installing locally start local docker, exec -it <dockerid> bash and run pytest there
+
