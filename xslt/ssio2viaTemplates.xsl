@@ -123,7 +123,7 @@
     </xsl:template>
 
     <!-- elements to not display -->
-    <xsl:template match="aat:AAT | ssn:Name"/>
+    <xsl:template match="aat:AAT | ssn:Name | tgn:TGN"/>
 
     <!-- surrogates from display record -->
     <xsl:template match="display:DR" mode="surrogate">
@@ -183,25 +183,33 @@
                             or DisplayRecord/field_string[@label = 'Image Location Created Longitude'][not(@value = 'None') and not(normalize-space(@value) = '')]
                             or DisplayRecord/field_string[@label = 'Image Location Created Altitude'][not(@value = 'None') and not(normalize-space(@value) = '')]
                             or DisplayRecord/field_string[@label = 'Image Location Created Bearing'][not(@value = 'None') and not(normalize-space(@value) = '')]">
-                        <xsl:variable name="single_quote"><xsl:text>'</xsl:text></xsl:variable>
+                        <xsl:variable name="single_quote">
+                            <xsl:text>'</xsl:text>
+                        </xsl:variable>
                         <xsl:element name="coordinates">
                             <xsl:if
                                 test="DisplayRecord/field_string[@label = 'Image Location Created Altitude'][not(@value = 'None') and not(normalize-space(@value) = '')]">
                                 <xsl:attribute name="altitude">
-                                    <xsl:value-of select="replace(DisplayRecord/field_string[@label = 'Image Location Created Altitude']/@value,$single_quote,'')"/>
+                                    <xsl:value-of
+                                        select="replace(DisplayRecord/field_string[@label = 'Image Location Created Altitude']/@value, $single_quote, '')"
+                                    />
                                 </xsl:attribute>
                             </xsl:if>
                             <xsl:if
                                 test="DisplayRecord/field_string[@label = 'Image Location Created Bearing'][not(@value = 'None') and not(normalize-space(@value) = '')]">
                                 <xsl:attribute name="decimal">
-                                    <xsl:value-of select="replace(DisplayRecord/field_string[@label = 'Image Location Created Bearing']/@value,$single_quote,'')"/>
+                                    <xsl:value-of
+                                        select="replace(DisplayRecord/field_string[@label = 'Image Location Created Bearing']/@value, $single_quote, '')"
+                                    />
                                 </xsl:attribute>
                             </xsl:if>
                             <xsl:if
                                 test="DisplayRecord/field_string[@label = 'Image Location Created Latitude'][not(@value = 'None') and not(normalize-space(@value) = '')]">
                                 <xsl:element name="latitude">
                                     <xsl:attribute name="decimal">
-                                        <xsl:value-of select="replace(DisplayRecord/field_string[@label = 'Image Location Created Latitude']/@value,$single_quote,'')"/>
+                                        <xsl:value-of
+                                            select="replace(DisplayRecord/field_string[@label = 'Image Location Created Latitude']/@value, $single_quote, '')"
+                                        />
                                     </xsl:attribute>
                                 </xsl:element>
                             </xsl:if>
@@ -209,7 +217,9 @@
                                 test="DisplayRecord/field_string[@label = 'Image Location Created Longitude'][not(@value = 'None') and not(normalize-space(@value) = '')]">
                                 <xsl:element name="longitude">
                                     <xsl:attribute name="decimal">
-                                        <xsl:value-of select="replace(DisplayRecord/field_string[@label = 'Image Location Created Longitude']/@value,$single_quote,'')"/>
+                                        <xsl:value-of
+                                            select="replace(DisplayRecord/field_string[@label = 'Image Location Created Longitude']/@value, $single_quote, '')"
+                                        />
                                     </xsl:attribute>
                                 </xsl:element>
                             </xsl:if>
@@ -716,6 +726,8 @@
             <xsl:element name="role">
                 <xsl:value-of select="@role_lkup"/>
             </xsl:element>
+            
+            <xsl:apply-templates select="//ssn:Name[@conceptId = $agentid]" mode="altnames"/>
         </xsl:element>
     </xsl:template>
 
@@ -935,7 +947,8 @@
                 <xsl:value-of select="@term"/>
             </xsl:element>
             <xsl:apply-templates
-                select="//tgn:TGN[tgn:latitude | tgn:longitude | tgn:altitude | tgn:bearing][@subjectId = $linkingid]"/>
+                select="//tgn:TGN[tgn:latitude | tgn:longitude | tgn:altitude | tgn:bearing][@subjectId = $linkingid]"
+            />
         </xsl:element>
     </xsl:template>
 
@@ -1037,6 +1050,20 @@
                     <xsl:value-of select="@direction"/>
                 </xsl:attribute>
             </xsl:if>
+        </xsl:element>
+    </xsl:template>
+
+    <xsl:template match="ssn:Name" mode="altnames">
+        <xsl:apply-templates select="Terms" mode="altnames"/>
+    </xsl:template>
+
+    <xsl:template match="Terms" mode="altnames">
+        <xsl:apply-templates select="Term[@preferred = 'false']" mode="altnames"/>
+    </xsl:template>
+
+    <xsl:template match="Term" mode="altnames">
+        <xsl:element name="alternativeName">
+            <xsl:value-of select="@name"/>
         </xsl:element>
     </xsl:template>
 

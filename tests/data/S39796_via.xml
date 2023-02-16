@@ -1,0 +1,181 @@
+<viaRecord originalAtHarvard="false"
+           primaryImageThumbnailURN="http://nrs.harvard.edu/urn-3:FHCL:692733">
+   <recordId altRecordId="ss_8000535126">olvsite39796</recordId>
+   <work>
+      <title>
+         <textElement>Universita della Sapienza, Rome, Roma, Lazio, Italy</textElement>
+      </title>
+      <title>
+         <type>Alternate Title</type>
+         <textElement>University of Rome</textElement>
+      </title>
+      <title>
+         <type>Alternate Title</type>
+         <textElement>La Sapienza</textElement>
+      </title>
+      <workType>universities</workType>
+      <creator>
+         <nameElement>Borromini, Francesco</nameElement>
+         <dates>1599-1667, Italian</dates>
+         <role>architect</role>
+         <alternativeName>Borromino, Francesco</alternativeName>
+         <alternativeName>Boromini, Francesco</alternativeName>
+         <alternativeName>Boromino, Francesco</alternativeName>
+         <alternativeName>Castello, Francesco</alternativeName>
+      </creator>
+      <topic>
+         <term>architecture</term>
+      </topic>
+      <culture>
+         <term>Italian</term>
+      </culture>
+      <location>
+         <type>site</type>
+         <place>Rome, Roma, Lazio, Italy</place>
+         <coordinates>
+            <latitude decimal="41.9"
+                      degree="41"
+                      minute="54"
+                      second="0"
+                      direction="N"/>
+            <longitude decimal="12.483333"
+                       degree="12"
+                       minute="29"
+                       second="0"
+                       direction="E"/>
+         </coordinates>
+      </location>
+      <surrogate componentID="25091288">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:41321875">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:41321875"/>
+         </image>
+         <title>
+            <textElement>Plan by Borromini</textElement>
+         </title>
+         <classification>
+            <number>172  R 66  5 SP</number>
+         </classification>
+         <workType>slide</workType>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>1990.17839</number>
+         </repository>
+      </surrogate>
+      <surrogate componentID="25167742">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:41322528">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:41322528"/>
+         </image>
+         <title>
+            <textElement>Plan by Borromini</textElement>
+         </title>
+         <classification>
+            <number>172  R 66  5 Sp</number>
+         </classification>
+         <workType>slide</workType>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>1991.03572</number>
+         </repository>
+      </surrogate>
+      <surrogate altComponentID="olvsurrogate629108" componentID="7241656">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:692731">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:692733"/>
+         </image>
+         <title>
+            <textElement>Courtyard</textElement>
+         </title>
+         <classification>
+            <number>172 R 66 5 S 172 R66 5SC 1</number>
+         </classification>
+         <workType>lantern slide</workType>
+         <topic>
+            <term>universities</term>
+         </topic>
+         <topic>
+            <term>exterior views</term>
+         </topic>
+         <topic>
+            <term>courtyards</term>
+         </topic>
+         <topic>
+            <term>colonnades</term>
+         </topic>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Special Collections</repositoryName>
+            <number>1898L.06083</number>
+         </repository>
+      </surrogate>
+      <surrogate altComponentID="olvsurrogate629109" componentID="7241657">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:692735">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:692737"/>
+         </image>
+         <title>
+            <textElement>Courtyard</textElement>
+         </title>
+         <classification>
+            <number>172 R 66 5 S 172 R66 5SC 1a</number>
+         </classification>
+         <workType>lantern slide</workType>
+         <topic>
+            <term>universities</term>
+         </topic>
+         <topic>
+            <term>courtyards</term>
+         </topic>
+         <topic>
+            <term>exterior views</term>
+         </topic>
+         <topic>
+            <term>colonnades</term>
+         </topic>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Special Collections</repositoryName>
+            <number>1898L.06084</number>
+         </repository>
+      </surrogate>
+      <surrogate altComponentID="olvsurrogate629110" componentID="7241658">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:692739">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:692741"/>
+         </image>
+         <title>
+            <textElement>Courtyard</textElement>
+         </title>
+         <classification>
+            <number>172 R 66 5 S 172 R66 5SC 3</number>
+         </classification>
+         <workType>lantern slide</workType>
+         <topic>
+            <term>universities</term>
+         </topic>
+         <topic>
+            <term>courtyards</term>
+         </topic>
+         <topic>
+            <term>colonnades</term>
+         </topic>
+         <topic>
+            <term>exterior views</term>
+         </topic>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Special Collections</repositoryName>
+            <number>1898L.06085</number>
+         </repository>
+      </surrogate>
+   </work>
+   <admin>
+      <createDate>2014-12-26</createDate>
+      <updateNote>
+         <updateDate>2022/08/15 12:24:28</updateDate>
+      </updateNote>
+   </admin>
+</viaRecord>
