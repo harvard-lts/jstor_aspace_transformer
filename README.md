@@ -7,3 +7,7 @@
 - make sure logs/jstor_transformer directory exists (need to fix)
 - bring up docker
 - - docker-compose -f docker-compose-local.yml up --build -d --force-recreate
+
+## Unit tests
+- run pytest the commandline
+- `> pytest` 
