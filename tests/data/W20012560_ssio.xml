@@ -1,0 +1,257 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<SharedShelf xmlns:display="http://catalog.sharedshelf.artstor.org/display"
+  xmlns:ssc="http://catalog.sharedshelf.artstor.org/ssc"
+  xmlns:ssd="http://catalog.sharedshelf.artstor.org/ssd"
+  xmlns:ssn="http://catalog.sharedshelf.artstor.org/ssn"
+  xmlns:ssw="http://catalog.sharedshelf.artstor.org/ssw"
+  xmlns:ssw_lkup="http://catalog.sharedshelf.artstor.org/ssw_lkup"
+  xmlns:tgn="http://catalog.sharedshelf.artstor.org/tgn"
+  xmlns:aat="http://catalog.sharedshelf.artstor.org/aat"
+  xmlns:mfcl="http://catalog.sharedshelf.artstor.org/mfcl"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="http://catalog.sharedshelf.artstor.org"
+  xsi:schemaLocation="http://catalog.sharedshelf.artstor.org http://catalog.sharedshelf.artstor.org/service/schema/SharedShelf_IO.xsd">
+  <ssw:Work lastUpdateDate="2020/06/18 11:00:47" id="8000489972" refid="W20012560"
+    contributor="Harvard" instituteId="10003" uri="http://forum.jstor.org/oai/ssw/8000489972">
+    <Titles xmlns="">
+      <Display>Susan B. Anthony (top right), with Elizabeth Smith Miller (top left) her daughter Anne Fitzhugh Miller (bottom left) and Mary S. Anthony (bottom right).</Display>
+      <Title pref="true"
+        term="Susan B. Anthony (top right), with Elizabeth Smith Miller (top left) her daughter Anne Fitzhugh Miller (bottom left) and Mary S. Anthony (bottom right)."
+      />
+    </Titles>
+    <WorkTypes xmlns="" tempered="true">
+      <Display>photomechanical prints ; halftone photomechanical prints ; composite photographs</Display>
+      <WorkType id="11316989" vocab="MFCL" term="photomechanical prints"
+        uri="http://forum.jstor.org/oai/MFCL/11316989"/>
+      <WorkType id="11317166" vocab="MFCL" term="halftone photomechanical prints"
+        uri="http://forum.jstor.org/oai/MFCL/11317166"/>
+      <WorkType id="11317192" vocab="MFCL" term="composite photographs"
+        uri="http://forum.jstor.org/oai/MFCL/11317192"/>
+    </WorkTypes>
+    <Measurements xmlns="">
+      <Display>3.5x5 inches</Display>
+      <Measurement>
+        <ssw:Measure>
+          <Term>3.5x5 inches</Term>
+        </ssw:Measure>
+      </Measurement>
+    </Measurements>
+    <Subjects xmlns="">
+      <Display>Women ; Group portraits ; Suffrage ; Women’s rights ; Anthony, Susan B. (1820-1906, American) ; Miller, Elizabeth Smith (1836-1912) ; Miller, Anne Fitzhugh (1856-1912) ; Anthony, Mary S.</Display>
+      <Subject id="11298644" vocab="MFCL" term="Women"
+        uri="http://forum.jstor.org/oai/MFCL/11298644"/>
+      <Subject id="11299876" vocab="MFCL" term="Group portraits"
+        uri="http://forum.jstor.org/oai/MFCL/11299876"/>
+      <Subject id="11302195" vocab="MFCL" term="Suffrage"
+        uri="http://forum.jstor.org/oai/MFCL/11302195"/>
+      <Subject id="2000007877" vocab="AAT" term="Women’s rights"
+        uri="http://forum.jstor.org/oai/AAT/2000007877"/>
+      <Subject id="9000352406" vocab="SSN" refid="N60308" term="Anthony, Susan B."
+        type_lkup="associated name" type_lkup_id="11309063"
+        uri="http://forum.jstor.org/oai/SSN/9000352406"/>
+      <Subject id="9000354608" vocab="SSN" refid="N1004016" term="Miller, Elizabeth Smith"
+        type_lkup="associated name" type_lkup_id="11309063"
+        uri="http://forum.jstor.org/oai/SSN/9000354608"/>
+      <Subject id="9000355222" vocab="SSN" refid="N1004017" term="Miller, Anne Fitzhugh"
+        type_lkup="associated name" type_lkup_id="11309063"
+        uri="http://forum.jstor.org/oai/SSN/9000355222"/>
+      <Subject id="9000356928" vocab="SSN" refid="N1004313" term="Anthony, Mary S."
+        type_lkup="associated name" type_lkup_id="11309063"
+        uri="http://forum.jstor.org/oai/SSN/9000356928"/>
+    </Subjects>
+    <Dates xmlns="">
+      <Display>1905</Display>
+      <Date startDate="1905" endDate="1905"/>
+    </Dates>
+    <Locations xmlns="">
+      <Display>Schlesinger Library on the History of Women in America, Radcliffe Institute (repository)</Display>
+      <DisplayLocation
+        term="Schlesinger Library on the History of Women in America, Radcliffe Institute"
+        type_lkup="repository" type_lkup_id="11315199"/>
+      <Repository id="9000351945" vocab="SSN" refid="N-848339615"
+        term="Schlesinger Library on the History of Women in America, Radcliffe Institute"
+        type_lkup="repository" uri="http://forum.jstor.org/oai/SSN/9000351945">
+        <ssw:RefIdDetail term="A107-64-5" type_lkup="classification" type_lkup_id="11315207"/>
+      </Repository>
+    </Locations>
+    <ArtstorClassifications xmlns="">
+      <ArtstorClassification id="11309251" term_lkup="Photographs"/>
+      <ArtstorClassification id="11309252" term_lkup="Prints"/>
+    </ArtstorClassifications>
+    <Notes xmlns="">
+      <Note
+        term="Drs local filename:  918732913090_IMG0077 ; TIFF Oracle ID:  1501085 ; TIFF URN:  urn-3:RAD.SCHL:352311 ; Deliverable Oracle ID:  1501086 ; Deliverable URN:  urn-3:RAD.SCHL:352312 ; Thumbnail Oracle ID:  1501087 ; Thumbnail URN:  urn-3:RAD.SCHL:352313"
+        type_lkup="In House Notes" type_lkup_id="11309095"/>
+    </Notes>
+    <Rights xmlns="">
+      <Display>Access Restrictions: This image may not be reproduced or transmitted in any form or by any means, electronic or mechanical, without permission in writing from the Schlesinger Library. Please contact the library at slref@radcliffe.edu.</Display>
+    </Rights>
+    <LocalInformation xmlns="" legacyId="W20012560" originalCataloger="SchImport"
+      secondaryCataloger="Designer" catalogStartDate="7/19/1999" catalogUpdateDate="2/4/2008">
+      <RelatedInfo term="http://nrs.harvard.edu/urn-3:RAD.SCHL:sch00860"
+        description="Electronic finding aid" type_lkup="related information" type_lkup_id="11309233"/>
+      <RelatedInfo
+        description="Rose Arnold Powell Papers . Folder: Susan B. Anthony: Photographs and autographs. HOLLIS collection level record 000605152 . RLG collection level record  MHVW85-A382."
+        type_lkup="related work" type_lkup_id="11309235" relType_lkup="part of"/>
+    </LocalInformation>
+    <RelatedWorks xmlns=""/>
+    <display:DR id="7186138" representationId="drs:urn-3:RAD.SCHL:352313,urn-3:RAD.SCHL:352312"
+      lastUpdateDate="2020-06-18T16:00:51+00:00" sequence="1" primary="true" projectId="738"
+      institutionId="10003" createdBy="qah001@artstor.org" updatedBy="qah001@artstor.org"
+      createdDate="2014-12-25T22:34:02+00:00">
+      <DisplayRecord xmlns="">
+        <field_string id="fd_33906_s" description="None" label="Longitude" value=""/>
+        <field_string id="fd_33907_s" description="None" label="Elevation" value=""/>
+        <field_string id="fd_33921_s" description="None" label="Image Classification Number"
+          value="A107-64-5"/>
+        <field_string id="fd_33905_s" description="None" label="Latitude" value=""/>
+        <field_string id="fd_33940_s" description="None" label="Olivia Record Info"
+          value="Record created: 7/19/1999  By: SchImport Record modified: 2/4/2008  By: Designer Export To VIA Date: 2/5/2008"/>
+        <field_string id="fd_33939_s" description="None" label="Olivia ID" value="20012560_1"/>
+        <field_boolean id="fd_33934_b" description="None" label="Send To Harvard" value="true"/>
+        <field_boolean id="fd_33963_b" description="None" label="Export Only In Group" value="false"/>
+        <field_boolean id="fd_33935_b" description="None" label="In House Use Only" value="false"/>
+        <field_lookup id="fd_33922_mfcl_lookup" description="None" label="Image Type">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_33944_mfcl_lookup" description="None" label="Image Source Type">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_33917_lookup" description="None" label="Image Repository">
+          <display>Schlesinger Library on the History of Women in America, Radcliffe Institute</display>
+          <linkedField id="9000351945" revision="-1" source_id="9000351945"
+            preferredTerm="Schlesinger Library on the History of Women in America, Radcliffe Institute"
+            representationId="N-848339615" conceptLevel="Local" institutionName="Harvard"
+            uri="http://forum.jstor.org/oai/SSN/9000351945">
+            <allTerms>Schlesinger Library on the History of Women in America, Radcliffe Institute</allTerms>
+          </linkedField>
+        </field_lookup>
+      </DisplayRecord>
+      <Publications xmlns="">
+        <Publication asset_id="7186138" publishing_target_id="711"/>
+      </Publications>
+      <Assets xmlns="" filename="urn-3:RAD.SCHL:352313,urn-3:RAD.SCHL:352312">
+        <Asset id="None" size="DRS_full" uri="http://nrs.harvard.edu/urn-3:RAD.SCHL:352312"
+          restriction="f"/>
+        <Asset id="None" size="DRS_thumb" uri="http://nrs.harvard.edu/urn-3:RAD.SCHL:352313"
+          restriction="f"/>
+      </Assets>
+      <Targets xmlns="">
+        <Target name="OAI" status_lkup="Published" url="#" description="OAI"
+          publishDate="2014-12-25T22:35:38+00:00"/>
+      </Targets>
+    </display:DR>
+  </ssw:Work>
+  <ssn:Name conceptId="9000352406" stateText="NEW" recordType="PERSON" batchId="2"
+    statusText="Provisional" createdOn="2014/12/25 14:49:02" modifiedOn="2014/12/25 14:49:02"
+    batchName="Harvard" preferredTerm="Anthony, Susan B."
+    uri="http://forum.jstor.org/oai/ssn/9000352406">
+    <Nationalities xmlns="" count="1">
+      <Nationality id="11281149" name="American" preferred="true"/>
+    </Nationalities>
+    <Terms xmlns="" count="5">
+      <Term id="1070071" name="Anthony, Susan B." preferred="true">
+        <TermSource id="11276960" name="HOLLIS" preferred="true"/>
+      </Term>
+      <Term id="1070072" name="Anthony, Susan Brownell" preferred="false">
+        <TermSource id="11276960" name="HOLLIS" preferred="true"/>
+      </Term>
+      <Term id="1070073" name="Anthony, Susan Brownell" preferred="false">
+        <TermSource id="11318641" name="NO SOURCE" preferred="true"/>
+      </Term>
+      <Term id="1070074" name="Anthony, Susan Brownell" preferred="false">
+        <TermSource id="11318641" name="NO SOURCE" preferred="true"/>
+      </Term>
+      <Term id="1070075" name="Anthony, Susan Brownell" preferred="false">
+        <TermSource id="11318641" name="NO SOURCE" preferred="true"/>
+      </Term>
+    </Terms>
+    <Biographies xmlns="" count="1">
+      <Biography id="1070076" name="1820-1906, American" preferred="true">
+        <birthDate year="1820" epoch="AD"/>
+        <deathDate year="1906" epoch="AD"/>
+        <birthPlace/>
+        <deathPlace/>
+      </Biography>
+    </Biographies>
+  </ssn:Name>
+  <ssn:Name conceptId="9000354608" stateText="NEW" recordType="PERSON" batchId="2"
+    statusText="Provisional" createdOn="2014/12/25 14:58:41" modifiedOn="2014/12/25 14:58:41"
+    batchName="Harvard" preferredTerm="Miller, Elizabeth Smith"
+    uri="http://forum.jstor.org/oai/ssn/9000354608">
+    <Terms xmlns="" count="1">
+      <Term id="1073356" name="Miller, Elizabeth Smith" preferred="true">
+        <TermSource id="11276961" name="Source data found" preferred="true"/>
+      </Term>
+    </Terms>
+    <Biographies xmlns="" count="2">
+      <Biography id="1073357" name="1836-1912" preferred="true">
+        <birthDate year="1836" epoch="AD"/>
+        <deathDate year="1912" epoch="AD"/>
+        <birthPlace/>
+        <deathPlace/>
+      </Biography>
+      <Biography id="1073358" name="1836-1912">
+        <birthPlace/>
+        <deathPlace/>
+      </Biography>
+    </Biographies>
+    <Notes xmlns="" count="1">
+      <Note noteText="Create from Schlesinger Transfer"/>
+    </Notes>
+  </ssn:Name>
+  <ssn:Name conceptId="9000355222" stateText="NEW" recordType="PERSON" batchId="2"
+    statusText="Provisional" createdOn="2014/12/25 15:01:28" modifiedOn="2014/12/25 15:01:28"
+    batchName="Harvard" preferredTerm="Miller, Anne Fitzhugh"
+    uri="http://forum.jstor.org/oai/ssn/9000355222">
+    <Terms xmlns="" count="1">
+      <Term id="1074287" name="Miller, Anne Fitzhugh" preferred="true">
+        <TermSource id="11276960" name="HOLLIS" preferred="true"/>
+      </Term>
+    </Terms>
+    <Biographies xmlns="" count="2">
+      <Biography id="1074288" name="1856-1912" preferred="true">
+        <birthDate year="1856" epoch="AD"/>
+        <deathDate year="1912" epoch="AD"/>
+        <birthPlace/>
+        <deathPlace/>
+      </Biography>
+      <Biography id="1074289" name="1856-1912">
+        <birthPlace/>
+        <deathPlace/>
+      </Biography>
+    </Biographies>
+    <Notes xmlns="" count="2">
+      <Note noteText="Create from Schlesinger Transfer"/>
+      <Note noteText="summer home: Camp Fossenvue"/>
+    </Notes>
+  </ssn:Name>
+  <ssn:Name conceptId="9000356928" stateText="NEW" recordType="PERSON" batchId="2"
+    statusText="Provisional" createdOn="2014/12/25 15:11:10" modifiedOn="2014/12/25 15:11:10"
+    batchName="Harvard" preferredTerm="Anthony, Mary S."
+    uri="http://forum.jstor.org/oai/ssn/9000356928">
+    <Terms xmlns="" count="1">
+      <Term id="1076723" name="Anthony, Mary S." preferred="true">
+        <TermSource id="11276960" name="HOLLIS" preferred="true"/>
+      </Term>
+    </Terms>
+    <Notes xmlns="" count="2">
+      <Note noteText="Create from Schlesinger Transfer"/>
+      <Note noteText="sister of Anthony, Susan B. (Susan Brownell)"/>
+    </Notes>
+  </ssn:Name>
+  <ssn:Name conceptId="9000351945" stateText="NEW" recordType="CORPORATE BODY" batchId="2"
+    statusText="Provisional" createdOn="2014/12/25 14:46:45" modifiedOn="2014/12/25 14:46:45"
+    batchName="Harvard"
+    preferredTerm="Schlesinger Library on the History of Women in America, Radcliffe Institute"
+    uri="http://forum.jstor.org/oai/ssn/9000351945">
+    <Terms xmlns="" count="1">
+      <Term id="1069355"
+        name="Schlesinger Library on the History of Women in America, Radcliffe Institute"
+        preferred="true">
+        <TermSource id="11318641" name="NO SOURCE" preferred="true"/>
+      </Term>
+    </Terms>
+  </ssn:Name>
+</SharedShelf>

@@ -1,0 +1,82 @@
+<viaRecord originalAtHarvard="true"
+           primaryImageThumbnailURN="http://nrs.harvard.edu/urn-3:RAD.SCHL:352313">
+   <recordId altRecordId="ss_8000489972">olvwork20012560</recordId>
+   <work>
+      <title>
+         <textElement>Susan B. Anthony (top right), with Elizabeth Smith Miller (top left) her daughter Anne Fitzhugh Miller (bottom left) and Mary S. Anthony (bottom right).</textElement>
+      </title>
+      <workType>photomechanical prints</workType>
+      <workType>halftone photomechanical prints</workType>
+      <workType>composite photographs</workType>
+      <structuredDate>
+         <beginDate>1905</beginDate>
+         <endDate>1905</endDate>
+      </structuredDate>
+      <freeDate>1905</freeDate>
+      <dimensions>3.5x5 inches</dimensions>
+      <associatedName>
+         <nameElement>Anthony, Susan B.</nameElement>
+         <role>subject</role>
+         <dates>1820-1906, American</dates>
+         <alternativeName>Anthony, Susan Brownell</alternativeName>
+         <alternativeName>Anthony, Susan Brownell</alternativeName>
+         <alternativeName>Anthony, Susan Brownell</alternativeName>
+         <alternativeName>Anthony, Susan Brownell</alternativeName>
+      </associatedName>
+      <associatedName>
+         <nameElement>Miller, Elizabeth Smith</nameElement>
+         <role>subject</role>
+         <dates>1836-1912</dates>
+      </associatedName>
+      <associatedName>
+         <nameElement>Miller, Anne Fitzhugh</nameElement>
+         <role>subject</role>
+         <dates>1856-1912</dates>
+      </associatedName>
+      <associatedName>
+         <nameElement>Anthony, Mary S.</nameElement>
+         <role>subject</role>
+      </associatedName>
+      <topic>
+         <term>Women</term>
+      </topic>
+      <topic>
+         <term>Group portraits</term>
+      </topic>
+      <topic>
+         <term>Suffrage</term>
+      </topic>
+      <topic>
+         <term>Women’s rights</term>
+      </topic>
+      <relatedWork>
+         <relationship>part of</relationship>
+         <textElement>Rose Arnold Powell Papers . Folder: Susan B. Anthony: Photographs and autographs. HOLLIS collection level record 000605152 . RLG collection level record  MHVW85-A382.</textElement>
+      </relatedWork>
+      <relatedInformation xmlns:xlink="http://www.w3.org/TR/xlink"
+                          xlink:href="http://nrs.harvard.edu/urn-3:RAD.SCHL:sch00860">Electronic finding aid</relatedInformation>
+      <repository>
+         <repositoryName>Schlesinger Library on the History of Women in America, Radcliffe Institute</repositoryName>
+         <number>A107-64-5</number>
+      </repository>
+      <surrogate altComponentID="20012560_1" componentID="7186138">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="false"
+                xlink:href="http://nrs.harvard.edu/urn-3:RAD.SCHL:352312">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:RAD.SCHL:352313"/>
+         </image>
+         <classification>
+            <number>A107-64-5</number>
+         </classification>
+         <repository>
+            <repositoryName>Schlesinger Library on the History of Women in America, Radcliffe Institute</repositoryName>
+         </repository>
+      </surrogate>
+   </work>
+   <admin>
+      <createDate>2014-12-25</createDate>
+      <updateNote>
+         <updateDate>2020/06/18 11:00:47</updateDate>
+      </updateNote>
+   </admin>
+</viaRecord>

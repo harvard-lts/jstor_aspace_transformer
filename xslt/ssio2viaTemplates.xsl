@@ -302,6 +302,7 @@
             <xsl:element name="role">
                 <xsl:text>photographer</xsl:text>
             </xsl:element>
+            <xsl:apply-templates select="//ssn:Name[@conceptId = $photogid]" mode="altnames"/>
         </xsl:element>
     </xsl:template>
 
@@ -752,6 +753,7 @@
             <xsl:element name="role">
                 <xsl:text>subject</xsl:text>
             </xsl:element>
+            <xsl:apply-templates select="//ssn:Name[@conceptId = $agentid]" mode="altnames"/>
         </xsl:element>
     </xsl:template>
 
@@ -825,6 +827,7 @@
                 <xsl:text>subject</xsl:text>
             </xsl:element>
             <xsl:apply-templates select="//ssn:Name[@conceptId = $agentid]" mode="namerec"/>
+            <xsl:apply-templates select="//ssn:Name[@conceptId = $agentid]" mode="altnames"/>
         </xsl:element>
     </xsl:template>
 
@@ -863,6 +866,7 @@
             <xsl:apply-templates
                 select="//tgn:TGN[tgn:latitude | tgn:longitude | tgn:altitude | tgn:bearing][@subjectId = $linkingid]"
             />
+            <xsl:apply-templates select="//ssn:Name[@conceptId = $linkingid]" mode="altnames"/>
         </xsl:element>
     </xsl:template>
 
@@ -949,6 +953,7 @@
             <xsl:apply-templates
                 select="//tgn:TGN[tgn:latitude | tgn:longitude | tgn:altitude | tgn:bearing][@subjectId = $linkingid]"
             />
+            <xsl:apply-templates select="//ssn:Name[@conceptId = $linkingid]" mode="altnames"/>
         </xsl:element>
     </xsl:template>
 

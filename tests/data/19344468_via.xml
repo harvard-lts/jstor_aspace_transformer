@@ -1,0 +1,78 @@
+<viaRecord originalAtHarvard="false">
+   <recordId>8001310899</recordId>
+   <work>
+      <title>
+         <textElement>Detroit 2014</textElement>
+      </title>
+      <workType>aerial photographs</workType>
+      <creator>
+         <nameElement>MacLean, Alex S.</nameElement>
+         <dates>American</dates>
+         <role>photographer</role>
+      </creator>
+      <structuredDate>
+         <beginDate>2014</beginDate>
+         <endDate>2014</endDate>
+      </structuredDate>
+      <structuredDate>
+         <beginDate>2014</beginDate>
+         <endDate>2014</endDate>
+      </structuredDate>
+      <freeDate>2014</freeDate>
+      <topic>
+         <term>cities</term>
+      </topic>
+      <topic>
+         <term>urban blight</term>
+      </topic>
+      <topic>
+         <term>urban renewal</term>
+      </topic>
+      <location>
+         <type>site</type>
+         <place>Detroit, Wayne, Michigan, United States</place>
+         <coordinates>
+            <latitude decimal="42.3167"
+                      degree="42"
+                      minute="19"
+                      second="0"
+                      direction="N"/>
+            <longitude decimal="-83.0333"
+                       degree="83"
+                       minute="2"
+                       second="0"
+                       direction="W"/>
+         </coordinates>
+      </location>
+      <surrogate componentID="19344468">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="false"
+                xlink:href="http://nrs.harvard.edu/urn-3:GSD.LOEB:27348723">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:GSD.LOEB:27348723"/>
+         </image>
+         <workType>digital image</workType>
+         <creator>
+            <nameElement>MacLean, Alex S.</nameElement>
+            <dates>American aerial photographer, born 1947</dates>
+            <role>photographer</role>
+            <alternativeName>Alex S. MacLean</alternativeName>
+         </creator>
+         <structuredDate>
+            <beginDate>2014</beginDate>
+            <endDate>2014</endDate>
+         </structuredDate>
+         <freeDate>2014</freeDate>
+         <copyright>Alex MacLean</copyright>
+         <repository>
+            <repositoryName>Frances L. Loeb Library, Harvard University Graduate School of Design</repositoryName>
+            <number>190280</number>
+         </repository>
+      </surrogate>
+   </work>
+   <admin>
+      <createDate>2017-04-13</createDate>
+      <updateNote>
+         <updateDate>2017/07/25 15:16:53</updateDate>
+      </updateNote>
+   </admin>
+</viaRecord>

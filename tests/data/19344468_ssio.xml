@@ -1,0 +1,943 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<SharedShelf xmlns:display="http://catalog.sharedshelf.artstor.org/display"
+  xmlns:ssc="http://catalog.sharedshelf.artstor.org/ssc"
+  xmlns:ssd="http://catalog.sharedshelf.artstor.org/ssd"
+  xmlns:ssn="http://catalog.sharedshelf.artstor.org/ssn"
+  xmlns:ssw="http://catalog.sharedshelf.artstor.org/ssw"
+  xmlns:ssw_lkup="http://catalog.sharedshelf.artstor.org/ssw_lkup"
+  xmlns:tgn="http://catalog.sharedshelf.artstor.org/tgn"
+  xmlns:aat="http://catalog.sharedshelf.artstor.org/aat"
+  xmlns:mfcl="http://catalog.sharedshelf.artstor.org/mfcl"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="http://catalog.sharedshelf.artstor.org"
+  xsi:schemaLocation="http://catalog.sharedshelf.artstor.org http://catalog.sharedshelf.artstor.org/service/schema/SharedShelf_IO.xsd">
+  <ssw:Work lastUpdateDate="2017/07/25 15:16:53" id="8001310899" refid="8001310899"
+    contributor="Harvard" instituteId="10003" uri="http://forum.jstor.org/oai/ssw/8001310899">
+    <Titles xmlns="" tempered="true">
+      <Display>Detroit 2014</Display>
+      <Title term="Detroit 2014"/>
+    </Titles>
+    <WorkTypes xmlns="" tempered="true">
+      <Display>aerial photographs</Display>
+      <WorkType id="300128222" vocab="AAT" term="aerial photographs"
+        uri="http://forum.jstor.org/oai/AAT/300128222"/>
+    </WorkTypes>
+    <Subjects xmlns="" tempered="true">
+      <Display>cities; urban blight; urban renewal</Display>
+      <Subject id="11298801" vocab="MFCL" term="cities"
+        uri="http://forum.jstor.org/oai/MFCL/11298801"/>
+      <Subject id="300163405" vocab="AAT" term="urban blight"
+        uri="http://forum.jstor.org/oai/AAT/300163405"/>
+      <Subject id="300055442" vocab="AAT" term="urban renewal"
+        uri="http://forum.jstor.org/oai/AAT/300055442"/>
+    </Subjects>
+    <Dates xmlns="" tempered="true">
+      <Display>2014</Display>
+      <Date startDate="2014" endDate="2014" type_lkup="workDate"/>
+      <Date startDate="2014" endDate="2014"/>
+    </Dates>
+    <Locations xmlns="" tempered="true">
+      <Display>Detroit, Wayne, Michigan, United States (site)</Display>
+      <DisplayLocation term="Detroit, Wayne, Michigan, United States" type_lkup="site"
+        type_lkup_id="11309146"/>
+      <Location id="7013547" vocab="TGN" term="Detroit, Wayne, Michigan, United States"
+        type_lkup="site" type_lkup_id="11309146" uri="http://forum.jstor.org/oai/TGN/7013547">
+        <ssw:GeoLocation latitude="42.3167" longitude="-83.0333"/>
+      </Location>
+    </Locations>
+    <Agents xmlns="" tempered="true">
+      <Display>MacLean, Alex S. (American) photographer</Display>
+      <Agent id="9000413212" vocab="SSN" term="MacLean, Alex S." role_lkup="photographer"
+        role_lkup_id="11310025" uri="http://forum.jstor.org/oai/SSN/9000413212"/>
+    </Agents>
+    <LocalInformation xmlns=""/>
+    <RelatedWorks xmlns=""/>
+    <display:DR id="19344468" representationId="drs:urn-3:GSD.LOEB:27348723"
+      lastUpdateDate="2017-07-25T19:16:56+00:00" sequence="8" primary="false" projectId="819"
+      institutionId="10003" createdBy="areiskind@gsd.harvard.edu"
+      updatedBy="areiskind@gsd.harvard.edu" createdDate="2017-04-13T15:31:49+00:00">
+      <DisplayRecord xmlns="">
+        <field_string id="fd_37286_s"
+          description="Enter image GPS altitude in decimal format for Location Created (ITPC Photo Metadata Standard)"
+          label="Image Location Created Altitude" value=""/>
+        <field_string id="fd_37285_s"
+          description="Enter image GPS longitude in decimal format for Location Created (ITPC Photo Metadata Standard)"
+          label="Location Longitude" value="-83.0333"/>
+        <field_string id="fd_37284_s"
+          description="Enter image GPS latitude in decimal format for Location Created (ITPC Photo Metadata Standard)"
+          label="Location Latitude" value="42.3167"/>
+        <field_string id="fd_37298_an" description="None" label="Image Accession Number"
+          value="190280"/>
+        <field_string id="fd_37293_s" description="None" label="Image Date" value="2014"/>
+        <field_string id="fd_37305_s" description="None" label="Image End Year" value="2014"/>
+        <field_string id="fd_37303_s" description="None" label="Image Start Year" value="2014"/>
+        <field_string id="fd_37309_s" description="None" label="Image Rights" value="Alex MacLean"/>
+        <field_string id="fd_37299_s" description="None" label="Image Accession Date" value="42522"/>
+        <field_boolean id="fd_37313_b" description="None" label="Send To Harvard" value="true"/>
+        <field_lookup id="fd_37301_mfcl_lookup" description="None" label="Image Type">
+          <display>digital image</display>
+          <linkedField id="11319122" revision="-1" source_id="11319122"
+            preferredTerm="digital image" institutionName="Harvard">
+            <allTerms>digital image</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_37296_lookup" description="None" label="Image Repository">
+          <display>Frances L. Loeb Library, Harvard University Graduate School of Design</display>
+          <linkedField id="9000413190" revision="-1" source_id="9000413190"
+            preferredTerm="Frances L. Loeb Library, Harvard University Graduate School of Design"
+            conceptLevel="Local" institutionName="Harvard"
+            uri="http://forum.jstor.org/oai/SSN/9000413190">
+            <allTerms>Frances L. Loeb Library, Harvard University Graduate School of Design</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_37292_lookup" description="None" label="Photographer">
+          <display>MacLean, Alex S. (American aerial photographer, born 1947)</display>
+          <linkedField id="500250154" revision="-1" source_id="500250154"
+            preferredTerm="MacLean, Alex S." conceptLevel="Community" institutionName="ULAN"
+            uri="http://forum.jstor.org/oai/SSN/500250154">
+            <allTerms>MacLean, Alex S. | Alex S. MacLean</allTerms>
+          </linkedField>
+        </field_lookup>
+      </DisplayRecord>
+      <AssetGroups xmlns="">
+        <Group id="37816"/>
+        <Group id="37818"/>
+      </AssetGroups>
+      <Publications xmlns="">
+        <Publication asset_id="19344468" publishing_target_id="800"/>
+        <Publication asset_id="19344468" publishing_target_id="860"/>
+      </Publications>
+      <Assets xmlns="" filename="urn-3:GSD.LOEB:27348723">
+        <Asset id="19344468" size="ADLImageViewer" uri="http://library.artstor.org/#/ssid/19344468"
+          restriction="f"/>
+        <Asset id="None" size="DRS_full" uri="http://nrs.harvard.edu/urn-3:GSD.LOEB:27348723"
+          restriction="f"/>
+        <Asset id="None" size="DRS_thumb" uri="http://nrs.harvard.edu/urn-3:GSD.LOEB:27348723"
+          restriction="f"/>
+      </Assets>
+      <Targets xmlns="">
+        <Target name="OAI" status_lkup="Published" url="#" description="OAI"
+          publishDate="2017-04-13T15:52:45+00:00"/>
+        <Target name="Harvard University Study Collection of Digital Images" status_lkup="Published"
+          url="http://library.artstor.org/library/"
+          description="Institutional Collection in Artstor" publishDate="2017-04-13T15:52:45+00:00"
+        />
+      </Targets>
+    </display:DR>
+  </ssw:Work>
+  <ssn:Name conceptId="9000413212" stateText="NEW" recordType="PERSON" batchId="2"
+    statusText="Provisional" createdOn="2014/12/27 12:06:32" modifiedOn="2014/12/27 12:06:32"
+    batchName="Harvard" preferredTerm="MacLean, Alex S."
+    uri="http://forum.jstor.org/oai/ssn/9000413212">
+    <Nationalities xmlns="" count="1">
+      <Nationality id="11281149" name="American" preferred="true"/>
+    </Nationalities>
+    <Terms xmlns="" count="1">
+      <Term id="1170486" name="MacLean, Alex S." preferred="true">
+        <TermSource id="11276962" name="LC Authority File" preferred="true"/>
+      </Term>
+    </Terms>
+    <Biographies xmlns="" count="2">
+      <Biography id="1170487" name="American" preferred="true">
+        <birthPlace/>
+        <deathPlace/>
+      </Biography>
+      <Biography id="1170488">
+        <birthPlace/>
+        <deathPlace/>
+      </Biography>
+    </Biographies>
+  </ssn:Name>
+  <ssn:Name conceptId="9000413190" stateText="NEW" recordType="CORPORATE BODY" batchId="2"
+    statusText="Provisional" createdOn="2014/12/27 12:04:09" modifiedOn="2014/12/27 12:04:09"
+    batchName="Harvard"
+    preferredTerm="Frances L. Loeb Library, Harvard University Graduate School of Design"
+    uri="http://forum.jstor.org/oai/ssn/9000413190">
+    <Terms xmlns="" count="1">
+      <Term id="1170444"
+        name="Frances L. Loeb Library, Harvard University Graduate School of Design"
+        preferred="true">
+        <TermSource id="11318641" name="NO SOURCE" preferred="true"/>
+      </Term>
+    </Terms>
+  </ssn:Name>
+  <ssn:Name conceptId="500250154" stateText="COMPLETED" recordType="PERSON" batchId="1"
+    statusText="Complete" createdOn="2014/5/03 5:10:36" modifiedOn="2014/5/03 5:10:36"
+    batchName="ULAN" preferredTerm="MacLean, Alex S." preferredGender="Male"
+    uri="http://forum.jstor.org/oai/ssn/500250154">
+    <Roles xmlns="" count="2">
+      <Role id="11310025" name="photographer" preferred="false"/>
+      <Role id="11310453" name="artist" preferred="true"/>
+    </Roles>
+    <Nationalities xmlns="" count="1">
+      <Nationality id="11281149" name="American" preferred="true"/>
+    </Nationalities>
+    <Terms xmlns="" count="2">
+      <Term id="1500561687" name="MacLean, Alex S." preferred="true">
+        <Contributor id="2500000008" name="AVERY" preferred="true"/>
+        <Contributor id="2500000012" name="GRL" preferred="true"/>
+        <Language id="11280177" name="undetermined" preferred="true"/>
+        <TermSource id="11253407" name="Library of Congress Authorities database (n.d.)"
+          preferred="true" page="n 89110873"/>
+        <TermSource id="11234732" name="Avery Authority files (1963-)" preferred="true"/>
+      </Term>
+      <Term id="1500632618" name="Alex S. MacLean" preferred="false">
+        <Contributor id="2500000013" name="VP" preferred="false"/>
+        <Contributor id="2500000008" name="AVERY" preferred="false"/>
+        <Contributor id="2500000012" name="GRL" preferred="false"/>
+        <Language id="11280177" name="undetermined" preferred="false"/>
+        <TermSource id="11233823" name="Getty Vocabulary Program rules" preferred="false"/>
+      </Term>
+    </Terms>
+    <Bibliographies xmlns="" count="2">
+      <Bibliography sourceId="11253412"
+        sourceText="LCNAF Library of Congress Name Authority File  [n.d.]" preferred="false"/>
+      <Bibliography sourceId="11253407" sourceText="Library of Congress Authorities database (n.d.)"
+        preferred="false"/>
+    </Bibliographies>
+    <Contributors xmlns="" count="3">
+      <Contributor id="2500000008" name="AVERY"/>
+      <Contributor id="2500000013" name="VP"/>
+      <Contributor id="2500000012" name="GRL"/>
+    </Contributors>
+    <Biographies xmlns="" count="3">
+      <Biography id="4000437995" name="American aerial photographer, born 1947" gender="Male"
+        preferred="true">
+        <birthDate year="1947" epoch="AD"/>
+        <Contributor id="2500000013" name="VP"/>
+      </Biography>
+      <Biography id="4000388394" name="photographer, contemporary" gender="Unknown"
+        preferred="false">
+        <Contributor id="2500000008" name="AVERY"/>
+      </Biography>
+      <Biography id="4000494680" name="artist" gender="Unknown" preferred="false">
+        <birthDate year="1500" epoch="AD"/>
+        <Contributor id="2500000012" name="GRL"/>
+      </Biography>
+    </Biographies>
+    <ScopeNotes xmlns="" count="1">
+      <ScopeNote ScopeNoteId="81215" ScopeNoteText="Aerial photographer.">
+        <Language id="70051" name="English"/>
+        <Contributor id="2500000008" name="AVERY"/>
+        <Sources/>
+      </ScopeNote>
+    </ScopeNotes>
+  </ssn:Name>
+  <aat:AAT subjectId="300128222" recordType="C"
+    englishScopeNote="Photographs of the earth taken from aircraft. For photographs taken from beyond the earth's atmosphere, use &quot;space photographs.&quot; For photographs of celestial bodies or astronomical phenomena, use &quot;astrophotographs.&quot;"
+    preferredTerm="aerial photographs" uri="http://forum.jstor.org/oai/aat/300128222">
+    <Hierarchy xmlns="">
+      <Parent subjectId="300264092" name="Objects Facet">
+        <Child subjectId="300264552" name="Visual and Verbal Communication">
+          <Child subjectId="300179869" name="Visual Works (Hierarchy Name)">
+            <Child subjectId="300191086" name="visual works (Guide Term)">
+              <Child subjectId="300191091" name="visual works by medium or technique">
+                <Child subjectId="300046300" name="photographs">
+                  <Child subjectId="300127011" name="photographs by technique">
+                    <Child subjectId="300139768" name="photographs by picture-taking technique">
+                      <Child subjectId="300128222" name="aerial photographs"/>
+                    </Child>
+                  </Child>
+                </Child>
+              </Child>
+            </Child>
+          </Child>
+        </Child>
+      </Parent>
+    </Hierarchy>
+    <Terms xmlns="">
+      <Term id="1000128222" name="aerial photographs" preferred="P" historicFlag="C "
+        otherFlags="NA" vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000042421" briefCit="Way, Terrain Analysis (1973)"
+            fullCit="Way, Douglas S. Terrain Analysis: A Guide to Site Selection Using Aerial Photographic Interpretation. Stroudsburg, Pa.: Dowden, Hutchinson &amp; Ross, 1973."/>
+          <Source id="2000024811" briefCit="CDMARC Subjects: LCSH (1988-)"
+            fullCit="CDMARC Subjects: Library of Congress Subject Headings. Washington, DC: Library of Congress, Cataloging Distribution Service, 1988-. Quarterly, with each issue cumulative."/>
+          <Source id="2000036521" briefCit="O'Connor, Draft photographic thesaurus, unpub. (1987)"
+            fullCit="O'Connor, Diane V. Smithsonian Archives Photo Survey Project: A Draft Photographic Thesaurus. Document prepared for internal distribution. Washington, D.C.: Smithsonian Institution, 1987."/>
+          <Source id="2000018681" briefCit="Haller, Collecting Old Photographs (1979)"
+            fullCit="Haller, Margaret. Collecting Old Photographs. New York: Arco Publishing, 1978."/>
+          <Source id="2000037891" briefCit="Simmons, Archaeological Photography (1969)"
+            fullCit="Simmons, Harold C. Archaeological Photography. New York: New York University Press, 1969."/>
+          <Source id="2000048512" briefCit="Tesauro de Arte &amp; Arquitectura (2000-)"
+            fullCit="Tesauro de Arte &amp; Arquitectura. Centro de Documentación de Bienes Patrimoniales. Santiago, Chile: 2000-. http://www.aatespanol.cl/HTML/home.htm (accessed 1 January 2005)"/>
+          <Source id="2000042981" briefCit="Rosenblum, World History of Photography (1981)"
+            fullCit="Rosenblum, Naomi. A World History of Photography. New York: Abbeville Press, 1981."/>
+          <Source id="2000051089" briefCit="AATA database (2002-) "
+            fullCit="Getty Conservation Institute (GCI). database of AATA Online: Abstracts of International Conservation Literature. Los Angeles: GCI, 2002-.       "/>
+          <Source id="2000017031"
+            briefCit="Zinkham and Parker, Descriptive Terms for Graphic Materials (1986)"
+            fullCit="Zinkham, Helena and Elizabeth B. Parker. Descriptive Terms for Graphic Materials: Genre and Physical Characteristic Headings. Washington, D.C.: Library of Congress, 1986."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+          <Contributor id="10000131" briefName="CDBP-DIBAM"
+            fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"/>
+          <Contributor id="10000088" briefName="GCI"
+            fullName="Getty Conservation Institute, The Getty Center (Los Angeles, California)"/>
+        </Contributors>
+      </Term>
+      <Term id="1000128224" name="air photos" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000024811" briefCit="CDMARC Subjects: LCSH (1988-)"
+            fullCit="CDMARC Subjects: Library of Congress Subject Headings. Washington, DC: Library of Congress, Cataloging Distribution Service, 1988-. Quarterly, with each issue cumulative."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000373042" name="fotografía aérea (obra visual , photographs)" preferred="V"
+        historicFlag="C " otherFlags="NA" vernacular="U">
+        <Languages>
+          <Language code="70641" description="Spanish" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000048512" briefCit="Tesauro de Arte &amp; Arquitectura (2000-)"
+            fullCit="Tesauro de Arte &amp; Arquitectura. Centro de Documentación de Bienes Patrimoniales. Santiago, Chile: 2000-. http://www.aatespanol.cl/HTML/home.htm (accessed 1 January 2005)"/>
+          <Source id="2000048873"
+            briefCit="Dewey, Sistema de Clasificación Decimal Dewey e Índice Relativo (2000)"
+            fullCit="Dewey, Melvil. Sistema de Clasificación Decimal Dewey e Índice Relativo.  Bogotá: Rojas Eberhard Editores Ltda., 2000."/>
+          <Source id="2000049725" briefCit="Enciclopedia Focal de Fotografía (1975)"
+            fullCit="Enciclopedia Focal de Fotografía. 2 vols. Barcelona: Omega, 1975. "/>
+          <Source id="2000051250"
+            briefCit="Gutiérrez, Pintura, Escultura y Fotografía en Iberoamérica, siglos XIX y XX (1997)"
+            fullCit="Gutiérrez, Pintura, Escultura y Fotografía en Iberoamérica, siglos XIX y XX (1997)"/>
+          <Source id="2000050505"
+            briefCit="Gutiérrez, Pintura, escultura y fotografía: siglos XIX y XX (1997)"
+            fullCit="Gutiérrez, Ramón, ed. Pintura, escultura y fotografía en Iberoamérica: siglos XIX y XX. Madrid: Cátedra, 1997."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000131" briefName="CDBP-DIBAM"
+            fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"/>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000315194" name="photographie aérienne" preferred="V" historicFlag="C "
+        otherFlags="NA" vernacular="U">
+        <Languages>
+          <Language code="70271" description="French" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000048434" briefCit="CHIN database (1988-)"
+            fullCit="Canadian Heritage Information Network (CHIN) database. 1988-."/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000159" briefName="CHIN"
+            fullName="Canadian Heritage Information Network (Gatineau, Quebec, Canada)"/>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000491733" name="luchtfoto" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70261" description="Dutch" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000051213" briefCit="AAT-Ned (1994-)"
+            fullCit="AAT Ned: Dutch AAT Translation Project coordinated by Bureau AAT, RKD. The Hague: Netherlands Institute for Art History, 1994-."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000205" briefName="Bureau AAT"
+            fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"
+          />
+        </Contributors>
+      </Term>
+      <Term id="1000128225" name="airphotos" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000024811" briefCit="CDMARC Subjects: LCSH (1988-)"
+            fullCit="CDMARC Subjects: Library of Congress Subject Headings. Washington, DC: Library of Congress, Cataloging Distribution Service, 1988-. Quarterly, with each issue cumulative."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000373042" name="fotografía aérea (obra visual , photographs)" preferred="V"
+        historicFlag="C " otherFlags="NA" vernacular="U">
+        <Languages>
+          <Language code="70641" description="Spanish" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000048512" briefCit="Tesauro de Arte &amp; Arquitectura (2000-)"
+            fullCit="Tesauro de Arte &amp; Arquitectura. Centro de Documentación de Bienes Patrimoniales. Santiago, Chile: 2000-. http://www.aatespanol.cl/HTML/home.htm (accessed 1 January 2005)"/>
+          <Source id="2000048873"
+            briefCit="Dewey, Sistema de Clasificación Decimal Dewey e Índice Relativo (2000)"
+            fullCit="Dewey, Melvil. Sistema de Clasificación Decimal Dewey e Índice Relativo.  Bogotá: Rojas Eberhard Editores Ltda., 2000."/>
+          <Source id="2000049725" briefCit="Enciclopedia Focal de Fotografía (1975)"
+            fullCit="Enciclopedia Focal de Fotografía. 2 vols. Barcelona: Omega, 1975. "/>
+          <Source id="2000051250"
+            briefCit="Gutiérrez, Pintura, Escultura y Fotografía en Iberoamérica, siglos XIX y XX (1997)"
+            fullCit="Gutiérrez, Pintura, Escultura y Fotografía en Iberoamérica, siglos XIX y XX (1997)"/>
+          <Source id="2000050505"
+            briefCit="Gutiérrez, Pintura, escultura y fotografía: siglos XIX y XX (1997)"
+            fullCit="Gutiérrez, Ramón, ed. Pintura, escultura y fotografía en Iberoamérica: siglos XIX y XX. Madrid: Cátedra, 1997."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000131" briefName="CDBP-DIBAM"
+            fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"/>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000128223" name="air photographs" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000042061" briefCit="Webster's Third New International Dictionary (1961)"
+            fullCit="Webster's Third New International Dictionary of the English Language. Unabridged. Springfield, MA: G. &amp; C. Merriam Co., 1961."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000152874" name="photographs, aerial" preferred="V" historicFlag="C "
+        otherFlags="NA" vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000046717" briefCit="Getty Vocabulary Program rules"
+            fullCit="Getty Vocabulary Program. Term warranted by AAT Editorial Guidelines."/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000315193" name="photographies aériennes" preferred="V" historicFlag="C "
+        otherFlags="NA" vernacular="U">
+        <Languages>
+          <Language code="70271" description="French" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000048434" briefCit="CHIN database (1988-)"
+            fullCit="Canadian Heritage Information Network (CHIN) database. 1988-."/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000159" briefName="CHIN"
+            fullName="Canadian Heritage Information Network (Gatineau, Quebec, Canada)"/>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000299205" name="aerial photograph" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000046717" briefCit="Getty Vocabulary Program rules"
+            fullCit="Getty Vocabulary Program. Term warranted by AAT Editorial Guidelines."/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000491732" name="luchtfoto's" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70261" description="Dutch" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000051213" briefCit="AAT-Ned (1994-)"
+            fullCit="AAT Ned: Dutch AAT Translation Project coordinated by Bureau AAT, RKD. The Hague: Netherlands Institute for Art History, 1994-."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000205" briefName="Bureau AAT"
+            fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"
+          />
+        </Contributors>
+      </Term>
+      <Term id="1000394414" name="fotografías aéreas (photographs)" preferred="V" historicFlag="C "
+        otherFlags="NA" vernacular="U">
+        <Languages>
+          <Language code="70641" description="Spanish" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000048512" briefCit="Tesauro de Arte &amp; Arquitectura (2000-)"
+            fullCit="Tesauro de Arte &amp; Arquitectura. Centro de Documentación de Bienes Patrimoniales. Santiago, Chile: 2000-. http://www.aatespanol.cl/HTML/home.htm (accessed 1 January 2005)"
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+    </Terms>
+    <ScopeNotes xmlns="">
+      <ScopeNote id="68746"
+        notesText="Úsese para fotografías de la tierra tomadas desde una aeronave. Para fotografías tomadas desde más allá de la atmosfera terrestre, use &quot;fotografía espacial&quot;. Para fotografías de cuerpos celestes o fenómenos atronómicos, use &quot;astrofotografía&quot;.">
+        <Language code="70641" description="Spanish"/>
+        <Contributors>
+          <Contributor id="10000131" briefName="CDBP-DIBAM"
+            fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"
+          />
+        </Contributors>
+      </ScopeNote>
+      <ScopeNote id="93090"
+        notesText="Foto's van de aarde gemaakt vanuit een luchtvaartuig. Gebruik 'luchtaanzichten' wanneer de nadruk ligt op het onderwerp dat in beeld gebracht is vanuit een luchtvaartuig of een ander hoog gezichtspunt. Gebruik 'ruimtefoto's' voor foto's die van buiten de dampkring van de aarde zijn gemaakt. Gebruik 'astrofoto's' voor foto's van hemellichamen of astronomische verschijnselen.">
+        <Language code="70261" description="Dutch"/>
+        <Contributors>
+          <Contributor id="10000205" briefName="Bureau AAT"
+            fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"
+          />
+        </Contributors>
+      </ScopeNote>
+      <ScopeNote id="33783"
+        notesText="Photographs of the earth taken from aircraft. For photographs taken from beyond the earth's atmosphere, use &quot;space photographs.&quot; For photographs of celestial bodies or astronomical phenomena, use &quot;astrophotographs.&quot;">
+        <Language code="70051" description="English"/>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </ScopeNote>
+    </ScopeNotes>
+    <Sources xmlns="">
+      <Source id="2000052372" briefCit="Bureau AAT, RKD"
+        fullCit="Bureau AAT, Bureau AAT, RKD (Rijksbureau voor Kunsthistorische Documentatie), 's Gravenhage, Nederland"/>
+      <Source id="2000051089" briefCit="AATA database (2002-) "
+        fullCit="Getty Conservation Institute (GCI). database of AATA Online: Abstracts of International Conservation Literature. Los Angeles: GCI, 2002-.       "/>
+      <Source id="2000048434" briefCit="CHIN database (1988-)"
+        fullCit="Canadian Heritage Information Network (CHIN) database. 1988-."/>
+    </Sources>
+    <Contributors xmlns="">
+      <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+      <Contributor id="10000088" briefName="GCI"
+        fullName="Getty Conservation Institute, The Getty Center (Los Angeles, California)"/>
+      <Contributor id="10000205" briefName="Bureau AAT"
+        fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"/>
+      <Contributor id="10000159" briefName="CHIN"
+        fullName="Canadian Heritage Information Network (Gatineau, Quebec, Canada)"/>
+      <Contributor id="10000131" briefName="CDBP-DIBAM"
+        fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"
+      />
+    </Contributors>
+  </aat:AAT>
+  <aat:AAT subjectId="300163405" recordType="C"
+    englishScopeNote="Refers to the condition of urban areas characterized by general deterioration in the quality of existing buildings and infrastructural systems, often caused by adverse economic, environmental, or zoning forces."
+    preferredTerm="urban blight" uri="http://forum.jstor.org/oai/aat/300163405">
+    <Hierarchy xmlns="">
+      <Parent subjectId="300264086" name="Associated Concepts Facet">
+        <Child subjectId="300055126" name="Associated Concepts">
+          <Child subjectId="300239103" name="social science concepts">
+            <Child subjectId="300065818" name="sociological concepts">
+              <Child subjectId="300055286" name="social issues">
+                <Child subjectId="300163405" name="urban blight"/>
+              </Child>
+            </Child>
+          </Child>
+        </Child>
+      </Parent>
+    </Hierarchy>
+    <Terms xmlns="">
+      <Term id="1000163405" name="urban blight" preferred="P" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000040941" briefCit="Chapin, Urban Land Use Planning (1972)"
+            fullCit="Chapin, F. Stuart, Jr. Urban Land Use Planning. 2d ed. Urbana: University of Illinois Press, 1972."/>
+          <Source id="2000051089" briefCit="AATA database (2002-) "
+            fullCit="Getty Conservation Institute (GCI). database of AATA Online: Abstracts of International Conservation Literature. Los Angeles: GCI, 2002-.       "/>
+          <Source id="2000029281" briefCit="Witherspoon et al., Mixed-Use Developments (1976)"
+            fullCit="Witherspoon, Robert E., Jon P. Abbett, and Robert M. Gladstone, eds. Mixed-Use Developments: New Ways of Land Use. Washington, D.C.: Urban Land Institute, 1976."/>
+          <Source id="2000020451" briefCit="HUD Research Thesaurus (1980)"
+            fullCit="HUD USER, comp. HUD Research Thesaurus. Germantown, MD.: U.S. Department of Housing and Urban Development, 1980."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+          <Contributor id="10000088" briefName="GCI"
+            fullName="Getty Conservation Institute, The Getty Center (Los Angeles, California)"/>
+        </Contributors>
+      </Term>
+      <Term id="1000440708" name="decaimiento urbano" preferred="V" historicFlag="C "
+        otherFlags="NA" vernacular="U">
+        <Languages>
+          <Language code="70641" description="Spanish" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000051769"
+            briefCit="Cuervo, Ciudad y globalización en América Latina: Estado del arte (2003)"
+            fullCit="Cuervo, Ciudad y globalización en América Latina: Estado del arte (2003)"/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000131" briefName="CDBP-DIBAM"
+            fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"
+          />
+        </Contributors>
+      </Term>
+      <Term id="1000494137" name="verloedering" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70261" description="Dutch" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000051213" briefCit="AAT-Ned (1994-)"
+            fullCit="AAT Ned: Dutch AAT Translation Project coordinated by Bureau AAT, RKD. The Hague: Netherlands Institute for Art History, 1994-."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000205" briefName="Bureau AAT"
+            fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"
+          />
+        </Contributors>
+      </Term>
+      <Term id="1000191127" name="urban decay" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000008771" briefCit="Roberts, Construction Industry Thesaurus (1976)"
+            fullCit="Roberts, Michael J. Construction Industry Thesaurus. 2nd ed. London: Property Services Agency, Department of the Environment, 1976."/>
+          <Source id="2000041071" briefCit="Rickert, Urban Thesaurus (1968)"
+            fullCit="Rickert, John E. Urban Thesaurus: A Vocabulary for Indexing and Retrieving Urban Literature. Kent, Ohio: Center for Urban Regionalism, Kent State University, 1968."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000440709" name="áreas próximas a constituirse en urbanas" preferred="V"
+        historicFlag="C " otherFlags="NA" vernacular="U">
+        <Languages>
+          <Language code="70641" description="Spanish" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000051400"
+            briefCit="Lozano Irueste, Diccionario bilingüe de Economía y Empresa. Inglés-Español/Español-Inglés (2001)"
+            fullCit="Lozano Irueste, Diccionario bilingüe de Economía y Empresa. Inglés-Español/Español-Inglés (2001)"
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000131" briefName="CDBP-DIBAM"
+            fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"
+          />
+        </Contributors>
+      </Term>
+      <Term id="1000163406" name="blight" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000029281" briefCit="Witherspoon et al., Mixed-Use Developments (1976)"
+            fullCit="Witherspoon, Robert E., Jon P. Abbett, and Robert M. Gladstone, eds. Mixed-Use Developments: New Ways of Land Use. Washington, D.C.: Urban Land Institute, 1976."/>
+          <Source id="2000013861" briefCit="Whittick, Encyclopedia of Urban Planning (1974)"
+            fullCit="Whittick, Arnold, ed. Encyclopedia of Urban Planning. New York: McGraw-Hill Book Co.,  1974."/>
+          <Source id="2000011211" briefCit="Dumouchel, Dictionary of Development Terminology (1975)"
+            fullCit="Dumouchel, Robert J. Dictionary of Development Terminology. New York: McGraw-Hill Book Co., 1975."/>
+          <Source id="2000025571" briefCit="Abrams, Language of Cities (1971)"
+            fullCit="Abrams, Charles. The Language of Cities: A Glossary of Terms. New York: Viking Press, 1971."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000494136" name="verkrotting" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70261" description="Dutch" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000051213" briefCit="AAT-Ned (1994-)"
+            fullCit="AAT Ned: Dutch AAT Translation Project coordinated by Bureau AAT, RKD. The Hague: Netherlands Institute for Art History, 1994-."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000205" briefName="Bureau AAT"
+            fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"
+          />
+        </Contributors>
+      </Term>
+    </Terms>
+    <ScopeNotes xmlns="">
+      <ScopeNote id="90665"
+        notesText="Te gebruiken voor de toestand in stedelijke gebieden die wordt gekenmerkt door een algemene verslechtering van de kwaliteit van bestaande gebouwen en infrastructuren, vaak het resultaat van nadelige economische- omgevings- of zoneringsinvloeden.">
+        <Language code="70261" description="Dutch"/>
+        <Contributors>
+          <Contributor id="10000205" briefName="Bureau AAT"
+            fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"
+          />
+        </Contributors>
+      </ScopeNote>
+      <ScopeNote id="76573"
+        notesText="Úsese para la condición de áreas urbanas caracterizadas por deterioro general en la calidad de los edificios existentes y sistemas infraestructurales, a menudo causados por fuerzas económicas, ambientales o zonificación adversas.">
+        <Language code="70641" description="Spanish"/>
+        <Contributors>
+          <Contributor id="10000131" briefName="CDBP-DIBAM"
+            fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"
+          />
+        </Contributors>
+      </ScopeNote>
+      <ScopeNote id="52080"
+        notesText="Refers to the condition of urban areas characterized by general deterioration in the quality of existing buildings and infrastructural systems, often caused by adverse economic, environmental, or zoning forces.">
+        <Language code="70051" description="English"/>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </ScopeNote>
+    </ScopeNotes>
+    <Sources xmlns="">
+      <Source id="2000051089" briefCit="AATA database (2002-) "
+        fullCit="Getty Conservation Institute (GCI). database of AATA Online: Abstracts of International Conservation Literature. Los Angeles: GCI, 2002-.       "/>
+      <Source id="2000010761" briefCit="Dictionary of Architecture and Construction (1975)"
+        fullCit="Dictionary of Architecture and Construction. Edited by Cyril M. Harris. New York: McGraw-Hill Book Co., 1975."/>
+      <Source id="2000052373" briefCit="Van Dale groot woordenboek (1994)"
+        fullCit="Van Dale groot woordenboek der Nederlandse taal, Utrecht ; Antwerpen, 1994"/>
+    </Sources>
+    <Contributors xmlns="">
+      <Contributor id="10000205" briefName="Bureau AAT"
+        fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"/>
+      <Contributor id="10000088" briefName="GCI"
+        fullName="Getty Conservation Institute, The Getty Center (Los Angeles, California)"/>
+      <Contributor id="10000131" briefName="CDBP-DIBAM"
+        fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"/>
+      <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+    </Contributors>
+  </aat:AAT>
+  <aat:AAT subjectId="300055442" recordType="C"
+    englishScopeNote="Activity of clearing, rebuilding, restoring, or refurbishing urban areas."
+    preferredTerm="urban renewal" uri="http://forum.jstor.org/oai/aat/300055442">
+    <Hierarchy xmlns="">
+      <Parent subjectId="300264090" name="Activities Facet">
+        <Child subjectId="300054593" name="Functions">
+          <Child subjectId="300138088" name="functions (activities)">
+            <Child subjectId="300069727" name="functions by general context">
+              <Child subjectId="300055423" name="development (function)">
+                <Child subjectId="300055433" name="community development">
+                  <Child subjectId="300055438" name="urban development">
+                    <Child subjectId="300055442" name="urban renewal"/>
+                  </Child>
+                </Child>
+              </Child>
+            </Child>
+          </Child>
+        </Child>
+      </Parent>
+    </Hierarchy>
+    <Terms xmlns="">
+      <Term id="1000055442" name="urban renewal" preferred="P" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000035111" briefCit="RIBA, Architectural Keywords (1982)"
+            fullCit="Royal Institute of British Architects. Architectural Keywords. London: Royal Institute of British Architects Publications, 1982."/>
+          <Source id="2000041001" briefCit="UNESCO Thesaurus (1977)"
+            fullCit="Aitchison, Jean, ed. UNESCO Thesaurus: A Structured List of Descriptors for Indexing and Retrieving Literature in the Fields of Education, Science, Social Science, Culture, and Communication. Paris: United Nations Educational, Scientific and Cultural Organization, 1977."/>
+          <Source id="2000035251" briefCit="RILA, Subject Headings (1975-1990)"
+            fullCit="J. Paul Getty Trust. International Repertory of the Literature of Art Subject Headings. Document prepared for internal distribution. Williamstown: J. Paul Getty Trust, 1975-1990."/>
+          <Source id="2000024811" briefCit="CDMARC Subjects: LCSH (1988-)"
+            fullCit="CDMARC Subjects: Library of Congress Subject Headings. Washington, DC: Library of Congress, Cataloging Distribution Service, 1988-. Quarterly, with each issue cumulative."/>
+          <Source id="2000040601" briefCit="Thesaurus of Sociological Indexing Terms (1986)"
+            fullCit="Booth, Barbara. Thesaurus of Sociological Indexing Terms. San Diego, California: Sociological Abstract, 1986."/>
+          <Source id="2000020451" briefCit="HUD Research Thesaurus (1980)"
+            fullCit="HUD USER, comp. HUD Research Thesaurus. Germantown, MD.: U.S. Department of Housing and Urban Development, 1980."/>
+          <Source id="2000046657" briefCit="Avery Index (1963-)"
+            fullCit="The Avery Index to Architectural Periodicals. Boston, MA.: G. K. Hall &amp; Co., 1963-."/>
+          <Source id="2000051089" briefCit="AATA database (2002-) "
+            fullCit="Getty Conservation Institute (GCI). database of AATA Online: Abstracts of International Conservation Literature. Los Angeles: GCI, 2002-.       "/>
+          <Source id="2000037831" briefCit="Siegan, Land Use Without Zoning (1972)"
+            fullCit="Siegan, Bernard H. Land Use without Zoning. Lexington, Massachusetts: Lexington Books, 1972."/>
+          <Source id="2000041071" briefCit="Rickert, Urban Thesaurus (1968)"
+            fullCit="Rickert, John E. Urban Thesaurus: A Vocabulary for Indexing and Retrieving Urban Literature. Kent, Ohio: Center for Urban Regionalism, Kent State University, 1968."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+          <Contributor id="10000088" briefName="GCI"
+            fullName="Getty Conservation Institute, The Getty Center (Los Angeles, California)"/>
+        </Contributors>
+      </Term>
+      <Term id="1000486989" name="stadsvernieuwing" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70261" description="Dutch" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000051213" briefCit="AAT-Ned (1994-)"
+            fullCit="AAT Ned: Dutch AAT Translation Project coordinated by Bureau AAT, RKD. The Hague: Netherlands Institute for Art History, 1994-."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000205" briefName="Bureau AAT"
+            fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"
+          />
+        </Contributors>
+      </Term>
+      <Term id="1000152643" name="renewal, urban" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000046717" briefCit="Getty Vocabulary Program rules"
+            fullCit="Getty Vocabulary Program. Term warranted by AAT Editorial Guidelines."/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000162329" name="redevelopment, urban" preferred="V" historicFlag="C "
+        otherFlags="NA" vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000046717" briefCit="Getty Vocabulary Program rules"
+            fullCit="Getty Vocabulary Program. Term warranted by AAT Editorial Guidelines."/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000055443" name="urban redevelopment" preferred="V" historicFlag="C "
+        otherFlags="NA" vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000008771" briefCit="Roberts, Construction Industry Thesaurus (1976)"
+            fullCit="Roberts, Michael J. Construction Industry Thesaurus. 2nd ed. London: Property Services Agency, Department of the Environment, 1976."/>
+          <Source id="2000024811" briefCit="CDMARC Subjects: LCSH (1988-)"
+            fullCit="CDMARC Subjects: Library of Congress Subject Headings. Washington, DC: Library of Congress, Cataloging Distribution Service, 1988-. Quarterly, with each issue cumulative."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000433550" name="reforma urbana" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70641" description="Spanish" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000051514" briefCit="Kreimer, Diccionario de Movimientos del siglo XX (2003)"
+            fullCit="Kreimer, Diccionario de Movimientos del siglo XX (2003)"/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000131" briefName="CDBP-DIBAM"
+            fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"
+          />
+        </Contributors>
+      </Term>
+    </Terms>
+    <ScopeNotes xmlns="">
+      <ScopeNote id="89102"
+        notesText="Het opruimen, verbouwen, restaureren of opknappen van stedelijke gebieden.">
+        <Language code="70261" description="Dutch"/>
+        <Contributors>
+          <Contributor id="10000205" briefName="Bureau AAT"
+            fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"
+          />
+        </Contributors>
+      </ScopeNote>
+      <ScopeNote id="66286"
+        notesText="Actividad de despejar, reconstruir, restaurar, o readecuar áreas urbanas.">
+        <Language code="70641" description="Spanish"/>
+        <Contributors>
+          <Contributor id="10000131" briefName="CDBP-DIBAM"
+            fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"
+          />
+        </Contributors>
+      </ScopeNote>
+      <ScopeNote id="46353"
+        notesText="Activity of clearing, rebuilding, restoring, or refurbishing urban areas.">
+        <Language code="70051" description="English"/>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </ScopeNote>
+    </ScopeNotes>
+    <Sources xmlns="">
+      <Source id="2000051089" briefCit="AATA database (2002-) "
+        fullCit="Getty Conservation Institute (GCI). database of AATA Online: Abstracts of International Conservation Literature. Los Angeles: GCI, 2002-.       "/>
+      <Source id="2000052372" briefCit="Bureau AAT, RKD"
+        fullCit="Bureau AAT, Bureau AAT, RKD (Rijksbureau voor Kunsthistorische Documentatie), 's Gravenhage, Nederland"/>
+      <Source id="2000035111" briefCit="RIBA, Architectural Keywords (1982)"
+        fullCit="Royal Institute of British Architects. Architectural Keywords. London: Royal Institute of British Architects Publications, 1982."
+      />
+    </Sources>
+    <Contributors xmlns="">
+      <Contributor id="10000131" briefName="CDBP-DIBAM"
+        fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"/>
+      <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+      <Contributor id="10000205" briefName="Bureau AAT"
+        fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"/>
+      <Contributor id="10000088" briefName="GCI"
+        fullName="Getty Conservation Institute, The Getty Center (Los Angeles, California)"/>
+    </Contributors>
+  </aat:AAT>
+  <tgn:TGN subjectId="7013547" recordType="A" placeType="inhabited place" preferredName="Detroit"
+    uri="http://forum.jstor.org/oai/tgn/7013547">
+    <tgn:latitude xmlns="" decimal="42.3167" degree="42" minute="19" second="0" direction="N"/>
+    <tgn:longitude xmlns="" decimal="-83.0333" degree="83" minute="2" second="0" direction="W"/>
+    <tgn:Hierarchy xmlns="">
+      <tgn:Parent subjectId="7029392" name="World" type="facet">
+        <tgn:Child subjectId="1000001" name="North and Central America" type="continent">
+          <tgn:Child subjectId="7012149" name="United States" type="nation">
+            <tgn:Child subjectId="7007520" name="Michigan" type="state">
+              <tgn:Child subjectId="1003005" name="Wayne" type="county">
+                <tgn:Child subjectId="7013547" name="Detroit" type="inhabited place"/>
+              </tgn:Child>
+            </tgn:Child>
+          </tgn:Child>
+        </tgn:Child>
+      </tgn:Parent>
+    </tgn:Hierarchy>
+    <tgn:Terms xmlns="">
+      <tgn:Term id="236364" name="Detroit" preferred="P"/>
+      <tgn:Term id="323885" name="Ville d'Étroit" preferred="V"/>
+      <tgn:Term id="323886" name="Fort Pontchartrain Détroit" preferred="V"/>
+      <tgn:Term id="323884" name="Fort-Pontchartrain-du-Détroit" preferred="V"/>
+    </tgn:Terms>
+    <tgn:PlaceTypes xmlns="">
+      <tgn:Place id="83371" name="industrial center"
+        description="developed after Civil War, especially known for automobile production that was initially encouraged by Henry Ford"
+        preferred="N"/>
+      <tgn:Place id="83131" name="transportation center"
+        description="for major water traffic from Lakes Erie to St. Clair since 1818, today also for rail, road &amp; air traffic"
+        preferred="N"/>
+      <tgn:Place id="83303" name="agricultural center"
+        description="has long been center for processing &amp; forwarding agricultural produce, especially noted for flour-milling"
+        preferred="N"/>
+      <tgn:Place id="83361" name="university center"
+        description="for Wayne State, University of Detroit, also center for Cranbrook Academy of Art, Institute of Art &amp; other institutions"
+        preferred="N"/>
+      <tgn:Place id="83505" name="cultural center"
+        description="has museums of art &amp; transportation, symphony orchestra; noted for development of music including rhythm &amp; blues, &amp; jazz"
+        preferred="N"/>
+      <tgn:Place id="83110" name="capital"
+        description="of Michigan Territory, from 1805; of Michigan state, from 1837 until the capital was transferred to Lansing in 1847"
+        preferred="N"/>
+      <tgn:Place id="83002" name="inhabited place"
+        description="Amerindians lived in the area prior to arrival of Europeans; post founded by Frenchman Antoine de Lamothe Cadillac in 1701"
+        preferred="P"/>
+      <tgn:Place id="83040" name="city" description="incorporated in 1824" preferred="N"/>
+      <tgn:Place id="83118" name="county seat" preferred="N"/>
+    </tgn:PlaceTypes>
+    <tgn:Note>Located on Detroit river; French established fort &amp; fur-trading post here in 1701; captured by British in French and Indian Wars in 1760; passed to US in 1796; destroyed by fire in 1805; city was rebuilt and flourished after introduction of steamboats.</tgn:Note>
+  </tgn:TGN>
+</SharedShelf>
