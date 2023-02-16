@@ -1,0 +1,1464 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<SharedShelf xmlns:display="http://catalog.sharedshelf.artstor.org/display"
+  xmlns:ssc="http://catalog.sharedshelf.artstor.org/ssc"
+  xmlns:ssd="http://catalog.sharedshelf.artstor.org/ssd"
+  xmlns:ssn="http://catalog.sharedshelf.artstor.org/ssn"
+  xmlns:ssw="http://catalog.sharedshelf.artstor.org/ssw"
+  xmlns:ssw_lkup="http://catalog.sharedshelf.artstor.org/ssw_lkup"
+  xmlns:tgn="http://catalog.sharedshelf.artstor.org/tgn"
+  xmlns:aat="http://catalog.sharedshelf.artstor.org/aat"
+  xmlns:mfcl="http://catalog.sharedshelf.artstor.org/mfcl"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="http://catalog.sharedshelf.artstor.org"
+  xsi:schemaLocation="http://catalog.sharedshelf.artstor.org http://catalog.sharedshelf.artstor.org/service/schema/SharedShelf_IO.xsd">
+  <ssw:Work lastUpdateDate="2022/10/24 07:11:59" id="8001694086" refid="8001694086"
+    contributor="Harvard" instituteId="10003" uri="http://forum.jstor.org/oai/ssw/8001694086">
+    <Titles xmlns="" tempered="true">
+      <Display>Chariot of Love (HUAM, 2009.202.54)</Display>
+      <Title term="Chariot of Love (HUAM, 2009.202.54)"/>
+    </Titles>
+    <WorkTypes xmlns="" tempered="true">
+      <Display>drawings (visual works)</Display>
+      <WorkType id="300033973" vocab="AAT" term="drawings (visual works)"
+        uri="http://forum.jstor.org/oai/AAT/300033973"/>
+    </WorkTypes>
+    <Measurements xmlns="" tempered="false">
+      <Display>44.5 x 29 cm</Display>
+    </Measurements>
+    <Subjects xmlns="" tempered="true">
+      <Display>Hindu gods; dancing (activity); pennants; female figures; symbols</Display>
+      <Subject id="11305547" vocab="MFCL" term="Hindu gods"
+        uri="http://forum.jstor.org/oai/MFCL/11305547"/>
+      <Subject id="300389779" vocab="AAT" term="dancing (activity)"
+        uri="http://forum.jstor.org/oai/AAT/300389779"/>
+      <Subject id="300195680" vocab="AAT" term="pennants"
+        uri="http://forum.jstor.org/oai/AAT/300195680"/>
+      <Subject id="11300105" vocab="MFCL" term="female figures"
+        uri="http://forum.jstor.org/oai/MFCL/11300105"/>
+      <Subject id="300055878" vocab="AAT" term="symbols"
+        uri="http://forum.jstor.org/oai/AAT/300055878"/>
+    </Subjects>
+    <Cultures xmlns="" tempered="true">
+      <Display>Indian</Display>
+      <Culture id="11281937" vocab="MFCL" term="Indian"
+        uri="http://forum.jstor.org/oai/MFCL/11281937"/>
+    </Cultures>
+    <Dates xmlns="" tempered="false">
+      <Display>19th cent.</Display>
+      <Date startDate="1800" endDate="1899" type_lkup="workDate"/>
+      <Date startDate="1800" endDate="1899"/>
+    </Dates>
+    <Locations xmlns="" tempered="true">
+      <Display>Odisha, India (creation); Harvard Art Museums (American art museum), Cambridge, Middlesex, Massachusetts, United States (repository); Stuart Cary Welch (North American art historian, 1928-2008) (former owner)</Display>
+      <DisplayLocation term="Odisha, India" type_lkup="creation" type_lkup_id="11309135"/>
+      <DisplayLocation
+        term="Harvard Art Museums (American art museum), Cambridge, Middlesex, Massachusetts, United States"
+        type_lkup="repository" type_lkup_id="11315199"/>
+      <DisplayLocation term="Stuart Cary Welch (North American art historian, 1928-2008)"
+        type_lkup="former owner" type_lkup_id="11314227"/>
+      <Location id="7016694" vocab="TGN" term="Odisha, India" type_lkup="creation"
+        type_lkup_id="11309135" uri="http://forum.jstor.org/oai/TGN/7016694">
+        <ssw:GeoLocation latitude="21.0" longitude="84.0"/>
+      </Location>
+      <Repository id="9000345626" vocab="SSN" term="Harvard Art Museums" type_lkup="repository"
+        uri="http://forum.jstor.org/oai/SSN/9000345626">
+        <location id="7013527" term="Cambridge, Middlesex, Massachusetts, United States" vocab="TGN"
+          uri="http://forum.jstor.org/oai/TGN/7013527"/>
+        <ssw:GeoLocation latitude="42.3667" longitude="-71.1"/>
+        <ssw:RefIdDetail term="2009.202.54" type_lkup="accession number" type_lkup_id="11315208"/>
+      </Repository>
+      <PrivateOwner id="9000439714" vocab="SSN" term="Stuart Cary Welch" type_lkup="former owner"
+        type_lkup_id="11314227" uri="http://forum.jstor.org/oai/SSN/9000439714"/>
+    </Locations>
+    <ArtstorCountries xmlns="" tempered="true">
+      <Country id="11312975" term_lkup="India"/>
+    </ArtstorCountries>
+    <ArtstorClassifications xmlns="" tempered="true">
+      <ArtstorClassification id="11309241" term_lkup="Drawings and Watercolors"/>
+    </ArtstorClassifications>
+    <Notes xmlns="" tempered="true">
+      <Display>Ink and opaque watercolor on eleven palm leaves hinged with cotton thread.</Display>
+      <Note term="Ink and opaque watercolor on eleven palm leaves hinged with cotton thread."
+        type_lkup="Materials" type_lkup_id="11309081"/>
+    </Notes>
+    <LocalInformation xmlns=""/>
+    <RelatedWorks xmlns=""/>
+    <display:DR id="30759453" representationId="drs:URN-3:FHCL:102214603"
+      lastUpdateDate="2022-10-24T14:36:23+00:00" sequence="3" primary="false" projectId="816"
+      institutionId="10003" createdBy="christopher_hyde@harvard.edu" updatedBy="alice@goz-west.com"
+      createdDate="2021-07-20T12:48:55+00:00">
+      <DisplayRecord xmlns="">
+        <field_string id="fd_37069_s" description="None" label="Image Collection"
+          value="Stuart Cary Welch Islamic and South Asian Photograph Collection"/>
+        <field_string id="fd_37083_s" description="None" label="Image Notes"
+          value="Funding for this image is provided by the Aga Khan Program and the Stuart Cary Welch Islamic and South Asian Photograph Collection. "/>
+        <field_string id="fd_37094_s" description="None" label="Image Provider"
+          value="Stuart Cary Welch Estate"/>
+        <field_string id="fd_37070_an" description="None" label="Image Accession Number"
+          value="SCW2016.21376"/>
+        <field_string id="fd_37056_s" description="None" label="Latitude" value="21.0"/>
+        <field_string id="fd_37057_s" description="None" label="Longitude" value="84.0"/>
+        <field_string id="fd_37042_s" description="None" label="Image View Description"
+          value="Detail"/>
+        <field_boolean id="fd_37085_b" description="None" label="Send To Harvard" value="true"/>
+        <field_lookup id="fd_37068_lookup" description="None" label="Image Repository">
+          <display>Harvard Fine Arts Library, Special Collections</display>
+          <linkedField id="9000369124" revision="-1" source_id="9000369124"
+            preferredTerm="Harvard Fine Arts Library, Special Collections" conceptLevel="Local"
+            institutionName="Harvard" uri="http://forum.jstor.org/oai/SSN/9000369124">
+            <allTerms>Harvard Fine Arts Library, Special Collections</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_37073_mfcl_lookup" description="None" label="Image Type">
+          <display>color slide</display>
+          <linkedField id="11319121" revision="-1" source_id="11319121" preferredTerm="color slide"
+            institutionName="Harvard">
+            <allTerms>color slide</allTerms>
+          </linkedField>
+        </field_lookup>
+      </DisplayRecord>
+      <AssetGroups xmlns="">
+        <Group id="420366"/>
+        <Group id="420367"/>
+      </AssetGroups>
+      <Publications xmlns="">
+        <Publication asset_id="30759453" publishing_target_id="797"/>
+        <Publication asset_id="30759453" publishing_target_id="858"/>
+      </Publications>
+      <Assets xmlns="" filename="URN-3:FHCL:102214603">
+        <Asset id="30759453" size="ADLImageViewer" uri="http://library.artstor.org/#/ssid/30759453"
+          restriction="f"/>
+        <Asset id="None" size="DRS_full" uri="http://nrs.harvard.edu/URN-3:FHCL:102214603"
+          restriction="f"/>
+        <Asset id="None" size="DRS_thumb" uri="http://nrs.harvard.edu/URN-3:FHCL:102214603"
+          restriction="f"/>
+      </Assets>
+      <Targets xmlns="">
+        <Target name="OAI" status_lkup="Published" url="#" description="OAI"
+          publishDate="2022-10-24T14:36:26+00:00"/>
+        <Target name="Harvard University Study Collection of Digital Images" status_lkup="Published"
+          url="http://library.artstor.org/library/"
+          description="Institutional Collection in Artstor" publishDate="2022-10-24T14:36:26+00:00"
+        />
+      </Targets>
+    </display:DR>
+    <display:DR id="30759454" representationId="drs:URN-3:FHCL:102214607"
+      lastUpdateDate="2022-10-24T14:36:23+00:00" sequence="4" primary="false" projectId="816"
+      institutionId="10003" createdBy="christopher_hyde@harvard.edu" updatedBy="alice@goz-west.com"
+      createdDate="2021-07-20T12:48:55+00:00">
+      <DisplayRecord xmlns="">
+        <field_string id="fd_37069_s" description="None" label="Image Collection"
+          value="Stuart Cary Welch Islamic and South Asian Photograph Collection"/>
+        <field_string id="fd_37083_s" description="None" label="Image Notes"
+          value="Funding for this image is provided by the Aga Khan Program and the Stuart Cary Welch Islamic and South Asian Photograph Collection. "/>
+        <field_string id="fd_37094_s" description="None" label="Image Provider"
+          value="Stuart Cary Welch Estate"/>
+        <field_string id="fd_37070_an" description="None" label="Image Accession Number"
+          value="SCW2016.21377"/>
+        <field_string id="fd_37056_s" description="None" label="Latitude" value="21.0"/>
+        <field_string id="fd_37057_s" description="None" label="Longitude" value="84.0"/>
+        <field_string id="fd_37042_s" description="None" label="Image View Description"
+          value="Detail"/>
+        <field_boolean id="fd_37085_b" description="None" label="Send To Harvard" value="true"/>
+        <field_lookup id="fd_37068_lookup" description="None" label="Image Repository">
+          <display>Harvard Fine Arts Library, Special Collections</display>
+          <linkedField id="9000369124" revision="-1" source_id="9000369124"
+            preferredTerm="Harvard Fine Arts Library, Special Collections" conceptLevel="Local"
+            institutionName="Harvard" uri="http://forum.jstor.org/oai/SSN/9000369124">
+            <allTerms>Harvard Fine Arts Library, Special Collections</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_37073_mfcl_lookup" description="None" label="Image Type">
+          <display>color slide</display>
+          <linkedField id="11319121" revision="-1" source_id="11319121" preferredTerm="color slide"
+            institutionName="Harvard">
+            <allTerms>color slide</allTerms>
+          </linkedField>
+        </field_lookup>
+      </DisplayRecord>
+      <AssetGroups xmlns="">
+        <Group id="420366"/>
+        <Group id="420367"/>
+      </AssetGroups>
+      <Publications xmlns="">
+        <Publication asset_id="30759454" publishing_target_id="797"/>
+        <Publication asset_id="30759454" publishing_target_id="858"/>
+      </Publications>
+      <Assets xmlns="" filename="URN-3:FHCL:102214607">
+        <Asset id="30759454" size="ADLImageViewer" uri="http://library.artstor.org/#/ssid/30759454"
+          restriction="f"/>
+        <Asset id="None" size="DRS_full" uri="http://nrs.harvard.edu/URN-3:FHCL:102214607"
+          restriction="f"/>
+        <Asset id="None" size="DRS_thumb" uri="http://nrs.harvard.edu/URN-3:FHCL:102214607"
+          restriction="f"/>
+      </Assets>
+      <Targets xmlns="">
+        <Target name="OAI" status_lkup="Published" url="#" description="OAI"
+          publishDate="2022-10-24T14:36:26+00:00"/>
+        <Target name="Harvard University Study Collection of Digital Images" status_lkup="Published"
+          url="http://library.artstor.org/library/"
+          description="Institutional Collection in Artstor" publishDate="2022-10-24T14:36:26+00:00"
+        />
+      </Targets>
+    </display:DR>
+    <display:DR id="30759455" representationId="drs:URN-3:FHCL:102214611"
+      lastUpdateDate="2022-10-24T14:36:23+00:00" sequence="5" primary="false" projectId="816"
+      institutionId="10003" createdBy="christopher_hyde@harvard.edu" updatedBy="alice@goz-west.com"
+      createdDate="2021-07-20T12:48:55+00:00">
+      <DisplayRecord xmlns="">
+        <field_string id="fd_37069_s" description="None" label="Image Collection"
+          value="Stuart Cary Welch Islamic and South Asian Photograph Collection"/>
+        <field_string id="fd_37083_s" description="None" label="Image Notes"
+          value="Funding for this image is provided by the Aga Khan Program and the Stuart Cary Welch Islamic and South Asian Photograph Collection. "/>
+        <field_string id="fd_37094_s" description="None" label="Image Provider"
+          value="Stuart Cary Welch Estate"/>
+        <field_string id="fd_37070_an" description="None" label="Image Accession Number"
+          value="SCW2016.21378"/>
+        <field_string id="fd_37056_s" description="None" label="Latitude" value="21.0"/>
+        <field_string id="fd_37057_s" description="None" label="Longitude" value="84.0"/>
+        <field_string id="fd_37042_s" description="None" label="Image View Description"
+          value="Detail"/>
+        <field_boolean id="fd_37085_b" description="None" label="Send To Harvard" value="true"/>
+        <field_lookup id="fd_37068_lookup" description="None" label="Image Repository">
+          <display>Harvard Fine Arts Library, Special Collections</display>
+          <linkedField id="9000369124" revision="-1" source_id="9000369124"
+            preferredTerm="Harvard Fine Arts Library, Special Collections" conceptLevel="Local"
+            institutionName="Harvard" uri="http://forum.jstor.org/oai/SSN/9000369124">
+            <allTerms>Harvard Fine Arts Library, Special Collections</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_37073_mfcl_lookup" description="None" label="Image Type">
+          <display>color slide</display>
+          <linkedField id="11319121" revision="-1" source_id="11319121" preferredTerm="color slide"
+            institutionName="Harvard">
+            <allTerms>color slide</allTerms>
+          </linkedField>
+        </field_lookup>
+      </DisplayRecord>
+      <AssetGroups xmlns="">
+        <Group id="420366"/>
+        <Group id="420367"/>
+      </AssetGroups>
+      <Publications xmlns="">
+        <Publication asset_id="30759455" publishing_target_id="797"/>
+        <Publication asset_id="30759455" publishing_target_id="858"/>
+      </Publications>
+      <Assets xmlns="" filename="URN-3:FHCL:102214611">
+        <Asset id="30759455" size="ADLImageViewer" uri="http://library.artstor.org/#/ssid/30759455"
+          restriction="f"/>
+        <Asset id="None" size="DRS_full" uri="http://nrs.harvard.edu/URN-3:FHCL:102214611"
+          restriction="f"/>
+        <Asset id="None" size="DRS_thumb" uri="http://nrs.harvard.edu/URN-3:FHCL:102214611"
+          restriction="f"/>
+      </Assets>
+      <Targets xmlns="">
+        <Target name="OAI" status_lkup="Published" url="#" description="OAI"
+          publishDate="2022-10-24T14:36:26+00:00"/>
+        <Target name="Harvard University Study Collection of Digital Images" status_lkup="Published"
+          url="http://library.artstor.org/library/"
+          description="Institutional Collection in Artstor" publishDate="2022-10-24T14:36:26+00:00"
+        />
+      </Targets>
+    </display:DR>
+    <display:DR id="30759456" representationId="drs:URN-3:FHCL:102214615"
+      lastUpdateDate="2022-10-24T14:36:23+00:00" sequence="6" primary="false" projectId="816"
+      institutionId="10003" createdBy="christopher_hyde@harvard.edu" updatedBy="alice@goz-west.com"
+      createdDate="2021-07-20T12:48:55+00:00">
+      <DisplayRecord xmlns="">
+        <field_string id="fd_37069_s" description="None" label="Image Collection"
+          value="Stuart Cary Welch Islamic and South Asian Photograph Collection"/>
+        <field_string id="fd_37083_s" description="None" label="Image Notes"
+          value="Funding for this image is provided by the Aga Khan Program and the Stuart Cary Welch Islamic and South Asian Photograph Collection. "/>
+        <field_string id="fd_37094_s" description="None" label="Image Provider"
+          value="Stuart Cary Welch Estate"/>
+        <field_string id="fd_37070_an" description="None" label="Image Accession Number"
+          value="SCW2016.21379"/>
+        <field_string id="fd_37056_s" description="None" label="Latitude" value="21.0"/>
+        <field_string id="fd_37057_s" description="None" label="Longitude" value="84.0"/>
+        <field_string id="fd_37042_s" description="None" label="Image View Description"
+          value="Detail"/>
+        <field_boolean id="fd_37085_b" description="None" label="Send To Harvard" value="true"/>
+        <field_lookup id="fd_37068_lookup" description="None" label="Image Repository">
+          <display>Harvard Fine Arts Library, Special Collections</display>
+          <linkedField id="9000369124" revision="-1" source_id="9000369124"
+            preferredTerm="Harvard Fine Arts Library, Special Collections" conceptLevel="Local"
+            institutionName="Harvard" uri="http://forum.jstor.org/oai/SSN/9000369124">
+            <allTerms>Harvard Fine Arts Library, Special Collections</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_37073_mfcl_lookup" description="None" label="Image Type">
+          <display>color slide</display>
+          <linkedField id="11319121" revision="-1" source_id="11319121" preferredTerm="color slide"
+            institutionName="Harvard">
+            <allTerms>color slide</allTerms>
+          </linkedField>
+        </field_lookup>
+      </DisplayRecord>
+      <AssetGroups xmlns="">
+        <Group id="420366"/>
+        <Group id="420367"/>
+      </AssetGroups>
+      <Publications xmlns="">
+        <Publication asset_id="30759456" publishing_target_id="797"/>
+        <Publication asset_id="30759456" publishing_target_id="858"/>
+      </Publications>
+      <Assets xmlns="" filename="URN-3:FHCL:102214615">
+        <Asset id="30759456" size="ADLImageViewer" uri="http://library.artstor.org/#/ssid/30759456"
+          restriction="f"/>
+        <Asset id="None" size="DRS_full" uri="http://nrs.harvard.edu/URN-3:FHCL:102214615"
+          restriction="f"/>
+        <Asset id="None" size="DRS_thumb" uri="http://nrs.harvard.edu/URN-3:FHCL:102214615"
+          restriction="f"/>
+      </Assets>
+      <Targets xmlns="">
+        <Target name="OAI" status_lkup="Published" url="#" description="OAI"
+          publishDate="2022-10-24T14:36:26+00:00"/>
+        <Target name="Harvard University Study Collection of Digital Images" status_lkup="Published"
+          url="http://library.artstor.org/library/"
+          description="Institutional Collection in Artstor" publishDate="2022-10-24T14:36:26+00:00"
+        />
+      </Targets>
+    </display:DR>
+    <display:DR id="30759457" representationId="drs:URN-3:FHCL:102214619"
+      lastUpdateDate="2022-10-24T14:36:23+00:00" sequence="7" primary="false" projectId="816"
+      institutionId="10003" createdBy="christopher_hyde@harvard.edu" updatedBy="alice@goz-west.com"
+      createdDate="2021-07-20T12:48:55+00:00">
+      <DisplayRecord xmlns="">
+        <field_string id="fd_37069_s" description="None" label="Image Collection"
+          value="Stuart Cary Welch Islamic and South Asian Photograph Collection"/>
+        <field_string id="fd_37083_s" description="None" label="Image Notes"
+          value="Funding for this image is provided by the Aga Khan Program and the Stuart Cary Welch Islamic and South Asian Photograph Collection. "/>
+        <field_string id="fd_37094_s" description="None" label="Image Provider"
+          value="Stuart Cary Welch Estate"/>
+        <field_string id="fd_37070_an" description="None" label="Image Accession Number"
+          value="SCW2016.21380"/>
+        <field_string id="fd_37056_s" description="None" label="Latitude" value="21.0"/>
+        <field_string id="fd_37057_s" description="None" label="Longitude" value="84.0"/>
+        <field_string id="fd_37042_s" description="None" label="Image View Description"
+          value="Detail"/>
+        <field_boolean id="fd_37085_b" description="None" label="Send To Harvard" value="true"/>
+        <field_lookup id="fd_37068_lookup" description="None" label="Image Repository">
+          <display>Harvard Fine Arts Library, Special Collections</display>
+          <linkedField id="9000369124" revision="-1" source_id="9000369124"
+            preferredTerm="Harvard Fine Arts Library, Special Collections" conceptLevel="Local"
+            institutionName="Harvard" uri="http://forum.jstor.org/oai/SSN/9000369124">
+            <allTerms>Harvard Fine Arts Library, Special Collections</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_37073_mfcl_lookup" description="None" label="Image Type">
+          <display>color slide</display>
+          <linkedField id="11319121" revision="-1" source_id="11319121" preferredTerm="color slide"
+            institutionName="Harvard">
+            <allTerms>color slide</allTerms>
+          </linkedField>
+        </field_lookup>
+      </DisplayRecord>
+      <AssetGroups xmlns="">
+        <Group id="420366"/>
+        <Group id="420367"/>
+      </AssetGroups>
+      <Publications xmlns="">
+        <Publication asset_id="30759457" publishing_target_id="797"/>
+        <Publication asset_id="30759457" publishing_target_id="858"/>
+      </Publications>
+      <Assets xmlns="" filename="URN-3:FHCL:102214619">
+        <Asset id="30759457" size="ADLImageViewer" uri="http://library.artstor.org/#/ssid/30759457"
+          restriction="f"/>
+        <Asset id="None" size="DRS_full" uri="http://nrs.harvard.edu/URN-3:FHCL:102214619"
+          restriction="f"/>
+        <Asset id="None" size="DRS_thumb" uri="http://nrs.harvard.edu/URN-3:FHCL:102214619"
+          restriction="f"/>
+      </Assets>
+      <Targets xmlns="">
+        <Target name="OAI" status_lkup="Published" url="#" description="OAI"
+          publishDate="2022-10-24T14:36:26+00:00"/>
+        <Target name="Harvard University Study Collection of Digital Images" status_lkup="Published"
+          url="http://library.artstor.org/library/"
+          description="Institutional Collection in Artstor" publishDate="2022-10-24T14:36:26+00:00"
+        />
+      </Targets>
+    </display:DR>
+    <display:DR id="30969234" representationId="drs:URN-3:FHCL:102215279"
+      lastUpdateDate="2022-10-24T12:12:47+00:00" sequence="2" primary="false" projectId="816"
+      institutionId="10003" createdBy="christopher_hyde@harvard.edu" updatedBy="alice@goz-west.com"
+      createdDate="2021-08-04T16:45:35+00:00">
+      <DisplayRecord xmlns="">
+        <field_string id="fd_37069_s" description="None" label="Image Collection"
+          value=" Stuart Cary Welch Islamic and South Asian Photograph Collection"/>
+        <field_string id="fd_37083_s" description="None" label="Image Notes"
+          value="Funding for this image is provided by the Aga Khan Program and the Stuart Cary Welch Islamic and South Asian Photograph Collection. "/>
+        <field_string id="fd_37094_s" description="None" label="Image Provider"
+          value="Stuart Cary Welch Estate"/>
+        <field_string id="fd_37107_s" description="None" label="Image Source Record Created By"
+          value="CJH"/>
+        <field_string id="fd_37070_an" description="None" label="Image Accession Number"
+          value="SCW2016.21352"/>
+        <field_string id="fd_37043_s" description="None" label="Image View Type" value=""/>
+        <field_string id="fd_37098_s" description="None" label="Image Source Edition" value=""/>
+        <field_string id="fd_37071_s" description="None" label="Image Accession Date" value=""/>
+        <field_string id="fd_37092_s" description="None" label="Image Source ID" value=""/>
+        <field_string id="fd_37099_s" description="None" label="Image Source Place Of Publication"
+          value=""/>
+        <field_string id="fd_37102_s" description="None" label="Image Source Date" value=""/>
+        <field_string id="fd_37065_s" description="None" label="Image Date" value=""/>
+        <field_string id="fd_37100_s" description="None" label="Image Source Publisher" value=""/>
+        <field_string id="fd_37108_s" description="None" label="Volume" value=""/>
+        <field_string id="fd_37056_s" description="None" label="Latitude" value="21.0"/>
+        <field_string id="fd_37077_s" description="None" label="Image End Year" value=""/>
+        <field_string id="fd_37081_s" description="None" label="Image Rights" value=""/>
+        <field_string id="fd_37101_s" description="None" label="Image Source Publication Date"
+          value=""/>
+        <field_string id="fd_37103_s" description="None" label="Image Source Series Title" value=""/>
+        <field_string id="fd_37106_s" description="None" label="Image Source Notes" value=""/>
+        <field_string id="fd_37082_s" description="None" label="Image Credit" value=""/>
+        <field_string id="fd_37105_s" description="None" label="Image Source Call Numbers" value=""/>
+        <field_string id="fd_37075_s" description="None" label="Image Start Year" value=""/>
+        <field_string id="fd_37057_s" description="None" label="Longitude" value="84.0"/>
+        <field_string id="fd_37084_s" description="None" label="In House Notes" value=""/>
+        <field_string id="fd_37072_s" description="None" label="Image Classification Number"
+          value=""/>
+        <field_string id="fd_37076_s" description="None" label="Image Measurements" value=""/>
+        <field_string id="fd_37104_s" description="None" label="Image Source Reference Number"
+          value=""/>
+        <field_string id="fd_37087_s" description="None" label="Additional Formats" value=""/>
+        <field_string id="fd_37042_s" description="None" label="Image View Description"
+          value="Full view"/>
+        <field_string id="fd_37096_s" description="None" label="Image Source Alternate Title"
+          value=""/>
+        <field_string id="fd_37111_s" description="None" label="Page Plate Number" value=""/>
+        <field_string id="fd_37058_s" description="None" label="Elevation" value=""/>
+        <field_string id="fd_37097_s" description="None" label="Image Source Author" value=""/>
+        <field_string id="fd_37090_s" description="None" label="Image Requester" value=""/>
+        <field_string id="fd_37095_s" description="None" label="Image Source Title" value=""/>
+        <field_string id="fd_37110_s" description="None" label="Year" value=""/>
+        <field_string id="fd_37109_s" description="None" label="Issue Number" value=""/>
+        <field_boolean id="fd_37085_b" description="None" label="Send To Harvard" value="true"/>
+        <field_lookup id="fd_37068_lookup" description="None" label="Image Repository">
+          <display>Harvard Fine Arts Library, Special Collections</display>
+          <linkedField id="9000369124" revision="-1" source_id="9000369124"
+            preferredTerm="Harvard Fine Arts Library, Special Collections" conceptLevel="Local"
+            institutionName="Harvard" uri="http://forum.jstor.org/oai/SSN/9000369124">
+            <allTerms>Harvard Fine Arts Library, Special Collections</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_37073_mfcl_lookup" description="None" label="Image Type">
+          <display>color slide</display>
+          <linkedField id="11319121" revision="-1" source_id="11319121" preferredTerm="color slide"
+            institutionName="Harvard">
+            <allTerms>color slide</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_37078_lookup" description="None" label="Image Materials">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_37113_lookup" description="None" label="Image Technique">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_37064_lookup" description="None" label="Photographer">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_37080_lookup" description="None" label="Image Subject">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_37079_lookup" description="None" label="Image Support">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_37093_mfcl_lookup" description="None" label="Image Source Type">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_37074_lookup" description="None" label="Image Associated Name">
+          <display/>
+        </field_lookup>
+      </DisplayRecord>
+      <AssetGroups xmlns="">
+        <Group id="424608"/>
+        <Group id="424609"/>
+      </AssetGroups>
+      <Publications xmlns="">
+        <Publication asset_id="30969234" publishing_target_id="797"/>
+        <Publication asset_id="30969234" publishing_target_id="858"/>
+      </Publications>
+      <Assets xmlns="" filename="URN-3:FHCL:102215279">
+        <Asset id="30969234" size="ADLImageViewer" uri="http://library.artstor.org/#/ssid/30969234"
+          restriction="f"/>
+        <Asset id="None" size="DRS_full" uri="http://nrs.harvard.edu/URN-3:FHCL:102215279"
+          restriction="f"/>
+        <Asset id="None" size="DRS_thumb" uri="http://nrs.harvard.edu/URN-3:FHCL:102215279"
+          restriction="f"/>
+      </Assets>
+      <Targets xmlns="">
+        <Target name="OAI" status_lkup="Published" url="#" description="OAI"
+          publishDate="2022-10-24T12:12:50+00:00"/>
+        <Target name="Harvard University Study Collection of Digital Images" status_lkup="Published"
+          url="http://library.artstor.org/library/"
+          description="Institutional Collection in Artstor" publishDate="2022-10-24T12:12:50+00:00"
+        />
+      </Targets>
+    </display:DR>
+    <display:DR id="30969254" representationId="drs:URN-3:FHCL:102215359"
+      lastUpdateDate="2022-10-24T12:12:18+00:00" sequence="1" primary="true" projectId="816"
+      institutionId="10003" createdBy="christopher_hyde@harvard.edu" updatedBy="alice@goz-west.com"
+      createdDate="2021-08-04T16:45:35+00:00">
+      <DisplayRecord xmlns="">
+        <field_string id="fd_37069_s" description="None" label="Image Collection"
+          value=" Stuart Cary Welch Islamic and South Asian Photograph Collection"/>
+        <field_string id="fd_37083_s" description="None" label="Image Notes"
+          value="Funding for this image is provided by the Aga Khan Program and the Stuart Cary Welch Islamic and South Asian Photograph Collection. "/>
+        <field_string id="fd_37094_s" description="None" label="Image Provider"
+          value="Stuart Cary Welch Estate"/>
+        <field_string id="fd_37107_s" description="None" label="Image Source Record Created By"
+          value="CJH"/>
+        <field_string id="fd_37070_an" description="None" label="Image Accession Number"
+          value="SCW2016.21374"/>
+        <field_string id="fd_37105_s" description="None" label="Image Source Call Numbers" value=""/>
+        <field_string id="fd_37090_s" description="None" label="Image Requester" value=""/>
+        <field_string id="fd_37076_s" description="None" label="Image Measurements" value=""/>
+        <field_string id="fd_37103_s" description="None" label="Image Source Series Title" value=""/>
+        <field_string id="fd_37108_s" description="None" label="Volume" value=""/>
+        <field_string id="fd_37043_s" description="None" label="Image View Type" value=""/>
+        <field_string id="fd_37104_s" description="None" label="Image Source Reference Number"
+          value=""/>
+        <field_string id="fd_37102_s" description="None" label="Image Source Date" value=""/>
+        <field_string id="fd_37071_s" description="None" label="Image Accession Date" value=""/>
+        <field_string id="fd_37099_s" description="None" label="Image Source Place Of Publication"
+          value=""/>
+        <field_string id="fd_37081_s" description="None" label="Image Rights" value=""/>
+        <field_string id="fd_37084_s" description="None" label="In House Notes" value=""/>
+        <field_string id="fd_37065_s" description="None" label="Image Date" value=""/>
+        <field_string id="fd_37110_s" description="None" label="Year" value=""/>
+        <field_string id="fd_37092_s" description="None" label="Image Source ID" value=""/>
+        <field_string id="fd_37098_s" description="None" label="Image Source Edition" value=""/>
+        <field_string id="fd_37097_s" description="None" label="Image Source Author" value=""/>
+        <field_string id="fd_37072_s" description="None" label="Image Classification Number"
+          value=""/>
+        <field_string id="fd_37075_s" description="None" label="Image Start Year" value=""/>
+        <field_string id="fd_37106_s" description="None" label="Image Source Notes" value=""/>
+        <field_string id="fd_37087_s" description="None" label="Additional Formats" value=""/>
+        <field_string id="fd_37109_s" description="None" label="Issue Number" value=""/>
+        <field_string id="fd_37096_s" description="None" label="Image Source Alternate Title"
+          value=""/>
+        <field_string id="fd_37095_s" description="None" label="Image Source Title" value=""/>
+        <field_string id="fd_37082_s" description="None" label="Image Credit" value=""/>
+        <field_string id="fd_37077_s" description="None" label="Image End Year" value=""/>
+        <field_string id="fd_37101_s" description="None" label="Image Source Publication Date"
+          value=""/>
+        <field_string id="fd_37042_s" description="None" label="Image View Description"
+          value="Detail"/>
+        <field_string id="fd_37111_s" description="None" label="Page Plate Number" value=""/>
+        <field_string id="fd_37100_s" description="None" label="Image Source Publisher" value=""/>
+        <field_string id="fd_37056_s" description="None" label="Latitude" value="21.0"/>
+        <field_string id="fd_37057_s" description="None" label="Longitude" value="84.0"/>
+        <field_string id="fd_37058_s" description="None" label="Elevation" value=""/>
+        <field_boolean id="fd_37085_b" description="None" label="Send To Harvard" value="true"/>
+        <field_lookup id="fd_37068_lookup" description="None" label="Image Repository">
+          <display>Harvard Fine Arts Library, Special Collections</display>
+          <linkedField id="9000369124" revision="-1" source_id="9000369124"
+            preferredTerm="Harvard Fine Arts Library, Special Collections" conceptLevel="Local"
+            institutionName="Harvard" uri="http://forum.jstor.org/oai/SSN/9000369124">
+            <allTerms>Harvard Fine Arts Library, Special Collections</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_37073_mfcl_lookup" description="None" label="Image Type">
+          <display>color slide</display>
+          <linkedField id="11319121" revision="-1" source_id="11319121" preferredTerm="color slide"
+            institutionName="Harvard">
+            <allTerms>color slide</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_37079_lookup" description="None" label="Image Support">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_37080_lookup" description="None" label="Image Subject">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_37093_mfcl_lookup" description="None" label="Image Source Type">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_37113_lookup" description="None" label="Image Technique">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_37064_lookup" description="None" label="Photographer">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_37078_lookup" description="None" label="Image Materials">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_37074_lookup" description="None" label="Image Associated Name">
+          <display/>
+        </field_lookup>
+      </DisplayRecord>
+      <AssetGroups xmlns="">
+        <Group id="424608"/>
+        <Group id="424609"/>
+      </AssetGroups>
+      <Publications xmlns="">
+        <Publication asset_id="30969254" publishing_target_id="797"/>
+        <Publication asset_id="30969254" publishing_target_id="858"/>
+      </Publications>
+      <Assets xmlns="" filename="URN-3:FHCL:102215359">
+        <Asset id="30969254" size="ADLImageViewer" uri="http://library.artstor.org/#/ssid/30969254"
+          restriction="f"/>
+        <Asset id="None" size="DRS_full" uri="http://nrs.harvard.edu/URN-3:FHCL:102215359"
+          restriction="f"/>
+        <Asset id="None" size="DRS_thumb" uri="http://nrs.harvard.edu/URN-3:FHCL:102215359"
+          restriction="f"/>
+      </Assets>
+      <Targets xmlns="">
+        <Target name="OAI" status_lkup="Published" url="#" description="OAI"
+          publishDate="2022-10-24T12:12:21+00:00"/>
+        <Target name="Harvard University Study Collection of Digital Images" status_lkup="Published"
+          url="http://library.artstor.org/library/"
+          description="Institutional Collection in Artstor" publishDate="2022-10-24T12:12:21+00:00"
+        />
+      </Targets>
+    </display:DR>
+  </ssw:Work>
+  <ssn:Name conceptId="9000345626" stateText="AUTHORITY" recordType="CORPORATE BODY" batchId="2"
+    statusText="Provisional" createdOn="2014/12/24 1:34:32" modifiedOn="2022/08/31 9:36:20"
+    batchName="Harvard" preferredTerm="Harvard Art Museums"
+    uri="http://forum.jstor.org/oai/ssn/9000345626">
+    <Roles xmlns="" count="1">
+      <Role id="11310307" name="art museum" preferred="true"/>
+    </Roles>
+    <Nationalities xmlns="" count="1">
+      <Nationality id="11281149" name="American" preferred="true"/>
+    </Nationalities>
+    <Terms xmlns="" count="9">
+      <Term id="1647264" name="Harvard Art Museums" preferred="true">
+        <TermSource id="11276964" name="Local Sources" preferred="true"/>
+      </Term>
+      <Term id="1647265" name="Fogg Art Museum" preferred="false">
+        <TermSource id="11318641" name="NO SOURCE" preferred="true"/>
+      </Term>
+      <Term id="1647266" name="Arthur M. Sackler Museum" preferred="false">
+        <TermSource id="11318641" name="NO SOURCE" preferred="true"/>
+      </Term>
+      <Term id="1647267" name="Sackler Museum" preferred="false">
+        <TermSource id="11318641" name="NO SOURCE" preferred="true"/>
+      </Term>
+      <Term id="1647268" name="Busch-Reisinger Museum" preferred="false">
+        <TermSource id="11318641" name="NO SOURCE" preferred="true"/>
+      </Term>
+      <Term id="1647269" name="HUAM" preferred="false">
+        <TermSource id="11318641" name="NO SOURCE" preferred="true"/>
+      </Term>
+      <Term id="1647270" name="Harvard University Portrait Collection" preferred="false">
+        <TermSource id="11276964" name="Local Sources" preferred="true"/>
+      </Term>
+      <Term id="1647271" name="Harvard University Art Museums" preferred="false">
+        <TermSource id="11276964" name="Local Sources" preferred="true"/>
+      </Term>
+      <Term id="1647272" name="Harvard Art Museum" preferred="false">
+        <TermSource id="11276964" name="Local Sources" preferred="true"/>
+      </Term>
+    </Terms>
+    <Events xmlns="" count="1">
+      <Event id="11315114" name="location"
+        place="Cambridge, Middlesex, Massachusetts, United States"/>
+    </Events>
+    <Biographies xmlns="" count="1">
+      <Biography id="1647273" name="American art museum" preferred="true">
+        <birthPlace/>
+        <deathPlace/>
+      </Biography>
+    </Biographies>
+    <Notes xmlns="" count="2">
+      <Note
+        noteText="Name change implemented by the museum in 2010:  Harvard Art Museum changed to Harvard Art Museums.  This name change is NOT reflected in LC as of 7/14/2010.  This record lists earlier names as alternates. Harvard University Portrait Collection: In October 2007, Harvard University Art Museums made the request to eliminate Harvard University Portrait Collection as a separate repository.  The Portrait Collection is now a part of the American department of the Fogg Art Museum. ; Harvard University Art Museums: Name changed from Harvard University Art Museums to Harvard Art Museum in 2008 ; Harvard Art Museum: Name change implemented by the museum in 2010:  Harvard Art Museum changed to Harvard Art Museums"/>
+      <Note noteText="For ancient art  (Greek, Roman, Etruscan) we have used the Cutter nr. H267 F"
+      />
+    </Notes>
+  </ssn:Name>
+  <ssn:Name conceptId="9000439714" stateText="NEW" recordType="PERSON" statusText="Provisional"
+    createdOn="2016/05/12 11:40:01" modifiedOn="2016/05/12 11:40:01"
+    preferredTerm="Stuart Cary Welch" preferredGender="Male"
+    uri="http://forum.jstor.org/oai/ssn/9000439714">
+    <Roles xmlns="" count="1">
+      <Role id="11310251" name="art historian" preferred="true"/>
+    </Roles>
+    <Nationalities xmlns="" count="1">
+      <Nationality id="11281148" name="North American" preferred="true"/>
+    </Nationalities>
+    <Terms xmlns="" count="1">
+      <Term id="1464162" name="Stuart Cary Welch" preferred="true">
+        <TermSource id="11277705" name=" " preferred="true"/>
+      </Term>
+    </Terms>
+    <Biographies xmlns="" count="1">
+      <Biography id="1464163" name="North American art historian, 1928-2008" gender="Male"
+        preferred="true">
+        <birthDate year="1928" epoch="AD"/>
+        <deathDate year="2008" epoch="AD"/>
+        <birthPlace/>
+        <deathPlace/>
+      </Biography>
+    </Biographies>
+  </ssn:Name>
+  <ssn:Name conceptId="9000369124" stateText="AUTHORITY" recordType="CORPORATE BODY" batchId="2"
+    statusText="Provisional" createdOn="2014/12/26 10:24:16" modifiedOn="2016/09/09 19:26:06"
+    batchName="Harvard" preferredTerm="Harvard Fine Arts Library, Special Collections"
+    uri="http://forum.jstor.org/oai/ssn/9000369124">
+    <Terms xmlns="" count="1">
+      <Term id="1061567" name="Harvard Fine Arts Library, Special Collections" preferred="true">
+        <TermSource id="11318641" name="NO SOURCE" preferred="true"/>
+      </Term>
+    </Terms>
+    <Biographies xmlns="" count="1">
+      <Biography id="1061568" preferred="true">
+        <birthPlace/>
+        <deathPlace/>
+      </Biography>
+    </Biographies>
+  </ssn:Name>
+  <aat:AAT subjectId="300033973" recordType="C"
+    englishScopeNote="Visual works produced by drawing, which is the application of lines on a surface, often paper, by using a pencil, pen, chalk, or some other tracing instrument to focus on the delineation of form rather than the application of color. This term is often defined broadly to refer to computer-generated images as well."
+    preferredTerm="drawings" preferredQualifier="visual works"
+    uri="http://forum.jstor.org/oai/aat/300033973">
+    <Hierarchy xmlns="">
+      <Parent subjectId="300264092" name="Objects Facet">
+        <Child subjectId="300264552" name="Visual and Verbal Communication">
+          <Child subjectId="300179869" name="Visual Works (Hierarchy Name)">
+            <Child subjectId="300191086" name="visual works (Guide Term)">
+              <Child subjectId="300191091" name="visual works by medium or technique">
+                <Child subjectId="300033973" name="drawings (visual works)"/>
+              </Child>
+            </Child>
+          </Child>
+        </Child>
+      </Parent>
+    </Hierarchy>
+    <Terms xmlns="">
+      <Term id="1000033973" name="drawings (visual works)" preferred="P" historicFlag="C "
+        otherFlags="NA" vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000051089" briefCit="AATA database (2002-) "
+            fullCit="Getty Conservation Institute (GCI). database of AATA Online: Abstracts of International Conservation Literature. Los Angeles: GCI, 2002-.       "/>
+          <Source id="2000046657" briefCit="Avery Index (1963-)"
+            fullCit="The Avery Index to Architectural Periodicals. Boston, MA.: G. K. Hall &amp; Co., 1963-."/>
+          <Source id="2000026701" briefCit="Mayer, Dictionary of Art Terms and Techniques (1969)"
+            fullCit="Mayer, Ralph. Dictionary of Art Terms and Techniques. New York: Barnes &amp; Noble Books, 1969."/>
+          <Source id="2000042061" briefCit="Webster's Third New International Dictionary (1961)"
+            fullCit="Webster's Third New International Dictionary of the English Language. Unabridged. Springfield, MA: G. &amp; C. Merriam Co., 1961."/>
+          <Source id="2000001761" briefCit="Hickerson and Engst, Terms for use in Field 655 (1984)"
+            fullCit="Hickerson, H. Thomas and Elaine D. Engst. Terms for Use in Field 655 of the USMARC Format for Archival and Manuscript Control.  Unpublished. Produced by the Research Libraries Group Task Force on Special Formats, Mountain View, Calif., 1984."/>
+          <Source id="2000035111" briefCit="RIBA, Architectural Keywords (1982)"
+            fullCit="Royal Institute of British Architects. Architectural Keywords. London: Royal Institute of British Architects Publications, 1982."/>
+          <Source id="2000043551"
+            briefCit="Worcester Art Museum Library, List of subject headings, unpub. (1976)"
+            fullCit="Worcester Art Museum Library. Document prepared for internal distribution. Worcester Art Museum Library, Worcester, Mass., 1976.  "/>
+          <Source id="2000024811" briefCit="CDMARC Subjects: LCSH (1988-)"
+            fullCit="CDMARC Subjects: Library of Congress Subject Headings. Washington, DC: Library of Congress, Cataloging Distribution Service, 1988-. Quarterly, with each issue cumulative."/>
+          <Source id="2000017031"
+            briefCit="Zinkham and Parker, Descriptive Terms for Graphic Materials (1986)"
+            fullCit="Zinkham, Helena and Elizabeth B. Parker. Descriptive Terms for Graphic Materials: Genre and Physical Characteristic Headings. Washington, D.C.: Library of Congress, 1986."/>
+          <Source id="2000030761" briefCit="Oxford Companion to Art (1984)"
+            fullCit="Oxford Companion to Art. Edited by Harold Osborne. Reprint of 1970 edition. New York: Oxford University Press, 1984."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+          <Contributor id="10000088" briefName="GCI"
+            fullName="Getty Conservation Institute, The Getty Center (Los Angeles, California)"/>
+        </Contributors>
+      </Term>
+      <Term id="1000405148" name="Zeichnung" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70101" description="German" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000050615" briefCit="IFLA Glossary for Art Librarians (1984)"
+            fullCit="IFLA Glossary for Art Librarians. Compiled by Ian Sheridan. Washington, DC: International Federation of Library Associations and Institutions,1984."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000298868" name="drawing (visual work)" preferred="V" historicFlag="C "
+        otherFlags="NA" vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000050615" briefCit="IFLA Glossary for Art Librarians (1984)"
+            fullCit="IFLA Glossary for Art Librarians. Compiled by Ian Sheridan. Washington, DC: International Federation of Library Associations and Institutions,1984."/>
+          <Source id="2000024811" briefCit="CDMARC Subjects: LCSH (1988-)"
+            fullCit="CDMARC Subjects: Library of Congress Subject Headings. Washington, DC: Library of Congress, Cataloging Distribution Service, 1988-. Quarterly, with each issue cumulative."/>
+          <Source id="2000030301" briefCit="Chenhall, Revised Nomenclature (1988)"
+            fullCit="Chenhall, Robert G.  The Revised Nomenclature for Museum Cataloging: A Revised and Expanded Version of Robert G. Chenhall's System for Classifying Man-Made Objects.  Revised by James R. Blackaby, Patricia Greeno, and the Nomenclature Committee. Nashville, TN.: American Association for State and Local History, 1988. "
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000314472" name="dessins" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70271" description="French" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000048434" briefCit="CHIN database (1988-)"
+            fullCit="Canadian Heritage Information Network (CHIN) database. 1988-."/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000159" briefName="CHIN"
+            fullName="Canadian Heritage Information Network (Gatineau, Quebec, Canada)"/>
+        </Contributors>
+      </Term>
+      <Term id="1000480816" name="tekeningen" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70261" description="Dutch" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000051213" briefCit="AAT-Ned (1994-)"
+            fullCit="AAT Ned: Dutch AAT Translation Project coordinated by Bureau AAT, RKD. The Hague: Netherlands Institute for Art History, 1994-."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000205" briefName="Bureau AAT"
+            fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"
+          />
+        </Contributors>
+      </Term>
+      <Term id="1000406887" name="dibujo" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70641" description="Spanish" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000049655" briefCit="Lucie-Smith, Diccionario de Términos de Arte (1997)"
+            fullCit="Lucie-Smith, Edward. Diccionario de Términos de Arte. Barcelona: Destino, 1997."/>
+          <Source id="2000051228"
+            briefCit="Fatás y Borrás, Diccionario de términos de Arte y elementos de Arqueología, Heráldica y Numismática (1997)"
+            fullCit="Fatás y Borrás, Diccionario de términos de Arte y elementos de Arqueología, Heráldica y Numismática (1997)"/>
+          <Source id="2000050615" briefCit="IFLA Glossary for Art Librarians (1984)"
+            fullCit="IFLA Glossary for Art Librarians. Compiled by Ian Sheridan. Washington, DC: International Federation of Library Associations and Institutions,1984."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+          <Contributor id="10000131" briefName="CDBP-DIBAM"
+            fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"
+          />
+        </Contributors>
+      </Term>
+      <Term id="1000427738" name="dibujos" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70641" description="Spanish" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000051214" briefCit="Comité, Plural del término en singular"
+            fullCit="Comité, Plural del término en singular"/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000131" briefName="CDBP-DIBAM"
+            fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"
+          />
+        </Contributors>
+      </Term>
+      <Term id="1000406886" name="disegno" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70350" description="Italian" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000050615" briefCit="IFLA Glossary for Art Librarians (1984)"
+            fullCit="IFLA Glossary for Art Librarians. Compiled by Ian Sheridan. Washington, DC: International Federation of Library Associations and Institutions,1984."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000406884" name="tekening" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70261" description="Dutch" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000051213" briefCit="AAT-Ned (1994-)"
+            fullCit="AAT Ned: Dutch AAT Translation Project coordinated by Bureau AAT, RKD. The Hague: Netherlands Institute for Art History, 1994-."/>
+          <Source id="2000050615" briefCit="IFLA Glossary for Art Librarians (1984)"
+            fullCit="IFLA Glossary for Art Librarians. Compiled by Ian Sheridan. Washington, DC: International Federation of Library Associations and Institutions,1984."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000205" briefName="Bureau AAT"
+            fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"/>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000314473" name="dessin" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70271" description="French" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000050615" briefCit="IFLA Glossary for Art Librarians (1984)"
+            fullCit="IFLA Glossary for Art Librarians. Compiled by Ian Sheridan. Washington, DC: International Federation of Library Associations and Institutions,1984."/>
+          <Source id="2000048434" briefCit="CHIN database (1988-)"
+            fullCit="Canadian Heritage Information Network (CHIN) database. 1988-."/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+          <Contributor id="10000159" briefName="CHIN"
+            fullName="Canadian Heritage Information Network (Gatineau, Quebec, Canada)"/>
+        </Contributors>
+      </Term>
+      <Term id="1000406888" name="teckning" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70517" description="Swedish" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000050615" briefCit="IFLA Glossary for Art Librarians (1984)"
+            fullCit="IFLA Glossary for Art Librarians. Compiled by Ian Sheridan. Washington, DC: International Federation of Library Associations and Institutions,1984."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+    </Terms>
+    <ScopeNotes xmlns="">
+      <ScopeNote id="81897" notesText="Wordt gebruikt voor afbeeldingen vervaardigd door tekenen.">
+        <Language code="70261" description="Dutch"/>
+        <Contributors>
+          <Contributor id="10000205" briefName="Bureau AAT"
+            fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"
+          />
+        </Contributors>
+      </ScopeNote>
+      <ScopeNote id="32147"
+        notesText="Visual works produced by drawing, which is the application of lines on a surface, often paper, by using a pencil, pen, chalk, or some other tracing instrument to focus on the delineation of form rather than the application of color. This term is often defined broadly to refer to computer-generated images as well.">
+        <Language code="70051" description="English"/>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </ScopeNote>
+      <ScopeNote id="64156"
+        notesText="Imágenes producidas por el dibujo, que es la aplicación de líneas sobre una superficie, a menudo papel, usando un bolígrado, lápiz, tiza u otro instrumento de trazado para obtener un delineado de la forma en vez de la aplicación del color.">
+        <Language code="70641" description="Spanish"/>
+        <Contributors>
+          <Contributor id="10000131" briefName="CDBP-DIBAM"
+            fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"
+          />
+        </Contributors>
+      </ScopeNote>
+    </ScopeNotes>
+    <Sources xmlns="">
+      <Source id="2000035111" briefCit="RIBA, Architectural Keywords (1982)"
+        fullCit="Royal Institute of British Architects. Architectural Keywords. London: Royal Institute of British Architects Publications, 1982."/>
+      <Source id="2000052381" briefCit="Van Dale Engels-Nederlands (1989)"
+        fullCit="Van Dale woordenboek Engels-Nederlands, Utrecht ; Antwerpen, 1989"/>
+      <Source id="2000048434" briefCit="CHIN database (1988-)"
+        fullCit="Canadian Heritage Information Network (CHIN) database. 1988-."/>
+      <Source id="2000051089" briefCit="AATA database (2002-) "
+        fullCit="Getty Conservation Institute (GCI). database of AATA Online: Abstracts of International Conservation Literature. Los Angeles: GCI, 2002-.       "
+      />
+    </Sources>
+    <Contributors xmlns="">
+      <Contributor id="10000159" briefName="CHIN"
+        fullName="Canadian Heritage Information Network (Gatineau, Quebec, Canada)"/>
+      <Contributor id="10000205" briefName="Bureau AAT"
+        fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"/>
+      <Contributor id="10000131" briefName="CDBP-DIBAM"
+        fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"/>
+      <Contributor id="10000088" briefName="GCI"
+        fullName="Getty Conservation Institute, The Getty Center (Los Angeles, California)"/>
+      <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+    </Contributors>
+  </aat:AAT>
+  <aat:AAT subjectId="300389779" recordType="C"
+    englishScopeNote="The activity characterized by rhythmical skipping and stepping, with regular turnings and movements of the limbs and body, usually to the accompaniment of music."
+    preferredTerm="dancing" preferredQualifier="activity"
+    uri="http://forum.jstor.org/oai/aat/300389779">
+    <Hierarchy xmlns="">
+      <Parent subjectId="300264090" name="Activities Facet">
+        <Child subjectId="300222468" name="Physical and Mental Activities">
+          <Child subjectId="300222722" name="physical activities">
+            <Child subjectId="300239444" name="physical activities by specific context">
+              <Child subjectId="300379951" name="public and interactive activities">
+                <Child subjectId="300389779" name="dancing (activity)"/>
+              </Child>
+            </Child>
+          </Child>
+        </Child>
+      </Parent>
+    </Hierarchy>
+    <Terms xmlns="">
+      <Term id="1000579096" name="dancing" qualifier="activity" preferred="P" historicFlag="C"
+        vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000079228" briefCit="Grove Art Online (2008-)"
+            fullCit="Grove Art Online. Oxford University Press, 2008-. http://www.oxfordartonline.com (1 July 2008)."/>
+          <Source id="2000061843" briefCit="Kassing, History of Dance (2007)"
+            fullCit="Kassing, Gayle. History of Dance: An Interactive Arts Approach. Champaign, Illinois: Human Kenetics, 2007."/>
+          <Source id="2000079790" briefCit="Oxford English Dictionary Online (2002-)"
+            fullCit="Oxford English Dictionary Online. Oxford, England: Oxford University, 2002-. http://dictionary.oed.com (10 Jan. 2001)."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+    </Terms>
+    <ScopeNotes xmlns="">
+      <ScopeNote
+        notesText="The activity characterized by rhythmical skipping and stepping, with regular turnings and movements of the limbs and body, usually to the accompaniment of music.">
+        <Language description="English"/>
+        <Sources>
+          <Source id="2000061843" briefCit="Kassing, History of Dance (2007)"
+            fullCit="Kassing, Gayle. History of Dance: An Interactive Arts Approach. Champaign, Illinois: Human Kenetics, 2007."/>
+          <Source id="2000079790" briefCit="Oxford English Dictionary Online (2002-)"
+            fullCit="Oxford English Dictionary Online. Oxford, England: Oxford University, 2002-. http://dictionary.oed.com (10 Jan. 2001)."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </ScopeNote>
+    </ScopeNotes>
+    <Contributors xmlns="">
+      <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+    </Contributors>
+  </aat:AAT>
+  <aat:AAT subjectId="300195680" recordType="C" englishScopeNote="Tapering flags."
+    preferredTerm="pennants" uri="http://forum.jstor.org/oai/aat/300195680">
+    <Hierarchy xmlns="">
+      <Parent subjectId="300264092" name="Objects Facet">
+        <Child subjectId="300264552" name="Visual and Verbal Communication">
+          <Child subjectId="300026029" name="Information Forms (Hierarchy Name)">
+            <Child subjectId="300220751" name="information forms (Guide Term)">
+              <Child subjectId="300230425" name="information artifacts">
+                <Child subjectId="300137961" name="information artifacts by function">
+                  <Child subjectId="300200896" name="identifying artifacts">
+                    <Child subjectId="300195678" name="flags">
+                      <Child subjectId="300195680" name="pennants"/>
+                    </Child>
+                  </Child>
+                </Child>
+              </Child>
+            </Child>
+          </Child>
+        </Child>
+      </Parent>
+    </Hierarchy>
+    <Terms xmlns="">
+      <Term id="1000195680" name="pennants" preferred="P" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000046682" briefCit="Random House Dictionary of the English Language (1987)"
+            fullCit="Random House Dictionary of the English Language, 2nd ed. New York: Random House, 1987."/>
+          <Source id="2000012171" briefCit="Friar, ed. Dictionary of Heraldry (1987)"
+            fullCit="Friar, Stephen, ed.  A Dictionary of Heraldry.  New York: Harmony Books,  1987"/>
+          <Source id="2000047206" briefCit="BHA Subject Headings (1985-)"
+            fullCit="Bibliography of the History of Art Subject Headings (BHA): English. J. Paul Getty Trust, Williamstown, Massachusetts,  1985-."/>
+          <Source id="2000042061" briefCit="Webster's Third New International Dictionary (1961)"
+            fullCit="Webster's Third New International Dictionary of the English Language. Unabridged. Springfield, MA: G. &amp; C. Merriam Co., 1961."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000497900" name="wimpels" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70261" description="Dutch" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000051213" briefCit="AAT-Ned (1994-)"
+            fullCit="AAT Ned: Dutch AAT Translation Project coordinated by Bureau AAT, RKD. The Hague: Netherlands Institute for Art History, 1994-."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000205" briefName="Bureau AAT"
+            fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"
+          />
+        </Contributors>
+      </Term>
+      <Term id="1000497901" name="wimpel" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70261" description="Dutch" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000051213" briefCit="AAT-Ned (1994-)"
+            fullCit="AAT Ned: Dutch AAT Translation Project coordinated by Bureau AAT, RKD. The Hague: Netherlands Institute for Art History, 1994-."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000205" briefName="Bureau AAT"
+            fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"
+          />
+        </Contributors>
+      </Term>
+      <Term id="1000300316" name="pennant" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000030301" briefCit="Chenhall, Revised Nomenclature (1988)"
+            fullCit="Chenhall, Robert G.  The Revised Nomenclature for Museum Cataloging: A Revised and Expanded Version of Robert G. Chenhall's System for Classifying Man-Made Objects.  Revised by James R. Blackaby, Patricia Greeno, and the Nomenclature Committee. Nashville, TN.: American Association for State and Local History, 1988. "
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000444175" name="flámula" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70641" description="Spanish" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000048810" briefCit="Moliner, Diccionario de uso del español (2004)"
+            fullCit="Moliner, María. Diccionario de uso del español. 2 tomos. Madrid: Gredos, 2004."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000131" briefName="CDBP-DIBAM"
+            fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"
+          />
+        </Contributors>
+      </Term>
+      <Term id="1000444178" name="gallardete" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70641" description="Spanish" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000049716" briefCit="Diccionario de la Real Academia Española (2001)"
+            fullCit="Diccionario de la Real Academia Española: España: Impreso Rotapapel, 2001."/>
+          <Source id="2000048810" briefCit="Moliner, Diccionario de uso del español (2004)"
+            fullCit="Moliner, María. Diccionario de uso del español. 2 tomos. Madrid: Gredos, 2004."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000131" briefName="CDBP-DIBAM"
+            fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"
+          />
+        </Contributors>
+      </Term>
+      <Term id="1000444176" name="fámula" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70641" description="Spanish" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000049716" briefCit="Diccionario de la Real Academia Española (2001)"
+            fullCit="Diccionario de la Real Academia Española: España: Impreso Rotapapel, 2001."/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000131" briefName="CDBP-DIBAM"
+            fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"
+          />
+        </Contributors>
+      </Term>
+      <Term id="1000444177" name="grímpola" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70641" description="Spanish" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000048810" briefCit="Moliner, Diccionario de uso del español (2004)"
+            fullCit="Moliner, María. Diccionario de uso del español. 2 tomos. Madrid: Gredos, 2004."/>
+          <Source id="2000049716" briefCit="Diccionario de la Real Academia Española (2001)"
+            fullCit="Diccionario de la Real Academia Española: España: Impreso Rotapapel, 2001."/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000131" briefName="CDBP-DIBAM"
+            fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"
+          />
+        </Contributors>
+      </Term>
+      <Term id="1000444174" name="flámulas" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70641" description="Spanish" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000051214" briefCit="Comité, Plural del término en singular"
+            fullCit="Comité, Plural del término en singular"/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000131" briefName="CDBP-DIBAM"
+            fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"
+          />
+        </Contributors>
+      </Term>
+    </Terms>
+    <ScopeNotes xmlns="">
+      <ScopeNote id="84703" notesText="Taps toelopende vlaggen.">
+        <Language code="70261" description="Dutch"/>
+        <Contributors>
+          <Contributor id="10000205" briefName="Bureau AAT"
+            fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"
+          />
+        </Contributors>
+      </ScopeNote>
+      <ScopeNote id="75894" notesText="Banderas que se estrechan.">
+        <Language code="70641" description="Spanish"/>
+        <Contributors>
+          <Contributor id="10000131" briefName="CDBP-DIBAM"
+            fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"
+          />
+        </Contributors>
+      </ScopeNote>
+      <ScopeNote id="31454" notesText="Tapering flags.">
+        <Language code="70051" description="English"/>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </ScopeNote>
+    </ScopeNotes>
+    <Sources xmlns="">
+      <Source id="2000024811" briefCit="CDMARC Subjects: LCSH (1988-)"
+        fullCit="CDMARC Subjects: Library of Congress Subject Headings. Washington, DC: Library of Congress, Cataloging Distribution Service, 1988-. Quarterly, with each issue cumulative."/>
+      <Source id="2000052373" briefCit="Van Dale groot woordenboek (1994)"
+        fullCit="Van Dale groot woordenboek der Nederlandse taal, Utrecht ; Antwerpen, 1994"/>
+      <Source id="2000047206" briefCit="BHA Subject Headings (1985-)"
+        fullCit="Bibliography of the History of Art Subject Headings (BHA): English. J. Paul Getty Trust, Williamstown, Massachusetts,  1985-."
+      />
+    </Sources>
+    <Contributors xmlns="">
+      <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+      <Contributor id="10000205" briefName="Bureau AAT"
+        fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"/>
+      <Contributor id="10000131" briefName="CDBP-DIBAM"
+        fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"
+      />
+    </Contributors>
+  </aat:AAT>
+  <aat:AAT subjectId="300055878" recordType="C"
+    englishScopeNote="Visible signs (which can include figures, such as personifications, or objects) that stand for something else, often something abstract or invisible."
+    preferredTerm="symbols" uri="http://forum.jstor.org/oai/aat/300055878">
+    <Hierarchy xmlns="">
+      <Parent subjectId="300264092" name="Objects Facet">
+        <Child subjectId="300264552" name="Visual and Verbal Communication">
+          <Child subjectId="300179869" name="Visual Works (Hierarchy Name)">
+            <Child subjectId="300191086" name="visual works (Guide Term)">
+              <Child subjectId="300191089" name="visual works by function">
+                <Child subjectId="300055878" name="symbols"/>
+              </Child>
+            </Child>
+          </Child>
+        </Child>
+      </Parent>
+    </Hierarchy>
+    <Terms xmlns="">
+      <Term id="1000055878" name="symbols" preferred="P" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000042061" briefCit="Webster's Third New International Dictionary (1961)"
+            fullCit="Webster's Third New International Dictionary of the English Language. Unabridged. Springfield, MA: G. &amp; C. Merriam Co., 1961."/>
+          <Source id="2000051089" briefCit="AATA database (2002-) "
+            fullCit="Getty Conservation Institute (GCI). database of AATA Online: Abstracts of International Conservation Literature. Los Angeles: GCI, 2002-.       "/>
+          <Source id="2000035111" briefCit="RIBA, Architectural Keywords (1982)"
+            fullCit="Royal Institute of British Architects. Architectural Keywords. London: Royal Institute of British Architects Publications, 1982."/>
+          <Source id="2000024811" briefCit="CDMARC Subjects: LCSH (1988-)"
+            fullCit="CDMARC Subjects: Library of Congress Subject Headings. Washington, DC: Library of Congress, Cataloging Distribution Service, 1988-. Quarterly, with each issue cumulative."/>
+          <Source id="2000035251" briefCit="RILA, Subject Headings (1975-1990)"
+            fullCit="J. Paul Getty Trust. International Repertory of the Literature of Art Subject Headings. Document prepared for internal distribution. Williamstown: J. Paul Getty Trust, 1975-1990."/>
+          <Source id="2000043551"
+            briefCit="Worcester Art Museum Library, List of subject headings, unpub. (1976)"
+            fullCit="Worcester Art Museum Library. Document prepared for internal distribution. Worcester Art Museum Library, Worcester, Mass., 1976.  "
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000088" briefName="GCI"
+            fullName="Getty Conservation Institute, The Getty Center (Los Angeles, California)"/>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000065224" name="signs (symbols)" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000046717" briefCit="Getty Vocabulary Program rules"
+            fullCit="Getty Vocabulary Program. Term warranted by AAT Editorial Guidelines."/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000487311" name="symbolen" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70261" description="Dutch" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000051213" briefCit="AAT-Ned (1994-)"
+            fullCit="AAT Ned: Dutch AAT Translation Project coordinated by Bureau AAT, RKD. The Hague: Netherlands Institute for Art History, 1994-."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000205" briefName="Bureau AAT"
+            fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"
+          />
+        </Contributors>
+      </Term>
+      <Term id="1000433851" name="símbolos" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70641" description="Spanish" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000051214" briefCit="Comité, Plural del término en singular"
+            fullCit="Comité, Plural del término en singular"/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000131" briefName="CDBP-DIBAM"
+            fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"
+          />
+        </Contributors>
+      </Term>
+      <Term id="1000487312" name="symbool" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70261" description="Dutch" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000051213" briefCit="AAT-Ned (1994-)"
+            fullCit="AAT Ned: Dutch AAT Translation Project coordinated by Bureau AAT, RKD. The Hague: Netherlands Institute for Art History, 1994-."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000205" briefName="Bureau AAT"
+            fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"
+          />
+        </Contributors>
+      </Term>
+      <Term id="1000433852" name="símbolo" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70641" description="Spanish" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000051228"
+            briefCit="Fatás y Borrás, Diccionario de términos de Arte y elementos de Arqueología, Heráldica y Numismática (1997)"
+            fullCit="Fatás y Borrás, Diccionario de términos de Arte y elementos de Arqueología, Heráldica y Numismática (1997)"
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000131" briefName="CDBP-DIBAM"
+            fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"
+          />
+        </Contributors>
+      </Term>
+      <Term id="1000298858" name="symbol" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000046717" briefCit="Getty Vocabulary Program rules"
+            fullCit="Getty Vocabulary Program. Term warranted by AAT Editorial Guidelines."/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+    </Terms>
+    <ScopeNotes xmlns="">
+      <ScopeNote id="66509"
+        notesText="Úsese para signos visibles (que pueden incluir figuras, tales como personificaciones u objetos) que representan otra cosa distinta, a menudo una cosa abstracta o invisible.">
+        <Language code="70641" description="Spanish"/>
+        <Contributors>
+          <Contributor id="10000131" briefName="CDBP-DIBAM"
+            fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"
+          />
+        </Contributors>
+      </ScopeNote>
+      <ScopeNote id="79939"
+        notesText="Afbeeldingen (abstracte tekens, figuren of objecten) die een bepaald concept tot uitdrukking brengen.">
+        <Language code="70261" description="Dutch"/>
+        <Contributors>
+          <Contributor id="10000205" briefName="Bureau AAT"
+            fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"
+          />
+        </Contributors>
+      </ScopeNote>
+      <ScopeNote id="33765"
+        notesText="Visible signs (which can include figures, such as personifications, or objects) that stand for something else, often something abstract or invisible.">
+        <Language code="70051" description="English"/>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </ScopeNote>
+    </ScopeNotes>
+    <Sources xmlns="">
+      <Source id="2000024811" briefCit="CDMARC Subjects: LCSH (1988-)"
+        fullCit="CDMARC Subjects: Library of Congress Subject Headings. Washington, DC: Library of Congress, Cataloging Distribution Service, 1988-. Quarterly, with each issue cumulative."/>
+      <Source id="2000051089" briefCit="AATA database (2002-) "
+        fullCit="Getty Conservation Institute (GCI). database of AATA Online: Abstracts of International Conservation Literature. Los Angeles: GCI, 2002-.       "/>
+      <Source id="2000052373" briefCit="Van Dale groot woordenboek (1994)"
+        fullCit="Van Dale groot woordenboek der Nederlandse taal, Utrecht ; Antwerpen, 1994"/>
+      <Source id="2000035251" briefCit="RILA, Subject Headings (1975-1990)"
+        fullCit="J. Paul Getty Trust. International Repertory of the Literature of Art Subject Headings. Document prepared for internal distribution. Williamstown: J. Paul Getty Trust, 1975-1990."
+      />
+    </Sources>
+    <Contributors xmlns="">
+      <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+      <Contributor id="10000131" briefName="CDBP-DIBAM"
+        fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"/>
+      <Contributor id="10000205" briefName="Bureau AAT"
+        fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"/>
+      <Contributor id="10000088" briefName="GCI"
+        fullName="Getty Conservation Institute, The Getty Center (Los Angeles, California)"/>
+    </Contributors>
+  </aat:AAT>
+  <tgn:TGN subjectId="7016694" recordType="A" placeType="state" preferredName="Odisha"
+    uri="http://forum.jstor.org/oai/tgn/7016694">
+    <tgn:latitude xmlns="" decimal="21.0" degree="21" minute="0" second="0" direction="N"/>
+    <tgn:longitude xmlns="" decimal="84.0" degree="84" minute="0" second="0" direction="E"/>
+    <tgn:Hierarchy xmlns="">
+      <tgn:Parent subjectId="7029392" name="World" type="facet">
+        <tgn:Child subjectId="1000004" name="Asia" type="continent">
+          <tgn:Child subjectId="7000198" name="India" type="nation">
+            <tgn:Child subjectId="7016694" name="Odisha" type="state"/>
+          </tgn:Child>
+        </tgn:Child>
+      </tgn:Parent>
+    </tgn:Hierarchy>
+    <tgn:Terms xmlns="">
+      <tgn:Term id="2084" name="Orissa" preferred="V"/>
+      <tgn:Term id="168234" name="Kalinga" preferred="V"/>
+      <tgn:Term id="183918" name="Oḍra Deśa" preferred="V"/>
+      <tgn:Term id="183919" name="Utkala" preferred="V"/>
+      <tgn:Term id="184085" name="Jajnagar" preferred="V"/>
+      <tgn:Term id="183917" name="Kaliṅga" preferred="V"/>
+      <tgn:Term id="1002166618" name="IN21" preferred="V"/>
+      <tgn:Term id="1002166616" name="Odisha, State of" preferred="V"/>
+      <tgn:Term id="1002166622" name="Orissa, State of" preferred="V"/>
+      <tgn:Term id="1002131820" name="Odisha" preferred="P"/>
+      <tgn:Term id="1002131821" name="State of Odisha" preferred="V"/>
+      <tgn:Term id="1002131822" name="State of Orissa" preferred="V"/>
+    </tgn:Terms>
+    <tgn:PlaceTypes xmlns="">
+      <tgn:Place id="81100" name="first level subdivision" preferred="N"/>
+      <tgn:Place id="81175" name="state" description="since 1950" preferred="P"/>
+    </tgn:PlaceTypes>
+    <tgn:Note>Was part of Mughal Empire from 1568; after fall of Mughals, area was divided between Bengal Nawābs and Marāṭhās; both sections eventually went to Great Britain, Bengal section in 1757 and Marāṭhā section in 1803.</tgn:Note>
+  </tgn:TGN>
+</SharedShelf>
