@@ -1,0 +1,1676 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<SharedShelf xmlns:display="http://catalog.sharedshelf.artstor.org/display"
+  xmlns:ssc="http://catalog.sharedshelf.artstor.org/ssc"
+  xmlns:ssd="http://catalog.sharedshelf.artstor.org/ssd"
+  xmlns:ssn="http://catalog.sharedshelf.artstor.org/ssn"
+  xmlns:ssw="http://catalog.sharedshelf.artstor.org/ssw"
+  xmlns:ssw_lkup="http://catalog.sharedshelf.artstor.org/ssw_lkup"
+  xmlns:tgn="http://catalog.sharedshelf.artstor.org/tgn"
+  xmlns:aat="http://catalog.sharedshelf.artstor.org/aat"
+  xmlns:mfcl="http://catalog.sharedshelf.artstor.org/mfcl"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="http://catalog.sharedshelf.artstor.org"
+  xsi:schemaLocation="http://catalog.sharedshelf.artstor.org http://catalog.sharedshelf.artstor.org/service/schema/SharedShelf_IO.xsd">
+  <ssw:Work lastUpdateDate="2020/06/08 10:19:18" id="8001550535" refid="8001550535"
+    contributor="Harvard" instituteId="10003" uri="http://forum.jstor.org/oai/ssw/8001550535">
+    <Titles xmlns="" tempered="true">
+      <Display>A. A. Pope Residence, Farmington, Connecticut</Display>
+      <Title term="A. A. Pope Residence, Farmington, Connecticut"/>
+    </Titles>
+    <WorkTypes xmlns="" tempered="true">
+      <Display>houses</Display>
+      <WorkType id="11317222" vocab="MFCL" term="houses"
+        uri="http://forum.jstor.org/oai/MFCL/11317222"/>
+    </WorkTypes>
+    <Subjects xmlns="" tempered="true">
+      <Display>houses; architecture; single-family dwellings; residential structures</Display>
+      <Subject id="11298653" vocab="MFCL" term="houses"
+        uri="http://forum.jstor.org/oai/MFCL/11298653"/>
+      <Subject id="11300968" vocab="MFCL" term="architecture"
+        uri="http://forum.jstor.org/oai/MFCL/11300968"/>
+      <Subject id="300122195" vocab="AAT" term="single-family dwellings"
+        uri="http://forum.jstor.org/oai/AAT/300122195"/>
+      <Subject id="300257729" vocab="AAT" term="residential structures"
+        uri="http://forum.jstor.org/oai/AAT/300257729"/>
+    </Subjects>
+    <Cultures xmlns="" tempered="true">
+      <Display>American</Display>
+      <Culture id="11281149" vocab="MFCL" term="American"
+        uri="http://forum.jstor.org/oai/MFCL/11281149"/>
+    </Cultures>
+    <Dates xmlns="" tempered="true">
+      <Display>1900</Display>
+      <Date startDate="1900" endDate="1900" type_lkup="workDate"/>
+      <Date startDate="1900" endDate="1900"/>
+    </Dates>
+    <Locations xmlns="" tempered="true">
+      <Display>Farmington, Hartford, Connecticut, United States (site)</Display>
+      <DisplayLocation term="Farmington, Hartford, Connecticut, United States" type_lkup="site"
+        type_lkup_id="11309146"/>
+      <Location id="7016250" vocab="TGN" term="Farmington, Hartford, Connecticut, United States"
+        type_lkup="site" type_lkup_id="11309146" uri="http://forum.jstor.org/oai/TGN/7016250">
+        <ssw:GeoLocation latitude="41.7167" longitude="-72.8167"/>
+      </Location>
+    </Locations>
+    <ArtstorCountries xmlns="" tempered="true">
+      <Country id="11313083" term_lkup="United States"/>
+    </ArtstorCountries>
+    <ArtstorClassifications xmlns="" tempered="true">
+      <ArtstorClassification id="11309239" term_lkup="Architecture and City Planning"/>
+    </ArtstorClassifications>
+    <Agents xmlns="" tempered="true">
+      <Display>McKim, Mead, and White (American architectural firm, 1879-1910) architects</Display>
+      <Agent id="500122312" vocab="SSN" term="McKim, Mead, and White" role_lkup="architects"
+        role_lkup_id="11310437" uri="http://forum.jstor.org/oai/SSN/500122312"/>
+    </Agents>
+    <LocalInformation xmlns=""/>
+    <RelatedWorks xmlns=""/>
+    <display:DR id="24140787" representationId="drs:urn-3:FHCL:40986419"
+      lastUpdateDate="2020-06-08T18:18:53+00:00" sequence="3" primary="false" projectId="817"
+      institutionId="10003" createdBy="michael_rios@harvard.edu"
+      updatedBy="christopher_hyde@harvard.edu" createdDate="2018-11-07T20:46:22+00:00">
+      <DisplayRecord xmlns="">
+        <field_string id="fd_37146_an" description="None" label="Image Accession Number"
+          value="1981.12901"/>
+        <field_string id="fd_37175_s" description="None" label="Image Source Place Of Publication"
+          value=""/>
+        <field_string id="fd_37186_s" description="None" label="Year" value=""/>
+        <field_string id="fd_37172_s" description="None" label="Image Source Alternate Title"
+          value=""/>
+        <field_string id="fd_37177_s" description="None" label="Image Source Publication Date"
+          value="1977"/>
+        <field_string id="fd_37171_s" description="None" label="Image Source Title"
+          value="McKim, Mead and White"/>
+        <field_string id="fd_37145_s" description="None" label="Image Collection" value=""/>
+        <field_string id="fd_37178_s" description="None" label="Image Source Date" value=""/>
+        <field_string id="fd_37132_s" description="None" label="Latitude" value="41.7167"/>
+        <field_string id="fd_37153_s" description="None" label="Image End Year" value=""/>
+        <field_string id="fd_37134_s" description="None" label="Elevation" value=""/>
+        <field_string id="fd_37163_s" description="None" label="Additional Formats" value=""/>
+        <field_string id="fd_37181_s" description="None" label="Image Source Call Numbers" value=""/>
+        <field_string id="fd_37158_s" description="None" label="Image Credit" value="AV"/>
+        <field_string id="fd_37168_s" description="None" label="Image Source ID" value=""/>
+        <field_string id="fd_37183_s" description="None" label="Image Source Record Created By"
+          value=""/>
+        <field_string id="fd_37148_s" description="None" label="Image Classification Number"
+          value="182  F 229  4P"/>
+        <field_string id="fd_37185_s" description="None" label="Issue Number" value=""/>
+        <field_string id="fd_37147_s" description="None" label="Image Accession Date" value=""/>
+        <field_string id="fd_37151_s" description="None" label="Image Start Year" value=""/>
+        <field_string id="fd_37173_s" description="None" label="Image Source Author" value=""/>
+        <field_string id="fd_37141_s" description="None" label="Image Date" value=""/>
+        <field_string id="fd_37174_s" description="None" label="Image Source Edition" value=""/>
+        <field_string id="fd_37187_s" description="None" label="Page Plate Number" value=""/>
+        <field_string id="fd_37176_s" description="None" label="Image Source Publisher" value=""/>
+        <field_string id="fd_37179_s" description="None" label="Image Source Series Title" value=""/>
+        <field_string id="fd_37170_s" description="None" label="Image Provider" value=""/>
+        <field_string id="fd_37118_s" description="None" label="Image View Description"
+          value="Exterior"/>
+        <field_string id="fd_37152_s" description="None" label="Image Measurements" value=""/>
+        <field_string id="fd_37180_s" description="None" label="Image Source Reference Number"
+          value=""/>
+        <field_string id="fd_37133_s" description="None" label="Longitude" value="-72.8167"/>
+        <field_string id="fd_37159_s" description="None" label="Image Notes" value=""/>
+        <field_string id="fd_37160_s" description="None" label="In House Notes" value=""/>
+        <field_string id="fd_37182_s" description="None" label="Image Source Notes" value=""/>
+        <field_string id="fd_37157_s" description="None" label="Image Rights" value=""/>
+        <field_string id="fd_37166_s" description="None" label="Image Requester" value=""/>
+        <field_string id="fd_37184_s" description="None" label="Volume" value=""/>
+        <field_string id="fd_37119_s" description="None" label="Image View Type" value=""/>
+        <field_boolean id="fd_37161_b" description="None" label="Send To Harvard" value="true"/>
+        <field_lookup id="fd_37144_lookup" description="None" label="Image Repository">
+          <display>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</display>
+          <linkedField id="9000369831" revision="1" source_id="9000369831"
+            preferredTerm="Harvard Fine Arts Library, Digital Images &amp; Slides Collection"
+            conceptLevel="Local" institutionName="Harvard"
+            uri="http://forum.jstor.org/oai/SSN/9000369831">
+            <allTerms>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_37156_lookup" description="None" label="Image Subject">
+          <display>exterior views; general views; fronts (architectural)</display>
+          <linkedField id="300124515" revision="-1" source_id="300124515"
+            preferredTerm="exterior views" conceptLevel="1" institutionName="AAT"
+            uri="http://forum.jstor.org/oai/AAT/300124515">
+            <allTerms>exterior views|vistas exteriores|exterieur|exterieurs|external views|views, exterior|exterior view|vista exterior</allTerms>
+          </linkedField>
+          <linkedField id="300015518" revision="-1" source_id="300015518"
+            preferredTerm="general views" conceptLevel="1" institutionName="AAT"
+            uri="http://forum.jstor.org/oai/AAT/300015518">
+            <allTerms>general views|full views|over-all views|views, overall|totaalaanzichten|overall views|views, general|views, whole|vistas generales|vista general|views, full|totaalaanzicht|general view|whole views</allTerms>
+          </linkedField>
+          <linkedField id="300389894" revision="-1" source_id="300389894"
+            preferredTerm="fronts (architectural)" conceptLevel="1" institutionName="AAT"
+            uri="http://forum.jstor.org/oai/AAT/300389894">
+            <allTerms>fronts (architectural)|front</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_37169_mfcl_lookup" description="None" label="Image Source Type">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_37150_lookup" description="None" label="Image Associated Name">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_37154_lookup" description="None" label="Image Materials">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_37189_lookup" description="None" label="Image Technique">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_37155_lookup" description="None" label="Image Support">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_37140_lookup" description="None" label="Photographer">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_37149_mfcl_lookup" description="None" label="Image Type">
+          <display>color slide</display>
+          <linkedField id="11319121" revision="-1" source_id="11319121" preferredTerm="color slide"
+            institutionName="Harvard">
+            <allTerms>color slide</allTerms>
+          </linkedField>
+        </field_lookup>
+      </DisplayRecord>
+      <AssetGroups xmlns="">
+        <Group id="88575"/>
+        <Group id="88586"/>
+      </AssetGroups>
+      <Publications xmlns="">
+        <Publication asset_id="24140787" publishing_target_id="798"/>
+        <Publication asset_id="24140787" publishing_target_id="859"/>
+      </Publications>
+      <Assets xmlns="" filename="urn-3:FHCL:40986419">
+        <Asset id="24140787" size="ADLImageViewer" uri="http://library.artstor.org/#/ssid/24140787"
+          restriction="t"/>
+        <Asset id="None" size="DRS_full" uri="http://nrs.harvard.edu/urn-3:FHCL:40986419"
+          restriction="t"/>
+        <Asset id="None" size="DRS_thumb" uri="http://nrs.harvard.edu/urn-3:FHCL:40986419"
+          restriction="t"/>
+      </Assets>
+      <Targets xmlns="">
+        <Target name="OAI" status_lkup="Published" url="#" description="OAI"
+          publishDate="2020-06-08T18:27:48+00:00"/>
+        <Target name="Harvard University Study Collection of Digital Images" status_lkup="Published"
+          url="http://library.artstor.org/library/"
+          description="Institutional Collection in Artstor" publishDate="2020-06-08T18:27:48+00:00"
+        />
+      </Targets>
+    </display:DR>
+    <display:DR id="24140788" representationId="drs:urn-3:FHCL:40986421"
+      lastUpdateDate="2020-06-08T18:18:58+00:00" sequence="2" primary="false" projectId="817"
+      institutionId="10003" createdBy="michael_rios@harvard.edu"
+      updatedBy="christopher_hyde@harvard.edu" createdDate="2018-11-07T20:46:28+00:00">
+      <DisplayRecord xmlns="">
+        <field_string id="fd_37146_an" description="None" label="Image Accession Number"
+          value="1981.12902"/>
+        <field_string id="fd_37175_s" description="None" label="Image Source Place Of Publication"
+          value=""/>
+        <field_string id="fd_37186_s" description="None" label="Year" value=""/>
+        <field_string id="fd_37172_s" description="None" label="Image Source Alternate Title"
+          value=""/>
+        <field_string id="fd_37177_s" description="None" label="Image Source Publication Date"
+          value="1977"/>
+        <field_string id="fd_37171_s" description="None" label="Image Source Title"
+          value="McKim, Mead and White"/>
+        <field_string id="fd_37145_s" description="None" label="Image Collection" value=""/>
+        <field_string id="fd_37178_s" description="None" label="Image Source Date" value=""/>
+        <field_string id="fd_37132_s" description="None" label="Latitude" value="41.7167"/>
+        <field_string id="fd_37153_s" description="None" label="Image End Year" value=""/>
+        <field_string id="fd_37134_s" description="None" label="Elevation" value=""/>
+        <field_string id="fd_37163_s" description="None" label="Additional Formats" value=""/>
+        <field_string id="fd_37181_s" description="None" label="Image Source Call Numbers" value=""/>
+        <field_string id="fd_37158_s" description="None" label="Image Credit" value="AV"/>
+        <field_string id="fd_37168_s" description="None" label="Image Source ID" value=""/>
+        <field_string id="fd_37183_s" description="None" label="Image Source Record Created By"
+          value=""/>
+        <field_string id="fd_37148_s" description="None" label="Image Classification Number"
+          value="182  F 229  4PP"/>
+        <field_string id="fd_37185_s" description="None" label="Issue Number" value=""/>
+        <field_string id="fd_37147_s" description="None" label="Image Accession Date" value=""/>
+        <field_string id="fd_37151_s" description="None" label="Image Start Year" value=""/>
+        <field_string id="fd_37173_s" description="None" label="Image Source Author" value=""/>
+        <field_string id="fd_37141_s" description="None" label="Image Date" value=""/>
+        <field_string id="fd_37174_s" description="None" label="Image Source Edition" value=""/>
+        <field_string id="fd_37187_s" description="None" label="Page Plate Number" value=""/>
+        <field_string id="fd_37176_s" description="None" label="Image Source Publisher" value=""/>
+        <field_string id="fd_37179_s" description="None" label="Image Source Series Title" value=""/>
+        <field_string id="fd_37170_s" description="None" label="Image Provider" value=""/>
+        <field_string id="fd_37118_s" description="None" label="Image View Description"
+          value="Plan. Front elevation and first floor plan"/>
+        <field_string id="fd_37152_s" description="None" label="Image Measurements" value=""/>
+        <field_string id="fd_37180_s" description="None" label="Image Source Reference Number"
+          value=""/>
+        <field_string id="fd_37133_s" description="None" label="Longitude" value="-72.8167"/>
+        <field_string id="fd_37159_s" description="None" label="Image Notes" value=""/>
+        <field_string id="fd_37160_s" description="None" label="In House Notes" value=""/>
+        <field_string id="fd_37182_s" description="None" label="Image Source Notes" value=""/>
+        <field_string id="fd_37157_s" description="None" label="Image Rights" value=""/>
+        <field_string id="fd_37166_s" description="None" label="Image Requester" value=""/>
+        <field_string id="fd_37184_s" description="None" label="Volume" value=""/>
+        <field_string id="fd_37119_s" description="None" label="Image View Type" value=""/>
+        <field_boolean id="fd_37161_b" description="None" label="Send To Harvard" value="true"/>
+        <field_lookup id="fd_37144_lookup" description="None" label="Image Repository">
+          <display>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</display>
+          <linkedField id="9000369831" revision="1" source_id="9000369831"
+            preferredTerm="Harvard Fine Arts Library, Digital Images &amp; Slides Collection"
+            conceptLevel="Local" institutionName="Harvard"
+            uri="http://forum.jstor.org/oai/SSN/9000369831">
+            <allTerms>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_37156_lookup" description="None" label="Image Subject">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_37169_mfcl_lookup" description="None" label="Image Source Type">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_37150_lookup" description="None" label="Image Associated Name">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_37154_lookup" description="None" label="Image Materials">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_37189_lookup" description="None" label="Image Technique">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_37155_lookup" description="None" label="Image Support">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_37140_lookup" description="None" label="Photographer">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_37149_mfcl_lookup" description="None" label="Image Type">
+          <display>color slide</display>
+          <linkedField id="11319121" revision="-1" source_id="11319121" preferredTerm="color slide"
+            institutionName="Harvard">
+            <allTerms>color slide</allTerms>
+          </linkedField>
+        </field_lookup>
+      </DisplayRecord>
+      <AssetGroups xmlns="">
+        <Group id="88575"/>
+        <Group id="88587"/>
+      </AssetGroups>
+      <Publications xmlns="">
+        <Publication asset_id="24140788" publishing_target_id="798"/>
+        <Publication asset_id="24140788" publishing_target_id="859"/>
+      </Publications>
+      <Assets xmlns="" filename="urn-3:FHCL:40986421">
+        <Asset id="24140788" size="ADLImageViewer" uri="http://library.artstor.org/#/ssid/24140788"
+          restriction="t"/>
+        <Asset id="None" size="DRS_full" uri="http://nrs.harvard.edu/urn-3:FHCL:40986421"
+          restriction="t"/>
+        <Asset id="None" size="DRS_thumb" uri="http://nrs.harvard.edu/urn-3:FHCL:40986421"
+          restriction="t"/>
+      </Assets>
+      <Targets xmlns="">
+        <Target name="OAI" status_lkup="Published" url="#" description="OAI"
+          publishDate="2020-06-08T18:27:48+00:00"/>
+        <Target name="Harvard University Study Collection of Digital Images" status_lkup="Published"
+          url="http://library.artstor.org/library/"
+          description="Institutional Collection in Artstor" publishDate="2020-06-08T18:27:48+00:00"
+        />
+      </Targets>
+    </display:DR>
+    <display:DR id="24141652" representationId="drs:urn-3:FHCL:40986657"
+      lastUpdateDate="2020-06-26T15:48:41+00:00" sequence="1" primary="true" projectId="817"
+      institutionId="10003" createdBy="michael_rios@harvard.edu"
+      updatedBy="christopher_hyde@harvard.edu" createdDate="2018-11-07T21:42:15+00:00">
+      <DisplayRecord xmlns="">
+        <field_string id="fd_37146_an" description="None" label="Image Accession Number"
+          value="1985.02691"/>
+        <field_string id="fd_37175_s" description="None" label="Image Source Place Of Publication"
+          value=""/>
+        <field_string id="fd_37186_s" description="None" label="Year" value=""/>
+        <field_string id="fd_37172_s" description="None" label="Image Source Alternate Title"
+          value=""/>
+        <field_string id="fd_37177_s" description="None" label="Image Source Publication Date"
+          value=""/>
+        <field_string id="fd_37171_s" description="None" label="Image Source Title" value=""/>
+        <field_string id="fd_37145_s" description="None" label="Image Collection" value=""/>
+        <field_string id="fd_37178_s" description="None" label="Image Source Date" value=""/>
+        <field_string id="fd_37132_s" description="None" label="Latitude" value="41.7167"/>
+        <field_string id="fd_37153_s" description="None" label="Image End Year" value=""/>
+        <field_string id="fd_37134_s" description="None" label="Elevation" value=""/>
+        <field_string id="fd_37163_s" description="None" label="Additional Formats" value=""/>
+        <field_string id="fd_37181_s" description="None" label="Image Source Call Numbers" value=""/>
+        <field_string id="fd_37158_s" description="None" label="Image Credit" value="Purch. DNC"/>
+        <field_string id="fd_37168_s" description="None" label="Image Source ID" value=""/>
+        <field_string id="fd_37183_s" description="None" label="Image Source Record Created By"
+          value=""/>
+        <field_string id="fd_37148_s" description="None" label="Image Classification Number"
+          value="182  F 229  4 P"/>
+        <field_string id="fd_37185_s" description="None" label="Issue Number" value=""/>
+        <field_string id="fd_37147_s" description="None" label="Image Accession Date" value=""/>
+        <field_string id="fd_37151_s" description="None" label="Image Start Year" value=""/>
+        <field_string id="fd_37173_s" description="None" label="Image Source Author" value=""/>
+        <field_string id="fd_37141_s" description="None" label="Image Date" value=""/>
+        <field_string id="fd_37174_s" description="None" label="Image Source Edition" value=""/>
+        <field_string id="fd_37187_s" description="None" label="Page Plate Number" value=""/>
+        <field_string id="fd_37176_s" description="None" label="Image Source Publisher" value=""/>
+        <field_string id="fd_37179_s" description="None" label="Image Source Series Title" value=""/>
+        <field_string id="fd_37170_s" description="None" label="Image Provider" value="Slide Pres."/>
+        <field_string id="fd_37118_s" description="None" label="Image View Description"
+          value="Exterior"/>
+        <field_string id="fd_37152_s" description="None" label="Image Measurements" value=""/>
+        <field_string id="fd_37180_s" description="None" label="Image Source Reference Number"
+          value=""/>
+        <field_string id="fd_37133_s" description="None" label="Longitude" value="-72.8167"/>
+        <field_string id="fd_37159_s" description="None" label="Image Notes" value=""/>
+        <field_string id="fd_37160_s" description="None" label="In House Notes" value=""/>
+        <field_string id="fd_37182_s" description="None" label="Image Source Notes" value=""/>
+        <field_string id="fd_37157_s" description="None" label="Image Rights" value=""/>
+        <field_string id="fd_37166_s" description="None" label="Image Requester" value=""/>
+        <field_string id="fd_37184_s" description="None" label="Volume" value=""/>
+        <field_string id="fd_37119_s" description="None" label="Image View Type" value=""/>
+        <field_date id="fd_37167_dt" description="None" label="Image Request Date"/>
+        <field_boolean id="fd_37161_b" description="None" label="Send To Harvard" value="true"/>
+        <field_lookup id="fd_37144_lookup" description="None" label="Image Repository">
+          <display>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</display>
+          <linkedField id="9000369831" revision="1" source_id="9000369831"
+            preferredTerm="Harvard Fine Arts Library, Digital Images &amp; Slides Collection"
+            conceptLevel="Local" institutionName="Harvard"
+            uri="http://forum.jstor.org/oai/SSN/9000369831">
+            <allTerms>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_37156_lookup" description="None" label="Image Subject">
+          <display>exterior views</display>
+          <linkedField id="300124515" revision="-1" source_id="300124515"
+            preferredTerm="exterior views" conceptLevel="1" institutionName="AAT"
+            uri="http://forum.jstor.org/oai/AAT/300124515">
+            <allTerms>exterior views|vistas exteriores|exterieur|exterieurs|external views|views, exterior|exterior view|vista exterior</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_37169_mfcl_lookup" description="None" label="Image Source Type">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_37150_lookup" description="None" label="Image Associated Name">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_37154_lookup" description="None" label="Image Materials">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_37189_lookup" description="None" label="Image Technique">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_37155_lookup" description="None" label="Image Support">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_37140_lookup" description="None" label="Photographer">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_37149_mfcl_lookup" description="None" label="Image Type">
+          <display>color slide</display>
+          <linkedField id="11319121" revision="-1" source_id="11319121" preferredTerm="color slide"
+            institutionName="Harvard">
+            <allTerms>color slide</allTerms>
+          </linkedField>
+        </field_lookup>
+      </DisplayRecord>
+      <AssetGroups xmlns="">
+        <Group id="88575"/>
+        <Group id="88602"/>
+      </AssetGroups>
+      <Publications xmlns="">
+        <Publication asset_id="24141652" publishing_target_id="798"/>
+        <Publication asset_id="24141652" publishing_target_id="859"/>
+      </Publications>
+      <Assets xmlns="" filename="urn-3:FHCL:40986657">
+        <Asset id="24141652" size="ADLImageViewer" uri="http://library.artstor.org/#/ssid/24141652"
+          restriction="t"/>
+        <Asset id="None" size="DRS_full" uri="http://nrs.harvard.edu/urn-3:FHCL:40986657"
+          restriction="t"/>
+        <Asset id="None" size="DRS_thumb" uri="http://nrs.harvard.edu/urn-3:FHCL:40986657"
+          restriction="t"/>
+      </Assets>
+      <Targets xmlns="">
+        <Target name="OAI" status_lkup="Published" url="#" description="OAI"
+          publishDate="2020-06-08T18:27:48+00:00"/>
+        <Target name="Harvard University Study Collection of Digital Images" status_lkup="Published"
+          url="http://library.artstor.org/library/"
+          description="Institutional Collection in Artstor" publishDate="2020-06-08T18:27:48+00:00"
+        />
+      </Targets>
+    </display:DR>
+  </ssw:Work>
+  <ssn:Name conceptId="500122312" stateText="COMPLETED" recordType="CORPORATE BODY" batchId="1"
+    statusText="Complete" createdOn="2014/5/03 5:10:36" modifiedOn="2014/5/03 5:10:36"
+    batchName="ULAN" preferredTerm="McKim, Mead, and White" preferredGender="NA"
+    uri="http://forum.jstor.org/oai/ssn/500122312">
+    <Roles xmlns="" count="1">
+      <Role id="11310438" name="architectural firm" preferred="true"/>
+    </Roles>
+    <Nationalities xmlns="" count="1">
+      <Nationality id="11281149" name="American" preferred="true"/>
+    </Nationalities>
+    <Terms xmlns="" count="3">
+      <Term id="1500297252" name="McKim, Mead &amp; White" preferred="false">
+        <Contributor id="2500000013" name="VP" preferred="false"/>
+        <Contributor id="2500000189" name="Grove Art" preferred="true"/>
+        <Language id="11280177" name="undetermined" preferred="true"/>
+        <TermSource id="11245865" name="Grove Art Online (2003-2008)" preferred="false"
+          page="accessed 3 March 2005"/>
+        <TermSource id="11248157" name="Grove Art artist database (1989-)" preferred="true"/>
+      </Term>
+      <Term id="1500297253" name="McKim, Mead, and White" preferred="true">
+        <Contributor id="2500000013" name="VP" preferred="true"/>
+        <Language id="11280177" name="undetermined" preferred="false"/>
+        <TermSource id="11248769" name="Macmillan Encyclopedia of Architects (1982)"
+          preferred="false"/>
+      </Term>
+      <Term id="1500504035" name="McKim, Mead and White" preferred="false">
+        <Contributor id="2500000008" name="AVERY" preferred="true"/>
+        <Language id="11280177" name="undetermined" preferred="false"/>
+        <TermSource id="11234732" name="Avery Authority files (1963-)" preferred="true"/>
+      </Term>
+    </Terms>
+    <Bibliographies xmlns="" count="4">
+      <Bibliography sourceId="11245865" sourceText="Grove Art Online (2003-2008)"
+        page="accessed 3 March 2005" preferred="false"/>
+      <Bibliography sourceId="11234732" sourceText="Avery Authority files (1963-)" preferred="false"/>
+      <Bibliography sourceId="11248769" sourceText="Macmillan Encyclopedia of Architects (1982)"
+        page="3:140" preferred="false"/>
+      <Bibliography sourceId="11248157" sourceText="Grove Art artist database (1989-)"
+        preferred="false"/>
+    </Bibliographies>
+    <Contributors xmlns="" count="3">
+      <Contributor id="2500000189" name="Grove Art"/>
+      <Contributor id="2500000008" name="AVERY"/>
+      <Contributor id="2500000013" name="VP"/>
+    </Contributors>
+    <Biographies xmlns="" count="3">
+      <Biography id="4000228534" name="American architectural firm, 1879-1910" gender="NA"
+        preferred="true">
+        <birthDate year="1879" epoch="AD"/>
+        <Contributor id="2500000013" name="VP"/>
+        <deathDate year="1910" epoch="AD"/>
+      </Biography>
+      <Biography id="4000357935" name="American architect, contemporary" gender="NA"
+        preferred="false">
+        <Contributor id="2500000008" name="AVERY"/>
+      </Biography>
+      <Biography id="4000470200" name="American architect" gender="Unknown" preferred="false">
+        <Contributor id="2500000189" name="Grove Art"/>
+      </Biography>
+    </Biographies>
+    <ScopeNotes xmlns="" count="1">
+      <ScopeNote ScopeNoteId="53789"
+        ScopeNoteText="American architectural firm formed in 1879 by Charles Follen McKim (1847-1909), William Rutherford Mead (1846-1928), and Stanford White (1853-1906).By the 1880's they were one of the leading proponents of classical revival as an expression of national architectural identity. Mead remained technically a part of the firm until his official retirement in 1919.">
+        <Language id="70051" name="English"/>
+        <Contributor id="2500000013" name="VP"/>
+        <Contributor id="2500000008" name="AVERY"/>
+        <Sources page="3:140"/>
+        <Sources/>
+      </ScopeNote>
+    </ScopeNotes>
+    <Associatives xmlns="" count="4">
+      <Associative associativeId="11314154" conceptId="500244915" associativeName="member was"
+        term="Kendall, William Mitchell" displayText="American architect, 1856-1941"
+        displayDate="1882-1941"/>
+      <Associative associativeId="11314146" conceptId="500002702"
+        associativeName="partner was/is (firm to person)" term="White, Stanford"
+        displayText="American architect, 1853-1906" displayDate="1879-1906"/>
+      <Associative associativeId="11314146" conceptId="500016264"
+        associativeName="partner was/is (firm to person)" term="Mead, William Rutherford"
+        displayText="American architect, 1846-1928" displayDate="1879-1919"/>
+      <Associative associativeId="11314146" conceptId="500019204"
+        associativeName="partner was/is (firm to person)" term="McKim, Charles Follen"
+        displayText="American architect, 1847-1909" displayDate="1879-1909"/>
+    </Associatives>
+  </ssn:Name>
+  <ssn:Name conceptId="9000369831" stateText="NEW" recordType="CORPORATE BODY" batchId="2"
+    statusText="Provisional" createdOn="2014/12/26 12:37:01" modifiedOn="2014/12/26 12:37:01"
+    batchName="Harvard"
+    preferredTerm="Harvard Fine Arts Library, Digital Images &amp; Slides Collection"
+    uri="http://forum.jstor.org/oai/ssn/9000369831">
+    <Terms xmlns="" count="1">
+      <Term id="1071828" name="Harvard Fine Arts Library, Digital Images &amp; Slides Collection"
+        preferred="true">
+        <TermSource id="11318641" name="NO SOURCE" preferred="true"/>
+      </Term>
+    </Terms>
+  </ssn:Name>
+  <aat:AAT subjectId="300122195" recordType="C"
+    englishScopeNote="Detached houses designed for or used exclusively by one family."
+    preferredTerm="single-family dwellings" uri="http://forum.jstor.org/oai/aat/300122195">
+    <Hierarchy xmlns="">
+      <Parent subjectId="300264092" name="Objects Facet">
+        <Child subjectId="300264550" name="Built Environment (Hierarchy Name)">
+          <Child subjectId="300004789" name="Single Built Works (Hierarchy Name)">
+            <Child subjectId="300004790" name="single built works (Built Environment)">
+              <Child subjectId="300004795" name="single built works by specific type">
+                <Child subjectId="300004894" name="single built works by function">
+                  <Child subjectId="300257729" name="residential structures">
+                    <Child subjectId="300005425" name="dwellings">
+                      <Child subjectId="300005433" name="houses">
+                        <Child subjectId="300005615" name="houses by occupants">
+                          <Child subjectId="300122195" name="single-family dwellings"/>
+                        </Child>
+                      </Child>
+                    </Child>
+                  </Child>
+                </Child>
+              </Child>
+            </Child>
+          </Child>
+        </Child>
+      </Parent>
+    </Hierarchy>
+    <Terms xmlns="">
+      <Term id="1000122195" name="single-family dwellings" preferred="P" historicFlag="C "
+        otherFlags="NA" vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000035571" briefCit="ROOT Thesaurus (1981)"
+            fullCit="British Standards Institution. BSI ROOT Thesaurus. 2 vols. Hemel Hempstead, England: British Standards Institution, 1981."/>
+          <Source id="2000052946" briefCit="Encyclopedia Britannica Online (2002-)"
+            fullCit="Encyclopædia Britannica. Britannica Online. Chicago: Encyclopædia Britannica, Inc., 2002-. http://www.eb.com/  (1 July 2002)."/>
+          <Source id="2000013861" briefCit="Whittick, Encyclopedia of Urban Planning (1974)"
+            fullCit="Whittick, Arnold, ed. Encyclopedia of Urban Planning. New York: McGraw-Hill Book Co.,  1974."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000175071" name="units, single dwelling" preferred="V" historicFlag="C "
+        otherFlags="NA" vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000046717" briefCit="Getty Vocabulary Program rules"
+            fullCit="Getty Vocabulary Program. Term warranted by AAT Editorial Guidelines."/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000169388" name="dwellings, single-family" preferred="V" historicFlag="C "
+        otherFlags="NA" vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000046717" briefCit="Getty Vocabulary Program rules"
+            fullCit="Getty Vocabulary Program. Term warranted by AAT Editorial Guidelines."/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000254745" name="dwellings, single family" preferred="V" historicFlag="C "
+        otherFlags="NA" vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000046717" briefCit="Getty Vocabulary Program rules"
+            fullCit="Getty Vocabulary Program. Term warranted by AAT Editorial Guidelines."/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000122198" name="single-family houses" preferred="V" historicFlag="C "
+        otherFlags="NA" vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000033141" briefCit="Planning (1972-)"
+            fullCit="Planning. Chicago: American Planning Association, 1972-."/>
+          <Source id="2000014961"
+            briefCit="McAllister and McAllister, Field Guide to American Houses (1984)"
+            fullCit="McAllister, Virginia and Lee McAllister. A Field Guide to American Houses. New York: Alfred A. Knopf, 1984."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000491202" name="eengezinswoningen" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70261" description="Dutch" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000051213" briefCit="AAT-Ned (1994-)"
+            fullCit="AAT Ned: Dutch AAT Translation Project coordinated by Bureau AAT, RKD. The Hague: Netherlands Institute for Art History, 1994-."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000205" briefName="Bureau AAT"
+            fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"
+          />
+        </Contributors>
+      </Term>
+      <Term id="1000491203" name="eengezinswoning" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70261" description="Dutch" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000051213" briefCit="AAT-Ned (1994-)"
+            fullCit="AAT Ned: Dutch AAT Translation Project coordinated by Bureau AAT, RKD. The Hague: Netherlands Institute for Art History, 1994-."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000205" briefName="Bureau AAT"
+            fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"
+          />
+        </Contributors>
+      </Term>
+      <Term id="1000175072" name="houses, single-family" preferred="V" historicFlag="C "
+        otherFlags="NA" vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000046717" briefCit="Getty Vocabulary Program rules"
+            fullCit="Getty Vocabulary Program. Term warranted by AAT Editorial Guidelines."/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000122197" name="single family homes" preferred="V" historicFlag="C "
+        otherFlags="NA" vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000024811" briefCit="CDMARC Subjects: LCSH (1988-)"
+            fullCit="CDMARC Subjects: Library of Congress Subject Headings. Washington, DC: Library of Congress, Cataloging Distribution Service, 1988-. Quarterly, with each issue cumulative."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000254747" name="homes, single family" preferred="V" historicFlag="C "
+        otherFlags="NA" vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000046717" briefCit="Getty Vocabulary Program rules"
+            fullCit="Getty Vocabulary Program. Term warranted by AAT Editorial Guidelines."/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000122199" name="single family dwellings" preferred="V" historicFlag="C "
+        otherFlags="NA" vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000038891" briefCit="Stein, Construction Glossary (1993)"
+            fullCit="Stein, J. Stewart. Construction Glossary: An Encyclopedic Reference and Manual. 2nd ed. New York: John Wiley &amp; Sons, 1993."/>
+          <Source id="2000010621" briefCit="Canadian Urban Thesaurus (1979)"
+            fullCit="Canadian Urban Thesaurus. Ottawa: Ministry of State for Urban Affairs, 1979."/>
+          <Source id="2000039651"
+            briefCit="Canadian Thesaurus of Construction Science and Technology (1978)"
+            fullCit="Canadian Thesaurus of Construction Science and Technology. 2 vols. Ottawa, Ont.: Department of Industry, Trade and Commerce, 1978. "
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000254748" name="houses, single family" preferred="V" historicFlag="C "
+        otherFlags="NA" vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000046717" briefCit="Getty Vocabulary Program rules"
+            fullCit="Getty Vocabulary Program. Term warranted by AAT Editorial Guidelines."/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000122201" name="single dwelling units" preferred="V" historicFlag="C "
+        otherFlags="NA" vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000041071" briefCit="Rickert, Urban Thesaurus (1968)"
+            fullCit="Rickert, John E. Urban Thesaurus: A Vocabulary for Indexing and Retrieving Urban Literature. Kent, Ohio: Center for Urban Regionalism, Kent State University, 1968."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000437919" name="vivienda unifamiliar" preferred="V" historicFlag="C "
+        otherFlags="NA" vernacular="U">
+        <Languages>
+          <Language code="70641" description="Spanish" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000051251"
+            briefCit="Bertrand, Casa, barrio y ciudad. Arquitectura del hábitat urbano (1984)"
+            fullCit="Bertrand, Casa, barrio y ciudad. Arquitectura del hábitat urbano (1984)"/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000131" briefName="CDBP-DIBAM"
+            fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"
+          />
+        </Contributors>
+      </Term>
+      <Term id="1000291239" name="single-family dwelling" preferred="V" historicFlag="C "
+        otherFlags="NA" vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000046717" briefCit="Getty Vocabulary Program rules"
+            fullCit="Getty Vocabulary Program. Term warranted by AAT Editorial Guidelines."/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000122196" name="one-family homes" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000046717" briefCit="Getty Vocabulary Program rules"
+            fullCit="Getty Vocabulary Program. Term warranted by AAT Editorial Guidelines."/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000122200" name="one-family houses" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000024811" briefCit="CDMARC Subjects: LCSH (1988-)"
+            fullCit="CDMARC Subjects: Library of Congress Subject Headings. Washington, DC: Library of Congress, Cataloging Distribution Service, 1988-. Quarterly, with each issue cumulative."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000169386" name="single family houses" preferred="V" historicFlag="C "
+        otherFlags="NA" vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000024811" briefCit="CDMARC Subjects: LCSH (1988-)"
+            fullCit="CDMARC Subjects: Library of Congress Subject Headings. Washington, DC: Library of Congress, Cataloging Distribution Service, 1988-. Quarterly, with each issue cumulative."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000437920" name="casa unifamilar" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70641" description="Spanish" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000051603" briefCit="Peters, Casas unifamiliares de doce países"
+            fullCit="Peters, Casas unifamiliares de doce países"/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000131" briefName="CDBP-DIBAM"
+            fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"
+          />
+        </Contributors>
+      </Term>
+      <Term id="1000254746" name="homes, one-family" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000046717" briefCit="Getty Vocabulary Program rules"
+            fullCit="Getty Vocabulary Program. Term warranted by AAT Editorial Guidelines."/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000175070" name="houses, one-family" preferred="V" historicFlag="C "
+        otherFlags="NA" vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000046717" briefCit="Getty Vocabulary Program rules"
+            fullCit="Getty Vocabulary Program. Term warranted by AAT Editorial Guidelines."/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+    </Terms>
+    <ScopeNotes xmlns="">
+      <ScopeNote id="92916" notesText="Woonhuizen bedoeld voor één gezin.">
+        <Language code="70261" description="Dutch"/>
+        <Contributors>
+          <Contributor id="10000205" briefName="Bureau AAT"
+            fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"
+          />
+        </Contributors>
+      </ScopeNote>
+      <ScopeNote id="68590"
+        notesText="Causa separada diseñada par ser utilizada exclusivamente por una única familia.">
+        <Language code="70641" description="Spanish"/>
+        <Contributors>
+          <Contributor id="10000131" briefName="CDBP-DIBAM"
+            fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"
+          />
+        </Contributors>
+      </ScopeNote>
+      <ScopeNote id="39749"
+        notesText="Detached houses designed for or used exclusively by one family.">
+        <Language code="70051" description="English"/>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </ScopeNote>
+    </ScopeNotes>
+    <Sources xmlns="">
+      <Source id="2000052373" briefCit="Van Dale groot woordenboek (1994)"
+        fullCit="Van Dale groot woordenboek der Nederlandse taal, Utrecht ; Antwerpen, 1994"/>
+      <Source id="2000024811" briefCit="CDMARC Subjects: LCSH (1988-)"
+        fullCit="CDMARC Subjects: Library of Congress Subject Headings. Washington, DC: Library of Congress, Cataloging Distribution Service, 1988-. Quarterly, with each issue cumulative."
+      />
+    </Sources>
+    <Contributors xmlns="">
+      <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+      <Contributor id="10000131" briefName="CDBP-DIBAM"
+        fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"/>
+      <Contributor id="10000205" briefName="Bureau AAT"
+        fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"
+      />
+    </Contributors>
+  </aat:AAT>
+  <aat:AAT subjectId="300257729" recordType="C"
+    englishScopeNote="Architecture or other accommodations produced for or adapted to provide shelter and security for the basic physical functions of life for an individual, family, or clan and their dependents, human and animal. Among the functions provided for are a place to sleep, prepare food, eat, and sometimes to work, usually having a door, window, or other source of light and with protection from the weather."
+    preferredTerm="residential structures" uri="http://forum.jstor.org/oai/aat/300257729">
+    <Hierarchy xmlns="">
+      <Parent subjectId="300264092" name="Objects Facet">
+        <Child subjectId="300264550" name="Built Environment (Hierarchy Name)">
+          <Child subjectId="300004789" name="Single Built Works (Hierarchy Name)">
+            <Child subjectId="300004790" name="single built works (Built Environment)">
+              <Child subjectId="300004795" name="single built works by specific type">
+                <Child subjectId="300004894" name="single built works by function">
+                  <Child subjectId="300257729" name="residential structures"/>
+                </Child>
+              </Child>
+            </Child>
+          </Child>
+        </Child>
+      </Parent>
+    </Hierarchy>
+    <Terms xmlns="">
+      <Term id="1000257729" name="residential structures" preferred="P" historicFlag="C "
+        otherFlags="NA" vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000062294"
+            briefCit="2009-2014 World Outlook for Residential Structures (2008)"
+            fullCit="The 2009-2014 World Outlook for Residential Structures. New York: ICON Group International, Inc., 2008."/>
+          <Source id="2000049829" briefCit="Grove Art Online (2008-)"
+            fullCit="Grove Art Online. Oxford University Press, 2008-. http://www.oxfordartonline.com (1 July 2008)."/>
+          <Source id="2000052946" briefCit="Encyclopedia Britannica Online (2002-)"
+            fullCit="Encyclopædia Britannica. Britannica Online. Chicago: Encyclopædia Britannica, Inc., 2002-. http://www.eb.com/  (1 July 2002)."/>
+          <Source id="2000062295"
+            briefCit="Nadolski, Architectural Damage to Residential Structures (1969)"
+            fullCit="Nadolski, Michael E. &quot;Architectural damage to residential structures from seismic disturbances.&quot; Bulletin of the Seismological Society 59/2 (April 1969): 487-502."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000540549" name="residential buildings" preferred="V" historicFlag="C "
+        otherFlags="NA" vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000039651"
+            briefCit="Canadian Thesaurus of Construction Science and Technology (1978)"
+            fullCit="Canadian Thesaurus of Construction Science and Technology. 2 vols. Ottawa, Ont.: Department of Industry, Trade and Commerce, 1978. "
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000540552" name="residential housing" preferred="V" historicFlag="C "
+        otherFlags="NA" vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000010621" briefCit="Canadian Urban Thesaurus (1979)"
+            fullCit="Canadian Urban Thesaurus. Ottawa: Ministry of State for Urban Affairs, 1979."/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000540529" name="residential structure" preferred="V" historicFlag="C "
+        otherFlags="NA" vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000052946" briefCit="Encyclopedia Britannica Online (2002-)"
+            fullCit="Encyclopædia Britannica. Britannica Online. Chicago: Encyclopædia Britannica, Inc., 2002-. http://www.eb.com/  (1 July 2002)."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000540553" name="residential architecture" preferred="V" historicFlag="C "
+        otherFlags="NA" vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000052946" briefCit="Encyclopedia Britannica Online (2002-)"
+            fullCit="Encyclopædia Britannica. Britannica Online. Chicago: Encyclopædia Britannica, Inc., 2002-. http://www.eb.com/  (1 July 2002)."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000540551" name="domestic facilities" preferred="V" historicFlag="C "
+        otherFlags="NA" vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000039651"
+            briefCit="Canadian Thesaurus of Construction Science and Technology (1978)"
+            fullCit="Canadian Thesaurus of Construction Science and Technology. 2 vols. Ottawa, Ont.: Department of Industry, Trade and Commerce, 1978. "
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000454210" name="estructuras residenciales" preferred="V" historicFlag="C "
+        otherFlags="NA" vernacular="U">
+        <Languages>
+          <Language code="70641" description="Spanish" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000051034" briefCit="TAA database (2000-)"
+            fullCit="Tesauro de Arte &amp; Arquitectura database. Centro de Documentación de Bienes Patrimoniales, DIBAM. Santiago, Chile: 2000-. "
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000131" briefName="CDBP-DIBAM"
+            fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"
+          />
+        </Contributors>
+      </Term>
+      <Term id="1000510260" name="woon- en verblijfplaats" preferred="V" historicFlag="C "
+        otherFlags="NA" vernacular="U">
+        <Languages>
+          <Language code="70261" description="Dutch" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000051213" briefCit="AAT-Ned (1994-)"
+            fullCit="AAT Ned: Dutch AAT Translation Project coordinated by Bureau AAT, RKD. The Hague: Netherlands Institute for Art History, 1994-."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000205" briefName="Bureau AAT"
+            fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"
+          />
+        </Contributors>
+      </Term>
+      <Term id="1000510259" name="woon- en verblijfplaatsen" preferred="V" historicFlag="C "
+        otherFlags="NA" vernacular="U">
+        <Languages>
+          <Language code="70261" description="Dutch" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000051213" briefCit="AAT-Ned (1994-)"
+            fullCit="AAT Ned: Dutch AAT Translation Project coordinated by Bureau AAT, RKD. The Hague: Netherlands Institute for Art History, 1994-."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000205" briefName="Bureau AAT"
+            fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"
+          />
+        </Contributors>
+      </Term>
+      <Term id="1000540550" name="residential facilities" preferred="V" historicFlag="C "
+        otherFlags="NA" vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000039651"
+            briefCit="Canadian Thesaurus of Construction Science and Technology (1978)"
+            fullCit="Canadian Thesaurus of Construction Science and Technology. 2 vols. Ottawa, Ont.: Department of Industry, Trade and Commerce, 1978. "/>
+          <Source id="2000035571" briefCit="ROOT Thesaurus (1981)"
+            fullCit="British Standards Institution. BSI ROOT Thesaurus. 2 vols. Hemel Hempstead, England: British Standards Institution, 1981."/>
+          <Source id="2000010621" briefCit="Canadian Urban Thesaurus (1979)"
+            fullCit="Canadian Urban Thesaurus. Ottawa: Ministry of State for Urban Affairs, 1979."/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000540554" name="domestic architecture" preferred="V" historicFlag="C "
+        otherFlags="NA" vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000035251" briefCit="RILA, Subject Headings (1975-1990)"
+            fullCit="J. Paul Getty Trust. International Repertory of the Literature of Art Subject Headings. Document prepared for internal distribution. Williamstown: J. Paul Getty Trust, 1975-1990."/>
+          <Source id="2000046986" briefCit="Webster's Third New International Dictionary (1986)"
+            fullCit="Webster's Third New International Dictionary of the English language. Unabridged. Springfield, MA: Merriam-Webster, 1986."/>
+          <Source id="2000047206" briefCit="BHA Subject Headings (1985-)"
+            fullCit="Bibliography of the History of Art Subject Headings (BHA): English. J. Paul Getty Trust, Williamstown, Massachusetts,  1985-."/>
+          <Source id="2000043551"
+            briefCit="Worcester Art Museum Library, List of subject headings, unpub. (1976)"
+            fullCit="Worcester Art Museum Library. Document prepared for internal distribution. Worcester Art Museum Library, Worcester, Mass., 1976.  "
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+    </Terms>
+    <ScopeNotes xmlns="">
+      <ScopeNote id="107934"
+        notesText="Architecture or other accommodations produced for or adapted to provide shelter and security for the basic physical functions of life for an individual, family, or clan and their dependents, human and animal. Among the functions provided for are a place to sleep, prepare food, eat, and sometimes to work, usually having a door, window, or other source of light and with protection from the weather.">
+        <Language code="70051" description="English"/>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </ScopeNote>
+    </ScopeNotes>
+    <Sources xmlns=""/>
+    <Contributors xmlns="">
+      <Contributor id="10000131" briefName="CDBP-DIBAM"
+        fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"/>
+      <Contributor id="10000205" briefName="Bureau AAT"
+        fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"/>
+      <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+    </Contributors>
+  </aat:AAT>
+  <aat:AAT subjectId="300124515" recordType="C"
+    englishScopeNote="Refers to photographs or other representations of the exterior of a building or other structure or object that has interior and exterior spaces."
+    preferredTerm="exterior views" uri="http://forum.jstor.org/oai/aat/300124515">
+    <Hierarchy xmlns="">
+      <Parent subjectId="300264092" name="Objects Facet">
+        <Child subjectId="300264552" name="Visual and Verbal Communication">
+          <Child subjectId="300179869" name="Visual Works (Hierarchy Name)">
+            <Child subjectId="300191086" name="visual works (Guide Term)">
+              <Child subjectId="300191087" name="visual works by form">
+                <Child subjectId="300191088" name="visual works by form">
+                  <Child subjectId="300015424" name="views (visual works)">
+                    <Child subjectId="300015491" name="views by vantage point or orientation">
+                      <Child subjectId="300124515" name="exterior views"/>
+                    </Child>
+                  </Child>
+                </Child>
+              </Child>
+            </Child>
+          </Child>
+        </Child>
+      </Parent>
+    </Hierarchy>
+    <Terms xmlns="">
+      <Term id="1000124515" name="exterior views" preferred="P" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000004601"
+            briefCit="UC Berkeley, Visual Aids Library, Classification Manual (n.d.)"
+            fullCit="University of California at Berkeley. Department of Architecture. Visual Aids Library.  Classification Manual. Document prepared for internal distribution.  Berkeley, California: University of California at Berkeley, n.d."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000438041" name="vistas exteriores" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70641" description="Spanish" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000051214" briefCit="Comité, Plural del término en singular"
+            fullCit="Comité, Plural del término en singular"/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000131" briefName="CDBP-DIBAM"
+            fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"
+          />
+        </Contributors>
+      </Term>
+      <Term id="1000491340" name="exterieur" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70261" description="Dutch" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000051213" briefCit="AAT-Ned (1994-)"
+            fullCit="AAT Ned: Dutch AAT Translation Project coordinated by Bureau AAT, RKD. The Hague: Netherlands Institute for Art History, 1994-."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000205" briefName="Bureau AAT"
+            fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"
+          />
+        </Contributors>
+      </Term>
+      <Term id="1000491339" name="exterieurs" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70261" description="Dutch" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000051213" briefCit="AAT-Ned (1994-)"
+            fullCit="AAT Ned: Dutch AAT Translation Project coordinated by Bureau AAT, RKD. The Hague: Netherlands Institute for Art History, 1994-."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000205" briefName="Bureau AAT"
+            fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"
+          />
+        </Contributors>
+      </Term>
+      <Term id="1000124518" name="external views" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000041231" briefCit="Utsey, Media Handbook (1974)"
+            fullCit="Utsey, Michael D. Media Handbook: Introduction to Architectural Media. 2d ed. Eugene, Oregon: School of Architecture and Allied Arts, University of Oregon, 1974."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000139482" name="views, exterior" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000046717" briefCit="Getty Vocabulary Program rules"
+            fullCit="Getty Vocabulary Program. Term warranted by AAT Editorial Guidelines."/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000299114" name="exterior view" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000046717" briefCit="Getty Vocabulary Program rules"
+            fullCit="Getty Vocabulary Program. Term warranted by AAT Editorial Guidelines."/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000438042" name="vista exterior" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70641" description="Spanish" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000051607" briefCit="Bagot, El dibujo arqueológico (2005)"
+            fullCit="Bagot, El dibujo arqueológico (2005)"/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000131" briefName="CDBP-DIBAM"
+            fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"
+          />
+        </Contributors>
+      </Term>
+    </Terms>
+    <ScopeNotes xmlns="">
+      <ScopeNote id="92973"
+        notesText="Gezichten op de buitenkant van een gebouw of andere constructie of voorwerp.">
+        <Language code="70261" description="Dutch"/>
+        <Contributors>
+          <Contributor id="10000205" briefName="Bureau AAT"
+            fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"
+          />
+        </Contributors>
+      </ScopeNote>
+      <ScopeNote id="33612"
+        notesText="Refers to photographs or other representations of the exterior of a building or other structure or object that has interior and exterior spaces.">
+        <Language code="70051" description="English"/>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </ScopeNote>
+      <ScopeNote id="68642"
+        notesText="Úsese para fotografías u otras representaciones del exterior de un edificio u otra estructura.">
+        <Language code="70641" description="Spanish"/>
+        <Contributors>
+          <Contributor id="10000131" briefName="CDBP-DIBAM"
+            fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"
+          />
+        </Contributors>
+      </ScopeNote>
+    </ScopeNotes>
+    <Sources xmlns="">
+      <Source id="2000052373" briefCit="Van Dale groot woordenboek (1994)"
+        fullCit="Van Dale groot woordenboek der Nederlandse taal, Utrecht ; Antwerpen, 1994"/>
+    </Sources>
+    <Contributors xmlns="">
+      <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+      <Contributor id="10000131" briefName="CDBP-DIBAM"
+        fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"/>
+      <Contributor id="10000205" briefName="Bureau AAT"
+        fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"
+      />
+    </Contributors>
+  </aat:AAT>
+  <aat:AAT subjectId="300015518" recordType="C"
+    englishScopeNote="Refers to depictions that include the entire subject, as contrasted to views of a detail."
+    preferredTerm="general views" uri="http://forum.jstor.org/oai/aat/300015518">
+    <Hierarchy xmlns="">
+      <Parent subjectId="300264092" name="Objects Facet">
+        <Child subjectId="300264552" name="Visual and Verbal Communication">
+          <Child subjectId="300179869" name="Visual Works (Hierarchy Name)">
+            <Child subjectId="300191086" name="visual works (Guide Term)">
+              <Child subjectId="300191087" name="visual works by form">
+                <Child subjectId="300191088" name="visual works by form">
+                  <Child subjectId="300015424" name="views (visual works)">
+                    <Child subjectId="300015513" name="views by scope">
+                      <Child subjectId="300015518" name="general views"/>
+                    </Child>
+                  </Child>
+                </Child>
+              </Child>
+            </Child>
+          </Child>
+        </Child>
+      </Parent>
+    </Hierarchy>
+    <Terms xmlns="">
+      <Term id="1000015518" name="general views" preferred="P" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000016451" briefCit="Gernsheim, Focus on Architecture and Sculpture (1949)"
+            fullCit="Gernsheim, Helmut. Focus on Architecture and Sculpture: An Original Approach to the Photography of Architecture and Sculpture. London: Fountain Press, 1949."/>
+          <Source id="2000015351"
+            briefCit="Fogg Museum, Photograph and Slide Classification , unpub. (1973)"
+            fullCit="Fogg Museum.  Photograph and Slide Classification for Western Art.  Revised.  Fine Arts Library, Harvard University, Cambridge, Mass.,  1973"/>
+          <Source id="2000041281" briefCit="Cable, Current Techniques (1978)"
+            fullCit="Cable, Carole. Current Techniques in the Production and Retrieval of Architectural Drawings and Contract Documents: An Annotated Bibliography of Articles, 1960-1977.  Monticello, Ill.: Vance Bibliographies, 1978. Architecture Series, Bibliography No. A-5."/>
+          <Source id="2000037891" briefCit="Simmons, Archaeological Photography (1969)"
+            fullCit="Simmons, Harold C. Archaeological Photography. New York: New York University Press, 1969."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000117354" name="full views" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000014451" briefCit="French and Vierck, Engineering Drawing, 12th ed. (1978)"
+            fullCit="French, Thomas E. and Charles Vierck.  Engineering Drawing and Graphic Technology.  12th ed.  New York: McGraw-Hill Book Co.,  1978"
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000117353" name="over-all views" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000036811" briefCit="Schoder, Wings over Hellas (1974)"
+            fullCit="Schoder, Raymond V. Wings over Hellas: Ancient Greece from the Air. New York: Oxford University Press, 1974."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000157435" name="views, overall" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000046717" briefCit="Getty Vocabulary Program rules"
+            fullCit="Getty Vocabulary Program. Term warranted by AAT Editorial Guidelines."/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000472157" name="totaalaanzichten" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70261" description="Dutch" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000051213" briefCit="AAT-Ned (1994-)"
+            fullCit="AAT Ned: Dutch AAT Translation Project coordinated by Bureau AAT, RKD. The Hague: Netherlands Institute for Art History, 1994-."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000205" briefName="Bureau AAT"
+            fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"
+          />
+        </Contributors>
+      </Term>
+      <Term id="1000015520" name="overall views" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000041281" briefCit="Cable, Current Techniques (1978)"
+            fullCit="Cable, Carole. Current Techniques in the Production and Retrieval of Architectural Drawings and Contract Documents: An Annotated Bibliography of Articles, 1960-1977.  Monticello, Ill.: Vance Bibliographies, 1978. Architecture Series, Bibliography No. A-5."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000139538" name="views, general" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000046717" briefCit="Getty Vocabulary Program rules"
+            fullCit="Getty Vocabulary Program. Term warranted by AAT Editorial Guidelines."/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000157436" name="views, whole" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000046717" briefCit="Getty Vocabulary Program rules"
+            fullCit="Getty Vocabulary Program. Term warranted by AAT Editorial Guidelines."/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000419942" name="vistas generales" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70641" description="Spanish" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000051214" briefCit="Comité, Plural del término en singular"
+            fullCit="Comité, Plural del término en singular"/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000131" briefName="CDBP-DIBAM"
+            fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"
+          />
+        </Contributors>
+      </Term>
+      <Term id="1000419943" name="vista general" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70641" description="Spanish" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000051034" briefCit="TAA database (2000-)"
+            fullCit="Tesauro de Arte &amp; Arquitectura database. Centro de Documentación de Bienes Patrimoniales, DIBAM. Santiago, Chile: 2000-. "
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000131" briefName="CDBP-DIBAM"
+            fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"
+          />
+        </Contributors>
+      </Term>
+      <Term id="1000157434" name="views, full" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000046717" briefCit="Getty Vocabulary Program rules"
+            fullCit="Getty Vocabulary Program. Term warranted by AAT Editorial Guidelines."/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000472158" name="totaalaanzicht" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70261" description="Dutch" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000051213" briefCit="AAT-Ned (1994-)"
+            fullCit="AAT Ned: Dutch AAT Translation Project coordinated by Bureau AAT, RKD. The Hague: Netherlands Institute for Art History, 1994-."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000205" briefName="Bureau AAT"
+            fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"
+          />
+        </Contributors>
+      </Term>
+      <Term id="1000299121" name="general view" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000046717" briefCit="Getty Vocabulary Program rules"
+            fullCit="Getty Vocabulary Program. Term warranted by AAT Editorial Guidelines."/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000117352" name="whole views" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000016451" briefCit="Gernsheim, Focus on Architecture and Sculpture (1949)"
+            fullCit="Gernsheim, Helmut. Focus on Architecture and Sculpture: An Original Approach to the Photography of Architecture and Sculpture. London: Fountain Press, 1949."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+    </Terms>
+    <ScopeNotes xmlns="">
+      <ScopeNote id="61743"
+        notesText="Se refiere a representaciones que incluyen un sujeto en su totalidad en contraste a una vista de un detalle.">
+        <Language code="70641" description="Spanish"/>
+        <Contributors>
+          <Contributor id="10000131" briefName="CDBP-DIBAM"
+            fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"
+          />
+        </Contributors>
+      </ScopeNote>
+      <ScopeNote id="97287"
+        notesText="Verwijst naar afbeeldingen die het volledige onderwerp bevatten, in tegenstelling tot detailweergaven.">
+        <Language code="70261" description="Dutch"/>
+        <Contributors>
+          <Contributor id="10000205" briefName="Bureau AAT"
+            fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"
+          />
+        </Contributors>
+      </ScopeNote>
+      <ScopeNote id="33617"
+        notesText="Refers to depictions that include the entire subject, as contrasted to views of a detail.">
+        <Language code="70051" description="English"/>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </ScopeNote>
+    </ScopeNotes>
+    <Sources xmlns="">
+      <Source id="2000052372" briefCit="Bureau AAT, RKD"
+        fullCit="Bureau AAT, Bureau AAT, RKD (Rijksbureau voor Kunsthistorische Documentatie), 's Gravenhage, Nederland"
+      />
+    </Sources>
+    <Contributors xmlns="">
+      <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+      <Contributor id="10000205" briefName="Bureau AAT"
+        fullName="Bureau AAT, RKD (Netherlands Institute for Art History; The Hague, The Netherlands)"/>
+      <Contributor id="10000131" briefName="CDBP-DIBAM"
+        fullName="Centro de Documentación de Bienes Patrimoniales (Dirección de Bibliotecas, Archivos y Museos; Santiago, Chile)"
+      />
+    </Contributors>
+  </aat:AAT>
+  <aat:AAT subjectId="300389894" recordType="C"
+    englishScopeNote="The external areas of buildings, potentially including the façade and other features, but not necessarily restricted to surface features. Often used with cardinal direction references, such as &quot;west front&quot; or &quot;north front.&quot; For the vertical arrangements of exterior or interior features, use &quot;elevations (building divisions).&quot;"
+    preferredTerm="fronts" preferredQualifier="architectural"
+    uri="http://forum.jstor.org/oai/aat/300389894">
+    <Hierarchy xmlns="">
+      <Parent subjectId="300264092" name="Objects Facet">
+        <Child subjectId="300241490" name="Components (Hierarchy Name)">
+          <Child subjectId="300241583" name="components (objects)">
+            <Child subjectId="300241584" name="components by specific context">
+              <Child subjectId="300072553" name="building divisions">
+                <Child subjectId="300389894" name="fronts (architectural)"/>
+              </Child>
+            </Child>
+          </Child>
+        </Child>
+      </Parent>
+    </Hierarchy>
+    <Terms xmlns="">
+      <Term id="1000580618" name="fronts" qualifier="architectural" preferred="P" historicFlag="C"
+        vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000048259" briefCit="Fletcher, History of Architecture (1996)"
+            fullCit="Feltcher, Sir Banister.  A History of Architecture. 20th ed. Edited by Dan Cruickshank. Oxford, Boston: Architectural Press, 1996."/>
+          <Source id="2000079228" briefCit="Grove Art Online (2008-)"
+            fullCit="Grove Art Online. Oxford University Press, 2008-. http://www.oxfordartonline.com (1 July 2008)."/>
+          <Source id="2000077685"
+            briefCit="Pevsner and Forsyth, Outline of European Architecture (2009)"
+            fullCit="Pevsner, Nikolaus, and M. Forsyth. An outline of European architecture. Layton, Utah: Gibbs Smith, Publisher, 2009."/>
+          <Source id="2000077686" briefCit="Sampson, Wells Cathedral West Front (1998)"
+            fullCit="Sampson, Jerry. Wells Cathedral West Front: Construction, sculpture, and conservation. Phoenix Mill, Gloucestershire: Sutton Publishers, 1998.  "
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+      <Term id="1000580619" name="front" qualifier="architectural" preferred="V" historicFlag="C"
+        vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000079228" briefCit="Grove Art Online (2008-)"
+            fullCit="Grove Art Online. Oxford University Press, 2008-. http://www.oxfordartonline.com (1 July 2008)."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+    </Terms>
+    <ScopeNotes xmlns="">
+      <ScopeNote
+        notesText="The external areas of buildings, potentially including the façade and other features, but not necessarily restricted to surface features. Often used with cardinal direction references, such as &quot;west front&quot; or &quot;north front.&quot; For the vertical arrangements of exterior or interior features, use &quot;elevations (building divisions).&quot;">
+        <Language description="English"/>
+        <Sources>
+          <Source id="2000048259" briefCit="Fletcher, History of Architecture (1996)"
+            fullCit="Feltcher, Sir Banister.  A History of Architecture. 20th ed. Edited by Dan Cruickshank. Oxford, Boston: Architectural Press, 1996."/>
+          <Source id="2000079228" briefCit="Grove Art Online (2008-)"
+            fullCit="Grove Art Online. Oxford University Press, 2008-. http://www.oxfordartonline.com (1 July 2008)."
+          />
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </ScopeNote>
+    </ScopeNotes>
+    <Contributors xmlns="">
+      <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+    </Contributors>
+  </aat:AAT>
+  <tgn:TGN subjectId="7016250" recordType="A" placeType="inhabited place" preferredName="Farmington"
+    uri="http://forum.jstor.org/oai/tgn/7016250">
+    <tgn:latitude xmlns="" decimal="41.7167" degree="41" minute="43" second="0" direction="N"/>
+    <tgn:longitude xmlns="" decimal="-72.8167" degree="72" minute="49" second="0" direction="W"/>
+    <tgn:Hierarchy xmlns="">
+      <tgn:Parent subjectId="7029392" name="World" type="facet">
+        <tgn:Child subjectId="1000001" name="North and Central America" type="continent">
+          <tgn:Child subjectId="7012149" name="United States" type="nation">
+            <tgn:Child subjectId="7007159" name="Connecticut" type="state">
+              <tgn:Child subjectId="1002461" name="Hartford" type="county">
+                <tgn:Child subjectId="7016250" name="Farmington" type="inhabited place"/>
+              </tgn:Child>
+            </tgn:Child>
+          </tgn:Child>
+        </tgn:Child>
+      </tgn:Parent>
+    </tgn:Hierarchy>
+    <tgn:Terms xmlns="">
+      <tgn:Term id="201548" name="Farmington" preferred="P"/>
+    </tgn:Terms>
+    <tgn:PlaceTypes xmlns="">
+      <tgn:Place id="54549" name="transport point" preferred="N"/>
+      <tgn:Place id="83002" name="inhabited place" preferred="P"/>
+    </tgn:PlaceTypes>
+  </tgn:TGN>
+</SharedShelf>

@@ -1,0 +1,43 @@
+<viaRecord originalAtHarvard="false"
+           primaryImageThumbnailURN="http://nrs.harvard.edu/urn-3:FHCL:1202836">
+   <recordId altRecordId="ss_8000813500">olvwork390053</recordId>
+   <work>
+      <title>
+         <textElement>Envoy of Shah Tahmasp I, Prince Ismail, to Sultan Suleyman</textElement>
+      </title>
+      <workType>engravings</workType>
+      <creator>
+         <nameElement>Lorichs, Melchior</nameElement>
+         <dates>b.1527-d. ca.1590, Danish</dates>
+         <role>artist</role>
+      </creator>
+      <freeDate>1573</freeDate>
+      <dimensions>39.5 x 26.9 cm</dimensions>
+      <culture>
+         <term>Danish</term>
+      </culture>
+      <repository>
+         <repositoryName>Staatliche Museen zu Berlin, Berlin, Berlin, Germany</repositoryName>
+         <number>390.7</number>
+      </repository>
+      <surrogate altComponentID="olvsurrogate46783" componentID="8031906">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:1202836">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:1202836"/>
+         </image>
+         <workType>b&amp;w slide</workType>
+         <notes>Note-General: Funding for this image is provided by the Aga Khan Program.</notes>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>1998.08071</number>
+         </repository>
+      </surrogate>
+   </work>
+   <admin>
+      <createDate>2014-12-28</createDate>
+      <updateNote>
+         <updateDate>2022/11/01 09:44:50</updateDate>
+      </updateNote>
+   </admin>
+</viaRecord>

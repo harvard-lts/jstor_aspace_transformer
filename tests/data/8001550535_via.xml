@@ -1,0 +1,127 @@
+<viaRecord originalAtHarvard="false"
+           primaryImageThumbnailURN="http://nrs.harvard.edu/urn-3:FHCL:40986657">
+   <recordId>8001550535</recordId>
+   <work>
+      <title>
+         <textElement>A. A. Pope Residence, Farmington, Connecticut</textElement>
+      </title>
+      <workType>houses</workType>
+      <creator>
+         <nameElement>McKim, Mead, and White</nameElement>
+         <dates>American architectural firm, 1879-1910</dates>
+         <role>architects</role>
+      </creator>
+      <structuredDate>
+         <beginDate>1900</beginDate>
+         <endDate>1900</endDate>
+      </structuredDate>
+      <structuredDate>
+         <beginDate>1900</beginDate>
+         <endDate>1900</endDate>
+      </structuredDate>
+      <freeDate>1900</freeDate>
+      <topic>
+         <term>houses</term>
+      </topic>
+      <topic>
+         <term>architecture</term>
+      </topic>
+      <topic>
+         <term>single-family dwellings</term>
+      </topic>
+      <topic>
+         <term>residential structures</term>
+      </topic>
+      <culture>
+         <term>American</term>
+      </culture>
+      <location>
+         <type>site</type>
+         <place>Farmington, Hartford, Connecticut, United States</place>
+         <coordinates>
+            <latitude decimal="41.7167"
+                      degree="41"
+                      minute="43"
+                      second="0"
+                      direction="N"/>
+            <longitude decimal="-72.8167"
+                       degree="72"
+                       minute="49"
+                       second="0"
+                       direction="W"/>
+         </coordinates>
+      </location>
+      <surrogate componentID="24141652">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:40986657">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:40986657"/>
+         </image>
+         <title>
+            <textElement>Exterior</textElement>
+         </title>
+         <classification>
+            <number>182  F 229  4 P</number>
+         </classification>
+         <workType>color slide</workType>
+         <topic>
+            <term>exterior views</term>
+         </topic>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>1985.02691</number>
+         </repository>
+      </surrogate>
+      <surrogate componentID="24140788">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:40986421">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:40986421"/>
+         </image>
+         <title>
+            <textElement>Plan. Front elevation and first floor plan</textElement>
+         </title>
+         <classification>
+            <number>182  F 229  4PP</number>
+         </classification>
+         <workType>color slide</workType>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>1981.12902</number>
+         </repository>
+      </surrogate>
+      <surrogate componentID="24140787">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:40986419">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:40986419"/>
+         </image>
+         <title>
+            <textElement>Exterior</textElement>
+         </title>
+         <classification>
+            <number>182  F 229  4P</number>
+         </classification>
+         <workType>color slide</workType>
+         <topic>
+            <term>exterior views</term>
+         </topic>
+         <topic>
+            <term>general views</term>
+         </topic>
+         <topic>
+            <term>fronts (architectural)</term>
+         </topic>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>1981.12901</number>
+         </repository>
+      </surrogate>
+   </work>
+   <admin>
+      <createDate>2018-11-07</createDate>
+      <updateNote>
+         <updateDate>2020/06/08 10:19:18</updateDate>
+      </updateNote>
+   </admin>
+</viaRecord>

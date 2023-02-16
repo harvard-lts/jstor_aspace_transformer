@@ -1,0 +1,92 @@
+<viaRecord originalAtHarvard="false"
+           primaryImageThumbnailURN="http://nrs.harvard.edu/urn-3:FHCL:27002969">
+   <recordId>8001013775</recordId>
+   <work>
+      <title>
+         <type>descriptive Title</type>
+         <textElement>The janissaries' cook</textElement>
+      </title>
+      <workType>woodcuts (prints)</workType>
+      <creator>
+         <nameElement>Lorck, Melchior</nameElement>
+         <dates>Danish draftsman, engraver, and painter, born 1526 or 1527, died after 1588</dates>
+         <role>printer</role>
+      </creator>
+      <structuredDate>
+         <beginDate>1575</beginDate>
+         <endDate>1575</endDate>
+      </structuredDate>
+      <structuredDate>
+         <beginDate>1575</beginDate>
+         <endDate>1575</endDate>
+      </structuredDate>
+      <freeDate>1575</freeDate>
+      <topic>
+         <term>cooks</term>
+      </topic>
+      <topic>
+         <term>mosques</term>
+      </topic>
+      <topic>
+         <term>landscape</term>
+      </topic>
+      <topic>
+         <term>caftans</term>
+      </topic>
+      <topic>
+         <term>clouds</term>
+      </topic>
+      <topic>
+         <term>Cook woodcut model</term>
+      </topic>
+      <culture>
+         <term>Danish</term>
+      </culture>
+      <materials>paper</materials>
+      <materials>ink</materials>
+      <materials>engraving (printing process)</materials>
+      <notes>General: Based on Lorck's drawing "Cook woodcut model."</notes>
+      <repository>
+         <repositoryName>Kongelige Bibliotek, Copenhagen, Denmark</repositoryName>
+         <number>loc. no. 17,-250 2'</number>
+      </repository>
+      <surrogate componentID="14507247">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="false"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:27002969">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:27002969"/>
+         </image>
+         <title>
+            <textElement>General view </textElement>
+         </title>
+         <workType>digital image</workType>
+         <notes>Funding for this image is provided by the Aga Khan Program.</notes>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>d2016.06717</number>
+         </repository>
+      </surrogate>
+      <surrogate componentID="22293911">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:34836865">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:34836865"/>
+         </image>
+         <title>
+            <textElement>Total</textElement>
+         </title>
+         <workType>digital image</workType>
+         <notes>Funding for this image is provided by the Aga Khan Program.</notes>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>d2018.02960</number>
+         </repository>
+      </surrogate>
+   </work>
+   <admin>
+      <createDate>2016-05-16</createDate>
+      <updateNote>
+         <updateDate>2018/03/27 12:14:37</updateDate>
+      </updateNote>
+   </admin>
+</viaRecord>

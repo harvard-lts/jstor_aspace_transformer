@@ -1,0 +1,264 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<SharedShelf xmlns:display="http://catalog.sharedshelf.artstor.org/display"
+  xmlns:ssc="http://catalog.sharedshelf.artstor.org/ssc"
+  xmlns:ssd="http://catalog.sharedshelf.artstor.org/ssd"
+  xmlns:ssn="http://catalog.sharedshelf.artstor.org/ssn"
+  xmlns:ssw="http://catalog.sharedshelf.artstor.org/ssw"
+  xmlns:ssw_lkup="http://catalog.sharedshelf.artstor.org/ssw_lkup"
+  xmlns:tgn="http://catalog.sharedshelf.artstor.org/tgn"
+  xmlns:aat="http://catalog.sharedshelf.artstor.org/aat"
+  xmlns:mfcl="http://catalog.sharedshelf.artstor.org/mfcl"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="http://catalog.sharedshelf.artstor.org"
+  xsi:schemaLocation="http://catalog.sharedshelf.artstor.org http://catalog.sharedshelf.artstor.org/service/schema/SharedShelf_IO.xsd">
+  <ssw:Work lastUpdateDate="2022/11/01 09:44:50" id="8000813500" refid="W390053"
+    contributor="Harvard" instituteId="10003" uri="http://forum.jstor.org/oai/ssw/8000813500">
+    <Titles xmlns="">
+      <Display>Envoy of Shah Tahmasp I, Prince Ismail, to Sultan Suleyman</Display>
+      <Title pref="true" term="Envoy of Shah Tahmasp I, Prince Ismail, to Sultan Suleyman"/>
+    </Titles>
+    <WorkTypes xmlns="" tempered="true">
+      <Display>engravings</Display>
+      <WorkType id="11316971" vocab="MFCL" term="engravings"
+        uri="http://forum.jstor.org/oai/MFCL/11316971"/>
+    </WorkTypes>
+    <Measurements xmlns="">
+      <Display>39.5 x 26.9 cm</Display>
+      <Measurement>
+        <ssw:Measure>
+          <Term>39.5 x 26.9 cm</Term>
+        </ssw:Measure>
+      </Measurement>
+    </Measurements>
+    <Cultures xmlns="" tempered="true">
+      <Display>Danish</Display>
+      <Culture id="11281678" vocab="MFCL" term="Danish"
+        uri="http://forum.jstor.org/oai/MFCL/11281678"/>
+    </Cultures>
+    <Dates xmlns="">
+      <Display>1573</Display>
+    </Dates>
+    <Locations xmlns="">
+      <Display>Staatliche Museen zu Berlin, Berlin, Germany (repository)</Display>
+      <DisplayLocation term="Staatliche Museen zu Berlin, Berlin, Germany" type_lkup="repository"
+        type_lkup_id="11315199"/>
+      <Repository id="9000370258" vocab="SSN" refid="N697" term="Staatliche Museen zu Berlin"
+        type_lkup="repository" uri="http://forum.jstor.org/oai/SSN/9000370258">
+        <location id="4000000578" term="Berlin, Germany"/>
+        <ssw:RefIdDetail term="390.7" type_lkup="repository number" type_lkup_id="11315210"/>
+      </Repository>
+    </Locations>
+    <ArtstorCountries xmlns="">
+      <Country id="11312944" term_lkup="Denmark"/>
+    </ArtstorCountries>
+    <ArtstorClassifications xmlns="">
+      <ArtstorClassification id="11309252" term_lkup="Prints"/>
+    </ArtstorClassifications>
+    <Agents xmlns="">
+      <Display>Lorichs, Melchior (b.1527-d. ca.1590, Danish) artist</Display>
+      <Agent id="9000370104" vocab="SSN" refid="N86166" term="Lorichs, Melchior" role_lkup="artist"
+        role_lkup_id="11310453" qualifier_lkup="creator"
+        uri="http://forum.jstor.org/oai/SSN/9000370104">
+        <ssw:Display>Lorichs, Melchior (b.1527-d. ca.1590, Danish) artist</ssw:Display>
+      </Agent>
+    </Agents>
+    <LocalInformation xmlns="" legacyId="W390053" originalCataloger="ssmith"
+      secondaryCataloger="ssmith" catalogStartDate="3/19/2008" catalogUpdateDate="6/9/2008"/>
+    <RelatedWorks xmlns=""/>
+    <display:DR id="8031906" representationId="drs:urn-3:FHCL:1202836"
+      lastUpdateDate="2022-11-01T14:45:16+00:00" sequence="0" primary="true" projectId="817"
+      institutionId="10003" createdBy="qah001@artstor.org" updatedBy="qah001@artstor.org"
+      createdDate="2014-12-28T06:51:51+00:00">
+      <DisplayRecord xmlns="">
+        <field_string id="fd_37147_s" description="None" label="Image Accession Date"
+          value="00/00/00"/>
+        <field_string id="fd_37173_s" description="None" label="Image Source Author"
+          value="Sievernich, Gereon"/>
+        <field_string id="fd_37175_s" description="None" label="Image Source Place Of Publication"
+          value="Gutersloh"/>
+        <field_string id="fd_37187_s" description="None" label="Page Plate Number" value="242"/>
+        <field_string id="fd_37177_s" description="None" label="Image Source Publication Date"
+          value="1989"/>
+        <field_string id="fd_37176_s" description="None" label="Image Source Publisher"
+          value="Bertelsmann Lexikon Verlag"/>
+        <field_string id="fd_37171_s" description="None" label="Image Source Title"
+          value="Europa und der Orient, 800-1900"/>
+        <field_string id="fd_37146_an" description="None" label="Image Accession Number"
+          value="1998.08071"/>
+        <field_string id="fd_37132_s" description="None" label="Latitude" value=""/>
+        <field_string id="fd_37164_s" description="None" label="Olivia ID" value="U46783"/>
+        <field_string id="fd_37134_s" description="None" label="Elevation" value=""/>
+        <field_string id="fd_37165_s" description="None" label="Olivia Record Info"
+          value="Record created: 1/22/1998  By: bloom Record modified: 3/19/2008  By: ssmith Export To VIA Date: 8/10/2012 "/>
+        <field_string id="fd_37180_s" description="None" label="Image Source Reference Number"
+          value="001699229"/>
+        <field_string id="fd_37159_s" description="None" label="Image Notes"
+          value="Note-General: Funding for this image is provided by the Aga Khan Program."/>
+        <field_string id="fd_37181_s" description="None" label="Image Source Call Numbers"
+          value="FA607.74.4 (Fine Arts)"/>
+        <field_string id="fd_37160_s" description="None" label="In House Notes" value="scsmith"/>
+        <field_string id="fd_37168_s" description="None" label="Image Source ID" value="4546"/>
+        <field_string id="fd_37158_s" description="None" label="Image Credit" value="AV"/>
+        <field_string id="fd_37133_s" description="None" label="Longitude" value=""/>
+        <field_boolean id="fd_37188_b" description="None" label="Export Only In Group" value="false"/>
+        <field_boolean id="fd_37162_b" description="None" label="In House Use Only" value="false"/>
+        <field_boolean id="fd_37161_b" description="None" label="Send To Harvard" value="true"/>
+        <field_lookup id="fd_37169_mfcl_lookup" description="None" label="Image Source Type">
+          <display>exhibition catalog</display>
+          <linkedField id="11319135" revision="-1" source_id="11319135"
+            preferredTerm="exhibition catalog" institutionName="Harvard">
+            <allTerms>exhibition catalog</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_37149_mfcl_lookup" description="None" label="Image Type">
+          <display>b&amp;w slide</display>
+          <linkedField id="11319119" revision="-1" source_id="11319119"
+            preferredTerm="b&amp;w slide" institutionName="Harvard">
+            <allTerms>b&amp;w slide</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_37144_lookup" description="None" label="Image Repository">
+          <display>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</display>
+          <linkedField id="9000369831" revision="-1" source_id="9000369831"
+            preferredTerm="Harvard Fine Arts Library, Digital Images &amp; Slides Collection"
+            representationId="N-1118422083" conceptLevel="Local" institutionName="Harvard"
+            uri="http://forum.jstor.org/oai/SSN/9000369831">
+            <allTerms>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</allTerms>
+          </linkedField>
+        </field_lookup>
+      </DisplayRecord>
+      <Publications xmlns="">
+        <Publication asset_id="8031906" publishing_target_id="798"/>
+        <Publication asset_id="8031906" publishing_target_id="859"/>
+      </Publications>
+      <Assets xmlns="" filename="urn-3:FHCL:1202836">
+        <Asset id="8031906" size="ADLImageViewer" uri="http://library.artstor.org/#/ssid/8031906"
+          restriction="t"/>
+        <Asset id="None" size="DRS_full" uri="http://nrs.harvard.edu/urn-3:FHCL:1202836"
+          restriction="t"/>
+        <Asset id="None" size="DRS_thumb" uri="http://nrs.harvard.edu/urn-3:FHCL:1202836"
+          restriction="t"/>
+      </Assets>
+      <Targets xmlns="">
+        <Target name="OAI" status_lkup="Published" url="#" description="OAI"
+          publishDate="2014-12-28T06:53:29+00:00"/>
+        <Target name="Harvard University Study Collection of Digital Images" status_lkup="Published"
+          url="http://library.artstor.org/library/"
+          description="Institutional Collection in Artstor" publishDate="2017-11-10T12:43:01+00:00"
+        />
+      </Targets>
+    </display:DR>
+  </ssw:Work>
+  <ssn:Name conceptId="9000370258" stateText="AUTHORITY" recordType="CORPORATE BODY" batchId="2"
+    statusText="Provisional" createdOn="2014/12/26 12:37:35" modifiedOn="2022/11/01 9:44:37"
+    batchName="Harvard" preferredTerm="Staatliche Museen zu Berlin"
+    uri="http://forum.jstor.org/oai/ssn/9000370258">
+    <Roles xmlns="" count="1">
+      <Role id="11310301" name="museum" preferred="true"/>
+    </Roles>
+    <Nationalities xmlns="" count="1">
+      <Nationality id="11281493" name="German" preferred="true"/>
+    </Nationalities>
+    <Terms xmlns="" count="11">
+      <Term id="1348568" name="Staatliche Museen zu Berlin" preferred="true">
+        <TermSource id="11276960" name="HOLLIS" preferred="true"/>
+      </Term>
+      <Term id="1348569" name="Staatliche Museen" preferred="false">
+        <TermSource id="11276964" name="Local Sources" preferred="true"/>
+      </Term>
+      <Term id="1348570" name="Staatliche Museen Preussischer Kulturbesitz" preferred="false">
+        <TermSource id="11276960" name="HOLLIS" preferred="true"/>
+      </Term>
+      <Term id="1348571" name="Kunstgewerbemuseum" preferred="false">
+        <TermSource id="11276960" name="HOLLIS" preferred="true"/>
+      </Term>
+      <Term id="1348572" name="Nationalgalerie" preferred="false">
+        <TermSource id="11318641" name="NO SOURCE" preferred="true"/>
+      </Term>
+      <Term id="1348573" name="Museum fur Spatantike und Byzantinische Kunst" preferred="false">
+        <TermSource id="11318641" name="NO SOURCE" preferred="true"/>
+      </Term>
+      <Term id="1348574" name="Deutsches Historisches Museum" preferred="false">
+        <TermSource id="11276961" name="Source data found" preferred="true"/>
+      </Term>
+      <Term id="1348575" name="Antikensammlung" preferred="false">
+        <TermSource id="11276964" name="Local Sources" preferred="true"/>
+      </Term>
+      <Term id="1348576" name="Kupferstichkabinett" preferred="false">
+        <TermSource id="11276961" name="Source data found" preferred="true"/>
+      </Term>
+      <Term id="1348577" name="Dahlem Museum" preferred="false">
+        <TermSource id="11276961" name="Source data found" preferred="true"/>
+      </Term>
+      <Term id="1348578" name="Gemäldegalerie, Staatliche Museen zu Berlin" preferred="false">
+        <TermSource id="11277835" name="INTERNATIONAL DIRECTORY OF MUSEUMS" preferred="true"/>
+      </Term>
+    </Terms>
+    <Events xmlns="" count="1">
+      <Event id="11315114" name="location" place="Berlin, Berlin, Germany"/>
+    </Events>
+    <Biographies xmlns="" count="1">
+      <Biography id="1348579" name="German museum" preferred="true">
+        <birthPlace/>
+        <deathPlace/>
+      </Biography>
+    </Biographies>
+    <Notes xmlns="" count="1">
+      <Note
+        noteText="FAL VC// Staatliche Museen: FAL ; Deutsches Historisches Museum: Former name ; Antikensammlung: FAL"
+      />
+    </Notes>
+  </ssn:Name>
+  <ssn:Name conceptId="9000370104" stateText="NEW" recordType="PERSON" batchId="2"
+    statusText="Provisional" createdOn="2014/12/26 12:37:24" modifiedOn="2014/12/26 12:37:24"
+    batchName="Harvard" preferredTerm="Lorichs, Melchior"
+    uri="http://forum.jstor.org/oai/ssn/9000370104">
+    <Nationalities xmlns="" count="1">
+      <Nationality id="11281678" name="Danish" preferred="true"/>
+    </Nationalities>
+    <Terms xmlns="" count="4">
+      <Term id="1072524" name="Lorichs, Melchior" preferred="true">
+        <TermSource id="11276962" name="LC Authority File" preferred="true"/>
+      </Term>
+      <Term id="1072525" name="Lorck, Melchior" preferred="false">
+        <TermSource id="11276963" name="ULAN" preferred="true"/>
+      </Term>
+      <Term id="1072526" name="Lorch, Melchior" preferred="false">
+        <TermSource id="11276963" name="ULAN" preferred="true"/>
+      </Term>
+      <Term id="1072527" name="Lorick, Melchior" preferred="false">
+        <TermSource id="11276963" name="ULAN" preferred="true"/>
+      </Term>
+    </Terms>
+    <Biographies xmlns="" count="2">
+      <Biography id="1072528" name="b.1527-d. ca.1590, Danish" preferred="true">
+        <birthDate year="1527" epoch="AD"/>
+        <deathDate year="1590" epoch="AD"/>
+        <birthPlace/>
+        <deathPlace/>
+      </Biography>
+      <Biography id="1072529" name="b.1527-d. ca.1590">
+        <birthPlace/>
+        <deathPlace/>
+      </Biography>
+    </Biographies>
+    <Notes xmlns="" count="2">
+      <Note
+        noteText="Lorck, Melchior: also, LC alt. name ; Lorch, Melchior: alt. name ; Lorick, Melchior: alt. name"/>
+      <Note noteText="Danish draftsman, engraver and painter (per ULAN)"/>
+    </Notes>
+  </ssn:Name>
+  <ssn:Name conceptId="9000369831" stateText="NEW" recordType="CORPORATE BODY" batchId="2"
+    statusText="Provisional" createdOn="2014/12/26 12:37:01" modifiedOn="2014/12/26 12:37:01"
+    batchName="Harvard"
+    preferredTerm="Harvard Fine Arts Library, Digital Images &amp; Slides Collection"
+    uri="http://forum.jstor.org/oai/ssn/9000369831">
+    <Terms xmlns="" count="1">
+      <Term id="1071828" name="Harvard Fine Arts Library, Digital Images &amp; Slides Collection"
+        preferred="true">
+        <TermSource id="11318641" name="NO SOURCE" preferred="true"/>
+      </Term>
+    </Terms>
+  </ssn:Name>
+</SharedShelf>
