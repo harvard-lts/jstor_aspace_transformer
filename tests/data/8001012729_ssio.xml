@@ -1,0 +1,273 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<SharedShelf xmlns:display="http://catalog.sharedshelf.artstor.org/display"
+  xmlns:ssc="http://catalog.sharedshelf.artstor.org/ssc"
+  xmlns:ssd="http://catalog.sharedshelf.artstor.org/ssd"
+  xmlns:ssn="http://catalog.sharedshelf.artstor.org/ssn"
+  xmlns:ssw="http://catalog.sharedshelf.artstor.org/ssw"
+  xmlns:ssw_lkup="http://catalog.sharedshelf.artstor.org/ssw_lkup"
+  xmlns:tgn="http://catalog.sharedshelf.artstor.org/tgn"
+  xmlns:aat="http://catalog.sharedshelf.artstor.org/aat"
+  xmlns:mfcl="http://catalog.sharedshelf.artstor.org/mfcl"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="http://catalog.sharedshelf.artstor.org"
+  xsi:schemaLocation="http://catalog.sharedshelf.artstor.org http://catalog.sharedshelf.artstor.org/service/schema/SharedShelf_IO.xsd">
+  <ssw:Work lastUpdateDate="2016/05/06 10:36:11" id="8001012729" type="1" refid="8001012729"
+    contributor="Harvard" instituteId="10003" uri="http://forum.jstor.org/oai/ssw/8001012729">
+    <Titles xmlns="" tempered="true">
+      <Display>Medal in Commemoration of the Victory at Vienna</Display>
+      <Title pref="true" term="Medal in Commemoration of the Victory at Vienna" sortOrder="1"
+        type_lkup="descriptive" type_lkup_id="11309167"/>
+    </Titles>
+    <WorkTypes xmlns="" tempered="true">
+      <Display>medals</Display>
+      <WorkType pref="true" id="11317087" vocab="MFCL" term="medals"
+        uri="http://forum.jstor.org/oai/MFCL/11317087"/>
+    </WorkTypes>
+    <Materials xmlns="" tempered="true">
+      <Display>silvered lead</Display>
+      <Material pref="true" id="11315555" vocab="MFCL" term="silvered lead"
+        supporttype_lkup="medium" supporttype_lkup_id="11315160"
+        uri="http://forum.jstor.org/oai/MFCL/11315555"/>
+    </Materials>
+    <Subjects xmlns="" tempered="true">
+      <Display>inscriptions; encampments; panoramas; medals</Display>
+      <Subject pref="true" id="11298981" vocab="MFCL" term="inscriptions"
+        uri="http://forum.jstor.org/oai/MFCL/11298981"/>
+      <Subject pref="false" id="13617718" vocab="MFCL" term="encampments"
+        uri="http://forum.jstor.org/oai/MFCL/13617718"/>
+      <Subject pref="false" id="11300932" vocab="MFCL" term="panoramas"
+        uri="http://forum.jstor.org/oai/MFCL/11300932"/>
+      <Subject pref="false" id="11301562" vocab="MFCL" term="medals"
+        uri="http://forum.jstor.org/oai/MFCL/11301562"/>
+    </Subjects>
+    <Cultures xmlns="" tempered="true">
+      <Display>Polish</Display>
+      <Culture pref="true" id="11281661" vocab="MFCL" term="Polish"
+        uri="http://forum.jstor.org/oai/MFCL/11281661"/>
+    </Cultures>
+    <Dates xmlns="" tempered="true">
+      <Display>1683</Display>
+      <Date startDate="1683" endDate="1683" type_lkup="workDate"/>
+      <Date pref="true" startDate="1683" endDate="1683"/>
+    </Dates>
+    <Locations xmlns="" tempered="true">
+      <Display>National Museum in Cracow (Polish museum, Cracow, contemporary), Cracow, Małopolskie, Poland  (repository)</Display>
+      <DisplayLocation
+        term="National Museum in Cracow (Polish museum, Cracow, contemporary), Cracow, Małopolskie, Poland"
+        type_lkup="repository" type_lkup_id="11315199"/>
+      <Repository id="500290377" vocab="SSN" contributor="ULAN|Complete" pref="true"
+        term="National Museum in Cracow" type_lkup="repository"
+        uri="http://forum.jstor.org/oai/SSN/500290377">
+        <location id="7007652" term=" Cracow, Małopolskie, Poland"/>
+        <ssw:GeoLocation latitude="50.05" longitude="19.9167"/>
+        <ssw:RefIdDetail term="MNK inv. no. MNK VII-Md-408" type_lkup="repository number"
+          type_lkup_id="11315210"/>
+      </Repository>
+    </Locations>
+    <ArtstorClassifications xmlns="">
+      <ArtstorClassification id="11309240"
+        term_lkup="Decorative Arts, Utilitarian Objects and Interior Design"/>
+    </ArtstorClassifications>
+    <LocalInformation xmlns="" published="false"/>
+    <RelatedWorks xmlns=""/>
+    <display:DR id="13865731" representationId="drs:urn-3:FHCL:26541607"
+      lastUpdateDate="2016-05-09T21:07:36+00:00" sequence="1" primary="true" projectId="817"
+      institutionId="10003" createdBy="venti@fas.harvard.edu" updatedBy="gcollaco@fas.harvard.edu"
+      createdDate="2016-04-14T14:36:02+00:00">
+      <DisplayRecord xmlns="">
+        <field_string id="fd_37148_s" description="None" label="Image Classification Number"
+          value=""/>
+        <field_string id="fd_37185_s" description="None" label="Issue Number" value=""/>
+        <field_string id="fd_37152_s" description="None" label="Image Measurements" value=""/>
+        <field_string id="fd_37147_s" description="None" label="Image Accession Date" value=""/>
+        <field_string id="fd_37173_s" description="None" label="Image Source Author"
+          value="Czarniecka, Anna."/>
+        <field_string id="fd_37175_s" description="None" label="Image Source Place Of Publication"
+          value="Istanbul"/>
+        <field_string id="fd_37186_s" description="None" label="Year" value=""/>
+        <field_string id="fd_37172_s" description="None" label="Image Source Alternate Title"
+          value=""/>
+        <field_string id="fd_37174_s" description="None" label="Image Source Edition" value=""/>
+        <field_string id="fd_37187_s" description="None" label="Page Plate Number" value="283"/>
+        <field_string id="fd_37177_s" description="None" label="Image Source Publication Date"
+          value="[ca 2014]"/>
+        <field_string id="fd_37176_s" description="None" label="Image Source Publisher"
+          value="Sakıp Sabancı Museum"/>
+        <field_string id="fd_37171_s" description="None" label="Image Source Title"
+          value="Distant neighbour, close memories : 600 years of Turkish-Polish relations"/>
+        <field_string id="fd_37119_s" description="None" label="Image View Type" value=""/>
+        <field_string id="fd_37145_s" description="None" label="Image Collection" value=""/>
+        <field_string id="fd_37170_s" description="None" label="Image Provider" value=""/>
+        <field_string id="fd_37146_an" description="None" label="Image Accession Number"
+          value="d2016.05163"/>
+        <field_string id="fd_37178_s" description="None" label="Image Source Date" value=""/>
+        <field_string id="fd_37132_s" description="None" label="Latitude" value=""/>
+        <field_string id="fd_37153_s" description="None" label="Image End Year" value=""/>
+        <field_string id="fd_37118_s" description="None" label="Image View Description"
+          value="Full view of the medal against a white background"/>
+        <field_string id="fd_37134_s" description="None" label="Elevation" value=""/>
+        <field_string id="fd_37179_s" description="None" label="Image Source Series Title" value=""/>
+        <field_string id="fd_37180_s" description="None" label="Image Source Reference Number"
+          value="HOLLIS Number :&#9;014056953"/>
+        <field_string id="fd_37163_s" description="None" label="Additional Formats" value=""/>
+        <field_string id="fd_37159_s" description="None" label="Image Notes"
+          value="Funding for this image is provided by the Aga Khan Program."/>
+        <field_string id="fd_37160_s" description="None" label="In House Notes" value=""/>
+        <field_string id="fd_37181_s" description="None" label="Image Source Call Numbers"
+          value="&#9;Widener Harvard Depository"/>
+        <field_string id="fd_37151_s" description="None" label="Image Start Year" value=""/>
+        <field_string id="fd_37158_s" description="None" label="Image Credit" value="AV"/>
+        <field_string id="fd_37141_s" description="None" label="Image Date" value=""/>
+        <field_string id="fd_37168_s" description="None" label="Image Source ID" value=""/>
+        <field_string id="fd_37157_s" description="None" label="Image Rights" value=""/>
+        <field_string id="fd_37166_s" description="None" label="Image Requester"
+          value="Collaco, Gwendolyn"/>
+        <field_string id="fd_37183_s" description="None" label="Image Source Record Created By"
+          value="Venti, Vanessa"/>
+        <field_string id="fd_37184_s" description="None" label="Volume" value=""/>
+        <field_string id="fd_37133_s" description="None" label="Longitude" value=""/>
+        <field_string id="fd_37182_s" description="None" label="Image Source Notes" value=""/>
+        <field_date id="fd_37167_dt" description="None" label="Image Request Date"
+          value="2016-04-07T12:00:00+00:00"/>
+        <field_boolean id="fd_37161_b" description="None" label="Send To Harvard" value="true"/>
+        <field_lookup id="fd_37189_lookup" description="None" label="Image Technique">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_37150_lookup" description="None" label="Image Associated Name">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_37169_mfcl_lookup" description="None" label="Image Source Type">
+          <display>exhibition catalog</display>
+          <linkedField id="11319135" revision="-1" source_id="11319135"
+            preferredTerm="exhibition catalog" institutionName="Harvard">
+            <allTerms>exhibition catalog</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_37154_lookup" description="None" label="Image Materials">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_37144_lookup" description="None" label="Image Repository">
+          <display>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</display>
+          <linkedField id="9000369831" revision="1" source_id="9000369831"
+            preferredTerm="Harvard Fine Arts Library, Digital Images &amp; Slides Collection"
+            conceptLevel="Local" institutionName="Harvard"
+            uri="http://forum.jstor.org/oai/SSN/9000369831">
+            <allTerms>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_37155_lookup" description="None" label="Image Support">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_37140_lookup" description="None" label="Photographer">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_37149_mfcl_lookup" description="None" label="Image Type">
+          <display>digital image</display>
+          <linkedField id="11319122" revision="-1" source_id="11319122"
+            preferredTerm="digital image" institutionName="Harvard">
+            <allTerms>digital image</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_37156_lookup" description="None" label="Image Subject">
+          <display/>
+        </field_lookup>
+      </DisplayRecord>
+      <AssetGroups xmlns="">
+        <Group id="29851"/>
+        <Group id="29852"/>
+      </AssetGroups>
+      <Publications xmlns="">
+        <Publication asset_id="13865731" publishing_target_id="798"/>
+        <Publication asset_id="13865731" publishing_target_id="859"/>
+      </Publications>
+      <Assets xmlns="" filename="urn-3:FHCL:26541607">
+        <Asset id="13865731" size="ADLImageViewer" uri="http://library.artstor.org/#/ssid/13865731"
+          restriction="f"/>
+        <Asset id="None" size="DRS_full" uri="http://nrs.harvard.edu/urn-3:FHCL:26541607"
+          restriction="f"/>
+        <Asset id="None" size="DRS_thumb" uri="http://nrs.harvard.edu/urn-3:FHCL:26541607"
+          restriction="f"/>
+      </Assets>
+      <Targets xmlns="">
+        <Target name="OAI" status_lkup="Published" url="#" description="OAI"
+          publishDate="2016-05-09T21:06:50+00:00"/>
+        <Target name="Harvard University Study Collection of Digital Images" status_lkup="Published"
+          url="http://library.artstor.org/library/"
+          description="Institutional Collection in Artstor" publishDate="2017-11-10T12:43:01+00:00"
+        />
+      </Targets>
+    </display:DR>
+  </ssw:Work>
+  <ssn:Name conceptId="500290377" stateText="COMPLETED" recordType="CORPORATE BODY" batchId="1"
+    statusText="Complete" createdOn="2014/5/03 5:10:36" modifiedOn="2014/5/03 5:10:36"
+    batchName="ULAN" preferredTerm="National Museum in Cracow" preferredGender="NA"
+    uri="http://forum.jstor.org/oai/ssn/500290377">
+    <Roles xmlns="" count="1">
+      <Role id="11309961" name="museum(s)" preferred="true"/>
+    </Roles>
+    <Nationalities xmlns="" count="1">
+      <Nationality id="11281661" name="Polish" preferred="true"/>
+    </Nationalities>
+    <Terms xmlns="" count="4">
+      <Term id="1500607225" name="Muzeum Narodowe w Krakowie" preferred="false">
+        <Contributor id="2500000008" name="AVERY" preferred="true"/>
+        <Language id="11280177" name="undetermined" preferred="false"/>
+        <TermSource id="11234732" name="Avery Authority files (1963-)" preferred="true"/>
+      </Term>
+      <Term id="1500607227" name="Kraków. Muzeum Narodowe" preferred="false">
+        <Contributor id="2500000008" name="AVERY" preferred="false"/>
+        <Language id="11280177" name="undetermined" preferred="false"/>
+        <TermSource id="11234732" name="Avery Authority files (1963-)" preferred="false"/>
+      </Term>
+      <Term id="1500607226" name="Národní muzeum v Krakově" preferred="false">
+        <Contributor id="2500000008" name="AVERY" preferred="false"/>
+        <Language id="11280177" name="undetermined" preferred="false"/>
+        <TermSource id="11234732" name="Avery Authority files (1963-)" preferred="false"/>
+      </Term>
+      <Term id="1500607228" name="National Museum in Cracow" preferred="true">
+        <Contributor id="2500000013" name="VP" preferred="true"/>
+        <Contributor id="2500000008" name="AVERY" preferred="true"/>
+        <Language id="11280177" name="undetermined" preferred="false"/>
+        <TermSource id="11234732" name="Avery Authority files (1963-)" preferred="false"/>
+      </Term>
+    </Terms>
+    <Events xmlns="" count="1">
+      <Event id="11315114" name="location" preferred="true"
+        place="Cracow (Małopolskie voivodship, Poland) (inhabited place)"/>
+    </Events>
+    <Bibliographies xmlns="" count="1">
+      <Bibliography sourceId="11264993" sourceText="LCCN n 50067715" preferred="false"/>
+    </Bibliographies>
+    <Contributors xmlns="" count="2">
+      <Contributor id="2500000008" name="AVERY"/>
+      <Contributor id="2500000013" name="VP"/>
+    </Contributors>
+    <Biographies xmlns="" count="1">
+      <Biography id="4000430867" name="Polish museum, Cracow, contemporary" gender="NA"
+        preferred="true">
+        <birthDate year="1850" epoch="AD"/>
+        <Contributor id="2500000008" name="AVERY"/>
+      </Biography>
+    </Biographies>
+    <ScopeNotes xmlns="" count="1">
+      <ScopeNote ScopeNoteId="114693" ScopeNoteText="National and art museum in Krakow, Poland.">
+        <Language id="70051" name="English"/>
+        <Contributor id="2500000008" name="AVERY"/>
+        <Sources/>
+      </ScopeNote>
+    </ScopeNotes>
+  </ssn:Name>
+  <ssn:Name conceptId="9000369831" stateText="NEW" recordType="CORPORATE BODY" batchId="2"
+    statusText="Provisional" createdOn="2014/12/26 12:37:01" modifiedOn="2014/12/26 12:37:01"
+    batchName="Harvard"
+    preferredTerm="Harvard Fine Arts Library, Digital Images &amp; Slides Collection"
+    uri="http://forum.jstor.org/oai/ssn/9000369831">
+    <Terms xmlns="" count="1">
+      <Term id="1071828" name="Harvard Fine Arts Library, Digital Images &amp; Slides Collection"
+        preferred="true">
+        <TermSource id="11318641" name="NO SOURCE" preferred="true"/>
+      </Term>
+    </Terms>
+  </ssn:Name>
+</SharedShelf>

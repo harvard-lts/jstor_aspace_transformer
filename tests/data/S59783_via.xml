@@ -1,0 +1,1829 @@
+<viaRecord originalAtHarvard="false"
+           primaryImageThumbnailURN="http://nrs.harvard.edu/urn-3:FHCL:2895357">
+   <recordId altRecordId="ss_8000803752">olvsite59783</recordId>
+   <work>
+      <title>
+         <textElement>Olana State Historic Site, Hudson, New York, United States</textElement>
+      </title>
+      <title>
+         <type>Alternate Title</type>
+         <textElement>Frederick Church House</textElement>
+      </title>
+      <title>
+         <type>Alternate Title</type>
+         <textElement>Olana, Frederick Church House</textElement>
+      </title>
+      <title>
+         <type>Alternate Title</type>
+         <textElement>F.E. Church Residence</textElement>
+      </title>
+      <workType>historic sites</workType>
+      <workType>houses</workType>
+      <creator>
+         <nameElement>Vaux, Calvert</nameElement>
+         <dates>1824-1895, American</dates>
+         <role>architect</role>
+      </creator>
+      <creator>
+         <nameElement>Church, Frederick Edwin</nameElement>
+         <dates>1826-1900, American</dates>
+         <role>designer</role>
+         <alternativeName>Church, Frederic Edwin</alternativeName>
+      </creator>
+      <structuredDate>
+         <beginDate>1870</beginDate>
+         <endDate>1891</endDate>
+      </structuredDate>
+      <structuredDate>
+         <beginDate>1870</beginDate>
+         <endDate>1891</endDate>
+      </structuredDate>
+      <freeDate>1870-1891</freeDate>
+      <associatedName>
+         <nameElement>Church, Frederick Edwin</nameElement>
+         <dates>1826-1900, American</dates>
+         <role>former owner</role>
+         <alternativeName>Church, Frederic Edwin</alternativeName>
+      </associatedName>
+      <culture>
+         <term>American</term>
+      </culture>
+      <notes>Citation/references: http://www.olana.org/index.html</notes>
+      <notes>General: Historic site designed by landscape painter Frederick Church that consists of his house and 250 acres of grounds.  House was built 1870-1872 with Calvert Vaux as architect, and renovated 1885-1891.</notes>
+      <location>
+         <type>site</type>
+         <place>Hudson, Columbia, New York, United States</place>
+         <coordinates>
+            <latitude decimal="42.25"
+                      degree="42"
+                      minute="15"
+                      second="0"
+                      direction="N"/>
+            <longitude decimal="-73.7833"
+                       degree="73"
+                       minute="47"
+                       second="0"
+                       direction="W"/>
+         </coordinates>
+      </location>
+      <surrogate altComponentID="olvsurrogate935820" componentID="8011830">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:4824464">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:4824464"/>
+         </image>
+         <title>
+            <textElement>General plan</textElement>
+         </title>
+         <workType>digital image</workType>
+         <structuredDate>
+            <beginDate>1886</beginDate>
+            <endDate>1886</endDate>
+         </structuredDate>
+         <freeDate>1886</freeDate>
+         <dimensions>56.2*92.1cm</dimensions>
+         <associatedName>
+            <nameElement>Church, Frederic Joseph</nameElement>
+            <dates>1866-, American</dates>
+         </associatedName>
+         <materials>ink pencil watercolor on   paper</materials>
+         <notes>Note-General: Funding for this image is provided by the Aga Khan Program.</notes>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>d2011.09387</number>
+         </repository>
+      </surrogate>
+      <surrogate altComponentID="olvsurrogate933549" componentID="8011822">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:4741780">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:4741780"/>
+         </image>
+         <title>
+            <textElement>General plan</textElement>
+         </title>
+         <workType>digital image</workType>
+         <associatedName>
+            <nameElement>Church, Frederic Joseph</nameElement>
+            <dates>1866-, American</dates>
+         </associatedName>
+         <notes>Note-General: Funding for this image is provided by the Aga Khan Program.</notes>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>d2011.08433</number>
+         </repository>
+      </surrogate>
+      <surrogate altComponentID="olvsurrogate855040" componentID="8011809">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:3297338">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:3297338"/>
+         </image>
+         <title>
+            <textElement>Plan. Site plan of Olana, September 1886, by Frederic Joseph Church, collection Olana Historic Site</textElement>
+         </title>
+         <workType>digital image</workType>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>d2010.01902</number>
+         </repository>
+      </surrogate>
+      <surrogate altComponentID="olvsurrogate855017" componentID="8011786">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:3297315">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:3297315"/>
+         </image>
+         <title>
+            <textElement>House. Plan. East facade elevation, by Frederic Edwin Church, ca.1870 (from a photograph at Olana Historic Site)</textElement>
+         </title>
+         <workType>digital image</workType>
+         <associatedName>
+            <nameElement>Church, Frederick Edwin</nameElement>
+            <dates>1826-1900, American</dates>
+         </associatedName>
+         <topic>
+            <term>elevations (drawings)</term>
+         </topic>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>d2010.01879</number>
+         </repository>
+      </surrogate>
+      <surrogate altComponentID="olvsurrogate855019" componentID="8011788">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:3297317">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:3297317"/>
+         </image>
+         <title>
+            <textElement>House. Plan. East Facade elevation, by Frederic Edwin Church, watercolor, ink, and graphite on paper</textElement>
+         </title>
+         <workType>digital image</workType>
+         <associatedName>
+            <nameElement>Church, Frederick Edwin</nameElement>
+            <dates>1826-1900, American</dates>
+         </associatedName>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>d2010.01881</number>
+         </repository>
+      </surrogate>
+      <surrogate altComponentID="olvsurrogate855016" componentID="8011785">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:3297314">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:3297314"/>
+         </image>
+         <title>
+            <textElement>House. Plan. Southwest facade, elevation by Frederic Edwin Church, ca. 1870</textElement>
+         </title>
+         <workType>digital image</workType>
+         <associatedName>
+            <nameElement>Church, Frederick Edwin</nameElement>
+            <dates>1826-1900, American</dates>
+         </associatedName>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>d2010.01878</number>
+         </repository>
+      </surrogate>
+      <surrogate altComponentID="olvsurrogate933541" componentID="8011815">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:4741772">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:4741772"/>
+         </image>
+         <title>
+            <textElement>House. Plan. Southwest facade elevation, by Frederic Edwin Church, watercolor, ink, and graphite on paper, 33 x 55.7 cm., collection Olana State Historic Site</textElement>
+         </title>
+         <workType>digital image</workType>
+         <associatedName>
+            <nameElement>Church, Frederick Edwin</nameElement>
+            <dates>1826-1900, American</dates>
+         </associatedName>
+         <notes>Note-General: Funding for this image is provided by the Aga Khan Program.</notes>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>d2011.08425</number>
+         </repository>
+      </surrogate>
+      <surrogate altComponentID="olvsurrogate855018" componentID="8011787">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:3297316">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:3297316"/>
+         </image>
+         <title>
+            <textElement>House. Plan. Southwest facade elevation, by Frederic Edwin Church, watercolor, ink, and graphite on paper, 33 x 55.7 cm., collection Olana State Historic Site</textElement>
+         </title>
+         <workType>digital image</workType>
+         <associatedName>
+            <nameElement>Church, Frederick Edwin</nameElement>
+            <dates>1826-1900, American</dates>
+         </associatedName>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>d2010.01880</number>
+         </repository>
+      </surrogate>
+      <surrogate altComponentID="olvsurrogate855013" componentID="8011782">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:3297311">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:3297311"/>
+         </image>
+         <title>
+            <textElement>House. Sketch by Calvet Vaux: "Study for a House for F. E. Church, Esq., at Hudson, N.Y.," 1870, graphite on paper, 26 x 34.9 cm. (Collection Olana State Historic Site)</textElement>
+         </title>
+         <workType>digital image</workType>
+         <associatedName>
+            <nameElement>Vaux, Calvert</nameElement>
+            <dates>1824-1895, American</dates>
+         </associatedName>
+         <topic>
+            <term>sketches</term>
+         </topic>
+         <topic>
+            <term>projects</term>
+         </topic>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>d2010.01875</number>
+         </repository>
+      </surrogate>
+      <surrogate altComponentID="olvsurrogate855012" componentID="8011781">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:3297310">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:3297310"/>
+         </image>
+         <title>
+            <textElement>House. Sketch by Richard Morris Hunt: "Residence for F. E. Church," 1867 or 1869, graphite on paper, 39.7 x 58.3 cm., Olana State Historic Site</textElement>
+         </title>
+         <workType>digital image</workType>
+         <associatedName>
+            <nameElement>Hunt, Richard  Morris</nameElement>
+            <dates>1828-1895, American</dates>
+         </associatedName>
+         <topic>
+            <term>sketches</term>
+         </topic>
+         <topic>
+            <term>projects</term>
+         </topic>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>d2010.01874</number>
+         </repository>
+      </surrogate>
+      <surrogate altComponentID="olvsurrogate855014" componentID="8011783">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:3297312">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:3297312"/>
+         </image>
+         <title>
+            <textElement>House. Sketch: "Design for balustrade for the main staircase at Olana," by Frederic Edwin Church, Sept. 1873, graphte and ink on paper, 26.4 x 30.2 cm. collection Olana State Historic Site</textElement>
+         </title>
+         <workType>digital image</workType>
+         <associatedName>
+            <nameElement>Church, Frederick Edwin</nameElement>
+            <dates>1826-1900, American</dates>
+         </associatedName>
+         <topic>
+            <term>balustrades</term>
+         </topic>
+         <topic>
+            <term>sketches</term>
+         </topic>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>d2010.01876</number>
+         </repository>
+      </surrogate>
+      <surrogate altComponentID="olvsurrogate855015" componentID="8011784">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:3297313">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:3297313"/>
+         </image>
+         <title>
+            <textElement>House. Sketch: "Sunset at Olana" mingled with architectural details, Sept. 1873, graphite and ink on aper, 26.4 x 30.2 cm., collection Olana State Historic Site</textElement>
+         </title>
+         <workType>digital image</workType>
+         <associatedName>
+            <nameElement>Church, Frederick Edwin</nameElement>
+            <dates>1826-1900, American</dates>
+         </associatedName>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>d2010.01877</number>
+         </repository>
+      </surrogate>
+      <surrogate altComponentID="olvsurrogate855022" componentID="8011791">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:3297320">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:3297320"/>
+         </image>
+         <title>
+            <textElement>House. "Sketch of bay and tower, southwest facade, and moulding profiles, Olana," by F.E. Church, ca.1870-72, graphite on paper, 25.7 x 19.1 cm.</textElement>
+         </title>
+         <workType>digital image</workType>
+         <associatedName>
+            <nameElement>Church, Frederick Edwin</nameElement>
+            <dates>1826-1900, American</dates>
+         </associatedName>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>d2010.01884</number>
+         </repository>
+      </surrogate>
+      <surrogate altComponentID="olvsurrogate933543" componentID="8011817">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:4741774">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:4741774"/>
+         </image>
+         <title>
+            <textElement>House. Sketch. Architectural Sketch for Window, East Facade, ca.1870, watercolor on paper, 14 7/8 x 18 1/2", OL.1982.666-recto</textElement>
+         </title>
+         <workType>digital image</workType>
+         <associatedName>
+            <nameElement>Church, Frederick Edwin</nameElement>
+            <dates>1826-1900, American</dates>
+         </associatedName>
+         <associatedName>
+            <nameElement>Olana State Historic Site</nameElement>
+         </associatedName>
+         <notes>Note-General: Funding for this image is provided by the Aga Khan Program.</notes>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>d2011.08427</number>
+         </repository>
+      </surrogate>
+      <surrogate altComponentID="olvsurrogate855023" componentID="8011792">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:3297321">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:3297321"/>
+         </image>
+         <title>
+            <textElement>House. Sketch. "Four sketches for attic window and cornice, bay, southwest facade, Olana," by F.E. Church, ca.1870-72, graphite on paper, 25.7 x 19.1 cm., collection Olana Historic Site</textElement>
+         </title>
+         <workType>digital image</workType>
+         <associatedName>
+            <nameElement>Church, Frederick Edwin</nameElement>
+            <dates>1826-1900, American</dates>
+         </associatedName>
+         <topic>
+            <term>sketches</term>
+         </topic>
+         <topic>
+            <term>windows</term>
+         </topic>
+         <topic>
+            <term>cornices</term>
+         </topic>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>d2010.01885</number>
+         </repository>
+      </surrogate>
+      <surrogate altComponentID="olvsurrogate855024" componentID="8011793">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:3353720">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:3353720"/>
+         </image>
+         <title>
+            <textElement>House. Sketch. "Detail of attic window and cornice, bay, southwest facade," Olana by F.E. Church, ca.1870-72, oil and graphite on paper, 16.5 x 23.5 cm.</textElement>
+         </title>
+         <workType>digital image</workType>
+         <associatedName>
+            <nameElement>Church, Frederick Edwin</nameElement>
+            <dates>1826-1900, American</dates>
+         </associatedName>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>d2010.01886</number>
+         </repository>
+      </surrogate>
+      <surrogate altComponentID="olvsurrogate855025" componentID="8011794">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:3297323">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:3297323"/>
+         </image>
+         <title>
+            <textElement>House. Sketch. "Bay and cornice, southwest facade, Olana," ca.1870-72, oil and graphite on paper, 23.9 x 17.8 cm., collection Olana Historic site</textElement>
+         </title>
+         <workType>digital image</workType>
+         <associatedName>
+            <nameElement>Church, Frederick Edwin</nameElement>
+            <dates>1826-1900, American</dates>
+         </associatedName>
+         <topic>
+            <term>cornices</term>
+         </topic>
+         <topic>
+            <term>bays (building divisions)</term>
+         </topic>
+         <topic>
+            <term>paintings</term>
+         </topic>
+         <topic>
+            <term>sketches</term>
+         </topic>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>d2010.01887</number>
+         </repository>
+      </surrogate>
+      <surrogate altComponentID="olvsurrogate855028" componentID="8011797">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:3297326">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:3297326"/>
+         </image>
+         <title>
+            <textElement>House. Sketches. "Sketches for stencil borders, Olana," by F.E. Church, ca.1872-74, graphte on paper, 22 x 17.5 cm. collection Olana State Historic Site</textElement>
+         </title>
+         <workType>digital image</workType>
+         <associatedName>
+            <nameElement>Church, Frederick Edwin</nameElement>
+            <dates>1826-1900, American</dates>
+         </associatedName>
+         <topic>
+            <term>sketches</term>
+         </topic>
+         <topic>
+            <term>stencils</term>
+         </topic>
+         <topic>
+            <term>borders (ornamental areas)</term>
+         </topic>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>d2010.01890</number>
+         </repository>
+      </surrogate>
+      <surrogate altComponentID="olvsurrogate855029" componentID="8011798">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:3297327">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:3297327"/>
+         </image>
+         <title>
+            <textElement>House. Sketches. "Color swatch for principal rooms of the first story, Olana," by F.E. Church, ca.1872-74, oil and graphite on paper, 35.2 x 27.6 cm., collection Olana Historic Site</textElement>
+         </title>
+         <workType>digital image</workType>
+         <associatedName>
+            <nameElement>Church, Frederick Edwin</nameElement>
+            <dates>1826-1900, American</dates>
+         </associatedName>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>d2010.01891</number>
+         </repository>
+      </surrogate>
+      <surrogate altComponentID="olvsurrogate855030" componentID="8011799">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:3297328">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:3297328"/>
+         </image>
+         <title>
+            <textElement>House. Sketch. "Stencil cut out for central floral motif, double-leaf doors, Olana," by F.E. Church, 1873 or 1890, aluminum powder on paper, 25.1 x 16.5 cm., collection Olana State Historic Site</textElement>
+         </title>
+         <workType>digital image</workType>
+         <associatedName>
+            <nameElement>Church, Frederick Edwin</nameElement>
+            <dates>1826-1900, American</dates>
+         </associatedName>
+         <topic>
+            <term>stencils</term>
+         </topic>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>d2010.01892</number>
+         </repository>
+      </surrogate>
+      <surrogate altComponentID="olvsurrogate855031" componentID="8011800">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:3297329">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:3297329"/>
+         </image>
+         <title>
+            <textElement>House. Sketch. "Stenciled and painted mockup, Court Hall borders, Olana," by F.E. Church, oil on paper, 60.3 x 14.6 cm., collection Olana State Historic Site</textElement>
+         </title>
+         <workType>digital image</workType>
+         <associatedName>
+            <nameElement>Church, Frederick Edwin</nameElement>
+            <dates>1826-1900, American</dates>
+         </associatedName>
+         <topic>
+            <term>stencils</term>
+         </topic>
+         <topic>
+            <term>borders (ornamental areas)</term>
+         </topic>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>d2010.01893</number>
+         </repository>
+      </surrogate>
+      <surrogate altComponentID="olvsurrogate855032" componentID="8011801">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:3297330">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:3297330"/>
+         </image>
+         <title>
+            <textElement>House. Sketch. "Sketch for stencil border, Court Hall, Olana," by F.E. Church, 1870-1874, graphite on paper, 48.9 x 24.8 cm., collection Olana State Historic Site</textElement>
+         </title>
+         <workType>digital image</workType>
+         <associatedName>
+            <nameElement>Church, Frederick Edwin</nameElement>
+            <dates>1826-1900, American</dates>
+         </associatedName>
+         <topic>
+            <term>stencils</term>
+         </topic>
+         <topic>
+            <term>borders (ornamental areas)</term>
+         </topic>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>d2010.01894</number>
+         </repository>
+      </surrogate>
+      <surrogate altComponentID="olvsurrogate855033" componentID="8011802">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:3297331">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:3297331"/>
+         </image>
+         <title>
+            <textElement>House. Sketch. "Stencil cut out for border, double-leaf doors, Olana," by F. E. Church, ca. 1873, bronze powder on paper, 27.2 x 16.5 cm., collection Olana State Historic Site</textElement>
+         </title>
+         <workType>digital image</workType>
+         <associatedName>
+            <nameElement>Church, Frederick Edwin</nameElement>
+            <dates>1826-1900, American</dates>
+         </associatedName>
+         <topic>
+            <term>stencils</term>
+         </topic>
+         <topic>
+            <term>borders (ornamental areas)</term>
+         </topic>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>d2010.01895</number>
+         </repository>
+      </surrogate>
+      <surrogate altComponentID="olvsurrogate855034" componentID="8011803">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:3297332">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:3297332"/>
+         </image>
+         <title>
+            <textElement>House. Sketch. "Sketch for stencil decorations, dining room cornice, Olana," by F.E. Church, 1870-72, watercolor and craphte on paper, 23.2 x 30.5 cm. collection Olana State Historic Site</textElement>
+         </title>
+         <workType>digital image</workType>
+         <topic>
+            <term>cornices</term>
+         </topic>
+         <topic>
+            <term>stencils</term>
+         </topic>
+         <topic>
+            <term>watercolors</term>
+         </topic>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>d2010.01896</number>
+         </repository>
+      </surrogate>
+      <surrogate altComponentID="olvsurrogate855036" componentID="8011805">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:3297334">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:3297334"/>
+         </image>
+         <title>
+            <textElement>House. Sketch. "Sketch for stenciled decoration, dining room cornice, Olana," by F. E. Church, 1870-72, oil and graphite on paper, 37.2 x 39.2 cm., Olana State Historic Site</textElement>
+         </title>
+         <workType>digital image</workType>
+         <associatedName>
+            <nameElement>Church, Frederick Edwin</nameElement>
+            <dates>1826-1900, American</dates>
+         </associatedName>
+         <topic>
+            <term>stencils</term>
+         </topic>
+         <topic>
+            <term>borders (ornamental areas)</term>
+         </topic>
+         <topic>
+            <term>drawings</term>
+         </topic>
+         <topic>
+            <term>cornices</term>
+         </topic>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>d2010.01898</number>
+         </repository>
+      </surrogate>
+      <surrogate altComponentID="olvsurrogate855035" componentID="8011804">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:3297333">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:3297333"/>
+         </image>
+         <title>
+            <textElement>House. Sketch. "Sketch for stenciled decoration, dining room cornice, Olana," by F.E. Church, 1870-72, oil and graphite on paper, 16.8 x 45.4 cm., collection Olana State Historic Site</textElement>
+         </title>
+         <workType>digital image</workType>
+         <associatedName>
+            <nameElement>Church, Frederick Edwin</nameElement>
+            <dates>1826-1900, American</dates>
+         </associatedName>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>d2010.01897</number>
+         </repository>
+      </surrogate>
+      <surrogate altComponentID="olvsurrogate855037" componentID="8011806">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:3297335">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:3297335"/>
+         </image>
+         <title>
+            <textElement>House. Sketch. "Stencil cut out for ornament, dining room cornice, Olana," by F.E. Church, 1872, oil and graphite on paper, 37.2 x 39.2 cm., collection Olana State Historic Site</textElement>
+         </title>
+         <workType>digital image</workType>
+         <associatedName>
+            <nameElement>Church, Frederick Edwin</nameElement>
+            <dates>1826-1900, American</dates>
+         </associatedName>
+         <topic>
+            <term>stencils</term>
+         </topic>
+         <topic>
+            <term>ornaments</term>
+         </topic>
+         <topic>
+            <term>cornices</term>
+         </topic>
+         <topic>
+            <term>drawings</term>
+         </topic>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>d2010.01899</number>
+         </repository>
+      </surrogate>
+      <surrogate altComponentID="olvsurrogate855038" componentID="8011807">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:3297336">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:3297336"/>
+         </image>
+         <title>
+            <textElement>House. Sketch. "Perspective sketch of dining room / picture gallery, Olana," by F.E. Church, 1870-74, graphite on paper, 30.2 x 43.2 cm., collection Olana State Historic Site</textElement>
+         </title>
+         <workType>digital image</workType>
+         <associatedName>
+            <nameElement>Church, Frederick Edwin</nameElement>
+            <dates>1826-1900, American</dates>
+         </associatedName>
+         <topic>
+            <term>dining rooms</term>
+         </topic>
+         <topic>
+            <term>sketches</term>
+         </topic>
+         <topic>
+            <term>perspective drawings</term>
+         </topic>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>d2010.01900</number>
+         </repository>
+      </surrogate>
+      <surrogate altComponentID="olvsurrogate933535" componentID="8011811">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:4741766">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:4741766"/>
+         </image>
+         <title>
+            <textElement>Exterior. Aerial view of Olana, 2001</textElement>
+         </title>
+         <workType>digital image</workType>
+         <creator>
+            <nameElement>Ries, Stan</nameElement>
+            <dates>1970-2009, American</dates>
+            <role>photographer</role>
+            <alternativeName>Ries, Stan</alternativeName>
+         </creator>
+         <notes>Note-General: Funding for this image is provided by the Aga Khan Program.</notes>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>d2011.08419</number>
+         </repository>
+      </surrogate>
+      <surrogate altComponentID="olvsurrogate933537" componentID="8011813">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:4741768">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:4741768"/>
+         </image>
+         <title>
+            <textElement>Exterior. View of the House from across the Lake, 2008</textElement>
+         </title>
+         <workType>digital image</workType>
+         <creator>
+            <nameElement>Whitman, Nicholas</nameElement>
+            <dates>b.1954, American</dates>
+            <role>photographer</role>
+         </creator>
+         <notes>Note-General: Funding for this image is provided by the Aga Khan Program.</notes>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>d2011.08421</number>
+         </repository>
+      </surrogate>
+      <surrogate altComponentID="olvsurrogate935823" componentID="8011833">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:4824467">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:4824467"/>
+         </image>
+         <title>
+            <textElement>Exterior views. South front in late afternoon</textElement>
+         </title>
+         <workType>digital image</workType>
+         <structuredDate>
+            <beginDate>1984</beginDate>
+            <endDate>1984</endDate>
+         </structuredDate>
+         <freeDate>October 1984</freeDate>
+         <notes>Note-General: Funding for this image is provided by the Aga Khan Program.</notes>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>d2011.09390</number>
+         </repository>
+      </surrogate>
+      <surrogate altComponentID="olvsurrogate935824" componentID="8011834">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:4824468">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:4824468"/>
+         </image>
+         <title>
+            <textElement>Exterior views. Looking northwest from the circular carriage road.</textElement>
+         </title>
+         <workType>digital image</workType>
+         <structuredDate>
+            <beginDate>1985</beginDate>
+            <endDate>1985</endDate>
+         </structuredDate>
+         <freeDate>November, 1985</freeDate>
+         <notes>Note-General: Funding for this image is provided by the Aga Khan Program</notes>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>d2011.09391</number>
+         </repository>
+      </surrogate>
+      <surrogate altComponentID="olvsurrogate933546" componentID="8011820">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:4741777">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:4741777"/>
+         </image>
+         <title>
+            <textElement>Exterior views. East Facade of Olana, 2008</textElement>
+         </title>
+         <workType>digital image</workType>
+         <creator>
+            <nameElement>Whitman, Nicholas</nameElement>
+            <dates>b.1954, American</dates>
+            <role>photographer</role>
+         </creator>
+         <notes>Note-General: Funding for this image is provided by the Aga Khan Program.</notes>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>d2011.08430</number>
+         </repository>
+      </surrogate>
+      <surrogate altComponentID="olvsurrogate935825" componentID="8011835">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:4824469">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:4824469"/>
+         </image>
+         <title>
+            <textElement>Exterior views. North front in the snow</textElement>
+         </title>
+         <workType>digital image</workType>
+         <structuredDate>
+            <beginDate>1985</beginDate>
+            <endDate>1985</endDate>
+         </structuredDate>
+         <freeDate>December, 1985</freeDate>
+         <notes>Note-General: Funding for this image is provided by the Aga Khan Program.</notes>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>d2011.09392</number>
+         </repository>
+      </surrogate>
+      <surrogate altComponentID="olvsurrogate933552" componentID="8011824">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:4741783">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:4741783"/>
+         </image>
+         <title>
+            <textElement>Exterior views. South Facade of Olana with Studio Wing at Left, 2007</textElement>
+         </title>
+         <workType>digital image</workType>
+         <creator>
+            <nameElement>Manchester, Carri</nameElement>
+            <role>photographer</role>
+         </creator>
+         <notes>Note-General: Funding for this image is provided by the Aga Khan Program.</notes>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>d2011.08436</number>
+         </repository>
+      </surrogate>
+      <surrogate altComponentID="olvsurrogate935826" componentID="8011836">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:4824470">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:4824470"/>
+         </image>
+         <title>
+            <textElement>Exterior views. South front with the Studio Wing, looking northwest.</textElement>
+         </title>
+         <workType>digital image</workType>
+         <structuredDate>
+            <beginDate>1987</beginDate>
+            <endDate>1987</endDate>
+         </structuredDate>
+         <freeDate>September, 1987</freeDate>
+         <topic>
+            <term>awnings</term>
+         </topic>
+         <topic>
+            <term>awning windows</term>
+         </topic>
+         <notes>Note-General: Funding for this image is provided by the Aga Khan Program.</notes>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>d2011.09393</number>
+         </repository>
+      </surrogate>
+      <surrogate altComponentID="olvsurrogate935827" componentID="8011837">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:4824471">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:4824471"/>
+         </image>
+         <title>
+            <textElement>Exterior views. The south face of the bell tower from below</textElement>
+         </title>
+         <workType>digital image</workType>
+         <structuredDate>
+            <beginDate>1985</beginDate>
+            <endDate>1985</endDate>
+         </structuredDate>
+         <freeDate>July, 1985</freeDate>
+         <notes>Note-General: Funding for this image is provided by the Aga Khan Program.</notes>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>d2011.09394</number>
+         </repository>
+      </surrogate>
+      <surrogate altComponentID="olvsurrogate935828" componentID="8011838">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:4824472">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:4824472"/>
+         </image>
+         <title>
+            <textElement>Exterior views. Lunette over the east window of Church's bedroom</textElement>
+         </title>
+         <workType>digital image</workType>
+         <structuredDate>
+            <beginDate>1985</beginDate>
+            <endDate>1985</endDate>
+         </structuredDate>
+         <freeDate>October, 1985</freeDate>
+         <notes>Note-General: Funding for this image is provided by the Aga Khan Program.</notes>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>d2011.09395</number>
+         </repository>
+      </surrogate>
+      <surrogate altComponentID="olvsurrogate935829" componentID="8011839">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:4824473">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:4824473"/>
+         </image>
+         <title>
+            <textElement>Exterior views. South window and balcony of Mrs. Church's bedroom.</textElement>
+         </title>
+         <workType>digital image</workType>
+         <structuredDate>
+            <beginDate>1985</beginDate>
+            <endDate>1985</endDate>
+         </structuredDate>
+         <freeDate>July, 1985.</freeDate>
+         <notes>Note-General: Funding for this image is provided by the Aga Khan Program.</notes>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>d2011.09396</number>
+         </repository>
+      </surrogate>
+      <surrogate altComponentID="olvsurrogate935831" componentID="8011841">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:4824475">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:4824475"/>
+         </image>
+         <title>
+            <textElement>Exterior views. Carpet of dame's rocket in front of the house.</textElement>
+         </title>
+         <workType>digital image</workType>
+         <structuredDate>
+            <beginDate>1983</beginDate>
+            <endDate>1983</endDate>
+         </structuredDate>
+         <freeDate>June, 1983.</freeDate>
+         <notes>Note-General: Funding for this image is provided by the Aga Khan Program.</notes>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>d2011.09398</number>
+         </repository>
+      </surrogate>
+      <surrogate altComponentID="olvsurrogate935832" componentID="8011842">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:4824476">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:4824476"/>
+         </image>
+         <title>
+            <textElement>Exterior views. Dogwood in bloom near the north facade.</textElement>
+         </title>
+         <workType>digital image</workType>
+         <structuredDate>
+            <beginDate>1984</beginDate>
+            <endDate>1984</endDate>
+         </structuredDate>
+         <freeDate>May, 1984.</freeDate>
+         <notes>Note-General: Funding for this image is provided by the Aga Khan Program.</notes>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>d2011.09399</number>
+         </repository>
+      </surrogate>
+      <surrogate altComponentID="olvsurrogate935833" componentID="8011844">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:4824477">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:4824477"/>
+         </image>
+         <title>
+            <textElement>Exterior views. Early spring foliage from the lake road above the southern tip of the lake.</textElement>
+         </title>
+         <workType>digital image</workType>
+         <structuredDate>
+            <beginDate>1984</beginDate>
+            <endDate>1984</endDate>
+         </structuredDate>
+         <freeDate>May, 1984.</freeDate>
+         <notes>Note-General: Funding for this image is provided by the Aga Khan Program.</notes>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>d2011.09400</number>
+         </repository>
+      </surrogate>
+      <surrogate altComponentID="olvsurrogate840719" componentID="8011779">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:2895357">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:2895357"/>
+         </image>
+         <title>
+            <textElement>House. Exterior. Southeast corner (photographed by Nicholas Whitman, 2004)</textElement>
+         </title>
+         <workType>digital image</workType>
+         <creator>
+            <nameElement>Whitman, Nicholas</nameElement>
+            <dates>b.1954, American</dates>
+            <role>photographer</role>
+         </creator>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>d2009.12799</number>
+         </repository>
+      </surrogate>
+      <surrogate altComponentID="olvsurrogate855026" componentID="8011795">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:3297324">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:3297324"/>
+         </image>
+         <title>
+            <textElement>House. Exterior. Southwest facade. Bay (photographed in 1988)</textElement>
+         </title>
+         <workType>digital image</workType>
+         <topic>
+            <term>bays (building divisions)</term>
+         </topic>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>d2010.01888</number>
+         </repository>
+      </surrogate>
+      <surrogate altComponentID="olvsurrogate890194" componentID="8011810">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:4062810">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:4062810"/>
+         </image>
+         <title>
+            <textElement>House. Exterior. Detail of a window.</textElement>
+         </title>
+         <workType>digital image</workType>
+         <notes>Citation/References: Blair and Bloom, Islamic Art and Architecture 1250-1800, Pelican Volume II (1994), 20:389 ; Note-General: Funding for this image is provided by the Aga Khan Program.</notes>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>d2010.18004</number>
+         </repository>
+      </surrogate>
+      <surrogate altComponentID="olvsurrogate935800" componentID="8011828">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:4824461">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:4824461"/>
+         </image>
+         <title>
+            <textElement>Exterior view. Decorated bay and cornice, southwest façade</textElement>
+         </title>
+         <workType>digital image</workType>
+         <creator>
+            <nameElement>Whitman, Nicholas</nameElement>
+            <dates>b.1954, American</dates>
+            <role>photographer</role>
+         </creator>
+         <structuredDate>
+            <beginDate>2001</beginDate>
+            <endDate>2001</endDate>
+         </structuredDate>
+         <freeDate>2001</freeDate>
+         <topic>
+            <term>Orientalism</term>
+         </topic>
+         <materials>photography</materials>
+         <notes>Note-General: Funding for this image is provided by the Aga Khan Program.</notes>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>d2011.09384</number>
+         </repository>
+      </surrogate>
+      <surrogate altComponentID="olvsurrogate935793" componentID="8011827">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:4824454">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:4824454"/>
+         </image>
+         <title>
+            <textElement>House. Interior. Historical. The Court Hall</textElement>
+         </title>
+         <workType>digital image</workType>
+         <structuredDate>
+            <beginDate>1880</beginDate>
+            <endDate>1890</endDate>
+         </structuredDate>
+         <freeDate>1880-90</freeDate>
+         <topic>
+            <term>interior views</term>
+         </topic>
+         <topic>
+            <term>photography</term>
+         </topic>
+         <topic>
+            <term>Orientalism</term>
+         </topic>
+         <materials>albumen process</materials>
+         <notes>Attribution: Unknown photographer ; Note-General: Funding for this image is provided by the Aga Khan Program.</notes>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>d2011.09377</number>
+         </repository>
+      </surrogate>
+      <surrogate altComponentID="olvsurrogate935821" componentID="8011831">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:4824465">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:4824465"/>
+         </image>
+         <title>
+            <textElement>House. Interior. Historical. The Court Hall</textElement>
+         </title>
+         <workType>digital image</workType>
+         <structuredDate>
+            <beginDate>1884</beginDate>
+            <endDate>1884</endDate>
+         </structuredDate>
+         <freeDate>1884</freeDate>
+         <notes>Note-General: Funding for this image is provided by the Aga Khan Program.</notes>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>d2011.09388</number>
+         </repository>
+      </surrogate>
+      <surrogate altComponentID="olvsurrogate933547" componentID="8011821">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:4741778">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:4741778"/>
+         </image>
+         <title>
+            <textElement>House. Interior. The Court Hall, 2008</textElement>
+         </title>
+         <workType>digital image</workType>
+         <creator>
+            <nameElement>Whitman, Nicholas</nameElement>
+            <dates>b.1954, American</dates>
+            <role>photographer</role>
+         </creator>
+         <notes>Note-General: Funding for this image is provided by the Aga Khan Program.</notes>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>d2011.08431</number>
+         </repository>
+      </surrogate>
+      <surrogate altComponentID="olvsurrogate935822" componentID="8011832">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:4824466">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:4824466"/>
+         </image>
+         <title>
+            <textElement>House. Interior. The sitting room</textElement>
+         </title>
+         <workType>digital image</workType>
+         <structuredDate>
+            <beginDate>1988</beginDate>
+            <endDate>1988</endDate>
+         </structuredDate>
+         <freeDate>1988</freeDate>
+         <notes>Note-General: Funding for this image is provided by the Aga Khan Program.</notes>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>d2011.09389</number>
+         </repository>
+      </surrogate>
+      <surrogate altComponentID="olvsurrogate935801" componentID="8011829">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:4824462">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:4824462"/>
+         </image>
+         <title>
+            <textElement>House. Interior. Entry door, east façade</textElement>
+         </title>
+         <workType>digital image</workType>
+         <creator>
+            <nameElement>Whitman, Nicholas</nameElement>
+            <dates>b.1954, American</dates>
+            <role>photographer</role>
+         </creator>
+         <structuredDate>
+            <beginDate>2001</beginDate>
+            <endDate>2001</endDate>
+         </structuredDate>
+         <freeDate>2001</freeDate>
+         <topic>
+            <term>Orientalism</term>
+         </topic>
+         <materials>photography</materials>
+         <notes>Note-General: Funding for this image is provided by the Aga Khan Program.</notes>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>d2011.09385</number>
+         </repository>
+      </surrogate>
+      <surrogate altComponentID="olvsurrogate933542" componentID="8011816">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:4741773">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:4741773"/>
+         </image>
+         <title>
+            <textElement>Interior views. View South through the Ombra at Olana, 1988</textElement>
+         </title>
+         <workType>digital image</workType>
+         <creator>
+            <nameElement>Jenshel, Len</nameElement>
+            <role>photographer</role>
+         </creator>
+         <notes>Note-General: Funding for this image is provided by the Aga Khan Program.</notes>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>d2011.08426</number>
+         </repository>
+      </surrogate>
+      <surrogate altComponentID="olvsurrogate933545" componentID="8011819">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:4741776">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:4741776"/>
+         </image>
+         <title>
+            <textElement>Interior views. View South through the Bell Tower at Olana, 2008</textElement>
+         </title>
+         <workType>digital image</workType>
+         <creator>
+            <nameElement>Whitman, Nicholas</nameElement>
+            <dates>b.1954, American</dates>
+            <role>photographer</role>
+         </creator>
+         <notes>Note-General: Funding for this image is provided by the Aga Khan Program.</notes>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>d2011.08429</number>
+         </repository>
+      </surrogate>
+      <surrogate altComponentID="olvsurrogate935830" componentID="8011840">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:4824474">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:4824474"/>
+         </image>
+         <title>
+            <textElement>Interior views. Interior of the bell tower looking southeast</textElement>
+         </title>
+         <workType>digital image</workType>
+         <structuredDate>
+            <beginDate>1985</beginDate>
+            <endDate>1985</endDate>
+         </structuredDate>
+         <freeDate>November, 1985.</freeDate>
+         <notes>Note-General: Funding for this image is provided by the Aga Khan Program.</notes>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>d2011.09397</number>
+         </repository>
+      </surrogate>
+      <surrogate altComponentID="olvsurrogate933544" componentID="8011818">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:4741775">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:4741775"/>
+         </image>
+         <title>
+            <textElement>Interior views. Sitting Room at Olana with View of the Hudson, 2008</textElement>
+         </title>
+         <workType>digital image</workType>
+         <creator>
+            <nameElement>Whitman, Nicholas</nameElement>
+            <dates>b.1954, American</dates>
+            <role>photographer</role>
+         </creator>
+         <notes>Note-General: Funding for this image is provided by the Aga Khan Program.</notes>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>d2011.08428</number>
+         </repository>
+      </surrogate>
+      <surrogate altComponentID="olvsurrogate840718" componentID="8011778">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:2895356">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:2895356"/>
+         </image>
+         <title>
+            <textElement>House. Interior. Sitting room, with the painting "El Khasné, Petra" over the fireplace. (photographed by Kurt Dolnier, 1997)</textElement>
+         </title>
+         <workType>digital image</workType>
+         <creator>
+            <nameElement>Dolnier, Kurt</nameElement>
+            <role>photographer</role>
+         </creator>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>d2009.12798</number>
+         </repository>
+      </surrogate>
+      <surrogate altComponentID="olvsurrogate855020" componentID="8011789">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:3297318">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:3297318"/>
+         </image>
+         <title>
+            <textElement>House. Interior. East parlor (photographed 1982). Stenciled door on right is an adaptation of Jules's Bourgoin's "Porte de L'Eglise de St. Jacques des Armeniens, à Jerusalem," Pl. 27 from "Les Arts Arabes," 1868</textElement>
+         </title>
+         <workType>digital image</workType>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>d2010.01882</number>
+         </repository>
+      </surrogate>
+      <surrogate altComponentID="olvsurrogate855021" componentID="8011790">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:3297319">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:3297319"/>
+         </image>
+         <title>
+            <textElement>House. Interior. Comparative material: Jules's Bourgoin's "Porte de L'Eglise de St. Jacques des Armeniens, à Jerusalem," Pl. 27 from "Les Arts Arabes," 1868, used as a model for a stenciled door in east parlor at Olana</textElement>
+         </title>
+         <workType>digital image</workType>
+         <associatedName>
+            <nameElement>Bourgoin, Jules</nameElement>
+            <dates>b.1838, French</dates>
+         </associatedName>
+         <topic>
+            <term>doors</term>
+         </topic>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>d2010.01883</number>
+         </repository>
+      </surrogate>
+      <surrogate altComponentID="olvsurrogate855039" componentID="8011808">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:3297337">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:3297337"/>
+         </image>
+         <title>
+            <textElement>House. Interior. Dining room picture gallery, 11 October 1884, photographed by Robert and Emily de Forest, collection Olana State Historic Site</textElement>
+         </title>
+         <workType>digital image</workType>
+         <topic>
+            <term>dining rooms</term>
+         </topic>
+         <topic>
+            <term>galleries (display spaces)</term>
+         </topic>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>d2010.01901</number>
+         </repository>
+      </surrogate>
+      <surrogate altComponentID="olvsurrogate933540" componentID="8011814">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:4741771">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:4741771"/>
+         </image>
+         <title>
+            <textElement>House. Interior. Dining Room at Olana with Old Master Paintings, 2003</textElement>
+         </title>
+         <workType>digital image</workType>
+         <creator>
+            <nameElement>Whitman, Nicholas</nameElement>
+            <dates>b.1954, American</dates>
+            <role>photographer</role>
+         </creator>
+         <notes>Note-General: Funding for this image is provided by the Aga Khan Program.</notes>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>d2011.08424</number>
+         </repository>
+      </surrogate>
+      <surrogate altComponentID="olvsurrogate840741" componentID="8011780">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:2895379">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:2895379"/>
+         </image>
+         <title>
+            <textElement>House. Interior. Double-leaf doors leading from vestibule to the picture gallery</textElement>
+         </title>
+         <workType>digital image</workType>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>d2009.12821</number>
+         </repository>
+      </surrogate>
+      <surrogate altComponentID="olvsurrogate933553" componentID="8011825">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:4741784">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:4741784"/>
+         </image>
+         <title>
+            <textElement>House. Interior. The Studio at Olana, 2008</textElement>
+         </title>
+         <workType>digital image</workType>
+         <creator>
+            <nameElement>Whitman, Nicholas</nameElement>
+            <dates>b.1954, American</dates>
+            <role>photographer</role>
+         </creator>
+         <notes>Note-General: Funding for this image is provided by the Aga Khan Program.</notes>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>d2011.08437</number>
+         </repository>
+      </surrogate>
+      <surrogate altComponentID="olvsurrogate933551" componentID="8011823">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:4741782">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:4741782"/>
+         </image>
+         <title>
+            <textElement>House. Interior. Mexican Pot, Persian Tiled Fireplace, and Indian Carved Teakwood Mantel in the Studio of Olana, 2008</textElement>
+         </title>
+         <workType>digital image</workType>
+         <creator>
+            <nameElement>Whitman, Nicholas</nameElement>
+            <dates>b.1954, American</dates>
+            <role>photographer</role>
+         </creator>
+         <notes>Note-General: Funding for this image is provided by the Aga Khan Program.</notes>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>d2011.08435</number>
+         </repository>
+      </surrogate>
+      <surrogate altComponentID="olvsurrogate840716" componentID="8011777">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:2895354">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:2895354"/>
+         </image>
+         <title>
+            <textElement>Grounds. (photographed by Nicholas Whitman, 2001)</textElement>
+         </title>
+         <workType>digital image</workType>
+         <creator>
+            <nameElement>Whitman, Nicholas</nameElement>
+            <dates>b.1954, American</dates>
+            <role>photographer</role>
+         </creator>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>d2009.12796</number>
+         </repository>
+      </surrogate>
+      <surrogate altComponentID="olvsurrogate933536" componentID="8011812">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:4741767">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:4741767"/>
+         </image>
+         <title>
+            <textElement>Grounds. View from the Court Hall, South throught the Ombra, 2001</textElement>
+         </title>
+         <workType>digital image</workType>
+         <creator>
+            <nameElement>Whitman, Nicholas</nameElement>
+            <dates>b.1954, American</dates>
+            <role>photographer</role>
+         </creator>
+         <notes>Note-General: Funding for this image is provided by the Aga Khan Program.</notes>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>d2011.08420</number>
+         </repository>
+      </surrogate>
+      <surrogate altComponentID="olvsurrogate855027" componentID="8011796">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:3297325">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:3297325"/>
+         </image>
+         <title>
+            <textElement>Grounds from house. View from the Court Hall, through the Ombra, to the Hudson River and Catskill Mountains beyond, 1982</textElement>
+         </title>
+         <workType>digital image</workType>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>d2010.01889</number>
+         </repository>
+      </surrogate>
+      <surrogate componentID="24168381">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:40988331">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:40988331"/>
+         </image>
+         <title>
+            <textElement>Interior. Great (court) Hall, note Dragon Sileh/Reyhanli ki Muslim portieres</textElement>
+         </title>
+         <classification>
+            <number>182  H 8672  4Ol(i)</number>
+         </classification>
+         <workType>color slide</workType>
+         <topic>
+            <term>interior views</term>
+         </topic>
+         <topic>
+            <term>detail views</term>
+         </topic>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>1989.17093</number>
+         </repository>
+      </surrogate>
+      <surrogate componentID="24168383">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:40988333">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:40988333"/>
+         </image>
+         <title>
+            <textElement>Interior. Studio, note Bijar kilim, Resht embroidery + Kashmir shawl</textElement>
+         </title>
+         <classification>
+            <number>182  H 8672  4Ol(i)</number>
+         </classification>
+         <workType>color slide</workType>
+         <topic>
+            <term>interior views</term>
+         </topic>
+         <topic>
+            <term>detail views</term>
+         </topic>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>1989.18563</number>
+         </repository>
+      </surrogate>
+      <surrogate componentID="24168409">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:40988347">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:40988347"/>
+         </image>
+         <title>
+            <textElement>Interior. Great hall</textElement>
+         </title>
+         <classification>
+            <number>182  H 8672  4Ol(i)</number>
+         </classification>
+         <workType>color slide</workType>
+         <topic>
+            <term>interior views</term>
+         </topic>
+         <topic>
+            <term>detail views</term>
+         </topic>
+         <topic>
+            <term>stairs</term>
+         </topic>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>1530.00298</number>
+         </repository>
+      </surrogate>
+      <surrogate componentID="24168274">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:40988289">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:40988289"/>
+         </image>
+         <title>
+            <textElement>Exterior. View through arch</textElement>
+         </title>
+         <classification>
+            <number>182  H 8672  4Ol</number>
+         </classification>
+         <workType>color slide</workType>
+         <topic>
+            <term>exterior views</term>
+         </topic>
+         <topic>
+            <term>detail views</term>
+         </topic>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>1981.13434</number>
+         </repository>
+      </surrogate>
+      <surrogate componentID="24168384">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:40988335">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:40988335"/>
+         </image>
+         <title>
+            <textElement>Exterior. View of east facade</textElement>
+         </title>
+         <classification>
+            <number>182  H 8672  4 Ol</number>
+         </classification>
+         <workType>color slide</workType>
+         <topic>
+            <term>general views</term>
+         </topic>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>1989.18564</number>
+         </repository>
+      </surrogate>
+      <surrogate componentID="24168403">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:40988341">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:40988341"/>
+         </image>
+         <title>
+            <textElement>Exterior. Entrance</textElement>
+         </title>
+         <classification>
+            <number>182  H 8672  4 Ol</number>
+         </classification>
+         <workType>color slide</workType>
+         <topic>
+            <term>exterior views</term>
+         </topic>
+         <topic>
+            <term>detail views</term>
+         </topic>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>1993.16083</number>
+         </repository>
+      </surrogate>
+      <surrogate componentID="24168404">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:40988343">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:40988343"/>
+         </image>
+         <title>
+            <textElement>Exterior. Facade</textElement>
+         </title>
+         <classification>
+            <number>182  H 8672  4 Ol</number>
+         </classification>
+         <workType>color slide</workType>
+         <topic>
+            <term>exterior views</term>
+         </topic>
+         <topic>
+            <term>general views</term>
+         </topic>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>1993.16084</number>
+         </repository>
+      </surrogate>
+      <surrogate componentID="24168405">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:40988345">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:40988345"/>
+         </image>
+         <classification>
+            <number>182  H 8672  4 Ol</number>
+         </classification>
+         <workType>color slide</workType>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>1993.16085</number>
+         </repository>
+      </surrogate>
+      <surrogate componentID="24168706">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:41012587">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:41012587"/>
+         </image>
+         <title>
+            <textElement>Exterior. General view</textElement>
+         </title>
+         <classification>
+            <number>182  H 8672  4Ol</number>
+         </classification>
+         <workType>color slide</workType>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>1981.13435</number>
+         </repository>
+      </surrogate>
+      <surrogate componentID="24168707">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:41012589">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:41012589"/>
+         </image>
+         <title>
+            <textElement>Exterior. General view</textElement>
+         </title>
+         <classification>
+            <number>182  H 8672  4Ol</number>
+         </classification>
+         <workType>color slide</workType>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>1981.13436</number>
+         </repository>
+      </surrogate>
+      <surrogate componentID="24168735">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:41012601">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:41012601"/>
+         </image>
+         <title>
+            <textElement>Exterior. General view</textElement>
+         </title>
+         <classification>
+            <number>182  H 8672  4Ol</number>
+         </classification>
+         <workType>color slide</workType>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>1981.16849</number>
+         </repository>
+      </surrogate>
+      <surrogate componentID="24168736">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:41012603">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:41012603"/>
+         </image>
+         <title>
+            <textElement>Exterior. General view</textElement>
+         </title>
+         <classification>
+            <number>182  H 8672  4Ol</number>
+         </classification>
+         <workType>color slide</workType>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>1981.16850</number>
+         </repository>
+      </surrogate>
+      <surrogate componentID="24169155">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:41012701">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:41012701"/>
+         </image>
+         <title>
+            <textElement>Exterior. View</textElement>
+         </title>
+         <classification>
+            <number>182  H 8672  4 Ol</number>
+         </classification>
+         <workType>color slide</workType>
+         <topic>
+            <term>distant views</term>
+         </topic>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>1530.00304</number>
+         </repository>
+      </surrogate>
+      <surrogate altComponentID="olvsurrogate935790" componentID="8011826">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:4824451">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:4824451"/>
+         </image>
+         <title>
+            <textElement>View west from studio</textElement>
+         </title>
+         <workType>digital image</workType>
+         <creator>
+            <nameElement>Whitman, Nicholas</nameElement>
+            <dates>b.1954, American</dates>
+            <role>photographer</role>
+         </creator>
+         <freeDate>2001</freeDate>
+         <materials>photography</materials>
+         <notes>Note-General: Funding for this image is provided by the Aga Khan Program.</notes>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>d2011.09374</number>
+         </repository>
+      </surrogate>
+   </work>
+   <admin>
+      <createDate>2014-12-28</createDate>
+      <updateNote>
+         <updateDate>2020/06/29 08:53:24</updateDate>
+      </updateNote>
+   </admin>
+</viaRecord>

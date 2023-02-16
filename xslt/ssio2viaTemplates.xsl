@@ -349,7 +349,7 @@
                 />
             </xsl:element>
             <xsl:apply-templates select="//ssn:Name[@conceptId = $assocnameid]" mode="namerec"/>
-            <!--<xsl:element name="role"><xsl:text>photographer</xsl:text></xsl:element>-->
+            <xsl:apply-templates select="//ssn:Name[@conceptId = $assocnameid]" mode="altnames"/>
         </xsl:element>
     </xsl:template>
 
@@ -368,6 +368,7 @@
             <xsl:apply-templates
                 select="//tgn:TGN[tgn:latitude | tgn:longitude | tgn:altitude | tgn:bearing][@subjectId = $linkingid]"
             />
+            <xsl:apply-templates select="//ssn:Name[@conceptId = $linkingid]" mode="altnames"/>
         </xsl:element>
     </xsl:template>
 
@@ -851,6 +852,7 @@
             <xsl:element name="role">
                 <xsl:value-of select="@type_lkup"/>
             </xsl:element>
+            <xsl:apply-templates select="//ssn:Name[@conceptId = $agentid]" mode="altnames"/>
         </xsl:element>
     </xsl:template>
 
@@ -1198,6 +1200,7 @@
                 <!--<xsl:value-of select="//ssn:Name[@conceptId=$repositoryid]/Nationalities/Nationality[@preferred='true']/@name"/>-->
             </xsl:element>
             <xsl:apply-templates select="ssw:RefIdDetail"/>
+            <xsl:apply-templates select="//ssn:Name[@conceptId = $repositoryid]" mode="altnames"/>
         </xsl:element>
     </xsl:template>
 
@@ -1222,6 +1225,7 @@
             <xsl:element name="role">
                 <xsl:value-of select="@type_lkup"/>
             </xsl:element>
+            <xsl:apply-templates select="//ssn:Name[@conceptId = $agentid]" mode="altnames"/>
         </xsl:element>
     </xsl:template>
 
