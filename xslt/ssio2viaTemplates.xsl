@@ -926,11 +926,16 @@
     </xsl:template>
 
     <xsl:template match="Subjects/Subject[not(@type_lkup)]">
+        <xsl:variable name="linkingid">
+            <xsl:value-of select="./@id"/>
+        </xsl:variable>
         <!-- don't forget source -->
         <xsl:element name="topic">
             <xsl:element name="term">
                 <xsl:value-of select="@term"/>
             </xsl:element>
+            <xsl:apply-templates
+                select="//tgn:TGN[tgn:latitude | tgn:longitude | tgn:altitude | tgn:bearing][@subjectId = $linkingid]"/>
         </xsl:element>
     </xsl:template>
 
