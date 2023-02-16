@@ -1,0 +1,277 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<SharedShelf xmlns:display="http://catalog.sharedshelf.artstor.org/display"
+  xmlns:ssc="http://catalog.sharedshelf.artstor.org/ssc"
+  xmlns:ssd="http://catalog.sharedshelf.artstor.org/ssd"
+  xmlns:ssn="http://catalog.sharedshelf.artstor.org/ssn"
+  xmlns:ssw="http://catalog.sharedshelf.artstor.org/ssw"
+  xmlns:ssw_lkup="http://catalog.sharedshelf.artstor.org/ssw_lkup"
+  xmlns:tgn="http://catalog.sharedshelf.artstor.org/tgn"
+  xmlns:aat="http://catalog.sharedshelf.artstor.org/aat"
+  xmlns:mfcl="http://catalog.sharedshelf.artstor.org/mfcl"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="http://catalog.sharedshelf.artstor.org"
+  xsi:schemaLocation="http://catalog.sharedshelf.artstor.org http://catalog.sharedshelf.artstor.org/service/schema/SharedShelf_IO.xsd">
+  <ssw:Work lastUpdateDate="2022/11/02 12:04:02" id="8001694596" refid="8001694596"
+    contributor="Harvard" instituteId="10003" uri="http://forum.jstor.org/oai/ssw/8001694596">
+    <Titles xmlns="" tempered="false">
+      <Display>View of the city of Marrakech (formerly Maroc) ; Original: Vue de la ville de Maroc, dessin de A. Bérard d'après Jackson</Display>
+      <Title term="View of the city of Marrakech (formerly Maroc)"/>
+      <Title term="Vue de la ville de Maroc, dessin de A. Bérard d'après Jackson"
+        type_lkup="original" type_lkup_id="11309170"/>
+    </Titles>
+    <WorkTypes xmlns="" tempered="true">
+      <Display>prints</Display>
+      <WorkType id="11316955" vocab="MFCL" term="prints"
+        uri="http://forum.jstor.org/oai/MFCL/11316955"/>
+    </WorkTypes>
+    <Techniques xmlns="" tempered="true">
+      <Display>engraving (printing process)</Display>
+      <Technique id="11315750" vocab="MFCL" term="engraving (printing process)"
+        uri="http://forum.jstor.org/oai/MFCL/11315750"/>
+    </Techniques>
+    <Subjects xmlns="" tempered="true">
+      <Display>Marakesh (inhabited place); Marrakech, Marrakech-Tensift-El Haouz, Morocco; cities; landscapes (representations)</Display>
+      <Subject id="7000354" vocab="TGN" term="Marakesh (inhabited place)"
+        type_lkup="associated site" type_lkup_id="11309060"
+        uri="http://forum.jstor.org/oai/TGN/7000354"/>
+      <Subject id="4000011951" vocab="TGN" term="Marrakech, Marrakech-Tensift-El Haouz, Morocco"
+        type_lkup="associated site" type_lkup_id="11309060"
+        uri="http://forum.jstor.org/oai/TGN/4000011951"/>
+      <Subject id="11298801" vocab="MFCL" term="cities"
+        uri="http://forum.jstor.org/oai/MFCL/11298801"/>
+      <Subject id="11300129" vocab="MFCL" term="landscapes (representations)"
+        uri="http://forum.jstor.org/oai/MFCL/11300129"/>
+    </Subjects>
+    <Cultures xmlns="" tempered="true">
+      <Display>French</Display>
+      <Culture id="11281483" vocab="MFCL" term="French"
+        uri="http://forum.jstor.org/oai/MFCL/11281483"/>
+    </Cultures>
+    <Dates xmlns="" tempered="false">
+      <Display>1860 (publication date)</Display>
+      <Date startDate="1860" endDate="1860" type_lkup="workDate"/>
+      <Date startDate="1860" endDate="1860"/>
+    </Dates>
+    <ArtstorClassifications xmlns="" tempered="true">
+      <ArtstorClassification id="11309252" term_lkup="Prints"/>
+    </ArtstorClassifications>
+    <Agents xmlns="" tempered="true">
+      <Display>Bérard, Auguste de (French artist, 1824-1881) printmaker</Display>
+      <Agent id="9000725944" vocab="SSN" term="Bérard, Auguste de" role_lkup="printmaker"
+        role_lkup_id="11309520" uri="http://forum.jstor.org/oai/SSN/9000725944"/>
+    </Agents>
+    <Notes xmlns="" tempered="true">
+      <Display>Appeared in "Le tour du monde : nouveau journal des voyages," Paris: Libraire de L. Hachette, v. 1, 1860, p. 213. Journal held by Harvard's Widener Library, call number KH 395</Display>
+      <Note
+        term="Appeared in &quot;Le tour du monde : nouveau journal des voyages,&quot; Paris: Libraire de L. Hachette, v. 1, 1860, p. 213. Journal held by Harvard's Widener Library, call number KH 395"
+        type_lkup="General" type_lkup_id="11309122"/>
+    </Notes>
+    <LocalInformation xmlns=""/>
+    <RelatedWorks xmlns=""/>
+    <display:DR id="34101893" representationId="drs:URN-3:FHCL:102358344"
+      lastUpdateDate="2022-11-02T17:48:23+00:00" sequence="1" primary="true" projectId="817"
+      institutionId="10003" createdBy="christopher_hyde@harvard.edu"
+      updatedBy="wsconnor@fas.harvard.edu" createdDate="2022-10-12T10:03:10+00:00">
+      <DisplayRecord xmlns="">
+        <field_string id="fd_37141_s" description="None" label="Image Date" value=""/>
+        <field_string id="fd_37166_s" description="None" label="Image Requester"
+          value="Hannoosh-Steinberg, Amanda"/>
+        <field_string id="fd_37178_s" description="None" label="Image Source Date" value=""/>
+        <field_string id="fd_37181_s" description="None" label="Image Source Call Numbers"
+          value="KH 395"/>
+        <field_string id="fd_37183_s" description="None" label="Image Source Record Created By"
+          value="CJH"/>
+        <field_string id="fd_37177_s" description="None" label="Image Source Publication Date"
+          value=""/>
+        <field_string id="fd_37175_s" description="None" label="Image Source Place Of Publication"
+          value="Paris"/>
+        <field_string id="fd_37152_s" description="None" label="Image Measurements" value=""/>
+        <field_string id="fd_37160_s" description="None" label="In House Notes" value=""/>
+        <field_string id="fd_37159_s" description="None" label="Image Notes" value=""/>
+        <field_string id="fd_37148_s" description="None" label="Image Classification Number"
+          value=""/>
+        <field_string id="fd_37187_s" description="None" label="Page Plate Number" value="213"/>
+        <field_string id="fd_37170_s" description="None" label="Image Provider" value=""/>
+        <field_string id="fd_37146_an" description="None" label="Image Accession Number"
+          value="d2023.02538"/>
+        <field_string id="fd_37147_s" description="None" label="Image Accession Date" value=""/>
+        <field_string id="fd_37157_s" description="None" label="Image Rights" value=""/>
+        <field_string id="fd_37151_s" description="None" label="Image Start Year" value=""/>
+        <field_string id="fd_37174_s" description="None" label="Image Source Edition" value=""/>
+        <field_string id="fd_37182_s" description="None" label="Image Source Notes" value=""/>
+        <field_string id="fd_37186_s" description="None" label="Year" value="1860"/>
+        <field_string id="fd_37180_s" description="None" label="Image Source Reference Number"
+          value=""/>
+        <field_string id="fd_37158_s" description="None" label="Image Credit" value="AV"/>
+        <field_string id="fd_37171_s" description="None" label="Image Source Title"
+          value="Le tour du monde : nouveau journal des voyages"/>
+        <field_string id="fd_37172_s" description="None" label="Image Source Alternate Title"
+          value=""/>
+        <field_string id="fd_37173_s" description="None" label="Image Source Author" value=""/>
+        <field_string id="fd_37184_s" description="None" label="Volume" value="v. 1 "/>
+        <field_string id="fd_37119_s" description="None" label="Image View Type" value=""/>
+        <field_string id="fd_37118_s" description="None" label="Image View Description"
+          value="Total"/>
+        <field_string id="fd_37145_s" description="None" label="Image Collection" value=""/>
+        <field_string id="fd_37163_s" description="None" label="Additional Formats" value=""/>
+        <field_string id="fd_37168_s" description="None" label="Image Source ID" value=""/>
+        <field_string id="fd_37179_s" description="None" label="Image Source Series Title" value=""/>
+        <field_string id="fd_37185_s" description="None" label="Issue Number" value=""/>
+        <field_string id="fd_37153_s" description="None" label="Image End Year" value=""/>
+        <field_string id="fd_37176_s" description="None" label="Image Source Publisher"
+          value="Libraire de L. Hachette"/>
+        <field_string id="fd_37164_s" description="None" label="Olivia ID" value=""/>
+        <field_string id="fd_37132_s" description="None" label="Latitude" value=""/>
+        <field_string id="fd_37133_s" description="None" label="Longitude" value=""/>
+        <field_string id="fd_37134_s" description="None" label="Elevation" value=""/>
+        <field_string id="fd_37165_s" description="None" label="Olivia Record Info" value=""/>
+        <field_date id="fd_37167_dt" description="None" label="Image Request Date"
+          value="2022-10-12T12:00:00+00:00"/>
+        <field_boolean id="fd_37161_b" description="None" label="Send To Harvard" value="true"/>
+        <field_lookup id="fd_37169_mfcl_lookup" description="None" label="Image Source Type">
+          <display>Journal/series</display>
+          <linkedField id="11324235" revision="-1" source_id="11324235"
+            preferredTerm="Journal/series">
+            <allTerms>Journal/series</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_37189_lookup" description="None" label="Image Technique">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_37154_lookup" description="None" label="Image Materials">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_37156_lookup" description="None" label="Image Subject">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_37150_lookup" description="None" label="Image Associated Name">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_37155_lookup" description="None" label="Image Support">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_37140_lookup" description="None" label="Photographer">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_37144_lookup" description="None" label="Image Repository">
+          <display>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</display>
+          <linkedField id="9000369831" revision="-1" source_id="9000369831"
+            preferredTerm="Harvard Fine Arts Library, Digital Images &amp; Slides Collection"
+            conceptLevel="Local" institutionName="Harvard"
+            uri="http://forum.jstor.org/oai/SSN/9000369831">
+            <allTerms>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_37149_mfcl_lookup" description="None" label="Image Type">
+          <display>digital image</display>
+          <linkedField id="11319122" revision="-1" source_id="11319122"
+            preferredTerm="digital image">
+            <allTerms>digital image</allTerms>
+          </linkedField>
+        </field_lookup>
+      </DisplayRecord>
+      <AssetGroups xmlns="">
+        <Group id="548050"/>
+        <Group id="548051"/>
+      </AssetGroups>
+      <Publications xmlns="">
+        <Publication asset_id="34101893" publishing_target_id="798"/>
+        <Publication asset_id="34101893" publishing_target_id="859"/>
+      </Publications>
+      <Assets xmlns="" filename="URN-3:FHCL:102358344">
+        <Asset id="34101893" size="ADLImageViewer" uri="http://library.artstor.org/#/ssid/34101893"
+          restriction="f"/>
+        <Asset id="None" size="DRS_full" uri="http://nrs.harvard.edu/URN-3:FHCL:102358344"
+          restriction="f"/>
+        <Asset id="None" size="DRS_thumb" uri="http://nrs.harvard.edu/URN-3:FHCL:102358344"
+          restriction="f"/>
+      </Assets>
+      <Targets xmlns="">
+        <Target name="OAI" status_lkup="Published" url="#" description="OAI"
+          publishDate="2022-11-02T17:04:19+00:00"/>
+        <Target name="Harvard University Study Collection of Digital Images" status_lkup="Published"
+          url="http://library.artstor.org/library/"
+          description="Institutional Collection in Artstor" publishDate="2022-11-02T17:04:18+00:00"
+        />
+      </Targets>
+    </display:DR>
+  </ssw:Work>
+  <ssn:Name conceptId="9000725944" stateText="NEW" recordType="PERSON" statusText="Provisional"
+    createdOn="2022/11/02 11:48:22" modifiedOn="2022/11/02 11:48:22"
+    preferredTerm="Bérard, Auguste de" uri="http://forum.jstor.org/oai/ssn/9000725944">
+    <Roles xmlns="" count="1">
+      <Role id="11310453" name="artist" preferred="true"/>
+    </Roles>
+    <Nationalities xmlns="" count="1">
+      <Nationality id="11281483" name="French" preferred="true"/>
+    </Nationalities>
+    <Terms xmlns="" count="1">
+      <Term id="1529532" name="Bérard, Auguste de" preferred="true">
+        <TermSource id="11276964" name="Local Sources" preferred="true"/>
+      </Term>
+    </Terms>
+    <Biographies xmlns="" count="1">
+      <Biography id="1529533" name="French artist, 1824-1881" preferred="true">
+        <birthDate year="1824" epoch="AD"/>
+        <deathDate year="1881" epoch="AD"/>
+        <birthPlace/>
+        <deathPlace/>
+      </Biography>
+    </Biographies>
+  </ssn:Name>
+  <ssn:Name conceptId="9000369831" stateText="NEW" recordType="CORPORATE BODY" batchId="2"
+    statusText="Provisional" createdOn="2014/12/26 12:37:01" modifiedOn="2014/12/26 12:37:01"
+    batchName="Harvard"
+    preferredTerm="Harvard Fine Arts Library, Digital Images &amp; Slides Collection"
+    uri="http://forum.jstor.org/oai/ssn/9000369831">
+    <Terms xmlns="" count="1">
+      <Term id="1071828" name="Harvard Fine Arts Library, Digital Images &amp; Slides Collection"
+        preferred="true">
+        <TermSource id="11318641" name="NO SOURCE" preferred="true"/>
+      </Term>
+    </Terms>
+  </ssn:Name>
+  <tgn:TGN subjectId="7000354" recordType="A" placeType="inhabited place" englishName="Marakesh"
+    preferredName="Marrakech" uri="http://forum.jstor.org/oai/tgn/7000354">
+    <tgn:latitude xmlns="" decimal="31.8167" degree="31" minute="49" second="0" direction="N"/>
+    <tgn:longitude xmlns="" decimal="-8.0" degree="8" minute="0" second="0" direction="W"/>
+    <tgn:Hierarchy xmlns="">
+      <tgn:Parent subjectId="7029392" name="World" type="facet">
+        <tgn:Child subjectId="7001242" name="Africa" type="continent">
+          <tgn:Child subjectId="1000179" name="Morocco" type="nation">
+            <tgn:Child subjectId="1001417" name="Marrakech, Province de" type="province">
+              <tgn:Child subjectId="7000354" name="Marakesh" type="inhabited place"/>
+            </tgn:Child>
+          </tgn:Child>
+        </tgn:Child>
+      </tgn:Parent>
+    </tgn:Hierarchy>
+    <tgn:Terms xmlns="">
+      <tgn:Term id="92316" name="Marrakech" preferred="P"/>
+      <tgn:Term id="169061" name="Marrakesh" preferred="V"/>
+      <tgn:Term id="181492" name="Morocco" preferred="V"/>
+      <tgn:Term id="181626" name="Marakesh" preferred="V"/>
+    </tgn:Terms>
+    <tgn:PlaceTypes xmlns="">
+      <tgn:Place id="83002" name="inhabited place"
+        description="founded by Yusuf ibn-Tashfin in 1062" preferred="P"/>
+      <tgn:Place id="83040" name="city" description="established 1912" preferred="N"/>
+      <tgn:Place id="83110" name="capital"
+        description="of Almoravid dynasty, until 1147; of Morocco, 1550-1660" preferred="N"/>
+      <tgn:Place id="83115" name="provincial capital" preferred="N"/>
+      <tgn:Place id="83131" name="transportation center" preferred="N"/>
+      <tgn:Place id="83150" name="religious center" preferred="N"/>
+      <tgn:Place id="83181" name="royal residence" preferred="N"/>
+      <tgn:Place id="83324" name="commercial center" preferred="N"/>
+      <tgn:Place id="83325" name="trade center" preferred="N"/>
+      <tgn:Place id="83351" name="tourist center" preferred="N"/>
+    </tgn:PlaceTypes>
+    <tgn:Note>Located on fertile plain; one of Morocco's four imperial cities; founded in the 11th century as African capital of Almoravid dynasty; went to Almohads in 1147, then to Marinids; taken by French 1912; today noted for palace of sultan and several historic mosques. The medina of Marrakech was designated a World Heritage Site by UNESCO in 1985.</tgn:Note>
+  </tgn:TGN>
+  <tgn:TGN subjectId="4000011951" preferredName="Marrakech, Marrakech-Tensift-El Haouz, Morocco"
+    uri="http://forum.jstor.org/oai/tgn/4000011951">
+    <tgn:Terms xmlns="">
+      <tgn:Term name="Marrakech, Marrakech-Tensift-El Haouz, Morocco" description="" preferred="P"/>
+    </tgn:Terms>
+  </tgn:TGN>
+</SharedShelf>

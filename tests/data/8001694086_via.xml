@@ -1,0 +1,183 @@
+<viaRecord originalAtHarvard="false"
+           primaryImageThumbnailURN="http://nrs.harvard.edu/URN-3:FHCL:102215359">
+   <recordId>8001694086</recordId>
+   <work>
+      <title>
+         <textElement>Chariot of Love (HUAM, 2009.202.54)</textElement>
+      </title>
+      <workType>drawings (visual works)</workType>
+      <production>
+         <placeOfProduction>
+            <place>Odisha, India</place>
+            <coordinates>
+               <latitude decimal="21.0"
+                         degree="21"
+                         minute="0"
+                         second="0"
+                         direction="N"/>
+               <longitude decimal="84.0"
+                          degree="84"
+                          minute="0"
+                          second="0"
+                          direction="E"/>
+            </coordinates>
+         </placeOfProduction>
+      </production>
+      <structuredDate>
+         <beginDate>1800</beginDate>
+         <endDate>1899</endDate>
+      </structuredDate>
+      <structuredDate>
+         <beginDate>1800</beginDate>
+         <endDate>1899</endDate>
+      </structuredDate>
+      <freeDate>19th cent.</freeDate>
+      <dimensions>44.5 x 29 cm</dimensions>
+      <associatedName>
+         <nameElement>Stuart Cary Welch</nameElement>
+         <dates>North American art historian, 1928-2008</dates>
+         <role>former owner</role>
+      </associatedName>
+      <topic>
+         <term>Hindu gods</term>
+      </topic>
+      <topic>
+         <term>dancing (activity)</term>
+      </topic>
+      <topic>
+         <term>pennants</term>
+      </topic>
+      <topic>
+         <term>female figures</term>
+      </topic>
+      <topic>
+         <term>symbols</term>
+      </topic>
+      <culture>
+         <term>Indian</term>
+      </culture>
+      <notes>Materials: Ink and opaque watercolor on eleven palm leaves hinged with cotton thread.</notes>
+      <repository>
+         <repositoryName>Harvard Art Museums, Cambridge, Middlesex, Massachusetts, United States</repositoryName>
+         <number>2009.202.54</number>
+      </repository>
+      <surrogate componentID="30969254">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="false"
+                xlink:href="http://nrs.harvard.edu/URN-3:FHCL:102215359">
+            <thumbnail xlink:href="http://nrs.harvard.edu/URN-3:FHCL:102215359"/>
+         </image>
+         <title>
+            <textElement>Detail</textElement>
+         </title>
+         <workType>color slide</workType>
+         <notes>Funding for this image is provided by the Aga Khan Program and the Stuart Cary Welch Islamic and South Asian Photograph Collection. </notes>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Special Collections</repositoryName>
+            <number>SCW2016.21374</number>
+         </repository>
+      </surrogate>
+      <surrogate componentID="30969234">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="false"
+                xlink:href="http://nrs.harvard.edu/URN-3:FHCL:102215279">
+            <thumbnail xlink:href="http://nrs.harvard.edu/URN-3:FHCL:102215279"/>
+         </image>
+         <title>
+            <textElement>Full view</textElement>
+         </title>
+         <workType>color slide</workType>
+         <notes>Funding for this image is provided by the Aga Khan Program and the Stuart Cary Welch Islamic and South Asian Photograph Collection. </notes>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Special Collections</repositoryName>
+            <number>SCW2016.21352</number>
+         </repository>
+      </surrogate>
+      <surrogate componentID="30759453">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="false"
+                xlink:href="http://nrs.harvard.edu/URN-3:FHCL:102214603">
+            <thumbnail xlink:href="http://nrs.harvard.edu/URN-3:FHCL:102214603"/>
+         </image>
+         <title>
+            <textElement>Detail</textElement>
+         </title>
+         <workType>color slide</workType>
+         <notes>Funding for this image is provided by the Aga Khan Program and the Stuart Cary Welch Islamic and South Asian Photograph Collection. </notes>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Special Collections</repositoryName>
+            <number>SCW2016.21376</number>
+         </repository>
+      </surrogate>
+      <surrogate componentID="30759454">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="false"
+                xlink:href="http://nrs.harvard.edu/URN-3:FHCL:102214607">
+            <thumbnail xlink:href="http://nrs.harvard.edu/URN-3:FHCL:102214607"/>
+         </image>
+         <title>
+            <textElement>Detail</textElement>
+         </title>
+         <workType>color slide</workType>
+         <notes>Funding for this image is provided by the Aga Khan Program and the Stuart Cary Welch Islamic and South Asian Photograph Collection. </notes>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Special Collections</repositoryName>
+            <number>SCW2016.21377</number>
+         </repository>
+      </surrogate>
+      <surrogate componentID="30759455">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="false"
+                xlink:href="http://nrs.harvard.edu/URN-3:FHCL:102214611">
+            <thumbnail xlink:href="http://nrs.harvard.edu/URN-3:FHCL:102214611"/>
+         </image>
+         <title>
+            <textElement>Detail</textElement>
+         </title>
+         <workType>color slide</workType>
+         <notes>Funding for this image is provided by the Aga Khan Program and the Stuart Cary Welch Islamic and South Asian Photograph Collection. </notes>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Special Collections</repositoryName>
+            <number>SCW2016.21378</number>
+         </repository>
+      </surrogate>
+      <surrogate componentID="30759456">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="false"
+                xlink:href="http://nrs.harvard.edu/URN-3:FHCL:102214615">
+            <thumbnail xlink:href="http://nrs.harvard.edu/URN-3:FHCL:102214615"/>
+         </image>
+         <title>
+            <textElement>Detail</textElement>
+         </title>
+         <workType>color slide</workType>
+         <notes>Funding for this image is provided by the Aga Khan Program and the Stuart Cary Welch Islamic and South Asian Photograph Collection. </notes>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Special Collections</repositoryName>
+            <number>SCW2016.21379</number>
+         </repository>
+      </surrogate>
+      <surrogate componentID="30759457">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="false"
+                xlink:href="http://nrs.harvard.edu/URN-3:FHCL:102214619">
+            <thumbnail xlink:href="http://nrs.harvard.edu/URN-3:FHCL:102214619"/>
+         </image>
+         <title>
+            <textElement>Detail</textElement>
+         </title>
+         <workType>color slide</workType>
+         <notes>Funding for this image is provided by the Aga Khan Program and the Stuart Cary Welch Islamic and South Asian Photograph Collection. </notes>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Special Collections</repositoryName>
+            <number>SCW2016.21380</number>
+         </repository>
+      </surrogate>
+   </work>
+   <admin>
+      <createDate>2021-07-20</createDate>
+      <updateNote>
+         <updateDate>2022/10/24 07:11:59</updateDate>
+      </updateNote>
+   </admin>
+</viaRecord>

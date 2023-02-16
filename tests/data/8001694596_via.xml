@@ -1,0 +1,78 @@
+<viaRecord originalAtHarvard="false"
+           primaryImageThumbnailURN="http://nrs.harvard.edu/URN-3:FHCL:102358344">
+   <recordId>8001694596</recordId>
+   <work>
+      <title>
+         <textElement>View of the city of Marrakech (formerly Maroc)</textElement>
+      </title>
+      <title>
+         <type>original Title</type>
+         <textElement>Vue de la ville de Maroc, dessin de A. Bérard d'après Jackson</textElement>
+      </title>
+      <workType>prints</workType>
+      <creator>
+         <nameElement>Bérard, Auguste de</nameElement>
+         <dates>French artist, 1824-1881</dates>
+         <role>printmaker</role>
+      </creator>
+      <structuredDate>
+         <beginDate>1860</beginDate>
+         <endDate>1860</endDate>
+      </structuredDate>
+      <structuredDate>
+         <beginDate>1860</beginDate>
+         <endDate>1860</endDate>
+      </structuredDate>
+      <freeDate>1860 (publication date)</freeDate>
+      <placeName>
+         <place>Marakesh (inhabited place)</place>
+         <coordinates>
+            <latitude decimal="31.8167"
+                      degree="31"
+                      minute="49"
+                      second="0"
+                      direction="N"/>
+            <longitude decimal="-8.0"
+                       degree="8"
+                       minute="0"
+                       second="0"
+                       direction="W"/>
+         </coordinates>
+      </placeName>
+      <placeName>
+         <place>Marrakech, Marrakech-Tensift-El Haouz, Morocco</place>
+      </placeName>
+      <topic>
+         <term>cities</term>
+      </topic>
+      <topic>
+         <term>landscapes (representations)</term>
+      </topic>
+      <culture>
+         <term>French</term>
+      </culture>
+      <materials>engraving (printing process)</materials>
+      <notes>General: Appeared in "Le tour du monde : nouveau journal des voyages," Paris: Libraire de L. Hachette, v. 1, 1860, p. 213. Journal held by Harvard's Widener Library, call number KH 395</notes>
+      <surrogate componentID="34101893">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="false"
+                xlink:href="http://nrs.harvard.edu/URN-3:FHCL:102358344">
+            <thumbnail xlink:href="http://nrs.harvard.edu/URN-3:FHCL:102358344"/>
+         </image>
+         <title>
+            <textElement>Total</textElement>
+         </title>
+         <workType>digital image</workType>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>d2023.02538</number>
+         </repository>
+      </surrogate>
+   </work>
+   <admin>
+      <createDate>2022-10-12</createDate>
+      <updateNote>
+         <updateDate>2022/11/02 12:04:02</updateDate>
+      </updateNote>
+   </admin>
+</viaRecord>
