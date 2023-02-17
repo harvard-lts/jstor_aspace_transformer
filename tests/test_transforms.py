@@ -97,7 +97,8 @@ def test_materialTypes():
     subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" "./tests/data/temp/8001623662_via.xml", "-s:" "./tests/data/8001623662_ssio.xml", "-xsl:xslt/ssio2via.xsl"])  
     doc = ET.parse("./tests/data/temp/8001623662_via.xml")
     # (8001623662)
-    #assert doc.xpath("//surrogate/coordinates/@altitude")[0] == "2776.7"
+    assert doc.xpath("/viaRecord/work/materials")[0].text == "clay"
+    assert doc.xpath("/viaRecord/work/materials")[1].text == "slip (clay)"
 
     for i in os.listdir("./tests/data/temp"):
         print(i)
@@ -111,7 +112,8 @@ def test_startEndYear():
     subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" "./tests/data/temp/8000897470_via.xml", "-s:" "./tests/data/8000897470_ssio.xml", "-xsl:xslt/ssio2via.xsl"])  
     doc = ET.parse("./tests/data/temp/8000897470_via.xml")
     # (8000897470)
-    #assert doc.xpath("//surrogate/coordinates/@altitude")[0] == "2776.7"
+    assert doc.xpath("//surrogate[@componentID = '9119955']/structuredDate/beginDate")[0].text == "1960"
+    assert doc.xpath("//surrogate[@componentID = '9119955']/structuredDate/endDate")[0].text == "1970"
 
     for i in os.listdir("./tests/data/temp"):
         print(i)
@@ -125,12 +127,12 @@ def test_badGroupItems():
     subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" "./tests/data/temp/G12239_trunc_via.xml", "-s:" "./tests/data/G12239_trunc_ssio.xml", "-xsl:xslt/ssio2via.xsl"])  
     doc = ET.parse("./tests/data/temp/G12239_trunc_via.xml")
     # Group with bad surr (G12239)
-    #assert doc.xpath("//surrogate/coordinates/@altitude")[0] == "2776.7"
+    assert doc.xpath("//surrogate/@componentID")[0] != "4099080'"
 
     subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" "./tests/data/temp/31013295_via.xml", "-s:" "./tests/data/31013295_ssio.xml", "-xsl:xslt/ssio2via.xsl"])  
     doc = ET.parse("./tests/data/temp/31013295_via.xml")
     # Work with good surr but now image, which is expected (31013295)
-    #assert doc.xpath("//surrogate/coordinates/@altitude")[0] == "2776.7"
+    assert doc.xpath("//surrogate/@componentID")[0] == "34013295"
     
     for i in os.listdir("./tests/data/temp"):
         print(i)
