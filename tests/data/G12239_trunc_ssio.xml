@@ -1,0 +1,212 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<SharedShelf xmlns:display="http://catalog.sharedshelf.artstor.org/display"
+  xmlns:ssc="http://catalog.sharedshelf.artstor.org/ssc"
+  xmlns:ssd="http://catalog.sharedshelf.artstor.org/ssd"
+  xmlns:ssn="http://catalog.sharedshelf.artstor.org/ssn"
+  xmlns:ssw="http://catalog.sharedshelf.artstor.org/ssw"
+  xmlns:ssw_lkup="http://catalog.sharedshelf.artstor.org/ssw_lkup"
+  xmlns:tgn="http://catalog.sharedshelf.artstor.org/tgn"
+  xmlns:aat="http://catalog.sharedshelf.artstor.org/aat"
+  xmlns:mfcl="http://catalog.sharedshelf.artstor.org/mfcl"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="http://catalog.sharedshelf.artstor.org"
+  xsi:schemaLocation="http://catalog.sharedshelf.artstor.org http://catalog.sharedshelf.artstor.org/service/schema/SharedShelf_IO.xsd">
+  <ssw:Work lastUpdateDate="2022/04/13 11:29:12" id="8000182644" refid="G12239"
+    contributor="Harvard" instituteId="10003" uri="http://forum.jstor.org/oai/ssw/8000182644">
+    <Titles xmlns="" tempered="false">
+      <Display>Harvard Law School faculty tenure photograph collection</Display>
+      <Title pref="true" term="Harvard Law School faculty tenure photograph collection"/>
+    </Titles>
+    <WorkTypes xmlns="" tempered="true">
+      <Display>photographs</Display>
+      <WorkType id="11316951" vocab="MFCL" term="photographs"
+        uri="http://forum.jstor.org/oai/MFCL/11316951"/>
+    </WorkTypes>
+    <Materials xmlns="" tempered="true">
+      <Display>film</Display>
+      <Material id="11315308" vocab="MFCL" term="film" supporttype_lkup="Support"
+        supporttype_lkup_id="11315161" uri="http://forum.jstor.org/oai/MFCL/11315308"/>
+    </Materials>
+    <Techniques xmlns="" tempered="true">
+      <Display>black and white photography</Display>
+      <Technique id="11315777" vocab="MFCL" term="black and white photography"
+        uri="http://forum.jstor.org/oai/MFCL/11315777"/>
+    </Techniques>
+    <Subjects xmlns="" tempered="false">
+      <Display>law teachers ; professors ; lawyers ; Harvard Law School (1817-, American)</Display>
+      <Subject id="11301019" vocab="MFCL" term="law teachers"
+        uri="http://forum.jstor.org/oai/MFCL/11301019"/>
+      <Subject id="11299461" vocab="MFCL" term="professors"
+        uri="http://forum.jstor.org/oai/MFCL/11299461"/>
+      <Subject id="11300889" vocab="MFCL" term="lawyers"
+        uri="http://forum.jstor.org/oai/MFCL/11300889"/>
+      <Subject id="9000336747" vocab="SSN" refid="N70178" term="Harvard Law School"
+        type_lkup="associated names" type_lkup_id="11309059"
+        uri="http://forum.jstor.org/oai/SSN/9000336747"/>
+    </Subjects>
+    <Dates xmlns="" tempered="false">
+      <Display>1976-2008</Display>
+      <Date startDate="1976" endDate="2008" type_lkup="workDate"/>
+      <Date startDate="1976" endDate="2008"/>
+    </Dates>
+    <Locations xmlns="" tempered="false">
+      <Display>Harvard Law School Library (repository)</Display>
+      <DisplayLocation term="Harvard Law School Library" type_lkup="repository"
+        type_lkup_id="11315199"/>
+      <Repository id="9000336740" vocab="SSN" refid="N-686471497" term="Harvard Law School Library"
+        type_lkup="repository" uri="http://forum.jstor.org/oai/SSN/9000336740"/>
+    </Locations>
+    <ArtstorClassifications xmlns="" tempered="false">
+      <ArtstorClassification id="11309251" term_lkup="Photographs"/>
+    </ArtstorClassifications>
+    <Notes xmlns="" tempered="false">
+      <Display>false</Display>
+      <Note
+        term="Beginning in 1976 and continuing to the present, official portraits are taken when faculty members received tenure. Prior to 2012, prints of these photographs hung on the walls of Pound Hall, as of 2020 they hang on the walls of the Wasserstein Hall, Caspersen Student Center, Clinical Wing complex (WCC)."
+        type_lkup="general" type_lkup_id="11309122"/>
+    </Notes>
+    <LocalInformation xmlns="" legacyId="G12239" originalCataloger="johnston"
+      secondaryCataloger="johnston" catalogStartDate="2/11/2010" catalogUpdateDate="2/11/2010"/>
+    <RelatedWorks xmlns="">
+      <ssw:RelatedWork refid="W480174" term="William D. Andrews" sequence="1" display=""
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W480174"/>
+     </RelatedWorks>
+    <display:DR id="4099080" representationId="None" lastUpdateDate="2022-04-13T16:30:08+00:00"
+      sequence="1" primary="true" projectId="733" institutionId="10003"
+      createdBy="qah001@artstor.org" updatedBy="lschoenf@law.harvard.edu"
+      createdDate="2014-12-24T02:31:12+00:00">
+      <DisplayRecord xmlns="">
+        <field_string id="fd_33529_s" description="None" label="Image Accession Number" value=""/>
+        <field_string id="fd_33535_s" description="None" label="Image Measurements" value=""/>
+        <field_string id="fd_33571_s" description="None" label="Year" value=""/>
+        <field_string id="fd_33502_s" description="None" label="Image View Type" value=""/>
+        <field_string id="fd_33517_s" description="None" label="Elevation" value=""/>
+        <field_string id="fd_33542_s" description="None" label="Image Notes" value=""/>
+        <field_string id="fd_33558_s" description="None" label="Image Source Author" value=""/>
+        <field_string id="fd_33559_s" description="None" label="Image Source Edition" value=""/>
+        <field_string id="fd_33515_s" description="None" label="Latitude" value=""/>
+        <field_string id="fd_33569_s" description="None" label="Volume" value=""/>
+        <field_string id="fd_33540_s" description="None" label="Image Rights" value=""/>
+        <field_string id="fd_33561_s" description="None" label="Image Source Publisher" value=""/>
+        <field_string id="fd_33548_s" description="None" label="Additional Formats" value=""/>
+        <field_string id="fd_33567_s" description="None" label="Image Source Notes" value=""/>
+        <field_string id="fd_33562_s" description="None" label="Image Source Publication Date"
+          value=""/>
+        <field_string id="fd_33551_s" description="None" label="Image Requester" value=""/>
+        <field_string id="fd_33557_s" description="None" label="Image Source Alternate Title"
+          value=""/>
+        <field_string id="fd_33536_s" description="None" label="Image End Year" value=""/>
+        <field_string id="fd_33530_s" description="None" label="Image Accession Date" value=""/>
+        <field_string id="fd_33528_s" description="None" label="Image Collection" value=""/>
+        <field_string id="fd_33565_s" description="None" label="Image Source Reference Number"
+          value=""/>
+        <field_string id="fd_33555_s" description="None" label="Image Provider" value=""/>
+        <field_string id="fd_33553_s" description="None" label="Image Source ID" value=""/>
+        <field_string id="fd_33501_s" description="None" label="Image View Description" value=""/>
+        <field_string id="fd_33534_s" description="None" label="Image Start Year" value=""/>
+        <field_string id="fd_33524_s" description="None" label="Image Date" value=""/>
+        <field_string id="fd_33563_s" description="None" label="Image Source Date" value=""/>
+        <field_string id="fd_33570_s" description="None" label="Issue Number" value=""/>
+        <field_string id="fd_33516_s" description="None" label="Longitude" value=""/>
+        <field_string id="fd_33543_s" description="None" label="In House Notes" value=""/>
+        <field_string id="fd_33572_s" description="None" label="Page Plate Number" value=""/>
+        <field_string id="fd_33568_s" description="None" label="Image Source Record Created By"
+          value=""/>
+        <field_string id="fd_33560_s" description="None" label="Image Source Place Of Publication"
+          value=""/>
+        <field_string id="fd_33550_s" description="None" label="Olivia Record Info"
+          value="Record created: 2/11/2010  By: johnston Record modified: 2/11/2010  By: johnston Export To VIA Date: 0/0/0"/>
+        <field_string id="fd_33566_s" description="None" label="Image Source Call Numbers" value=""/>
+        <field_string id="fd_33541_s" description="None" label="Image Credit" value=""/>
+        <field_string id="fd_33549_s" description="None" label="Olivia ID" value="G12239_1"/>
+        <field_string id="fd_33531_s" description="None" label="Image Classification Number"
+          value=""/>
+        <field_string id="fd_33564_s" description="None" label="Image Source Series Title" value=""/>
+        <field_string id="fd_33556_s" description="None" label="Image Source Title" value=""/>
+        <field_boolean id="fd_33544_b" description="None" label="Send To Harvard" value="true"/>
+        <field_boolean id="fd_33573_b" description="None" label="Export Only In Group" value="false"/>
+        <field_boolean id="fd_33545_b" description="None" label="In House Use Only" value="false"/>
+        <field_lookup id="fd_33537_lookup" description="None" label="Image Materials">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_33533_lookup" description="None" label="Image Associated Name">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_33574_lookup" description="None" label="Image Technique">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_33532_mfcl_lookup" description="None" label="Image Type">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_33554_mfcl_lookup" description="None" label="Image Source Type">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_33527_lookup" description="None" label="Image Repository">
+          <display>Harvard Law School Library</display>
+          <linkedField id="9000336740" revision="-1" source_id="9000336740"
+            preferredTerm="Harvard Law School Library" representationId="N-686471497"
+            conceptLevel="Local" institutionName="Harvard"
+            uri="http://forum.jstor.org/oai/SSN/9000336740">
+            <allTerms>Harvard Law School Library</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_33539_lookup" description="None" label="Image Subject">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_33538_lookup" description="None" label="Image Support">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_33523_lookup" description="None" label="Photographer">
+          <display/>
+        </field_lookup>
+      </DisplayRecord>
+      <Publications xmlns="">
+        <Publication asset_id="4099080" publishing_target_id="706"/>
+      </Publications>
+      <Assets xmlns="" filename="">
+        <Asset id="4099080" size="Thumbnail" uri="http://forum.jstor.org/oai/thumbnail?id=4099080"
+          restriction="f"/>
+        <Asset id="4099080" size="FullSize"
+          uri="http://forum.jstor.org/assets/4099080/representation/size/9" restriction="f"/>
+        <Asset id="4099080" size="Medias" uri="http://forum.jstor.org/oai/medias/4099080"
+          restriction="f"/>
+      </Assets>
+      <Targets xmlns="">
+        <Target name="OAI" status_lkup="Published" url="#" description="OAI"
+          publishDate="2022-04-13T16:30:11+00:00"/>
+      </Targets>
+    </display:DR>
+  </ssw:Work>
+  <ssn:Name conceptId="9000336747" stateText="NEW" recordType="PERSON" batchId="2"
+    statusText="Provisional" createdOn="2014/12/23 21:31:09" modifiedOn="2014/12/23 21:31:09"
+    batchName="Harvard" preferredTerm="Harvard Law School"
+    uri="http://forum.jstor.org/oai/ssn/9000336747">
+    <Nationalities xmlns="" count="1">
+      <Nationality id="11281149" name="American" preferred="true"/>
+    </Nationalities>
+    <Terms xmlns="" count="1">
+      <Term id="1042007" name="Harvard Law School" preferred="true">
+        <TermSource id="11276964" name="Local Sources" preferred="true"/>
+      </Term>
+    </Terms>
+    <Biographies xmlns="" count="1">
+      <Biography id="1042008" name="1817-, American" preferred="true">
+        <birthDate year="1817" epoch="AD"/>
+        <birthPlace/>
+        <deathPlace/>
+      </Biography>
+    </Biographies>
+  </ssn:Name>
+  <ssn:Name conceptId="9000336740" stateText="NEW" recordType="CORPORATE BODY" batchId="2"
+    statusText="Provisional" createdOn="2014/12/23 21:31:04" modifiedOn="2014/12/23 21:31:04"
+    batchName="Harvard" preferredTerm="Harvard Law School Library"
+    uri="http://forum.jstor.org/oai/ssn/9000336740">
+    <Terms xmlns="" count="1">
+      <Term id="1041994" name="Harvard Law School Library" preferred="true">
+        <TermSource id="11318641" name="NO SOURCE" preferred="true"/>
+      </Term>
+    </Terms>
+  </ssn:Name>
+</SharedShelf>

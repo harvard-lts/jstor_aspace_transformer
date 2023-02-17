@@ -1,0 +1,109 @@
+<viaRecord originalAtHarvard="true">
+   <recordId altRecordId="ss_8000182644">olvgroup12239</recordId>
+   <group>
+      <title>
+         <textElement>Harvard Law School faculty tenure photograph collection</textElement>
+      </title>
+      <workType>photographs</workType>
+      <structuredDate>
+         <beginDate>1976</beginDate>
+         <endDate>2008</endDate>
+      </structuredDate>
+      <structuredDate>
+         <beginDate>1976</beginDate>
+         <endDate>2008</endDate>
+      </structuredDate>
+      <freeDate>1976-2008</freeDate>
+      <associatedName>
+         <nameElement>Harvard Law School</nameElement>
+         <role>subject</role>
+         <dates>1817-, American</dates>
+      </associatedName>
+      <topic>
+         <term>law teachers</term>
+      </topic>
+      <topic>
+         <term>professors</term>
+      </topic>
+      <topic>
+         <term>lawyers</term>
+      </topic>
+      <materials>film</materials>
+      <materials>black and white photography</materials>
+      <notes>General: Beginning in 1976 and continuing to the present, official portraits are taken when faculty members received tenure. Prior to 2012, prints of these photographs hung on the walls of Pound Hall, as of 2020 they hang on the walls of the Wasserstein Hall, Caspersen Student Center, Clinical Wing complex (WCC).</notes>
+      <repository>
+         <repositoryName>Harvard Law School Library</repositoryName>
+      </repository>
+      <subwork componentID="olvwork480174" altComponentID="8000183329">
+         <title>
+            <textElement>William D. Andrews</textElement>
+         </title>
+         <workType>photographs</workType>
+         <creator>
+            <nameElement>Chapin, John</nameElement>
+            <role>photographer</role>
+         </creator>
+         <structuredDate>
+            <beginDate>1979</beginDate>
+            <endDate>1979</endDate>
+         </structuredDate>
+         <structuredDate>
+            <beginDate>1979</beginDate>
+            <endDate>1979</endDate>
+         </structuredDate>
+         <freeDate>1979</freeDate>
+         <description>Professor William D. Andrews in his office at Harvard Law School.</description>
+         <dimensions>60 mm</dimensions>
+         <associatedName>
+            <nameElement>Harvard Law School</nameElement>
+            <role>subject</role>
+            <dates>1817-, American</dates>
+         </associatedName>
+         <associatedName>
+            <nameElement>Andrews, William D.</nameElement>
+            <role>subject</role>
+            <dates>1931-, American</dates>
+         </associatedName>
+         <topic>
+            <term>law teachers</term>
+         </topic>
+         <topic>
+            <term>professors</term>
+         </topic>
+         <topic>
+            <term>lawyers</term>
+         </topic>
+         <materials>negative (photographic) on film</materials>
+         <materials>film</materials>
+         <notes>General: Beginning in 1976 and continuing to the present, official portraits are taken when faculty members received tenure. Prior to 2012, prints of these photographs hung on the walls of Pound Hall, as of 2020 they hang on the walls of the Wasserstein Hall, Caspersen Student Center, Clinical Wing complex (WCC).</notes>
+         <notes>Subject: Graduated Harvard University with an LL.B. in 1955; Lecturer, 1961-1963; Assistant Professor, 1963-1965; Professor, 1965-1985; Eli Goldston Professor of Law, 1984-present; Publications: Federal Income Taxation, 1969.</notes>
+         <relatedWork>
+            <relationship>Part of</relationship>
+            <textElement>Harvard Law School faculty tenure photographs collection</textElement>
+         </relatedWork>
+         <repository>
+            <repositoryName>Harvard Law School Library</repositoryName>
+         </repository>
+         <surrogate altComponentID="W480174_1" componentID="4099863">
+            <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                   restrictedImage="false"
+                   xlink:href="http://nrs.harvard.edu/urn-3:HLS.Libr:4063124">
+               <caption>Professor William D. Andrews</caption>
+               <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:HLS.Libr:4063124"/>
+            </image>
+            <title>
+               <textElement>Professor William D. Andrews</textElement>
+            </title>
+            <repository>
+               <repositoryName>Harvard Law School Library</repositoryName>
+            </repository>
+         </surrogate>
+      </subwork>
+   </group>
+   <admin>
+      <createDate>2014-12-24</createDate>
+      <updateNote>
+         <updateDate>2022/04/13 11:29:12</updateDate>
+      </updateNote>
+   </admin>
+</viaRecord>
