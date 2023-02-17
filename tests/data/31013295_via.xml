@@ -1,0 +1,68 @@
+<viaRecord originalAtHarvard="false">
+   <recordId altRecordId="ss_8000614378">olvwork74823</recordId>
+   <work>
+      <title>
+         <textElement>Grenouillère near Bougival</textElement>
+      </title>
+      <title>
+         <type>Alternate Title</type>
+         <textElement>Frogpond near Bougival</textElement>
+      </title>
+      <title>
+         <type>Abbreviated Title</type>
+         <textElement>Grenouillère</textElement>
+      </title>
+      <workType>painting</workType>
+      <creator>
+         <nameElement>Renoir, Pierre Auguste</nameElement>
+         <dates>1841-1919, French</dates>
+         <role>artist</role>
+      </creator>
+      <structuredDate>
+         <beginDate>1869</beginDate>
+         <endDate>1869</endDate>
+      </structuredDate>
+      <structuredDate>
+         <beginDate>1869</beginDate>
+         <endDate>1869</endDate>
+      </structuredDate>
+      <freeDate>1869</freeDate>
+      <dimensions>65 x 93 cm.</dimensions>
+      <topic>
+         <term>leisure</term>
+      </topic>
+      <topic>
+         <term>suburbs</term>
+      </topic>
+      <culture>
+         <term>French</term>
+      </culture>
+      <materials>oil on canvas</materials>
+      <materials>canvas</materials>
+      <repository>
+         <repositoryName>Sammlung Oskar Reinhart "Am Romerholz", Winterthur, Switzerland</repositoryName>
+         <number>106</number>
+         <alternativeName>Reinhart, Dr. Oskar - Collection</alternativeName>
+         <alternativeName>Fondation Oskar-Reinhart</alternativeName>
+      </repository>
+      <surrogate altComponentID="olvsurrogate818676" componentID="34013295">
+         <title>
+            <textElement>Detail: Men, women, bathers, and reflections on water</textElement>
+         </title>
+         <classification>
+            <number>375 R 295 91 A(d)</number>
+         </classification>
+         <workType>color slide</workType>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>1992.04875</number>
+         </repository>
+      </surrogate>
+   </work>
+   <admin>
+      <createDate>2022-09-28</createDate>
+      <updateNote>
+         <updateDate>2022/09/29 13:13:46</updateDate>
+      </updateNote>
+   </admin>
+</viaRecord>
