@@ -130,6 +130,7 @@
 
         <xsl:choose>
             <xsl:when test="./@status_lkup = 'Deleted'"> </xsl:when>
+            <xsl:when test="not(Assets/Asset[@size='DRS_full']) and ../RelatedWorks/ssw:RelatedWork[@type_lkup='Larger context for']"/>
             <!-- look for positive occurrences instead 2015-07-29 -->
             <xsl:when
                 test="./DisplayRecord/field_boolean[@label = 'Send To Harvard'][@value = true()]">
