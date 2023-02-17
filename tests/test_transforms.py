@@ -54,36 +54,37 @@ def test_alternativeName():
     subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" "./tests/data/temp/S39796_via.xml", "-s:" "./tests/data/S39796_ssio.xml", "-xsl:xslt/ssio2via.xsl"])  
     doc = ET.parse("./tests/data/temp/S39796_via.xml")
     #Agents/Agent (S39796)
-    #assert doc.xpath("//surrogate/coordinates/@altitude")[0] == "2776.7"
+    assert doc.xpath("/viaRecord/work/creator/alternativeName")[0].text == "Borromino, Francesco"
      
     subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" "./tests/data/temp/W20012560_via.xml", "-s:" "./tests/data/W20012560_ssio.xml", "-xsl:xslt/ssio2via.xsl"])  
     doc = ET.parse("./tests/data/temp/W20012560_via.xml")
     #Subjects/Subject (W20012560)
-    #assert doc.xpath("//surrogate/coordinates/@altitude")[0] == "2776.7"
+    assert doc.xpath("/viaRecord/work/associatedName/alternativeName")[0].text == "Anthony, Susan Brownell"
      
     subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" "./tests/data/temp/19344468_via.xml", "-s:" "./tests/data/19344468_ssio.xml", "-xsl:xslt/ssio2via.xsl"])  
     doc = ET.parse("./tests/data/temp/19344468_via.xml")
     #Agents/Agent + Photographer (19344468)
-    #assert doc.xpath("//surrogate/coordinates/@altitude")[0] == "2776.7"
+    assert doc.xpath("/viaRecord/work/surrogate/creator/alternativeName")[0].text == "Alex S. MacLean"
 
     subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" "./tests/data/temp/8001012729_via.xml", "-s:" "./tests/data/8001012729_ssio.xml", "-xsl:xslt/ssio2via.xsl"])  
     doc = ET.parse("./tests/data/temp/8001012729_via.xml")
     #Locations/Repository (8001012729)
+    assert doc.xpath("/viaRecord/work/repository/alternativeName")[0].text == "Muzeum Narodowe w Krakowie"
 
     subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" "./tests/data/temp/S59783_via.xml", "-s:" "./tests/data/S59783_ssio.xml", "-xsl:xslt/ssio2via.xsl"])  
     doc = ET.parse("./tests/data/temp/S59783_via.xml")
     #Locations/PrivateOwner (S59783)
-    #assert doc.xpath("//surrogate/coordinates/@altitude")[0] == "2776.7"
+    assert doc.xpath("/viaRecord/work/creator[nameElement='Church, Frederick Edwin']/alternativeName")[0].text == "Church, Frederic Edwin"
 
     subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" "./tests/data/temp/8000654865_via.xml", "-s:" "./tests/data/8000654865_ssio.xml", "-xsl:xslt/ssio2via.xsl"])  
     doc = ET.parse("./tests/data/temp/8000654865_via.xml")
     #Image Subject (8000654865)
-    #assert doc.xpath("//surrogate/coordinates/@altitude")[0] == "2776.7"
+    #assert doc.xpath("/viaRecord/work/surrogate[componentID='7613106']/topic/alternativeName")[0].text == "Virgin Mary"
 
     subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" "./tests/data/temp/8001630342_via.xml", "-s:" "./tests/data/8001630342_ssio.xml", "-xsl:xslt/ssio2via.xsl"])  
     doc = ET.parse("./tests/data/temp/8001630342_via.xml")
     #Image Associated Name (8001630342)
-    #assert doc.xpath("//surrogate/coordinates/@altitude")[0] == "2776.7"
+    assert doc.xpath("/viaRecord/work/associatedName/alternativeName")[0].text == "Hugo, Victor Marie"
 
     for i in os.listdir("./tests/data/temp"):
         print(i)
