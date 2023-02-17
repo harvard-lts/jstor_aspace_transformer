@@ -1,0 +1,742 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<SharedShelf xmlns:display="http://catalog.sharedshelf.artstor.org/display"
+  xmlns:ssc="http://catalog.sharedshelf.artstor.org/ssc"
+  xmlns:ssd="http://catalog.sharedshelf.artstor.org/ssd"
+  xmlns:ssn="http://catalog.sharedshelf.artstor.org/ssn"
+  xmlns:ssw="http://catalog.sharedshelf.artstor.org/ssw"
+  xmlns:ssw_lkup="http://catalog.sharedshelf.artstor.org/ssw_lkup"
+  xmlns:tgn="http://catalog.sharedshelf.artstor.org/tgn"
+  xmlns:aat="http://catalog.sharedshelf.artstor.org/aat"
+  xmlns:mfcl="http://catalog.sharedshelf.artstor.org/mfcl"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="http://catalog.sharedshelf.artstor.org"
+  xsi:schemaLocation="http://catalog.sharedshelf.artstor.org http://catalog.sharedshelf.artstor.org/service/schema/SharedShelf_IO.xsd">
+  <ssw:Work lastUpdateDate="2022/08/15 12:24:28" id="8000535126" vocab="SSW" refid="S39796"
+    contributor="Harvard" instituteId="10003" uri="http://forum.jstor.org/oai/ssw/8000535126">
+    <Titles xmlns="" tempered="false">
+      <Display>Universita della Sapienza, Rome, Roma, Lazio, Italy ; Alternate: University of Rome ; Alternate: La Sapienza</Display>
+      <Title pref="true" term="Universita della Sapienza, Rome, Roma, Lazio, Italy"/>
+      <Title term="University of Rome" type_lkup="Alternate" type_lkup_id="11309178"/>
+      <Title term="La Sapienza" type_lkup="Alternate" type_lkup_id="11309178"/>
+    </Titles>
+    <WorkTypes xmlns="" tempered="true">
+      <Display>universities</Display>
+      <WorkType id="300312240" vocab="AAT" term="universities"
+        uri="http://forum.jstor.org/oai/AAT/300312240"/>
+    </WorkTypes>
+    <Subjects xmlns="" tempered="false">
+      <Display>universities</Display>
+      <Subject id="11300968" vocab="MFCL" term="architecture"
+        uri="http://forum.jstor.org/oai/MFCL/11300968"/>
+    </Subjects>
+    <Cultures xmlns="" tempered="true">
+      <Display>Italian</Display>
+      <Culture id="11281509" vocab="MFCL" term="Italian"
+        uri="http://forum.jstor.org/oai/MFCL/11281509"/>
+    </Cultures>
+    <Dates xmlns="" tempered="true"/>
+    <Locations xmlns="" tempered="true">
+      <Display>Rome, Roma, Lazio, Italy (site)</Display>
+      <DisplayLocation term="Rome, Roma, Lazio, Italy" type_lkup="site" type_lkup_id="11309146"/>
+      <Location id="7000874" vocab="TGN" term="Rome, Roma, Lazio, Italy" type_lkup="site"
+        type_lkup_id="11309146" uri="http://forum.jstor.org/oai/TGN/7000874">
+        <ssw:GeoLocation latitude="41.9" longitude="12.483333"/>
+      </Location>
+    </Locations>
+    <ArtstorCountries xmlns="" tempered="false">
+      <Country id="11312981" term_lkup="Italy"/>
+    </ArtstorCountries>
+    <ArtstorClassifications xmlns="" tempered="false">
+      <ArtstorClassification id="11309239" term_lkup="Architecture and City Planning"/>
+    </ArtstorClassifications>
+    <Agents xmlns="" tempered="false">
+      <Display>Borromini, Francesco (1599-1667, Italian) architect</Display>
+      <Agent id="9000369251" vocab="SSN" refid="N922" term="Borromini, Francesco"
+        role_lkup="architect" role_lkup_id="11310443" qualifier_lkup="creator"
+        uri="http://forum.jstor.org/oai/SSN/9000369251">
+        <ssw:Display>Borromini, Francesco (1599-1667, Italian) architect</ssw:Display>
+      </Agent>
+    </Agents>
+    <LocalInformation xmlns="" legacyId="S39796" originalCataloger="nigro"
+      secondaryCataloger="spark" catalogStartDate="7/27/2005" catalogUpdateDate="9/27/2010"/>
+    <RelatedWorks xmlns=""/>
+    <display:DR id="7241656" representationId="drs:urn-3:FHCL:692733,urn-3:FHCL:692731"
+      lastUpdateDate="2022-08-15T18:06:26+00:00" sequence="0" primary="true" projectId="816"
+      institutionId="10003" createdBy="qah001@artstor.org" updatedBy="qah001@artstor.org"
+      createdDate="2014-12-26T15:27:49+00:00">
+      <DisplayRecord xmlns="">
+        <field_string id="fd_37089_s" description="None" label="Olivia Record Info"
+          value="Record created: 6/1/2005  By: nigro Record modified: 11/19/2007  By: Designer Export To VIA Date: 9/28/2010 "/>
+        <field_string id="fd_37070_an" description="None" label="Image Accession Number"
+          value="1898L.06083"/>
+        <field_string id="fd_37092_s" description="None" label="Image Source ID" value="0"/>
+        <field_string id="fd_37071_s" description="None" label="Image Accession Date"
+          value="04/13/1926"/>
+        <field_string id="fd_37072_s" description="None" label="Image Classification Number"
+          value="172 R 66 5 S 172 R66 5SC 1"/>
+        <field_string id="fd_37058_s" description="None" label="Elevation" value=""/>
+        <field_string id="fd_37057_s" description="None" label="Longitude" value="12.483333"/>
+        <field_string id="fd_37056_s" description="None" label="Latitude" value="41.9"/>
+        <field_string id="fd_37088_s" description="None" label="Olivia ID" value="U629108"/>
+        <field_string id="fd_37042_s" description="None" label="Image View Description"
+          value="Courtyard"/>
+        <field_boolean id="fd_37112_b" description="None" label="Export Only In Group" value="false"/>
+        <field_boolean id="fd_37086_b" description="None" label="In House Use Only" value="false"/>
+        <field_boolean id="fd_37085_b" description="None" label="Send To Harvard" value="true"/>
+        <field_lookup id="fd_37080_lookup" description="None" label="Image Subject">
+          <display>universities ; exterior views ; courtyards ; colonnades</display>
+          <linkedField id="11299614" revision="-1" source_id="11299614" preferredTerm="universities"
+            institutionName="Harvard">
+            <allTerms>universities</allTerms>
+          </linkedField>
+          <linkedField id="11298596" revision="-1" source_id="11298596"
+            preferredTerm="exterior views" institutionName="Harvard">
+            <allTerms>exterior views</allTerms>
+          </linkedField>
+          <linkedField id="11298840" revision="-1" source_id="11298840" preferredTerm="courtyards"
+            institutionName="Harvard">
+            <allTerms>courtyards</allTerms>
+          </linkedField>
+          <linkedField id="11305389" revision="-1" source_id="11305389" preferredTerm="colonnades"
+            institutionName="Harvard">
+            <allTerms>colonnades</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_37068_lookup" description="None" label="Image Repository">
+          <display>Harvard Fine Arts Library, Special Collections</display>
+          <linkedField id="9000369124" revision="-1" source_id="9000369124"
+            preferredTerm="Harvard Fine Arts Library, Special Collections"
+            representationId="N-1859500333" conceptLevel="Local" institutionName="Harvard"
+            uri="http://forum.jstor.org/oai/SSN/9000369124">
+            <allTerms>Harvard Fine Arts Library, Special Collections</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_37073_mfcl_lookup" description="None" label="Image Type">
+          <display>lantern slide</display>
+          <linkedField id="11319124" revision="-1" source_id="11319124"
+            preferredTerm="lantern slide" institutionName="Harvard">
+            <allTerms>lantern slide</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_37093_mfcl_lookup" description="None" label="Image Source Type">
+          <display/>
+        </field_lookup>
+      </DisplayRecord>
+      <Publications xmlns="">
+        <Publication asset_id="7241656" publishing_target_id="797"/>
+      </Publications>
+      <Assets xmlns="" filename="urn-3:FHCL:692733,urn-3:FHCL:692731">
+        <Asset id="7241656" size="ADLImageViewer" uri="http://library.artstor.org/#/ssid/7241656"
+          restriction="t"/>
+        <Asset id="None" size="DRS_full" uri="http://nrs.harvard.edu/urn-3:FHCL:692731"
+          restriction="t"/>
+        <Asset id="None" size="DRS_thumb" uri="http://nrs.harvard.edu/urn-3:FHCL:692733"
+          restriction="t"/>
+      </Assets>
+      <Targets xmlns="">
+        <Target name="OAI" status_lkup="Published" url="#" description="OAI"
+          publishDate="2014-12-26T15:29:26+00:00"/>
+      </Targets>
+    </display:DR>
+    <display:DR id="7241657" representationId="drs:urn-3:FHCL:692737,urn-3:FHCL:692735"
+      lastUpdateDate="2022-08-15T18:06:26+00:00" sequence="0" primary="false" projectId="816"
+      institutionId="10003" createdBy="qah001@artstor.org" updatedBy="qah001@artstor.org"
+      createdDate="2014-12-26T15:27:49+00:00">
+      <DisplayRecord xmlns="">
+        <field_string id="fd_37089_s" description="None" label="Olivia Record Info"
+          value="Record created: 6/1/2005  By: nigro Record modified: 11/19/2007  By: Designer Export To VIA Date: 9/28/2010 "/>
+        <field_string id="fd_37070_an" description="None" label="Image Accession Number"
+          value="1898L.06084"/>
+        <field_string id="fd_37092_s" description="None" label="Image Source ID" value="0"/>
+        <field_string id="fd_37071_s" description="None" label="Image Accession Date"
+          value="04/01/1957"/>
+        <field_string id="fd_37072_s" description="None" label="Image Classification Number"
+          value="172 R 66 5 S 172 R66 5SC 1a"/>
+        <field_string id="fd_37058_s" description="None" label="Elevation" value=""/>
+        <field_string id="fd_37057_s" description="None" label="Longitude" value="12.483333"/>
+        <field_string id="fd_37056_s" description="None" label="Latitude" value="41.9"/>
+        <field_string id="fd_37088_s" description="None" label="Olivia ID" value="U629109"/>
+        <field_string id="fd_37042_s" description="None" label="Image View Description"
+          value="Courtyard"/>
+        <field_boolean id="fd_37112_b" description="None" label="Export Only In Group" value="false"/>
+        <field_boolean id="fd_37086_b" description="None" label="In House Use Only" value="false"/>
+        <field_boolean id="fd_37085_b" description="None" label="Send To Harvard" value="true"/>
+        <field_lookup id="fd_37080_lookup" description="None" label="Image Subject">
+          <display>universities ; courtyards ; exterior views ; colonnades</display>
+          <linkedField id="11299614" revision="-1" source_id="11299614" preferredTerm="universities"
+            institutionName="Harvard">
+            <allTerms>universities</allTerms>
+          </linkedField>
+          <linkedField id="11298840" revision="-1" source_id="11298840" preferredTerm="courtyards"
+            institutionName="Harvard">
+            <allTerms>courtyards</allTerms>
+          </linkedField>
+          <linkedField id="11298596" revision="-1" source_id="11298596"
+            preferredTerm="exterior views" institutionName="Harvard">
+            <allTerms>exterior views</allTerms>
+          </linkedField>
+          <linkedField id="11305389" revision="-1" source_id="11305389" preferredTerm="colonnades"
+            institutionName="Harvard">
+            <allTerms>colonnades</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_37068_lookup" description="None" label="Image Repository">
+          <display>Harvard Fine Arts Library, Special Collections</display>
+          <linkedField id="9000369124" revision="-1" source_id="9000369124"
+            preferredTerm="Harvard Fine Arts Library, Special Collections"
+            representationId="N-1859500333" conceptLevel="Local" institutionName="Harvard"
+            uri="http://forum.jstor.org/oai/SSN/9000369124">
+            <allTerms>Harvard Fine Arts Library, Special Collections</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_37073_mfcl_lookup" description="None" label="Image Type">
+          <display>lantern slide</display>
+          <linkedField id="11319124" revision="-1" source_id="11319124"
+            preferredTerm="lantern slide" institutionName="Harvard">
+            <allTerms>lantern slide</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_37093_mfcl_lookup" description="None" label="Image Source Type">
+          <display/>
+        </field_lookup>
+      </DisplayRecord>
+      <Publications xmlns="">
+        <Publication asset_id="7241657" publishing_target_id="797"/>
+      </Publications>
+      <Assets xmlns="" filename="urn-3:FHCL:692737,urn-3:FHCL:692735">
+        <Asset id="7241657" size="ADLImageViewer" uri="http://library.artstor.org/#/ssid/7241657"
+          restriction="t"/>
+        <Asset id="None" size="DRS_full" uri="http://nrs.harvard.edu/urn-3:FHCL:692735"
+          restriction="t"/>
+        <Asset id="None" size="DRS_thumb" uri="http://nrs.harvard.edu/urn-3:FHCL:692737"
+          restriction="t"/>
+      </Assets>
+      <Targets xmlns="">
+        <Target name="OAI" status_lkup="Published" url="#" description="OAI"
+          publishDate="2014-12-26T15:29:26+00:00"/>
+      </Targets>
+    </display:DR>
+    <display:DR id="7241658" representationId="drs:urn-3:FHCL:692741,urn-3:FHCL:692739"
+      lastUpdateDate="2022-08-15T18:06:27+00:00" sequence="0" primary="false" projectId="816"
+      institutionId="10003" createdBy="qah001@artstor.org" updatedBy="qah001@artstor.org"
+      createdDate="2014-12-26T15:27:49+00:00">
+      <DisplayRecord xmlns="">
+        <field_string id="fd_37089_s" description="None" label="Olivia Record Info"
+          value="Record created: 6/1/2005  By: nigro Record modified: 11/19/2007  By: Designer Export To VIA Date: 9/28/2010 "/>
+        <field_string id="fd_37070_an" description="None" label="Image Accession Number"
+          value="1898L.06085"/>
+        <field_string id="fd_37092_s" description="None" label="Image Source ID" value="0"/>
+        <field_string id="fd_37071_s" description="None" label="Image Accession Date"
+          value="07/26/1962"/>
+        <field_string id="fd_37072_s" description="None" label="Image Classification Number"
+          value="172 R 66 5 S 172 R66 5SC 3"/>
+        <field_string id="fd_37058_s" description="None" label="Elevation" value=""/>
+        <field_string id="fd_37057_s" description="None" label="Longitude" value="12.483333"/>
+        <field_string id="fd_37056_s" description="None" label="Latitude" value="41.9"/>
+        <field_string id="fd_37088_s" description="None" label="Olivia ID" value="U629110"/>
+        <field_string id="fd_37042_s" description="None" label="Image View Description"
+          value="Courtyard"/>
+        <field_boolean id="fd_37112_b" description="None" label="Export Only In Group" value="false"/>
+        <field_boolean id="fd_37086_b" description="None" label="In House Use Only" value="false"/>
+        <field_boolean id="fd_37085_b" description="None" label="Send To Harvard" value="true"/>
+        <field_lookup id="fd_37080_lookup" description="None" label="Image Subject">
+          <display>universities ; courtyards ; colonnades ; exterior views</display>
+          <linkedField id="11299614" revision="-1" source_id="11299614" preferredTerm="universities"
+            institutionName="Harvard">
+            <allTerms>universities</allTerms>
+          </linkedField>
+          <linkedField id="11298840" revision="-1" source_id="11298840" preferredTerm="courtyards"
+            institutionName="Harvard">
+            <allTerms>courtyards</allTerms>
+          </linkedField>
+          <linkedField id="11305389" revision="-1" source_id="11305389" preferredTerm="colonnades"
+            institutionName="Harvard">
+            <allTerms>colonnades</allTerms>
+          </linkedField>
+          <linkedField id="11298596" revision="-1" source_id="11298596"
+            preferredTerm="exterior views" institutionName="Harvard">
+            <allTerms>exterior views</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_37068_lookup" description="None" label="Image Repository">
+          <display>Harvard Fine Arts Library, Special Collections</display>
+          <linkedField id="9000369124" revision="-1" source_id="9000369124"
+            preferredTerm="Harvard Fine Arts Library, Special Collections"
+            representationId="N-1859500333" conceptLevel="Local" institutionName="Harvard"
+            uri="http://forum.jstor.org/oai/SSN/9000369124">
+            <allTerms>Harvard Fine Arts Library, Special Collections</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_37073_mfcl_lookup" description="None" label="Image Type">
+          <display>lantern slide</display>
+          <linkedField id="11319124" revision="-1" source_id="11319124"
+            preferredTerm="lantern slide" institutionName="Harvard">
+            <allTerms>lantern slide</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_37093_mfcl_lookup" description="None" label="Image Source Type">
+          <display/>
+        </field_lookup>
+      </DisplayRecord>
+      <Publications xmlns="">
+        <Publication asset_id="7241658" publishing_target_id="797"/>
+      </Publications>
+      <Assets xmlns="" filename="urn-3:FHCL:692741,urn-3:FHCL:692739">
+        <Asset id="7241658" size="ADLImageViewer" uri="http://library.artstor.org/#/ssid/7241658"
+          restriction="t"/>
+        <Asset id="None" size="DRS_full" uri="http://nrs.harvard.edu/urn-3:FHCL:692739"
+          restriction="t"/>
+        <Asset id="None" size="DRS_thumb" uri="http://nrs.harvard.edu/urn-3:FHCL:692741"
+          restriction="t"/>
+      </Assets>
+      <Targets xmlns="">
+        <Target name="OAI" status_lkup="Published" url="#" description="OAI"
+          publishDate="2014-12-26T15:29:26+00:00"/>
+      </Targets>
+    </display:DR>
+    <display:DR id="25091288" representationId="drs:urn-3:FHCL:41321875"
+      lastUpdateDate="2022-08-15T18:06:26+00:00" sequence="1" primary="false" projectId="817"
+      institutionId="10003" createdBy="michael_rios@harvard.edu"
+      updatedBy="christopher_hyde@harvard.edu" createdDate="2019-06-17T16:20:52+00:00">
+      <DisplayRecord xmlns="">
+        <field_string id="fd_37146_an" description="None" label="Image Accession Number"
+          value="1990.17839"/>
+        <field_string id="fd_37148_s" description="None" label="Image Classification Number"
+          value="172  R 66  5 SP"/>
+        <field_string id="fd_37158_s" description="None" label="Image Credit" value="AV"/>
+        <field_string id="fd_37174_s" description="None" label="Image Source Edition" value=""/>
+        <field_string id="fd_37147_s" description="None" label="Image Accession Date" value=""/>
+        <field_string id="fd_37171_s" description="None" label="Image Source Title" value=""/>
+        <field_string id="fd_37172_s" description="None" label="Image Source Alternate Title"
+          value=""/>
+        <field_string id="fd_37160_s" description="None" label="In House Notes" value=""/>
+        <field_string id="fd_37178_s" description="None" label="Image Source Date" value=""/>
+        <field_string id="fd_37184_s" description="None" label="Volume" value=""/>
+        <field_string id="fd_37182_s" description="None" label="Image Source Notes" value=""/>
+        <field_string id="fd_37186_s" description="None" label="Year" value=""/>
+        <field_string id="fd_37181_s" description="None" label="Image Source Call Numbers" value=""/>
+        <field_string id="fd_37177_s" description="None" label="Image Source Publication Date"
+          value=""/>
+        <field_string id="fd_37183_s" description="None" label="Image Source Record Created By"
+          value=""/>
+        <field_string id="fd_37141_s" description="None" label="Image Date" value=""/>
+        <field_string id="fd_37152_s" description="None" label="Image Measurements" value=""/>
+        <field_string id="fd_37163_s" description="None" label="Additional Formats" value=""/>
+        <field_string id="fd_37187_s" description="None" label="Page Plate Number" value=""/>
+        <field_string id="fd_37153_s" description="None" label="Image End Year" value=""/>
+        <field_string id="fd_37159_s" description="None" label="Image Notes" value=""/>
+        <field_string id="fd_37176_s" description="None" label="Image Source Publisher" value=""/>
+        <field_string id="fd_37151_s" description="None" label="Image Start Year" value=""/>
+        <field_string id="fd_37145_s" description="None" label="Image Collection" value=""/>
+        <field_string id="fd_37118_s" description="None" label="Image View Description"
+          value="Plan by Borromini"/>
+        <field_string id="fd_37180_s" description="None" label="Image Source Reference Number"
+          value=""/>
+        <field_string id="fd_37173_s" description="None" label="Image Source Author" value=""/>
+        <field_string id="fd_37175_s" description="None" label="Image Source Place Of Publication"
+          value=""/>
+        <field_string id="fd_37166_s" description="None" label="Image Requester" value=""/>
+        <field_string id="fd_37170_s" description="None" label="Image Provider" value=""/>
+        <field_string id="fd_37179_s" description="None" label="Image Source Series Title" value=""/>
+        <field_string id="fd_37119_s" description="None" label="Image View Type" value=""/>
+        <field_string id="fd_37185_s" description="None" label="Issue Number" value=""/>
+        <field_string id="fd_37168_s" description="None" label="Image Source ID" value=""/>
+        <field_string id="fd_37157_s" description="None" label="Image Rights" value=""/>
+        <field_string id="fd_37134_s" description="None" label="Elevation" value=""/>
+        <field_string id="fd_37133_s" description="None" label="Longitude" value="12.483333"/>
+        <field_string id="fd_37132_s" description="None" label="Latitude" value="41.9"/>
+        <field_boolean id="fd_37161_b" description="None" label="Send To Harvard" value="true"/>
+        <field_lookup id="fd_37149_mfcl_lookup" description="None" label="Image Type">
+          <display>slide</display>
+          <linkedField id="11319127" revision="-1" source_id="11319127" preferredTerm="slide"
+            institutionName="Harvard">
+            <allTerms>slide</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_37144_lookup" description="None" label="Image Repository">
+          <display>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</display>
+          <linkedField id="9000369831" revision="-1" source_id="9000369831"
+            preferredTerm="Harvard Fine Arts Library, Digital Images &amp; Slides Collection"
+            conceptLevel="Local" institutionName="Harvard"
+            uri="http://forum.jstor.org/oai/SSN/9000369831">
+            <allTerms>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_37140_lookup" description="None" label="Photographer">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_37154_lookup" description="None" label="Image Materials">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_37189_lookup" description="None" label="Image Technique">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_37150_lookup" description="None" label="Image Associated Name">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_37156_lookup" description="None" label="Image Subject">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_37169_mfcl_lookup" description="None" label="Image Source Type">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_37155_lookup" description="None" label="Image Support">
+          <display/>
+        </field_lookup>
+      </DisplayRecord>
+      <AssetGroups xmlns="">
+        <Group id="120357"/>
+      </AssetGroups>
+      <Publications xmlns="">
+        <Publication asset_id="25091288" publishing_target_id="798"/>
+        <Publication asset_id="25091288" publishing_target_id="859"/>
+      </Publications>
+      <Assets xmlns="" filename="urn-3:FHCL:41321875">
+        <Asset id="25091288" size="ADLImageViewer" uri="http://library.artstor.org/#/ssid/25091288"
+          restriction="t"/>
+        <Asset id="None" size="DRS_full" uri="http://nrs.harvard.edu/urn-3:FHCL:41321875"
+          restriction="t"/>
+        <Asset id="None" size="DRS_thumb" uri="http://nrs.harvard.edu/urn-3:FHCL:41321875"
+          restriction="t"/>
+      </Assets>
+      <Targets xmlns="">
+        <Target name="OAI" status_lkup="Published" url="#" description="OAI"
+          publishDate="2022-04-28T17:37:48+00:00"/>
+        <Target name="Harvard University Study Collection of Digital Images" status_lkup="Published"
+          url="http://library.artstor.org/library/"
+          description="Institutional Collection in Artstor" publishDate="2022-04-28T17:37:47+00:00"
+        />
+      </Targets>
+    </display:DR>
+    <display:DR id="25167742" representationId="drs:urn-3:FHCL:41322528"
+      lastUpdateDate="2022-08-15T18:06:26+00:00" sequence="2" primary="false" projectId="817"
+      institutionId="10003" createdBy="michael_rios@harvard.edu"
+      updatedBy="christopher_hyde@harvard.edu" createdDate="2019-06-19T17:51:52+00:00">
+      <DisplayRecord xmlns="">
+        <field_string id="fd_37146_an" description="None" label="Image Accession Number"
+          value="1991.03572"/>
+        <field_string id="fd_37148_s" description="None" label="Image Classification Number"
+          value="172  R 66  5 Sp"/>
+        <field_string id="fd_37158_s" description="None" label="Image Credit" value="AV"/>
+        <field_string id="fd_37118_s" description="None" label="Image View Description"
+          value="Plan by Borromini"/>
+        <field_string id="fd_37182_s" description="None" label="Image Source Notes" value=""/>
+        <field_string id="fd_37171_s" description="None" label="Image Source Title" value=""/>
+        <field_string id="fd_37141_s" description="None" label="Image Date" value=""/>
+        <field_string id="fd_37160_s" description="None" label="In House Notes" value=""/>
+        <field_string id="fd_37181_s" description="None" label="Image Source Call Numbers" value=""/>
+        <field_string id="fd_37166_s" description="None" label="Image Requester" value=""/>
+        <field_string id="fd_37176_s" description="None" label="Image Source Publisher" value=""/>
+        <field_string id="fd_37119_s" description="None" label="Image View Type" value=""/>
+        <field_string id="fd_37151_s" description="None" label="Image Start Year" value=""/>
+        <field_string id="fd_37173_s" description="None" label="Image Source Author" value=""/>
+        <field_string id="fd_37175_s" description="None" label="Image Source Place Of Publication"
+          value=""/>
+        <field_string id="fd_37186_s" description="None" label="Year" value=""/>
+        <field_string id="fd_37163_s" description="None" label="Additional Formats" value=""/>
+        <field_string id="fd_37159_s" description="None" label="Image Notes" value=""/>
+        <field_string id="fd_37185_s" description="None" label="Issue Number" value=""/>
+        <field_string id="fd_37174_s" description="None" label="Image Source Edition" value=""/>
+        <field_string id="fd_37187_s" description="None" label="Page Plate Number" value=""/>
+        <field_string id="fd_37177_s" description="None" label="Image Source Publication Date"
+          value=""/>
+        <field_string id="fd_37170_s" description="None" label="Image Provider" value="FAL"/>
+        <field_string id="fd_37178_s" description="None" label="Image Source Date" value=""/>
+        <field_string id="fd_37180_s" description="None" label="Image Source Reference Number"
+          value=""/>
+        <field_string id="fd_37157_s" description="None" label="Image Rights" value=""/>
+        <field_string id="fd_37172_s" description="None" label="Image Source Alternate Title"
+          value=""/>
+        <field_string id="fd_37184_s" description="None" label="Volume" value=""/>
+        <field_string id="fd_37183_s" description="None" label="Image Source Record Created By"
+          value=""/>
+        <field_string id="fd_37179_s" description="None" label="Image Source Series Title" value=""/>
+        <field_string id="fd_37152_s" description="None" label="Image Measurements" value=""/>
+        <field_string id="fd_37145_s" description="None" label="Image Collection" value=""/>
+        <field_string id="fd_37153_s" description="None" label="Image End Year" value=""/>
+        <field_string id="fd_37168_s" description="None" label="Image Source ID" value=""/>
+        <field_string id="fd_37147_s" description="None" label="Image Accession Date" value=""/>
+        <field_string id="fd_37132_s" description="None" label="Latitude" value="41.9"/>
+        <field_string id="fd_37133_s" description="None" label="Longitude" value="12.483333"/>
+        <field_string id="fd_37134_s" description="None" label="Elevation" value=""/>
+        <field_boolean id="fd_37161_b" description="None" label="Send To Harvard" value="true"/>
+        <field_lookup id="fd_37149_mfcl_lookup" description="None" label="Image Type">
+          <display>slide</display>
+          <linkedField id="11319127" revision="-1" source_id="11319127" preferredTerm="slide"
+            institutionName="Harvard">
+            <allTerms>slide</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_37144_lookup" description="None" label="Image Repository">
+          <display>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</display>
+          <linkedField id="9000369831" revision="-1" source_id="9000369831"
+            preferredTerm="Harvard Fine Arts Library, Digital Images &amp; Slides Collection"
+            conceptLevel="Local" institutionName="Harvard"
+            uri="http://forum.jstor.org/oai/SSN/9000369831">
+            <allTerms>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_37169_mfcl_lookup" description="None" label="Image Source Type">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_37156_lookup" description="None" label="Image Subject">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_37150_lookup" description="None" label="Image Associated Name">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_37154_lookup" description="None" label="Image Materials">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_37155_lookup" description="None" label="Image Support">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_37140_lookup" description="None" label="Photographer">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_37189_lookup" description="None" label="Image Technique">
+          <display/>
+        </field_lookup>
+      </DisplayRecord>
+      <AssetGroups xmlns="">
+        <Group id="120495"/>
+      </AssetGroups>
+      <Publications xmlns="">
+        <Publication asset_id="25167742" publishing_target_id="798"/>
+        <Publication asset_id="25167742" publishing_target_id="859"/>
+      </Publications>
+      <Assets xmlns="" filename="urn-3:FHCL:41322528">
+        <Asset id="25167742" size="ADLImageViewer" uri="http://library.artstor.org/#/ssid/25167742"
+          restriction="t"/>
+        <Asset id="None" size="DRS_full" uri="http://nrs.harvard.edu/urn-3:FHCL:41322528"
+          restriction="t"/>
+        <Asset id="None" size="DRS_thumb" uri="http://nrs.harvard.edu/urn-3:FHCL:41322528"
+          restriction="t"/>
+      </Assets>
+      <Targets xmlns="">
+        <Target name="OAI" status_lkup="Published" url="#" description="OAI"
+          publishDate="2022-04-29T14:57:05+00:00"/>
+        <Target name="Harvard University Study Collection of Digital Images" status_lkup="Published"
+          url="http://library.artstor.org/library/"
+          description="Institutional Collection in Artstor" publishDate="2022-04-29T14:57:03+00:00"
+        />
+      </Targets>
+    </display:DR>
+  </ssw:Work>
+  <ssn:Name conceptId="9000369251" stateText="NEW" recordType="PERSON" batchId="2"
+    statusText="Provisional" createdOn="2014/12/26 10:27:49" modifiedOn="2014/12/26 10:27:49"
+    batchName="Harvard" preferredTerm="Borromini, Francesco"
+    uri="http://forum.jstor.org/oai/ssn/9000369251">
+    <Nationalities xmlns="" count="1">
+      <Nationality id="11281509" name="Italian" preferred="true"/>
+    </Nationalities>
+    <Terms xmlns="" count="5">
+      <Term id="1070300" name="Borromini, Francesco" preferred="true">
+        <TermSource id="11318641" name="NO SOURCE" preferred="true"/>
+      </Term>
+      <Term id="1070301" name="Borromino, Francesco" preferred="false">
+        <TermSource id="11318641" name="NO SOURCE" preferred="true"/>
+      </Term>
+      <Term id="1070302" name="Boromini, Francesco" preferred="false">
+        <TermSource id="11318641" name="NO SOURCE" preferred="true"/>
+      </Term>
+      <Term id="1070303" name="Boromino, Francesco" preferred="false">
+        <TermSource id="11318641" name="NO SOURCE" preferred="true"/>
+      </Term>
+      <Term id="1070304" name="Castello, Francesco" preferred="false">
+        <TermSource id="11318641" name="NO SOURCE" preferred="true"/>
+      </Term>
+    </Terms>
+    <Biographies xmlns="" count="1">
+      <Biography id="1070305" name="1599-1667, Italian" preferred="true">
+        <birthDate year="1599" epoch="AD"/>
+        <deathDate year="1667" epoch="AD"/>
+        <birthPlace/>
+        <deathPlace/>
+      </Biography>
+    </Biographies>
+    <Notes xmlns="" count="1">
+      <Note noteText="HOLLIS"/>
+    </Notes>
+  </ssn:Name>
+  <ssn:Name conceptId="9000369124" stateText="AUTHORITY" recordType="CORPORATE BODY" batchId="2"
+    statusText="Provisional" createdOn="2014/12/26 10:24:16" modifiedOn="2016/09/09 19:26:06"
+    batchName="Harvard" preferredTerm="Harvard Fine Arts Library, Special Collections"
+    uri="http://forum.jstor.org/oai/ssn/9000369124">
+    <Terms xmlns="" count="1">
+      <Term id="1061567" name="Harvard Fine Arts Library, Special Collections" preferred="true">
+        <TermSource id="11318641" name="NO SOURCE" preferred="true"/>
+      </Term>
+    </Terms>
+    <Biographies xmlns="" count="1">
+      <Biography id="1061568" preferred="true">
+        <birthPlace/>
+        <deathPlace/>
+      </Biography>
+    </Biographies>
+  </ssn:Name>
+  <ssn:Name conceptId="9000369831" stateText="NEW" recordType="CORPORATE BODY" batchId="2"
+    statusText="Provisional" createdOn="2014/12/26 12:37:01" modifiedOn="2014/12/26 12:37:01"
+    batchName="Harvard"
+    preferredTerm="Harvard Fine Arts Library, Digital Images &amp; Slides Collection"
+    uri="http://forum.jstor.org/oai/ssn/9000369831">
+    <Terms xmlns="" count="1">
+      <Term id="1071828" name="Harvard Fine Arts Library, Digital Images &amp; Slides Collection"
+        preferred="true">
+        <TermSource id="11318641" name="NO SOURCE" preferred="true"/>
+      </Term>
+    </Terms>
+  </ssn:Name>
+  <aat:AAT subjectId="300312240" recordType="C"
+    englishScopeNote="Degree-granting institutions that may include liberal arts undergraduate colleges, graduate schools, and undergraduate or graduate professional schools."
+    preferredTerm="universities" uri="http://forum.jstor.org/oai/aat/300312240">
+    <Hierarchy xmlns="">
+      <Parent subjectId="300264089" name="Agents Facet">
+        <Child subjectId="300234770" name="Organizations">
+          <Child subjectId="300025948" name="organizations">
+            <Child subjectId="300026004" name="institutions">
+              <Child subjectId="300312238" name="institutions by activity">
+                <Child subjectId="300266108" name="schools (organizations)">
+                  <Child subjectId="300312240" name="universities"/>
+                </Child>
+              </Child>
+            </Child>
+          </Child>
+        </Child>
+      </Parent>
+    </Hierarchy>
+    <Terms xmlns="">
+      <Term id="1000409314" name="universities" preferred="P" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="P"/>
+        </Languages>
+        <Sources>
+          <Source id="2000046684" briefCit="Random House Unabridged Dictionary (1993)"
+            fullCit="Flexner, Stuart B. and Leonore C. Hauck, eds. Random House Unabridged Dictionary. 2nd ed. New York: Random House, 1993."/>
+          <Source id="2000039651"
+            briefCit="Canadian Thesaurus of Construction Science and Technology (1978)"
+            fullCit="Canadian Thesaurus of Construction Science and Technology. 2 vols. Ottawa, Ont.: Department of Industry, Trade and Commerce, 1978. "/>
+          <Source id="2000031141" briefCit="Oxford English Dictionary (1989)"
+            fullCit="Oxford English Dictionary. 2nd edition. Edited by J. A. Simpson and J. C. Weider. 20 vols. New York: Oxford University Press, 1989. "/>
+          <Source id="2000035251" briefCit="RILA, Subject Headings (1975-1990)"
+            fullCit="J. Paul Getty Trust. International Repertory of the Literature of Art Subject Headings. Document prepared for internal distribution. Williamstown: J. Paul Getty Trust, 1975-1990."/>
+          <Source id="2000051089" briefCit="AATA database (2002-) "
+            fullCit="Getty Conservation Institute (GCI). database of AATA Online: Abstracts of International Conservation Literature. Los Angeles: GCI, 2002-.       "/>
+          <Source id="2000034441" briefCit="Thesaurus of Monument Types (1995)"
+            fullCit="Royal Commission on the Historical Monuments of England and English Heritage. Thesaurus of Monument Types: A Standard for Use in Archaeological and Architectural Records. Swindon, Great Britain: Royal Commission on the Historical Monuments of England, National Monuments Record Centre, 1995."/>
+          <Source id="2000042061" briefCit="Webster's Third New International Dictionary (1961)"
+            fullCit="Webster's Third New International Dictionary of the English Language. Unabridged. Springfield, MA: G. &amp; C. Merriam Co., 1961."/>
+          <Source id="2000041001" briefCit="UNESCO Thesaurus (1977)"
+            fullCit="Aitchison, Jean, ed. UNESCO Thesaurus: A Structured List of Descriptors for Indexing and Retrieving Literature in the Fields of Education, Science, Social Science, Culture, and Communication. Paris: United Nations Educational, Scientific and Cultural Organization, 1977."/>
+          <Source id="2000047206" briefCit="BHA Subject Headings (1985-)"
+            fullCit="Bibliography of the History of Art Subject Headings (BHA): English. J. Paul Getty Trust, Williamstown, Massachusetts,  1985-."/>
+          <Source id="2000014151" briefCit="Thesaurus of ERIC Descriptors (1982)"
+            fullCit="Thesaurus of ERIC Descriptors. 9th ed. Phoenix, Arizona: Oryx Press, 1982."/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+          <Contributor id="10000088" briefName="GCI"
+            fullName="Getty Conservation Institute, The Getty Center (Los Angeles, California)"/>
+        </Contributors>
+      </Term>
+      <Term id="1000409315" name="university" preferred="V" historicFlag="C " otherFlags="NA"
+        vernacular="U">
+        <Languages>
+          <Language code="70051" description="English" preferred="N"/>
+        </Languages>
+        <Sources>
+          <Source id="2000046717" briefCit="Getty Vocabulary Program rules"
+            fullCit="Getty Vocabulary Program. Term warranted by AAT Editorial Guidelines."/>
+        </Sources>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </Term>
+    </Terms>
+    <ScopeNotes xmlns="">
+      <ScopeNote id="58098"
+        notesText="Degree-granting institutions that may include liberal arts undergraduate colleges, graduate schools, and undergraduate or graduate professional schools.">
+        <Language code="70051" description="English"/>
+        <Contributors>
+          <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+        </Contributors>
+      </ScopeNote>
+    </ScopeNotes>
+    <Sources xmlns="">
+      <Source id="2000043551"
+        briefCit="Worcester Art Museum Library, List of subject headings, unpub. (1976)"
+        fullCit="Worcester Art Museum Library. Document prepared for internal distribution. Worcester Art Museum Library, Worcester, Mass., 1976.  "/>
+      <Source id="2000046657" briefCit="Avery Index (1963-)"
+        fullCit="The Avery Index to Architectural Periodicals. Boston, MA.: G. K. Hall &amp; Co., 1963-."/>
+      <Source id="2000051089" briefCit="AATA database (2002-) "
+        fullCit="Getty Conservation Institute (GCI). database of AATA Online: Abstracts of International Conservation Literature. Los Angeles: GCI, 2002-.       "/>
+      <Source id="2000024811" briefCit="CDMARC Subjects: LCSH (1988-)"
+        fullCit="CDMARC Subjects: Library of Congress Subject Headings. Washington, DC: Library of Congress, Cataloging Distribution Service, 1988-. Quarterly, with each issue cumulative."
+      />
+    </Sources>
+    <Contributors xmlns="">
+      <Contributor id="10000088" briefName="GCI"
+        fullName="Getty Conservation Institute, The Getty Center (Los Angeles, California)"/>
+      <Contributor id="10000000" briefName="VP" fullName="Getty Vocabulary Program"/>
+    </Contributors>
+  </aat:AAT>
+  <tgn:TGN subjectId="7000874" recordType="A" placeType="inhabited place" englishName="Rome"
+    preferredName="Roma" uri="http://forum.jstor.org/oai/tgn/7000874">
+    <tgn:latitude xmlns="" decimal="41.9" degree="41" minute="54" second="0" direction="N"/>
+    <tgn:longitude xmlns="" decimal="12.483333" degree="12" minute="29" second="0" direction="E"/>
+    <tgn:Hierarchy xmlns="">
+      <tgn:Parent subjectId="7029392" name="World" type="facet">
+        <tgn:Child subjectId="1000003" name="Europe" type="continent">
+          <tgn:Child subjectId="1000080" name="Italy" type="nation">
+            <tgn:Child subjectId="7003080" name="Lazio" type="region">
+              <tgn:Child subjectId="7003138" name="Roma" type="province">
+                <tgn:Child subjectId="7000874" name="Rome" type="inhabited place"/>
+              </tgn:Child>
+            </tgn:Child>
+          </tgn:Child>
+        </tgn:Child>
+      </tgn:Parent>
+    </tgn:Hierarchy>
+    <tgn:Terms xmlns="">
+      <tgn:Term id="46843" name="Roma" preferred="P"/>
+      <tgn:Term id="46844" name="Rome" preferred="V"/>
+      <tgn:Term id="140711" name="Rom" preferred="V"/>
+      <tgn:Term id="328065" name="Urbe" preferred="V"/>
+      <tgn:Term id="1159548" name="Roman" preferred="V"/>
+    </tgn:Terms>
+    <tgn:PlaceTypes xmlns="">
+      <tgn:Place id="54451" name="archaeological site"
+        description="has countless notable ruins, dating from 13th cen. BC through Roman &amp; medieval periods"
+        preferred="N"/>
+      <tgn:Place id="83112" name="regional capital" preferred="N"/>
+      <tgn:Place id="83115" name="provincial capital" preferred="N"/>
+      <tgn:Place id="83324" name="commercial center" preferred="N"/>
+      <tgn:Place id="83351" name="tourist center" preferred="N"/>
+      <tgn:Place id="83002" name="inhabited place"
+        description="traditionally founded by Romulus in 753 BC, but actually there has been uninterrupted habitation since 2nd mill. BC"
+        preferred="P"/>
+      <tgn:Place id="83040" name="city" description="established &amp; unified since 6th cen. BC"
+        preferred="N"/>
+      <tgn:Place id="83111" name="national capital"
+        description="was capital of Roman Republic &amp; Empire, &amp; of powerful Papal States in Middle Ages; of newly united Kingdom of Italy from 1871"
+        preferred="N"/>
+      <tgn:Place id="83101" name="administrative center"
+        description="today most of the work force of the city is employed in some aspect of administration of the government"
+        preferred="N"/>
+      <tgn:Place id="83150" name="religious center"
+        description="was in hands of Roman Catholic Church from 6th cen.; now actual seat of the Church is Vatican City, within city of Rome"
+        preferred="N"/>
+      <tgn:Place id="83131" name="transportation center"
+        description="major roads have converged here since ancient times; also is center for rail &amp; air traffic"
+        preferred="N"/>
+      <tgn:Place id="83505" name="cultural center"
+        description="noted as great center of architecture, art &amp; music, especially during ancient times &amp; during Renaissance &amp; Baroque periods"
+        preferred="N"/>
+      <tgn:Place id="83371" name="industrial center"
+        description="most industry is confined to suburbs" preferred="N"/>
+    </tgn:PlaceTypes>
+    <tgn:Note>On 7 hills over swampy Tiber river; Etruscan city by 8th cen. BCE, their kings expelled and republic established by 500 BCE; soon ruled vast area and was center of Empire from 31 BCE; declined when capital moved to Constantinople in 330 CE; revived under popes.</tgn:Note>
+  </tgn:TGN>
+</SharedShelf>

@@ -1,0 +1,259 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<SharedShelf xmlns:display="http://catalog.sharedshelf.artstor.org/display"
+  xmlns:ssc="http://catalog.sharedshelf.artstor.org/ssc"
+  xmlns:ssd="http://catalog.sharedshelf.artstor.org/ssd"
+  xmlns:ssn="http://catalog.sharedshelf.artstor.org/ssn"
+  xmlns:ssw="http://catalog.sharedshelf.artstor.org/ssw"
+  xmlns:ssw_lkup="http://catalog.sharedshelf.artstor.org/ssw_lkup"
+  xmlns:tgn="http://catalog.sharedshelf.artstor.org/tgn"
+  xmlns:aat="http://catalog.sharedshelf.artstor.org/aat"
+  xmlns:mfcl="http://catalog.sharedshelf.artstor.org/mfcl"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="http://catalog.sharedshelf.artstor.org"
+  xsi:schemaLocation="http://catalog.sharedshelf.artstor.org http://catalog.sharedshelf.artstor.org/service/schema/SharedShelf_IO.xsd">
+  <ssw:Work lastUpdateDate="2022/09/29 13:13:46" id="8000614378" refid="W74823"
+    contributor="Harvard" instituteId="10003" uri="http://forum.jstor.org/oai/ssw/8000614378">
+    <Titles xmlns="" tempered="false">
+      <Display>Grenouillère near Bougival ; Alternate: Frogpond near Bougival ; Abbreviated: Grenouillère</Display>
+      <Title pref="true" term="Grenouillère near Bougival"/>
+      <Title term="Frogpond near Bougival" type_lkup="Alternate" type_lkup_id="11309178"/>
+      <Title term="Grenouillère" type_lkup="Abbreviated" type_lkup_id="11309161"/>
+    </Titles>
+    <WorkTypes xmlns="" tempered="true">
+      <Display>painting</Display>
+      <WorkType id="11317567" vocab="MFCL" term="painting"
+        uri="http://forum.jstor.org/oai/MFCL/11317567"/>
+    </WorkTypes>
+    <Materials xmlns="" tempered="true">
+      <Display>oil on canvas</Display>
+      <Material id="11315295" vocab="MFCL" term="oil" supporttype_lkup="Medium"
+        supporttype_lkup_id="11315160" uri="http://forum.jstor.org/oai/MFCL/11315295"/>
+      <Material id="11315296" vocab="MFCL" term="canvas" supporttype_lkup="Support"
+        supporttype_lkup_id="11315161" uri="http://forum.jstor.org/oai/MFCL/11315296"/>
+    </Materials>
+    <Measurements xmlns="" tempered="false">
+      <Display>65 x 93 cm.</Display>
+      <Measurement>
+        <ssw:Measure>
+          <Term>65 x 93 cm.</Term>
+        </ssw:Measure>
+      </Measurement>
+    </Measurements>
+    <Subjects xmlns="" tempered="false">
+      <Display>leisure ; suburbs</Display>
+      <Subject id="11300294" vocab="MFCL" term="leisure"
+        uri="http://forum.jstor.org/oai/MFCL/11300294"/>
+      <Subject id="11299442" vocab="MFCL" term="suburbs"
+        uri="http://forum.jstor.org/oai/MFCL/11299442"/>
+    </Subjects>
+    <Cultures xmlns="" tempered="true">
+      <Display>French</Display>
+      <Culture id="11281483" vocab="MFCL" term="French"
+        uri="http://forum.jstor.org/oai/MFCL/11281483"/>
+    </Cultures>
+    <Dates xmlns="" tempered="false">
+      <Display>1869</Display>
+      <Date startDate="1869" endDate="1869" type_lkup="workDate"/>
+      <Date startDate="1869" endDate="1869"/>
+    </Dates>
+    <Locations xmlns="" tempered="false">
+      <Display>Sammlung Oskar Reinhart "Am Romerholz", Winterthur, Switzerland (repository)</Display>
+      <DisplayLocation
+        term="Sammlung Oskar Reinhart &quot;Am Romerholz&quot;, Winterthur, Switzerland"
+        type_lkup="repository" type_lkup_id="11315199"/>
+      <Repository id="9000374027" vocab="SSN" refid="N864"
+        term="Sammlung Oskar Reinhart &quot;Am Romerholz&quot;" type_lkup="repository"
+        uri="http://forum.jstor.org/oai/SSN/9000374027">
+        <location id="4000003392" term="Winterthur, Switzerland"/>
+        <ssw:RefIdDetail term="106" type_lkup="repository number" type_lkup_id="11315210"/>
+      </Repository>
+    </Locations>
+    <ArtstorCountries xmlns="" tempered="false">
+      <Country id="11312957" term_lkup="France"/>
+    </ArtstorCountries>
+    <Agents xmlns="" tempered="false">
+      <Display>Renoir, Pierre Auguste (1841-1919, French) artist</Display>
+      <Agent id="9000374035" vocab="SSN" refid="N1626" term="Renoir, Pierre Auguste"
+        role_lkup="artist" role_lkup_id="11310453" qualifier_lkup="creator"
+        uri="http://forum.jstor.org/oai/SSN/9000374035">
+        <ssw:Display>Renoir, Pierre Auguste (1841-1919, French) artist</ssw:Display>
+      </Agent>
+    </Agents>
+    <LocalInformation xmlns="" legacyId="W74823" originalCataloger="esielonis"
+      secondaryCataloger="lam" catalogStartDate="7/21/1999" catalogUpdateDate="1/24/2012"/>
+    <RelatedWorks xmlns=""/>
+    <display:DR id="34013295" representationId="None" lastUpdateDate="2022-09-29T18:13:47+00:00"
+      sequence="6" primary="false" projectId="817" institutionId="10003"
+      createdBy="wsconnor@fas.harvard.edu" updatedBy="wsconnor@fas.harvard.edu"
+      createdDate="2022-09-28T20:49:41+00:00">
+      <DisplayRecord xmlns="">
+        <field_string id="fd_37146_an" description="None" label="Image Accession Number"
+          value="1992.04875"/>
+        <field_string id="fd_37173_s" description="None" label="Image Source Author" value=""/>
+        <field_string id="fd_37183_s" description="None" label="Image Source Record Created By"
+          value=""/>
+        <field_string id="fd_37172_s" description="None" label="Image Source Alternate Title"
+          value="Cultural Documentation"/>
+        <field_string id="fd_37177_s" description="None" label="Image Source Publication Date"
+          value=""/>
+        <field_string id="fd_37180_s" description="None" label="Image Source Reference Number"
+          value=""/>
+        <field_string id="fd_37145_s" description="None" label="Image Collection" value=""/>
+        <field_string id="fd_37160_s" description="None" label="In House Notes" value=""/>
+        <field_string id="fd_37152_s" description="None" label="Image Measurements" value=""/>
+        <field_string id="fd_37134_s" description="None" label="Elevation" value=""/>
+        <field_string id="fd_37118_s" description="None" label="Image View Description"
+          value="Detail: Men, women, bathers, and reflections on water"/>
+        <field_string id="fd_37148_s" description="None" label="Image Classification Number"
+          value="375 R 295 91 A(d)"/>
+        <field_string id="fd_37184_s" description="None" label="Volume" value=""/>
+        <field_string id="fd_37185_s" description="None" label="Issue Number" value=""/>
+        <field_string id="fd_37163_s" description="None" label="Additional Formats" value=""/>
+        <field_string id="fd_37181_s" description="None" label="Image Source Call Numbers" value=""/>
+        <field_string id="fd_37157_s" description="None" label="Image Rights" value=""/>
+        <field_string id="fd_37166_s" description="None" label="Image Requester" value=""/>
+        <field_string id="fd_37187_s" description="None" label="Page Plate Number" value="Pff-0387"/>
+        <field_string id="fd_37174_s" description="None" label="Image Source Edition" value=""/>
+        <field_string id="fd_37186_s" description="None" label="Year" value=""/>
+        <field_string id="fd_37176_s" description="None" label="Image Source Publisher" value=""/>
+        <field_string id="fd_37141_s" description="None" label="Image Date" value=""/>
+        <field_string id="fd_37153_s" description="None" label="Image End Year" value=""/>
+        <field_string id="fd_37132_s" description="None" label="Latitude" value=""/>
+        <field_string id="fd_37147_s" description="None" label="Image Accession Date" value=""/>
+        <field_string id="fd_37182_s" description="None" label="Image Source Notes" value=""/>
+        <field_string id="fd_37151_s" description="None" label="Image Start Year" value=""/>
+        <field_string id="fd_37178_s" description="None" label="Image Source Date" value=""/>
+        <field_string id="fd_37179_s" description="None" label="Image Source Series Title" value=""/>
+        <field_string id="fd_37158_s" description="None" label="Image Credit" value="Saskia"/>
+        <field_string id="fd_37159_s" description="None" label="Image Notes" value=""/>
+        <field_string id="fd_37168_s" description="None" label="Image Source ID" value="1320"/>
+        <field_string id="fd_37175_s" description="None" label="Image Source Place Of Publication"
+          value="Portland, Maine"/>
+        <field_string id="fd_37171_s" description="None" label="Image Source Title" value=""/>
+        <field_string id="fd_37164_s" description="None" label="Olivia ID" value="U818676"/>
+        <field_string id="fd_37119_s" description="None" label="Image View Type" value=""/>
+        <field_string id="fd_37170_s" description="None" label="Image Provider" value="Saskia Ltd."/>
+        <field_string id="fd_37165_s" description="None" label="Olivia Record Info"
+          value="Record created: 12/17/2008  By: venti Record modified: 1/24/2012  By: lam Export To VIA Date: 11/6/2013 "/>
+        <field_string id="fd_37133_s" description="None" label="Longitude" value=""/>
+        <field_boolean id="fd_37162_b" description="None" label="In House Use Only" value="false"/>
+        <field_boolean id="fd_37188_b" description="None" label="Export Only In Group" value="false"/>
+        <field_boolean id="fd_37161_b" description="None" label="Send To Harvard" value="true"/>
+        <field_lookup id="fd_37144_lookup" description="None" label="Image Repository">
+          <display>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</display>
+          <linkedField id="9000369831" revision="-1" source_id="9000369831"
+            preferredTerm="Harvard Fine Arts Library, Digital Images &amp; Slides Collection"
+            representationId="N-1118422083" conceptLevel="Local" institutionName="Harvard"
+            uri="http://forum.jstor.org/oai/SSN/9000369831">
+            <allTerms>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_37155_lookup" description="None" label="Image Support">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_37156_lookup" description="None" label="Image Subject">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_37149_mfcl_lookup" description="None" label="Image Type">
+          <display>color slide</display>
+          <linkedField id="11319121" revision="-1" source_id="11319121" preferredTerm="color slide">
+            <allTerms>color slide</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_37150_lookup" description="None" label="Image Associated Name">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_37169_mfcl_lookup" description="None" label="Image Source Type">
+          <display>vendor</display>
+          <linkedField id="11319145" revision="-1" source_id="11319145" preferredTerm="vendor"
+            institutionName="Harvard">
+            <allTerms>vendor</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_37140_lookup" description="None" label="Photographer">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_37189_lookup" description="None" label="Image Technique">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_37154_lookup" description="None" label="Image Materials">
+          <display/>
+        </field_lookup>
+      </DisplayRecord>
+      <AssetGroups xmlns="">
+        <Group id="543078"/>
+      </AssetGroups>
+      <Publications xmlns="">
+        <Publication asset_id="34013295" publishing_target_id="798"/>
+      </Publications>
+      <Assets xmlns="" filename="None">
+        <Asset id="34013295" size="Thumbnail" uri="http://forum.jstor.org/oai/thumbnail?id=34013295"
+          restriction="f"/>
+        <Asset id="34013295" size="FullSize"
+          uri="http://forum.jstor.org/assets/34013295/representation/size/9" restriction="f"/>
+        <Asset id="34013295" size="Medias" uri="http://forum.jstor.org/oai/medias/34013295"
+          restriction="f"/>
+      </Assets>
+      <Targets xmlns="">
+        <Target name="OAI" status_lkup="Published" url="#" description="OAI"
+          publishDate="2022-09-28T20:50:52+00:00"/>
+      </Targets>
+    </display:DR>
+  </ssw:Work>
+  <ssn:Name conceptId="9000374027" stateText="NEW" recordType="CORPORATE BODY" batchId="2"
+    statusText="Provisional" createdOn="2014/12/26 16:21:00" modifiedOn="2014/12/26 16:21:00"
+    batchName="Harvard" preferredTerm="Sammlung Oskar Reinhart &quot;Am Romerholz&quot;"
+    uri="http://forum.jstor.org/oai/ssn/9000374027">
+    <Terms xmlns="" count="3">
+      <Term id="1083438" name="Sammlung Oskar Reinhart &quot;Am Romerholz&quot;" preferred="true">
+        <TermSource id="11276960" name="HOLLIS" preferred="true"/>
+      </Term>
+      <Term id="1083439" name="Reinhart, Dr. Oskar - Collection" preferred="false">
+        <TermSource id="11276961" name="Source data found" preferred="true"/>
+      </Term>
+      <Term id="1083440" name="Fondation Oskar-Reinhart" preferred="false">
+        <TermSource id="11276961" name="Source data found" preferred="true"/>
+      </Term>
+    </Terms>
+    <Events xmlns="" count="1">
+      <Event id="11315114" name="location" place="Winterthur, Switzerland"/>
+    </Events>
+  </ssn:Name>
+  <ssn:Name conceptId="9000374035" stateText="NEW" recordType="PERSON" batchId="2"
+    statusText="Provisional" createdOn="2014/12/26 16:21:02" modifiedOn="2014/12/26 16:21:02"
+    batchName="Harvard" preferredTerm="Renoir, Pierre Auguste"
+    uri="http://forum.jstor.org/oai/ssn/9000374035">
+    <Nationalities xmlns="" count="1">
+      <Nationality id="11281483" name="French" preferred="true"/>
+    </Nationalities>
+    <Terms xmlns="" count="1">
+      <Term id="1083456" name="Renoir, Pierre Auguste" preferred="true">
+        <TermSource id="11318641" name="NO SOURCE" preferred="true"/>
+      </Term>
+    </Terms>
+    <Biographies xmlns="" count="1">
+      <Biography id="1083457" name="1841-1919, French" preferred="true">
+        <birthDate year="1841" epoch="AD"/>
+        <deathDate year="1919" epoch="AD"/>
+        <birthPlace/>
+        <deathPlace/>
+      </Biography>
+    </Biographies>
+    <Notes xmlns="" count="1">
+      <Note noteText="HOLLIS"/>
+    </Notes>
+  </ssn:Name>
+  <ssn:Name conceptId="9000369831" stateText="NEW" recordType="CORPORATE BODY" batchId="2"
+    statusText="Provisional" createdOn="2014/12/26 12:37:01" modifiedOn="2014/12/26 12:37:01"
+    batchName="Harvard"
+    preferredTerm="Harvard Fine Arts Library, Digital Images &amp; Slides Collection"
+    uri="http://forum.jstor.org/oai/ssn/9000369831">
+    <Terms xmlns="" count="1">
+      <Term id="1071828" name="Harvard Fine Arts Library, Digital Images &amp; Slides Collection"
+        preferred="true">
+        <TermSource id="11318641" name="NO SOURCE" preferred="true"/>
+      </Term>
+    </Terms>
+  </ssn:Name>
+</SharedShelf>

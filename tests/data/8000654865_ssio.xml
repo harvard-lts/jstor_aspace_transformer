@@ -1,0 +1,904 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<SharedShelf xmlns:display="http://catalog.sharedshelf.artstor.org/display"
+  xmlns:ssc="http://catalog.sharedshelf.artstor.org/ssc"
+  xmlns:ssd="http://catalog.sharedshelf.artstor.org/ssd"
+  xmlns:ssn="http://catalog.sharedshelf.artstor.org/ssn"
+  xmlns:ssw="http://catalog.sharedshelf.artstor.org/ssw"
+  xmlns:ssw_lkup="http://catalog.sharedshelf.artstor.org/ssw_lkup"
+  xmlns:tgn="http://catalog.sharedshelf.artstor.org/tgn"
+  xmlns:aat="http://catalog.sharedshelf.artstor.org/aat"
+  xmlns:mfcl="http://catalog.sharedshelf.artstor.org/mfcl"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="http://catalog.sharedshelf.artstor.org"
+  xsi:schemaLocation="http://catalog.sharedshelf.artstor.org http://catalog.sharedshelf.artstor.org/service/schema/SharedShelf_IO.xsd">
+  <ssw:Work lastUpdateDate="2014/12/26 22:31:25" id="8000654865" refid="W172087"
+    contributor="Harvard" instituteId="10003" uri="http://forum.jstor.org/oai/ssw/8000654865">
+    <Titles xmlns="">
+      <Display>Oliphant [from the Abbey of Saint-Arnoul in Metz]</Display>
+      <Title pref="true" term="Oliphant [from the Abbey of Saint-Arnoul in Metz]"/>
+    </Titles>
+    <WorkTypes xmlns="" tempered="true">
+      <Display>ivories</Display>
+      <WorkType id="11317142" vocab="MFCL" term="ivories"
+        uri="http://forum.jstor.org/oai/MFCL/11317142"/>
+    </WorkTypes>
+    <Materials xmlns="" tempered="true">
+      <Display>ivory</Display>
+      <Material id="11315318" vocab="MFCL" term="ivory" supporttype_lkup="Medium"
+        supporttype_lkup_id="11315160" uri="http://forum.jstor.org/oai/MFCL/11315318"/>
+    </Materials>
+    <Measurements xmlns="">
+      <Display>height 640 mm.</Display>
+      <Measurement>
+        <ssw:Measure>
+          <Term>height 640 mm.</Term>
+        </ssw:Measure>
+      </Measurement>
+    </Measurements>
+    <Cultures xmlns="" tempered="true">
+      <Display>Italian</Display>
+      <Culture id="11281509" vocab="MFCL" term="Italian"
+        uri="http://forum.jstor.org/oai/MFCL/11281509"/>
+    </Cultures>
+    <Dates xmlns="">
+      <Display>late 11th-early 12th cent.</Display>
+      <Date startDate="1090" endDate="1110"/>
+    </Dates>
+    <Locations xmlns="">
+      <Display>Saint-Arnould, Metz, France (former site) ; Musée de Cluny, Paris, France (repository)</Display>
+      <DisplayLocation term="Saint-Arnould, Metz, France" type_lkup="former site"
+        type_lkup_id="11309139"/>
+      <DisplayLocation term="Musée de Cluny, Paris, France" type_lkup="repository"
+        type_lkup_id="11315199"/>
+      <Location id="S48842" vocab="SSW" refid="S48842" term="Saint-Arnould, Metz, France"
+        type_lkup="former site" type_lkup_id="11309139" uri="http://forum.jstor.org/oai/SSW/S48842"/>
+      <Repository id="9000370938" vocab="SSN" refid="N15703" term="Musée de Cluny"
+        type_lkup="repository" uri="http://forum.jstor.org/oai/SSN/9000370938">
+        <location id="4000000392" term="Paris, France"/>
+        <ssw:RefIdDetail term="Cl. 13065" type_lkup="repository number" type_lkup_id="11315210"/>
+      </Repository>
+    </Locations>
+    <ArtstorClassifications xmlns="">
+      <ArtstorClassification id="11309254" term_lkup="Sculpture and Installations"/>
+    </ArtstorClassifications>
+    <LocalInformation xmlns="" legacyId="W172087" originalCataloger="desjardins"
+      secondaryCataloger="desjardins" catalogStartDate="12/17/2002" catalogUpdateDate="9/12/2007"/>
+    <RelatedWorks xmlns=""/>
+    <display:DR id="7613106" representationId="drs:urn-3:FHCL:178392,urn-3:FHCL:75612"
+      lastUpdateDate="2014-12-27T03:31:25+00:00" sequence="3" primary="true" projectId="817"
+      institutionId="10003" createdBy="qah001@artstor.org" updatedBy="qah001@artstor.org"
+      createdDate="2014-12-27T03:31:25+00:00">
+      <DisplayRecord xmlns="">
+        <field_string id="fd_37148_s" description="None" label="Image Classification Number"
+          value="772 It 112 1 PaC"/>
+        <field_string id="fd_37173_s" description="None" label="Image Source Author"
+          value="Huchard, Viviane"/>
+        <field_string id="fd_37118_s" description="None" label="Image View Description"
+          value="Detail: Christ and the Virgin in majesty"/>
+        <field_string id="fd_37175_s" description="None" label="Image Source Place Of Publication"
+          value="Paris"/>
+        <field_string id="fd_37172_s" description="None" label="Image Source Alternate Title"
+          value="Musees et monuments de France"/>
+        <field_string id="fd_37187_s" description="None" label="Page Plate Number" value="32"/>
+        <field_string id="fd_37177_s" description="None" label="Image Source Publication Date"
+          value="1996"/>
+        <field_string id="fd_37176_s" description="None" label="Image Source Publisher"
+          value="Fondation Paribas : Reunion des Musees nationaux"/>
+        <field_string id="fd_37171_s" description="None" label="Image Source Title"
+          value="Musee national du Moyen Age : Thermes de Cluny"/>
+        <field_string id="fd_37146_an" description="None" label="Image Accession Number"
+          value="2002.21322"/>
+        <field_string id="fd_37132_s" description="None" label="Latitude" value=""/>
+        <field_string id="fd_37164_s" description="None" label="Olivia ID" value="U352142"/>
+        <field_string id="fd_37134_s" description="None" label="Elevation" value=""/>
+        <field_string id="fd_37165_s" description="None" label="Olivia Record Info"
+          value="Record created: 6/26/2002  By: harder Record modified: 6/20/2004  By: Designer Export To VIA Date: 10/5/2010 "/>
+        <field_string id="fd_37180_s" description="None" label="Image Source Reference Number"
+          value="BJL6857"/>
+        <field_string id="fd_37181_s" description="None" label="Image Source Call Numbers"
+          value="60 P23c 1996a (Fine Arts)"/>
+        <field_string id="fd_37168_s" description="None" label="Image Source ID" value="5899"/>
+        <field_string id="fd_37158_s" description="None" label="Image Credit" value="AV"/>
+        <field_string id="fd_37166_s" description="None" label="Image Requester" value="Hamburger"/>
+        <field_string id="fd_37179_s" description="None" label="Image Source Series Title"
+          value="Musees et monuments de France"/>
+        <field_string id="fd_37133_s" description="None" label="Longitude" value=""/>
+        <field_boolean id="fd_37188_b" description="None" label="Export Only In Group" value="false"/>
+        <field_boolean id="fd_37162_b" description="None" label="In House Use Only" value="false"/>
+        <field_boolean id="fd_37161_b" description="None" label="Send To Harvard" value="true"/>
+        <field_lookup id="fd_37149_mfcl_lookup" description="None" label="Image Type">
+          <display>color slide</display>
+          <linkedField id="11319121" revision="-1" source_id="11319121" preferredTerm="color slide"
+            institutionName="Harvard">
+            <allTerms>color slide</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_37169_mfcl_lookup" description="None" label="Image Source Type">
+          <display>exhibition catalog</display>
+          <linkedField id="11319135" revision="-1" source_id="11319135"
+            preferredTerm="exhibition catalog" institutionName="Harvard">
+            <allTerms>exhibition catalog</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_37144_lookup" description="None" label="Image Repository">
+          <display>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</display>
+          <linkedField id="9000369831" revision="-1" source_id="9000369831"
+            preferredTerm="Harvard Fine Arts Library, Digital Images &amp; Slides Collection"
+            representationId="N-1118422083" conceptLevel="Local" institutionName="Harvard"
+            uri="http://forum.jstor.org/oai/SSN/9000369831">
+            <allTerms>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_37156_lookup" description="None" label="Image Subject">
+          <display>Mary, Blessed Virgin, Saint ; Jesus Christ (ca. 5 BC - 30 AD)</display>
+          <linkedField id="9000340189" revision="-1" source_id="9000340189"
+            preferredTerm="Mary, Blessed Virgin, Saint" representationId="N17526"
+            conceptLevel="Local" institutionName="Harvard"
+            uri="http://forum.jstor.org/oai/SSN/9000340189">
+            <allTerms>Mary, Blessed Virgin, Saint</allTerms>
+          </linkedField>
+          <linkedField id="9000335938" revision="-1" source_id="9000335938"
+            preferredTerm="Jesus Christ" representationId="N18092" conceptLevel="Local"
+            institutionName="Harvard" uri="http://forum.jstor.org/oai/SSN/9000335938">
+            <allTerms>Jesus Christ</allTerms>
+          </linkedField>
+        </field_lookup>
+      </DisplayRecord>
+      <Publications xmlns="">
+        <Publication asset_id="7613106" publishing_target_id="798"/>
+        <Publication asset_id="7613106" publishing_target_id="859"/>
+      </Publications>
+      <Assets xmlns="" filename="urn-3:FHCL:178392,urn-3:FHCL:75612">
+        <Asset id="7613106" size="ADLImageViewer" uri="http://library.artstor.org/#/ssid/7613106"
+          restriction="t"/>
+        <Asset id="None" size="DRS_full" uri="http://nrs.harvard.edu/urn-3:FHCL:75612"
+          restriction="t"/>
+        <Asset id="None" size="DRS_thumb" uri="http://nrs.harvard.edu/urn-3:FHCL:178392"
+          restriction="t"/>
+      </Assets>
+      <Targets xmlns="">
+        <Target name="OAI" status_lkup="Published" url="#" description="OAI"
+          publishDate="2014-12-27T03:33:02+00:00"/>
+        <Target name="Harvard University Study Collection of Digital Images" status_lkup="Published"
+          url="http://library.artstor.org/library/"
+          description="Institutional Collection in Artstor" publishDate="2017-11-10T12:43:01+00:00"
+        />
+      </Targets>
+    </display:DR>
+    <display:DR id="7613107" representationId="drs:urn-3:FHCL:1180362"
+      lastUpdateDate="2014-12-27T03:31:25+00:00" sequence="1" primary="false" projectId="817"
+      institutionId="10003" createdBy="qah001@artstor.org" updatedBy="qah001@artstor.org"
+      createdDate="2014-12-27T03:31:25+00:00">
+      <DisplayRecord xmlns="">
+        <field_string id="fd_37148_s" description="None" label="Image Classification Number"
+          value="772 It 112 1 PaC"/>
+        <field_string id="fd_37173_s" description="None" label="Image Source Author"
+          value="Musées de Metz"/>
+        <field_string id="fd_37118_s" description="None" label="Image View Description"
+          value="Two views"/>
+        <field_string id="fd_37175_s" description="None" label="Image Source Place Of Publication"
+          value="Metz"/>
+        <field_string id="fd_37187_s" description="None" label="Page Plate Number" value="27"/>
+        <field_string id="fd_37177_s" description="None" label="Image Source Publication Date"
+          value="2000"/>
+        <field_string id="fd_37176_s" description="None" label="Image Source Publisher"
+          value="Musées de la Cour d’Or : Editions Serpanoise"/>
+        <field_string id="fd_37171_s" description="None" label="Image Source Title"
+          value="Chemin des reliques : témoignages précieux et ordinaires de la vie religieuse à Metz au Moyen Âge"/>
+        <field_string id="fd_37146_an" description="None" label="Image Accession Number"
+          value="d2007.07347"/>
+        <field_string id="fd_37132_s" description="None" label="Latitude" value=""/>
+        <field_string id="fd_37164_s" description="None" label="Olivia ID" value="U716085"/>
+        <field_string id="fd_37134_s" description="None" label="Elevation" value=""/>
+        <field_string id="fd_37165_s" description="None" label="Olivia Record Info"
+          value="Record created: 5/31/2007  By: aveni Record modified: 9/28/2007  By: llorens Export To VIA Date: 10/5/2010 "/>
+        <field_string id="fd_37180_s" description="None" label="Image Source Reference Number"
+          value="009379572"/>
+        <field_string id="fd_37181_s" description="None" label="Image Source Call Numbers"
+          value="NK1655.M4 C48 2000 (Widener)"/>
+        <field_string id="fd_37168_s" description="None" label="Image Source ID" value="14970"/>
+        <field_string id="fd_37158_s" description="None" label="Image Credit" value="AV"/>
+        <field_string id="fd_37166_s" description="None" label="Image Requester"
+          value="Hamburger, Jeffrey"/>
+        <field_string id="fd_37133_s" description="None" label="Longitude" value=""/>
+        <field_boolean id="fd_37188_b" description="None" label="Export Only In Group" value="false"/>
+        <field_boolean id="fd_37162_b" description="None" label="In House Use Only" value="false"/>
+        <field_boolean id="fd_37161_b" description="None" label="Send To Harvard" value="true"/>
+        <field_lookup id="fd_37149_mfcl_lookup" description="None" label="Image Type">
+          <display>digital image</display>
+          <linkedField id="11319122" revision="-1" source_id="11319122"
+            preferredTerm="digital image" institutionName="Harvard">
+            <allTerms>digital image</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_37169_mfcl_lookup" description="None" label="Image Source Type">
+          <display>exhibition catalog</display>
+          <linkedField id="11319135" revision="-1" source_id="11319135"
+            preferredTerm="exhibition catalog" institutionName="Harvard">
+            <allTerms>exhibition catalog</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_37144_lookup" description="None" label="Image Repository">
+          <display>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</display>
+          <linkedField id="9000369831" revision="-1" source_id="9000369831"
+            preferredTerm="Harvard Fine Arts Library, Digital Images &amp; Slides Collection"
+            representationId="N-1118422083" conceptLevel="Local" institutionName="Harvard"
+            uri="http://forum.jstor.org/oai/SSN/9000369831">
+            <allTerms>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</allTerms>
+          </linkedField>
+        </field_lookup>
+      </DisplayRecord>
+      <Publications xmlns="">
+        <Publication asset_id="7613107" publishing_target_id="798"/>
+        <Publication asset_id="7613107" publishing_target_id="859"/>
+      </Publications>
+      <Assets xmlns="" filename="urn-3:FHCL:1180362">
+        <Asset id="7613107" size="ADLImageViewer" uri="http://library.artstor.org/#/ssid/7613107"
+          restriction="t"/>
+        <Asset id="None" size="DRS_full" uri="http://nrs.harvard.edu/urn-3:FHCL:1180362"
+          restriction="t"/>
+        <Asset id="None" size="DRS_thumb" uri="http://nrs.harvard.edu/urn-3:FHCL:1180362"
+          restriction="t"/>
+      </Assets>
+      <Targets xmlns="">
+        <Target name="OAI" status_lkup="Published" url="#" description="OAI"
+          publishDate="2014-12-27T03:33:02+00:00"/>
+        <Target name="Harvard University Study Collection of Digital Images" status_lkup="Published"
+          url="http://library.artstor.org/library/"
+          description="Institutional Collection in Artstor" publishDate="2017-11-10T12:43:01+00:00"
+        />
+      </Targets>
+    </display:DR>
+    <display:DR id="7613108" representationId="drs:urn-3:FHCL:1180364"
+      lastUpdateDate="2014-12-27T03:31:25+00:00" sequence="2" primary="false" projectId="817"
+      institutionId="10003" createdBy="qah001@artstor.org" updatedBy="qah001@artstor.org"
+      createdDate="2014-12-27T03:31:25+00:00">
+      <DisplayRecord xmlns="">
+        <field_string id="fd_37148_s" description="None" label="Image Classification Number"
+          value="772 It 112 1 PaC"/>
+        <field_string id="fd_37173_s" description="None" label="Image Source Author"
+          value="Musées de Metz"/>
+        <field_string id="fd_37118_s" description="None" label="Image View Description"
+          value="Two views"/>
+        <field_string id="fd_37175_s" description="None" label="Image Source Place Of Publication"
+          value="Metz"/>
+        <field_string id="fd_37187_s" description="None" label="Page Plate Number" value="27"/>
+        <field_string id="fd_37177_s" description="None" label="Image Source Publication Date"
+          value="2000"/>
+        <field_string id="fd_37176_s" description="None" label="Image Source Publisher"
+          value="Musées de la Cour d’Or : Editions Serpanoise"/>
+        <field_string id="fd_37171_s" description="None" label="Image Source Title"
+          value="Chemin des reliques : témoignages précieux et ordinaires de la vie religieuse à Metz au Moyen Âge"/>
+        <field_string id="fd_37146_an" description="None" label="Image Accession Number"
+          value="d2007.07353"/>
+        <field_string id="fd_37132_s" description="None" label="Latitude" value=""/>
+        <field_string id="fd_37164_s" description="None" label="Olivia ID" value="U716091"/>
+        <field_string id="fd_37134_s" description="None" label="Elevation" value=""/>
+        <field_string id="fd_37165_s" description="None" label="Olivia Record Info"
+          value="Record created: 5/31/2007  By: aveni Record modified: 9/28/2007  By: llorens Export To VIA Date: 10/5/2010 "/>
+        <field_string id="fd_37180_s" description="None" label="Image Source Reference Number"
+          value="009379572"/>
+        <field_string id="fd_37181_s" description="None" label="Image Source Call Numbers"
+          value="NK1655.M4 C48 2000 (Widener)"/>
+        <field_string id="fd_37168_s" description="None" label="Image Source ID" value="14970"/>
+        <field_string id="fd_37158_s" description="None" label="Image Credit" value="AV"/>
+        <field_string id="fd_37166_s" description="None" label="Image Requester"
+          value="Hamburger, Jeffrey"/>
+        <field_string id="fd_37133_s" description="None" label="Longitude" value=""/>
+        <field_boolean id="fd_37188_b" description="None" label="Export Only In Group" value="false"/>
+        <field_boolean id="fd_37162_b" description="None" label="In House Use Only" value="false"/>
+        <field_boolean id="fd_37161_b" description="None" label="Send To Harvard" value="true"/>
+        <field_lookup id="fd_37149_mfcl_lookup" description="None" label="Image Type">
+          <display>digital image</display>
+          <linkedField id="11319122" revision="-1" source_id="11319122"
+            preferredTerm="digital image" institutionName="Harvard">
+            <allTerms>digital image</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_37169_mfcl_lookup" description="None" label="Image Source Type">
+          <display>exhibition catalog</display>
+          <linkedField id="11319135" revision="-1" source_id="11319135"
+            preferredTerm="exhibition catalog" institutionName="Harvard">
+            <allTerms>exhibition catalog</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_37144_lookup" description="None" label="Image Repository">
+          <display>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</display>
+          <linkedField id="9000369831" revision="-1" source_id="9000369831"
+            preferredTerm="Harvard Fine Arts Library, Digital Images &amp; Slides Collection"
+            representationId="N-1118422083" conceptLevel="Local" institutionName="Harvard"
+            uri="http://forum.jstor.org/oai/SSN/9000369831">
+            <allTerms>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</allTerms>
+          </linkedField>
+        </field_lookup>
+      </DisplayRecord>
+      <Publications xmlns="">
+        <Publication asset_id="7613108" publishing_target_id="798"/>
+        <Publication asset_id="7613108" publishing_target_id="859"/>
+      </Publications>
+      <Assets xmlns="" filename="urn-3:FHCL:1180364">
+        <Asset id="7613108" size="ADLImageViewer" uri="http://library.artstor.org/#/ssid/7613108"
+          restriction="t"/>
+        <Asset id="None" size="DRS_full" uri="http://nrs.harvard.edu/urn-3:FHCL:1180364"
+          restriction="t"/>
+        <Asset id="None" size="DRS_thumb" uri="http://nrs.harvard.edu/urn-3:FHCL:1180364"
+          restriction="t"/>
+      </Assets>
+      <Targets xmlns="">
+        <Target name="OAI" status_lkup="Published" url="#" description="OAI"
+          publishDate="2014-12-27T03:33:02+00:00"/>
+        <Target name="Harvard University Study Collection of Digital Images" status_lkup="Published"
+          url="http://library.artstor.org/library/"
+          description="Institutional Collection in Artstor" publishDate="2017-11-10T12:43:01+00:00"
+        />
+      </Targets>
+    </display:DR>
+    <display:DR id="34489292" representationId="drs:URN-3:FHCL:102755264"
+      lastUpdateDate="2023-02-16T14:44:31+00:00" sequence="4" primary="false" projectId="817"
+      institutionId="10003" createdBy="christopher_hyde@harvard.edu"
+      updatedBy="nicolas_roth@harvard.edu" createdDate="2023-01-19T19:31:33+00:00">
+      <DisplayRecord xmlns="">
+        <field_string id="fd_37158_s" description="None" label="Image Credit" value="AV"/>
+        <field_string id="fd_37159_s" description="None" label="Image Notes"
+          value="Funding for this image is provided by the Aga Khan Program."/>
+        <field_string id="fd_37166_s" description="None" label="Image Requester"
+          value="Necipoglu, Gulru"/>
+        <field_string id="fd_37171_s" description="None" label="Image Source Title"
+          value=" Islam in Europa, 1000-1250"/>
+        <field_string id="fd_37173_s" description="None" label="Image Source Author"
+          value="Höhl, Claudia  ; Prinz, Felix  and Ralcheva, Pavla (hg.)"/>
+        <field_string id="fd_37175_s" description="None" label="Image Source Place Of Publication"
+          value="Hildesheim ; Regensburg"/>
+        <field_string id="fd_37176_s" description="None" label="Image Source Publisher"
+          value="Bernward.Medien ; Schnell + Steiner"/>
+        <field_string id="fd_37177_s" description="None" label="Image Source Publication Date"
+          value="2022"/>
+        <field_string id="fd_37180_s" description="None" label="Image Source Reference Number"
+          value="HOLLIS number 99156451683303941"/>
+        <field_string id="fd_37181_s" description="None" label="Image Source Call Numbers"
+          value="Fine Arts Library   FAL-LC   N6260 .I792 2022 "/>
+        <field_string id="fd_37183_s" description="None" label="Image Source Record Created By"
+          value="CJH"/>
+        <field_string id="fd_37146_an" description="None" label="Image Accession Number"
+          value="d2023.05250"/>
+        <field_string id="fd_37187_s" description="None" label="Page Plate Number" value="237"/>
+        <field_string id="fd_37118_s" description="None" label="Image View Description"
+          value="General view."/>
+        <field_string id="fd_37185_s" description="None" label="Issue Number" value=""/>
+        <field_string id="fd_37145_s" description="None" label="Image Collection" value=""/>
+        <field_string id="fd_37160_s" description="None" label="In House Notes" value=""/>
+        <field_string id="fd_37174_s" description="None" label="Image Source Edition" value=""/>
+        <field_string id="fd_37153_s" description="None" label="Image End Year" value=""/>
+        <field_string id="fd_37168_s" description="None" label="Image Source ID" value=""/>
+        <field_string id="fd_37151_s" description="None" label="Image Start Year" value=""/>
+        <field_string id="fd_37119_s" description="None" label="Image View Type" value=""/>
+        <field_string id="fd_37179_s" description="None" label="Image Source Series Title" value=""/>
+        <field_string id="fd_37186_s" description="None" label="Year" value=""/>
+        <field_string id="fd_37141_s" description="None" label="Image Date" value=""/>
+        <field_string id="fd_37163_s" description="None" label="Additional Formats" value=""/>
+        <field_string id="fd_37148_s" description="None" label="Image Classification Number"
+          value=""/>
+        <field_string id="fd_37133_s" description="None" label="Longitude" value=""/>
+        <field_string id="fd_37178_s" description="None" label="Image Source Date" value=""/>
+        <field_string id="fd_37152_s" description="None" label="Image Measurements" value=""/>
+        <field_string id="fd_37184_s" description="None" label="Volume" value=""/>
+        <field_string id="fd_37182_s" description="None" label="Image Source Notes" value=""/>
+        <field_string id="fd_37132_s" description="None" label="Latitude" value=""/>
+        <field_string id="fd_37147_s" description="None" label="Image Accession Date" value=""/>
+        <field_string id="fd_37134_s" description="None" label="Elevation" value=""/>
+        <field_string id="fd_37170_s" description="None" label="Image Provider" value=""/>
+        <field_string id="fd_37172_s" description="None" label="Image Source Alternate Title"
+          value=""/>
+        <field_string id="fd_37157_s" description="None" label="Image Rights" value=""/>
+        <field_date id="fd_37167_dt" description="None" label="Image Request Date"
+          value="2023-01-20T12:00:00+00:00"/>
+        <field_boolean id="fd_37161_b" description="None" label="Send To Harvard" value="true"/>
+        <field_lookup id="fd_37144_lookup" description="None" label="Image Repository">
+          <display>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</display>
+          <linkedField id="9000369831" revision="-1" source_id="9000369831"
+            preferredTerm="Harvard Fine Arts Library, Digital Images &amp; Slides Collection"
+            conceptLevel="Local" institutionName="Harvard"
+            uri="http://forum.jstor.org/oai/SSN/9000369831">
+            <allTerms>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_37149_mfcl_lookup" description="None" label="Image Type">
+          <display>digital image</display>
+          <linkedField id="11319122" revision="-1" source_id="11319122"
+            preferredTerm="digital image" institutionName="Harvard University">
+            <allTerms>digital image</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_37169_mfcl_lookup" description="None" label="Image Source Type">
+          <display>exhibition catalog</display>
+          <linkedField id="11319135" revision="-1" source_id="11319135"
+            preferredTerm="exhibition catalog" institutionName="Harvard University">
+            <allTerms>exhibition catalog</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_37150_lookup" description="None" label="Image Associated Name">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_37156_lookup" description="None" label="Image Subject">
+          <display>birds; saints; scrolls (motifs)</display>
+          <linkedField id="11298776" revision="-1" source_id="11298776" preferredTerm="birds"
+            institutionName="Harvard University">
+            <allTerms>birds</allTerms>
+          </linkedField>
+          <linkedField id="11300744" revision="-1" source_id="11300744" preferredTerm="saints"
+            institutionName="Harvard University">
+            <allTerms>saints</allTerms>
+          </linkedField>
+          <linkedField id="11300342" revision="-1" source_id="11300342"
+            preferredTerm="scrolls (motifs)" institutionName="Harvard University">
+            <allTerms>scrolls (motifs)</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_37155_lookup" description="None" label="Image Support">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_37140_lookup" description="None" label="Photographer">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_37154_lookup" description="None" label="Image Materials">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_37189_lookup" description="None" label="Image Technique">
+          <display/>
+        </field_lookup>
+      </DisplayRecord>
+      <AssetGroups xmlns="">
+        <Group id="570657"/>
+        <Group id="570658"/>
+      </AssetGroups>
+      <Publications xmlns="">
+        <Publication asset_id="34489292" publishing_target_id="798"/>
+        <Publication asset_id="34489292" publishing_target_id="859"/>
+      </Publications>
+      <Assets xmlns="" filename="URN-3:FHCL:102755264">
+        <Asset id="34489292" size="ADLImageViewer" uri="http://library.artstor.org/#/ssid/34489292"
+          restriction="t"/>
+        <Asset id="None" size="DRS_full" uri="http://nrs.harvard.edu/URN-3:FHCL:102755264"
+          restriction="t"/>
+        <Asset id="None" size="DRS_thumb" uri="http://nrs.harvard.edu/URN-3:FHCL:102755264"
+          restriction="t"/>
+      </Assets>
+      <Targets xmlns="">
+        <Target name="OAI" status_lkup="Published" url="#" description="OAI"
+          publishDate="2023-02-16T14:44:35+00:00"/>
+        <Target name="Harvard University Study Collection of Digital Images" status_lkup="Published"
+          url="http://library.artstor.org/library/"
+          description="Institutional Collection in Artstor" publishDate="2023-02-16T14:44:35+00:00"
+        />
+      </Targets>
+    </display:DR>
+    <display:DR id="34489293" representationId="drs:URN-3:FHCL:102755266"
+      lastUpdateDate="2023-02-16T14:56:55+00:00" sequence="5" primary="false" projectId="817"
+      institutionId="10003" createdBy="christopher_hyde@harvard.edu"
+      updatedBy="nicolas_roth@harvard.edu" createdDate="2023-01-19T19:31:33+00:00">
+      <DisplayRecord xmlns="">
+        <field_string id="fd_37158_s" description="None" label="Image Credit" value="AV"/>
+        <field_string id="fd_37159_s" description="None" label="Image Notes"
+          value="Funding for this image is provided by the Aga Khan Program."/>
+        <field_string id="fd_37166_s" description="None" label="Image Requester"
+          value="Necipoglu, Gulru"/>
+        <field_string id="fd_37171_s" description="None" label="Image Source Title"
+          value=" Islam in Europa, 1000-1250"/>
+        <field_string id="fd_37173_s" description="None" label="Image Source Author"
+          value="Höhl, Claudia  ; Prinz, Felix  and Ralcheva, Pavla (hg.)"/>
+        <field_string id="fd_37175_s" description="None" label="Image Source Place Of Publication"
+          value="Hildesheim ; Regensburg"/>
+        <field_string id="fd_37176_s" description="None" label="Image Source Publisher"
+          value="Bernward.Medien ; Schnell + Steiner"/>
+        <field_string id="fd_37177_s" description="None" label="Image Source Publication Date"
+          value="2022"/>
+        <field_string id="fd_37180_s" description="None" label="Image Source Reference Number"
+          value="HOLLIS number 99156451683303941"/>
+        <field_string id="fd_37181_s" description="None" label="Image Source Call Numbers"
+          value="Fine Arts Library   FAL-LC   N6260 .I792 2022 "/>
+        <field_string id="fd_37183_s" description="None" label="Image Source Record Created By"
+          value="CJH"/>
+        <field_string id="fd_37146_an" description="None" label="Image Accession Number"
+          value="d2023.05251"/>
+        <field_string id="fd_37187_s" description="None" label="Page Plate Number"
+          value="238 (left)"/>
+        <field_string id="fd_37170_s" description="None" label="Image Provider" value=""/>
+        <field_string id="fd_37163_s" description="None" label="Additional Formats" value=""/>
+        <field_string id="fd_37160_s" description="None" label="In House Notes" value=""/>
+        <field_string id="fd_37178_s" description="None" label="Image Source Date" value=""/>
+        <field_string id="fd_37185_s" description="None" label="Issue Number" value=""/>
+        <field_string id="fd_37134_s" description="None" label="Elevation" value=""/>
+        <field_string id="fd_37153_s" description="None" label="Image End Year" value=""/>
+        <field_string id="fd_37179_s" description="None" label="Image Source Series Title" value=""/>
+        <field_string id="fd_37119_s" description="None" label="Image View Type" value=""/>
+        <field_string id="fd_37151_s" description="None" label="Image Start Year" value=""/>
+        <field_string id="fd_37157_s" description="None" label="Image Rights" value=""/>
+        <field_string id="fd_37184_s" description="None" label="Volume" value=""/>
+        <field_string id="fd_37118_s" description="None" label="Image View Description"
+          value="General view."/>
+        <field_string id="fd_37148_s" description="None" label="Image Classification Number"
+          value=""/>
+        <field_string id="fd_37186_s" description="None" label="Year" value=""/>
+        <field_string id="fd_37132_s" description="None" label="Latitude" value=""/>
+        <field_string id="fd_37145_s" description="None" label="Image Collection" value=""/>
+        <field_string id="fd_37147_s" description="None" label="Image Accession Date" value=""/>
+        <field_string id="fd_37141_s" description="None" label="Image Date" value=""/>
+        <field_string id="fd_37174_s" description="None" label="Image Source Edition" value=""/>
+        <field_string id="fd_37133_s" description="None" label="Longitude" value=""/>
+        <field_string id="fd_37172_s" description="None" label="Image Source Alternate Title"
+          value=""/>
+        <field_string id="fd_37152_s" description="None" label="Image Measurements" value=""/>
+        <field_string id="fd_37168_s" description="None" label="Image Source ID" value=""/>
+        <field_string id="fd_37182_s" description="None" label="Image Source Notes" value=""/>
+        <field_date id="fd_37167_dt" description="None" label="Image Request Date"
+          value="2023-01-20T12:00:00+00:00"/>
+        <field_boolean id="fd_37161_b" description="None" label="Send To Harvard" value="true"/>
+        <field_lookup id="fd_37144_lookup" description="None" label="Image Repository">
+          <display>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</display>
+          <linkedField id="9000369831" revision="-1" source_id="9000369831"
+            preferredTerm="Harvard Fine Arts Library, Digital Images &amp; Slides Collection"
+            conceptLevel="Local" institutionName="Harvard"
+            uri="http://forum.jstor.org/oai/SSN/9000369831">
+            <allTerms>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_37149_mfcl_lookup" description="None" label="Image Type">
+          <display>digital image</display>
+          <linkedField id="11319122" revision="-1" source_id="11319122"
+            preferredTerm="digital image" institutionName="Harvard University">
+            <allTerms>digital image</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_37169_mfcl_lookup" description="None" label="Image Source Type">
+          <display>exhibition catalog</display>
+          <linkedField id="11319135" revision="-1" source_id="11319135"
+            preferredTerm="exhibition catalog" institutionName="Harvard University">
+            <allTerms>exhibition catalog</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_37189_lookup" description="None" label="Image Technique">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_37140_lookup" description="None" label="Photographer">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_37154_lookup" description="None" label="Image Materials">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_37150_lookup" description="None" label="Image Associated Name">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_37156_lookup" description="None" label="Image Subject">
+          <display>Jesus Christ (ca. 5 BC - 30 AD); Mary, Blessed Virgin, Saint; scrolls (motifs)</display>
+          <linkedField id="9000335938" revision="-1" source_id="9000335938"
+            preferredTerm="Jesus Christ" conceptLevel="Local" institutionName="Harvard"
+            uri="http://forum.jstor.org/oai/SSN/9000335938">
+            <allTerms>Jesus Christ|Christ|Jesus of Nazareth|Yeh-su|Masih|Gesù|Christo|Yeshua|Chrystus|Gesú Cristo|Isa, Nabi|Nabi Isa|Isa Al-Masih|Al-Masih, Isa|Yesu|Iesous Christos|Yeshu'a ben Yosef|Yeshua ben Yoseph|Yesus</allTerms>
+          </linkedField>
+          <linkedField id="9000340189" revision="-1" source_id="9000340189"
+            preferredTerm="Mary, Blessed Virgin, Saint" conceptLevel="Local"
+            institutionName="Harvard" uri="http://forum.jstor.org/oai/SSN/9000340189">
+            <allTerms>Mary, Blessed Virgin, Saint|Virgin Mary|Panagia|Virgin, the|Blessed Virgin Mary, Saint|Madonna</allTerms>
+          </linkedField>
+          <linkedField id="11300342" revision="-1" source_id="11300342"
+            preferredTerm="scrolls (motifs)" institutionName="Harvard University">
+            <allTerms>scrolls (motifs)</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_37155_lookup" description="None" label="Image Support">
+          <display/>
+        </field_lookup>
+      </DisplayRecord>
+      <AssetGroups xmlns="">
+        <Group id="570657"/>
+        <Group id="570658"/>
+      </AssetGroups>
+      <Publications xmlns="">
+        <Publication asset_id="34489293" publishing_target_id="798"/>
+        <Publication asset_id="34489293" publishing_target_id="859"/>
+      </Publications>
+      <Assets xmlns="" filename="URN-3:FHCL:102755266">
+        <Asset id="34489293" size="ADLImageViewer" uri="http://library.artstor.org/#/ssid/34489293"
+          restriction="t"/>
+        <Asset id="None" size="DRS_full" uri="http://nrs.harvard.edu/URN-3:FHCL:102755266"
+          restriction="t"/>
+        <Asset id="None" size="DRS_thumb" uri="http://nrs.harvard.edu/URN-3:FHCL:102755266"
+          restriction="t"/>
+      </Assets>
+      <Targets xmlns="">
+        <Target name="OAI" status_lkup="Published" url="#" description="OAI"
+          publishDate="2023-02-16T14:56:59+00:00"/>
+        <Target name="Harvard University Study Collection of Digital Images" status_lkup="Published"
+          url="http://library.artstor.org/library/"
+          description="Institutional Collection in Artstor" publishDate="2023-02-16T14:56:59+00:00"
+        />
+      </Targets>
+    </display:DR>
+    <display:DR id="34489294" representationId="drs:URN-3:FHCL:102755268"
+      lastUpdateDate="2023-02-16T15:06:24+00:00" sequence="6" primary="false" projectId="817"
+      institutionId="10003" createdBy="christopher_hyde@harvard.edu"
+      updatedBy="nicolas_roth@harvard.edu" createdDate="2023-01-19T19:31:33+00:00">
+      <DisplayRecord xmlns="">
+        <field_string id="fd_37158_s" description="None" label="Image Credit" value="AV"/>
+        <field_string id="fd_37159_s" description="None" label="Image Notes"
+          value="Funding for this image is provided by the Aga Khan Program."/>
+        <field_string id="fd_37166_s" description="None" label="Image Requester"
+          value="Necipoglu, Gulru"/>
+        <field_string id="fd_37171_s" description="None" label="Image Source Title"
+          value=" Islam in Europa, 1000-1250"/>
+        <field_string id="fd_37173_s" description="None" label="Image Source Author"
+          value="Höhl, Claudia  ; Prinz, Felix  and Ralcheva, Pavla (hg.)"/>
+        <field_string id="fd_37175_s" description="None" label="Image Source Place Of Publication"
+          value="Hildesheim ; Regensburg"/>
+        <field_string id="fd_37176_s" description="None" label="Image Source Publisher"
+          value="Bernward.Medien ; Schnell + Steiner"/>
+        <field_string id="fd_37177_s" description="None" label="Image Source Publication Date"
+          value="2022"/>
+        <field_string id="fd_37180_s" description="None" label="Image Source Reference Number"
+          value="HOLLIS number 99156451683303941"/>
+        <field_string id="fd_37181_s" description="None" label="Image Source Call Numbers"
+          value="Fine Arts Library   FAL-LC   N6260 .I792 2022 "/>
+        <field_string id="fd_37183_s" description="None" label="Image Source Record Created By"
+          value="CJH"/>
+        <field_string id="fd_37146_an" description="None" label="Image Accession Number"
+          value="d2023.05252"/>
+        <field_string id="fd_37187_s" description="None" label="Page Plate Number"
+          value="238 (right)"/>
+        <field_string id="fd_37152_s" description="None" label="Image Measurements" value=""/>
+        <field_string id="fd_37170_s" description="None" label="Image Provider" value=""/>
+        <field_string id="fd_37132_s" description="None" label="Latitude" value=""/>
+        <field_string id="fd_37151_s" description="None" label="Image Start Year" value=""/>
+        <field_string id="fd_37186_s" description="None" label="Year" value=""/>
+        <field_string id="fd_37141_s" description="None" label="Image Date" value=""/>
+        <field_string id="fd_37163_s" description="None" label="Additional Formats" value=""/>
+        <field_string id="fd_37157_s" description="None" label="Image Rights" value=""/>
+        <field_string id="fd_37168_s" description="None" label="Image Source ID" value=""/>
+        <field_string id="fd_37148_s" description="None" label="Image Classification Number"
+          value=""/>
+        <field_string id="fd_37153_s" description="None" label="Image End Year" value=""/>
+        <field_string id="fd_37118_s" description="None" label="Image View Description"
+          value="General view."/>
+        <field_string id="fd_37160_s" description="None" label="In House Notes" value=""/>
+        <field_string id="fd_37119_s" description="None" label="Image View Type" value=""/>
+        <field_string id="fd_37145_s" description="None" label="Image Collection" value=""/>
+        <field_string id="fd_37172_s" description="None" label="Image Source Alternate Title"
+          value=""/>
+        <field_string id="fd_37184_s" description="None" label="Volume" value=""/>
+        <field_string id="fd_37182_s" description="None" label="Image Source Notes" value=""/>
+        <field_string id="fd_37147_s" description="None" label="Image Accession Date" value=""/>
+        <field_string id="fd_37179_s" description="None" label="Image Source Series Title" value=""/>
+        <field_string id="fd_37174_s" description="None" label="Image Source Edition" value=""/>
+        <field_string id="fd_37134_s" description="None" label="Elevation" value=""/>
+        <field_string id="fd_37185_s" description="None" label="Issue Number" value=""/>
+        <field_string id="fd_37178_s" description="None" label="Image Source Date" value=""/>
+        <field_string id="fd_37133_s" description="None" label="Longitude" value=""/>
+        <field_date id="fd_37167_dt" description="None" label="Image Request Date"
+          value="2023-01-20T12:00:00+00:00"/>
+        <field_boolean id="fd_37161_b" description="None" label="Send To Harvard" value="true"/>
+        <field_lookup id="fd_37144_lookup" description="None" label="Image Repository">
+          <display>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</display>
+          <linkedField id="9000369831" revision="-1" source_id="9000369831"
+            preferredTerm="Harvard Fine Arts Library, Digital Images &amp; Slides Collection"
+            conceptLevel="Local" institutionName="Harvard"
+            uri="http://forum.jstor.org/oai/SSN/9000369831">
+            <allTerms>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_37149_mfcl_lookup" description="None" label="Image Type">
+          <display>digital image</display>
+          <linkedField id="11319122" revision="-1" source_id="11319122"
+            preferredTerm="digital image" institutionName="Harvard University">
+            <allTerms>digital image</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_37169_mfcl_lookup" description="None" label="Image Source Type">
+          <display>exhibition catalog</display>
+          <linkedField id="11319135" revision="-1" source_id="11319135"
+            preferredTerm="exhibition catalog" institutionName="Harvard University">
+            <allTerms>exhibition catalog</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_37150_lookup" description="None" label="Image Associated Name">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_37155_lookup" description="None" label="Image Support">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_37156_lookup" description="None" label="Image Subject">
+          <display>Animals mythical; saints; scrolls (motifs)</display>
+          <linkedField id="11305530" revision="-1" source_id="11305530"
+            preferredTerm="Animals mythical" institutionName="Harvard University">
+            <allTerms>Animals mythical</allTerms>
+          </linkedField>
+          <linkedField id="11300744" revision="-1" source_id="11300744" preferredTerm="saints"
+            institutionName="Harvard University">
+            <allTerms>saints</allTerms>
+          </linkedField>
+          <linkedField id="11300342" revision="-1" source_id="11300342"
+            preferredTerm="scrolls (motifs)" institutionName="Harvard University">
+            <allTerms>scrolls (motifs)</allTerms>
+          </linkedField>
+        </field_lookup>
+        <field_lookup id="fd_37189_lookup" description="None" label="Image Technique">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_37140_lookup" description="None" label="Photographer">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_37154_lookup" description="None" label="Image Materials">
+          <display/>
+        </field_lookup>
+      </DisplayRecord>
+      <AssetGroups xmlns="">
+        <Group id="570657"/>
+        <Group id="570658"/>
+      </AssetGroups>
+      <Publications xmlns="">
+        <Publication asset_id="34489294" publishing_target_id="798"/>
+        <Publication asset_id="34489294" publishing_target_id="859"/>
+      </Publications>
+      <Assets xmlns="" filename="URN-3:FHCL:102755268">
+        <Asset id="34489294" size="ADLImageViewer" uri="http://library.artstor.org/#/ssid/34489294"
+          restriction="t"/>
+        <Asset id="None" size="DRS_full" uri="http://nrs.harvard.edu/URN-3:FHCL:102755268"
+          restriction="t"/>
+        <Asset id="None" size="DRS_thumb" uri="http://nrs.harvard.edu/URN-3:FHCL:102755268"
+          restriction="t"/>
+      </Assets>
+      <Targets xmlns="">
+        <Target name="OAI" status_lkup="Published" url="#" description="OAI"
+          publishDate="2023-02-16T15:06:27+00:00"/>
+        <Target name="Harvard University Study Collection of Digital Images" status_lkup="Published"
+          url="http://library.artstor.org/library/"
+          description="Institutional Collection in Artstor" publishDate="2023-02-16T15:06:27+00:00"
+        />
+      </Targets>
+    </display:DR>
+  </ssw:Work>
+  <ssn:Name conceptId="9000370938" stateText="NEW" recordType="CORPORATE BODY" batchId="2"
+    statusText="Provisional" createdOn="2014/12/26 12:46:41" modifiedOn="2014/12/26 12:46:41"
+    batchName="Harvard" preferredTerm="Musée de Cluny"
+    uri="http://forum.jstor.org/oai/ssn/9000370938">
+    <Terms xmlns="" count="5">
+      <Term id="1074900" name="Musée de Cluny" preferred="true">
+        <TermSource id="11276960" name="HOLLIS" preferred="true"/>
+      </Term>
+      <Term id="1074901" name="Cluny Museum" preferred="false">
+        <TermSource id="11318641" name="NO SOURCE" preferred="true"/>
+      </Term>
+      <Term id="1074902" name="Musée national du Moyen Âge" preferred="false">
+        <TermSource id="11276961" name="Source data found" preferred="true"/>
+      </Term>
+      <Term id="1074903" name="National Museum of the Middle Ages" preferred="false">
+        <TermSource id="11276961" name="Source data found" preferred="true"/>
+      </Term>
+      <Term id="1074904" name="Musée du Moyen-Âge" preferred="false">
+        <TermSource id="11276964" name="Local Sources" preferred="true"/>
+      </Term>
+    </Terms>
+    <Events xmlns="" count="1">
+      <Event id="11315114" name="location" place="Paris, France"/>
+    </Events>
+    <Notes xmlns="" count="1">
+      <Note
+        noteText="Musée du Moyen-Âge: Fliegel, Stephen N., 1950-, &quot;Resplendent faith : liturgical treasuries of the Middle Ages,&quot; Kent, Ohio; [Cleveland, Ohio]: Kent State University Press; Published in cooperation with Cleveland State University’s Maxine Goodman Levin College of Urban Affairs’ Center for Sacred Landmarks, 2009, p. 68"
+      />
+    </Notes>
+  </ssn:Name>
+  <ssn:Name conceptId="9000369831" stateText="NEW" recordType="CORPORATE BODY" batchId="2"
+    statusText="Provisional" createdOn="2014/12/26 12:37:01" modifiedOn="2014/12/26 12:37:01"
+    batchName="Harvard"
+    preferredTerm="Harvard Fine Arts Library, Digital Images &amp; Slides Collection"
+    uri="http://forum.jstor.org/oai/ssn/9000369831">
+    <Terms xmlns="" count="1">
+      <Term id="1071828" name="Harvard Fine Arts Library, Digital Images &amp; Slides Collection"
+        preferred="true">
+        <TermSource id="11318641" name="NO SOURCE" preferred="true"/>
+      </Term>
+    </Terms>
+  </ssn:Name>
+  <ssn:Name conceptId="9000340189" stateText="NEW" recordType="PERSON" batchId="2"
+    statusText="Provisional" createdOn="2014/12/23 21:48:07" modifiedOn="2014/12/23 21:48:07"
+    batchName="Harvard" preferredTerm="Mary, Blessed Virgin, Saint"
+    uri="http://forum.jstor.org/oai/ssn/9000340189">
+    <Terms xmlns="" count="6">
+      <Term id="1048702" name="Mary, Blessed Virgin, Saint" preferred="true">
+        <TermSource id="11276960" name="HOLLIS" preferred="true"/>
+      </Term>
+      <Term id="1048703" name="Virgin Mary" preferred="false">
+        <TermSource id="11276972" name="Oxford Dictionary of Byzantium" preferred="true"/>
+      </Term>
+      <Term id="1048704" name="Panagia" preferred="false">
+        <TermSource id="11276972" name="Oxford Dictionary of Byzantium" preferred="true"/>
+      </Term>
+      <Term id="1048705" name="Virgin, the" preferred="false">
+        <TermSource id="11318641" name="NO SOURCE" preferred="true"/>
+      </Term>
+      <Term id="1048706" name="Blessed Virgin Mary, Saint" preferred="false">
+        <TermSource id="11276962" name="LC Authority File" preferred="true"/>
+      </Term>
+      <Term id="1048707" name="Madonna" preferred="false">
+        <TermSource id="11318641" name="NO SOURCE" preferred="true"/>
+      </Term>
+    </Terms>
+    <Notes xmlns="" count="1">
+      <Note noteText="Blessed Virgin Mary, Saint: alt. name"/>
+    </Notes>
+  </ssn:Name>
+  <ssn:Name conceptId="9000335938" stateText="NEW" recordType="PERSON" batchId="2"
+    statusText="Provisional" createdOn="2014/12/23 21:12:35" modifiedOn="2014/12/23 21:12:35"
+    batchName="Harvard" preferredTerm="Jesus Christ" uri="http://forum.jstor.org/oai/ssn/9000335938">
+    <Terms xmlns="" count="19">
+      <Term id="1040535" name="Jesus Christ" preferred="true">
+        <TermSource id="11276960" name="HOLLIS" preferred="true"/>
+      </Term>
+      <Term id="1040536" name="Christ" preferred="false">
+        <TermSource id="11276972" name="Oxford Dictionary of Byzantium" preferred="true"/>
+      </Term>
+      <Term id="1040537" name="Jesus of Nazareth" preferred="false">
+        <TermSource id="11276962" name="LC Authority File" preferred="true"/>
+      </Term>
+      <Term id="1040538" name="Yeh-su" preferred="false">
+        <TermSource id="11276962" name="LC Authority File" preferred="true"/>
+      </Term>
+      <Term id="1040539" name="Masih" preferred="false">
+        <TermSource id="11276962" name="LC Authority File" preferred="true"/>
+      </Term>
+      <Term id="1040540" name="Gesù" preferred="false">
+        <TermSource id="11276962" name="LC Authority File" preferred="true"/>
+      </Term>
+      <Term id="1040541" name="Christo" preferred="false">
+        <TermSource id="11276962" name="LC Authority File" preferred="true"/>
+      </Term>
+      <Term id="1040542" name="Yeshua" preferred="false">
+        <TermSource id="11276962" name="LC Authority File" preferred="true"/>
+      </Term>
+      <Term id="1040543" name="Chrystus" preferred="false">
+        <TermSource id="11276962" name="LC Authority File" preferred="true"/>
+      </Term>
+      <Term id="1040544" name="Gesú Cristo" preferred="false">
+        <TermSource id="11276962" name="LC Authority File" preferred="true"/>
+      </Term>
+      <Term id="1040545" name="Isa, Nabi" preferred="false">
+        <TermSource id="11276962" name="LC Authority File" preferred="true"/>
+      </Term>
+      <Term id="1040546" name="Nabi Isa" preferred="false">
+        <TermSource id="11276962" name="LC Authority File" preferred="true"/>
+      </Term>
+      <Term id="1040547" name="Isa Al-Masih" preferred="false">
+        <TermSource id="11276962" name="LC Authority File" preferred="true"/>
+      </Term>
+      <Term id="1040548" name="Al-Masih, Isa" preferred="false">
+        <TermSource id="11276962" name="LC Authority File" preferred="true"/>
+      </Term>
+      <Term id="1040549" name="Yesu" preferred="false">
+        <TermSource id="11276962" name="LC Authority File" preferred="true"/>
+      </Term>
+      <Term id="1040550" name="Iesous Christos" preferred="false">
+        <TermSource id="11276962" name="LC Authority File" preferred="true"/>
+      </Term>
+      <Term id="1040551" name="Yeshu'a ben Yosef" preferred="false">
+        <TermSource id="11276962" name="LC Authority File" preferred="true"/>
+      </Term>
+      <Term id="1040552" name="Yeshua ben Yoseph" preferred="false">
+        <TermSource id="11276962" name="LC Authority File" preferred="true"/>
+      </Term>
+      <Term id="1040553" name="Yesus" preferred="false">
+        <TermSource id="11276962" name="LC Authority File" preferred="true"/>
+      </Term>
+    </Terms>
+    <Biographies xmlns="" count="2">
+      <Biography id="1040554" name="ca. 5 BC - 30 AD" preferred="true">
+        <birthDate year="-5" epoch="BC"/>
+        <deathDate year="30" epoch="AD"/>
+        <birthPlace/>
+        <deathPlace/>
+      </Biography>
+      <Biography id="1040555" name="ca. 5 BC - 30 AD">
+        <birthPlace/>
+        <deathPlace/>
+      </Biography>
+    </Biographies>
+  </ssn:Name>
+</SharedShelf>

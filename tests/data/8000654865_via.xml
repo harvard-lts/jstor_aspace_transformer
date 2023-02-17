@@ -1,0 +1,219 @@
+<viaRecord originalAtHarvard="false"
+           primaryImageThumbnailURN="http://nrs.harvard.edu/urn-3:FHCL:178392">
+   <recordId altRecordId="ss_8000654865">olvwork172087</recordId>
+   <work>
+      <title>
+         <textElement>Oliphant [from the Abbey of Saint-Arnoul in Metz]</textElement>
+      </title>
+      <workType>ivories</workType>
+      <structuredDate>
+         <beginDate>1090</beginDate>
+         <endDate>1110</endDate>
+      </structuredDate>
+      <freeDate>late 11th-early 12th cent.</freeDate>
+      <dimensions>height 640 mm.</dimensions>
+      <culture>
+         <term>Italian</term>
+      </culture>
+      <materials>ivory</materials>
+      <location>
+         <type>former site</type>
+         <place>Saint-Arnould, Metz, France</place>
+      </location>
+      <repository>
+         <repositoryName>Musée de Cluny, Paris, France</repositoryName>
+         <number>Cl. 13065</number>
+         <alternativeName>Cluny Museum</alternativeName>
+         <alternativeName>Musée national du Moyen Âge</alternativeName>
+         <alternativeName>National Museum of the Middle Ages</alternativeName>
+         <alternativeName>Musée du Moyen-Âge</alternativeName>
+      </repository>
+      <surrogate altComponentID="olvsurrogate716085" componentID="7613107">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:1180362">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:1180362"/>
+         </image>
+         <title>
+            <textElement>Two views</textElement>
+         </title>
+         <classification>
+            <number>772 It 112 1 PaC</number>
+         </classification>
+         <workType>digital image</workType>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>d2007.07347</number>
+         </repository>
+      </surrogate>
+      <surrogate altComponentID="olvsurrogate716091" componentID="7613108">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:1180364">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:1180364"/>
+         </image>
+         <title>
+            <textElement>Two views</textElement>
+         </title>
+         <classification>
+            <number>772 It 112 1 PaC</number>
+         </classification>
+         <workType>digital image</workType>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>d2007.07353</number>
+         </repository>
+      </surrogate>
+      <surrogate altComponentID="olvsurrogate352142" componentID="7613106">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/urn-3:FHCL:75612">
+            <thumbnail xlink:href="http://nrs.harvard.edu/urn-3:FHCL:178392"/>
+         </image>
+         <title>
+            <textElement>Detail: Christ and the Virgin in majesty</textElement>
+         </title>
+         <classification>
+            <number>772 It 112 1 PaC</number>
+         </classification>
+         <workType>color slide</workType>
+         <topic>
+            <term>Mary, Blessed Virgin, Saint</term>
+            <alternativeName>Virgin Mary</alternativeName>
+            <alternativeName>Panagia</alternativeName>
+            <alternativeName>Virgin, the</alternativeName>
+            <alternativeName>Blessed Virgin Mary, Saint</alternativeName>
+            <alternativeName>Madonna</alternativeName>
+         </topic>
+         <topic>
+            <term>Jesus Christ</term>
+            <alternativeName>Christ</alternativeName>
+            <alternativeName>Jesus of Nazareth</alternativeName>
+            <alternativeName>Yeh-su</alternativeName>
+            <alternativeName>Masih</alternativeName>
+            <alternativeName>Gesù</alternativeName>
+            <alternativeName>Christo</alternativeName>
+            <alternativeName>Yeshua</alternativeName>
+            <alternativeName>Chrystus</alternativeName>
+            <alternativeName>Gesú Cristo</alternativeName>
+            <alternativeName>Isa, Nabi</alternativeName>
+            <alternativeName>Nabi Isa</alternativeName>
+            <alternativeName>Isa Al-Masih</alternativeName>
+            <alternativeName>Al-Masih, Isa</alternativeName>
+            <alternativeName>Yesu</alternativeName>
+            <alternativeName>Iesous Christos</alternativeName>
+            <alternativeName>Yeshu'a ben Yosef</alternativeName>
+            <alternativeName>Yeshua ben Yoseph</alternativeName>
+            <alternativeName>Yesus</alternativeName>
+         </topic>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>2002.21322</number>
+         </repository>
+      </surrogate>
+      <surrogate componentID="34489292">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/URN-3:FHCL:102755264">
+            <thumbnail xlink:href="http://nrs.harvard.edu/URN-3:FHCL:102755264"/>
+         </image>
+         <title>
+            <textElement>General view.</textElement>
+         </title>
+         <workType>digital image</workType>
+         <topic>
+            <term>birds</term>
+         </topic>
+         <topic>
+            <term>saints</term>
+         </topic>
+         <topic>
+            <term>scrolls (motifs)</term>
+         </topic>
+         <notes>Funding for this image is provided by the Aga Khan Program.</notes>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>d2023.05250</number>
+         </repository>
+      </surrogate>
+      <surrogate componentID="34489293">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/URN-3:FHCL:102755266">
+            <thumbnail xlink:href="http://nrs.harvard.edu/URN-3:FHCL:102755266"/>
+         </image>
+         <title>
+            <textElement>General view.</textElement>
+         </title>
+         <workType>digital image</workType>
+         <topic>
+            <term>Jesus Christ</term>
+            <alternativeName>Christ</alternativeName>
+            <alternativeName>Jesus of Nazareth</alternativeName>
+            <alternativeName>Yeh-su</alternativeName>
+            <alternativeName>Masih</alternativeName>
+            <alternativeName>Gesù</alternativeName>
+            <alternativeName>Christo</alternativeName>
+            <alternativeName>Yeshua</alternativeName>
+            <alternativeName>Chrystus</alternativeName>
+            <alternativeName>Gesú Cristo</alternativeName>
+            <alternativeName>Isa, Nabi</alternativeName>
+            <alternativeName>Nabi Isa</alternativeName>
+            <alternativeName>Isa Al-Masih</alternativeName>
+            <alternativeName>Al-Masih, Isa</alternativeName>
+            <alternativeName>Yesu</alternativeName>
+            <alternativeName>Iesous Christos</alternativeName>
+            <alternativeName>Yeshu'a ben Yosef</alternativeName>
+            <alternativeName>Yeshua ben Yoseph</alternativeName>
+            <alternativeName>Yesus</alternativeName>
+         </topic>
+         <topic>
+            <term>Mary, Blessed Virgin, Saint</term>
+            <alternativeName>Virgin Mary</alternativeName>
+            <alternativeName>Panagia</alternativeName>
+            <alternativeName>Virgin, the</alternativeName>
+            <alternativeName>Blessed Virgin Mary, Saint</alternativeName>
+            <alternativeName>Madonna</alternativeName>
+         </topic>
+         <topic>
+            <term>scrolls (motifs)</term>
+         </topic>
+         <notes>Funding for this image is provided by the Aga Khan Program.</notes>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>d2023.05251</number>
+         </repository>
+      </surrogate>
+      <surrogate componentID="34489294">
+         <image xmlns:xlink="http://www.w3.org/TR/xlink"
+                restrictedImage="true"
+                xlink:href="http://nrs.harvard.edu/URN-3:FHCL:102755268">
+            <thumbnail xlink:href="http://nrs.harvard.edu/URN-3:FHCL:102755268"/>
+         </image>
+         <title>
+            <textElement>General view.</textElement>
+         </title>
+         <workType>digital image</workType>
+         <topic>
+            <term>Animals mythical</term>
+         </topic>
+         <topic>
+            <term>saints</term>
+         </topic>
+         <topic>
+            <term>scrolls (motifs)</term>
+         </topic>
+         <notes>Funding for this image is provided by the Aga Khan Program.</notes>
+         <repository>
+            <repositoryName>Harvard Fine Arts Library, Digital Images &amp; Slides Collection</repositoryName>
+            <number>d2023.05252</number>
+         </repository>
+      </surrogate>
+   </work>
+   <admin>
+      <createDate>2014-12-27</createDate>
+      <updateNote>
+         <updateDate>2014/12/26 22:31:25</updateDate>
+      </updateNote>
+   </admin>
+</viaRecord>
