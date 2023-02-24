@@ -48,19 +48,24 @@ class JstorTransformer():
 
         #dump json
         current_app.logger.info("json message: " + json.dumps(request_json))
+
+        harvestset = None
+        if 'harvestset' in request_json:
+            harvestset = request_json["harvestset"]
+
         jstorforum = False
         if 'jstorforum' in request_json:
             current_app.logger.info("running jstorforum transform")
             jstorforum = request_json['jstorforum']
         if jstorforum:
-            self.do_transform('jstorforum')
+            self.do_transform('jstorforum', harvestset)
 
         aspace = False
         if 'aspace' in request_json:
             current_app.logger.info("running aspace transform")
             aspace = request_json['aspace']
         if aspace:
-            self.do_transform('aspace')
+            self.do_transform('aspace', None)
 
         #integration test: write small record to mongo to prove connectivity
         integration_test = False
@@ -69,8 +74,8 @@ class JstorTransformer():
         if (integration_test):
             current_app.logger.info("running integration test")
             #do a transform using the test config file
-            self.do_transform('jstorforum', True)
-            self.do_transform('aspace',True)
+            self.do_transform('jstorforum', None, True)
+            self.do_transform('aspace', None, True)
             try:
                 mongo_url = os.environ.get('MONGO_URL')
                 mongo_dbname = os.environ.get('MONGO_DBNAME')
@@ -93,7 +98,7 @@ class JstorTransformer():
 
         return result
 
-    def do_transform(self, jobname, itest=False):
+    def do_transform(self, jobname, harvestset, itest=False):
         if itest:
             configfile = "harvestjobs_test.json"
         else:
@@ -109,16 +114,26 @@ class JstorTransformer():
         for job in harvestconfig:     
             if jobname == 'jstorforum' and jobname == job["jobName"]:   
                 for set in job["harvests"]["sets"]:
+                    setSpec = "{}".format(set["setSpec"])
                     opDir = set["opDir"]
-                    if os.path.exists(harvestDir + opDir + "_oaiwrapped"):
-                        if len(fnmatch.filter(os.listdir(harvestDir + opDir + "_oaiwrapped"), '*.xml')) > 0:
-                            for filename in os.listdir(harvestDir + opDir + "_oaiwrapped"):
-                                current_app.logger.info("begin transforming: " + filename)
-                                subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" + harvestDir + opDir + "/" + filename, "-s:" + harvestDir + opDir + "_oaiwrapped/" + filename, "-xsl:xslt/strip_oai_ssio.xsl"])
-                                subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" + transformDir + opDir + "/" + filename, "-s:" + harvestDir + opDir + "/" + filename, "-xsl:xslt/ssio2via.xsl"])                               
-                                subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" + transformDir + opDir + "_hollis/" + filename, "-s:" + transformDir + opDir + "/" + filename, "-xsl:xslt/via2hollis.xsl"])                               
-                                current_app.logger.info("DONE transforming: " + filename)
-
+                    if harvestset is None:
+                        if os.path.exists(harvestDir + opDir + "_oaiwrapped"):
+                            if len(fnmatch.filter(os.listdir(harvestDir + opDir + "_oaiwrapped"), '*.xml')) > 0:
+                                for filename in os.listdir(harvestDir + opDir + "_oaiwrapped"):
+                                    current_app.logger.info("begin transforming: " + filename)
+                                    subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" + harvestDir + opDir + "/" + filename, "-s:" + harvestDir + opDir + "_oaiwrapped/" + filename, "-xsl:xslt/strip_oai_ssio.xsl"])
+                                    subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" + transformDir + opDir + "/" + filename, "-s:" + harvestDir + opDir + "/" + filename, "-xsl:xslt/ssio2via.xsl"])                               
+                                    subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" + transformDir + opDir + "_hollis/" + filename, "-s:" + transformDir + opDir + "/" + filename, "-xsl:xslt/via2hollis.xsl"])                               
+                                    current_app.logger.info("DONE transforming: " + filename)
+                    elif  setSpec == harvestset:
+                        if os.path.exists(harvestDir + opDir + "_oaiwrapped"):
+                            if len(fnmatch.filter(os.listdir(harvestDir + opDir + "_oaiwrapped"), '*.xml')) > 0:
+                                for filename in os.listdir(harvestDir + opDir + "_oaiwrapped"):
+                                    current_app.logger.info("begin transforming for " + setSpec + " only: " + filename)
+                                    subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" + harvestDir + opDir + "/" + filename, "-s:" + harvestDir + opDir + "_oaiwrapped/" + filename, "-xsl:xslt/strip_oai_ssio.xsl"])
+                                    subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" + transformDir + opDir + "/" + filename, "-s:" + harvestDir + opDir + "/" + filename, "-xsl:xslt/ssio2via.xsl"])                               
+                                    subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" + transformDir + opDir + "_hollis/" + filename, "-s:" + transformDir + opDir + "/" + filename, "-xsl:xslt/via2hollis.xsl"])                               
+                                    current_app.logger.info("DONE transforming: " + filename)
 
             if jobname == 'aspace' and jobname == job["jobName"]:    
                 for filename in os.listdir(harvestDir + 'aspace'):
