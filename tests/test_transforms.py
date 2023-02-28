@@ -140,5 +140,19 @@ def test_badGroupItems():
         os.remove("./tests/data/temp/" + i)
     os.rmdir("./tests/data/temp")    
 
+def test_deletes():   
+    if not os.path.exists("./tests/data/temp"):
+        os.makedirs("./tests/data/temp") 
+    subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" "./tests/data/temp/8001004229_via_delete.xml", "-s:" "./tests/data/8001004229_ssio_delete.xml", "-xsl:xslt/ssio2via.xsl"])  
+    assert os.path.isfile("./tests/data/temp/8001004229_via_delete.xml") == False
+
+    subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" "./tests/data/temp/8000483808_via_delete.xml", "-s:" "./tests/data/8000483808_ssio_delete.xml.xml", "-xsl:xslt/ssio2via.xsl"]) 
+    assert os.path.isfile("./tests/data/temp/8000483808_via_delete.xml") == False  
+
+
+    #TO DO - check the actual delete output
+    #doc = ET.parse("/tmp/JSTORFORUM/DELETES/8001004229.xml")
+    #assert doc.xpath("//deleteRecordId")[0] == "8001004229"
+
 #def test_ead():
 #    ead_ns = {'ead': 'urn:isbn:1-931666-22-9'}

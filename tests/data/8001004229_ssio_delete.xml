@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<SharedShelf xmlns:display="http://catalog.sharedshelf.artstor.org/display"
+  xmlns:ssc="http://catalog.sharedshelf.artstor.org/ssc"
+  xmlns:ssd="http://catalog.sharedshelf.artstor.org/ssd"
+  xmlns:ssn="http://catalog.sharedshelf.artstor.org/ssn"
+  xmlns:ssw="http://catalog.sharedshelf.artstor.org/ssw"
+  xmlns:ssw_lkup="http://catalog.sharedshelf.artstor.org/ssw_lkup"
+  xmlns:tgn="http://catalog.sharedshelf.artstor.org/tgn"
+  xmlns:aat="http://catalog.sharedshelf.artstor.org/aat"
+  xmlns:mfcl="http://catalog.sharedshelf.artstor.org/mfcl"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="http://catalog.sharedshelf.artstor.org"
+  xsi:schemaLocation="http://catalog.sharedshelf.artstor.org http://catalog.sharedshelf.artstor.org/service/schema/SharedShelf_IO.xsd">
+  <ssw:Work lastUpdateDate="2016/04/07 09:57:39" id="8001004229" type="1" refid="8001004229"
+    contributor="Harvard" instituteId="10003" uri="http://forum.jstor.org/oai/ssw/8001004229">
+    <Titles xmlns="" tempered="true">
+      <Display>Sasanian metalwork</Display>
+      <Title pref="true" term="Sasanian metalwork" sortOrder="1" type_lkup="descriptive"
+        type_lkup_id="11309167"/>
+    </Titles>
+    <WorkTypes xmlns="" tempered="true">
+      <Display>metalwork</Display>
+      <WorkType pref="true" id="11316992" vocab="MFCL" term="metalwork"
+        uri="http://forum.jstor.org/oai/MFCL/11316992"/>
+    </WorkTypes>
+    <Cultures xmlns="" tempered="true">
+      <Display>Iranian</Display>
+      <Culture pref="true" id="11281542" vocab="MFCL" term="Iranian"
+        uri="http://forum.jstor.org/oai/MFCL/11281542"/>
+    </Cultures>
+    <StylePeriods xmlns="" tempered="true">
+      <Display>Sassanian</Display>
+      <StylePeriod pref="true" id="11316004" vocab="MFCL" term="Sassanian"
+        uri="http://forum.jstor.org/oai/MFCL/11316004"/>
+    </StylePeriods>
+    <Dates xmlns="" tempered="false">
+      <Display>c. 3rd-7th centuries</Display>
+      <Date startDate="224" endDate="651" type_lkup="workDate"/>
+      <Date pref="true" startDate="224" endDate="651"/>
+    </Dates>
+    <Locations xmlns=""/>
+    <ArtstorCountries xmlns="">
+      <Country pref="true" id="11312977" term_lkup="Iran"/>
+    </ArtstorCountries>
+    <ArtstorClassifications xmlns="">
+      <ArtstorClassification id="11309240"
+        term_lkup="Decorative Arts, Utilitarian Objects and Interior Design"/>
+    </ArtstorClassifications>
+    <LocalInformation xmlns="" published="false"/>
+    <RelatedWorks xmlns=""/>
+    <display:DR id="10898168" status_lkup="Deleted" projectId="816" institutionId="10003"
+      deleted_reason="Suppressed">
+      <DisplayRecord xmlns=""/>
+    </display:DR>
+    <display:DR id="10898171" status_lkup="Deleted" projectId="816" institutionId="10003"
+      deleted_reason="Suppressed">
+      <DisplayRecord xmlns=""/>
+    </display:DR>
+    <display:DR id="10898180" status_lkup="Deleted" projectId="816" institutionId="10003"
+      deleted_reason="Suppressed">
+      <DisplayRecord xmlns=""/>
+    </display:DR>
+    <display:DR id="10898181" status_lkup="Deleted" projectId="816" institutionId="10003"
+      deleted_reason="Suppressed">
+      <DisplayRecord xmlns=""/>
+    </display:DR>
+    <display:DR id="10898182" status_lkup="Deleted" projectId="816" institutionId="10003"
+      deleted_reason="Suppressed">
+      <DisplayRecord xmlns=""/>
+    </display:DR>
+    <display:DR id="10898191" status_lkup="Deleted" projectId="816" institutionId="10003"
+      deleted_reason="Suppressed">
+      <DisplayRecord xmlns=""/>
+    </display:DR>
+    <display:DR id="10898197" status_lkup="Deleted" projectId="816" institutionId="10003"
+      deleted_reason="Suppressed">
+      <DisplayRecord xmlns=""/>
+    </display:DR>
+    <display:DR id="10898198" status_lkup="Deleted" projectId="816" institutionId="10003"
+      deleted_reason="Suppressed">
+      <DisplayRecord xmlns=""/>
+    </display:DR>
+    <display:DR id="10898199" status_lkup="Deleted" projectId="816" institutionId="10003"
+      deleted_reason="Suppressed">
+      <DisplayRecord xmlns=""/>
+    </display:DR>
+    <display:DR id="10898200" status_lkup="Deleted" projectId="816" institutionId="10003"
+      deleted_reason="Suppressed">
+      <DisplayRecord xmlns=""/>
+    </display:DR>
+    <display:DR id="10898202" status_lkup="Deleted" projectId="816" institutionId="10003"
+      deleted_reason="Suppressed">
+      <DisplayRecord xmlns=""/>
+    </display:DR>
+    <display:DR id="10898211" status_lkup="Deleted" projectId="816" institutionId="10003"
+      deleted_reason="Suppressed">
+      <DisplayRecord xmlns=""/>
+    </display:DR>
+  </ssw:Work>
+</SharedShelf>

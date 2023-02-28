@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<SharedShelf xmlns:display="http://catalog.sharedshelf.artstor.org/display"
+  xmlns:ssc="http://catalog.sharedshelf.artstor.org/ssc"
+  xmlns:ssd="http://catalog.sharedshelf.artstor.org/ssd"
+  xmlns:ssn="http://catalog.sharedshelf.artstor.org/ssn"
+  xmlns:ssw="http://catalog.sharedshelf.artstor.org/ssw"
+  xmlns:ssw_lkup="http://catalog.sharedshelf.artstor.org/ssw_lkup"
+  xmlns:tgn="http://catalog.sharedshelf.artstor.org/tgn"
+  xmlns:aat="http://catalog.sharedshelf.artstor.org/aat"
+  xmlns:mfcl="http://catalog.sharedshelf.artstor.org/mfcl"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="http://catalog.sharedshelf.artstor.org"
+  xsi:schemaLocation="http://catalog.sharedshelf.artstor.org http://catalog.sharedshelf.artstor.org/service/schema/SharedShelf_IO.xsd">
+  <ssw:Work lastUpdateDate="2014/12/25 14:59:33" id="8000483808" refid="G1003658"
+    contributor="Harvard" instituteId="10003" uri="http://forum.jstor.org/oai/ssw/8000483808">
+    <Titles xmlns="">
+      <Display>NEGATIVES ONLY, NO PRINT.  (Review for copy printing.)</Display>
+      <Title pref="true" term="NEGATIVES ONLY, NO PRINT.  (Review for copy printing.)"/>
+    </Titles>
+    <Locations xmlns="">
+      <Display>Schlesinger Library on the History of Women in America, Radcliffe Institute (repository)</Display>
+      <DisplayLocation
+        term="Schlesinger Library on the History of Women in America, Radcliffe Institute"
+        type_lkup="repository" type_lkup_id="11315199"/>
+      <Repository id="9000351945" vocab="SSN" refid="N-848339615"
+        term="Schlesinger Library on the History of Women in America, Radcliffe Institute"
+        type_lkup="repository" uri="http://forum.jstor.org/oai/SSN/9000351945"/>
+    </Locations>
+    <LocalInformation xmlns="" legacyId="G1003658" originalCataloger="Designer"
+      secondaryCataloger="donovan" catalogStartDate="1/29/2006" catalogUpdateDate="7/16/2008">
+      <RelatedInfo term="http://nrs.harvard.edu/urn-3:RAD.SCHL:sch00047"
+        description="Electronic Finding Aid" type_lkup="related information" type_lkup_id="11309233"/>
+      <RelatedInfo
+        description="Jessie Tarbox Beals Photographs. Folder: Family: Family photographs and albums, ca. 1893-ca.1940: JTB in Chicago, Ill., ca. 1932-35; JTB at New York Studio, ca. late 1930s; Pen and Brush Club, New York, ca. 1940 [12-10]. RLG collection level record MHVW88-A481."
+        type_lkup="related work" type_lkup_id="11309235" relType_lkup="part of"/>
+    </LocalInformation>
+    <RelatedWorks xmlns="">
+      <ssw:RelatedWork refid="W20030704"
+        term="[Jessie Tarbox Beals’s business card.] Negative Damaged" sequence="5"
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W20030704"/>
+      <ssw:RelatedWork refid="W20030705"
+        term="[Jessie Tarbox Beals’s business card.] Negative Damaged" sequence="6"
+        type_lkup="Larger context for" type_lkup_id="11298474"
+        uri="http://forum.jstor.org/oai/ssw/W20030705"/>
+    </RelatedWorks>
+    <display:DR id="7179894" representationId="None" lastUpdateDate="2014-12-25T19:59:33+00:00"
+      sequence="1" primary="true" projectId="738" institutionId="10003"
+      createdBy="qah001@artstor.org" updatedBy="qah001@artstor.org"
+      createdDate="2014-12-25T19:59:33+00:00">
+      <DisplayRecord xmlns="">
+        <field_string id="fd_33906_s" description="None" label="Longitude" value=""/>
+        <field_string id="fd_33907_s" description="None" label="Elevation" value=""/>
+        <field_string id="fd_33905_s" description="None" label="Latitude" value=""/>
+        <field_string id="fd_33940_s" description="None" label="Olivia Record Info"
+          value="Record created: 1/29/2006  By: Designer Record modified: 7/16/2008  By: donovan Export To VIA Date: 2/5/2008"/>
+        <field_string id="fd_33939_s" description="None" label="Olivia ID" value="G1003658_1"/>
+        <field_boolean id="fd_33934_b" description="None" label="Send To Harvard" value="false"/>
+        <field_boolean id="fd_33963_b" description="None" label="Export Only In Group" value="false"/>
+        <field_boolean id="fd_33935_b" description="None" label="In House Use Only" value="false"/>
+        <field_lookup id="fd_33922_mfcl_lookup" description="None" label="Image Type">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_33944_mfcl_lookup" description="None" label="Image Source Type">
+          <display/>
+        </field_lookup>
+        <field_lookup id="fd_33917_lookup" description="None" label="Image Repository">
+          <display>Schlesinger Library on the History of Women in America, Radcliffe Institute</display>
+          <linkedField id="9000351945" revision="-1" source_id="9000351945"
+            preferredTerm="Schlesinger Library on the History of Women in America, Radcliffe Institute"
+            representationId="N-848339615" conceptLevel="Local" institutionName="Harvard"
+            uri="http://forum.jstor.org/oai/SSN/9000351945">
+            <allTerms>Schlesinger Library on the History of Women in America, Radcliffe Institute</allTerms>
+          </linkedField>
+        </field_lookup>
+      </DisplayRecord>
+      <Publications xmlns="">
+        <Publication asset_id="7179894" publishing_target_id="711"/>
+      </Publications>
+      <Assets xmlns="" filename="">
+        <Asset id="7179894" size="Thumbnail" uri="http://forum.jstor.org/oai/thumbnail?id=7179894"
+          restriction="f"/>
+        <Asset id="7179894" size="FullSize"
+          uri="http://forum.jstor.org/assets/7179894/representation/size/9" restriction="f"/>
+        <Asset id="7179894" size="Medias" uri="http://forum.jstor.org/oai/medias/7179894"
+          restriction="f"/>
+      </Assets>
+      <Targets xmlns="">
+        <Target name="OAI" status_lkup="Published" url="#" description="OAI"
+          publishDate="2014-12-25T20:01:09+00:00"/>
+      </Targets>
+    </display:DR>
+  </ssw:Work>
+  <ssn:Name conceptId="9000351945" stateText="NEW" recordType="CORPORATE BODY" batchId="2"
+    statusText="Provisional" createdOn="2014/12/25 14:46:45" modifiedOn="2014/12/25 14:46:45"
+    batchName="Harvard"
+    preferredTerm="Schlesinger Library on the History of Women in America, Radcliffe Institute"
+    uri="http://forum.jstor.org/oai/ssn/9000351945">
+    <Terms xmlns="" count="1">
+      <Term id="1069355"
+        name="Schlesinger Library on the History of Women in America, Radcliffe Institute"
+        preferred="true">
+        <TermSource id="11318641" name="NO SOURCE" preferred="true"/>
+      </Term>
+    </Terms>
+  </ssn:Name>
+</SharedShelf>
