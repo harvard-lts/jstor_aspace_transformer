@@ -66,10 +66,7 @@ class JstorTransformer():
             jstorforum = request_json['jstorforum']
         if jstorforum:
             try:
-                if (integration_test):
-                    self.do_transform('jstorforum', None, job_ticket_id, True)
-                else:
-                    self.do_transform('jstorforum', harvestset, job_ticket_id)
+                self.do_transform('jstorforum', harvestset, job_ticket_id)
             except:
                 current_app.logger.error("Error: unable to transform jstorforum records, {}", err)
 
@@ -79,15 +76,21 @@ class JstorTransformer():
             aspace = request_json['aspace']
         if aspace:
             try:
-                if (integration_test):
-                    self.do_transform('aspace', None, job_ticket_id, True)
-                else:
-                    self.do_transform('aspace', None, job_ticket_id)
+                self.do_transform('aspace', None, job_ticket_id)
             except Exception as err:
                 current_app.logger.error("Error: unable to transform aspace records, {}", err)
 
         if (integration_test):
             current_app.logger.info("running integration test")
+            try:
+                self.do_transform('jstorforum', None, job_ticket_id, True)
+            except:
+                current_app.logger.error("Error: unable to transform jstorforum records in itest, {}", err)
+            try:
+                self.do_transform('aspace', None, job_ticket_id, True)
+            except Exception as err:
+                current_app.logger.error("Error: unable to transform aspace records in itest, {}", err)
+
             try:
                 mongo_url = os.environ.get('MONGO_URL')
                 mongo_dbname = os.environ.get('MONGO_DBNAME')
@@ -122,9 +125,9 @@ class JstorTransformer():
         #current_app.logger.debug(harvestconfig)
         mongo_url = os.environ.get('MONGO_URL')
         mongo_dbname = os.environ.get('MONGO_DBNAME')
-        harvest_collection_name = os.environ.get('HARVEST_COLLECTION', 'jstor_harvests')
+        harvest_collection_name = os.environ.get('HARVEST_COLLECTION', 'jstor_transformed_summary')
         repository_collection_name = os.environ.get('REPOSITORY_COLLECTION', 'jstor_repositories')
-        record_collection_name = os.environ.get('RECORD_COLLECTION', 'jstor_records')
+        record_collection_name = os.environ.get('JSTOR_TRANSFORMED_RECORDS', 'jstor_transformed_records')
         mongo_url = os.environ.get('MONGO_URL')
         mongo_client = None
         mongo_db = None
@@ -139,89 +142,143 @@ class JstorTransformer():
         for job in harvestconfig:     
             if jobname == 'jstorforum' and jobname == job["jobName"]:   
                 for set in job["harvests"]["sets"]:
+                    transform_successful = True 
                     setSpec = "{}".format(set["setSpec"])
                     repository_name = self.repositories[setSpec]
                     opDir = set["opDir"]
-                    totalHarvestCount = 0
+                    totalTransformCount = 0
                     harvestdate = datetime.today().strftime('%Y-%m-%d') 
 
                     if harvestset is None:
                         if os.path.exists(harvestDir + opDir + "_oaiwrapped"):
                             if len(fnmatch.filter(os.listdir(harvestDir + opDir + "_oaiwrapped"), '*.xml')) > 0:
                                 for filename in os.listdir(harvestDir + opDir + "_oaiwrapped"):
-                                    current_app.logger.info("begin transforming: " + filename)
-                                    subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" + harvestDir + opDir + "/" + filename, "-s:" + harvestDir + opDir + "_oaiwrapped/" + filename, "-xsl:xslt/strip_oai_ssio.xsl"])
-                                    subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" + transformDir + opDir + "/" + filename, "-s:" + harvestDir + opDir + "/" + filename, "-xsl:xslt/ssio2via.xsl"])                               
-                                    subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" + transformDir + opDir + "_hollis/" + filename, "-s:" + transformDir + opDir + "/" + filename, "-xsl:xslt/via2hollis.xsl"])                               
-                                    current_app.logger.info("DONE transforming: " + filename)
-                                    #write/update record
                                     try:
+                                        identifier = filename[:-4]
+                                        current_app.logger.info("begin transforming: " + filename)
+                                        subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" + harvestDir + opDir + "/" + filename, "-s:" + harvestDir + opDir + "_oaiwrapped/" + filename, "-xsl:xslt/strip_oai_ssio.xsl"])
+                                        subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" + transformDir + opDir + "/" + filename, "-s:" + harvestDir + opDir + "/" + filename, "-xsl:xslt/ssio2via.xsl"])                               
+                                        subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" + transformDir + opDir + "_hollis/" + filename, "-s:" + transformDir + opDir + "/" + filename, "-xsl:xslt/via2hollis.xsl"])                               
+                                        current_app.logger.info("DONE transforming: " + filename)
+                                        totalTransformCount = totalTransformCount + 1
+                                        #write/update record
+                                        try:
+                                            status = "update"
+                                            success = True
+                                            self.write_record(job_ticket_id, identifier, harvestdate, setSpec, repository_name, 
+                                                status, record_collection_name, success, mongo_db)
+                                        except Exception as e:
+                                            current_app.logger.error(e)
+                                            current_app.logger.error("Mongo error writing " + setSpec + " record: " +  identifier)
+                                            transform_successful = False
+                                    except Exception as err:
+                                        transform_successful = False
+                                        current_app.logger.error(err)
+                                        current_app.logger.error("VIA/SSIO transform error for id " + identifier + " : {}", err)
+                                        #log error to mongo
                                         status = "update"
-                                        identifier = filename[:4]
-                                        self.write_record(job_ticket_id, identifier, harvestdate, setSpec, repository_name, 
-                                           status, record_collection_name, mongo_db)
-                                        totalHarvestCount = totalHarvestCount + 1    
-                                    except Exception as e:
-                                        current_app.logger.error(e)
-                                        current_app.logger.error("Mongo error writing " + setSpec + " record: " +  identifier)
+                                        success = False
+                                        try:
+                                            self.write_record(job_ticket_id, identifier, harvestdate, setSpec, repository_name,
+                                                status, record_collection_name, success, mongo_db, err)
+                                        except Exception as e:
+                                            current_app.logger.error(e)
+                                            current_app.logger.error("Mongo error writing " + setSpec + " record: " +  identifier)
                     elif  setSpec == harvestset:
                         if os.path.exists(harvestDir + opDir + "_oaiwrapped"):
                             if len(fnmatch.filter(os.listdir(harvestDir + opDir + "_oaiwrapped"), '*.xml')) > 0:
                                 for filename in os.listdir(harvestDir + opDir + "_oaiwrapped"):
-                                    current_app.logger.info("begin transforming for " + setSpec + " only: " + filename)
-                                    subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" + harvestDir + opDir + "/" + filename, "-s:" + harvestDir + opDir + "_oaiwrapped/" + filename, "-xsl:xslt/strip_oai_ssio.xsl"])
-                                    subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" + transformDir + opDir + "/" + filename, "-s:" + harvestDir + opDir + "/" + filename, "-xsl:xslt/ssio2via.xsl"])                               
-                                    subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" + transformDir + opDir + "_hollis/" + filename, "-s:" + transformDir + opDir + "/" + filename, "-xsl:xslt/via2hollis.xsl"])                               
-                                    current_app.logger.info("DONE transforming: " + filename)
-                                    #write/update record
                                     try:
+                                        identifier = filename[:-4]
+                                        current_app.logger.info("begin transforming for " + setSpec + " only: " + filename)
+                                        subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" + harvestDir + opDir + "/" + filename, "-s:" + harvestDir + opDir + "_oaiwrapped/" + filename, "-xsl:xslt/strip_oai_ssio.xsl"])
+                                        subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" + transformDir + opDir + "/" + filename, "-s:" + harvestDir + opDir + "/" + filename, "-xsl:xslt/ssio2via.xsl"])                               
+                                        subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" + transformDir + opDir + "_hollis/" + filename, "-s:" + transformDir + opDir + "/" + filename, "-xsl:xslt/via2hollis.xsl"])                               
+                                        current_app.logger.info("DONE transforming: " + filename)
+                                        totalTransformCount = totalTransformCount + 1  
+                                        #write/update record
+                                        try:
+                                            status = "update"
+                                            success = True
+                                            self.write_record(job_ticket_id, identifier, harvestdate, setSpec, repository_name, 
+                                                status, record_collection_name, success, mongo_db)  
+                                        except Exception as e:
+                                            current_app.logger.error(e)
+                                            current_app.logger.error("Mongo error writing " + setSpec + " record: " +  identifier)
+                                            transform_successful = False
+                                    except Exception as err:
+                                        transform_successful = False
+                                        current_app.logger.error(err)
+                                        current_app.logger.error("VIA/SSIO transform error for id " + identifier + " : {}", err)
+                                        #log error to mongo
                                         status = "update"
-                                        identifier = filename[:4]
-                                        self.write_record(job_ticket_id, identifier, harvestdate, setSpec, repository_name, 
-                                           status, record_collection_name, mongo_db)
-                                        totalHarvestCount = totalHarvestCount + 1    
-                                    except Exception as e:
-                                        current_app.logger.error(e)
-                                        current_app.logger.error("Mongo error writing " + setSpec + " record: " +  identifier)
+                                        success = False
+                                        try:
+                                            self.write_record(job_ticket_id, identifier, harvestdate, setSpec, repository_name,
+                                                status, record_collection_name, success, mongo_db, err)
+                                        except Exception as e:
+                                            current_app.logger.error(e)
+                                            current_app.logger.error("Mongo error writing " + setSpec + " record: " +  identifier)
                     #update harvest record
                     try:
-                        self.update_harvest(job_ticket_id, harvestdate, setSpec, 
-                            repository_name, totalHarvestCount, harvest_collection_name, mongo_db)
+                        self.write_harvest(job_ticket_id, harvestdate, setSpec, 
+                            repository_name, totalTransformCount, harvest_collection_name, mongo_db, jobname, transform_successful)
                     except Exception as e:
                         current_app.logger.error(e)
                         current_app.logger.error("Mongo error writing harvest record for : " +  setSpec)
 
             if jobname == 'aspace' and jobname == job["jobName"]:
                 harvestdate = datetime.today().strftime('%Y-%m-%d')     
+                totalTransformCount = 0
+                transform_successful = True      
                 for filename in os.listdir(harvestDir + 'aspace'):
-                    current_app.logger.info("begin transforming: " + filename)
-                    subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" + transformDir + "aspace_stripwrapper/" + filename, "-s:" + harvestDir + "aspace/" + filename, "-xsl:xslt/strip_oai_aspace.xsl"])                               
-                    subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" + transformDir + "aspace_valid/" + filename, "-s:" + transformDir + "aspace_stripwrapper/" + filename, "-xsl:xslt/aspace2valid.xsl"])                               
-                    subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" + transformDir + "aspace_harvard/" + filename, "-s:" + transformDir + "aspace_valid/" + filename, "-xsl:xslt/aspace2oasis.xsl"])                               
-                    subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" + transformDir + "aspace_hollis_part1/" + filename, "-s:" + transformDir + "aspace_harvard/" + filename, "-xsl:xslt/ead2hollis_part1.xsl"])  
-                    subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" + transformDir + "aspace_hollis/" + filename, "-s:" + transformDir + "aspace_hollis_part1/" + filename, "-xsl:xslt/ead2hollis_part2.xsl"])  
-                    current_app.logger.info("DONE transforming: " + filename)
-                    #write/update record
                     try:
+                        identifier = filename[:-4]
+                        current_app.logger.info("begin transforming: " + filename)
+                        subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" + transformDir + "aspace_stripwrapper/" + filename, "-s:" + harvestDir + "aspace/" + filename, "-xsl:xslt/strip_oai_aspace.xsl"])                               
+                        subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" + transformDir + "aspace_valid/" + filename, "-s:" + transformDir + "aspace_stripwrapper/" + filename, "-xsl:xslt/aspace2valid.xsl"])                               
+                        subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" + transformDir + "aspace_harvard/" + filename, "-s:" + transformDir + "aspace_valid/" + filename, "-xsl:xslt/aspace2oasis.xsl"])                               
+                        subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" + transformDir + "aspace_hollis_part1/" + filename, "-s:" + transformDir + "aspace_harvard/" + filename, "-xsl:xslt/ead2hollis_part1.xsl"])  
+                        subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" + transformDir + "aspace_hollis/" + filename, "-s:" + transformDir + "aspace_hollis_part1/" + filename, "-xsl:xslt/ead2hollis_part2.xsl"])  
+                        current_app.logger.info("DONE transforming: " + filename)
+                        totalTransformCount = totalTransformCount + 1 
+                        #write/update record
+                        try:
+                            status = "update"
+                            success = True
+                            self.write_record(job_ticket_id, identifier, harvestdate, "0000", "aspace", 
+                                status, record_collection_name, success, mongo_db)   
+                        except Exception as e:
+                            current_app.logger.error(e)
+                            current_app.logger.error("Mongo error writing aspace record: " +  identifier)
+                    except Exception as err:
+                        transform_successful = False
+                        current_app.logger.error(err)
+                        current_app.logger.error("Aspace transform error for id " + identifier + " : {}", err)
+                        #log error to mongo
                         status = "update"
-                        identifier = filename[:4]
-                        self.write_record(job_ticket_id, identifier, harvestdate, "0000", "aspace", 
-                            status, record_collection_name, mongo_db)
-                        totalHarvestCount = totalHarvestCount + 1    
-                    except Exception as e:
-                        current_app.logger.error(e)
-                        current_app.logger.error("Mongo error writing aspace record: " +  identifier)
+                        success = False
+                        try:
+                            self.write_record(job_ticket_id, identifier, harvestdate, "0000", "aspace",
+                                status, record_collection_name, success, mongo_db, err)
+                        except Exception as e:
+                            current_app.logger.error(e)
+                            current_app.logger.error("Mongo error writing Aspace record: " +  identifier)
+                    #update harvest record
 
                 #update harvest record
                 try:
-                    self.update_harvest(job_ticket_id, harvestdate, "0000", 
-                        "aspace", totalHarvestCount, harvest_collection_name, mongo_db)
+                    self.write_harvest(job_ticket_id, harvestdate, "0000", 
+                        "aspace", totalTransformCount, harvest_collection_name, mongo_db, jobname, transform_successful)
                 except Exception as e:
                     current_app.logger.error(e)
                     current_app.logger.error("Mongo error writing harvest record for: aspace")
 
-    def update_harvest(self, harvest_id, harvest_date, repository_id, repository_name,
-            total_harvested, collection_name, mongo_db):
+        if (mongo_client is not None):            
+            mongo_client.close()
+
+    def write_harvest(self, harvest_id, harvest_date, repository_id, repository_name,
+            total_harvested, collection_name, mongo_db, jobname, success):
         if mongo_db == None:
             current_app.logger.info("Error: mongo db not instantiated")
             return
@@ -229,20 +286,21 @@ class JstorTransformer():
             if harvest_date == None: #set harvest date to today if harvest date is None
                 harvest_date = datetime.today().strftime('%Y-%m-%d') 
             harvest_date_obj = datetime.strptime(harvest_date, "%Y-%m-%d")
-            query = { "id" : harvest_id }
-            harvest_record = {"$set": { "id": harvest_id, "harvest_date": harvest_date_obj, 
+            harvest_record = { "id": harvest_id, "harvest_date": harvest_date_obj, 
                 "repository_id": repository_id, "repository_name": repository_name, 
-                "total_transformed_count": total_harvested, "success": False } }
+                "total_transformed_count": total_harvested, "jobname": jobname, "success": success }
             harvest_collection = mongo_db[collection_name]
-            #harvest_collection.insert_one(harvest_record)
-            harvest_collection.update_one(query, harvest_record, upsert=True)
+            harvest_collection.insert_one(harvest_record)
             current_app.logger.info(repository_name + " harvest for " + harvest_date + " written to mongo ")
         except Exception as err:
             current_app.logger.info("Error: unable to connect to mongodb, {}", err)
         return
 
     def write_record(self, harvest_id, record_id, harvest_date, repository_id, repository_name,
-            status, collection_name, mongo_db):
+            status, collection_name, success, mongo_db, error=None):
+        err_msg = ""
+        if error != None:
+            err_msg = error
         if mongo_db == None:
             current_app.logger.info("Error: mongo db not instantiated")
             return
@@ -250,32 +308,12 @@ class JstorTransformer():
             if harvest_date == None: #set harvest date to today if harvest date is None
                 harvest_date = datetime.today().strftime('%Y-%m-%d')  
             harvest_date_obj = datetime.strptime(harvest_date, "%Y-%m-%d")
-            harvest_record = {"$set":  { "id": harvest_id, "last_update": harvest_date_obj, "record_id": record_id, 
+            harvest_record = { "harvest_id": harvest_id, "last_update": harvest_date_obj, "record_id": record_id, 
                 "repository_id": repository_id, "repository_name": repository_name, 
-                "status": status, "transformed": True } }
+                "status": status, "success": success, "error": err_msg }
             record_collection = mongo_db[collection_name]
-            #record_collection.insert_one(harvest_record)
-            record_collection.update_one(query, harvest_record, upsert=True)
-            current_app.logger.info("record " + str(record_id) + " of repo " + str(repository_id) + " written to mongo ")
-        except Exception as err:
-            current_app.logger.info("Error: unable to connect to mongodb, {}", err)
-        return
-
-    def write_record(self, harvest_id, record_id, harvest_date, repository_id, repository_name,
-            status, collection_name, mongo_db):
-        if mongo_db == None:
-            current_app.logger.info("Error: mongo db not instantiated")
-            return
-        try:
-            if harvest_date == None: #set harvest date to today if harvest date is None
-                harvest_date = datetime.today().strftime('%Y-%m-%d')  
-            harvest_date_obj = datetime.strptime(harvest_date, "%Y-%m-%d")
-            harvest_record = {"$set":  { "id": harvest_id, "last_update": harvest_date_obj, "record_id": record_id, 
-                "repository_id": repository_id, "repository_name": repository_name, 
-                "status": status, "published": True } }
-            record_collection = mongo_db[collection_name]
-            #record_collection.insert_one(harvest_record)
-            record_collection.update_one(query, harvest_record, upsert=True)
+            record_collection.insert_one(harvest_record)
+            #record_collection.update_one(query, harvest_record, upsert=True)
             current_app.logger.info("record " + str(record_id) + " of repo " + str(repository_id) + " written to mongo ")
         except Exception as err:
             current_app.logger.info("Error: unable to connect to mongodb, {}", err)
