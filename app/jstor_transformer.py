@@ -143,6 +143,7 @@ class JstorTransformer():
 
         harvestDir = os.getenv("jstor_harvest_dir") + "/"         
         transformDir = os.getenv("jstor_transform_dir") + "/" 
+        props="-Djavax.xml.transform.TransformerFactory=net.sf.saxon.TransformerFactoryImpl -Xms512m -Xmx4096m"
         for job in harvestconfig:     
             if jobname == 'jstorforum' and jobname == job["jobName"]:   
                 for set in job["harvests"]["sets"]:
@@ -155,7 +156,7 @@ class JstorTransformer():
                     ssio2viaXsl = "ssio2via.xsl"
                     if harvesttype == 'full':
                         ssio2viaXsl = "ssio2viafull.xsl"
-                    current_app.logger.info("SSIO2VIAXSL: " + ssio2viaXsl)    
+                    current_app.logger.info("Transforming with: " + ssio2viaXsl) 
                     if harvestset is None:
                         if os.path.exists(harvestDir + opDir + "_oaiwrapped"):
                             if len(fnmatch.filter(os.listdir(harvestDir + opDir + "_oaiwrapped"), '*.xml')) > 0:
@@ -164,7 +165,7 @@ class JstorTransformer():
                                         identifier = filename[:-4]
                                         current_app.logger.info("begin transforming: " + filename)
                                         subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" + harvestDir + opDir + "/" + filename, "-s:" + harvestDir + opDir + "_oaiwrapped/" + filename, "-xsl:xslt/strip_oai_ssio.xsl"])
-                                        subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" + transformDir + opDir + "/" + filename, "-s:" + harvestDir + opDir + "/" + filename, "-xsl:xslt/" + ssio2viaXsl])                               
+                                        subprocess.call(["java", props, "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" + transformDir + opDir + "/" + filename, "-s:" + harvestDir + opDir + "/" + filename, "-xsl:xslt/" + ssio2viaXsl])                               
                                         subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" + transformDir + opDir + "_hollis/" + filename, "-s:" + transformDir + opDir + "/" + filename, "-xsl:xslt/via2hollis.xsl"])                               
                                         current_app.logger.info("DONE transforming: " + filename)
                                         totalTransformCount = totalTransformCount + 1
