@@ -60,13 +60,17 @@ class JstorTransformer():
         if 'harvestset' in request_json:
             harvestset = request_json["harvestset"]
 
+        harvesttype = None
+        if 'harvesttype' in request_json:
+            harvesttype = request_json["harvesttype"]
+
         jstorforum = False
         if 'jstorforum' in request_json:
             current_app.logger.info("running jstorforum transform")
             jstorforum = request_json['jstorforum']
         if jstorforum:
             try:
-                self.do_transform('jstorforum', harvestset, job_ticket_id)
+                self.do_transform('jstorforum', harvestset, harvesttype, job_ticket_id)
             except Exception as err:
                 current_app.logger.error("Error: unable to transform jstorforum records, {}", err)
 
@@ -76,18 +80,18 @@ class JstorTransformer():
             aspace = request_json['aspace']
         if aspace:
             try:
-                self.do_transform('aspace', None, job_ticket_id)
+                self.do_transform('aspace', None, None, job_ticket_id)
             except Exception as err:
                 current_app.logger.error("Error: unable to transform aspace records, {}", err)
 
         if (integration_test):
             current_app.logger.info("running integration test")
             try:
-                self.do_transform('jstorforum', None, job_ticket_id, True)
+                self.do_transform('jstorforum', None, None, job_ticket_id, True)
             except Exception as err:
                 current_app.logger.error("Error: unable to transform jstorforum records in itest, {}", err)
             try:
-                self.do_transform('aspace', None, job_ticket_id, True)
+                self.do_transform('aspace', None, None, job_ticket_id, True)
             except Exception as err:
                 current_app.logger.error("Error: unable to transform aspace records in itest, {}", err)
 
@@ -112,7 +116,7 @@ class JstorTransformer():
 
         return result
 
-    def do_transform(self, jobname, harvestset, job_ticket_id, itest=False):
+    def do_transform(self, jobname, harvestset, harvesttype, job_ticket_id, itest=False):
         if itest:
             configfile = "harvestjobs_test.json"
         else:
@@ -139,6 +143,7 @@ class JstorTransformer():
 
         harvestDir = os.getenv("jstor_harvest_dir") + "/"         
         transformDir = os.getenv("jstor_transform_dir") + "/" 
+        props="-Djavax.xml.transform.TransformerFactory=net.sf.saxon.TransformerFactoryImpl -Xms512m -Xmx4096m"
         for job in harvestconfig:     
             if jobname == 'jstorforum' and jobname == job["jobName"]:   
                 for set in job["harvests"]["sets"]:
@@ -148,7 +153,10 @@ class JstorTransformer():
                     opDir = set["opDir"]
                     totalTransformCount = 0
                     harvestdate = datetime.today().strftime('%Y-%m-%d') 
-
+                    ssio2viaXsl = "ssio2via.xsl"
+                    if harvesttype == 'full':
+                        ssio2viaXsl = "ssio2viafull.xsl"
+                    current_app.logger.info("Transforming with: " + ssio2viaXsl) 
                     if harvestset is None:
                         if os.path.exists(harvestDir + opDir + "_oaiwrapped"):
                             if len(fnmatch.filter(os.listdir(harvestDir + opDir + "_oaiwrapped"), '*.xml')) > 0:
@@ -157,7 +165,7 @@ class JstorTransformer():
                                         identifier = filename[:-4]
                                         current_app.logger.info("begin transforming: " + filename)
                                         subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" + harvestDir + opDir + "/" + filename, "-s:" + harvestDir + opDir + "_oaiwrapped/" + filename, "-xsl:xslt/strip_oai_ssio.xsl"])
-                                        subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" + transformDir + opDir + "/" + filename, "-s:" + harvestDir + opDir + "/" + filename, "-xsl:xslt/ssio2via.xsl"])                               
+                                        subprocess.call(["java", props, "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" + transformDir + opDir + "/" + filename, "-s:" + harvestDir + opDir + "/" + filename, "-xsl:xslt/" + ssio2viaXsl])                               
                                         subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" + transformDir + opDir + "_hollis/" + filename, "-s:" + transformDir + opDir + "/" + filename, "-xsl:xslt/via2hollis.xsl"])                               
                                         current_app.logger.info("DONE transforming: " + filename)
                                         totalTransformCount = totalTransformCount + 1
