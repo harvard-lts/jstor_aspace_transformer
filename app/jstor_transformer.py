@@ -71,7 +71,7 @@ class JstorTransformer():
         if jstorforum:
             try:
                 self.do_transform('jstorforum', harvestset, harvesttype, job_ticket_id)
-            except:
+            except Exception as err:
                 current_app.logger.error("Error: unable to transform jstorforum records, {}", err)
 
         aspace = False
@@ -88,7 +88,7 @@ class JstorTransformer():
             current_app.logger.info("running integration test")
             try:
                 self.do_transform('jstorforum', None, None, job_ticket_id, True)
-            except:
+            except Exception as err:
                 current_app.logger.error("Error: unable to transform jstorforum records in itest, {}", err)
             try:
                 self.do_transform('aspace', None, None, job_ticket_id, True)
