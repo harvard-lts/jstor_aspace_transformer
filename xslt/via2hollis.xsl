@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/TR/xlink"
-    exclude-result-prefixes="xs" version="2.0">
+    xmlns:ino="http://namespaces.softwareag.com/tamino/response2" exclude-result-prefixes="xs ino"
+    version="2.0">
 
     <xsl:output method="xml" omit-xml-declaration="yes" encoding="utf-8" indent="yes"/>
 
@@ -20,40 +21,42 @@
 
     <!-- When matching DataSeriesBodyType: do nothing -->
     <xsl:template match="viaRecord">
-        <xsl:copy>
-            <xsl:variable name="numImg">
-                <xsl:value-of select="count(.//image)"/>
-            </xsl:variable>
-            <xsl:variable name="numSub">
-                <xsl:value-of select="count(.//subwork)"/>
-            </xsl:variable>
-            <xsl:variable name="numSur">
-                <xsl:value-of select="count(.//surrogate)"/>
-            </xsl:variable>
-            <xsl:attribute name="images">
-                <xsl:choose>
-                    <xsl:when test="$numImg > 0">
-                        <xsl:text>true</xsl:text>
-                    </xsl:when>
-                    <xsl:otherwise>
-                        <xsl:text>false</xsl:text>
-                    </xsl:otherwise>
-                </xsl:choose>
-            </xsl:attribute>
-            <xsl:attribute name="numberOfImages">
-                <xsl:value-of select="$numImg"/>
-            </xsl:attribute>
-            <xsl:attribute name="numberOfSubworks">
-                <xsl:value-of select="$numSub"/>
-            </xsl:attribute>
-            <xsl:attribute name="numberOfSurrogates">
-                <xsl:value-of select="$numSur"/>
-            </xsl:attribute>
-            <xsl:attribute name="sortTitle">
-                <xsl:value-of select="./*/title[1]/textElement"/>
-            </xsl:attribute>
-            <xsl:apply-templates select="@* | node()"/>
-        </xsl:copy>
+        <xsl:element name="ino:object" inherit-namespaces="no">
+            <xsl:copy>
+                <xsl:variable name="numImg">
+                    <xsl:value-of select="count(.//image)"/>
+                </xsl:variable>
+                <xsl:variable name="numSub">
+                    <xsl:value-of select="count(.//subwork)"/>
+                </xsl:variable>
+                <xsl:variable name="numSur">
+                    <xsl:value-of select="count(.//surrogate)"/>
+                </xsl:variable>
+                <xsl:attribute name="images">
+                    <xsl:choose>
+                        <xsl:when test="$numImg > 0">
+                            <xsl:text>true</xsl:text>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:text>false</xsl:text>
+                        </xsl:otherwise>
+                    </xsl:choose>
+                </xsl:attribute>
+                <xsl:attribute name="numberOfImages">
+                    <xsl:value-of select="$numImg"/>
+                </xsl:attribute>
+                <xsl:attribute name="numberOfSubworks">
+                    <xsl:value-of select="$numSub"/>
+                </xsl:attribute>
+                <xsl:attribute name="numberOfSurrogates">
+                    <xsl:value-of select="$numSur"/>
+                </xsl:attribute>
+                <xsl:attribute name="sortTitle">
+                    <xsl:value-of select="./*/title[1]/textElement"/>
+                </xsl:attribute>
+                <xsl:apply-templates select="@* | node()"/>
+            </xsl:copy>
+        </xsl:element>
     </xsl:template>
 
     <xsl:template match="work">
@@ -195,7 +198,7 @@
 
     <xsl:template match="relatedInformation">
         <xsl:choose>
-            <xsl:when test="@xlink:href = ''"> 
+            <xsl:when test="@xlink:href = ''">
                 <xsl:element name="note">
                     <xsl:value-of select="."/>
                 </xsl:element>
@@ -208,14 +211,14 @@
                     <xsl:element name="text">
                         <xsl:value-of select="."/>
                     </xsl:element>
-                </xsl:copy>                
+                </xsl:copy>
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
 
     <xsl:template match="relatedInformation" mode="oneimage">
         <xsl:choose>
-            <xsl:when test="@xlink:href = ''"> 
+            <xsl:when test="@xlink:href = ''">
                 <xsl:element name="note">
                     <xsl:value-of select="."/>
                 </xsl:element>
@@ -228,7 +231,7 @@
                     <xsl:element name="text">
                         <xsl:value-of select="."/>
                     </xsl:element>
-                </xsl:copy>                
+                </xsl:copy>
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
