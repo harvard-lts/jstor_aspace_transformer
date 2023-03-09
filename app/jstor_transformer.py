@@ -149,6 +149,7 @@ class JstorTransformer():
                 for set in job["harvests"]["sets"]:
                     transform_successful = True 
                     setSpec = "{}".format(set["setSpec"])
+                    current_app.logger.info("begin transforming for " + setSpec)
                     repository_name = self.repositories[setSpec]
                     opDir = set["opDir"]
                     totalTransformCount = 0
@@ -163,11 +164,11 @@ class JstorTransformer():
                                 for filename in os.listdir(harvestDir + opDir + "_oaiwrapped"):
                                     try:
                                         identifier = filename[:-4]
-                                        current_app.logger.info("begin transforming: " + filename)
+                                        current_app.logger.debug("begin transforming: " + filename)
                                         subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" + harvestDir + opDir + "/" + filename, "-s:" + harvestDir + opDir + "_oaiwrapped/" + filename, "-xsl:xslt/strip_oai_ssio.xsl"])
                                         subprocess.call(["java", props, "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" + transformDir + opDir + "/" + filename, "-s:" + harvestDir + opDir + "/" + filename, "-xsl:xslt/" + ssio2viaXsl])                               
                                         subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" + transformDir + opDir + "_hollis/" + filename, "-s:" + transformDir + opDir + "/" + filename, "-xsl:xslt/via2hollis.xsl"])                               
-                                        current_app.logger.info("DONE transforming: " + filename)
+                                        current_app.logger.debug("DONE transforming: " + filename)
                                         totalTransformCount = totalTransformCount + 1
                                         #write/update record
                                         try:
@@ -193,16 +194,17 @@ class JstorTransformer():
                                             current_app.logger.error(e)
                                             current_app.logger.error("Mongo error writing " + setSpec + " record: " +  identifier)
                     elif  setSpec == harvestset:
+                        current_app.logger.info("begin transforming for " + setSpec + " only")
                         if os.path.exists(harvestDir + opDir + "_oaiwrapped"):
                             if len(fnmatch.filter(os.listdir(harvestDir + opDir + "_oaiwrapped"), '*.xml')) > 0:
                                 for filename in os.listdir(harvestDir + opDir + "_oaiwrapped"):
                                     try:
                                         identifier = filename[:-4]
-                                        current_app.logger.info("begin transforming for " + setSpec + " only: " + filename)
+                                        current_app.logger.debug("begin transforming: " + filename)
                                         subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" + harvestDir + opDir + "/" + filename, "-s:" + harvestDir + opDir + "_oaiwrapped/" + filename, "-xsl:xslt/strip_oai_ssio.xsl"])
                                         subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" + transformDir + opDir + "/" + filename, "-s:" + harvestDir + opDir + "/" + filename, "-xsl:xslt/ssio2via.xsl"])                               
                                         subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" + transformDir + opDir + "_hollis/" + filename, "-s:" + transformDir + opDir + "/" + filename, "-xsl:xslt/via2hollis.xsl"])                               
-                                        current_app.logger.info("DONE transforming: " + filename)
+                                        current_app.logger.debug("DONE transforming: " + filename)
                                         totalTransformCount = totalTransformCount + 1  
                                         #write/update record
                                         try:

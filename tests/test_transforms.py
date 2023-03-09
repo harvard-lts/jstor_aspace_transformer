@@ -143,16 +143,49 @@ def test_badGroupItems():
 def test_deletes():   
     if not os.path.exists("./tests/data/temp"):
         os.makedirs("./tests/data/temp") 
+
+#first nightly
+
+    # All display:DR/@status)lkup="Deleted"
     subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" "./tests/data/temp/8001004229_via_delete.xml", "-s:" "./tests/data/8001004229_ssio_delete.xml", "-xsl:xslt/ssio2via.xsl"])  
-    assert os.path.isfile("./tests/data/temp/8001004229_via_delete.xml") == False
+    doc = ET.parse("./tests/data/temp/8001004229_via_delete.xml") 
+    assert doc.xpath("//*[local-name()='deleteRecordId']")[0].text == "8001004229"
 
-    subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" "./tests/data/temp/8000483808_via_delete.xml", "-s:" "./tests/data/8000483808_ssio_delete.xml.xml", "-xsl:xslt/ssio2via.xsl"]) 
-    assert os.path.isfile("./tests/data/temp/8000483808_via_delete.xml") == False  
+    # All "Send To Harvard" value="false"
+    subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" "./tests/data/temp/8000483808_via_delete.xml", "-s:" "./tests/data/8000483808_ssio_delete.xml", "-xsl:xslt/ssio2via.xsl"]) 
+    doc = ET.parse("./tests/data/temp/8000483808_via_delete.xml")
+    assert doc.xpath("//*[local-name()='deleteRecordId']")[0].text == "olvgroup1003658"
 
+    #this is a dropped record
+    subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" "./tests/data/temp/9511157_via_delete.xml", "-s:" "./tests/data/9511157_ssio.xml", "-xsl:xslt/ssio2via.xsl"]) 
+    doc = ET.parse("./tests/data/temp/9511157_via_delete.xml")  
+    assert doc.xpath("//*[local-name()='dropRecordId']")[0].text == "9511157"
 
-    #TO DO - check the actual delete output
-    #doc = ET.parse("/tmp/JSTORFORUM/DELETES/8001004229.xml")
-    #assert doc.xpath("//deleteRecordId")[0] == "8001004229"
+    # for an "oai delete, delete info only in header"
+    subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" "./tests/data/temp/9129773_via_delete.xml", "-s:" "./tests/data/9129773_delete.xml", "-xsl:xslt/strip_oai_ssio.xsl"]) 
+    doc = ET.parse("./tests/data/temp/9129773_via_delete.xml")
+    assert doc.xpath("//*[local-name()='deleteRecordId']")[0].text == "9129773"
+
+#second full
+    # All display:DR/@status)lkup="Deleted"
+    subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" "./tests/data/temp/8001004229_via_delete_full.xml", "-s:" "./tests/data/8001004229_ssio_delete.xml", "-xsl:xslt/ssio2viafull.xsl"])  
+    doc = ET.parse("./tests/data/temp/8001004229_via_delete_full.xml") 
+    assert doc.xpath("//*[local-name()='deleteRecordId']")[0].text == "8001004229"
+
+    # All "Send To Harvard" value="false"
+    subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" "./tests/data/temp/8000483808_via_delete_full.xml", "-s:" "./tests/data/8000483808_ssio_delete.xml", "-xsl:xslt/ssio2viafull.xsl"]) 
+    doc = ET.parse("./tests/data/temp/8000483808_via_delete_full.xml")
+    assert doc.xpath("//*[local-name()='deleteRecordId']")[0].text == "olvgroup1003658"
+
+    #this is a dropped record
+    subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" "./tests/data/temp/9511157_via_delete_full.xml", "-s:" "./tests/data/9511157_ssio.xml", "-xsl:xslt/ssio2viafull.xsl"]) 
+    doc = ET.parse("./tests/data/temp/9511157_via_delete_full.xml")  
+    assert doc.xpath("//*[local-name()='dropRecordId']")[0].text == "9511157"
+
+    for i in os.listdir("./tests/data/temp"):
+        print(i)
+        os.remove("./tests/data/temp/" + i)
+    os.rmdir("./tests/data/temp")  
 
 #def test_ead():
 #    ead_ns = {'ead': 'urn:isbn:1-931666-22-9'}

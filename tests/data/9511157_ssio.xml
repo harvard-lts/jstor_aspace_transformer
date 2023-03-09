@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharedShelf xmlns:display="http://catalog.sharedshelf.artstor.org/display"
+    xmlns:ssc="http://catalog.sharedshelf.artstor.org/ssc"
+    xmlns:ssd="http://catalog.sharedshelf.artstor.org/ssd"
+    xmlns:ssn="http://catalog.sharedshelf.artstor.org/ssn"
+    xmlns:ssw="http://catalog.sharedshelf.artstor.org/ssw"
+    xmlns:ssw_lkup="http://catalog.sharedshelf.artstor.org/ssw_lkup"
+    xmlns:tgn="http://catalog.sharedshelf.artstor.org/tgn"
+    xmlns:aat="http://catalog.sharedshelf.artstor.org/aat"
+    xmlns:mfcl="http://catalog.sharedshelf.artstor.org/mfcl"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://catalog.sharedshelf.artstor.org"
+    xsi:schemaLocation="http://catalog.sharedshelf.artstor.org http://catalog.sharedshelf.artstor.org/service/schema/SharedShelf_IO.xsd">
+    <ssn:Name conceptId="9000417970" stateText="AUTHORITY" recordType="CORPORATE BODY" batchId="2"
+        statusText="Provisional" createdOn="2014/12/27 16:03:34" modifiedOn="2020/05/14 20:41:50"
+        batchName="Harvard"
+        preferredTerm="Berenson Art Collection, I Tatti - The Harvard University Center for Italian Renaissance Studies"
+        uri="http://forum.jstor.org/oai/ssn/9000417970">
+        <Terms xmlns="" count="1">
+            <Term id="1718757"
+                name="Berenson Art Collection, I Tatti - The Harvard University Center for Italian Renaissance Studies"
+                preferred="true">
+                <TermSource id="11318641" name="NO SOURCE" preferred="true"/>
+            </Term>
+        </Terms>
+        <Biographies xmlns="" count="1">
+            <Biography id="1718758" preferred="true">
+                <birthPlace/>
+                <deathPlace/>
+            </Biography>
+        </Biographies>
+    </ssn:Name>
+    <ssn:Name conceptId="9000418535" stateText="NEW" recordType="CORPORATE BODY" batchId="2"
+        statusText="Provisional" createdOn="2014/12/27 16:24:27" modifiedOn="2015/01/28 9:31:19"
+        batchName="Harvard" preferredTerm="Centrica s.r.l."
+        uri="http://forum.jstor.org/oai/ssn/9000418535">
+        <Roles xmlns="" count="1">
+            <Role id="11309308" name="company" preferred="true"/>
+        </Roles>
+        <Nationalities xmlns="" count="1">
+            <Nationality id="11281509" name="Italian" preferred="true"/>
+        </Nationalities>
+        <Terms xmlns="" count="1">
+            <Term id="1736550" name="Centrica s.r.l." preferred="true">
+                <Language id="11279872" name="Italian" preferred="true"/>
+                <TermSource id="11276964" name="Local Sources" preferred="true"/>
+            </Term>
+        </Terms>
+        <Events xmlns="" count="1">
+            <Event id="11315114" name="location" place="Florence, Italy"/>
+        </Events>
+        <Biographies xmlns="" count="1">
+            <Biography id="1736551" name="Italian company" preferred="true">
+                <birthPlace/>
+                <deathPlace/>
+            </Biography>
+        </Biographies>
+        <Notes xmlns="" count="1">
+            <Note noteText="Company's website: www.centrica.it"/>
+        </Notes>
+    </ssn:Name>
+    <ssn:Name conceptId="9000371547" stateText="AUTHORITY" recordType="CORPORATE BODY" batchId="2"
+        statusText="Provisional" createdOn="2014/12/26 12:55:01" modifiedOn="2020/07/09 3:52:24"
+        batchName="Harvard"
+        preferredTerm="I Tatti - The Harvard University Center for Italian Renaissance Studies"
+        uri="http://forum.jstor.org/oai/ssn/9000371547">
+        <Terms xmlns="" count="5">
+            <Term id="1015066"
+                name="I Tatti - The Harvard University Center for Italian Renaissance Studies"
+                preferred="true">
+                <TermSource id="11318641" name="NO SOURCE" preferred="true"/>
+            </Term>
+            <Term id="1015067" name="Villa I Tatti" preferred="false">
+                <TermSource id="11318641" name="NO SOURCE" preferred="true"/>
+            </Term>
+            <Term id="1015068" name="I Tatti" preferred="false">
+                <TermSource id="11318641" name="NO SOURCE" preferred="true"/>
+            </Term>
+            <Term id="1015069" name="Berenson Collection" preferred="false">
+                <TermSource id="11318641" name="NO SOURCE" preferred="true"/>
+            </Term>
+            <Term id="1015070" name="Bernard Berenson Collection" preferred="false">
+                <TermSource id="11318641" name="NO SOURCE" preferred="true"/>
+            </Term>
+        </Terms>
+        <Events xmlns="" count="1">
+            <Event id="11315114" name="location" place="Florence, Italy"/>
+        </Events>
+        <Biographies xmlns="" count="1">
+            <Biography id="1015071" preferred="true">
+                <birthPlace/>
+                <deathPlace/>
+            </Biography>
+        </Biographies>
+        <Notes xmlns="" count="2">
+            <Note noteText="VC"/>
+            <Note noteText="HOLLIS: Villa I Tatti"/>
+        </Notes>
+    </ssn:Name>
+    <display:DR id="9511157" representationId="drs:urn-3:VIT.BB:17051906"
+        lastUpdateDate="2021-09-16T21:11:38+00:00" sequence="0" primary="false" projectId="809"
+        institutionId="10003" createdBy="estolfi@itatti.harvard.edu"
+        updatedBy="r_wendler@harvard.edu" createdDate="2015-06-26T12:02:24+00:00">
+        <DisplayRecord xmlns="">
+            <field_string id="fd_36549_s" description="None" label="Image Rights"
+                value="© The President and Fellows of Harvard College. ; Access Restrictions: This copy is furnished for study purposes only. Written authorization must be obtained for all other uses."/>
+            <field_string id="fd_36543_s" description="None" label="Image Start Year" value="2011"/>
+            <field_string id="fd_36533_s" description="None" label="Image Date" value="2011-2013"/>
+            <field_string id="fd_36545_s" description="None" label="Image End Year" value="2013"/>
+            <field_string id="fd_36538_s" description="None" label="Image Accession Number"
+                value="522185"/>
+            <field_boolean id="fd_36553_b" description="None" label="Send To Harvard" value="true"/>
+            <field_lookup id="fd_36561_mfcl_lookup" description="None" label="Image Source Type">
+                <display/>
+            </field_lookup>
+            <field_lookup id="fd_36518_mfcl_lookup" description="None"
+                label="Artstor Classification">
+                <display/>
+            </field_lookup>
+            <field_lookup id="fd_36541_mfcl_lookup" description="None" label="Image Type">
+                <display>digital image</display>
+                <linkedField id="11319122" revision="-1" source_id="11319122"
+                    preferredTerm="digital image" institutionName="Harvard">
+                    <allTerms>digital image</allTerms>
+                </linkedField>
+            </field_lookup>
+            <field_lookup id="fd_36536_lookup" description="None" label="Image Repository">
+                <display>Berenson Art Collection, Villa I Tatti - The Harvard University Center for Italian Renaissance Studies</display>
+                <linkedField id="9000417970" revision="-1" source_id="9000417970"
+                    preferredTerm="Berenson Art Collection, I Tatti - The Harvard University Center for Italian Renaissance Studies"
+                    conceptLevel="Community" institutionName="Harvard"
+                    uri="http://forum.jstor.org/oai/SSN/9000417970">
+                    <allTerms>Berenson Art Collection, I Tatti - The Harvard University Center for Italian Renaissance Studies</allTerms>
+                </linkedField>
+            </field_lookup>
+            <field_lookup id="fd_36532_lookup" description="None" label="Photographer">
+                <display>Centrica s.r.l. (Italian company)</display>
+                <linkedField id="9000418535" revision="-1" source_id="9000418535"
+                    preferredTerm="Centrica s.r.l." conceptLevel="Local" institutionName="Harvard"
+                    uri="http://forum.jstor.org/oai/SSN/9000418535">
+                    <allTerms>Centrica s.r.l.</allTerms>
+                </linkedField>
+            </field_lookup>
+            <field_lookup id="fd_36527_mfcl_lookup" description="None" label="Artstor Country">
+                <display/>
+            </field_lookup>
+            <field_lookup id="fd_36542_lookup" description="None" label="Image Associated Name">
+                <display>Villa I Tatti - The Harvard University Center for Italian Renaissance Studies</display>
+                <linkedField id="9000371547" revision="-1" source_id="9000371547"
+                    preferredTerm="I Tatti - The Harvard University Center for Italian Renaissance Studies"
+                    conceptLevel="Community" institutionName="Harvard"
+                    uri="http://forum.jstor.org/oai/SSN/9000371547">
+                    <allTerms>I Tatti - The Harvard University Center for Italian Renaissance Studies|Villa I Tatti|I Tatti|Berenson Collection|Bernard Berenson Collection</allTerms>
+                </linkedField>
+            </field_lookup>
+        </DisplayRecord>
+        <AssetGroups xmlns="">
+            <Group id="23241"/>
+            <Group id="23242"/>
+            <Group id="26506"/>
+        </AssetGroups>
+        <Publications xmlns="">
+            <Publication asset_id="9511157" status_lkup="Published" publishing_target_id="790"
+                updatedBy="estolfi@itatti.harvard.edu" updatedOn="2015-11-30T08:28:21+00:00"/>
+        </Publications>
+        <Assets xmlns="" filename="urn-3:VIT.BB:17051906">
+            <Asset id="None" size="DRS_full" uri="http://nrs.harvard.edu/urn-3:VIT.BB:17051906"
+                restriction="f"/>
+            <Asset id="None" size="DRS_thumb" uri="http://nrs.harvard.edu/urn-3:VIT.BB:17051906"
+                restriction="f"/>
+        </Assets>
+        <Targets xmlns="">
+            <Target name="OAI" status_lkup="Published" url="#" description="OAI"
+                publishDate="2015-11-30T08:28:21+00:00"/>
+        </Targets>
+    </display:DR>
+</SharedShelf>
