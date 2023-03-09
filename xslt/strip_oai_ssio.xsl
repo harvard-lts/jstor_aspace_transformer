@@ -5,28 +5,16 @@
 	<xsl:output method="xml" version="1.0"/>
 
 	<xsl:template match="/">
-		<xsl:element name="deleteRecordId" inherit-namespaces="no">
-			<xsl:value-of select="oai:record/oai:header/oai:identifier"/>
-		</xsl:element>
-		<!--<xsl:choose>
+		<xsl:choose>
 			<xsl:when test="oai:record/oai:header/@status = 'deleted'">
-				<xsl:variable name="harvestdir" as="xs:string">
-					<xsl:value-of select="document('harvest.xml')/*/harvestdir"/>
-				</xsl:variable>
-				<xsl:variable name="deletepath">
-					<xsl:value-of select="$harvestdir"/>/DELETES/<xsl:value-of
-						select="oai:record/oai:header/oai:identifier"/><xsl:text>.xml</xsl:text>
-				</xsl:variable>
-				<xsl:result-document href="{$deletepath}" exclude-result-prefixes="#all">
-					<deleteRecordId>
-						<xsl:value-of select="oai:record/oai:header/oai:identifier"/>
-					</deleteRecordId>
-				</xsl:result-document>
+				<xsl:element name="deleteRecordId" inherit-namespaces="no">
+					<xsl:value-of select="oai:record/oai:header/oai:identifier"/>
+				</xsl:element>
 			</xsl:when>
 			<xsl:otherwise>
 				<xsl:copy-of select="oai:record/oai:metadata/ssio:SharedShelf"/>
 			</xsl:otherwise>
-		</xsl:choose>-->
+		</xsl:choose>
 
 	</xsl:template>
 
