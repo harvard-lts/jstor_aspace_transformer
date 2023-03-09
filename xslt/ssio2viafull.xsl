@@ -39,6 +39,12 @@
         <xsl:value-of select="//ssw:Work/@id"/>
     </xsl:variable>
 
+    <xsl:template match="deleteRecordId">
+        <xsl:copy>
+            <xsl:apply-templates select="@* | node()"/>
+        </xsl:copy>
+    </xsl:template>
+
     <xsl:template match="ssio:SharedShelf">
         <xsl:variable name="displaycount">
             <xsl:value-of select="count(//display:DR)"/>
@@ -71,7 +77,7 @@
                     <xsl:apply-templates select="ssw:Work/LocalInformation"/>
                 </xsl:element>
             </xsl:when>
-            
+
             <xsl:when test="not(ssw:Work)">
                 <xsl:element name="dropRecordId" inherit-namespaces="no">
                     <xsl:value-of select="display:DR/@id"/>
