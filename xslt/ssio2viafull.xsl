@@ -22,8 +22,8 @@
     xmlns:ssn="http://catalog.sharedshelf.artstor.org/ssn"
     xmlns:ssw="http://catalog.sharedshelf.artstor.org/ssw"
     xmlns:ssw_lkup="http://catalog.sharedshelf.artstor.org/ssw_lkup"
-    xmlns:oai="http://www.openarchives.org/OAI/2.0/" 
-    xmlns:xlink="http://www.w3.org/TR/xlink" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    xmlns:oai="http://www.openarchives.org/OAI/2.0/" xmlns:xlink="http://www.w3.org/TR/xlink"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
     <xsl:output method="xml" version="1.0" omit-xml-declaration="yes" encoding="UTF-8" indent="yes"/>
     <xsl:strip-space elements="*"/>
@@ -38,6 +38,12 @@
     <xsl:variable name="ssid">
         <xsl:value-of select="//ssw:Work/@id"/>
     </xsl:variable>
+
+    <xsl:template match="deleteRecordId">
+        <xsl:copy>
+            <xsl:apply-templates select="@* | node()"/>
+        </xsl:copy>
+    </xsl:template>
 
     <xsl:template match="ssio:SharedShelf">
         <xsl:variable name="displaycount">
@@ -54,18 +60,30 @@
         </xsl:variable>
 
         <xsl:choose>
-            <xsl:when test="$displaycount = $deletecount"/>
+            <!--<xsl:when test="$displaycount = $deletecount"/>
+            <xsl:when test="$sendcount = 0"/>-->
+
+            <xsl:when test="$displaycount = $deletecount">
+                <xsl:element name="deleteRecordId" inherit-namespaces="no">
+                    <xsl:apply-templates select="ssw:Work/LocalInformation"/>
+                </xsl:element>
+            </xsl:when>
             <!-- it is difficult to determine when a rec has already been loaded and should be deleted, or is a first time rec, 
                 and should never be sent. So we just always create a delete record; trying to delete something in via that doesn't exist
                 is how we handled olivia loads, no damage done
             -->
-            <xsl:when test="$sendcount = 0"/>
+            <xsl:when test="$sendcount = 0">
+                <xsl:element name="deleteRecordId" inherit-namespaces="no">
+                    <xsl:apply-templates select="ssw:Work/LocalInformation"/>
+                </xsl:element>
+            </xsl:when>
 
-            <!--<xsl:when test="$sendcount = 0">
-            </xsl:when>-->
-            <!--<xsl:when
-                test="ssw:Work/display:DR/DisplayRecord/field_boolean[@label='Send To Harvard'][@value=false()]"> 
-            </xsl:when>-->
+            <xsl:when test="not(ssw:Work)">
+                <xsl:element name="dropRecordId" inherit-namespaces="no">
+                    <xsl:value-of select="display:DR/@id"/>
+                </xsl:element>
+            </xsl:when>
+
             <xsl:otherwise>
                 <xsl:choose>
                     <xsl:when
