@@ -352,5 +352,10 @@ class JstorTransformer():
             current_app.logger.info("Error: unable to load repository table from mongodb, {}", err)
             return repositories
 
+    #add more sophisticated healthchecking later
+    def healthcheck(self):
+        hc = "OK"
+        return hc
+
     def revert_task(self, job_ticket_id, task_name):
         return True
