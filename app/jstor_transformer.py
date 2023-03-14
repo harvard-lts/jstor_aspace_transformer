@@ -117,6 +117,7 @@ class JstorTransformer():
         return result
 
     def do_transform(self, jobname, harvestset, harvesttype, job_ticket_id, itest=False):
+        current_app.logger.info(harvestset)
         if itest:
             configfile = "harvestjobs_test.json"
         else:
@@ -143,24 +144,25 @@ class JstorTransformer():
 
         harvestDir = os.getenv("jstor_harvest_dir") + "/"         
         transformDir = os.getenv("jstor_transform_dir") + "/" 
-        props="-Djavax.xml.transform.TransformerFactory=net.sf.saxon.TransformerFactoryImpl -Xms512m -Xmx4096m"
+        ssio2viaXsl = "ssio2via.xsl"
+        if harvesttype == 'full':
+            ssio2viaXsl = "ssio2viafull.xsl"
+        current_app.logger.info("Transforming with: " + ssio2viaXsl) 
+        props="-D -Xms512m -Xmx4096m"
         for job in harvestconfig:     
             if jobname == 'jstorforum' and jobname == job["jobName"]:   
                 for set in job["harvests"]["sets"]:
                     transform_successful = True 
                     setSpec = "{}".format(set["setSpec"])
-                    current_app.logger.info("begin transforming for " + setSpec)
                     repository_name = self.repositories[setSpec]
                     opDir = set["opDir"]
                     totalTransformCount = 0
                     harvestdate = datetime.today().strftime('%Y-%m-%d') 
-                    ssio2viaXsl = "ssio2via.xsl"
-                    if harvesttype == 'full':
-                        ssio2viaXsl = "ssio2viafull.xsl"
-                    current_app.logger.info("Transforming with: " + ssio2viaXsl) 
                     if harvestset is None:
+                        current_app.logger.info("begin transforming for " + setSpec)
                         if os.path.exists(harvestDir + opDir + "_oaiwrapped"):
                             if len(fnmatch.filter(os.listdir(harvestDir + opDir + "_oaiwrapped"), '*.xml')) > 0:
+                                #subprocess.call(["java", props, "-cp", "lib/DLESETools.jar:jdom.jar:lib/saxon9he-xslt-2-support.jar", "org.dlese.dpc.commands.RunXSLTransform", "xslt/strip_oai_ssio.xsl", harvestDir + opDir + "_oaiwrapped/", harvestDir + opDir) # + harvestDir + opDir + "/" + filename, "-s:" + harvestDir + opDir + "_oaiwrapped/" + filename, "-xsl:xslt/strip_oai_ssio.xsl"])    
                                 for filename in os.listdir(harvestDir + opDir + "_oaiwrapped"):
                                     try:
                                         identifier = filename[:-4]
@@ -197,7 +199,11 @@ class JstorTransformer():
                         current_app.logger.info("begin transforming for " + setSpec + " only")
                         if os.path.exists(harvestDir + opDir + "_oaiwrapped"):
                             if len(fnmatch.filter(os.listdir(harvestDir + opDir + "_oaiwrapped"), '*.xml')) > 0:
-                                for filename in os.listdir(harvestDir + opDir + "_oaiwrapped"):
+                                subprocess.call(["java", props, "-cp", "lib/DLESETools.jar:lib/saxon9he-xslt-2-support.jar", "org.dlese.dpc.commands.RunXSLTransform", "xslt/strip_oai_ssio.xsl", harvestDir + opDir + "_oaiwrapped/", harvestDir + opDir])
+                                subprocess.call(["java", props, "-cp", "lib/DLESETools.jar:lib/saxon9he-xslt-2-support.jar", "org.dlese.dpc.commands.RunXSLTransform", "xslt/" + ssio2viaXsl, harvestDir + opDir, transformDir + opDir])
+                                subprocess.call(["java", props, "-cp", "lib/DLESETools.jar:lib/saxon9he-xslt-2-support.jar", "org.dlese.dpc.commands.RunXSLTransform", "xslt/via2hollis.xsl", transformDir + opDir, transformDir + opDir + "_hollis"])
+
+                                '''for filename in os.listdir(harvestDir + opDir + "_oaiwrapped"):
                                     try:
                                         identifier = filename[:-4]
                                         current_app.logger.debug("begin transforming: " + filename)
@@ -235,7 +241,7 @@ class JstorTransformer():
                             repository_name, totalTransformCount, harvest_collection_name, mongo_db, jobname, transform_successful)
                     except Exception as e:
                         current_app.logger.error(e)
-                        current_app.logger.error("Mongo error writing harvest record for : " +  setSpec)
+                        current_app.logger.error("Mongo error writing harvest record for : " +  setSpec)'''
 
             if jobname == 'aspace' and jobname == job["jobName"]:
                 harvestdate = datetime.today().strftime('%Y-%m-%d')     
