@@ -117,6 +117,7 @@ class JstorTransformer():
         return result
 
     def do_transform(self, jobname, harvestset, harvesttype, job_ticket_id, itest=False):
+        current_app.logger.info(harvestset)
         if itest:
             configfile = "harvestjobs_test.json"
         else:
@@ -143,32 +144,34 @@ class JstorTransformer():
 
         harvestDir = os.getenv("jstor_harvest_dir") + "/"         
         transformDir = os.getenv("jstor_transform_dir") + "/" 
-        props="-Djavax.xml.transform.TransformerFactory=net.sf.saxon.TransformerFactoryImpl -Xms512m -Xmx4096m"
+        ssio2viaXsl = "ssio2via.xsl"
+        if harvesttype == 'full':
+            ssio2viaXsl = "ssio2viafull.xsl"
+        current_app.logger.info("Transforming with: " + ssio2viaXsl) 
+        props="-D -Xms512m -Xmx4096m"
         for job in harvestconfig:     
             if jobname == 'jstorforum' and jobname == job["jobName"]:   
                 for set in job["harvests"]["sets"]:
                     transform_successful = True 
                     setSpec = "{}".format(set["setSpec"])
-                    current_app.logger.info("begin transforming for " + setSpec)
                     repository_name = self.repositories[setSpec]
                     opDir = set["opDir"]
                     totalTransformCount = 0
                     harvestdate = datetime.today().strftime('%Y-%m-%d') 
-                    ssio2viaXsl = "ssio2via.xsl"
-                    if harvesttype == 'full':
-                        ssio2viaXsl = "ssio2viafull.xsl"
-                    current_app.logger.info("Transforming with: " + ssio2viaXsl) 
                     if harvestset is None:
+                        current_app.logger.info("begin transforming for " + setSpec)
                         if os.path.exists(harvestDir + opDir + "_oaiwrapped"):
                             if len(fnmatch.filter(os.listdir(harvestDir + opDir + "_oaiwrapped"), '*.xml')) > 0:
-                                for filename in os.listdir(harvestDir + opDir + "_oaiwrapped"):
+                                current_app.logger.info("begin transforming - strip oai")
+                                subprocess.call(["java", props, "-cp", "lib/DLESETools.jar:lib/saxon9he-xslt-2-support.jar", "org.dlese.dpc.commands.RunXSLTransform", "xslt/strip_oai_ssio.xsl", harvestDir + opDir + "_oaiwrapped/", harvestDir + opDir])
+                                current_app.logger.info("begin transforming - ssio2via")
+                                subprocess.call(["java", props, "-cp", "lib/DLESETools.jar:lib/saxon9he-xslt-2-support.jar", "org.dlese.dpc.commands.RunXSLTransform", "xslt/" + ssio2viaXsl, harvestDir + opDir, transformDir + opDir])
+                                current_app.logger.info("begin transforming - via2hollis")
+                                subprocess.call(["java", props, "-cp", "lib/DLESETools.jar:lib/saxon9he-xslt-2-support.jar", "org.dlese.dpc.commands.RunXSLTransform", "xslt/via2hollis.xsl", transformDir + opDir, transformDir + opDir + "_hollis"])
+                                current_app.logger.info("done transforming - via2hollis")
+                                for filename in os.listdir(transformDir + opDir):
                                     try:
                                         identifier = filename[:-4]
-                                        current_app.logger.debug("begin transforming: " + filename)
-                                        subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" + harvestDir + opDir + "/" + filename, "-s:" + harvestDir + opDir + "_oaiwrapped/" + filename, "-xsl:xslt/strip_oai_ssio.xsl"])
-                                        subprocess.call(["java", props, "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" + transformDir + opDir + "/" + filename, "-s:" + harvestDir + opDir + "/" + filename, "-xsl:xslt/" + ssio2viaXsl])                               
-                                        subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" + transformDir + opDir + "_hollis/" + filename, "-s:" + transformDir + opDir + "/" + filename, "-xsl:xslt/via2hollis.xsl"])                               
-                                        current_app.logger.debug("DONE transforming: " + filename)
                                         totalTransformCount = totalTransformCount + 1
                                         #write/update record
                                         try:
@@ -193,25 +196,32 @@ class JstorTransformer():
                                         except Exception as e:
                                             current_app.logger.error(e)
                                             current_app.logger.error("Mongo error writing " + setSpec + " record: " +  identifier)
+                        #update harvest record
+                        try:
+                            self.write_harvest(job_ticket_id, harvestdate, setSpec, 
+                                repository_name, totalTransformCount, harvest_collection_name, mongo_db, jobname, transform_successful)
+                        except Exception as e:
+                            current_app.logger.error(e)
+                            current_app.logger.error("Mongo error writing harvest record for : " +  setSpec)
+                            
                     elif  setSpec == harvestset:
                         current_app.logger.info("begin transforming for " + setSpec + " only")
                         if os.path.exists(harvestDir + opDir + "_oaiwrapped"):
                             if len(fnmatch.filter(os.listdir(harvestDir + opDir + "_oaiwrapped"), '*.xml')) > 0:
-                                for filename in os.listdir(harvestDir + opDir + "_oaiwrapped"):
+                                subprocess.call(["java", props, "-cp", "lib/DLESETools.jar:lib/saxon9he-xslt-2-support.jar", "org.dlese.dpc.commands.RunXSLTransform", "xslt/strip_oai_ssio.xsl", harvestDir + opDir + "_oaiwrapped/", harvestDir + opDir])
+                                subprocess.call(["java", props, "-cp", "lib/DLESETools.jar:lib/saxon9he-xslt-2-support.jar", "org.dlese.dpc.commands.RunXSLTransform", "xslt/" + ssio2viaXsl, harvestDir + opDir, transformDir + opDir])
+                                subprocess.call(["java", props, "-cp", "lib/DLESETools.jar:lib/saxon9he-xslt-2-support.jar", "org.dlese.dpc.commands.RunXSLTransform", "xslt/via2hollis.xsl", transformDir + opDir, transformDir + opDir + "_hollis"])
+
+                                for filename in os.listdir(transformDir + opDir):
                                     try:
                                         identifier = filename[:-4]
-                                        current_app.logger.debug("begin transforming: " + filename)
-                                        subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" + harvestDir + opDir + "/" + filename, "-s:" + harvestDir + opDir + "_oaiwrapped/" + filename, "-xsl:xslt/strip_oai_ssio.xsl"])
-                                        subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" + transformDir + opDir + "/" + filename, "-s:" + harvestDir + opDir + "/" + filename, "-xsl:xslt/ssio2via.xsl"])                               
-                                        subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" + transformDir + opDir + "_hollis/" + filename, "-s:" + transformDir + opDir + "/" + filename, "-xsl:xslt/via2hollis.xsl"])                               
-                                        current_app.logger.debug("DONE transforming: " + filename)
-                                        totalTransformCount = totalTransformCount + 1  
+                                        totalTransformCount = totalTransformCount + 1
                                         #write/update record
                                         try:
                                             status = "update"
                                             success = True
                                             self.write_record(job_ticket_id, identifier, harvestdate, setSpec, repository_name, 
-                                                status, record_collection_name, success, mongo_db)  
+                                                status, record_collection_name, success, mongo_db)
                                         except Exception as e:
                                             current_app.logger.error(e)
                                             current_app.logger.error("Mongo error writing " + setSpec + " record: " +  identifier)
@@ -229,51 +239,52 @@ class JstorTransformer():
                                         except Exception as e:
                                             current_app.logger.error(e)
                                             current_app.logger.error("Mongo error writing " + setSpec + " record: " +  identifier)
-                    #update harvest record
-                    try:
-                        self.write_harvest(job_ticket_id, harvestdate, setSpec, 
-                            repository_name, totalTransformCount, harvest_collection_name, mongo_db, jobname, transform_successful)
-                    except Exception as e:
-                        current_app.logger.error(e)
-                        current_app.logger.error("Mongo error writing harvest record for : " +  setSpec)
+                        #update harvest record
+                        try:
+                            self.write_harvest(job_ticket_id, harvestdate, setSpec, 
+                                repository_name, totalTransformCount, harvest_collection_name, mongo_db, jobname, transform_successful)
+                        except Exception as e:
+                            current_app.logger.error(e)
+                            current_app.logger.error("Mongo error writing harvest record for : " +  setSpec)
 
             if jobname == 'aspace' and jobname == job["jobName"]:
                 harvestdate = datetime.today().strftime('%Y-%m-%d')     
                 totalTransformCount = 0
                 transform_successful = True      
-                for filename in os.listdir(harvestDir + 'aspace'):
+
+                subprocess.call(["java", props, "-cp", "lib/DLESETools.jar:lib/saxon9he-xslt-2-support.jar", "org.dlese.dpc.commands.RunXSLTransform", "xslt/strip_oai_aspace.xsl", harvestDir + "aspace", transformDir + "aspace_stripwrapper"])
+                subprocess.call(["java", props, "-cp", "lib/DLESETools.jar:lib/saxon9he-xslt-2-support.jar", "org.dlese.dpc.commands.RunXSLTransform", "xslt/aspace2valid.xsl", transformDir + "aspace_stripwrapper", transformDir + "aspace_valid"])
+                subprocess.call(["java", props, "-cp", "lib/DLESETools.jar:lib/saxon9he-xslt-2-support.jar", "org.dlese.dpc.commands.RunXSLTransform", "xslt/aspace2oasis.xsl", transformDir + "aspace_valid", transformDir + "aspace_harvard"])
+                subprocess.call(["java", props, "-cp", "lib/DLESETools.jar:lib/saxon9he-xslt-2-support.jar", "org.dlese.dpc.commands.RunXSLTransform", "xslt/ead2hollis_part1.xsl", transformDir + "aspace_harvard", transformDir + "aspace_hollis_part1"])
+                subprocess.call(["java", props, "-cp", "lib/DLESETools.jar:lib/saxon9he-xslt-2-support.jar", "org.dlese.dpc.commands.RunXSLTransform", "xslt/ead2hollis_part2.xsl", transformDir + "aspace_hollis_part1", transformDir + "aspace_hollis_part2"])
+
+                for filename in os.listdir(transformDir + "aspace_harvard"):
                     try:
                         identifier = filename[:-4]
-                        current_app.logger.info("begin transforming: " + filename)
-                        subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" + transformDir + "aspace_stripwrapper/" + filename, "-s:" + harvestDir + "aspace/" + filename, "-xsl:xslt/strip_oai_aspace.xsl"])                               
-                        subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" + transformDir + "aspace_valid/" + filename, "-s:" + transformDir + "aspace_stripwrapper/" + filename, "-xsl:xslt/aspace2valid.xsl"])                               
-                        subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" + transformDir + "aspace_harvard/" + filename, "-s:" + transformDir + "aspace_valid/" + filename, "-xsl:xslt/aspace2oasis.xsl"])                               
-                        subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" + transformDir + "aspace_hollis_part1/" + filename, "-s:" + transformDir + "aspace_harvard/" + filename, "-xsl:xslt/ead2hollis_part1.xsl"])  
-                        subprocess.call(["java", "-jar", "lib/saxon9he-xslt-2-support.jar", "-o:" + transformDir + "aspace_hollis/" + filename, "-s:" + transformDir + "aspace_hollis_part1/" + filename, "-xsl:xslt/ead2hollis_part2.xsl"])  
-                        current_app.logger.info("DONE transforming: " + filename)
-                        totalTransformCount = totalTransformCount + 1 
+                        totalTransformCount = totalTransformCount + 1
                         #write/update record
                         try:
                             status = "update"
                             success = True
-                            self.write_record(job_ticket_id, identifier, harvestdate, "0000", "aspace", 
-                                status, record_collection_name, success, mongo_db)   
+                            self.write_record(job_ticket_id, identifier, harvestdate, setSpec, repository_name, 
+                                status, record_collection_name, success, mongo_db)
                         except Exception as e:
                             current_app.logger.error(e)
-                            current_app.logger.error("Mongo error writing aspace record: " +  identifier)
+                            current_app.logger.error("Mongo error writing " + setSpec + " record: " +  identifier)
+                            transform_successful = False
                     except Exception as err:
                         transform_successful = False
                         current_app.logger.error(err)
-                        current_app.logger.error("Aspace transform error for id " + identifier + " : {}", err)
+                        current_app.logger.error("VIA/SSIO transform error for id " + identifier + " : {}", err)
                         #log error to mongo
                         status = "update"
                         success = False
                         try:
-                            self.write_record(job_ticket_id, identifier, harvestdate, "0000", "aspace",
+                            self.write_record(job_ticket_id, identifier, harvestdate, setSpec, repository_name,
                                 status, record_collection_name, success, mongo_db, err)
                         except Exception as e:
                             current_app.logger.error(e)
-                            current_app.logger.error("Mongo error writing Aspace record: " +  identifier)
+                            current_app.logger.error("Mongo error writing " + setSpec + " record: " +  identifier)
                     #update harvest record
 
                 #update harvest record
