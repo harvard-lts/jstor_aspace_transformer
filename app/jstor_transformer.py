@@ -196,6 +196,14 @@ class JstorTransformer():
                                         except Exception as e:
                                             current_app.logger.error(e)
                                             current_app.logger.error("Mongo error writing " + setSpec + " record: " +  identifier)
+                        #update harvest record
+                        try:
+                            self.write_harvest(job_ticket_id, harvestdate, setSpec, 
+                                repository_name, totalTransformCount, harvest_collection_name, mongo_db, jobname, transform_successful)
+                        except Exception as e:
+                            current_app.logger.error(e)
+                            current_app.logger.error("Mongo error writing harvest record for : " +  setSpec)
+                            
                     elif  setSpec == harvestset:
                         current_app.logger.info("begin transforming for " + setSpec + " only")
                         if os.path.exists(harvestDir + opDir + "_oaiwrapped"):
@@ -231,13 +239,13 @@ class JstorTransformer():
                                         except Exception as e:
                                             current_app.logger.error(e)
                                             current_app.logger.error("Mongo error writing " + setSpec + " record: " +  identifier)
-                    #update harvest record
-                    try:
-                        self.write_harvest(job_ticket_id, harvestdate, setSpec, 
-                            repository_name, totalTransformCount, harvest_collection_name, mongo_db, jobname, transform_successful)
-                    except Exception as e:
-                        current_app.logger.error(e)
-                        current_app.logger.error("Mongo error writing harvest record for : " +  setSpec)
+                        #update harvest record
+                        try:
+                            self.write_harvest(job_ticket_id, harvestdate, setSpec, 
+                                repository_name, totalTransformCount, harvest_collection_name, mongo_db, jobname, transform_successful)
+                        except Exception as e:
+                            current_app.logger.error(e)
+                            current_app.logger.error("Mongo error writing harvest record for : " +  setSpec)
 
             if jobname == 'aspace' and jobname == job["jobName"]:
                 harvestdate = datetime.today().strftime('%Y-%m-%d')     
