@@ -1,4 +1,4 @@
-import sys, os, os.path, json, requests, traceback, time
+import sys, os, os.path, json, requests, traceback, time, shutil
 import subprocess
 from tenacity import retry, retry_if_result, wait_random_exponential, retry_if_not_exception_type
 from datetime import datetime
@@ -171,6 +171,10 @@ class JstorTransformer():
                                 current_app.logger.info("done transforming - via2hollis")
                                 for filename in os.listdir(transformDir + opDir):
                                     try:
+                                        if os.path.getsize(transformDir + opDir + "/" + filename) < 100:
+                                            current_app.logger.info("Moving deletes and drops")
+                                            shutil.move(transformDir + opDir + "/" + filename, "/tmp/JSTORFORUM/DELETES/" + filename)
+                                            os.remove(transformDir + opDir + "_hollis/" + filename)
                                         identifier = filename[:-4]
                                         totalTransformCount = totalTransformCount + 1
                                         #write/update record
@@ -214,6 +218,10 @@ class JstorTransformer():
 
                                 for filename in os.listdir(transformDir + opDir):
                                     try:
+                                        if os.path.getsize(transformDir + opDir + "/" + filename) < 100:
+                                            current_app.logger.info("Moving deletes and drops")
+                                            shutil.move(transformDir + opDir + "/" + filename, "/tmp/JSTORFORUM/DELETES/" + filename)
+                                            os.remove(transformDir + opDir + "_hollis/" + filename)                                        
                                         identifier = filename[:-4]
                                         totalTransformCount = totalTransformCount + 1
                                         #write/update record
