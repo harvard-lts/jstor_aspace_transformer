@@ -170,16 +170,17 @@ class JstorTransformer():
                                 subprocess.call(["java", props, "-cp", "lib/DLESETools.jar:lib/saxon9he-xslt-2-support.jar", "org.dlese.dpc.commands.RunXSLTransform", "xslt/via2hollis.xsl", transformDir + opDir, transformDir + opDir + "_hollis"])
                                 current_app.logger.info("done transforming - via2hollis")
                                 for filename in os.listdir(transformDir + opDir):
+                                    status = "update"
                                     try:
                                         if os.path.getsize(transformDir + opDir + "/" + filename) < 100:
                                             current_app.logger.info("Moving deletes and drops")
                                             shutil.move(transformDir + opDir + "/" + filename, "/tmp/JSTORFORUM/DELETES/" + filename)
                                             os.remove(transformDir + opDir + "_hollis/" + filename)
+                                            status = "deleted"
                                         identifier = filename[:-4]
                                         totalTransformCount = totalTransformCount + 1
                                         #write/update record
                                         try:
-                                            status = "update"
                                             success = True
                                             self.write_record(job_ticket_id, identifier, harvestdate, setSpec, repository_name, 
                                                 status, record_collection_name, success, mongo_db)
@@ -217,16 +218,17 @@ class JstorTransformer():
                                 subprocess.call(["java", props, "-cp", "lib/DLESETools.jar:lib/saxon9he-xslt-2-support.jar", "org.dlese.dpc.commands.RunXSLTransform", "xslt/via2hollis.xsl", transformDir + opDir, transformDir + opDir + "_hollis"])
 
                                 for filename in os.listdir(transformDir + opDir):
+                                    status = "update"
                                     try:
                                         if os.path.getsize(transformDir + opDir + "/" + filename) < 100:
                                             current_app.logger.info("Moving deletes and drops")
                                             shutil.move(transformDir + opDir + "/" + filename, "/tmp/JSTORFORUM/DELETES/" + filename)
-                                            os.remove(transformDir + opDir + "_hollis/" + filename)                                        
+                                            os.remove(transformDir + opDir + "_hollis/" + filename)      
+                                            status = "deleted"                                  
                                         identifier = filename[:-4]
                                         totalTransformCount = totalTransformCount + 1
                                         #write/update record
                                         try:
-                                            status = "update"
                                             success = True
                                             self.write_record(job_ticket_id, identifier, harvestdate, setSpec, repository_name, 
                                                 status, record_collection_name, success, mongo_db)
