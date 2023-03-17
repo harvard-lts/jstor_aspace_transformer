@@ -88,7 +88,7 @@ class JstorTransformer():
             current_app.logger.info("running integration test")
             if os.path.exists(os.getenv("JSTOR_DEL_DROP_DIR")):
                 for filename in os.listdir(os.getenv("JSTOR_DEL_DROP_DIR")):
-                    shutil.copy(os.getenv(os.getenv("JSTOR_DEL_DROP_DIR")) + filename,os.getenv("JSTOR_TEST_DIR"))
+                    shutil.copy(os.getenv("JSTOR_DEL_DROP_DIR") + "/" + filename, os.getenv("JSTOR_TEST_DIR"))
             try:
                 self.do_transform('jstorforum', None, None, job_ticket_id, True)
             except Exception as err:
