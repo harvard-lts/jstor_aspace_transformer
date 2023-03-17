@@ -86,6 +86,8 @@ class JstorTransformer():
 
         if (integration_test):
             current_app.logger.info("running integration test")
+            if os.path.exists("/tmp/JSTORFORUM/DELDRPTESTCASES"):
+                shutil.copytree("/tmp/JSTORFORUM/DELDRPTESTCASES","/tmp/JSTORFORUM/harvested/warren_test_oaiwrapped")
             try:
                 self.do_transform('jstorforum', None, None, job_ticket_id, True)
             except Exception as err:
