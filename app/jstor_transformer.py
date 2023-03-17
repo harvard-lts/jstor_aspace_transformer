@@ -1,4 +1,4 @@
-import sys, os, os.path, json, requests, traceback, time, shutil
+import sys, os, os.path, json, requests, traceback, time, shutil, re
 import subprocess
 from tenacity import retry, retry_if_result, wait_random_exponential, retry_if_not_exception_type
 from datetime import datetime
@@ -249,7 +249,7 @@ class JstorTransformer():
                                                         os.remove(transformDir + opDir + "_hollis/" + filename)
                                                         status = "drop"
                                                     else:
-                                                        current_app.logger.info("No useful data, but not a drop or delete: " + filename)                                     
+                                                        current_app.logger.info("No useful data, but not a drop or delete: " + filename)                                    
                                         identifier = filename[:-4]
                                         totalTransformCount = totalTransformCount + 1
                                         #write/update record
