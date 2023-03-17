@@ -125,6 +125,8 @@ class JstorTransformer():
         current_app.logger.info("configfile: " + configfile)
         with open(configfile) as f:
             harvjobsjson = f.read()
+        deleteRecordId = re.compile('.+deleteRecordId.*\>(\w+\d+)\<\/deleteRecordId.+')
+        dropRecordId = re.compile('.+dropRecordId.*\>(\w+\d+)\<\/dropRecordId.+')
         harvestconfig = json.loads(harvjobsjson)
         #current_app.logger.debug("harvestconfig")        
         #current_app.logger.debug(harvestconfig)
@@ -172,11 +174,23 @@ class JstorTransformer():
                                 for filename in os.listdir(transformDir + opDir):
                                     status = "update"
                                     try:
-                                        if os.path.getsize(transformDir + opDir + "/" + filename) < 100:
+                                        if os.path.getsize(transformDir + opDir + "/" + filename) < 100: # must be a delete or drop if this small, else junk
                                             current_app.logger.info("Moving deletes and drops")
-                                            shutil.move(transformDir + opDir + "/" + filename, "/tmp/JSTORFORUM/DELETES/" + filename)
-                                            os.remove(transformDir + opDir + "_hollis/" + filename)
-                                            status = "deleted"
+                                            with open(file) as input:
+                                                for line in input:
+                                                    matchDel = deleteRecordId.match(line)
+                                                    matchDrop = dropRecordId.match(line) 
+                                                    if matchDel:
+                                                        shutil.move(transformDir + opDir + "/" + filename, "/tmp/JSTORFORUM/DELETES/" + filename)
+                                                        os.remove(transformDir + opDir + "_hollis/" + filename)
+                                                        status = "delete"
+                                                    elif matchDrop:
+                                                        shutil.move(transformDir + opDir + "/" + filename, "/tmp/JSTORFORUM/DROPS/" + filename)
+                                                        os.remove(transformDir + opDir + "_hollis/" + filename)
+                                                        status = "drop"
+                                                    else:
+                                                        current_app.logger.info("No useful data, but not a drop or delete: " + filename)    
+                                                                
                                         identifier = filename[:-4]
                                         totalTransformCount = totalTransformCount + 1
                                         #write/update record
@@ -220,11 +234,22 @@ class JstorTransformer():
                                 for filename in os.listdir(transformDir + opDir):
                                     status = "update"
                                     try:
-                                        if os.path.getsize(transformDir + opDir + "/" + filename) < 100:
+                                        if os.path.getsize(transformDir + opDir + "/" + filename) < 100: # must be a delete or drop if this small, else junk
                                             current_app.logger.info("Moving deletes and drops")
-                                            shutil.move(transformDir + opDir + "/" + filename, "/tmp/JSTORFORUM/DELETES/" + filename)
-                                            os.remove(transformDir + opDir + "_hollis/" + filename)      
-                                            status = "deleted"                                  
+                                            with open(file) as input:
+                                                for line in input:
+                                                    matchDel = deleteRecordId.match(line)
+                                                    matchDrop = dropRecordId.match(line) 
+                                                    if matchDel:
+                                                        shutil.move(transformDir + opDir + "/" + filename, "/tmp/JSTORFORUM/DELETES/" + filename)
+                                                        os.remove(transformDir + opDir + "_hollis/" + filename)
+                                                        status = "delete"
+                                                    elif matchDrop:
+                                                        shutil.move(transformDir + opDir + "/" + filename, "/tmp/JSTORFORUM/DROPS/" + filename)
+                                                        os.remove(transformDir + opDir + "_hollis/" + filename)
+                                                        status = "drop"
+                                                    else:
+                                                        current_app.logger.info("No useful data, but not a drop or delete: " + filename)                                     
                                         identifier = filename[:-4]
                                         totalTransformCount = totalTransformCount + 1
                                         #write/update record
