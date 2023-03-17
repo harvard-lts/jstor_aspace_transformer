@@ -176,7 +176,7 @@ class JstorTransformer():
                                     try:
                                         if os.path.getsize(transformDir + opDir + "/" + filename) < 100: # must be a delete or drop if this small, else junk
                                             current_app.logger.info("Moving deletes and drops")
-                                            with open(file) as input:
+                                            with open(transformDir + opDir + "/" + filename) as input:
                                                 for line in input:
                                                     matchDel = deleteRecordId.match(line)
                                                     matchDrop = dropRecordId.match(line) 
@@ -236,7 +236,7 @@ class JstorTransformer():
                                     try:
                                         if os.path.getsize(transformDir + opDir + "/" + filename) < 100: # must be a delete or drop if this small, else junk
                                             current_app.logger.info("Moving deletes and drops")
-                                            with open(file) as input:
+                                            with open(transformDir + opDir + "/" + filename) as input:
                                                 for line in input:
                                                     matchDel = deleteRecordId.match(line)
                                                     matchDrop = dropRecordId.match(line) 
