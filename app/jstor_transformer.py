@@ -363,8 +363,9 @@ class JstorTransformer():
         try:
             if harvest_date == None: #set harvest date to today if harvest date is None
                 harvest_date = datetime.today().strftime('%Y-%m-%d') 
-            harvest_date_obj = datetime.strptime(harvest_date, "%Y-%m-%dT%H:%M")
-            harvest_record = { "id": harvest_id, "harvest_date": harvest_date_obj, 
+            harvest_date_obj = datetime.strptime(harvest_date, "%Y-%m-%d")
+            last_update = datetime.now()
+            harvest_record = { "id": harvest_id, "harvest_date": last_update, 
                 "repository_id": repository_id, "repository_name": repository_name, 
                 "total_transformed_count": total_harvested, "jobname": jobname, "success": success }
             harvest_collection = mongo_db[collection_name]
@@ -385,8 +386,9 @@ class JstorTransformer():
         try:
             if harvest_date == None: #set harvest date to today if harvest date is None
                 harvest_date = datetime.today().strftime('%Y-%m-%d')  
-            harvest_date_obj = datetime.strptime(harvest_date, "%Y-%m-%dT%H:%M")
-            harvest_record = { "harvest_id": harvest_id, "last_update": harvest_date_obj, "record_id": record_id, 
+            harvest_date_obj = datetime.strptime(harvest_date, "%Y-%m-%d")
+            last_update = datetime.now()
+            harvest_record = { "harvest_id": harvest_id, "last_update": last_update, "record_id": record_id, 
                 "repository_id": repository_id, "repository_name": repository_name, 
                 "status": status, "success": success, "error": err_msg }
             record_collection = mongo_db[collection_name]
