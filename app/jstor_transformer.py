@@ -1,4 +1,4 @@
-import sys, os, os.path, json, requests, traceback, time
+import sys, os, os.path, json, requests, traceback, time, shutil, re
 import subprocess
 from tenacity import retry, retry_if_result, wait_random_exponential, retry_if_not_exception_type
 from datetime import datetime
@@ -86,6 +86,9 @@ class JstorTransformer():
 
         if (integration_test):
             current_app.logger.info("running integration test")
+            if os.path.exists(os.getenv("JSTOR_DEL_DROP_DIR")):
+                for filename in os.listdir(os.getenv("JSTOR_DEL_DROP_DIR")):
+                    shutil.copy(os.getenv("JSTOR_DEL_DROP_DIR") + "/" + filename, os.getenv("JSTOR_TEST_DIR"))
             try:
                 self.do_transform('jstorforum', None, None, job_ticket_id, True)
             except Exception as err:
@@ -125,6 +128,8 @@ class JstorTransformer():
         current_app.logger.info("configfile: " + configfile)
         with open(configfile) as f:
             harvjobsjson = f.read()
+        deleteRecordId = re.compile('.+deleteRecordId.*\>(\w+\d+)\<\/deleteRecordId.+')
+        dropRecordId = re.compile('.+dropRecordId.*\>(\w+\d+)\<\/dropRecordId.+')
         harvestconfig = json.loads(harvjobsjson)
         #current_app.logger.debug("harvestconfig")        
         #current_app.logger.debug(harvestconfig)
@@ -170,12 +175,29 @@ class JstorTransformer():
                                 subprocess.call(["java", props, "-cp", "lib/DLESETools.jar:lib/saxon9he-xslt-2-support.jar", "org.dlese.dpc.commands.RunXSLTransform", "xslt/via2hollis.xsl", transformDir + opDir, transformDir + opDir + "_hollis"])
                                 current_app.logger.info("done transforming - via2hollis")
                                 for filename in os.listdir(transformDir + opDir):
+                                    status = "update"
                                     try:
+                                        if os.path.getsize(transformDir + opDir + "/" + filename) < 100: # must be a delete or drop if this small, else junk
+                                            current_app.logger.info("Moving deletes and drops")
+                                            with open(transformDir + opDir + "/" + filename) as input:
+                                                for line in input:
+                                                    matchDel = deleteRecordId.match(line)
+                                                    matchDrop = dropRecordId.match(line) 
+                                                    if matchDel:
+                                                        shutil.move(transformDir + opDir + "/" + filename, "/tmp/JSTORFORUM/DELETES/" + filename)
+                                                        os.remove(transformDir + opDir + "_hollis/" + filename)
+                                                        status = "delete"
+                                                    elif matchDrop:
+                                                        shutil.move(transformDir + opDir + "/" + filename, "/tmp/JSTORFORUM/DROPS/" + filename)
+                                                        os.remove(transformDir + opDir + "_hollis/" + filename)
+                                                        status = "drop"
+                                                    else:
+                                                        current_app.logger.info("No useful data, but not a drop or delete: " + filename)    
+                                                                
                                         identifier = filename[:-4]
                                         totalTransformCount = totalTransformCount + 1
                                         #write/update record
                                         try:
-                                            status = "update"
                                             success = True
                                             self.write_record(job_ticket_id, identifier, harvestdate, setSpec, repository_name, 
                                                 status, record_collection_name, success, mongo_db)
@@ -213,12 +235,28 @@ class JstorTransformer():
                                 subprocess.call(["java", props, "-cp", "lib/DLESETools.jar:lib/saxon9he-xslt-2-support.jar", "org.dlese.dpc.commands.RunXSLTransform", "xslt/via2hollis.xsl", transformDir + opDir, transformDir + opDir + "_hollis"])
 
                                 for filename in os.listdir(transformDir + opDir):
+                                    status = "update"
                                     try:
+                                        if os.path.getsize(transformDir + opDir + "/" + filename) < 100: # must be a delete or drop if this small, else junk
+                                            current_app.logger.info("Moving deletes and drops")
+                                            with open(transformDir + opDir + "/" + filename) as input:
+                                                for line in input:
+                                                    matchDel = deleteRecordId.match(line)
+                                                    matchDrop = dropRecordId.match(line) 
+                                                    if matchDel:
+                                                        shutil.move(transformDir + opDir + "/" + filename, "/tmp/JSTORFORUM/DELETES/" + filename)
+                                                        os.remove(transformDir + opDir + "_hollis/" + filename)
+                                                        status = "delete"
+                                                    elif matchDrop:
+                                                        shutil.move(transformDir + opDir + "/" + filename, "/tmp/JSTORFORUM/DROPS/" + filename)
+                                                        os.remove(transformDir + opDir + "_hollis/" + filename)
+                                                        status = "drop"
+                                                    else:
+                                                        current_app.logger.info("No useful data, but not a drop or delete: " + filename)                                    
                                         identifier = filename[:-4]
                                         totalTransformCount = totalTransformCount + 1
                                         #write/update record
                                         try:
-                                            status = "update"
                                             success = True
                                             self.write_record(job_ticket_id, identifier, harvestdate, setSpec, repository_name, 
                                                 status, record_collection_name, success, mongo_db)
