@@ -171,9 +171,15 @@ class JstorTransformer():
                                 subprocess.call(["java", props, "-cp", "lib/DLESETools.jar:lib/saxon9he-xslt-2-support.jar", "org.dlese.dpc.commands.RunXSLTransform", "xslt/strip_oai_ssio.xsl", harvestDir + opDir + "_oaiwrapped/", harvestDir + opDir])
                                 current_app.logger.info("begin transforming - ssio2via")
                                 subprocess.call(["java", props, "-cp", "lib/DLESETools.jar:lib/saxon9he-xslt-2-support.jar", "org.dlese.dpc.commands.RunXSLTransform", "xslt/" + ssio2viaXsl, harvestDir + opDir, transformDir + opDir])
+                                current_app.logger.info("checking for group records")
+                                if os.path.exists(os.getenv("JSTOR_LARGERCONTEXT_DIR")):
+                                    if len(fnmatch.filter(os.listdir(os.getenv("JSTOR_LARGERCONTEXT_DIR")), '*.xml')) > 0:
+                                        for filename in os.listdir(os.getenv("JSTOR_LARGERCONTEXT_DIR")):
+                                            shutil.move(os.getenv("JSTOR_LARGERCONTEXT_DIR") + "/" + filename, transformDir + opDir + "/" + filename)
                                 current_app.logger.info("begin transforming - via2hollis")
                                 subprocess.call(["java", props, "-cp", "lib/DLESETools.jar:lib/saxon9he-xslt-2-support.jar", "org.dlese.dpc.commands.RunXSLTransform", "xslt/via2hollis.xsl", transformDir + opDir, transformDir + opDir + "_hollis"])
-                                current_app.logger.info("done transforming - via2hollis")
+                                current_app.logger.info("done transforming for " + setSpec)
+
                                 for filename in os.listdir(transformDir + opDir):
                                     status = "update"
                                     try:
@@ -184,11 +190,11 @@ class JstorTransformer():
                                                     matchDel = deleteRecordId.match(line)
                                                     matchDrop = dropRecordId.match(line) 
                                                     if matchDel:
-                                                        shutil.move(transformDir + opDir + "/" + filename, "/tmp/JSTORFORUM/DELETES/" + filename)
+                                                        shutil.move(transformDir + opDir + "/" + filename, os.getenv("JSTOR_DELETES_DIR") + "/" + filename)
                                                         os.remove(transformDir + opDir + "_hollis/" + filename)
                                                         status = "delete"
                                                     elif matchDrop:
-                                                        shutil.move(transformDir + opDir + "/" + filename, "/tmp/JSTORFORUM/DROPS/" + filename)
+                                                        shutil.move(transformDir + opDir + "/" + filename, os.getenv("JSTOR_DROPS_DIR") + "/" + filename)
                                                         os.remove(transformDir + opDir + "_hollis/" + filename)
                                                         status = "drop"
                                                     else:
@@ -218,6 +224,8 @@ class JstorTransformer():
                                         except Exception as e:
                                             current_app.logger.error(e)
                                             current_app.logger.error("Mongo error writing " + setSpec + " record: " +  identifier)
+                        else:
+                            current_app.logger.info("no records to transform for " + setSpec)                
                         #update harvest record
                         try:
                             self.write_harvest(job_ticket_id, harvestdate, setSpec, 
@@ -230,9 +238,18 @@ class JstorTransformer():
                         current_app.logger.info("begin transforming for " + setSpec + " only")
                         if os.path.exists(harvestDir + opDir + "_oaiwrapped"):
                             if len(fnmatch.filter(os.listdir(harvestDir + opDir + "_oaiwrapped"), '*.xml')) > 0:
+                                current_app.logger.info("begin transforming - strip oai")
                                 subprocess.call(["java", props, "-cp", "lib/DLESETools.jar:lib/saxon9he-xslt-2-support.jar", "org.dlese.dpc.commands.RunXSLTransform", "xslt/strip_oai_ssio.xsl", harvestDir + opDir + "_oaiwrapped/", harvestDir + opDir])
+                                current_app.logger.info("begin transforming - ssio2via")
                                 subprocess.call(["java", props, "-cp", "lib/DLESETools.jar:lib/saxon9he-xslt-2-support.jar", "org.dlese.dpc.commands.RunXSLTransform", "xslt/" + ssio2viaXsl, harvestDir + opDir, transformDir + opDir])
+                                current_app.logger.info("checking for group records")
+                                if os.path.exists(os.getenv("JSTOR_LARGERCONTEXT_DIR")):
+                                    if len(fnmatch.filter(os.listdir(os.getenv("JSTOR_LARGERCONTEXT_DIR")), '*.xml')) > 0:
+                                        for filename in os.listdir(os.getenv("JSTOR_LARGERCONTEXT_DIR")):
+                                            shutil.move(os.getenv("JSTOR_LARGERCONTEXT_DIR") + "/" + filename, transformDir + opDir + "/" + filename)
+                                current_app.logger.info("begin transforming - via2hollis")
                                 subprocess.call(["java", props, "-cp", "lib/DLESETools.jar:lib/saxon9he-xslt-2-support.jar", "org.dlese.dpc.commands.RunXSLTransform", "xslt/via2hollis.xsl", transformDir + opDir, transformDir + opDir + "_hollis"])
+                                current_app.logger.info("done transforming for " + setSpec + " only")
 
                                 for filename in os.listdir(transformDir + opDir):
                                     status = "update"
@@ -244,11 +261,11 @@ class JstorTransformer():
                                                     matchDel = deleteRecordId.match(line)
                                                     matchDrop = dropRecordId.match(line) 
                                                     if matchDel:
-                                                        shutil.move(transformDir + opDir + "/" + filename, "/tmp/JSTORFORUM/DELETES/" + filename)
+                                                        shutil.move(transformDir + opDir + "/" + filename, os.getenv("JSTOR_DELETES_DIR") + "/" + filename)
                                                         os.remove(transformDir + opDir + "_hollis/" + filename)
                                                         status = "delete"
                                                     elif matchDrop:
-                                                        shutil.move(transformDir + opDir + "/" + filename, "/tmp/JSTORFORUM/DROPS/" + filename)
+                                                        shutil.move(transformDir + opDir + "/" + filename, os.getenv("JSTOR_DROPS_DIR") + "/" + filename)
                                                         os.remove(transformDir + opDir + "_hollis/" + filename)
                                                         status = "drop"
                                                     else:
@@ -277,6 +294,8 @@ class JstorTransformer():
                                         except Exception as e:
                                             current_app.logger.error(e)
                                             current_app.logger.error("Mongo error writing " + setSpec + " record: " +  identifier)
+                        else:
+                            current_app.logger.info("no records to transform for " + setSpec) 
                         #update harvest record
                         try:
                             self.write_harvest(job_ticket_id, harvestdate, setSpec, 
@@ -327,7 +346,7 @@ class JstorTransformer():
 
                 #update harvest record
                 try:
-                    self.write_harvest(job_ticket_id, harvestdate, "0000", 
+                    self.write_harvest(job_ticket_id, harvestdate, "0000",
                         "aspace", totalTransformCount, harvest_collection_name, mongo_db, jobname, transform_successful)
                 except Exception as e:
                     current_app.logger.error(e)
@@ -345,7 +364,8 @@ class JstorTransformer():
             if harvest_date == None: #set harvest date to today if harvest date is None
                 harvest_date = datetime.today().strftime('%Y-%m-%d') 
             harvest_date_obj = datetime.strptime(harvest_date, "%Y-%m-%d")
-            harvest_record = { "id": harvest_id, "harvest_date": harvest_date_obj, 
+            last_update = datetime.now()
+            harvest_record = { "id": harvest_id, "last_update": last_update, "harvest_date": harvest_date_obj, 
                 "repository_id": repository_id, "repository_name": repository_name, 
                 "total_transformed_count": total_harvested, "jobname": jobname, "success": success }
             harvest_collection = mongo_db[collection_name]
@@ -367,7 +387,8 @@ class JstorTransformer():
             if harvest_date == None: #set harvest date to today if harvest date is None
                 harvest_date = datetime.today().strftime('%Y-%m-%d')  
             harvest_date_obj = datetime.strptime(harvest_date, "%Y-%m-%d")
-            harvest_record = { "harvest_id": harvest_id, "last_update": harvest_date_obj, "record_id": record_id, 
+            last_update = datetime.now()
+            harvest_record = { "harvest_id": harvest_id, "last_update": last_update, "harvest_date": harvest_date_obj, "record_id": record_id, 
                 "repository_id": repository_id, "repository_name": repository_name, 
                 "status": status, "success": success, "error": err_msg }
             record_collection = mongo_db[collection_name]
