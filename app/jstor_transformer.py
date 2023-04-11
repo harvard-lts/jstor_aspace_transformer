@@ -181,7 +181,7 @@ class JstorTransformer():
                                 current_app.logger.info("done transforming for " + setSpec)
 
                                 for filename in os.listdir(transformDir + opDir):
-                                    status = "update"
+                                    status = "add_update"
                                     try:
                                         if os.path.getsize(transformDir + opDir + "/" + filename) < 100: # must be a delete or drop if this small, else junk
                                             current_app.logger.info("Moving deletes and drops")
@@ -216,7 +216,7 @@ class JstorTransformer():
                                         current_app.logger.error(err)
                                         current_app.logger.error("VIA/SSIO transform error for id " + identifier + " : {}", err)
                                         #log error to mongo
-                                        status = "update"
+                                        status = "add_update"
                                         success = False
                                         try:
                                             self.write_record(job_ticket_id, identifier, harvestdate, setSpec, repository_name,
@@ -252,7 +252,7 @@ class JstorTransformer():
                                 current_app.logger.info("done transforming for " + setSpec + " only")
 
                                 for filename in os.listdir(transformDir + opDir):
-                                    status = "update"
+                                    status = "add_update"
                                     try:
                                         if os.path.getsize(transformDir + opDir + "/" + filename) < 100: # must be a delete or drop if this small, else junk
                                             current_app.logger.info("Moving deletes and drops")
@@ -286,7 +286,7 @@ class JstorTransformer():
                                         current_app.logger.error(err)
                                         current_app.logger.error("VIA/SSIO transform error for id " + identifier + " : {}", err)
                                         #log error to mongo
-                                        status = "update"
+                                        status = "add_update"
                                         success = False
                                         try:
                                             self.write_record(job_ticket_id, identifier, harvestdate, setSpec, repository_name,
@@ -321,7 +321,7 @@ class JstorTransformer():
                         totalTransformCount = totalTransformCount + 1
                         #write/update record
                         try:
-                            status = "update"
+                            status = "add_update"
                             success = True
                             self.write_record(job_ticket_id, identifier, harvestdate, setSpec, repository_name, 
                                 status, record_collection_name, success, mongo_db)
@@ -334,7 +334,7 @@ class JstorTransformer():
                         current_app.logger.error(err)
                         current_app.logger.error("VIA/SSIO transform error for id " + identifier + " : {}", err)
                         #log error to mongo
-                        status = "update"
+                        status = "add_update"
                         success = False
                         try:
                             self.write_record(job_ticket_id, identifier, harvestdate, setSpec, repository_name,
