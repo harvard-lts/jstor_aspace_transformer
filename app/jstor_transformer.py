@@ -159,7 +159,8 @@ class JstorTransformer():
                 for set in job["harvests"]["sets"]:
                     transform_successful = True 
                     setSpec = "{}".format(set["setSpec"])
-                    repository_name = self.repositories[setSpec]
+                    repository_name = self.repositories[setSpec]["displayname"]
+                    repo_short_name = self.repositories[setSpec]["shortname"]
                     opDir = set["opDir"]
                     totalTransformCount = 0
                     harvestdate = datetime.today().strftime('%Y-%m-%d') 
@@ -181,7 +182,7 @@ class JstorTransformer():
                                 current_app.logger.info("done transforming for " + setSpec)
 
                                 for filename in os.listdir(transformDir + opDir):
-                                    status = "update"
+                                    status = "add_update"
                                     try:
                                         if os.path.getsize(transformDir + opDir + "/" + filename) < 100: # must be a delete or drop if this small, else junk
                                             current_app.logger.info("Moving deletes and drops")
@@ -205,7 +206,7 @@ class JstorTransformer():
                                         #write/update record
                                         try:
                                             success = True
-                                            self.write_record(job_ticket_id, identifier, harvestdate, setSpec, repository_name, 
+                                            self.write_record(job_ticket_id, identifier, harvestdate, setSpec, repository_name, repo_short_name,
                                                 status, record_collection_name, success, mongo_db)
                                         except Exception as e:
                                             current_app.logger.error(e)
@@ -216,10 +217,10 @@ class JstorTransformer():
                                         current_app.logger.error(err)
                                         current_app.logger.error("VIA/SSIO transform error for id " + identifier + " : {}", err)
                                         #log error to mongo
-                                        status = "update"
+                                        status = "add_update"
                                         success = False
                                         try:
-                                            self.write_record(job_ticket_id, identifier, harvestdate, setSpec, repository_name,
+                                            self.write_record(job_ticket_id, identifier, harvestdate, setSpec, repository_name, repo_short_name, 
                                                 status, record_collection_name, success, mongo_db, err)
                                         except Exception as e:
                                             current_app.logger.error(e)
@@ -229,7 +230,7 @@ class JstorTransformer():
                         #update harvest record
                         try:
                             self.write_harvest(job_ticket_id, harvestdate, setSpec, 
-                                repository_name, totalTransformCount, harvest_collection_name, mongo_db, jobname, transform_successful)
+                                repository_name, repo_short_name, totalTransformCount, harvest_collection_name, mongo_db, jobname, transform_successful)
                         except Exception as e:
                             current_app.logger.error(e)
                             current_app.logger.error("Mongo error writing harvest record for : " +  setSpec)
@@ -252,7 +253,7 @@ class JstorTransformer():
                                 current_app.logger.info("done transforming for " + setSpec + " only")
 
                                 for filename in os.listdir(transformDir + opDir):
-                                    status = "update"
+                                    status = "add_update"
                                     try:
                                         if os.path.getsize(transformDir + opDir + "/" + filename) < 100: # must be a delete or drop if this small, else junk
                                             current_app.logger.info("Moving deletes and drops")
@@ -275,7 +276,7 @@ class JstorTransformer():
                                         #write/update record
                                         try:
                                             success = True
-                                            self.write_record(job_ticket_id, identifier, harvestdate, setSpec, repository_name, 
+                                            self.write_record(job_ticket_id, identifier, harvestdate, setSpec, repository_name, repo_short_name, 
                                                 status, record_collection_name, success, mongo_db)
                                         except Exception as e:
                                             current_app.logger.error(e)
@@ -286,10 +287,10 @@ class JstorTransformer():
                                         current_app.logger.error(err)
                                         current_app.logger.error("VIA/SSIO transform error for id " + identifier + " : {}", err)
                                         #log error to mongo
-                                        status = "update"
+                                        status = "add_update"
                                         success = False
                                         try:
-                                            self.write_record(job_ticket_id, identifier, harvestdate, setSpec, repository_name,
+                                            self.write_record(job_ticket_id, identifier, harvestdate, setSpec, repository_name, repo_short_name, 
                                                 status, record_collection_name, success, mongo_db, err)
                                         except Exception as e:
                                             current_app.logger.error(e)
@@ -299,7 +300,7 @@ class JstorTransformer():
                         #update harvest record
                         try:
                             self.write_harvest(job_ticket_id, harvestdate, setSpec, 
-                                repository_name, totalTransformCount, harvest_collection_name, mongo_db, jobname, transform_successful)
+                                repository_name, repo_short_name, totalTransformCount, harvest_collection_name, mongo_db, jobname, transform_successful)
                         except Exception as e:
                             current_app.logger.error(e)
                             current_app.logger.error("Mongo error writing harvest record for : " +  setSpec)
@@ -321,9 +322,9 @@ class JstorTransformer():
                         totalTransformCount = totalTransformCount + 1
                         #write/update record
                         try:
-                            status = "update"
+                            status = "add_update"
                             success = True
-                            self.write_record(job_ticket_id, identifier, harvestdate, setSpec, repository_name, 
+                            self.write_record(job_ticket_id, identifier, harvestdate, setSpec, repository_name, repo_short_name, 
                                 status, record_collection_name, success, mongo_db)
                         except Exception as e:
                             current_app.logger.error(e)
@@ -334,10 +335,10 @@ class JstorTransformer():
                         current_app.logger.error(err)
                         current_app.logger.error("VIA/SSIO transform error for id " + identifier + " : {}", err)
                         #log error to mongo
-                        status = "update"
+                        status = "add_update"
                         success = False
                         try:
-                            self.write_record(job_ticket_id, identifier, harvestdate, setSpec, repository_name,
+                            self.write_record(job_ticket_id, identifier, harvestdate, setSpec, repository_name, repo_short_name, 
                                 status, record_collection_name, success, mongo_db, err)
                         except Exception as e:
                             current_app.logger.error(e)
@@ -347,7 +348,7 @@ class JstorTransformer():
                 #update harvest record
                 try:
                     self.write_harvest(job_ticket_id, harvestdate, "0000",
-                        "aspace", totalTransformCount, harvest_collection_name, mongo_db, jobname, transform_successful)
+                        "aspace", "ASP", totalTransformCount, harvest_collection_name, mongo_db, jobname, transform_successful)
                 except Exception as e:
                     current_app.logger.error(e)
                     current_app.logger.error("Mongo error writing harvest record for: aspace")
@@ -355,7 +356,7 @@ class JstorTransformer():
         if (mongo_client is not None):            
             mongo_client.close()
 
-    def write_harvest(self, harvest_id, harvest_date, repository_id, repository_name,
+    def write_harvest(self, harvest_id, harvest_date, repository_id, repository_name, repo_short_name, 
             total_harvested, collection_name, mongo_db, jobname, success):
         if mongo_db == None:
             current_app.logger.info("Error: mongo db not instantiated")
@@ -366,7 +367,7 @@ class JstorTransformer():
             harvest_date_obj = datetime.strptime(harvest_date, "%Y-%m-%d")
             last_update = datetime.now()
             harvest_record = { "id": harvest_id, "last_update": last_update, "harvest_date": harvest_date_obj, 
-                "repository_id": repository_id, "repository_name": repository_name, 
+                "repository_id": repository_id, "repository_name": repository_name, "repo_short_name": repo_short_name, 
                 "total_transformed_count": total_harvested, "jobname": jobname, "success": success }
             harvest_collection = mongo_db[collection_name]
             harvest_collection.insert_one(harvest_record)
@@ -375,7 +376,7 @@ class JstorTransformer():
             current_app.logger.info("Error: unable to connect to mongodb, {}", err)
         return
 
-    def write_record(self, harvest_id, record_id, harvest_date, repository_id, repository_name,
+    def write_record(self, harvest_id, record_id, harvest_date, repository_id, repository_name, repo_short_name, 
             status, collection_name, success, mongo_db, error=None):
         err_msg = ""
         if error != None:
@@ -389,7 +390,7 @@ class JstorTransformer():
             harvest_date_obj = datetime.strptime(harvest_date, "%Y-%m-%d")
             last_update = datetime.now()
             harvest_record = { "harvest_id": harvest_id, "last_update": last_update, "harvest_date": harvest_date_obj, "record_id": record_id, 
-                "repository_id": repository_id, "repository_name": repository_name, 
+                "repository_id": repository_id, "repository_name": repository_name, "repo_short_name": repo_short_name, 
                 "status": status, "success": success, "error": err_msg }
             record_collection = mongo_db[collection_name]
             record_collection.insert_one(harvest_record)
@@ -414,7 +415,7 @@ class JstorTransformer():
             repos = repository_collection.find({})
             for r in repos:
                 k = r["_id"]
-                v = r["displayname"]
+                v = { "displayname": r["displayname"], "shortname": r["shortname"] }
                 repositories[k] = v 
             mongo_client.close()
             return repositories
