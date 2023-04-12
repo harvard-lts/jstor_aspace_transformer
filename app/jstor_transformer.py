@@ -348,7 +348,7 @@ class JstorTransformer():
                 #update harvest record
                 try:
                     self.write_harvest(job_ticket_id, harvestdate, "0000",
-                        "aspace", totalTransformCount, harvest_collection_name, mongo_db, jobname, transform_successful)
+                        "aspace", "ASP", totalTransformCount, harvest_collection_name, mongo_db, jobname, transform_successful)
                 except Exception as e:
                     current_app.logger.error(e)
                     current_app.logger.error("Mongo error writing harvest record for: aspace")
@@ -356,7 +356,7 @@ class JstorTransformer():
         if (mongo_client is not None):            
             mongo_client.close()
 
-    def write_harvest(self, harvest_id, harvest_date, repository_id, repository_name,
+    def write_harvest(self, harvest_id, harvest_date, repository_id, repository_name, repo_short_name, 
             total_harvested, collection_name, mongo_db, jobname, success):
         if mongo_db == None:
             current_app.logger.info("Error: mongo db not instantiated")
