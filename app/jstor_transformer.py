@@ -191,7 +191,7 @@ class JstorTransformer():
                                                     matchDel = deleteRecordId.match(line)
                                                     matchDrop = dropRecordId.match(line) 
                                                     if matchDel:
-                                                        shutil.move(transformDir + opDir + "/" + filename, os.getenv("JSTOR_DELETES_DIR") + "/" + filename)
+                                                        shutil.move(transformDir + opDir + "/" + filename, os.getenv("JSTOR_DELETES_DIR") + "/" + setSpec + "_" + filename)
                                                         os.remove(transformDir + opDir + "_hollis/" + filename)
                                                         status = "delete"
                                                     elif matchDrop:
@@ -247,7 +247,7 @@ class JstorTransformer():
                                 if os.path.exists(os.getenv("JSTOR_LARGERCONTEXT_DIR")):
                                     if len(fnmatch.filter(os.listdir(os.getenv("JSTOR_LARGERCONTEXT_DIR")), '*.xml')) > 0:
                                         for filename in os.listdir(os.getenv("JSTOR_LARGERCONTEXT_DIR")):
-                                            shutil.move(os.getenv("JSTOR_LARGERCONTEXT_DIR") + "/" + filename, transformDir + opDir + "/" + filename)
+                                            shutil.move(os.getenv("JSTOR_LARGERCONTEXT_DIR") + "/" + filename, transformDir + opDir + "/"  + setSpec + "_" + filename)
                                 current_app.logger.info("begin transforming - via2hollis")
                                 subprocess.call(["java", props, "-cp", "lib/DLESETools.jar:lib/saxon9he-xslt-2-support.jar", "org.dlese.dpc.commands.RunXSLTransform", "xslt/via2hollis.xsl", transformDir + opDir, transformDir + opDir + "_hollis"])
                                 current_app.logger.info("done transforming for " + setSpec + " only")
