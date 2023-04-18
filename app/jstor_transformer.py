@@ -72,7 +72,7 @@ class JstorTransformer():
             try:
                 self.do_transform('jstorforum', harvestset, harvesttype, job_ticket_id)
             except Exception as err:
-                current_app.logger.error("Error: unable to transform jstorforum records, {}", err)
+                current_app.logger.error("Error: unable to transform jstorforum records", exc_info=True)
 
         aspace = False
         if 'aspace' in request_json:
@@ -82,7 +82,7 @@ class JstorTransformer():
             try:
                 self.do_transform('aspace', None, None, job_ticket_id)
             except Exception as err:
-                current_app.logger.error("Error: unable to transform aspace records, {}", err)
+                current_app.logger.error("Error: unable to transform aspace records", exc_info=True)
 
         if (integration_test):
             current_app.logger.info("running integration test")
@@ -92,11 +92,11 @@ class JstorTransformer():
             try:
                 self.do_transform('jstorforum', None, None, job_ticket_id, True)
             except Exception as err:
-                current_app.logger.error("Error: unable to transform jstorforum records in itest, {}", err)
+                current_app.logger.error("Error: unable to transform jstorforum records in itest", exc_info=True)
             try:
                 self.do_transform('aspace', None, None, job_ticket_id, True)
             except Exception as err:
-                current_app.logger.error("Error: unable to transform aspace records in itest, {}", err)
+                current_app.logger.error("Error: unable to transform aspace records in itest", exc_info=True)
 
             try:
                 mongo_url = os.environ.get('MONGO_URL')
@@ -111,7 +111,7 @@ class JstorTransformer():
                 integration_collection.insert_one(test_record)
                 mongo_client.close()
             except Exception as err:
-                current_app.logger.error("Error: unable to connect to mongodb, {}", err)
+                current_app.logger.error("Error: unable to connect to mongodb", exc_info=True)
         
         result['success'] = True
         # altered line so we can see request json coming through properly
@@ -145,7 +145,7 @@ class JstorTransformer():
             mongo_client = MongoClient(mongo_url, maxPoolSize=1)
             mongo_db = mongo_client[mongo_dbname]
         except Exception as err:
-            current_app.logger.error("Error: unable to connect to mongodb, {}", err)
+            current_app.logger.error("Error: unable to connect to mongodb", exc_info=True)
 
         harvestDir = os.getenv("jstor_harvest_dir") + "/"         
         transformDir = os.getenv("jstor_transform_dir") + "/" 
@@ -209,13 +209,11 @@ class JstorTransformer():
                                             self.write_record(job_ticket_id, identifier, harvestdate, setSpec, repository_name, repo_short_name,
                                                 status, record_collection_name, success, mongo_db)
                                         except Exception as e:
-                                            current_app.logger.error(e)
-                                            current_app.logger.error("Mongo error writing " + setSpec + " record: " +  identifier)
+                                            current_app.logger.error("Mongo error writing " + setSpec + " record: " +  identifier, exc_info=True)
                                             transform_successful = False
                                     except Exception as err:
                                         transform_successful = False
-                                        current_app.logger.error(err)
-                                        current_app.logger.error("VIA/SSIO transform error for id " + identifier + " : {}", err)
+                                        current_app.logger.error("VIA/SSIO transform error for id " + identifier, exc_info=True)
                                         #log error to mongo
                                         status = "add_update"
                                         success = False
@@ -223,8 +221,7 @@ class JstorTransformer():
                                             self.write_record(job_ticket_id, identifier, harvestdate, setSpec, repository_name, repo_short_name, 
                                                 status, record_collection_name, success, mongo_db, err)
                                         except Exception as e:
-                                            current_app.logger.error(e)
-                                            current_app.logger.error("Mongo error writing " + setSpec + " record: " +  identifier)
+                                            current_app.logger.error("Mongo error writing " + setSpec + " record: " +  identifier, exc_info=True)
                         else:
                             current_app.logger.info("no records to transform for " + setSpec)                
                         #update harvest record
@@ -232,8 +229,7 @@ class JstorTransformer():
                             self.write_harvest(job_ticket_id, harvestdate, setSpec, 
                                 repository_name, repo_short_name, totalTransformCount, harvest_collection_name, mongo_db, jobname, transform_successful)
                         except Exception as e:
-                            current_app.logger.error(e)
-                            current_app.logger.error("Mongo error writing harvest record for : " +  setSpec)
+                            current_app.logger.error("Mongo error writing harvest record for : " +  setSpec, exc_info=True)
                             
                     elif  setSpec == harvestset:
                         current_app.logger.info("begin transforming for " + setSpec + " only")
@@ -279,13 +275,11 @@ class JstorTransformer():
                                             self.write_record(job_ticket_id, identifier, harvestdate, setSpec, repository_name, repo_short_name, 
                                                 status, record_collection_name, success, mongo_db)
                                         except Exception as e:
-                                            current_app.logger.error(e)
-                                            current_app.logger.error("Mongo error writing " + setSpec + " record: " +  identifier)
+                                            current_app.logger.error("Mongo error writing " + setSpec + " record: " +  identifier, exc_info=True)
                                             transform_successful = False
                                     except Exception as err:
                                         transform_successful = False
-                                        current_app.logger.error(err)
-                                        current_app.logger.error("VIA/SSIO transform error for id " + identifier + " : {}", err)
+                                        current_app.logger.error("VIA/SSIO transform error for id " + identifier, exc_info=True)
                                         #log error to mongo
                                         status = "add_update"
                                         success = False
@@ -294,7 +288,7 @@ class JstorTransformer():
                                                 status, record_collection_name, success, mongo_db, err)
                                         except Exception as e:
                                             current_app.logger.error(e)
-                                            current_app.logger.error("Mongo error writing " + setSpec + " record: " +  identifier)
+                                            current_app.logger.error("Mongo error writing " + setSpec + " record: " +  identifier, exc_info=True)
                         else:
                             current_app.logger.info("no records to transform for " + setSpec) 
                         #update harvest record
@@ -302,8 +296,7 @@ class JstorTransformer():
                             self.write_harvest(job_ticket_id, harvestdate, setSpec, 
                                 repository_name, repo_short_name, totalTransformCount, harvest_collection_name, mongo_db, jobname, transform_successful)
                         except Exception as e:
-                            current_app.logger.error(e)
-                            current_app.logger.error("Mongo error writing harvest record for : " +  setSpec)
+                            current_app.logger.error("Mongo error writing harvest record for : " +  setSpec, exc_info=True)
 
             if jobname == 'aspace' and jobname == job["jobName"]:
                 harvestdate = datetime.today().strftime('%Y-%m-%d')     
@@ -327,13 +320,11 @@ class JstorTransformer():
                             self.write_record(job_ticket_id, identifier, harvestdate, setSpec, repository_name, repo_short_name, 
                                 status, record_collection_name, success, mongo_db)
                         except Exception as e:
-                            current_app.logger.error(e)
-                            current_app.logger.error("Mongo error writing " + setSpec + " record: " +  identifier)
+                            current_app.logger.error("Mongo error writing " + setSpec + " record: " +  identifier, exc_info=True)
                             transform_successful = False
                     except Exception as err:
                         transform_successful = False
-                        current_app.logger.error(err)
-                        current_app.logger.error("VIA/SSIO transform error for id " + identifier + " : {}", err)
+                        current_app.logger.error("VIA/SSIO transform error for id " + identifier, exc_info=True)
                         #log error to mongo
                         status = "add_update"
                         success = False
@@ -341,8 +332,7 @@ class JstorTransformer():
                             self.write_record(job_ticket_id, identifier, harvestdate, setSpec, repository_name, repo_short_name, 
                                 status, record_collection_name, success, mongo_db, err)
                         except Exception as e:
-                            current_app.logger.error(e)
-                            current_app.logger.error("Mongo error writing " + setSpec + " record: " +  identifier)
+                            current_app.logger.error("Mongo error writing " + setSpec + " record: " +  identifier, exc_info=True)
                     #update harvest record
 
                 #update harvest record
@@ -350,8 +340,7 @@ class JstorTransformer():
                     self.write_harvest(job_ticket_id, harvestdate, "0000",
                         "aspace", "ASP", totalTransformCount, harvest_collection_name, mongo_db, jobname, transform_successful)
                 except Exception as e:
-                    current_app.logger.error(e)
-                    current_app.logger.error("Mongo error writing harvest record for: aspace")
+                    current_app.logger.error("Mongo error writing harvest record for: aspace", exc_info=True)
 
         if (mongo_client is not None):            
             mongo_client.close()
@@ -373,7 +362,7 @@ class JstorTransformer():
             harvest_collection.insert_one(harvest_record)
             current_app.logger.info(repository_name + " harvest for " + harvest_date + " written to mongo ")
         except Exception as err:
-            current_app.logger.info("Error: unable to connect to mongodb, {}", err)
+            current_app.logger.info("Error: unable to connect to mongodb", exc_info=True)
         return
 
     def write_record(self, harvest_id, record_id, harvest_date, repository_id, repository_name, repo_short_name, 
@@ -397,7 +386,7 @@ class JstorTransformer():
             #record_collection.update_one(query, harvest_record, upsert=True)
             current_app.logger.info("record " + str(record_id) + " of repo " + str(repository_id) + " written to mongo ")
         except Exception as err:
-            current_app.logger.info("Error: unable to connect to mongodb, {}", err)
+            current_app.logger.info("Error: unable to connect to mongodb", exc_info=True)
         return
 
     def load_repositories(self):
@@ -420,7 +409,7 @@ class JstorTransformer():
             mongo_client.close()
             return repositories
         except Exception as err:
-            current_app.logger.info("Error: unable to load repository table from mongodb, {}", err)
+            current_app.logger.info("Error: unable to load repository table from mongodb", exc_info=True)
             return repositories
 
     #add more sophisticated healthchecking later
