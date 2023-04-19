@@ -190,9 +190,34 @@
             <xsl:text>hvd_</xsl:text>
             <xsl:value-of select="name()"/>
         </xsl:variable>
-        <xsl:element name="{$elemName}">
-            <xsl:apply-templates select="@* | node()"/>
-        </xsl:element>
+        <xsl:choose>
+            <xsl:when test="$elemName = 'hvd_classification'">
+                <xsl:choose>
+                    <xsl:when test="./number = //viaRecord/work/repository/number"/>
+                    <xsl:otherwise>
+                        <xsl:element name="{$elemName}">
+                            <xsl:apply-templates select="@* | node()"/>
+                        </xsl:element>
+                    </xsl:otherwise>
+                </xsl:choose>
+            </xsl:when>
+            <xsl:when test="$elemName = 'hvd_repository'">
+                <xsl:choose>
+                    <xsl:when test="./repositoryName = //viaRecord/work/repository/repositoryName"/>
+                    <xsl:otherwise>
+                        <xsl:element name="{$elemName}">
+                            <xsl:apply-templates select="@* | node()"/>
+                        </xsl:element>
+                    </xsl:otherwise>
+                </xsl:choose>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:element name="{$elemName}">
+                    <xsl:apply-templates select="@* | node()"/>
+                </xsl:element>
+            </xsl:otherwise>
+        </xsl:choose>
+
 
     </xsl:template>
 
